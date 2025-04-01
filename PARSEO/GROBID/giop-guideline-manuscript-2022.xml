@@ -1,0 +1,2022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MD</roleName><forename type="first">Mary</forename><forename type="middle">Beth</forename><surname>Humphrey</surname></persName>
+							<email>marybeth-humphrey@ouhsc.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><surname>Russell</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><forename type="middle">I</forename><surname>Danila</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Howard</forename><forename type="middle">A</forename><surname>Fink</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gordon</forename><surname>Guyatt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Cannon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Liron</forename><surname>Caplan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sara</forename><surname>Gore</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><surname>Grossman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Karen</forename><forename type="middle">E</forename><surname>Hansen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nancy</forename><forename type="middle">E</forename><surname>Lane</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nina</forename><forename type="middle">S</forename><surname>Ma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marina</forename><surname>Magrey</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tim</forename><surname>Mcalindon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Angela</forename><forename type="middle">Byun</forename><surname>Robinson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sumona</forename><surname>Saha</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><surname>Womack</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Basma</forename><surname>Abdulhadi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Julia</forename><forename type="middle">F</forename><surname>Charles</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Cleveland Clinic Foundation</orgName>
+								<address>
+									<settlement>Cleveland</settlement>
+									<region>Ohio</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">T L</forename><surname>Cheah</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">MD: Brigham and Women&apos;s Hospital</orgName>
+								<orgName type="institution">Julia F. Charles</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>MD PhD Sharon Chou Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sharon</forename><surname>Chou</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Cleveland Clinic Foundation</orgName>
+								<address>
+									<settlement>Cleveland</settlement>
+									<region>Ohio</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Itivrita</forename><surname>Goyal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Katherine</forename><surname>Haseltine</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lesley</forename><surname>Jackson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Reza</forename><surname>Mirza</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Iram</forename><surname>Moledina</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Emma</forename><surname>Punni</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tim</forename><surname>Rinden</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Katherine</forename><surname>Wysham</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">American College of Rheumatol- ogy</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<country>Georgia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stacey</forename><surname>Uhl</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Case Western Reserve University</orgName>
+								<address>
+									<addrLine>13 Marina Magrey MetroHealth 14 Tim McAlindon</addrLine>
+									<settlement>Cleve- land</settlement>
+									<region>MD Ohio MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">MPH: Tufts University</orgName>
+								<address>
+									<addrLine>Massachu- setts; 15 Angela Byun Robinson</addrLine>
+									<settlement>Boston</settlement>
+									<region>MD MPH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution" key="instit1">Jonathan T. L. Cheah</orgName>
+								<orgName type="institution" key="instit2">MBBS: UMass Memorial Health</orgName>
+								<orgName type="institution" key="instit3">UMass Chan Medical School</orgName>
+								<address>
+									<addrLine>Massa- chusetts; 18 Tim Rinden</addrLine>
+									<settlement>Worcester</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Minnesota</orgName>
+								<address>
+									<addrLine>Minneapolis; 19 Marat Turgunbaev</addrLine>
+									<settlement>Turner</settlement>
+									<region>MD, MPH Amy S BS</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">MD: VA Puget Sound Health Care System</orgName>
+								<orgName type="institution" key="instit1">Katherine Wysham</orgName>
+								<orgName type="institution" key="instit2">University of Washington School of Medicine</orgName>
+								<address>
+									<addrLine>Washing- ton; 21 Stacey Uhl</addrLine>
+									<settlement>Seattle</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department">MS: ECRI Institute</orgName>
+								<address>
+									<settlement>Plymouth Meeting</settlement>
+									<region>Pennsylvania</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">895E00BE431C5D109F968BA8D0506240</idno>
+					<idno type="DOI">10.1002/acr.25240</idno>
+					<note type="submission">Submitted for publication December 1, 2022; accepted in revised form July 3, 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. The objective is to update recommendations for prevention and treatment of glucocorticoid-induced osteoporosis (GIOP) for patients with rheumatic or nonrheumatic conditions receiving &gt;3 months treatment with glucocorticoids (GCs) ≥2.5 mg daily.</p><p>Methods. An updated systematic literature review was performed for clinical questions on nonpharmacologic, pharmacologic treatments, discontinuation of medications, and sequential therapy. Grading of Recommendations Assessment, Development and Evaluation approach was used to rate the certainty of evidence. A Voting Panel achieved ≥70% consensus on the direction (for or against) and strength (strong or conditional) of recommendations.</p><p>Results. For adults beginning or continuing &gt;3 months of GC treatment, we strongly recommend as soon as possible after initiation of GCs, initial assessment of fracture risks with clinical fracture assessment, bone mineral density with vertebral fracture assessment or spinal x-ray, and Fracture Risk Assessment Tool if ≥40 years old. For adults at medium, high, or very high fracture risk, we strongly recommend pharmacologic treatment. Choice of oral or intravenous bisphosphonates, denosumab, or parathyroid hormone analogs should be made by shared decision-making. Anabolic agents are conditionally recommended as initial therapy for those with high and very high fracture risk. Recommendations are made for special populations, including children, people with organ transplants, people who may become pregnant, and people receiving very high-dose GC treatment. New recommendations for both discontinuation of osteoporosis therapy and sequential therapies are included.</p><p>Conclusion. This guideline provides direction for clinicians and patients making treatment decisions for management of GIOP. These recommendations should not be used to limit or deny access to therapies.</p><p>Guidelines and recommendations developed and/or endorsed by the American College of Rheumatology (ACR) are intended to provide guidance for patterns of practice and not to dictate the care of a particular patient. The ACR considers adherence to the recommendations within this guideline to be voluntary, with the ultimate determination regarding their application to be made by the clinician in light of each patient's individual circumstances. Guidelines and recommendations are intended to promote beneficial or desirable outcomes but cannot guarantee any specific outcome. Guidelines and recommendations developed and endorsed by the ACR are subject to periodic revision as warranted by the evolution of medical knowledge, technology, and practice. ACR recommendations are not intended to dictate payment or insurance decisions, and drug formularies or other third-party analyses that cite ACR guidelines should state this. These recommendations cannot adequately convey all uncertainties and nuances of patient care.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Glucocorticoids (GCs) remain a common therapeutic modality for patients with a variety of diseases. Prevention of GC-induced bone loss and fractures has been a focus of the American College of Rheumatology (ACR) for many years because patients with osteoporotic fractures have increased risk of morbidity and mortality <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref>. It is estimated that 1% of the US population is treated with long-term GCs <ref type="bibr" target="#b4">(5)</ref>. GC doses ≥2.5 mg/day increase fracture at both the spine and hip, and GC &lt;2.5 mg/day increase the risk of spinal fractures <ref type="bibr" target="#b5">(6)</ref>. Both high daily (≥30 mg/day) and high cumulative (≥5 g/year) doses of GCs further increase the risk of fragility fractures, with peak incidence at 12 months <ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref>. The highest rate of bone loss occurs within the first 3 to 6 months of GC treatment, due to early osteoclast activation followed by decreased osteoblast proliferation and increased apoptosis of osteoblasts and osteocytes <ref type="bibr" target="#b11">(12)</ref>. In children, GCs adversely affect bone strength, growth, and peak bone mass, with increased fracture risk <ref type="bibr" target="#b10">(11,</ref><ref type="bibr" target="#b12">(13)</ref><ref type="bibr" target="#b13">(14)</ref><ref type="bibr" target="#b14">(15)</ref>. However, children <ref type="bibr" target="#b15">(16)</ref> and young adults often regain lost bone when GCs are discontinued <ref type="bibr" target="#b16">(17)</ref>.</p><p>Despite increasing treatment options to prevent and treat glucocorticoid-induced osteoporosis (GIOP), many GC-treated patients are not evaluated or treated, resulting in preventable fractures <ref type="bibr" target="#b17">(18,</ref><ref type="bibr" target="#b18">19)</ref>. Risk calculators provide estimates of the 10-year risk of major osteoporotic fractures (MOFs) and hip fractures among individuals ≥40 years of age, with adjustment for GC doses &gt;7.5 mg/day or &lt;2.5 mg/day in some calculators <ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref>. Of note, the Fracture Risk Assessment Tool (FRAX) is not validated for adults &lt;40 years. These calculators underestimate fracture risk for patients on very high doses of GC therapy (eg, ≥ 30 mg/day) and do not adequately include frailty, multiple fractures, or fall history.</p><p>The ACR first published recommendations for prevention and treatment of GIOP in 1996 <ref type="bibr" target="#b22">(23)</ref>. ACR updated these guidelines in 2001, 2010, and 2017 as new techniques for assessing fracture risk, risk factors, and therapies became available <ref type="bibr" target="#b22">(23)</ref><ref type="bibr" target="#b23">(24)</ref><ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref>. This guideline updated the literature search from April 23, 2016, through January 24, 2022, and it includes two medications newly US Food and Drug Administration (FDA)-approved for OP treatment since the 2017 guideline.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>This guideline follows the ACR guideline development process and ACR policy guiding management of conflicts of interest and disclosures (<ref type="url" target="https://www.rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines">https://www.rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines</ref>), including use of Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology <ref type="bibr" target="#b26">(27,</ref><ref type="bibr" target="#b27">28)</ref> and adherence to Appraisal of Guidelines for Research and Evaluation (AGREE) criteria <ref type="bibr" target="#b28">(29)</ref>. Supplementary Appendix 1, available on the Arthritis Care &amp; Research website at <ref type="url" target="http://onlinelibrary.wiley.com/">http://onlinelibrary.wiley.com/</ref> doi/10.1002/acr.25240/abstract, includes a detailed description of the methods. Briefly, the Core Leadership Team (MBH, LR, MID, HAF, GG, SU) reviewed the 2017 ACR GIOP guideline clinical Patient/Intervention/Comparator/Outcomes (PICO) questions, modified and drafted new PICO questions in topic areas not covered previously (eg, abaloparatide, romosozumab, combination and sequential therapy) (see Supplementary Appendix 2, <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.25240/abstract">http:// onlinelibrary.wiley.com/doi/10.1002/acr.25240/abstract</ref>). The Literature Review Team updated the systematic literature reviews for each of the previous PICO questions and/or performed new ones for new questions, graded the quality of evidence (high, moderate, low, very low), and produced the evidence report (see Supplementary Appendix 3, <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/">http://onlinelibrary.wiley.com/doi/10.1002/</ref> acr.25240/abstract). The resulting evidence was reviewed, and recommendations were formulated and voted on by an expert Voting Panel. A virtual Patient Panel of three patients with GIOP and one parent of a child treated with GCs reviewed the evidence with a co-principal investigator (LR) and provided patient perspectives and preferences for consideration by the Voting Panel. Voting Panel consensus required ≥70% agreement on both direction (for or against) and strength (strong or conditional) of each recommendation. Rosters of the Core Leadership Team, </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RECOMMENDATIONS How to interpret the recommendations</head><p>According to GRADE, a strong recommendation is usually supported by moderate-to high-certainty evidence, including randomized control trials, the recommended course of action would apply to all or almost all patients, and there is high confidence that the benefits of the intervention clearly outweigh the harms (or vice versa). In rare instances, a strong recommendation or best practices may be made with very-low certainty evidence if the recommendation is considered benign, low cost, and without harms.</p><p>A conditional recommendation is supported by lower certainty evidence, has uncertainty regarding the balance of benefits and harms, is sensitive to individual patient preferences, or has costs expected to impact the decision. Thus, conditional recommendations warrant shared decisionmaking with the patient. Notably, most evidence reviewed in this guideline is downgraded for indirectness because 1) identified studies in GIOP rely on a surrogate fracture risk marker, bone mineral density (BMD), because they were not powered for fracture outcomes and 2) available fracture data were exclusively or predominantly from general osteoporosis (OP) studies. Recommendations for fracture risk assessment (Figure <ref type="figure" target="#fig_1">1</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Key recommendations</head><p>For all adults (≥18 years old) initiating or continuing GC therapy ≥2.5 mg/day for &gt;3 months, we strongly recommended initial clinical fracture risk assessment including symptomatic and asymptomatic fracture history, FRAX (age ≥40 only), and BMD with VFA or spine x-rays over no assessment (PICO 8.1-8.4).</p><p>These strong recommendations are based on good clinical practice and the need for clinicians to risk stratify patients beginning or continuing GC therapy, despite the low certainty of the evidence. Initial assessment should occur as soon as possible within 6 months of GC therapy initiation. Clinical fracture risk assessment includes dose, duration, and pattern of GC use, alcohol use, smoking history, hypogonadism, history of prior fractures (traumatic, fragility, asymptomatic), low body weight, significant weight loss, parental history of hip fracture, fall history, thyroid disease, hyperparathyroidism, rheumatoid arthritis, malabsorption, chronic liver disease, and inflammatory bowel disease (Figure <ref type="figure" target="#fig_1">1</ref>). BMD with VFA or spinal x-rays are strongly recommended, and, for adults ≥40 years old, FRAX analysis is also recommended. (Figure <ref type="figure" target="#fig_1">1</ref>). If prednisone dose is &gt;7.5 mg daily, FRAX GC correction is recommended (Table <ref type="table" target="#tab_2">1</ref>, Figure <ref type="figure" target="#fig_1">1</ref>) <ref type="bibr" target="#b20">(21)</ref>; however, even this adjustment may not correct for very high doses of GC (≥30 mg/day) <ref type="bibr" target="#b29">(30)</ref>. Additionally, FRAX does not incorporate falls, number or timing of fractures, or frailty that may put a person at higher risk of fracture. BMD assessment provides a strong predictor of fracture risk and serves as a baseline for reassessment because FRAX analysis is not validated for fracture risk reassessment during OP therapy. Trabecular bone score (TBS) provides a more sensitive measure of therapeutic responses to OP treatment <ref type="bibr" target="#b30">(31)</ref>. BMD measurement is strongly recommended for patients &lt;40 years on GCs ≥2.5 mg/day with one or more osteoporotic risk factors. In this age group, z-scores ≤ -2.0 indicates low bone mass for age. Unlike t-scores, z-scores do not provide an estimate of fracture risk because adults &lt;40 years have low fracture risk at baseline. This guideline did not include specific PICO questions concerning DXA or spinal imaging in children beginning or continuing chronic GC therapy, but the Voting Panel discussed this population. Despite uncertainty about initial DXA or screening spine radiographs, we recommend spine x-ray in children with back pain <ref type="bibr" target="#b31">(32)</ref>. However, the totality of a child's clinical presentation We strongly recommend OP treatment for those at moderate, high, or very high risk of fracture. We strongly recommend oral BP over no treatment in high and very high fracture risk due to fracture reduction in GIOP. We conditionally recommend IV BP, ROM, RAL over no treatment in high and very high risk of fracture. In moderate risk, we conditionally recommend BP, DEN, or PTH/PTHrP in no preferred order among these agents.</p><p>We conditionally recommend treatment for those at moderate or very high risk of fracture with oral or IV BP, ‡ PTH/PTHrP, § or DEN §# PTH/PTHrP Agonists (TER, ABL, Anti-RANKL, DEN)</p><p>We conditionally recommend PTH/PTHrP over antiresorptives in patients at very high risk of fracture. We conditionally recommend DEN §# or PTH/PTHrP over oral and IV BP in high risk of fracture. In moderate risk, we conditionally recommend BP, DEN, or PTH/PTHrP in no preferred order among these agents.</p><p>-</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selective estrogen receptor modifier (RAL), Antisclerostin (ROM)</head><p>We conditionally recommend IV BP, ROM, RAL over no treatment in high and very high risk of fracture.</p><p>Except in patients intolerant of other agents, we conditionally recommend against RAL due to harms of VTE and fatal stroke or ROM due to uncertain harms with increased myocardial infarction, stroke and death.</p><p>We conditionally recommended against RAL due to harms of VTE and fatal stroke or ROM due to uncertain harms including increased myocardial infarction, stroke and death (eg, age at diagnosis, growth, body mass index [BMI], disease severity, GC dosing, BMD, symptomatic or asymptomatic vertebral compression fractures) should be taken into account when considering assessment for OP therapy <ref type="bibr" target="#b15">(16)</ref>.</p><formula xml:id="formula_0">*</formula><p>As in prior guidelines, we used risk categories of low, moderate, and high using DXA and/or FRAX assessments (see Table <ref type="table" target="#tab_2">1</ref> Recommendations for reassessment of fracture risk (Figure <ref type="figure" target="#fig_2">2</ref>)</p><p>For adults continuing chronic GC ≥2.5 mg/day but &lt;7.5 mg/day and assessed as low fracture risk, who were not recommended to start therapy, or moderate fracture risk who chose not to start OP therapy (except calcium and vitamin D), we strongly recommend fracture risk reassessment every 1 to 2 years (PICO 9.1-9.4).</p><p>Despite the low certainty of the evidence, this is a strong recommendation as good clinical practice. Fracture risk reassessment includes clinical fracture risk history, new symptomatic fractures, FRAX, BMD, VFA, and/or spine x-rays. Repeating DXA assessment every 1 to 2 years allows providers to detect the least significant BMD change according to their DXA machine, triggering the need to start OP therapy.</p><p>For adults continuing chronic GC ≥2.5 mg/day and assessed as moderate, high, or very high fracture risk who are continuing OP therapy ≥1 year, we strongly recommend fracture risk re-assessment every 1 to 2 years over no risk reassessment (PICO 9.5-9.12).</p><p>Despite the low certainty of the evidence, this is a strong recommendation as good clinical practice. Reassessment allows providers to determine if patients continuing GC and OP therapy are maintaining, gaining, or losing BMD, warranting possible changes in OP therapy. Yearly BMD assessment until a stable BMD is reached may be preferred in very high fracture risk patients.</p><p>For adults stopping GC and remaining at moderate, high, or very high fracture risk, we strongly recommend continuing OP therapy (PICO 12.1-12.6).  Recommendations for initial treatment (Table <ref type="table" target="#tab_5">2</ref>, Figure <ref type="figure" target="#fig_4">3</ref>) For all adults and children beginning or continuing chronic GC at a dose of ≥2.5 mg/day for &gt;3 months, we conditionally recommended optimizing age appropriate dietary and supplemental calcium and vitamin D, in addition to lifestyle modifications (PICO 1.1-1. The evidence for calcium and vitamin D supplementation for fracture reduction in GIOP is low to very low. Dietary and supplemented elemental calcium intake of up to 1,000 to 1,200 mg daily is recommended for adults <ref type="bibr" target="#b35">(36)</ref> and between 1,000 and For adults ≥40 years with high or very high fracture risk, we strongly recommended treatment with OP therapy over treatment with calcium and vitamin D alone (PICO 1).</p><p>For adults ≥40 years with very high fracture risk, we conditionally recommend PTH/PTHrP over anti-resorptives (BP or DEN) (PICO 1.13c, 1.14c, 1.15c, 1.18c, 1.19c, 1.20c).</p><p>Compared to alendronate, teriparatide increased lumbar and hip BMD and decreased vertebral but not nonvertebral fractures at 36 months in GIOP <ref type="bibr" target="#b36">(37,</ref><ref type="bibr" target="#b37">38)</ref>. Bone anabolic effect is blunted when treatment follows anti-resorptive therapy.</p><p>For adults ≥40 years with high or very high fracture risk, we strongly recommended oral BP <ref type="bibr" target="#b15">(16)</ref> over no treatment (PICO 1).</p><p>A strong recommendation for oral BP is based on studies showing a reduction in total and vertebral fractures at 24 months and increased hip and lumbar spine BMD compared to calcium and vitamin D alone in GIOP (evidence report, Appendix S3, page 16). For adults ≥40 years with high fracture risk, we conditionally recommend PTH/PTHrP or DEN over BP (PICO 1.4c-1.28.c).</p><p>For adults ≥40 years with high fracture risk, we conditionally recommend IV or oral BP, PTH/PTHrP, or DEN over Raloxifene (RAL) or Romosozumab (ROM) (PICO 1.4c-1.28.c).</p><p>High-certainty evidence indicates that oral BP prevents vertebral fractures in GIOP <ref type="bibr" target="#b38">(39)</ref> and warrants a strong recommendation for use here. Compared to oral BP, PTH is superior at increasing BMD 24 and 36 months and prevented vertebral fractures at 36 months (37). In the very high risk group, providers may recommend PTH/PTHrP as initial treatment because anabolism is blunted in patients previously treated with BP <ref type="bibr" target="#b39">(40)</ref>. IV BP and DEN GIOP trials have not been powered to detect reductions of GIOP fractures and instead use a surrogate endpoint of BMD changes <ref type="bibr" target="#b40">(41)</ref><ref type="bibr" target="#b41">(42)</ref><ref type="bibr" target="#b42">(43)</ref>. However, the relationship between increases in BMD and a decrease in vertebral fractures is inconsistent and may account for only 25% of overall reduction in fracture risk <ref type="bibr" target="#b43">(44)</ref>. Evidence for fracture reduction of PTHrP, DEN, RAL, and ROM therapies have been demonstrated in general OP but not GIOP, leading to downgrading the evidence to low or very low certainty evidence. However, DEN and PTH show superior BMD gains in GIOP compared to BP and may be preferred in patients with high risk.</p><p>Compared to BP and RAL, PTH/PTHrP, DEN, and ROM require sequential therapy with an anti-resorptive agent to prevent bone losses. Discontinuation of DEN must be followed by a BP beginning at 6 to 7 months after the last DEN dose to prevent rapidly progressive vertebral fractures. Additionally, IV BP, DEN, and ROM have increased risk of atypical femur fractures and osteonecrosis of the jaw compared to oral BP <ref type="bibr" target="#b44">(45)</ref>. Due to RAL harms of venous thrombotic embolism events (pulmonary embolism/deep vein thrombosis [PE/DVT]) and fatal stroke and association of ROM with increased myocardial infarction, stroke, and death, these therapies should be reserved for those unable to tolerate other agents <ref type="bibr" target="#b45">(46,</ref><ref type="bibr" target="#b46">47)</ref>. The panel recommends initial treatment choice be informed by patient co-morbidities and preferences regarding costs, burden of injections, and the need for sequential therapy <ref type="bibr" target="#b47">(48)</ref>. In adults ≥40 years with high and very high fracture risk, we conditionally recommend against using multiple OP therapies at the same time (PICO 1. <ref type="bibr">29-1.35)</ref>.</p><p>Very low level evidence does not support using combination therapy (eg, PTH/PTHrP and DEN, PTH/PTHrP and BP) in GIOP. In patients with postmenopausal OP, studies have shown synergistic increases in BMD with combination of PTH with IV BP <ref type="bibr" target="#b48">(49)</ref>, PTH with RAL <ref type="bibr" target="#b49">(50)</ref>, and PTH and DEN <ref type="bibr" target="#b50">(51)</ref>. However, based on the added cost, the possibility of greater side effects, and the lack of fracture evidence, combination therapy is not currently recommended.</p><p>For all adults with moderate fracture risk, we conditionally recommend oral or IV BP, PTH/PTHrP, or DEN over no treatment (PICO 1.4b-1.28.b, 2.4b,c-2. <ref type="figure" target="#fig_1">17b,</ref><ref type="figure">c</ref>).</p><p>In all adults with moderate fracture risk, we conditionally recommend against ROM and RAL therapies except in those intolerant of other OP medications, due to possible lifethreatening harms, including thrombosis, fatal stroke, major cardiovascular events, and death (PICO 1.6b, 1.10b, 1.12b, 1.16b, 1.17b, 1.21b, 1.22b, 1.23b, 1.24b, 1.25b, 1.28b, 2.9, 2.14, 2.18, 2.21).</p><p>Multiple studies have shown that 12 months of ROM followed by an anti-resorptive agent (BP or DEN) for 12 month prevents fractures in patients with postmenopausal OP when compared to antiresorptive agent only <ref type="bibr" target="#b51">(52)</ref><ref type="bibr" target="#b52">(53)</ref><ref type="bibr" target="#b53">(54)</ref>. There is uncertainty concerning the cardiovascular risk, including myocardial infarction, stroke, and death related to ROM <ref type="bibr" target="#b46">(47,</ref><ref type="bibr" target="#b54">55)</ref>. However, until longer-term pharmacovigilance data become available, ROM should not be started in patients with a myocardial infarction or stroke within 12 months. Shared decision-making between patients and clinicians is needed to determine if benefits outweigh the risks in patients with other cardiovascular risk factors that may be untreated including hyperlipidemia, hypertension, and smoking. For RAL, a meta-analysis of nine trials (24,523 postmenopausal women) found that raloxifene was associated with an increased risk of DVT and PE (odds ratio [OR] 1.5, 95% confidence interval [CI] 1.1-2.1 and OR 1.9, 95% CI 1.0-3.5, respectively) <ref type="bibr" target="#b55">(56)</ref>. In the Raloxifene use for the heart (RUTH) trial, RAL were not associated with overall stroke risk but was associated with fatal stroke (59 vs 39 events, hazard ratio [HR] 1.49, 95% CI 1.0-2.2, absolute risk increase of 0.7 per 1000 woman-years) compared with placebo <ref type="bibr" target="#b45">(46)</ref>.</p><p>In adults with low fracture risk, we strongly recommend against adding oral or IV BP, PTH/PTHrP, RAL, DEN, or ROM (PICO 1.4a-1.28a).</p><p>Adults &lt;40 years have low fracture risk and have significant capacity to rebuild BMD losses induced by chronic GC therapy. OP therapy should not be started in this low-risk group <ref type="bibr" target="#b16">(17,</ref><ref type="bibr" target="#b56">57)</ref>. This strong recommendation is based on low certainty evidence of anti-fracture benefit in this low fracture risk group, coupled with clear potential harms such as osteonecrosis of the jaw (BP, DEN, ROM), atypical femur fractures (BP, DEN, ROM), PE, DVT, and fatal stroke (RAL), myocardial infarction, stroke, and death (ROM), or requirements for sequential therapy (PTH/PTHrP, DEN, ROM). Adults &gt;40 years on low-dose steroids that meet low risk criteria have uncertain benefit from osteoporosis therapy.</p><p>Recommendations for special populations of patients beginning long-term GC therapy at very high risk for fracture (Table <ref type="table" target="#tab_5">2</ref>)</p><p>For adults ≥40 years at very high fracture risk due to treatment with one or more courses of high-dose GC therapy (mean dose prednisone equivalent ≥30 mg daily for ≥30 days) or cumulative GC dose ≥5 g over 1 year, we conditionally recommend treating with PTH/PTHrP over anti-resorptive agents regardless of FRAX score or BMD. We strongly recommend oral BP over no treatment and conditionally recommend an IV BP, DEN, RAL or ROM over no treatment.</p><p>The relative risk for vertebral fracture was 14 and for hip fractures was 3 with a dose of ≥30 mg per day and ≥ 5 g of cumulative use <ref type="bibr" target="#b9">(10)</ref>.</p><p>For adults &lt;40 years receiving one or more courses of high-dose GC therapy (mean dose prednisone equivalent ≥30 mg daily for ≥30 days) or cumulative GC dose ≥5 g over 1 year, we conditionally recommend oral or IV BP, PTH/PTHrP, DEN. We conditionally recommended against RAL/ROM (PICO 6.4a,b-6.24a,b).</p><p>In this younger population, PTH/ PTHrP and ROM should only be used in adults with closed growth plates. DEN should be used with caution in patients with open growth plates.</p><p>For patients who can become pregnant at moderate or high risk of fracture, we conditionally recommend treating with oral or IV BP, DEN, or PTH/PTHrP (PICO 2).</p><p>OP therapy is not contraindicated in patients who can become pregnant but should be used with effective birth control if sexually active. BP are avidly taken up by the fetal skeleton as shown in animal models and have a long half-life of BP in adult bones with unclear side effects for the fetal skeleton <ref type="bibr" target="#b57">(58)</ref>. Risedronate and ibandronate have shorter skeletal halflives among BP and may be preferred in this setting. DEN and PTH/PTHrP may also be used if growth plates have closed. However, DEN may cause fetal harm and is contraindicated in pregnancy. Avoid pregnancy for 5 months after the last dose of DEN.</p><p>For adults with solid organ transplants and an estimated glomerular filtration rate (eGFR) ≥35 mL/min who are continuing chronic GC treatment, we conditionally recommend treatment with BP, DEN, PTH/PTHrP, or RAL, based on individual patient factors over no treatment (PICO 5. <ref type="bibr">4-5.26)</ref>.</p><p>In this solid organ transplant population, we conditionally recommend against using ROM due to potential harms in this population (PICO 5.9, 5.21, 5.16).</p><p>This group of patients is typically considered at increased risk of fracture regardless of BMD, due to the known risk of OP associated with solid organ transplantation and anti-rejection medications. The overall certainty of evidence for treatment in this population is low, and numerous potentially influential individual patient factors need to be weighed when selecting treatment.</p><p>For adult renal transplant recipients on chronic GC treatment, we conditionally recommend metabolic bone disease expert evaluation for chronic kidney disease-mineral and bone disorder (CKD-MBD).</p><p>In patients with stage IV and V CKD, renal osteodystrophy, including adynamic bone disease, osteomalacia, osteitis fibrosa cystica, and mixed uremic osteodystrophy, is nearly universal <ref type="bibr" target="#b58">(59)</ref>. Bone-specific alkaline phosphatase, intact PTH, and bone biopsy may exclude renal osteodystrophy. BP should generally not be used if eGFR &lt;35 mL/min. Once renal osteodystrophy and hyperparathyroidism is excluded, no dose adjustment is needed when prescribing DEN, PTH/PTHrP, or ROM. However, if eGFR is &lt;30 mL/min, DEN is not contraindicated but induces prolonged and more severe hypocalcemia <ref type="bibr" target="#b59">(60)</ref>.</p><p>The panel recommended that patients without hyperparathyroidism and eGFR ≥30 mL/min could use vitamin D3 (cholecalciferol) or vitamin D2 (ergocalciferol) instead of biologically active forms of vitamin D (calcitriol, paricalticol, or doxercalciferol). Patients with GFR &lt;30 mL/min might require biologically active VitD to maintain neutral calcium balance.</p><p>For children and youth ages 4 to 17 years treated with GCs for &gt;3 months who are at low or moderate risk for fracture, optimization of age-appropriate dietary and supplemental calcium and vitamin D to fulfill the Recommended Daily Allowance is conditionally recommended in addition to an exercise program. We conditionally recommend against starting OP therapy due to the low risk of osteoporotic fractures in children and youth ages 4 to 17 years (PICO 7.1a-7.5a).</p><p>For children and youth ages 4 to 17 years with an osteoporotic fracture who are continuing treatment with chronic GC at a dose of ≥0.1 mg/kg/day for &gt;3 months, treating with an oral or IV BP is conditionally recommended over no treatment.  This conditional recommendation to treat with oral or IV BP to prevent recurrent fractures is based on low-certainty evidence. Depending on the specific disease or cause of pediatric OP, there is uncertainty about when and how to screen, and depending on the guidelines, it requires a history of clinically significant fracture(s), defined as ≥1 vertebral fractures, ≥2 long bone fractures prior to age 10 years, or ≥3 long bone fractures up to age 19 years <ref type="bibr" target="#b60">(61,</ref><ref type="bibr" target="#b61">62)</ref>. Twelve percent of children with rheumatic conditions on chronic GC averaging doses of 0.94 ± 0.84 mg/kg/ day for 6 months who then tapered to 0.06 ± 0.12 mg/kg/day between 30 months and 36 months had vertebral fracture in the three years following GC initiation <ref type="bibr" target="#b13">(14)</ref>. The same study found that every 0.5 mg/kg increase in average daily GC dose was associated with a two-fold increased fracture risk (HR 2.0, 95% CI 1.1-3.5). Other OP therapies are understudied in this young age group with open growth plates.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations for initial treatment failure</head><p>For adults continuing GC treatment who have had an osteoporotic fracture ≥12 months after starting OP therapy, or who have had a significant loss of BMD (eg, greater than the least significant change per their DXA machine) after 1 to 2 years of OP treatment, we conditionally recommend changing to another class of OP medication over not switching the class of OP medication (PICO 10.1-10.9).</p><p>If oral BP is the first OP therapy and suboptimal adherence or poor absorption is suspected, based on low certainty evidence, we conditionally recommend treatment with IV BP, DEN, ROM, or PTH/PTHrP. Of note, use of PTH/PTHrP after long-term BP treatment has blunted anabolic response but still increases BMD. If DEN is the first agent, switching to PTH/PTHrP may lead to transient bone losses in the hip and spine and is not recommended <ref type="bibr" target="#b62">(63)</ref><ref type="bibr" target="#b63">(64)</ref><ref type="bibr" target="#b64">(65)</ref>; however, PTH/PTHrP followed by DEN leads to continued BMD increases (66,67) (Figure <ref type="figure" target="#fig_5">4</ref>).</p><p>Recommendations for treatment when GC are discontinued (Figure <ref type="figure" target="#fig_6">5</ref>)</p><p>For adults taking OP therapy and discontinuing GC therapy, with no new fragility fracture and a current BMD t-score ≥-2.5, we strongly recommended stopping current OP therapy and continuing calcium and vitamin D. However, sequential therapy is strongly recommended after stopping DEN, PTH/PTHrP, and ROM (Figure <ref type="figure" target="#fig_6">5</ref>) (PICO 11.1, 13.1-13.4).</p><p>This recommendation is based on low-certainty evidence and on the balance of benefits and harms of continued treatment with OP medication. BP and RAL can be discontinued without need for sequential therapy. DEN, PTH/PTHrP, and ROM should be transitioned to anti-resorptive therapy, but the best formulation and duration of treatment is unclear at this time <ref type="bibr" target="#b67">(68)</ref><ref type="bibr" target="#b68">(69)</ref><ref type="bibr" target="#b69">(70)</ref>. Discontinuation of DEN can be associated with vertebral fractures that may be averted if a BP is started 6 to 7 months after the last DEN administration <ref type="bibr" target="#b40">(41,</ref><ref type="bibr" target="#b41">42)</ref>. Significant bone loss may occur after discontinuation of PTH/PTHrP, although anti-fracture efficacy may persist for 18 months; therefore, anti-resorptive therapy is recommended. ROM can be followed by DEN or BP <ref type="bibr" target="#b70">(71)</ref>.</p><p>For adults ≥40 years discontinuing GC therapy and continuing to be at high risk of fracture (BMD t-score ≤-2.5, or history of a fragility fracture occurring after ≥12 months of therapy), we conditionally recommend continuing current OP therapy or switching to another class of OP medication (PICO 13.5-13.6).</p><p>For adults ≥40 years continuing chronic GC who discontinue DEN, we strongly recommend starting an antiresorptive over not starting OP medication (PICO 13.1, 13.3, 13.5).</p><p>DEN remains effective at longer than 10 years in patients with postmenopausal OP. However, discontinuation of DEN after two or more doses has been associated with rapid loss of BMD and development of new vertebral compression fractures as soon as 7 to 9 months after the last DEN dose. As such, 6 to 9 months after the last dose of DEN, BP or ROM therapy is recommended <ref type="bibr" target="#b40">(41,</ref><ref type="bibr" target="#b41">42)</ref>. The precise timing, dose, and duration of BP or ROM use after DEN cessation is still under study, but treatment for at least 1 year with an oral BP or 1 to 2 years of IV BP seems prudent, until additional research is available   <ref type="bibr" target="#b68">(69,</ref><ref type="bibr" target="#b70">71,</ref><ref type="bibr" target="#b71">72)</ref>. If ROM is used after DEN, then it must be followed with a course of BP.</p><p>For adults ≥40 years discontinuing chronic GC treatment who have completed a course of a PTH/PTHrP, we conditionally recommend starting BP over not starting an OP medication (PICO 13.4, 13.6).</p><p>Discontinuation of PTH/PTHrP medication may lead to gradual loss of bone gained over 12 to 18 months, which can be prevented by treatment with BP or DEN <ref type="bibr" target="#b72">(73)</ref>. If DEN is used sequentially after discontinuation of PTH/PTHrP, then a BP should be started at the completion of DEN therapy (Figure <ref type="figure" target="#fig_5">4</ref>). Therefore, BP therapy is recommended after discontinuation of PTH/PTHrP.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The objective of this updated ACR guideline for the prevention and treatment of GIOP ( <ref type="formula">25</ref>) is to aid clinicians who prescribe GC, across all specialties, to best identify GC-treated patients who would benefit from prevention and treatment of GIOP. The overall goal is to reduce the number of fractures and their adverse consequences in this patient population, while minimizing harm due to medications. Fractures, especially hip and vertebral fractures, are associated with increased mortality, and patients frequently do not return to their baseline mobility <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b73">74)</ref>. This guideline now addresses several new areas compared to the 2017 guideline: 1) Previously only fracture data were considered; with this guideline, both fracture reduction and BMD outcomes were considered because most GIOP studies are not powered for fracture outcomes (however, if fracture outcomes were not available, BMD data were evaluated and evidence downgraded to very low certainty); 2) a very high fracture risk category was added; 3) a preference for anabolic agent as initial OP therapy in very high fracture risk was made; 4) a need for sequential therapy after DEN, ROM, and PTH/PTHrP was made; and 5) we recommended the choice of therapies be based on clinician and patient preferences and comorbidities, rather than rank ordering the available OP therapies.</p><p>We risk stratified patients as low, moderate, high or very high risk of fracture based on FRAX 10-year probability and DXA t-or z-scores (Table <ref type="table" target="#tab_2">1</ref>). Similar to other organizational postmenopausal OP guidelines (AACE, SBEM, UK, and National Osteoporosis Foundation (NOF)) <ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref><ref type="bibr" target="#b34">(35)</ref>, we have now included a very high fracture risk category (prior OP fracture(s) or BMD tscore ≤-3.5 or FRAX (GC-Adjusted) 10-year risk of MOF ≥30% or hip ≥4.5% or high GC ≥30 mg/day for &gt;30 days or cumulative doses ≥5 g/year) (Figures <ref type="figure" target="#fig_2">2,</ref><ref type="figure" target="#fig_4">3,</ref><ref type="figure" target="#fig_6">and5</ref>). These cut points were used to stratify PICO questions and weigh potential benefits versus harms of OP therapy. For prednisone-equivalent doses &gt;7.5 mg/day, a FRAX GC correction is recommended and is achieved by multiplying the risk of MOF by 1.15 and the risk of hip fractures by 1.2. Fracture risk is considered highest for patients treated with very high (≥30 mg/day) or large cumulative GC doses (≥5 g/year) <ref type="bibr" target="#b74">(75)</ref>.</p><p>Risk assessment in children, youths, and adults &lt;40 years is not as clear because these populations have substantially lower fracture risk than older adults. BP treatment for children was recommended only after a diagnosis of pediatric OP, which requires a clinically significant history of vertebral or long bone fractures. For children with a GC-associated fracture who continue to take high-dose GC therapy (&gt;0.1 mg/kg/day), BP therapy is warranted.</p><p>For adults ≥40 years, the panel voted to give clinicians the ability to select an OP therapy based on the patient's specific comorbidities and preferences, BMD values, fracture history, and other characteristics, rather than rank ordering the medication recommendations. Fracture prevention data in GIOP is currently limited to oral BP and PTH. Anabolic agents may be the preferred initial therapy for those at very high risk for fracture based on BMD and vertebral fracture prevention superiority compared to anti-resorptives in patients with very high risk postmenopausal OP. Of note, abaloparatide and ROM are not approved in GIOP, and we recognize it may be difficult to access these medications for GIOP.</p><p>The panel specifically noted that the potential harms of RAL (venous thromboembolism [VTE] and fatal stroke) and ROM (major myocardial infarction, stroke, and death) would often favor the other available options when possible.</p><p>The panel emphasized the need for shared decision-making with patients to ensure they understand that some OP therapies (DEN, PTH/PTHrP, ROM) require another course of antiresorptive OP therapy to prevent rapid bone loss and vertebral fractures <ref type="bibr" target="#b75">(76,</ref><ref type="bibr" target="#b76">77)</ref>. Discontinuation of DEN without the addition of anti-resorptive therapy is associated with vertebral fractures occurring as soon as 7 to 9 months after the last dose <ref type="bibr" target="#b75">(76,</ref><ref type="bibr" target="#b76">77)</ref>. Until the optimal therapy strategy is determined, many experts favor starting BP therapy 6 to 7 months after discontinuation of DEN for at least 1 year <ref type="bibr" target="#b77">(78)</ref>. Although the use of PTH after DEN causes transient loss of hip BMD, these drugs have been successfully cycled with increases in BMD <ref type="bibr" target="#b40">(41,</ref><ref type="bibr" target="#b66">67)</ref>. It is important that clinicians, patients, and/or their care partners understand and discuss the need for additional OP therapy after completing DEN, PTH/PTHrP, or ROM therapy.</p><p>The use of OP medications in patients after kidney transplant and with CKD was addressed in this guideline. When eGFR &lt;35 mL/min, the risk of renal osteodystrophy is significantly increased, including adynamic bone disease, osteomalacia, osteitis fibrosa cystica, and mixed uremic osteodystrophy. As such, MBD expert evaluation for CKD-MBD is conditionally recommended to exclude these conditions. Once excluded, no dose adjustment is needed when prescribing DEN, PTH/PTHrP, or ROM, but BP should be avoided. Use of DEN in this group may lead to prolonged and more severe hypocalcemia <ref type="bibr" target="#b59">(60)</ref>.</p><p>A limitation of this guideline is the lack of fracture data in GIOP-specific clinical trials and population studies. As such, general OP population clinical trials data were reviewed when GIOP data were not available. This introduced indirectness into the certainty of the evidence and imprecision in the estimate of benefits for treatment in the GIOP population. Because of these limitations, most of the recommendations in this guideline are conditional.</p><p>Future studies in the treatment of GIOP should be powered to assess fracture risk reduction. Studies should focus on children and patients with CKD stage 4 and 5. As part of risk assessment, studies should explore the use of quantitative computed tomography (CT), bone finite element analysis from CT scans, and BMD measurements from CT colonography. It would be helpful to have validated fracture prediction scores for patients aged &lt;40 years. More studies are needed to better identify the patient populations that might benefit from combination therapy and sequential therapy in GIOP. Additional studies are required to determine the best treatment options and duration of therapy after discontinuation of DEN. In conclusion, GIOP remains a common and challenging clinical scenario that is frequently unrecognized and undertreated. By systematically synthesizing the current knowledge and available clinical trials, we have provided an updated guideline to help clinicians best care for patients requiring long-term GC use.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>ABL = Abaloparatide; BMD = bone mineral density; BP = bisphosphonate; DEN = Denosumab; FRAX = Fracture Risk Assessment Tool; GC = glucocorticoid; MOF = major osteoporotic fracture; PTH = parathyroid hormone; PTHrP = PTH-related protein; RAL = Raloxifene; RANKL = Receptor activator of NF-κβ-Ligand; ROM = Romosozumab; TER = Teriparatide; VTE = venous thromboembolism. † FRAX GC correction example: if hip fracture risk is 2.0% multiply by 1.2 for adjusted risk = 2.4%. ‡ Use with caution in patients who may become pregnant due higher potency and longer half-life in fetal bones. § Avoid in young adults with open growth plates. # Use with caution in patients of child-bearing potential due to potential fetal harm. Avoid pregnancy for 5 months after last dose.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Initial fracture risk assessment. GC = glucocorticoid; MOF = major osteoporotic fracture; VFA = vertebral fracture assessment.</figDesc><graphic coords="5,48.98,88.61,514.11,331.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Fracture risk re-assessment for patients continuing chronic GC ≥2.5 mg/day for &gt;3 months. DXA = dual-energy x-ray absorptiometry; MOF = major osteoporotic fracture; VFA = vertebral fracture assessment. Color figure can be viewed in the online issue, which is available at http:// onlinelibrary.wiley.com/doi/10.1002/acr.25240/abstract.</figDesc><graphic coords="6,50.80,88.61,510.60,366.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>3, 2.1-2.3, 3.1-3.3, 4.1-4.3, 5.1-5.3, 6.1-6.3, 7.1-7.4).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Initial pharmacological treatment for adults. BMD = bone mineral density; DVT = deep vein thrombosis; GC = glucocorticoid; GIOP = GC-induced OP; PE = pulmonary embolism; VFA = vertebral fracture assessment. Color figure can be viewed in the online issue, which is available at http://onlinelibrary.wiley.com/doi/10.1002/acr.25240/abstract.</figDesc><graphic coords="8,49.10,88.61,513.96,353.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Treatment recommendations when new fracture occurs after ≥12 months of initial osteoporosis treatment. Color figure can be viewed in the online issue, which is available at http://onlinelibrary.wiley.com/doi/10.1002/acr.25240/abstract.</figDesc><graphic coords="11,50.85,88.61,510.42,218.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Sequential osteoporosis treatment recommendation when initial therapy and glucocorticoids (GCs) are discontinued. BMD = bone mineral density. Color figure can be viewed in the online issue, which is available at http://onlinelibrary.wiley.com/doi/10.1002/acr.25240/abstract.</figDesc><graphic coords="11,50.74,466.64,510.47,262.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>This article is published simultaneously in Arthritis &amp; Rheumatology. Supported by the American College of Rheumatology. Mary Beth Humphrey, MD, PhD, Itivrita Goyal, MD, Emma Punni, MD: University of Oklahoma Health Sciences Center and U.S. Department of Veterans Affairs, Oklahoma City, Oklahoma; 2 Linda Russell, MD, Katherine Haseltine, MD: Hospital for Special Surgery, New York, New York; 3 Maria I. Danila, MD, MSc, MSPH, Basma Abdulhadi, MD, Lesley Jackson, MD, Iram Moledina, MD: University of Alabama at Birmingham and Birmingham VA Medical Center, Birmingham, Alabama; 4 Howard A. Fink, MD, MPH: Geriatric Research Education and Clinical Center, VA Health Care System, Minneapolis, Minnesota; 5 Gordon Guyatt, MD, Reza Mirza, MD: McMaster University, Hamilton, Ontario, Canada; 6 Michael Cannon, MD: Arthritis Consultants of Tidewater, Virginia Beach, Virginia; 7 Liron Caplan, MD, PhD: University of Colorado, Denver; Literature Review Team, Voting Panel, and Patient Panel are included in Supplementary Appendix 4, available on the Arthritis Care &amp; Research website at http://onlinelibrary.wiley.com/doi/ 10.1002/acr.25240/abstract. This study did not involve human subjects and, therefore, approval from Human Studies Committees was not required.</figDesc><table /><note><p>1 8 Sara Gore, ••, Charles Womack, ••: Oklahoma City, Oklahoma; 9 Jennifer Grossman, MD: UCLA Health, Los Angeles, California; 10 Karen E. Hansen, MD, MS, Sumona Saha, MD, MS: University of Wisconsin, Madison; 11 Nancy E. Lane, MD: UC Davis Health, Sacramento, California; 12 Nina S. Ma, MD: Children's Hospital Colorado, University of Colorado School of Medicine, Aurora;</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 .</head><label>1</label><figDesc>Definitions of selected terms used in the recommendations and upgraded position statements for GIOP*</figDesc><table><row><cell>Term</cell><cell>Adults ≥40 years of age</cell><cell>Adults &lt;40 years of age</cell></row><row><cell>MOF</cell><cell>Nontraumatic or pathological fractures of the spine,</cell><cell>Nontraumatic or pathological fractures of the spine,</cell></row><row><cell></cell><cell>hip, wrist, or humerus</cell><cell>hip, wrist, or humerus</cell></row><row><cell>Clinical fracture risk</cell><cell>History of GC use, evaluation for falls, fractures, frailty,</cell><cell>History of GC use, evaluation for falls, fractures,</cell></row><row><cell>assessment</cell><cell>secondary causes of OP, FRAX with GC adjustment,</cell><cell>frailty, secondary causes of OP, BMD with VFA or</cell></row><row><cell></cell><cell>BMD with VFA or spinal x-ray</cell><cell>spinal x-ray (FRAX not validated at age &lt;40 years)</cell></row><row><cell>Follow-up risk assessment</cell><cell>BMD with VFA or spinal x-ray every 1-2 years during</cell><cell>BMD with VFA or spinal x-ray every 1-2 years during</cell></row><row><cell>during GC treatment</cell><cell>OP therapy; BMD with VFA or spinal x-ray every</cell><cell>treatment; BMD with VFA or spinal x-ray every</cell></row><row><cell></cell><cell>1-2 years after OP therapy is discontinued</cell><cell>1-2 years after OP therapy is discontinued</cell></row><row><cell>FRAX GC correction</cell><cell>If GC dose is &gt;7.5 mg/day, multiply the 10-year risk of</cell><cell>Not applicable as FRAX is not validated in this age</cell></row><row><cell></cell><cell>MOF by 1.15 and the hip fracture risk by 1.2  †</cell><cell>group</cell></row><row><cell>Very high fracture risk</cell><cell>Prior OP fracture(s) OR BMD t-score ≤-3.5 OR FRAX</cell><cell>Prior fracture(s) OR GC ≥30 mg/day OR cumulative</cell></row><row><cell></cell><cell>(GC-Adjusted) 10-year risk of MOF ≥30% or hip</cell><cell>≥5 g/y</cell></row><row><cell></cell><cell>≥4.5% OR high GC ≥30 mg/day for &gt;30 days OR</cell><cell></cell></row><row><cell></cell><cell>cumulative doses ≥5 g/y</cell><cell></cell></row><row><cell>High fracture risk</cell><cell>BMD t-score ≤-2.5 but &gt;-3.5 OR FRAX (GC Adjusted)</cell><cell></cell></row><row><cell></cell><cell>10-year risk of MOF ≥20% but &lt;30% or hip ≥3% but</cell><cell></cell></row><row><cell></cell><cell>&lt;4.5%</cell><cell></cell></row></table><note><p>-Moderate fracture risk FRAX (GC-Adjusted) 10-year risk of MOF ≥10 and &lt;20%, hip &gt;1 and &lt;3% OR BMD t-score between -1 and -2.4 Continuing GC treatment ≥7.5 mg/day for ≥6 months AND BMD z-score &lt; -3 OR significant BMD loss (more than the least significant change of DXA) Low fracture risk FRAX (GC-Adjusted) 10-year risk of MOF &lt;10%, hip &lt;1 %, BMD &gt;-1.0 None of the above risk factors other than GC treatment Recommended treatment strategy Adults ≥40 years at moderate, high, or very high risk of fracture Adults &lt;40 years at moderate or very high risk of fracture Calcium and vitamin D Optimized intake of dietary and supplemental calcium and vitamin D based on age-appropriate US Recommended Dietary Allowances BP (Alendronate [oral], Risedronate [oral]; Ibandronate [oral/ IV], Zoledronic acid [IV])</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>). Similar to other recent OP guidelines<ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref><ref type="bibr" target="#b34">(35)</ref> (United Kingdom National Osteoporosis Guideline Group [NOGG], American Association of Clinical Endocrinologists [AACE], Brazilian Society of Endocrinology and Metabolism [SBEM]), we further identified a very high risk group with prior osteoporotic fractures, very low BMDs, very high FRAX risks, or high daily dose or high cumulative doses of glucocorticoids.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 2 .</head><label>2</label><figDesc>Recommendations for initial treatment for prevention of GIOP in adults beginning long-term GC therapy*In adults ≥40 years †For adults ≥40 years with high or very high fracture risk, we strongly recommend OP therapy over no treatment. Agents to use include oral BP, ‡ IV BP, § PTH/PTHrP, § DEN, § RAL, or ROM.For adults ≥40 years with high or very high fracture risk, we conditionally recommend using ROM or RAL in patients intolerant of other agents.For adults ≥40 years with moderate fracture risk, we conditionally recommend against ROM except for in patients intolerant of other agents, due to risk of myocardial infarction, stroke, or death.For adults ≥40 years with low fracture risk, we strongly recommend against OP medications due to known risk of harms and no evidence of benefit.For adults with solid organ transplants, glomerular filtration rate ≥35 mL/min, and no evidence of CKD-MBD # or hyperparathyroidism We conditionally recommend expert evaluation for CKD-MBD in renal transplant recipients.</figDesc><table><row><cell></cell><cell>Certainty</cell><cell></cell><cell></cell></row><row><cell>Recommendations for patients taking prednisone</cell><cell>of</cell><cell>PICO evidence</cell><cell>Evidence</cell></row><row><cell>≥2.5 mg/day for &gt;3 months</cell><cell>evidence</cell><cell>report basis</cell><cell>Report, pp</cell></row><row><cell>For adults and children beginning or continuing chronic GC treatment at low,</cell><cell>Low or</cell><cell>1.1a,b,c-1.3a,b,c,</cell><cell>6-8, 47-48, 63-65,</cell></row><row><cell>moderate, high, or very high risk of fracture, we conditionally recommend</cell><cell>very</cell><cell>2.1-2.3, 7.16-7.26</cell><cell>141-144,148-151</cell></row><row><cell>optimizing dietary and supplemental calcium and vitamin D in addition to</cell><cell>low</cell><cell></cell><cell></cell></row><row><cell>lifestyle modifications</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Low or</cell><cell>1.4c-1.28c</cell><cell>6-50</cell></row><row><cell></cell><cell>very</cell><cell></cell><cell></cell></row><row><cell></cell><cell>low</cell><cell></cell><cell></cell></row><row><cell>For adults ≥40 years with very high fracture risk, we conditionally recommend</cell><cell>Low</cell><cell>1.13c-1.20c</cell><cell>49-50</cell></row><row><cell>PTH/PTHrP over anti-resorptive (DEN, BP) treatment.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For adults ≥40 years with high fracture risk, we conditionally recommend</cell><cell>Low</cell><cell>1.13c-1.20c</cell><cell>49-50</cell></row><row><cell>PTH/PTHrP or DEN over BP treatment.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For adults ≥40 years with high or very high fracture risk, we strongly</cell><cell>Low</cell><cell>1.4c</cell><cell>8-18</cell></row><row><cell>recommend oral BP over no treatment.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Very low</cell><cell>1.16c, 1.21c, 1.28c</cell><cell>50</cell></row><row><cell>For adults ≥40 years with high or very high fracture risk, we conditionally</cell><cell>Very low</cell><cell>1.29-1.35</cell><cell>53-62</cell></row><row><cell>recommend against using two different OP medications.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Very low</cell><cell>1.12b, 1.16b, 1.17b,</cell><cell>40-41, 44-47</cell></row><row><cell></cell><cell></cell><cell>1.21b-1.25b, 1.28b</cell><cell></cell></row><row><cell></cell><cell>Very low</cell><cell>4.4a-4.13a</cell><cell>91-101</cell></row><row><cell></cell><cell>Low</cell><cell>6.1b-6.19a</cell><cell>120-141</cell></row><row><cell>Oral BP are strongly recommended over no treatment.</cell><cell>Low</cell><cell>6.1b-6.19a</cell><cell>120-141</cell></row><row><cell>IV BP and DEN are conditionally recommended over no treatment.</cell><cell>Low</cell><cell>6.1b-6.19a</cell><cell>120-141</cell></row><row><cell>RAL and ROM are conditionally recommended in those intolerant of other</cell><cell>Low</cell><cell>6.1b-6.19a</cell><cell>120-141</cell></row><row><cell>agents.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>In adults &lt;40 years  †</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Adults &lt;40 years with moderate fracture risk, we conditionally recommend oral</cell><cell>Low or</cell><cell>2.4-2.22, 3.4-3.17</cell><cell>65-76, 79-84</cell></row><row><cell>or IV BP,  ¶ DEN,  ¶ or PTH/PTHrP therapy.</cell><cell>very</cell><cell></cell><cell></cell></row><row><cell></cell><cell>low</cell><cell></cell><cell></cell></row><row><cell>Adults &lt;40 years with moderate fracture risk, we conditionally recommend</cell><cell>Very low</cell><cell>2.9, 3.9</cell><cell>70, 87</cell></row><row><cell>against using ROM due to risk of myocardial infarction, stroke, or death.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Low</cell><cell>5.1-5.26</cell><cell>103-118</cell></row><row><cell>We conditionally recommend treatment with oral or IV BP, DEN, PTH/PTHrP, or</cell><cell>Low</cell><cell>5.1-5.26</cell><cell>103-118</cell></row><row><cell>RAL based on individual patient factors.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend against using ROM due to risk of myocardial</cell><cell>Very low</cell><cell>5.9</cell><cell>112</cell></row><row><cell>infarction, stroke, or death.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Children ages 4-17 years treated with GCs for &gt;3 months (low and moderate risk)</cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend optimization of dietary and supplementation of</cell><cell>Very low</cell><cell>7.1a-7.4a</cell><cell>141-144</cell></row><row><cell>calcium and vitamin D as recommended by the US RDA depending on the</cell><cell></cell><cell></cell><cell></cell></row><row><cell>age of the child.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend against starting oral or IV BP due to low risk of OP</cell><cell>Very low</cell><cell>7.5a</cell><cell>144</cell></row><row><cell>fractures in this age group.</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">Children ages 4-17 years with an osteoporotic fracture who are continuing treatment with GCs at a dose of ≥0.1 mg/kg/day for &gt;3 months</cell></row><row><cell>(high risk)</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend treating with an oral or IV BP.</cell><cell>Very low</cell><cell>7.1b-7.2b</cell><cell>148-153</cell></row></table><note><p><p><p>Adults receiving high-dose GC (initial dose ≥30 mg/day for &gt;30 days or cumulative dose ≥5 g in 1 year)</p>We conditionally recommend treating with PTH/PTHrP over anti-resorptives. * BP = bisphosphonate; CKD-MBD = chronic kidney disease-mineral and bone disorder; DEN = denosumab; GC = glucocorticoid; GIOP = GCinduced OP; IV = intravenous; OP = osteoporosis; PICO = Patients, Intervention, Comparison, Outcome; PTH/PTHrP = parathyroid hormone/ parathyroid hormone-related protein; RAL = raloxifene; RDA = Recommended Dietary Allowances; ROM = romosozumab. † In addition to calcium, vitamin D, and lifestyle modifications. ‡ Strong recommendation based on fracture data. § Conditional due to a lack of fracture data.</p>¶ Only for patients who are not planning on pregnancy during the OP treatment period or are using effective birth control if sexually active. # Includes osteomalacia, adynamic bone disease, osteitis fibrosa cystica, mixed uremic osteodystrophy.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>21514658, 2023, 12, Downloaded from https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.25240, Wiley Online Library on [13/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>ACR GUIDELINE FOR PREVENTION AND TREATMENT OF GIOP</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Dr. Madhumathi Rao</rs> for her review of the evidence and participation in the round 1 voting. We thank the patient who (along with authors <rs type="person">Sara Gore</rs> and <rs type="person">Charles Womack</rs>) participated in the Patient Panel meeting: <rs type="person">Meredith Cathryn Rainey</rs>. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Regina Parker</rs> for assistance in coordinating the administrative aspects of the project and <rs type="person">Cindy Force</rs> for assistance with manuscript preparation. We thank <rs type="person">Janet Waters</rs> for her assistance in developing the literature search strategy, as well as performing the initial literature search and update searches.</p></div>
+			</div>			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors were involved in drafting the article or revising it critically for important intellectual content. All authors approved of the final version to be published. Drs. Humphrey and Russell had full access to all the data in the study and take full responsibility for the integrity of the data and the accuracy of the data analysis. Study conception and design. Humphrey, Russell, Danila, Fink, Uhl, Guyatt, Turner Acquisition of data. Uhl, Abdulhadi, Charles, Cheah, Chou, Goyal, Haseltine, Jackson, Mirza, Moledina, Punni, Rinden, Turgunbaev, Wysham Analysis and interpretation of data. Humphrey, Russell, Danila, Fink, Uhl, Guyatt, Turner, Uhl, Abdulhadi, Charles, Cheah, Chou, Goyal, Haseltine, Jackson, Mirza, Moledina, Punni, Rinden, Turgunbaev, Wysham, Cannon, Caplan, Grossman, Hansen, Lane, Ma, Magrey, McAlindon, Robinson, Saha, Gore, Womack</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Osteoporosis in older adults</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dagar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Med Clin North Am</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="873" to="884" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Excess mortality after hip fracture in elderly persons from Europe and the USA: the CHANCES project</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Katsoulis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Benetou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Karapetyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="300" to="310" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Fracture mortality: associations with epidemiology and osteoporosis treatment [review]</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Sattui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Endocrinol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="592" to="602" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Epidemiology of Vertebral Fractures</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Schousboe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Densitom</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="8" to="22" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Monitoring of patients on long-term glucocorticoid therapy: a population-based cohort study</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fardet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Nazareth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine (Baltimore)</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">647</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Oral corticosteroids and fracture risk: relationship to daily and cumulative doses</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Van Staa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Leufkens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Abenhaim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1383" to="1389" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Low dose long-term corticosteroid therapy in rheumatoid arthritis: an analysis of serious adverse events</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Koehnke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Caldwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Med</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="115" to="123" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">High prevalence of asymptomatic vertebral fractures in post-menopausal women receiving chronic glucocorticoid therapy: a cross-sectional outpatient study</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Angeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guglielmi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dovio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bone</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="253" to="259" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Population-based assessment of adverse events associated with long-term glucocorticoid use</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Westfall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Allison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="420" to="426" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Fracture risk with intermittent high-dose oral glucocorticoid therapy</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bracke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leufkens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="208" to="214" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Children and the risk of fractures caused by oral corticosteroids</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Van Staa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Leufkens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="913" to="918" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Glucocorticoid-induced osteoporosis: pathophysiology and therapy</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Canalis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mazziotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Giustina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoporos Int</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1319" to="1328" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A systematic review and metaanalysis of glucocorticoid-induced osteoporosis in children</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kleker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Safdar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="47" to="54" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Incident vertebral fractures and risk factors in the first three years following glucocorticoid initiation among pediatric patients with rheumatic disorders</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taljaard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1667" to="1675" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Incident vertebral fractures among children with rheumatic disorders 12 months after glucocorticoid initiation: a national observational study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rodd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ramsay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="122" to="131" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Osteoporotic fractures and vertebral body reshaping in children with glucocorticoid-treated rheumatic disorders</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="5195" to="5207" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Low-dose prednisone induces rapid reversible axial bone loss in patients with rheumatoid arthritis: a randomized, controlled study</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Laan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Van Riel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Van De Putte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="963" to="968" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Practice patterns in patients at risk for glucocorticoid-induced osteoporosis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Feldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Elmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Nichols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoporosis Int</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="2168" to="2174" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Management of glucocorticoid-induced osteoporosis in patients with rheumatoid arthritis: rates and predictors of care in an academic rheumatology practice</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Jacobs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="3136" to="3142" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A personal perspective on fracture risk assessment tools</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ettinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Menopause</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1023" to="1026" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Guidance for the adjustment of FRAX according to the dose of glucocorticoids</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Kanis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoporosis Int</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="809" to="816" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A simple score for estimating the long-term risk of fracture in patients using oral glucocorticoids</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Van Staa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Geusens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Pols</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">QJM</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="191" to="198" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology Task Force on Osteoporosis Guidelines. Recommendations for the prevention and treatment of glucocorticoid-induced osteoporosis</title>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1791" to="1801" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">on Glucocorticoid-Induced Osteoporosis. Recommendations for the prevention and treatment of glucocorticoid-induced osteoporosis: 2001 update</title>
+		<author>
+			<orgName type="collaboration">American College of Rheumatology Ad Hoc Committee</orgName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1496" to="1503" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Fink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1521" to="1537" />
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology 2010 recommendations for the prevention and treatment of glucocorticoid-induced osteoporosis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Grossman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Ranganath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1515" to="1526" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 15. Going from evidence to recommendation-determinants of a recommendation&apos;s direction and strength</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schunemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="726" to="735" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">AGREE II: advancing guideline development, reporting and evaluation in health care</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Brouwers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Kho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Browman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CMAJ</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="839" to="842" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Official Positions for FRAX( ® ) clinical regarding glucocorticoids: the impact of the use of glucocorticoids on the estimate by FRAX( ® ) of the 10 year risk of fracture from Joint Official Positions Development Conference of the International Society for Clinical Densitometry and International Osteoporosis Foundation on FRAX( ® )</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Leib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Adachi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Densitom</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="212" to="219" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Trabecular bone score in patients with chronic glucocorticoid therapy-induced osteoporosis treated with alendronate or teriparatide</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Agnusdei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="2122" to="2128" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Prevalent vertebral fractures among children initiating glucocorticoid therapy for the treatment of rheumatic disorders</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gaboury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Cabral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="516" to="526" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">UK clinical guideline for the prevention and treatment of osteoporosis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Gregson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bowden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Osteoporos</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Definition and management of very high fracture risk in women with postmenopausal osteoporosis: a position statement from the Brazilian Society of Endocrinology and Metabolism (SBEM) and the Brazilian Association of Bone Assessment and Metabolism (ABRASSO)</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Madeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Alva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="591" to="603" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">American Association of Clinical Endocrinologists/American College of Endocrinology Clinical Practice Guidelines for the Diagnosis and Treatment of Postmenopausal Osteoporosis-2020 update</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Camacho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Lewiecki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Endocr Pract</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="379" to="380" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The 2011 report on dietary reference intakes for calcium and vitamin D from the Institute of Medicine: what clinicians need to know</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Manson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Abrams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="53" to="58" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Teriparatide or alendronate in glucocorticoid-induced osteoporosis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boonen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">357</biblScope>
+			<biblScope unit="page" from="2028" to="2039" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effects of teriparatide versus alendronate for treating glucocorticoid-induced osteoporosis: thirty-six-month results of a randomized, double-blind, controlled trial</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Zanchetta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Devogelaer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="3346" to="3355" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Bisphosphonates for steroid-induced osteoporosis [review]</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Yeung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vandermeer</surname></persName>
+		</author>
+		<idno>Cd001347</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cochrane Database Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Clinical practice: postmenopausal osteoporosis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Rosen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">374</biblScope>
+			<biblScope unit="page" from="254" to="262" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Pharmacological management of osteoporosis in postmenopausal women: an Endocrine Society* clinical practice guideline</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eastell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Rosen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Black</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="1595" to="1622" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Severe reboundassociated vertebral fractures after denosumab discontinuation: 9 clinical cases report</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gonzalez-Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stoll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="354" to="358" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Zoledronic acid and risedronate in the prevention and treatment of glucocorticoid-induced osteoporosis (HORIZON): a multicentre, double-blind, double-dummy, randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Reid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Devogelaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Saag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">373</biblScope>
+			<biblScope unit="page" from="1253" to="1263" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Uses and limitations of bone mineral density measurements in the management of osteoporosis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Small</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MedGenMed</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Risk of osteonecrosis of the jaw under denosumab compared to bisphosphonates in patients with osteoporosis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Everts-Graber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Burkard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="340" to="348" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Effects of raloxifene on cardiovascular events and breast cancer in postmenopausal women</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Barrett-Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mosca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Collins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">355</biblScope>
+			<biblScope unit="page" from="125" to="137" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Romosozumab: a review of efficacy, safety, and cardiovascular risk</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fixen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tunoa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Current Osteoporos Rep</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="15" to="22" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Comparison of teriparatide and denosumab in patients switching from long-term bisphosphonate use</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="5611" to="5620" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Effects of intravenous zoledronic acid plus subcutaneous teriparatide [rhPTH(1-34)] in postmenopausal osteoporosis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Eriksen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Recknor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="503" to="511" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Combination teriparatide and raloxifene therapy for postmenopausal osteoporosis: results from a 6-month double-blind placebo-controlled trial</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Omizo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1905" to="1911" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Efficacy of the combination of teriparatide and denosumab in the treatment of postmenopausal osteoporosis: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Pharmacol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">888208</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Romosozumab improves lumbar spine bone mass and bone strength parameters relative to alendronate in postmenopausal women: results from the Active-Controlled Fracture Study in Postmenopausal Women With Osteoporosis at High Risk (ARCH) trial</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Engelke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Keaveny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2139" to="2152" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The effect of 1 year of romosozumab on the incidence of clinical vertebral fractures in postmenopausal women with osteoporosis: results from the FRAME study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Geusens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miyauchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JBMR Plus</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">10211</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Increased bone mineral density for 1 year of romosozumab, vs placebo, followed by 2 years of denosumab in the Japanese subgroup of the pivotal FRAME trial and extension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miyauchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Dinavahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Crittenden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Osteoporos</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">59</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Cardiovascular safety profile of romosozumab: a pharmacovigilance analysis of the US Food and Drug Administration Adverse Event Reporting System (FAERS)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Faruque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vallejo-Yagüe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1660</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Effect of raloxifene therapy on venous thromboembolism in postmenopausal women: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adomaityte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Farooq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Qayyum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thromb Haemost</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="338" to="342" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Use of oral corticosteroids and risk of fractures</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Van Staa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Leufkens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Abenhaim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="993" to="1000" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Transplacental effects of bisphosphonates on fetal skeletal ossification and mineralization in rats</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Patlas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Golomb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yaffe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Teratology</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="68" to="73" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Definition, evaluation, and classification of renal osteodystrophy: a position statement from Kidney Disease: Improving Global Outcomes (KDIGO)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Drueke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cunningham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1945" to="1953" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Hypocalcemia and bone mineral changes in hemodialysis patients with low bone mass treated with denosumab: a 2-year observational study</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hiramatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ubara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nephrol Dial Transplant</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1900" to="1907" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Executive summary of the 2019 ISCD Position Development Conference on monitoring treatment, DXA cross-calibration and least significant change, spinal cord injury, peri-prosthetic and orthopedic bone health, transgender medicine, and pediatrics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Shuhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Yeap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Densitom</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="453" to="471" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Expert panel consensus recommendations for diagnosis and treatment of secondary osteoporosis in children</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Galindo-Zavala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bou-Torrent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magallares-L</forename><surname>Opez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Rheumatol Online J</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Effects of previous antiresorptive therapy on the bone mineral density response to two years of teriparatide treatment in postmenopausal women with osteoporosis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Obermayer-Pietsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="852" to="860" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Hip and spine strength effects of adding versus switching to teriparatide in postmenopausal women with osteoporosis treated with prior alendronate or raloxifene</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Keaveny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kopperdahl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1328" to="1336" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Differential effects of teriparatide on BMD after treatment with raloxifene or alendronate</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ettinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">San</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="745" to="751" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Anabolic and antiresorptive therapy for osteoporosis: combination and sequential approaches</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cosman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Osteoporos Rep</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="385" to="395" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Denosumab and teriparatide transitions in postmenopausal osteoporosis (the DATA-Switch study): extension of a randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Z</forename><surname>Leder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Uihlein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">386</biblScope>
+			<biblScope unit="page" from="1147" to="1155" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Multiple vertebral fractures after denosumab discontinuation: FREEDOM and FREEDOM extension trials additional post hoc analyses</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcdermott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="2112" to="2120" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Bone mineral density after transitioning from denosumab to alendronate</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kendler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Clark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="255" to="264" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Bone loss after denosumab discontinuation is prevented by alendronate and zoledronic acid but not risedronate: a retrospective study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tutaworn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Nieves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoporos Int</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="573" to="584" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Romosozumab and antiresorptive treatment: the importance of treatment sequence</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cosman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Kendler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Langdahl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoporos Int</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1243" to="1256" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Treatment with zoledronate subsequent to denosumab in osteoporosis: a 2-year randomized study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Solling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Harslof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langdahl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1245" to="1254" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Effects of teriparatide in patients with osteoporosis in clinical practice: 42-month results during and after discontinuation of treatment from the European Extended Forsteo(R) Observational Study (ExFOS)</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Napoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Langdahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ljunggren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calcif Tissue Int</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="359" to="371" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Raloxifene reduces risk of vertebral fractures [corrected] in postmenopausal women regardless of prior hormone therapy</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Johnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cauley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Kulkarni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Fam Pract</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="789" to="796" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Impact of cumulative exposure to high-dose oral glucocorticoids on fracture risk in Denmark: a population-based case-control study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Amiche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abtahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Driessen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Osteoporos</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Delayed denosumab injections and fracture risk among patients with osteoporosis: a population-based cohort study</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="516" to="526" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Vertebral fractures after discontinuation of denosumab: a post hoc analysis of the randomized placebo-controlled FREEDOM trial and its extension</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ferrari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eastell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Miner Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="190" to="198" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Fracture risk and management of discontinuation of denosumab therapy: a systematic review and position statement by ECTS</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tsourdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Zillikens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Endocrinol Metab</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="264" to="281" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

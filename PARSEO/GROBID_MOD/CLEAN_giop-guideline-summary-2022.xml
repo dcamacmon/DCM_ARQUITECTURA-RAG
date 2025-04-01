@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<ns0:teiHeader xml:lang="en">
+		<ns0:fileDesc>
+			<ns0:titleStmt>
+				<ns0:title level="a" type="main">2022 American College of Rheumatology Guideline for the Prevention and Treatment of Glucocorticoid-Induced Osteoporosis</ns0:title>
+			</ns0:titleStmt>
+			<ns0:publicationStmt>
+				<ns0:publisher />
+				<ns0:availability status="unknown"><ns0:licence /></ns0:availability>
+			</ns0:publicationStmt>
+			<ns0:sourceDesc>
+				<ns0:biblStruct>
+					<ns0:monogr>
+						<ns0:imprint>
+							<ns0:date />
+						</ns0:imprint>
+					</ns0:monogr>
+					<ns0:idno type="MD5">E6CF781F3D07C386647CEFDED26B8578</ns0:idno>
+				</ns0:biblStruct>
+			</ns0:sourceDesc>
+		</ns0:fileDesc>
+		</ns0:teiHeader>
+	<ns0:text xml:lang="en">
+		<ns0:body><ns0:div><ns0:p>A strong recommendation was made to use oral bisphosphonates (BPs) over no treatment for adults ≥40 years receiving long-term GCs, at high and very high risk for fracture, based on available fracture data in GIOP populations. Other agents including intravenous BPs, PTH/PTHrP, and denosumab (DEN) are also options and are conditionally recommended given lack of fracture prevention data in GIOP populations. For adults at high risk, we conditionally recommended DEN or PTH/PTHrP over BP. For adults at very high risk, we conditionally recommended PTH/PTHrP over antiresorptives</ns0:p><ns0:p>We strongly recommend oral BP over no treatment in high and very high fracture risk due to fracture reduction in GIOP.</ns0:p><ns0:p>We conditionally recommend PTH/PTHrP over anti-resorptives in patients at very high risk of fracture.</ns0:p><ns0:p>We conditionally recommend DEN $&amp; or PTH/PTHrP over oral and IV BP in high risk of fracture.</ns0:p><ns0:p>We conditionally recommend IV BP, ROM, RAL over no treatment in high and very high risk of fracture.</ns0:p><ns0:p>In moderate risk, we conditionally recommend BP, DEN, or PTH/PTHrP in no preferred order among these agents.</ns0:p><ns0:p>Except in patients intolerant of other agents, we conditionally recommend against RAL due to harms of VTE and fatal stroke or ROM due to uncertain harms with increased myocardial infarction, stroke and death</ns0:p><ns0:p>We conditionally recommend treatment for those at moderate or very high risk of fracture with oral or IV BP $ , PTH/PTHrP % or DEN %&amp;   We conditionally recommended against RAL due to harms of VTE and fatal stroke or ROM due to uncertain harms including increased myocardial infarction, stroke and death BP = bisphosphonate; PTH = parathyroid hormone; PTHrP = PTH-related protein; RANKL = Receptor activator of NF-κβ-Ligand; BMD = bone mineral density; GC= glucocorticoid; FRAX® = https//www.shef.ac.uk/FRAX/Tool.jsp; MOF = major osteoporotic fracture; * FRAX® GC correction example: if hip fracture risk is 2.0% multiply by 1.2 for adjusted risk = 2.4%; $ = Use with caution in women who may become pregnant due higher potency and longer half-life in fetal bones; % Avoid in young adults with open growth plates; &amp; Use with caution in women of child bearing potential due to potential fetal harm. Avoid pregnancy for 5 months after last dose.</ns0:p></ns0:div><ns0:div><ns0:head>Osteoporosis Medications for Patients with Chronic Kidney Disease or Following Renal Transplant</ns0:head><ns0:p>Bisphosphonates should generally not be used in patients with an eGFR &lt; 35 ml/min. When eGFR is &lt; 35 ml/min, the risk of renal osteodystrophy, including adynamic bone disease, osteomalacia, osteitis fibrosa cystica and mixed uremic osteodystrophy, is increased. As such, metabolic bone disease expert evaluation for chronic kidney disease-mineral and bone disorder (CKD-MBD) is conditionally recommended to exclude these conditions. Hyperparathyroidism should also be assessed. Once excluded, no dose adjustment is needed when prescribing DEN, PTH/PTHrP, or romosozumab (ROM).</ns0:p></ns0:div><ns0:note place="foot" xml:id="foot_0"><ns0:p>© 2022 American College of Rheumatology. All rights reserved.</ns0:p></ns0:note></ns0:body><ns0:back>
+			<ns0:div type="annex">
+<ns0:div />			</ns0:div>
+			<ns0:div type="references">
+
+				</ns0:div>
+		</ns0:back>
+	</ns0:text>
+</ns0:TEI>

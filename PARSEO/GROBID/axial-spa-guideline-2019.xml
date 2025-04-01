@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2019 Update of the American College of Rheumatology/ Spondylitis Association of America/Spondyloarthritis Research and Treatment Network Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis</title>
+				<funder>
+					<orgName type="full">National Institute of Arthritis and Musculoskeletal and Skin Diseases)</orgName>
+				</funder>
+				<funder ref="#_8vetkCV">
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Spondyloarthritis Research and Treatment Network</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">American College of Rheumatology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2019-09-26">26 September 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MD, MPH</roleName><forename type="first">Michael</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+							<email>wardm1@mail.nih.gov.</email>
+						</author>
+						<author>
+							<persName><forename type="first">Atul</forename><surname>Deodhar</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Atul Deodhar</orgName>
+								<orgName type="institution">BCPS: National Institute of Arthritis and Musculoskeletal and Skin Diseases</orgName>
+								<address>
+									<settlement>Bethesda</settlement>
+									<region>Maryland MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Liann</forename><surname>Gensler</surname></persName>
+							<idno type="ORCID">0000-0003-3210-4771</idno>
+							<affiliation key="aff1">
+								<orgName type="institution">MRCP: Oregon Health &amp; Science University</orgName>
+								<address>
+									<settlement>Portland</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MSc:</roleName><forename type="first">Maureen</forename><surname>Dubreuil</surname></persName>
+							<idno type="ORCID">0000-0002-6253-1515</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Dav</forename><surname>Yu</surname></persName>
+							<idno type="ORCID">0000-0001-8115-7509</idno>
+						</author>
+						<author>
+							<persName><roleName>MD, FRCP, MACP</roleName><forename type="first">Muhammad</forename><forename type="middle">Asim</forename><surname>Khan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nigil</forename><surname>Har</surname></persName>
+							<idno type="ORCID">0000-0003-3210-4771</idno>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Borenstein</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Runsheng</forename><surname>Wang</surname></persName>
+							<idno type="ORCID">0000-0001-8115-7509</idno>
+						</author>
+						<author>
+							<persName><roleName>MS</roleName><forename type="first">Ann</forename><surname>Biehl</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Meika</forename><forename type="middle">A</forename><surname>Fang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Grant</forename><surname>Louie</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="institution">West Los Angeles Medical Center</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<region>California</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vikas</forename><surname>Majithia</surname></persName>
+							<idno type="ORCID">0000-0003-3627-4399</idno>
+							<affiliation key="aff12">
+								<orgName type="department">MHS: Arthritis and Rheumatism Associates</orgName>
+								<orgName type="institution">Grant Louie</orgName>
+								<address>
+									<settlement>Wheaton</settlement>
+									<region>MD Maryland</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bernard</forename><surname>Ng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rosemary</forename><surname>Bigham</surname></persName>
+							<affiliation key="aff15">
+								<orgName type="institution">MD: University of Washington</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Pianin</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD, MPH</roleName><forename type="first">Amit</forename><forename type="middle">Aakash</forename><surname>Shah</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nancy</forename><surname>Sullivan</surname></persName>
+							<idno type="ORCID">0000-0002-2799-3036</idno>
+							<affiliation key="aff17">
+								<orgName type="institution">American College of Rheumatology</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<country>Georgia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MPH</roleName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+							<idno type="ORCID">0000-0002-2799-3036</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jeff</forename><surname>Oristaglio</surname></persName>
+							<affiliation key="aff17">
+								<orgName type="institution">American College of Rheumatology</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<country>Georgia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><surname>Turner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Walter</forename><forename type="middle">P</forename><surname>Maksymowych</surname></persName>
+							<affiliation key="aff18">
+								<orgName type="department">PhD: ECRI Institute</orgName>
+								<orgName type="institution">Nancy Sullivan</orgName>
+								<address>
+									<settlement>Plymouth Meeting</settlement>
+									<region>BA Jeff Oristaglio Pennsylvania</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Liron</forename><surname>Caplan</surname></persName>
+							<idno type="ORCID">0000-0002-2799-3036</idno>
+							<affiliation key="aff20">
+								<orgName type="institution">FRCPC: University of Alberta</orgName>
+								<address>
+									<settlement>Edmonton</settlement>
+									<region>Alberta</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Eli</forename><surname>Lilly</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Lianne S. Gensler</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>San Francisco</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">Boston University</orgName>
+								<address>
+									<addrLine>5 David Yu</addrLine>
+									<settlement>Boston</settlement>
+									<region>Massachusetts MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Case Western Reserve University</orgName>
+								<address>
+									<addrLine>7 Nigil Haroon</addrLine>
+									<settlement>Cleveland</settlement>
+									<region>Ohio</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution">MBBS</orgName>
+								<address>
+									<region>MD DM</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution" key="instit1">University of Toronto</orgName>
+								<orgName type="institution" key="instit2">Krembil Research Institute</orgName>
+								<orgName type="institution" key="instit3">Toronto Western Hospital</orgName>
+								<address>
+									<addrLine>8 David Borenstein</addrLine>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="institution">MD: Arthritis &amp; Rheumatism Associates</orgName>
+								<address>
+									<addrLine>9 Runsheng Wang</addrLine>
+									<settlement>Washington</settlement>
+									<region>DC MD MHS</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="institution">Columbia University Medical Center</orgName>
+								<address>
+									<addrLine>10 Meika A. Fang</addrLine>
+									<settlement>New York</settlement>
+									<region>New York MD VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff13">
+								<orgName type="institution">Vikas Majithia</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<orgName type="institution">MPH: University of Mississippi Medical Center</orgName>
+								<address>
+									<addrLine>13 Bernard Ng</addrLine>
+									<settlement>Jackson</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff16">
+								<orgName type="department">JD: Pianin and Associates, PC</orgName>
+								<orgName type="institution">Rosemary Bigham</orgName>
+								<address>
+									<addrLine>Washington; 15 Michael Pianin</addrLine>
+									<settlement>Seattle Phoenix</settlement>
+									<region>Arizona</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff19">
+								<orgName type="institution">Walter P. Maksymowych</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff21">
+								<orgName type="department">PhD: Rocky Mountain Regional VA Medical Center</orgName>
+								<orgName type="institution">Liron Caplan</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff22">
+								<orgName type="institution">University of Colorado</orgName>
+								<address>
+									<region>Aurora</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff23">
+								<orgName type="institution" key="instit1">Boehringer Ingelheim</orgName>
+								<orgName type="institution" key="instit2">Bristol-Myers Squibb</orgName>
+								<orgName type="institution" key="instit3">GlaxoSmithKline</orgName>
+								<address>
+									<settlement>Galapagos Boehringer Celgene Eli Lilly</settlement>
+									<region>Janssen Galapagos Janssen</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff24">
+								<orgName type="institution">NIAMS/NIH</orgName>
+								<address>
+									<addrLine>Building 10 CRC Room 4-1339 10 Center Drive</addrLine>
+									<postCode>MSC 1468 20892</postCode>
+									<settlement>Bethesda</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2019 Update of the American College of Rheumatology/ Spondylitis Association of America/Spondyloarthritis Research and Treatment Network Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic Axial Spondyloarthritis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-09-26">26 September 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C631ACD41D7DD72B360B4CDBFC8F4BA8</idno>
+					<idno type="DOI">10.1002/art.41042</idno>
+					<note type="submission">Submitted for publication March 28, 2019; accepted in revised form July 9, 2019.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. To update evidence-based recommendations for the treatment of patients with ankylosing spondylitis (AS) and nonradiographic axial spondyloarthritis (SpA).</p><p>Methods. We conducted updated systematic literature reviews for 20 clinical questions on pharmacologic treatment addressed in the 2015 guidelines, and for 26 new questions on pharmacologic treatment, treat-to-target strategy, and use of imaging. New questions addressed the use of secukinumab, ixekizumab, tofacitinib, tumor necrosis factor inhibitor (TNFi) biosimilars, and biologic tapering/discontinuation, among others. We used the Grading of Recommendations, Assessment, Development and Evaluation methodology to assess the quality of evidence and formulate recommendations and required at least 70% agreement among the voting panel.</p><p>Results. Recommendations for AS and nonradiographic axial SpA are similar. TNFi are recommended over secukinumab or ixekizumab as the first biologic to be used. Secukinumab or ixekizumab is recommended over the use of a second TNFi in patients with primary nonresponse to the first TNFi. TNFi, secukinumab, and ixekizumab are favored over tofacitinib. Co-administration of low-dose methotrexate with TNFi is not recommended, nor is a strict treat-to-target strategy or discontinuation or tapering of biologics in patients with stable disease. Sulfasalazine is recommended only for persistent peripheral arthritis when TNFi are contraindicated. For patients with unclear disease activity, spine or pelvis magnetic resonance imaging could aid assessment. Routine monitoring of radiographic changes with serial spine radiographs is not recommended.</p><p>Conclusion. These recommendations provide updated guidance regarding use of new medications and imaging of the axial skeleton in the management of AS and nonradiographic axial SpA.</p><p>Guidelines and recommendations developed and/or endorsed by the American College of Rheumatology (ACR) are intended to provide guidance for particular patterns of practice and not to dictate the care of a particular patient. The ACR considers adherence to the recommendations within this guideline to be voluntary, with the ultimate determination regarding their application to be made by the health care provider in light of each patient's individual circumstances. Guidelines and recommendations are intended to promote beneficial or desirable outcomes but cannot guarantee any specific outcome. Guidelines and recommendations developed and endorsed by the ACR are subject to periodic revision as warranted by the evolution of medical knowledge, technology, and practice. ACR recommendations are not intended to dictate payment or insurance decisions. These recommendations cannot adequately convey all uncertainties and nuances of patient care.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Axial spondyloarthritis (SpA), comprising ankylosing spondylitis (AS) and nonradiographic axial SpA, is the main form of chronic inflammatory arthritis affecting the axial skeleton <ref type="bibr" target="#b0">(1)</ref>. AS affects 0.1-0.5% of the population, and is characterized by inflammatory back pain, radiographic sacroiliitis, excess spinal bone formation, and a high prevalence of HLA-B27 <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b2">3)</ref>. Although nonradiographic axial SpA shares several features with AS, advanced sacroiliac joint damage and spine ankylosis are absent <ref type="bibr" target="#b3">(4)</ref>. The severity of arthralgia, stiffness, and limited flexibility varies widely among patients and over the course of axial SpA. Skeletal disease may be accompanied by uveitis, psoriasis, and inflammatory bowel disease (IBD). Axial SpA can impose substantial physical and social burdens on patients, and can interfere with work and schooling <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b5">6)</ref>. The goals of treatment are to alleviate symptoms, improve functioning, maintain the ability to work, decrease disease complications, and forestall skeletal damage as much as possible.</p><p>In 2015, the American College of Rheumatology (ACR), Spondylitis Association of America (SAA), and Spondyloarthritis Research and Treatment Network (SPARTAN) published recommendations for the treatment of adults with AS and those with nonradiographic axial SpA <ref type="bibr" target="#b6">(7)</ref>. Recommendations were provided for pharmacologic treatment, rehabilitation, use of surgery, management of selected comorbidities, disease monitoring, patient education, and preventive care. The recommendations were tailored to patients with either active or stable disease and focused on the most common decisions confronting clinicians when treating these patients.</p><p>The advent of new medications to treat axial SpA warranted this update. We did not reexamine all of the 2015 recommendations, but rather focused on those questions for which consequential new evidence was present. We added several new recommendations on how the newly available medications should fit in treatment strategies and on the use of imaging. The target populations are adults with AS or nonradiographic axial SpA. The target users of these recommendations are rheumatologists, primary care clinicians, physiatrists, physical therapists, and others providing care to patients with axial SpA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>These recommendations followed ACR and Grading of Recommendations, Assessment, Development and Evaluation (GRADE) methodology <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b8">9)</ref>, as described in Supplementary Appendix 1, available on the Arthritis &amp; Rheumatology web site at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>. Briefly, sys te matic literature reviews were done for prespecified clinical population, intervention, comparator, outcomes (PICO) questions. The resulting evidence was reviewed, and recommendations formulated and voted on, by an expert voting panel (see Supplementary Appendices 2-5 at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>). Key definitions, including ones for active and stable disease, are provided in Table <ref type="table" target="#tab_0">1</ref>. Clinical trials of ixekizumab became available during the time the manuscript was in preparation, after the voting panel had met <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>. The data from these trials were provided to the voting panel, and revised recommendations that included ixekizumab were reviewed and voted on by the panel.</p><p>| 1601</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>Here we present the recommendations that were reviewed in this update, whether it was a new recommendation (designated "new") or reevaluation of an existing recommendation. Table <ref type="table" target="#tab_1">2</ref> and Table <ref type="table" target="#tab_3">3</ref> provide all current recommendations, including those from the 2015 report that were not newly reviewed. The order of recommendations presented here does not imply priority for use or recommended sequencing of different interventions. PICO numbers following each recommendation can be used to locate related evidence in Supplementary Appendix 6, available on the Arthritis &amp; Rheumatology web site at <ref type="url" target="http://onlin">http:// onlin</ref> elibr ary.wiley.com/doi/10.1002/art.41042/ abstract.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Recommendations for the treatment of patients with active AS</head><p>In adults with active AS, we conditionally recommend continuous treatment with nonsteroidal antiinflammatory drugs (NSAIDs) over on-demand treatment with NSAIDs (PICO 1).</p><p>The efficacy of NSAIDs for symptom improvement in active AS has been established in many controlled trials. Evidence that continuous NSAID use results in slower rates of spinal fusion on radiographs over 2 years compared to on-demand NSAID use is inconsistent, with results of one trial of celecoxib suggesting less progression with continuous use, and one trial of diclofenac indicating no difference in progression <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref> (See Supplementary Appendix 6, available on the Arthritis &amp; Rheumatology web site at <ref type="url" target="http://onlin">http:// onlin</ref> elibr ary.wiley.com/doi/10.1002/art.41042/ abstract). Despite the </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Active disease</head><p>Disease causing symptoms at an unacceptably bothersome level to the patient and judged by the examining clinician to be due to inflammation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stable disease</head><p>Disease that was asymptomatic or causing symptoms but at an acceptable level as reported by the patient. A minimum of 6 months was required to qualify as clinically stable.</p><p>Primary nonresponse Absence of a clinically meaningful improvement in disease activity over the 3 to 6 months after treatment initiation, not related to toxicity or poor adherence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Secondary nonresponse</head><p>Recurrence of ankylosing spondylitis activity, not due to treatment interruption or poor adherence, after having a sustained clinically meaningful improvement on treatment (generally, beyond the initial 6 months of treatment).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conventional synthetic antirheumatic drug</head><p>Sulfasalazine, methotrexate, leflunomide, apremilast, thalidomide, pamidronate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biosimilar</head><p>Biopharmaceuticals that are copies of an original biologic medication and tested to be of the same purity and potency as the original. In these recommendations, we refer only to TNFi biosimilars.</p><p>Examples include infliximab-dyyb, etanercept-szzs, and adalimumab-atto.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TNFi</head><p>Infliximab, etanercept, adalimumab, certolizumab, golimumab, and their biosimilars.</p><p>TNFi monoclonal antibodies Infliximab, adalimumab, certolizumab, golimumab.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biologics</head><p>TNFi, abatacept, rituximab, sarilumab, tocilizumab, ustekinumab, secukinumab, ixekizumab.** High-quality evidence Studies that provide high confidence in the effect estimate, and new data from future studies are thought unlikely to change the effect.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Moderate-quality evidence</head><p>Studies that provide confidence that the true effect is likely to be close to the estimate but could be substantially different.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Low-quality evidence</head><p>Studies that provide limited confidence about the effect, and the true effect may be substantially different from the estimate.</p><p>Very low-quality evidence Studies that provide very little certainty about the effect, and the true effect may be quite different from the estimate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strong recommendation</head><p>Action should be favored in almost all patients, usually requiring high-quality evidence, high confidence that future research will not alter the conclusion, AND an assessment that the desirable effects of the intervention outweigh the undesirable effects. Should not be taken to imply that the intervention has large clinical benefits.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conditional recommendation</head><p>Action should be followed in only selected cases, often limited by low-quality evidence, OR when the desirable and undesirable consequences of an intervention are more balanced, OR if patients' preferences for the intervention are thought to vary widely.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient preferences</head><p>Beliefs and expectations regarding potential benefits and harms of treatment and how these relate to an individual's goals for health and life.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shared decision-making</head><p>The process by which a patient and clinician arrive at an individualized treatment decision based on an understanding of the potential benefits and risks of available treatment options and of a patient's values and preferences. In adults with active or stable AS on any treatment, we conditionally recommend against obtaining repeat spine radiographs at a scheduled interval (e.g., every 2 years) as a standard approach.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Very low</head><p>* AS = ankylosing spondylitis; PICO = population, intervention, comparison, and outcomes; NSAIDs = nonsteroidal antiinflammatory drugs; TNFi = tumor necrosis factor inhibitor; CRP = C-reactive protein; ESR = erythrocyte sedimentation rate; ASDAS = Ankylosing Spondylitis Disease Activity Score; DXA = dual x-ray absorptiometry; MRI = magnetic resonance imaging. † These recommendations were from 2015 and were not reviewed in this update. The number preceding the recommendation is the recommendation number and is referenced as bracketed numbers in Figure <ref type="figure" target="#fig_0">1</ref>. | 1605</p><p>uncertainty regarding potential disease-modifying effects, the committee conditionally favored continuous use of NSAIDs in patients with active AS, primarily for controlling disease activity. The decision to use NSAIDs continuously may vary depending on the severity of symptoms, patient preferences, and comorbidities, particularly gastrointestinal and kidney comorbidities, and cardiovascular disease.</p><p>In adults with active AS despite treatment with NSAIDs, we conditionally recommend treatment with sulfasalazine, methotrexate, or tofacitinib over no treatment with these medications (new, <ref type="bibr">PICO 7)</ref>. Sulfasalazine or methotrexate should be considered only in patients with prominent peripheral arthritis or when tumor necrosis factor inhibitors (TNFi) are not available.</p><p>Treatment with sulfasalazine is recommended primarily for patients with prominent peripheral arthritis and few or no axial symptoms. However, TNFi may provide a better option for these patients. Evidence for the efficacy of sulfasalazine is based on 8 older controlled trials that showed benefit for peripheral arthritis (see Supplementary Appendix 6, on the Arthritis &amp; Rheumatology web site at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>). Although a recent placebo-controlled trial of sulfasalazine demonstrated improvement in axial symptoms, and modest clinical and imaging responses were seen in a second trial, the preponderance of evidence indicates that sulfasalazine has little benefit for axial symptoms <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref>. Sulfasalazine may have a role in treating patients who have contraindications to TNFi, those who decline treatment with TNFi, or those with limited access to TNFi.</p><p>Three trials of methotrexate with negative results tested doses of ≤10 mg weekly, and the lack of benefit may reflect the low doses used <ref type="bibr" target="#b15">(16)</ref><ref type="bibr" target="#b16">(17)</ref><ref type="bibr" target="#b17">(18)</ref>. One uncontrolled study of methotrexate 20 mg weekly showed no improvement in axial symptoms, but a decrease in swollen joint count <ref type="bibr" target="#b18">(19)</ref>. Treatment with methotrexate may be considered for patients with predominately peripheral arthritis, although among nonbiologics, there is more evidence supporting the use of sulfasalazine.</p><p>A phase II study of tofacitinib showed benefit in both clinical and imaging outcomes of axial disease over 12 weeks <ref type="bibr" target="#b19">(20)</ref>. Use of tofacitinib could be another option, although the results of phase III trials are not available. Leflunomide, apremilast, thalidomide, and pamidronate are not recommended (See Supplementary Appendix 6, available on the Arthritis &amp; Rheumatology web site at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin e libr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>).</p><p>In adults with active AS despite treatment with NSAIDs, we strongly recommend treatment with TNFi over no treatment with TNFi (PICO 6).</p><p>In adults with active AS despite treatment with NSAIDs, we do not recommend any particular TNFi as the preferred choice (PICO 5).</p><p>The efficacy of TNFi in patients with active AS has been demonstrated in 24 randomized controlled trials, most of which were short-term (6 months or shorter) placebo-controlled studies. Improvements were shown in patient-reported outcomes, composite response criteria, and spine and sacroiliac inflammation on magnetic resonance imaging <ref type="bibr">(</ref> Indirect comparisons in network meta-analyses of clinical trials have not showed clinically meaningful differences in short-term efficacy among TNFi in the treatment of active AS (see Supplementary Appendix 6, at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/ art.41042/ abstract</ref>) <ref type="bibr" target="#b20">(21)</ref>. Direct comparisons among these medications are limited to a trial of infliximab versus its biosimilar, and a very small open-label trial of infliximab versus etanercept <ref type="bibr" target="#b21">(22,</ref><ref type="bibr" target="#b22">23)</ref>. The panel judged that the evidence did not support preference of 1 TNFi over any other for the typical patient. Important exceptions apply to patients with recurrent uveitis or coexistent IBD (see PICO 29 and PICO 32 below). Patients treated with infliximab may have increased risks of tuberculosis and of infections generally <ref type="bibr" target="#b23">(24,</ref><ref type="bibr" target="#b24">25)</ref>. TNFi other than infliximab should be considered for patients at higher risk of tuberculosis exposure (either through travel or household contacts) or with a history of recurrent infections. Patient preferences regarding the frequency of dosing and route of administration should be weighed when selecting a specific TNFi.</p><p>In adults with active AS despite treatment with NSAIDs, we strongly recommend treatment with secukinumab or ixekizumab over no treatment with secukinumab or ixekizumab (new, PICO 58).</p><p>In adults with active AS despite treatment with NSAIDs, we conditionally recommend treatment with TNFi over treatment with secukinumab or ixekizumab (new, PICO 59).</p><p>In adults with active AS despite treatment with NSAIDs, we conditionally recommend treatment with TNFi over treatment with tofacitinib (new, PICO 60).</p><p>In adults with active AS despite treatment with NSAIDs, we conditionally recommend treatment with secukinumab or ixekizumab over treatment with tofacitinib (new, PICO 61).</p><p>The use of secukinumab and ixekizumab in patients with active AS is supported by data from large placebo-controlled trials (see Supplementary Appendix 6, on the Arthritis &amp; Rheumatology web site at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>). The panel recommended use of TNFi over secukinumab or ixekizumab based on greater experience with TNFi and familiarity with their long-term safety and toxicity. Similarly, the panel judged that TNFi, secukinumab, or ixekizumab should be used over tofacitinib, given the larger evidence base for TNFi, secukinumab, and ixekizumab. In patients with coexisting ulcerative colitis, if treatment with TNFi is not an option, tofacitinib should be considered over secukinumab or ixekizumab. Interleukin-17 (IL-17) inhibitors have not been shown to be efficacious in IBD, although tofacitinib is an approved treatment for ulcerative colitis <ref type="bibr" target="#b25">(26,</ref><ref type="bibr" target="#b26">27)</ref>.</p><p>In adults with active AS despite treatment with NSAIDs and who have contraindications to TNFi, we conditionally recommend treatment with secukinumab or ixekizumab over treatment with sulfasalazine, methotrexate, or tofacitinib (new, <ref type="bibr">PICO 8)</ref>.</p><p>No studies have directly compared the risks and benefits of treatment alternatives in patients who have contraindications to treatment with TNFi. The panel favored treatment with secukinumab or ixekizumab over treatment with sulfasalazine or methotrexate based on a higher likelihood of benefit, but this recommendation was conditional on the specific contraindication. If the contraindication to TNFi use was the presence of congestive heart failure or demyelinating disease, secukinumab or ixekizumab was preferred, since these medications have not been shown to worsen these conditions. If the contraindication to TNFi use was tuberculosis, other chronic infection, or a high risk of recurrent infections, sulfasalazine was preferred over secukinumab, izekizumab, and tofacitinib. In these cases, efforts to mitigate the infections should be undertaken so that TNFi might safely be used. Treatment with rituximab, abatacept, ustekinumab, or IL-6 inhibitors is not recommended, even in patients with contraindications to TNFi, due to lack of effectiveness.</p><p>In adults with active AS despite treatment with the first TNFi used, we conditionally recommend treatment with secukinumab or ixekizumab over treatment with a different TNFi in patients with primary nonresponse to TNFi (new, <ref type="bibr">PICO 10)</ref>.</p><p>In adults with active AS despite treatment with the first TNFi used, we conditionally recommend treatment with a different TNFi over treatment with a non-TNFi biologic in patients with secondary nonresponse to TNFi (new, <ref type="bibr">PICO 10)</ref>.</p><p>In adults with active AS despite treatment with the first TNFi used, we strongly recommend against switching to treatment with a biosimilar of the first TNFi (new, PICO 62).</p><p>In adults with active AS despite treatment with the first TNFi used, we conditionally recommend against the addition of sulfasalazine or methotrexate in favor of switching to a new biologic (PICO 9).</p><p>Direct comparisons of treatment strategies for patients who do not have or sustain adequate responses to their first TNFi have not been reported, and the recommendations are based on the panel's consideration of indirect comparisons among the available treatment options (see Supplementary Appendix 6, at <ref type="url" target="http://onlin">http:// onlin</ref> elibr ary.wiley.com/doi/10.1002/art.41042/ abstract). Data from observational studies suggest that 25-40% of patients who switch from one TNFi to another will have a meaningful response (e.g., | 1607 50% improvement in Bath AS Disease Activity Index) to the second TNFi <ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref><ref type="bibr" target="#b29">(30)</ref>. However, not all patients in these studies switched TNFi because of ineffectiveness.</p><p>The panel judged that treatment should differ for patients who had a primary nonresponse to TNFi and those with secondary nonresponse to TNFi. Switching to secukinumab or ixekizumab was recommended in most patients who had a primary nonresponse to the first TNFi, under the assumption that TNF was not the key inflammatory mediator in these patients. Continuing treatment with the first TNFi could be considered if additional time was believed important to assess the response fully, or if a higher dose or shorter dosing interval was thought to be beneficial.</p><p>In patients who relapse after an initial response (i.e., secondary nonresponse), the panel judged that treatment with a different TNFi held a reasonable prospect of benefit and should be used in most patients, rather than immediately switching to a different class of biologics. Although ixekizumab is efficacious among TNFi nonresponders, trials have not directly compared responses to ixekizumab (or secukinumab) to responses to a second TNFi in patients with a secondary nonresponse to the first TNFi <ref type="bibr" target="#b10">(11)</ref>. Given that options for biologics are limited, treatment with a second TNFi was recommended in these patients.</p><p>In cases of nonresponse (primary or secondary), the panel recommended against switching to the biosimilar of the first TNFi (e.g., switching from originator infliximab to infliximab-dyyb), as the clinical response would not be expected to be different. The panel also recommended against the addition of sulfasalazine or methotrexate to TNFi in cases of nonresponse to TNFi, judging any benefit would likely be marginal. The addition of sulfasalazine could be considered in the rare patient whose axial symptoms are well-controlled with TNFi but who has active peripheral arthritis.</p><p>In adults with either active or stable AS on treatment with TNFi, we conditionally recommend against co-treatment with low-dose methotrexate (new, PICO 64).</p><p>In rheumatoid arthritis, the likelihood of TNFi discontinuation is lower among patients who receive co-treatment with methotrexate, perhaps by reducing the development of antidrug antibodies <ref type="bibr" target="#b30">(31)</ref>. In AS, it is less clear whether the duration of TNFi use, and by inference their effectiveness, is similarly prolonged <ref type="bibr" target="#b31">(32)</ref>. Data from observational studies are conflicting, although some studies, primarily of infliximab, showed longer TNFi treatment when methotrexate was co-administered (see Supplementary Appendix 6 at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>). Clinical responses were not greater among patients who received co-treatment with methotrexate. In the absence of convincing evidence of benefit, and due to greater burden for patients, the panel recommended against routine co-administration of methotrexate with TNFi, although its use could be considered in patients treated with infliximab.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Recommendations for the treatment of patients with stable AS</head><p>In adults with stable AS, we conditionally recommend on-demand treatment with NSAIDs over continuous treatment with NSAIDs (PICO 1).</p><p>This recommendation applies to patients whose AS has been stable while not receiving any pharmacologic treatment. In this group, the panel considered that the potential toxicities of continuous NSAID treatment outweighed the uncertain benefit of less radiographic progression. On-demand treatment should be considered for short-term symptom recurrences (flares).</p><p>In adults with stable AS receiving treatment with TNFi and NSAIDs, we conditionally recommend continuing treatment with TNFi alone over continuing both medications (PICO 11).</p><p>In adults with stable AS receiving treatment with TNFi and a conventional synthetic antirheumatic drug, we conditionally recommend continuing treatment with TNFi alone over continuing both medications ( <ref type="bibr">PICO 12)</ref>.</p><p>No new studies have directly compared outcomes between patients who continued combination treatment and those who discontinued either NSAIDs or a conventional synthetic antirheumatic drug (csARD). The NSAID-sparing potential of etanercept was demonstrated in a recent trial <ref type="bibr" target="#b32">(33)</ref>. The panel judged these recommendations primarily based on symptom control, rather than on any potential effect of combination therapy on future spinal fusion. In stable patients, a trial of withdrawing either the NSAIDs or the csARD should be considered, due to the likelihood of greater toxicity with the long-term use of more than one medication. However, on-demand NSAID treatment for control of intermittent symptoms is recommended for patients with good responses to previous courses of NSAIDs.</p><p>In adults with stable AS receiving treatment with a biologic, we conditionally recommend against discontinuation of the biologic (new, PICO 66).</p><p>In adults with stable AS receiving treatment with a biologic, we conditionally recommend against tapering of the biologic dose as a standard approach (new, PICO 65).</p><p>Data from several observational studies suggest that discontinuation of TNFi after achieving either remission or low disease activity results in relapses in 60-74% of patients, occasionally within a few weeks to months from discontinuation (see Supplementary Appendix 6, available at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary. wiley.com/doi/10.1002/art.41042/ abstract</ref>). Although the data only concerned TNFi discontinuation, the panel judged that a similar recommendation would also apply to other biologics. In general, treatment with a biologic should be planned to be continued long-term, barring toxicities. Discontinuation might be considered in patients in sustained remission (i.e., several years), with the anticipation that only one-third of patients would not experience relapse. Patient preferences should help guide this decision.</p><p>Tapering of TNFi could entail a change in either the dose or frequency of administration. Two controlled unblinded trials of tapering etanercept to 25 mg weekly versus maintaining the dose at 50 mg weekly in patients with stable AS showed that remission or partial remission was somewhat less likely among those in whom etanercept was tapered <ref type="bibr" target="#b33">(34,</ref><ref type="bibr" target="#b34">35)</ref>. In small observational studies, 53-70% of patients were still receiving their reduced dose at 2 years, but there is little evidence regarding maintenance of long-term remission after tapering of TNFi (see Supplementary Appendix 6, available at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlinelibrary. wiley.com/doi/10.1002/art.41042/abstract</ref>). Therefore, the panel recommended against tapering of biologics as a standard approach. One condition in which tapering could be considered would be in patients with prolonged stable AS, if the patient and provider engage in shared decision-making.</p><p>In adults with stable AS receiving an originator TNFi, we strongly recommend continuing treatment with the originator TNFi over mandated switching to its biosimilar (new, PICO 63).</p><p>While the efficacy of originator and biosimilar TNFi is comparable, and although either could be chosen to initiate new courses of TNFi treatment, it was the opinion of the panel to recommend against mandated switching to a biosimilar during the course of treatment, in the absence of evidence of interchangability. Medication changes can increase the risk of destabilizing a patient's condition, and the panel judged that additional data were needed to understand the frequency of potential problems and concerns associated with switching patients who were stable on an originator TNFi to its biosimilar. Given these concerns, the panel judged that there should be a compelling rationale for switching medications, particularly in light of the marginal cost savings apparent for US patients <ref type="bibr" target="#b35">(36)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Recommendations for adults with AS-related comorbidities</head><p>In adults with AS and recurrent uveitis, we conditionally recommend treatment with TNFi monoclonal antibodies over treatment with other biologics (PICO 29).</p><p>Evidence for this recommendation is limited to indirect comparisons of the rates of acute uveitis episodes in clinical trials or observational studies, rather than from direct comparisons (see Supplementary Appendix 6, available at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley. com/doi/10.1002/art.41042/ abstract</ref>). Many reports showed overall rates of uveitis without separately reporting recurrences as opposed to incident episodes <ref type="bibr" target="#b36">(37)</ref>. The rates were generally lower for adalimumab and infliximab compared to etanercept. For example, a large observational study demonstrated rates of uveitis (per 100 patient-years) in patients receiving adalimumab, infliximab, and etanercept of 13.6, 27.5, and 60.3, respectively, compared to pretreatment rates of 36.8, 45.5, and 41.6, respectively <ref type="bibr" target="#b37">(38)</ref>. Adalimumab or infliximab are preferred over etanercept for the treatment of AS in patients with recurrent uveitis. Certolizumab or golimumab may also be considered, although supporting data are less substantial <ref type="bibr" target="#b38">(39,</ref><ref type="bibr" target="#b39">40)</ref>. Data from clinical trials suggest that rates of uveitis flares were not different between patients with AS treated with secukinumab and those treated with placebo, but more evidence is needed. Secukinumab was not efficacious in the treatment of panuveitis or posterior uveitis <ref type="bibr" target="#b40">(41)</ref>. Rates of uveitis flares among patients treated with ixekizumab have not been well-defined.</p><p>In adults with AS and IBD, we conditionally recommend treatment with TNFi monoclonal antibodies over treatment with other biologics (PICO 32).</p><p>This recommendation was based on limited indirect evidence on the risks of flares or new onset of IBD among patients with AS during treatment with biologics, and the much larger literature on the treatment of IBD in general. Patients with AS treated with infliximab or adalimumab have lower risks of IBD exacerbations than those treated with etanercept (see Supplementary Appendix 6, on the Arthritis &amp; Rheumatology web site at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>). Infliximab, adalimumab, and certolizumab are approved for the treatment of Crohn's disease, and infliximab, adalimumab, and golimumab are approved for the treatment of ulcerative colitis, while etanercept is not approved for either condition <ref type="bibr" target="#b41">(42,</ref><ref type="bibr" target="#b42">43)</ref>. This evidence is the basis for the recommendation favoring TNFi monoclonal antibody use in patients with AS and coexisting IBD. The choice of the particular TNFi monoclonal antibody should be made in consultation with the patient's gastroenterologist. Secukinumab has been associated with the new onset, or exacerbation, of Crohn's disease <ref type="bibr" target="#b43">(44)</ref><ref type="bibr" target="#b44">(45)</ref><ref type="bibr" target="#b45">(46)</ref>. Increased risks of IBD exacerbation appear to also occur with ixekizumab <ref type="bibr" target="#b46">(47)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Recommendations for the treatment of patients with either active or stable nonradiographic axial spondyloarthritis</head><p>Parallel questions on pharmacologic treatment were investigated for patients with nonradiographic axial SpA. There were no relevant published data for 19 questions. There was high-quality evidence only for the use of TNFi in nonradiographic axial SpA, which was examined in several clinical trials. Low-quality or very low-quality evidence from single studies suggested no differences in outcomes among different TNFi in nonradiographic axial SpA, high likelihood of relapse following discontinuation of TNFi, and no association between co-treatment with nonbiologics and TNFi persistence (see Supplementary Appendix 6, available at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>| 1609</head><p>Therefore, the recommendations for nonradiographic axial SpA were largely extrapolated from evidence in AS (Table <ref type="table" target="#tab_3">3</ref>). The recommendations were identical in both patient groups with 1 notable exception: treatment with secukinumab or ixekizumab was strongly recommended over no treatment with secukinumab or ixekizumab in patients with AS, while use of these medications was conditionally recommended in patients with nonradiographic axial SPA, because trials in nonradiographic axial SPA have not been reported. Evidence on tofacitinib in nonradiographic axial SpA has not been reported.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Disease activity assessment and imaging</head><p>In adults with active AS, we conditionally recommend against using the treat-to-target strategy, which aims at a target of an Ankylosing Spondylitis Disease Activity Score &lt;1.3 (or 2.1), over a treatment strategy based on physician assessment (new, PICO 67).</p><p>The concept of treat-to-target strategies is well-founded in chronic disease management for conditions that have an accurate measure of disease activity (often one that is asymptomatic, as in blood pressure or glycosylated hemoglobin), a tight link between this disease activity measure and future health outcomes, and evidence that maintaining a particular target in the disease activity measure is closely associated with better long-term health <ref type="bibr" target="#b47">(48)</ref>. The treat-to-target approach in AS is indirectly supported by associations between levels of AS activity and future radiographic progression but lacks robust direct evidence. Because adoption of this strategy would place additional burdens on patients and providers, the panel judged that more convincing evidence of benefit should be present before endorsing this change in practice. There was also concern that focus on a specific target could lead to rapid cycling through all currently available treatments in some patients. As reflected in the 2015 guidelines, quantifying disease activity is important to help guide treatment decisions.</p><p>In adults with AS of unclear activity while receiving a biologic, we conditionally recommend obtaining a spinal or pelvis MRI to assess activity (new, PICO 68).</p><p>In adults with nonradiographic axial SpA of unclear activity while receiving a biologic, we conditionally recommend obtaining a pelvis MRI to assess activity (new, PICO 81).</p><p>Because physical and laboratory measures are often normal despite active axial SpA, and because symptoms may be nonspecific, it may be difficult to know whether a patient is experiencing inflammation that warrants a change in treatment. Limited evidence suggests that knowledge of MRI findings in the spine and sacroiliac joints may alter treatment recommendations. However, the degree of inflammatory change on MRI may not correlate with treatment responses, and the location of inflam-mation on MRI may not correlate with the location of pain <ref type="bibr" target="#b48">(49)</ref> (see Supplementary Appendix 6, available at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary. wiley.com/doi/10.1002/art.41042/ abstract</ref>). The panel judged that MRI could provide useful information in cases where the level of disease activity was unclear and where this information would influence treatment decisions. For patients with nonradiographic axial SpA, the imaging should focus on the sacroiliac joints. In interpreting MRI results, it is important to keep in mind the range and frequency of abnormalities, including bone marrow edema lesions, that may occur in individuals without axial SpA and that may not represent inflammation due to axial SpA <ref type="bibr" target="#b49">(50,</ref><ref type="bibr" target="#b50">51)</ref>. MRI is not recommended in patients in whom disease activity is either clearly clinically active or clinically stable, or when the results of MRI would not be expected to change treatment.</p><p>In adults with stable AS, we conditionally recommend against obtaining a spinal or pelvis MRI to confirm inactivity (new, PICO 69).</p><p>In adults with stable nonradiographic axial SpA, we conditionally recommend against obtaining a spine or pelvis MRI to confirm inactivity (new, PICO 82).</p><p>Because the clinical assessment of inflammation in axial SpA has many limitations, questions may arise about whether subclinical inflammation that could be detected by MRI is being "missed" by either the physical examination, symptoms, or laboratory studies. Given the lack of evidence that obtaining an MRI in stable patients improves clinical outcomes, the only moderate sensitivity and specificity of MRI-defined abnormalities for measurement of activity in axial SpA, the burden of testing, and concern for possible overtreatment, the panel recommended against obtaining an MRI in this setting. MRI could be considered in circumstances where the clinician and patient differ in their assessment of whether the disease is stable.</p><p>In adults with active or stable AS receiving any treatment, we conditionally recommend against obtaining repeat spine radiographs at a scheduled interval (e.g., every 2 years) as a standard approach (new, PICO 70).</p><p>In adults with active or stable nonradiographic axial SpA on any treatment, we conditionally recommend against obtaining repeat spine radiographs at a scheduled interval (e.g., every 2 years) as a standard approach (new, PICO 83).</p><p>Spine radiographs are useful for the diagnosis of axial SpA, in evaluating the extent of spinal fusion, and for investigating new spinal pain in patients with established AS. In research studies, small changes in the extent of spine damage can be detected in 20-35% of patients with AS over a 2-year interval (see Supplementary Appendix 6, available at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41042/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract</ref>). There is no evidence that monitoring serial changes in | 1611 spine radiographs at a regular interval leads to better patient outcomes, and data balancing a clinical benefit with the risk of radiation exposure are absent. Therefore, the panel recommended against repeating spine radiographs as a standard approach. In the absence of clinical indications, repeat spine radiographs could be considered on an ad hoc basis for counseling patients on the progression of their disease, which may help in career and life planning.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>F. Summary of recommendations</head><p>Figure <ref type="figure" target="#fig_0">1</ref> presents a diagram of the main treatment recommendations for active and stable AS, integrating the new recommendations with the 2015 recommendations that were not updated in this review.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This update was primarily motivated by the availability of new treatment options, notably secukinumab, ixekizumab, tofacitinib, and TNFi biosimilars, for patients with axial SpA. Providers and patients have questions on where these new medications fit in the pharmacologic strategy, and how originator TNFi, sulfasalazine, and NSAIDs should be used given these new options. Based on the current evidence and the considerations of the panel, NSAIDs and TNFi remain the primary classes of medications for the treatment of AS and nonradiographic axial SpA. Secukinumab or ixekizumab is recommended for patients with active disease who have heart failure or demyelinating disease as a contraindication to TNFi, and in primary nonresponders to TNFi. Secukinumab and ixekizumab are not recommended in patients with IBD or recurrent uveitis, as TNFi monoclonal antibodies are better options. Tofacitinib is a potential second-line option for patients with contraindications to TNFi other than infections. Recommendations regarding tofacitinib may change pending the results of larger clinical trials.</p><p>Several of the 2015 recommendations were modified in this update. The current recommendation is conditionally in favor of use of sulfasalazine in limited clinical circumstances, whereas the 2015 recommendations had this as an exception to the general recommendation against the use of conventional synthetic antirheumatic drugs. In the 2015 recommendations, sulfasalazine and pamidronate were suggested as alternatives for the treatment of patients with active disease and contraindications to TNFi, while the current recommendations suggest use of secukinumab or ixekizumab in most of these cases (except patients with high risk of infections). In cases of failure of TNFi, the 2015 guidelines included a conditional recommendation for a trial of a second TNFi and against use of a non-TNFi biologic, whereas the current guidelines differentiate treatment recommendations based on whether there was primary or secondary nonresponse to the TNFi. For the treatment of patients with recurrent uveitis, the previous guidelines specified conditional use of infliximab or adalimumab, while the update broadened this recommendation to include TNFi monoclonal antibodies generally. Similarly, for patients with coexisting IBD, the update includes a conditional recommendation for TNFi monoclonal antibodies over other biologics, rather than over only etanercept. Finally, the recommendation for use of TNFi in patients with active nonradiographic axial SpA was changed from conditional to strong.</p><p>New questions on the treatment of patients with stable disease were addressed in this update. Discontinuation of biologics is not recommended due to the likelihood for symptom recurrence. If tapering is considered, patients should be counseled regarding the potential for increased disease activity. Co-treatment with low-dose methotrexate is not generally recommended, but ongoing studies will shed further light on this question. Switching to a biosimilar during the course of treatment with TNFi is also not recommended, echoing the concerns previously expressed by the ACR <ref type="bibr" target="#b51">(52)</ref>.</p><p>Imaging remains a central tool in the diagnosis of axial SpA, but its role in monitoring patients is less well-defined. Spine and/or pelvis MRI could aid in the evaluation of patients in whom the degree of active inflammation is uncertain, and especially in those for whom the findings would change management. MRI is not recommended to seek subclinical inflammation in patients with stable disease (as defined in Table <ref type="table" target="#tab_0">1</ref>). However, MRI could be considered in circumstances where it may inform shared decision-making. We recommend against obtaining spine radiographs on scheduled intervals to monitor progression. This practice entails radiation exposure and would not alter treatment in most cases.</p><p>We used the GRADE method to develop these treatment recommendations in a way that was transparent, systematic, and explicit, and that was informed by the medical evidence as well as patient preferences. The major limitation of these guidelines is the very low quality of evidence for many recommendations, which necessitated reliance on the clinical expertise of the panel. For nonradiographic axial SpA, most recommendations were based on extrapolation of results from studies in AS. We tried to identify the most common and consequential treatment questions, so that the recommendations would be useful in guiding clinical decision-making. The low quality of evidence for many questions is an indication that research has not yet tackled many of the most important treatment questions. As more treatment options become available, this problem will grow. Importantly, failure to recommend a particular medication does not imply that it is contraindicated. Key evidence gaps include the comparative effectiveness and safety of different biologics, the optimal sequencing of treatments, and the role of NSAIDs.</p><p>This update addressed only a subset of treatment questions. The 2015 recommendations that were not reexamined are to be considered extant. Recommendations are meant to describe the approach to treatment of the typical patient and cannot anticipate all possible clinical scenarios. Application of these recommendations must be individualized, and requires careful assessment, sound clinical judgment of each patient's circumstances, and consideration of a patient's preferences.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Summary of the main recommendations for the treatment of patients with A, active ankylosing spondylitis and B, stable ankylosing spondylitis. AS = ankylosing spondylitis; NSAIDs = nonsteroidal antiinflammatory drugs; GC = glucocorticoid; SSZ = sulfasalazine; MTX = methotrexate; LEF = leflunomide; APR = apremilast; THL = thalidomide; PAM = pamidronate; TNFi = tumor necrosis factor inhibitor; TOF = tofacitinib; SEC = secukinumab; IXE = ixekizumab; IBD = inflammatory bowel disease; csARD = conventional synthetic antirheumatic drugs; ESR = erythrocyte sedimentation rate; CRP = C-reactive protein level; ASDAS = Ankylosing Spondylitis Disease Activity Score; MRI = magnetic resonance imaging; PICO = population, intervention, comparison, and outcomes.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Definitions of key terms*</figDesc><table><row><cell>Term</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Recommendations for the treatment of adults with AS* In adults with active AS despite treatment with NSAIDs, we conditionally recommend treatment with sulfasalazine, methotrexate, or tofacitinib over no treatment with these medications. Sulfasalazine or methotrexate should be considered only in patients with prominent peripheral arthritis or when TNFi are not available.</figDesc><table><row><cell></cell><cell>Level of</cell><cell></cell></row><row><cell>Recommendation</cell><cell cols="2">evidence PICO</cell></row><row><cell>RECOMMENDATIONS FOR ADULTS WITH ACTIVE AS</cell><cell></cell><cell></cell></row><row><cell>1. We strongly recommend treatment with NSAIDs over no treatment with NSAIDs. †</cell><cell>Low</cell><cell>2</cell></row><row><cell>2. We conditionally recommend continuous treatment with NSAIDs over on-demand treatment with NSAIDs.</cell><cell>Low to</cell><cell>1</cell></row><row><cell></cell><cell>moderate</cell><cell></cell></row><row><cell>3. We do not recommend any particular NSAID as the preferred choice. †</cell><cell>Low to</cell><cell>3</cell></row><row><cell></cell><cell>moderate</cell><cell></cell></row><row><cell cols="2">4. Very low to</cell><cell>7</cell></row><row><cell></cell><cell>moderate</cell><cell></cell></row><row><cell>5. In adults with active AS despite treatment with NSAIDs, we conditionally recommend treatment with TNFi over</cell><cell>Very low</cell><cell></cell></row><row><cell>treatment with tofacitinib.</cell><cell></cell><cell></cell></row><row><cell>6. In adults with active AS despite treatment with NSAIDs, we strongly recommend treatment with TNFi over no</cell><cell>High</cell><cell>6</cell></row><row><cell>treatment with TNFi.</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Very low</cell><cell></cell></row><row><cell>11. In adults with active AS despite treatment with NSAIDs and who have contraindications to TNFi, we conditionally</cell><cell>Low</cell><cell>8</cell></row><row><cell>recommend treatment with secukinumab or ixekizumab over treatment with sulfasalazine, methotrexate, or</cell><cell></cell><cell></cell></row><row><cell>tofacitinib.</cell><cell></cell><cell></cell></row><row><cell>12. In adults with active AS despite treatment with the first TNFi used, we conditionally recommend treatment with</cell><cell>Very low</cell><cell></cell></row><row><cell>secukinumab or ixekizumab over treatment with a different TNFi in patients with primary nonresponse to TNFi.</cell><cell></cell><cell></cell></row><row><cell>13. In adults with active AS despite treatment with the first TNFi used, we conditionally recommend treatment with a</cell><cell>Very low</cell><cell></cell></row><row><cell>different TNFi over treatment with a non-TNFi biologic in patients with secondary nonresponse to TNFi.</cell><cell></cell><cell></cell></row><row><cell>14. In adults with active AS despite treatment with the first TNFi used, we strongly recommend against switching to</cell><cell>Very low</cell><cell></cell></row><row><cell>treatment with a biosimilar of the first TNFi.</cell><cell></cell><cell></cell></row><row><cell>15. In adults with active AS despite treatment with the first TNFi used, we conditionally recommend against the addi-</cell><cell>Very low</cell><cell>9</cell></row><row><cell>tion of sulfasalazine or methotrexate in favor of treatment with a new biologic.</cell><cell></cell><cell></cell></row><row><cell>16. We strongly recommend against treatment with systemic glucocorticoids. †</cell><cell>Very low</cell><cell>4</cell></row><row><cell>17. In adults with isolated active sacroiliitis despite treatment with NSAIDs, we conditionally recommend treatment</cell><cell>Very low</cell><cell></cell></row><row><cell>with locally administered parenteral glucocorticoids over no treatment with local glucocorticoids. †</cell><cell></cell><cell></cell></row><row><cell>18. In adults with stable axial disease and active enthesitis despite treatment with NSAIDs, we conditionally recom-</cell><cell>Very low</cell><cell></cell></row><row><cell>mend using treatment with locally administered parenteral glucocorticoids over no treatment with local glucocor-</cell><cell></cell><cell></cell></row><row><cell>ticoids. Peri-tendon injections of Achilles, patellar, and quadriceps tendons should be avoided. †</cell><cell></cell><cell></cell></row><row><cell>19. In adults with stable axial disease and active peripheral arthritis despite treatment with NSAIDs, we conditionally</cell><cell>Very low</cell><cell></cell></row><row><cell>recommend using treatment with locally administered parenteral glucocorticoids over no treatment with local</cell><cell></cell><cell></cell></row><row><cell>glucocorticoids. †</cell><cell></cell><cell></cell></row><row><cell>20. We strongly recommend treatment with physical therapy over no treatment with physical therapy. †</cell><cell>Moderate</cell><cell></cell></row><row><cell>21. We conditionally recommend active physical therapy interventions (supervised exercise) over passive physical</cell><cell>Very low</cell><cell></cell></row><row><cell>therapy interventions (massage, ultrasound, heat). †</cell><cell></cell><cell></cell></row><row><cell>22. We conditionally recommend land-based physical therapy interventions over aquatic therapy interventions. †</cell><cell>Moderate</cell><cell></cell></row><row><cell>RECOMMENDATIONS FOR ADULTS WITH STABLE AS</cell><cell></cell><cell></cell></row><row><cell>23. We conditionally recommend on-demand treatment with NSAIDs over continuous treatment with NSAIDs.</cell><cell>Low to</cell><cell>1</cell></row><row><cell></cell><cell>moderate</cell><cell></cell></row><row><cell>24. In adults receiving treatment with TNFi and NSAIDs, we conditionally recommend continuing treatment with TNFi</cell><cell>Very low</cell><cell></cell></row><row><cell>alone compared to continuing both treatments.</cell><cell></cell><cell></cell></row><row><cell>25. In adults receiving treatment with TNFi and a conventional synthetic antirheumatic drug, we conditionally recom-</cell><cell>Very low</cell><cell></cell></row><row><cell>mend continuing treatment with TNFi alone over continuing both treatments.</cell><cell></cell><cell></cell></row><row><cell>26. In adults receiving treatment with a biologic, we conditionally recommend against discontinuation of the biologic.</cell><cell>Very low to</cell><cell></cell></row><row><cell></cell><cell>low</cell><cell></cell></row><row><cell></cell><cell cols="2">(Continued)</cell></row></table><note><p>7. We do not recommend any particular TNFi as the preferred choice. Moderate 5 8. In adults with active AS despite treatment with NSAIDs, we strongly recommend treatment with secukinumab or ixekizumab over no treatment with secukinumab or ixekizumab. High 9. In adults with active AS despite treatment with NSAIDs, we conditionally recommend treatment with TNFi over treatment with secukinumab or ixekizumab. Very low 10. In adults with active AS despite treatment with NSAIDs, we conditionally recommend treatment with secukinumab or ixekizumab over treatment with tofacitinib. recommend prescription of topical glucocorticoids over no prescription for prompt at-home use in the event of eye symptoms to decrease the severity or duration of iritis episodes. † Very low 39. In adults with recurrent iritis, we conditionally recommend treatment with TNFi monoclonal antibodies over treatment with other biologics. Low 40. In adults with inflammatory bowel disease, we do not recommend any particular NSAID as the preferred choice to decrease the risk of worsening of inflammatory bowel disease symptoms. † Very low 41. In adults with inflammatory bowel disease, we conditionally recommend treatment with TNFi monoclonal antibodies over treatment with other biologics. Very low DISEASE ACTIVITY ASSESSMENT, IMAGING, AND SCREENING 42. We conditionally recommend the regular-interval use and monitoring of a validated AS disease activity measure. † Very low 43. We conditionally recommend regular-interval use and monitoring of CRP concentrations or ESR over usual care without regular CRP or ESR monitoring. † Very low 44. In adults with active AS, we conditionally recommend against using a treat-to-target strategy using a target of ASDAS &lt;1.3 (or 2.1) over a treatment strategy based on physician assessment. Low 45. We conditionally recommend screening for osteopenia/osteoporosis with DXA scan over no screening. † Very low 46. In adults with syndesmophytes or spinal fusion, we conditionally recommend screening for osteoporosis/osteopenia with DXA scan of the spine as well as the hips, compared to DXA scan solely of the hip or other non-spine sites. † Very low 47. We strongly recommend against screening for cardiac conduction defects with electrocardiograms. † Very low 48. We strongly recommend against screening for valvular heart disease with echocardiograms. † Very low 49. In adults with AS of unclear activity while on a biologic, we conditionally recommend obtaining a spinal or pelvis MRI to assess activity.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>(Cont'd)   </figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Recommendations for the treatment of adults with nonradiographic axial SpA* In adults with active nonradiographic axial SpA despite treatment with NSAIDs, we conditionally recommend treatment with sulfasalazine, methotrexate, or tofacitinib over no treatment with these medications. In adults with active nonradiographic axial SpA despite treatment with NSAIDs, we strongly recommend treatment with TNFi over no treatment with TNFi. High 57. We do not recommend any particular TNFi as the preferred choice.Very low 58. In adults with active nonradiographic axial SpA despite treatment with NSAIDs, we conditionally recommend treatment with TNFi over treatment with tofacitinib. In adults with active nonradiographic axial SpA despite treatment with NSAIDs, we conditionally recommend treatment with secukinumab or ixekizumab over no treatment with secukinumab or ixekizumab.</figDesc><table><row><cell></cell><cell>Level of</cell></row><row><cell>Recommendation</cell><cell>evidence PICO</cell></row><row><cell>RECOMMENDATIONS FOR ADULTS WITH ACTIVE NONRADIOGRAPHIC AXIAL SpA</cell><cell></cell></row><row><cell>52. We strongly recommend treatment with NSAIDs over no treatment with NSAIDs. †</cell><cell>Very low</cell></row><row><cell>53. We conditionally recommend continuous treatment with NSAIDs over on-demand treatment with NSAIDs.</cell><cell>Very low</cell></row><row><cell>54. We do not recommend any particular NSAID as the preferred choice. †</cell><cell>Very low</cell></row><row><cell cols="2">55. Very low</cell></row><row><cell cols="2">56. Very low</cell></row><row><cell>59.</cell><cell></cell></row></table><note><p>Very low 60. In adults with active nonradiographic axial SpA despite treatment with NSAIDs, we conditionally recommend treatment with TNFi over treatment with secukinumab or ixekizumab. Very low 61. In adults with active nonradiographic axial SpA despite treatment with NSAIDs, we conditionally recommend treatment with secukinumab or ixekizumab over treatment with tofacitinib. Very low 62. In adults with active nonradiographic axial SpA despite treatment with NSAIDs and who have contraindications to TNFi, we conditionally recommend treatment with secukinumab or ixekizumab over treatment with sulfasalazine, methotrexate, or tofacitinib. Very low 63. In adults with active nonradiographic axial SpA and primary nonresponse to the first TNFi used, we conditionally recommend switching to secukinumab or ixekizumab over switching to a different TNFi. Very low 64. In adults with active nonradiographic axial SpA and secondary nonresponse to the first TNFi used, we conditionally recommend switching to a different TNFi over switching to a non-TNFi biologic. Very low 65. In adults with active nonradiographic axial SpA despite treatment with the first TNFi used, we strongly recommend against switching to the biosimilar of the first TNFi. Very low 66. In adults with active nonradiographic axial SpA despite treatment with the first TNFi used, we conditionally recommend against the addition of sulfasalazine or methotrexate in favor of treatment with a different biologic. Very low 67. We strongly recommend against treatment with systemic glucocorticoids. † Very low 68. In adults with isolated active sacroiliitis despite treatment with NSAIDs, we conditionally recommend treatment with local glucocorticoids over no treatment with local glucocorticoids. † Very low 69. In adults with active enthesitis despite treatment with NSAIDs, we conditionally recommend using treatment with locally administered parenteral glucocorticoids over no treatment with local glucocorticoids. Peri-tendon injections of Achilles, patellar, and quadriceps tendons should be avoided. † Very low 70. In adults with active peripheral arthritis despite treatment with NSAIDs, we conditionally recommend using treatment with locally administered parenteral glucocorticoids over no treatment with local glucocorticoids. † Very low 77. In adults receiving treatment with a biologic, we conditionally recommend against discontinuation of the biologic. Low 78. In adults receiving treatment with a biologic, we conditionally recommend against tapering of the biologic dose as a standard approach. Very low 79. In adults receiving treatment with an originator TNFi, we strongly recommend continuation of treatment with the originator TNFi over mandated switching to its biosimilar. Very low (Continued)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3 .</head><label>3</label><figDesc>MRI) (see Supplementary Appendix 6, on the Arthritis &amp; Rheumatology web site at http:// onlin elibr ary.wiley.com/doi/10.1002/art.41042/ abstract).The panel judged that the evidence justified a strong recommenda-In adults with active nonradiographic axial SpA, we conditionally recommend against using a treat-to-target strategy using a target of ASDAS &lt;1.3 (or 2.1) over a treatment strategy based on physician assessment. In adults with active or stable nonradiographic axial SpA on any treatment, we conditionally recommend against obtaining repeat spine radiographs at a scheduled interval (e.g., every 2 years) as a standard approach. (Cont'd) tion for use of TNFi in patients whose AS remained active (as defined in Table1) despite treatment with NSAIDs. The panel recommended that lack of response (or intolerance) to at least 2 different NSAIDs at maximal doses over 1 month, or incomplete responses to at least 2 different NSAIDs over 2 months, would be adequate trials with which to judge NSAID responsiveness prior to escalating to treatment with TNFi.</figDesc><table><row><cell></cell><cell>Level of</cell><cell></cell></row><row><cell>Recommendation</cell><cell cols="2">evidence PICO</cell></row><row><cell>RECOMMENDATIONS FOR ADULTS WITH ACTIVE OR STABLE NONRADIOGRAPHIC AXIAL SpA</cell><cell></cell><cell></cell></row><row><cell>80. In adults receiving treatment with TNFi, we conditionally recommend against co-treatment with low-dose metho-</cell><cell>Low</cell><cell>77</cell></row><row><cell>trexate.</cell><cell></cell><cell></cell></row><row><cell>DISEASE ACTIVITY ASSESSMENT AND IMAGING</cell><cell></cell><cell></cell></row><row><cell>81. We conditionally recommend the regular-interval use and monitoring of a validated AS disease activity measure. †</cell><cell>Very low</cell><cell>56</cell></row><row><cell>82. We conditionally recommend regular-interval use and monitoring of the CRP concentrations or ESR over usual care</cell><cell>Very low</cell><cell>57</cell></row><row><cell>without regular CRP or ESR monitoring. †</cell><cell></cell><cell></cell></row><row><cell cols="2">83. Very low</cell><cell>80</cell></row><row><cell>84. In adults with nonradiographic axial SpA of unclear activity while on a biologic, we conditionally recommend obtain-</cell><cell>Very low</cell><cell>81</cell></row><row><cell>ing a pelvis MRI to assess activity.</cell><cell></cell><cell></cell></row><row><cell>85. In adults with stable nonradiographic axial SpA, we conditionally recommend against obtaining a spinal or pelvis</cell><cell>Very low</cell><cell>82</cell></row><row><cell>MRI to confirm inactivity.</cell><cell></cell><cell></cell></row><row><cell cols="2">86. Very low</cell><cell>83</cell></row></table><note><p><p><p><p>* SpA = spondyloarthritis; PICO = population, intervention, comparison, and outcomes; NSAIDs = nonsteroidal antiinflammatory drugs; TNFi = tumor necrosis factor inhibitor; AS = ankylosing spondylitis; CRP = C-reactive protein; ESR = erythrocyte sedimentation rate; ASDAS = Ankylosing Spondylitis Disease Activity Score; MRI = magnetic resonance imaging.</p>† These recommendations were from 2015 and were not reviewed in this update. The number preceding the recommendation is the recommendation number and is referenced as bracketed numbers in Figure</p>1</p>.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Cassie Shafer</rs> and <rs type="person">Elin Aslanyan</rs> of the SAA for their partnership on this project. We thank <rs type="institution">SPARTAN</rs> for its partnership on this project. We thank our patient representatives for adding valuable perspectives. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Ms Regina Parker</rs> for assistance in organizing the face-toface meeting and coordinating the administrative aspects of the project, and <rs type="person">Ms Robin Lane</rs> for assistance in manuscript preparation. We thank <rs type="person">Ms Janet Waters</rs> for help in developing the literature search strategy and performing the literature search and updates, and <rs type="person">Ms Janet Joyce</rs> for peer-reviewing the literature search strategy.</p></div>
+			</div>
+			<div type="funding">
+<div><p>The views expressed herein do not necessarily represent those of the <rs type="funder">National Institutes of Health</rs> or the <rs type="institution">United States Department of Veterans Affairs</rs>. Supported by the <rs type="funder">American College of Rheumatology</rs>, the <rs type="institution">Spondylitis Association of America</rs>, and the <rs type="funder">Spondyloarthritis Research and Treatment Network</rs>. <rs type="person">Dr. Ward</rs>'s work was supported by the <rs type="funder">NIH</rs> (<rs type="programName">Intramural Research Program</rs> grant <rs type="grantNumber">ZIA-AR-041153</rs> from the <rs type="funder">National Institute of Arthritis and Musculoskeletal and Skin Diseases)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_8vetkCV">
+					<idno type="grant-number">ZIA-AR-041153</idno>
+					<orgName type="program" subtype="full">Intramural Research Program</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be published. Dr. Ward had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. Study conception and design. Ward, Deodhar, Turner, Caplan. Acquisition of data. Ward, Deodhar, Shah, Sullivan, Turgunbaev, Oristaglio, Caplan. Analysis and interpretation of data. Ward, Deodhar, Gensler, Dubreuil, Yu, Khan, Haroon, Borenstein, Wang, Biehl, Fang, Louie, Majithia, Ng, Bigham, Pianin, Shah, Sullivan, Turgunbaev, Oristaglio, Maksymowych, Caplan.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ankylosing spondylitis and axial spondyloarthritis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Taurog</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chhabra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Colbert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">374</biblScope>
+			<biblScope unit="page" from="2563" to="2574" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Evaluation of diagnostic criteria for ankylosing spondylitis: a proposal for modification of the New York criteria</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Der Linden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Valkenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cats</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="361" to="368" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Epidemiology of axial spondyloarthritis: an update</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="137" to="143" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The development of the Assessment of Spondy-loArthritis international Society classification criteria for axial spondyloarthritis (part II): validation and final selection</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rudwaleit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heidje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Landewé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Listing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Akkoc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brandt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="777" to="783" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The burden of non-radiographic axial spondyloarthritis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boonen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sieper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heijde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dougados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bukowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Valluri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sem Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="556" to="562" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Quality of life in patients with ankylosing spondylitis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheum Dis Clin North Am</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="815" to="827" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment Network 2015 recommendations for the treatment of ankylosing spondylitis and nonradiographic axial spondyloarthritis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deodhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Gensler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="151" to="166" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tables</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brozek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="383" to="394" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Rating quality of evidence and strength of recommendations: going from evidence to recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="1049" to="1051" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Ixekizumab, an interleukin-17A antagonist in the treatment of ankylosing spondylitis or radiographic axial spondyloarthritis in patients previously untreated with biological diseasemodifying anti-rheumatic drugs (COAST-V): 16 week results of a phase 3 randomised, double-blind, active-controlled and placebocontrolled trial</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heijde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dougados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mease</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deodhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Maksymowych</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">392</biblScope>
+			<biblScope unit="page" from="2441" to="2451" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Efficacy and safety of ixekizumab in the treatment of radiographic axial spondyloarthritis: sixteenweek results from a phase III randomized, double-blind, placebocontrolled trial in patients with prior inadequate response to or intolerance of tumor necrosis factor inhibitors</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deodhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Poddubnyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pacheco-Tena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salvarani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lespessailles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rahman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="599" to="611" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Nonsteroidal antiinflammatory drugs reduce radiographic progression in patients with ankylosing spondylitis: a randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heijde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Landewé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Behier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Calin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Olivieri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1756" to="1765" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of continuous versus on-demand treatment of ankylosing spondylitis with diclofenac over 2 years on radiographic progression of the spine: results from a randomised multicentre trial (ENRADAS)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sieper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Listing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Poddubnyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Hermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Callhoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1438" to="1443" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A randomized controlled trial to study the efficacy of sulfasalazine for axial disease in ankylosing spondylitis</title>
+		<author>
+			<persName><forename type="first">Khanna</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kadiyala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Naidu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dhir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="308" to="314" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Effects of etanercept versus sulfasalazine in early axial spondyloarthritis on active inflammatory lesions as detected by whole-body MRI (ESTHER): a 48-week randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Hermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haibel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Althoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Listing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Burmester</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="590" to="596" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Clinical investigation of methotrexate in the treatment of ankylosing spondylitis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Altan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bingol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Karakoc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aydiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yurtkuran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yurtkuran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scand J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="255" to="259" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Is methotrexate effective in ankylosing spondylitis?</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Roychowdhury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bintley-Bagot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Bulgen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Tunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Moots</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1330" to="1332" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Efficacy of methotrexate in ankylosing spondylitis: a randomized, double blind, placebo controlled trial</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gonzalez-Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garcia-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vazquez-Del-Mercado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Munoz-Valle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Gamez-Nava</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1568" to="1574" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">No efficacy of subcutaneous methotrexate in active ankylosing spondylitis: a 16-week open-label trial</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haibel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Listing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rudwaleit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="419" to="421" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Tofacitinib in patients with ankylosing spondylitis: a phase II, 16-week, randomised, placebo-controlled, dose-ranging study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heijde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deodhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Drescher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fleishaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hendrikx</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1340" to="1347" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Comparative efficacy of tumor necrosis factor-α inhibitors in ankylosing spondylitis: a systematic review and Bayesian network metaanalysis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dasgupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="481" to="490" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A randomised, double-blind, multicentre, parallel-group, prospective study comparing the pharmacokinetics, safety, and efficacy of CT-P13 and innovator infliximab in patients with ankylosing spondylitis: the PLANETAS study</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hrycaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jeka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kovalenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lysenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Miranda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1605" to="1612" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A 2-year comparative open label randomized study | 1613 of efficacy and safety of etanercept and infliximab in patients with ankylosing spondylitis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Giardina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ferrante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ciccia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Impastato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Miceli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Principato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatol Int</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1437" to="1440" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Risk of tuberculosis in patients with chronic immune-mediated inflammatory diseases treated with biologics and tofacitinib: a systematic review and meta-analysis of randomized controlled trials and longterm extension studies</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Souto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Maneiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Salgado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Gomez-Reino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1872" to="1885" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Risk of hospitalised infection in rheumatoid arthritis patients receiving biologics following a previous infection while on treatment with anti-TNF therapy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Delzell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Levitan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1065" to="1071" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Secukinumab, a human anti-IL-17A monoclonal antibody, for moderate to severe Crohn&apos;s disease: unexpected results of a randomised, double-blind placebo-controlled trial</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hueber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Sands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lewitzky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vandemeulebroecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Reinisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Higgins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gut</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1693" to="1700" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Tofacitinib as induction and maintenance therapy for ulcerative colitis</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Sandborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Sands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D'</forename><surname>Haens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Vermeire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="page" from="1723" to="1736" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effectiveness and safety of adalimumab in patients with ankylosing spondylitis or psoriatic arthritis and history of anti-tumor necrosis factor therapy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rudwaleit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Den Bosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kupper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">R117</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Efficacy in current practice of switching between anti-tumour necrosis factor-α agents in spondyloarthropathies</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Paccou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Solau-Gervais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Houvenagel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Salleron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Luraschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Philippe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="714" to="720" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Does the reason for discontinuation of a first TNF inhibitor influence the effectiveness of a second TNF inhibitor in axial spondyloarthritis? Results from the Swiss Clinical Quality Management Cohort</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ciurea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Exer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tamborrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Steininger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Kissling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">71</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Rate of discontinuation and drug survival of biologic therapies in rheumatoid arthritis: a systematic review and meta-analysis of drug registries and health care databases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Souto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Maneiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Gomez-Reino</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="523" to="534" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The comparative one-year performance of antitumor necrosis factor α drugs in patients with rheumatoid arthritis, psoriatic arthritis, and ankylosing spondylitis: results from a longitudinal, observational, multicenter study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Heiberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Koldingsnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikkelsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rødevand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaufmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mowinckel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="234" to="240" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Evaluation of the nonsteroidal anti-inflammatory drug-sparing effect of etanercept in axial spondyloarthritis: results of the multicenter, randomized, double-blind, placebo-controlled SPARSE study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dougados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Combe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schaeverbeke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Miceli-Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Berenbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">481</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Is etanercept 25 mg once weekly as effective as 50 mg at maintaining response in patients with ankylosing spondylitis? A randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Elender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Doll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Macgregor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1177" to="1185" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Duration of remission after halving of the etanercept dose in patients with ankylosing spondylitis: a randomized, prospective, long-term, follow-up study</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Niccoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cassara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kaloudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nannini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biologics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Out-of-pocket costs for infliximab and its biosimilar for rheumatoid arthritis under Medicare part D</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yazdany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Dudley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tseng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="931" to="933" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Adalimumab effectively reduces the rate of anterior uveitis flares in patients with active ankylosing spondylitis: results of a prospective open-label study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rudwaleit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rødevand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Holck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vanhoof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="696" to="701" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Tumour necrosis factor inhibitor treatment and occurrence of anterior uveitis in ankylosing spondylitis: results from the Swedish biologics register</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Lindström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zverkova-Sandström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Olsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Forsblad-D'elia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Askling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1515" to="1521" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Observed incidence of uveitis following certolizumab pegol treatment in patients with axial spondyloarthritis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rudwaleit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Rosenbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Landewé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Marzo-Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sieper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heijde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="838" to="844" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Golimumab in refractory uveitis related to spondyloarthritis. Multicenter study of 15 patients</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Calvo-Río</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Santos-Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rubio-Romero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cordero-Coma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gallego-Flores</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="95" to="101" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Secukinumab in the treatment of noninfectious uveitis: results of three randomized, controlled clinical trials</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Dick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tugal-Tutkun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zierhut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Liew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bezlyak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ophthalmology</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="777" to="787" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Ulcerative colitis practice guidelines in adults: American College of Gastroenterology practice parameters committee</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kornbluth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sachar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Gastroenterol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="501" to="523" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">ACG clinical guideline: management of Crohn&apos;s disease in adults</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Lichtenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Loftus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Isaacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Regueiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Gerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Sands</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Gastroenterol</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="481" to="517" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Secukinumab, a human anti-IL-17A monoclonal antibody, for moderate to severe Crohn&apos;s disease: unexpected results of a randomised, double-blind placebo-controlled trial</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hueber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Sands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lewitzky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vandemeulebroecke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Reinisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Higgins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gut</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1693" to="1700" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A randomized, double-blind, placebo-controlled study to evaluate the safety, tolerability, and efficacy of AMG 827 in subjects with moderate to severe Crohn&apos;s disease</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Targan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Feagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vermeire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Panaccione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Melmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Blosch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gastroenterology</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page">e26</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Secukinumab, an interleukin-17a inhibitor, in ankylosing spondylitis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baeten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sieper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Baraliakos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dougados</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">373</biblScope>
+			<biblScope unit="page" from="2534" to="2548" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Inflammatory bowel disease among patients with psoriasis treated with ixekizumab: a presentation of adjudicated data from an integrated database of 7 randomized controlled and uncontrolled trials</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leonardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Langley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Warren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bachelez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Romiti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Acad Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="441" to="448" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Treat to target&apos;: moving targets from hypertension, hyperlipidaemia and diabetes to rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Atar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Birkeland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uhlig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="629" to="630" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Is the site of back pain related to the location of magnetic resonance imaging lesions in patients with chronic back pain? Results from the Spondyloarthritis Caught Early Cohort</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Hooge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Bruin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>De Beer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Den Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ramiro</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="717" to="723" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Magnetic resonance imaging of the sacroiliac joints indicating sacroiliitis according to the Assessment of SpondyloArthritis international Society definition in healthy individuals, runners, and women with postpartum back pain</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>De Hooge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van De Sande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Van Hoeven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>De Koning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1042" to="1048" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Patients with chronic back pain of short duration from the SPACE cohort: which MRI structural lesions in the sacroiliac joints and inflammatory and structural lesions in the spine are most specific for axial spondyloarthritis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Hooge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Den Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Navarro-Compán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reijnierse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Gaalen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fagerli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1308" to="1314" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">URL: www.rheum atolo gy.org/Porta ls/0/Files/ Biosi milars-Posit ion-State ment</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>American College of Rheumatology</publisher>
+		</imprint>
+	</monogr>
+	<note>Position statement: biosimilars</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

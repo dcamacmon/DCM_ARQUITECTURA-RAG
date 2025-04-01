@@ -1,0 +1,2386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases</title>
+				<funder>
+					<orgName type="full">American College of Rheumatology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MD</roleName><forename type="first">Anne</forename><forename type="middle">R</forename><surname>Bass</surname></persName>
+							<email>bassa@hss.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Eliza</forename><surname>Chakravarty</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Hospital for Special Surgery</orgName>
+								<orgName type="institution">Weill Cornell Med- icine</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elie</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Eliza Chakravarty</orgName>
+								<orgName type="department" key="dep2">MD: Oklahoma Medical Research Foundation</orgName>
+								<orgName type="institution">Elie A. Akl</orgName>
+								<address>
+									<settlement>Oklahoma City</settlement>
+									<region>MD, MPH PhD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Clifton</forename><forename type="middle">O</forename><surname>Bingham</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">American University of Beirut</orgName>
+								<address>
+									<settlement>Beirut</settlement>
+									<country>Lebanon;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Leonard</forename><surname>Calabrese</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><forename type="middle">C</forename><surname>Cappelli</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">American University of Beirut</orgName>
+								<address>
+									<settlement>Beirut</settlement>
+									<country>Lebanon;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sindhu</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">Cleveland Clinic Founda- tion</orgName>
+								<address>
+									<settlement>Cleveland</settlement>
+									<region>Ohio</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lisa</forename><forename type="middle">F</forename><surname>Imundo</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution" key="instit1">Mount Sinai Hospital</orgName>
+								<orgName type="institution" key="instit2">and University of Toronto</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MPH</roleName><forename type="first">Kevin</forename><forename type="middle">L</forename><surname>Winthrop</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Reuben</forename><forename type="middle">J</forename><surname>Arasaratnam</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="institution" key="instit1">Columbia University Irving Medical Center</orgName>
+								<orgName type="institution" key="instit2">Oregon Health &amp; Science University</orgName>
+								<address>
+									<settlement>Portland</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MSc</roleName><forename type="first">Lindsey</forename><forename type="middle">R</forename><surname>Baden</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Roberta</forename><surname>Berard</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Louis Bridges</surname><genName>Jr</genName></persName>
+						</author>
+						<author>
+							<persName><roleName>MBBS</roleName><forename type="first">Jonathan</forename><forename type="middle">T L</forename><surname>Cheah</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Polly</forename><forename type="middle">J</forename><surname>Ferguson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ida</forename><surname>Hakkarinen</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Karen</forename><forename type="middle">B</forename><surname>Onel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Grayson</forename><surname>Schultz</surname></persName>
+							<affiliation key="aff16">
+								<orgName type="institution">University of Iowa Carver College of Medicine</orgName>
+								<address>
+									<addrLine>15 Ida Hakkarinen</addrLine>
+									<settlement>Iowa City Greenbelt</settlement>
+									<region>Maryland</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vidya</forename><surname>Sivaraman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+							<affiliation key="aff18">
+								<orgName type="institution">The Ohio State University and Nationwide Children&apos;s Hospital</orgName>
+								<address>
+									<settlement>Columbus</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MMSc: Brigham</roleName><forename type="first">Jeffrey</forename><forename type="middle">A</forename><surname>Sparks</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Tiphanie</forename><forename type="middle">P</forename><surname>Vogel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Eleanor</forename><forename type="middle">Anderson</forename><surname>Williams</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cassandra</forename><surname>Calabrese</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joanne</forename><forename type="middle">S</forename><surname>Cunha</surname></persName>
+							<affiliation key="aff22">
+								<orgName type="department">MD: The Permanente Medical Group</orgName>
+								<orgName type="institution">Joanne S. Cunha</orgName>
+								<address>
+									<settlement>Union City</settlement>
+									<region>California MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Joann</forename><surname>Fontanarosa</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Miriah</forename><forename type="middle">C</forename><surname>Gillispie-Taylor</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Elena</forename><surname>Gkrouzman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Priyanka</forename><surname>Iyer</surname></persName>
+							<affiliation key="aff24">
+								<orgName type="department">MPH: ECRI Institute</orgName>
+								<orgName type="institution">Priyanka Iyer</orgName>
+								<address>
+									<settlement>Plymouth Meeting</settlement>
+									<region>Pennsylvania MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Kimberly</forename><forename type="middle">S</forename><surname>Lakin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alexandra</forename><surname>Legge</surname></persName>
+							<affiliation key="aff25">
+								<orgName type="institution">University of California Irvine Medical Center</orgName>
+								<address>
+									<settlement>Orange</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mindy</forename><forename type="middle">S</forename><surname>Lo</surname></persName>
+							<affiliation key="aff28">
+								<orgName type="institution">Mindy S. Lo</orgName>
+								<address>
+									<region>MD PhD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Megan</forename><forename type="middle">M</forename><surname>Lockwood</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rebecca</forename><forename type="middle">E</forename><surname>Sadun</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Namrata</forename><surname>Singh</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>BA</roleName><forename type="first">Nancy</forename><surname>Sullivan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Herman</forename><surname>Tam</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+							<affiliation key="aff34">
+								<orgName type="institution">British Columbia Children&apos;s Hospital</orgName>
+								<address>
+									<settlement>Vancouver</settlement>
+									<region>British Columbia</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+							<affiliation key="aff34">
+								<orgName type="institution">British Columbia Children&apos;s Hospital</orgName>
+								<address>
+									<settlement>Vancouver</settlement>
+									<region>British Columbia</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">James</forename><surname>Reston</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">S</forename><forename type="middle">Louis</forename><surname>Bridges</surname><genName>Jr</genName></persName>
+						</author>
+						<author>
+							<persName><roleName>New</roleName><forename type="first">New</forename><surname>York</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Clifton O. Bingham</orgName>
+								<address>
+									<addrLine>Laura C. Cappelli</addrLine>
+									<region>MD MD, MHS MS</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">Johns Hopkins Medicine</orgName>
+								<address>
+									<addrLine>Maryland; 5 Leonard Calabrese</addrLine>
+									<settlement>Baltimore</settlement>
+									<region>DO Cassandra Calabrese</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Sindhu R. Johnson</orgName>
+								<address>
+									<addrLine>PhD: Toronto Western Hospi- tal</addrLine>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">Lisa F. Imundo</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="institution">Reuben J. Arasaratnam</orgName>
+								<address>
+									<region>MD VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<orgName type="department">Women&apos;s Hospital</orgName>
+								<orgName type="institution" key="instit1">North Texas Health Care System</orgName>
+								<orgName type="institution" key="instit2">University of Texas Southwestern Medical Center</orgName>
+								<address>
+									<settlement>Dallas</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff12">
+								<orgName type="department">MD: Children&apos;s Hospital</orgName>
+								<orgName type="institution">Harvard Medical School</orgName>
+								<address>
+									<addrLine>11 Roberta Berard</addrLine>
+									<settlement>Boston</settlement>
+									<region>Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff13">
+								<orgName type="institution">London Health Sciences Centre</orgName>
+								<address>
+									<settlement>London</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<orgName type="department">Chan Medical School</orgName>
+								<orgName type="institution" key="instit1">MD</orgName>
+								<orgName type="institution" key="instit2">University of Massachusetts</orgName>
+								<address>
+									<addrLine>13 Jeffrey R. Curtis</addrLine>
+									<settlement>Worcester</settlement>
+									<region>MD MS</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<orgName type="institution" key="instit1">MPH</orgName>
+								<orgName type="institution" key="instit2">University of Alabama at Birmingham</orgName>
+								<address>
+									<addrLine>14 Polly J. Ferguson</addrLine>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff17">
+								<orgName type="institution">Grayson Schultz</orgName>
+								<address>
+									<addrLine>Ohio; 17 Vidya Sivaraman</addrLine>
+									<region>MS: Athens MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff19">
+								<orgName type="department">DMSc</orgName>
+								<orgName type="institution">Benjamin J. Smith</orgName>
+								<address>
+									<region>PA-C</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff20">
+								<orgName type="department">DFAAPA</orgName>
+								<orgName type="institution">Florida State University College of Medicine</orgName>
+								<address>
+									<settlement>Tallahassee</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff21">
+								<orgName type="department">College of Medicine</orgName>
+								<address>
+									<addrLine>20 Eleanor Anderson Williams</addrLine>
+									<settlement>Houston</settlement>
+									<region>Texas</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff23">
+								<orgName type="department">Providence Veterans Affairs Medical Center</orgName>
+								<orgName type="institution" key="instit1">Brown University</orgName>
+								<orgName type="institution" key="instit2">Brown Physicians Inc</orgName>
+								<address>
+									<settlement>East Providence Rhode Island</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff26">
+								<orgName type="department">MSc: Dalhou- sie University</orgName>
+								<orgName type="institution">Alexandra Legge</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff27">
+								<orgName type="institution">QEII Health Sciences Centre</orgName>
+								<address>
+									<settlement>Halifax</settlement>
+									<region>Nova Scotia</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff29">
+								<orgName type="institution">Boston Children&apos;s Hospital</orgName>
+								<address>
+									<addrLine>Massachusetts; 26 Megan M. Lockwood</addrLine>
+									<settlement>Boston</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff30">
+								<orgName type="institution">Georgetown University Hospital</orgName>
+								<address>
+									<addrLine>Washington, DC; 27 Rebecca E. Sadun</addrLine>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff31">
+								<orgName type="institution">PhD: Duke University</orgName>
+								<address>
+									<addrLine>North Carolina; 28 Namrata Singh</addrLine>
+									<settlement>Durham</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff32">
+								<orgName type="institution">University of Washington</orgName>
+								<address>
+									<addrLine>29 Herman Tam</addrLine>
+									<settlement>Seattle</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff33">
+								<orgName type="institution">MBBS</orgName>
+								<address>
+									<region>MSc</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff35">
+								<orgName type="institution">Marat Turgunbaev</orgName>
+								<address>
+									<settlement>Amy S. Turner</settlement>
+									<region>MD, MPH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff36">
+								<orgName type="institution">American College of Rheumatology</orgName>
+								<address>
+									<settlement>Atlanta</settlement>
+									<country key="GE">Georgia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2022 American College of Rheumatology Guideline for Vaccinations in Patients With Rheumatic and Musculoskeletal Diseases</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">263B6488AC287683F9490992215EE324</idno>
+					<idno type="DOI">10.1002/acr.25045</idno>
+					<note type="submission">Submitted for publication August 8, 2022; accepted in revised form October 13, 2022.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. To provide evidence-based recommendations on the use of vaccinations in children and adults with rheumatic and musculoskeletal diseases (RMDs).</p><p>Methods. This guideline follows American College of Rheumatology (ACR) policy guiding management of conflicts of interest and disclosures and the ACR guideline development process, which includes the Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology. It also adheres to the Appraisal of Guidelines for Research and Evaluation (AGREE) criteria. A core leadership team consisting of adult and pediatric rheumatologists and a guideline methodologist drafted clinical population, intervention, comparator, outcomes (PICO) questions. A review team performed a systematic literature review for the PICO questions, graded the quality of evidence, and produced an evidence report. An expert Voting Panel reviewed the evidence and formulated recommendations. The panel Guidelines and recommendations developed and/or endorsed by the American College of Rheumatology (ACR) are intended to provide guidance for patterns of practice and not to dictate the care of a particular patient. The ACR considers adherence to the recommendations within this guideline to be voluntary, with the ultimate determination regarding their application to be made by the clinician in light of each patient's individual circumstances. Guidelines and recommendations are intended to promote beneficial or desirable outcomes but cannot guarantee any specific outcome. Guidelines and recommendations developed and endorsed by the ACR are subject to periodic revision as warranted by the evolution of medical knowledge, technology, and practice. ACR recommendations are not intended to dictate payment or insurance decisions, and drug formularies or other third-party analyses that cite ACR guidelines should state this. These recommendations cannot adequately convey all uncertainties and nuances of patient care.</p><p>The ACR is an independent, professional, medical and scientific society that does not guarantee, warrant, or endorse any commercial product or service.</p><p>This article is published simultaneously in Arthritis &amp; Rheumatology.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Rheumatic and musculoskeletal diseases (RMDs) <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref> and immunosuppressive medications used to treat them place patients at higher risk of vaccine-preventable infections and of more serious complications of infection. Vaccines have long been used to reduce illness from common viral and bacterial pathogens, and standardized vaccine schedules for children and adults have been widely adopted for use in both healthy people and those with chronic medical conditions <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b3">4)</ref>. However, the immunogenicity and safety of vaccines may differ in patients with RMDs compared to the general population, and patients with RMDs may benefit from modified vaccine indications and/or adjustments to vaccination or medication schedules. Issues related to vaccination and medication management at the time of vaccination apply across diseases, and thus, this guideline is meant to help in the management of vaccines for all children and adults with RMDs in the US. The target audience is limited to rheumatology providers in the US because the epidemiology of vaccine-preventable infections and the availability of specific vaccines vary across the globe. However, providers in other countries may also find the guideline useful. A list of specific medications, vaccinations, and RMDs addressed in this guideline is found in Table <ref type="table" target="#tab_0">1</ref>, and a glossary of terms commonly used in this guideline can be found in Table <ref type="table" target="#tab_2">2</ref>.</p><p>Avacopan and bimekizumab, the pneumococcal vaccines PCV15 and PCV20, and the smallpox/monkeypox vaccine were not included in the formal evidence review because they were not approved at the time of the project plan. Antipyretic medications such as nonsteroidal antiinflammatory drugs and acetaminophen were also not included. Although a few randomized controlled trials (RCTs) have demonstrated blunted antibody responses with antipyretics, this was seen after primary vaccination only, and not after booster <ref type="bibr" target="#b4">(5)</ref> or influenza vaccination <ref type="bibr" target="#b5">(6)</ref>. Observational studies also suggest that they have minimal-to-no impact on antibody responses to vaccination <ref type="bibr" target="#b4">(5,</ref><ref type="bibr">7)</ref>. Vaccinations against COVID-19 are not included in this guideline because, given the fast-changing nature of the pandemic and the COVID-19-related literature, there was concern that recommendations would be obsolete well before guideline publication. COVID-19 vaccinations will be incorporated into a future guideline update once the pertinent literature has stabilized. We refer readers to the American College of Rheumatology (ACR) COVID-19 vaccine guidance <ref type="bibr" target="#b6">(8)</ref> and to the Centers for Disease Control and Prevention (CDC) website <ref type="bibr" target="#b7">(9)</ref> for information on COVID-19 vaccines for patients with compromised immunity. Finally, we refer readers to the Advisory Committee on Immunization Practices (ACIP) <ref type="bibr" target="#b8">(10)</ref> and the American Academy of Pediatrics (AAP) (11) vaccination guidelines for any other topics not addressed herein. This study did not involve human subjects, and therefore, approval from Human Studies Committees was not required.</p><p>The 2022 ACR guideline for vaccination in adults and children with RMDs highlights the following: 1) pneumococcal vaccination should be administered to all RMD patients taking immunosuppressive medication; 2) recombinant zoster vaccination is recommended for RMD patients &gt;18 years of age taking immunosuppressive medication; 3) methotrexate should be held for 2 weeks after influenza vaccination if disease activity allows; 4) seasonal influenza vaccination should be administered to RMD patients even if their disease is active, they are taking high-dose glucocorticoids, and/or they are taking rituximab; 5) in RMD patients taking rituximab, vaccines other than for influenza should be administered at least 6 months after the last rituximab </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>This guideline follows ACR policy guiding management of conflicts of interest and disclosures (<ref type="url" target="https://www.rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines">https://www.rheumatology. org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines</ref>) and the ACR guideline development process, which includes Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology <ref type="bibr" target="#b9">(12,</ref><ref type="bibr" target="#b10">13)</ref>, and adheres to the Appraisal of Guidelines for Research and Evaluation (AGREE) criteria <ref type="bibr" target="#b11">(14)</ref> ). An expert Voting Panel reviewed the evidence report and then formulated and voted on recommendations. Additionally, a virtual Patient Panel reviewed the evidence and provided patient perspectives and preferences for consideration by the Voting Panel. The Patient Panel consisted of 9 patients with a variety of adult and pediatric RMDs and was moderated by a member of the core team (EC).</p><p>Voting Panel consensus required ≥70% agreement on both the direction (for or against) and strength (strong or conditional) of each recommendation, as per ACR practice. According to GRADE, a recommendation is categorized as strong if the panel is very confident that the benefits of an intervention clearly outweigh the harms (or vice versa); a conditional recommendation denotes uncertainty regarding the balance of benefits and harms, such as when the evidence quality is low or very low, or when costs are expected to impact the decision. Thus, for conditional recommendations, incorporation of patient preferences is particularly essential, acknowledging that patient preferences are an important part of all clinical decision-making. Rosters of the Core Leadership Team, Literature Review Team, Voting Panel, and Patient Panel are included in Supplementary Appendix 4, available on the Arthritis Care &amp; Research website at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.25045">http:// onlinelibrary.wiley.com/doi/10.1002/acr.25045</ref>.</p><p>The following guiding principles were used in this guideline: 1) indicated vaccinations should be given to patients whenever possible; 2) this guideline is complementary to recommendations from the ACIP <ref type="bibr" target="#b8">(10)</ref> and the AAP (15); 3) the decision to hold a medication before or after vaccination should consider the patient's disease, disease activity, and risk for vaccine-preventable infection; and 4) shared decision-making with patients is a key component of any vaccination strategy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS/RECOMMENDATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Expanded indications for specific vaccines in patients with RMDs receiving immunosuppression</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Influenza vaccination</head><p>For patients with RMD age ≥65 years and patients with RMD age &gt;18 years and &lt;65 years who are taking immunosuppressive medication, giving high-dose or adjuvanted influenza vaccination is conditionally recommended over giving regular-dose influenza vaccination.</p><p>Any influenza vaccine is preferred over no influenza vaccine, and vaccination "today" is preferred over delay. Therefore, if high-dose or adjuvanted influenza vaccine is not available in the clinic during a patient visit when influenza vaccination is indicated, then standard-dose influenza vaccine should be administered. This caveat also applies in instances when insurance restrictions may preclude administration of high-dose or adjuvanted influenza vaccination to patients &lt;65 years of age.</p><p>High-dose influenza vaccine is a quadrivalent vaccine containing 4 times the antigen as the standard-dose vaccine. Two RCTs in rheumatoid arthritis (RA) patients showed higher seroconversion rates in younger patients receiving high-dose vaccination compared to standard-dose vaccination with no safety signal <ref type="bibr" target="#b13">(16,</ref><ref type="bibr" target="#b14">17)</ref>. The adjuvanted influenza vaccine is a standard-dose quadrivalent vaccine containing the MF59 adjuvant, which elicits a strong antigenic response without the need for a higher antigen dose. No studies of the adjuvanted influenza vaccination in RMD patients age &lt;65 years were identified in the literature search, but there Numerical value indicating the level of antibody against a particular pathogen have been no safety issues seen with adjuvants in general, although they may be associated with greater reactogenicity <ref type="bibr" target="#b15">(18)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pneumococcal vaccination</head><p>For patients with RMD age &lt;65 years who are taking immunosuppressive medication, pneumococcal vaccination is strongly recommended.</p><p>Patients with RMDs taking immunosuppressive medication may be at increased risk of pneumococcal infection <ref type="bibr" target="#b16">(19,</ref><ref type="bibr" target="#b17">20)</ref>. Multiple observational studies have evaluated the prime boost method of pneumococcal vaccination, with a pneumococcal conjugate vaccine (PCV13 or PCV15), followed 2 months later by a dose of the pneumococcal polysaccharide vaccine (PPSV23). A singledose PCV20 vaccine is now approved in the US <ref type="bibr" target="#b18">(21)</ref> and is likely to supplant this 2-dose strategy in the not-too-distant future, at least in adults. PCV15 and PCV20 polysaccharide conjugates are not currently approved for use in children in the US; but this too may soon change. The CDC currently recommends PCV15 followed by PPSV23 one year later, or PCV20, for adults &lt;65 years taking immunosuppressive medications who were not previously vaccinated against pneumococcus, however, we recommend reference to CDC guidelines when choosing a specific pneumococcal vaccination strategy because this area is rapidly changing <ref type="bibr" target="#b18">(21)</ref>.</p><p>There are few studies evaluating the impact of diseasemodifying antirheumatic drugs (DMARDs) on conjugate pneumococcal vaccines. The ACIP recommends administering pneumococcal vaccination to individuals age &gt;18 years with certain chronic medical conditions and those taking immunosuppressive medication <ref type="bibr" target="#b8">(10,</ref><ref type="bibr" target="#b19">22)</ref>. The CDC and AAP recommend the primary PCV13 series to all children &lt;2 years of age and PPSV23 vaccination to children age ≥2 years with underlying medical conditions <ref type="bibr" target="#b12">(15)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recombinant varicella-zoster virus (VZV) vaccination</head><p>For patients with RMD age &gt;18 years who are taking immunosuppressive medication, administering the recombinant VZV vaccine is strongly recommended.</p><p>Patients with RMDs such as systemic lupus erythematosus (SLE) and RA are at higher risk of herpes zoster than older adults recommended for vaccination <ref type="bibr" target="#b20">(23)</ref>. Although the literature search identified no publications that specifically addressed recombinant VZV vaccination in patients with RMDs who are &lt;50 years of age, this vaccine has been shown to be safe and effective in immunosuppressed patients undergoing renal transplantation <ref type="bibr" target="#b21">(24)</ref> and autologous stem cell transplantation <ref type="bibr" target="#b22">(25)</ref> and in patients with hematologic malignancies, many of whom are &lt;50 years of age <ref type="bibr" target="#b23">(26,</ref><ref type="bibr" target="#b24">27)</ref>. The ACIP recommends recombinant VZV vaccination for individuals &gt;18 years and &lt;50 years of age who are immunocompromised and for the general public age ≥50 years <ref type="bibr" target="#b8">(10)</ref>. One retrospective study demonstrated mild disease flares in some patients around the time of vaccination <ref type="bibr" target="#b25">(28)</ref>, and reactogenicity is common with this vaccine <ref type="bibr" target="#b23">(26)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Human papillomavirus (HPV) vaccination</head><p>For patients with RMD age &gt;26 years and &lt;45 years who are taking immunosuppressive medication and not previously vaccinated, vaccination against HPV is conditionally recommended.</p><p>Patients taking immunosuppressive medication may be at increased risk of cervical dysplasia and cervical cancer <ref type="bibr" target="#b26">(29)</ref><ref type="bibr" target="#b27">(30)</ref><ref type="bibr" target="#b28">(31)</ref><ref type="bibr" target="#b29">(32)</ref><ref type="bibr" target="#b30">(33)</ref>. Two studies of young patients with SLE (mean age 38 years and 26 years in the 2 studies, respectively) demonstrated that vaccination against HPV was immunogenic and well tolerated <ref type="bibr" target="#b31">(34,</ref><ref type="bibr" target="#b32">35)</ref>. The ACIP recommends HPV vaccination for individuals ages 11-26 years. For those ages 26-45 years who have not been previously vaccinated, ACIP recommends HPV vaccination based on shared decision-making <ref type="bibr" target="#b8">(10)</ref>. The benefits of vaccination after age 45 years diminish due to the greater likelihood of previous exposure to HPV.</p><p>Whether to hold immunosuppressive medication at the time of non-live attenuated vaccination to maximize vaccine immunogenicity, although holding medications could be associated with disease flare (Table <ref type="table" target="#tab_3">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate</head><p>For patients with RMD, holding methotrexate for 2 weeks after influenza vaccination is conditionally recommended, assuming disease activity allows.</p><p>For patients with RMD, continuing immunosuppressive medications other than methotrexate around the time of influenza vaccination is conditionally recommended.</p><p>For patients with RMD, continuing immunosuppressive medications around the time of other (non-influenza) nonlive attenuated vaccinations is conditionally recommended.</p><p>Many observational studies <ref type="bibr" target="#b33">(36,</ref><ref type="bibr" target="#b34">37)</ref> suggest that methotrexate significantly blunts but does not completely abrogate the immunogenicity of influenza vaccination. Two RCTs demonstrated a beneficial impact of holding methotrexate around the time of influenza vaccination on vaccine immunogenicity <ref type="bibr" target="#b35">(38,</ref><ref type="bibr" target="#b36">39)</ref>. Assessment of flare risk and shared decision-making with the patient is recommended when deciding whether methotrexate should be held. Non-rheumatology providers (e.g., general pediatricians and internists) are encouraged to give influenza vaccination even if they are unsure as to whether to hold methotrexate, and then to consult with the patient's rheumatologist, rather than miss a vaccination opportunity. The literature review did not identify any studies that addressed holding medications in the context of vaccines other than for influenza. However, 2 studies published after completion of the literature review suggested that holding methotrexate at the time of COVID-19 vaccination is associated with greater vaccine immunogenicity <ref type="bibr" target="#b37">(40,</ref><ref type="bibr" target="#b38">41)</ref>.</p><p>The literature review identified no studies that directly addressed the impact of holding medications other than methotrexate at the time of influenza vaccination. Two RCTs performed in patients initiating TNFi versus placebo demonstrated similar responses to influenza vaccination in the 2 arms <ref type="bibr" target="#b39">(42,</ref><ref type="bibr" target="#b40">43)</ref>. Data on other biologic DMARDs and their relationship to influenza vaccine responses are much more limited <ref type="bibr" target="#b41">(44)</ref><ref type="bibr" target="#b42">(45)</ref><ref type="bibr" target="#b43">(46)</ref><ref type="bibr" target="#b44">(47)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rituximab</head><p>For patients with RMD receiving rituximab, administering influenza vaccination on schedule is conditionally recommended rather than deferring vaccination until the next rituximab administration is due.</p><p>For patients with RMD receiving rituximab, deferring non-live attenuated vaccinations, other than influenza vaccination, until the next rituximab administration is due, and delaying rituximab for 2 weeks after vaccination, is conditionally recommended.</p><p>Influenza vaccine responses are greater when the vaccine is administered later rather than earlier after rituximab <ref type="bibr" target="#b45">(48)</ref><ref type="bibr" target="#b46">(49)</ref><ref type="bibr" target="#b47">(50)</ref>. Rituximab has also been shown to blunt responses to pneumococcal polysaccharide PPSV23 vaccination <ref type="bibr" target="#b48">(51,</ref><ref type="bibr" target="#b49">52)</ref>. Because of the seasonal nature of influenza, influenza vaccination is conditionally recommended to be given on schedule to patients receiving rituximab. For other non-live attenuated vaccinations, deferring vaccination until the next rituximab dose will improve vaccine immunogenicity. However, patients could also be vaccinated in the interest of acquiring some immunity and then revaccinated later (influenza vaccination could also be repeated using this same rationale). Whenever possible, vaccinations should be administered prior to rituximab initiation. Rituximab should be delayed for at least 2 weeks after any vaccination to allow time for the patient to develop an immune response, assuming that disease activity allows.</p><p>Whether to administer non-live attenuated vaccinations to patients receiving glucocorticoids or with active disease (Table <ref type="table" target="#tab_4">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Glucocorticoids</head><p>Whether to administer non-live attenuated vaccinations to patients taking glucocorticoids or defer vaccination to a later time point to maximize vaccine immunogenicity.</p><p>For patients with RMD who are taking the equivalent of prednisone ≤10 mg daily, administering any non-live vaccinations is strongly recommended.</p><p>For patients with RMD who are taking the equivalent of prednisone &gt;10 mg daily but &lt;20 mg daily, administering any non-live attenuated vaccinations is conditionally recommended.</p><p>For patients with RMD taking the equivalent of prednisone ≥20 mg daily, administering influenza vaccination is conditionally recommended.</p><p>For patients with RMD who are taking the equivalent of prednisone ≥20 mg daily, deferring non-live attenuated vaccinations, other than influenza vaccination, until glucocorticoids are tapered to the equivalent of prednisone &lt;20 mg daily is conditionally recommended.</p><p>Most studies that have compared prednisone &lt;10 mg daily to prednisone ≥10 mg daily found that the higher dosages did reduce influenza vaccine immunogenicity <ref type="bibr" target="#b50">(53)</ref><ref type="bibr" target="#b51">(54)</ref><ref type="bibr" target="#b52">(55)</ref>. Several studies that defined high-dose glucocorticoids as prednisone ≥20 mg daily observed that they blunted patients' vaccine response <ref type="bibr" target="#b53">(56)</ref><ref type="bibr" target="#b54">(57)</ref><ref type="bibr" target="#b55">(58)</ref>. Two studies that examined glucocorticoid dosage as a continuous variable identified a dose-response relationship while suggesting against a specific dose threshold <ref type="bibr" target="#b54">(57,</ref><ref type="bibr" target="#b55">58)</ref>. Evidence for the impact of glucocorticoids on responses to other vaccines is less consistent <ref type="bibr" target="#b56">(59)</ref><ref type="bibr" target="#b57">(60)</ref><ref type="bibr" target="#b58">(61)</ref>. For some vaccines, humoral responses can be measured and revaccination considered in those with an inadequate response.</p><p>Given the importance of timely influenza vaccination, a conditional recommendation was made to administer influenza vaccination to patients receiving the equivalent of prednisone ≥20 mg daily. For vaccines other than for influenza, a conditional recommendation was made to delay vaccination until the dose is lower to maximize vaccine efficacy. It is understood, however, that some patients may not be able to delay, e.g., children who require vaccination for school entry.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disease activity</head><p>Whether to defer vaccination in patients with high disease activity to maximize vaccine immunogenicity and/or avoid worsening disease activity.</p><p>For patients with RMD, giving non-live attenuated vaccinations is conditionally recommended regardless of patients' disease activity.</p><p>Patients with RMD often express concern about whether vaccination can induce a disease flare, but the vast majority of studies failed to show any increased rate of flare after influenza vaccination. The results were similar for other vaccinations, although the quality of the evidence was low. Strong concerns, however, were expressed among the Patient Panel about the potential for vaccines to cause a disease flare, and shared decision-making is particularly important in this setting. Most studies suggest that increased disease activity does not impact vaccine immunogenicity <ref type="bibr" target="#b50">(53,</ref><ref type="bibr" target="#b59">62)</ref>, although one study did show lower seroconversion rates in pediatric lupus patients with a Systemic Lupus Erythematosus Disease Activity Index score of &gt;8 who were vaccinated against influenza <ref type="bibr" target="#b54">(57)</ref>.</p><p>Managing immunosuppressive therapy at the time of live attenuated vaccination to avoid vaccine-associated illness (Table <ref type="table" target="#tab_5">5</ref>).</p><p>For patients with RMD who are taking immunosuppressive medication, deferring live attenuated vaccines is conditionally recommended.</p><p>For patients with RMD, holding immunosuppressive medication for an appropriate period before and 4 weeks after live attenuated virus vaccination is conditionally recommended.</p><p>For some live attenuated virus vaccines, such as for oral polio, oral typhoid, and influenza, there are inactivated alternatives that can be safely given to RMD patients taking immunosuppressive medication.</p><p>Conventional DMARDs. Two observational studies in patients with RMDs who were only taking conventional DMARDs and/or prednisone &lt;20 mg daily at the time they received the yellow fever vaccine observed no cases of infection <ref type="bibr" target="#b60">(63,</ref><ref type="bibr" target="#b61">64)</ref>. Similarly, in a retrospective cohort study of patients with juvenile idiopathic arthritis (JIA) taking methotrexate and vaccinated against measles, mumps, and rubella (MMR), none developed vaccine-associated disease <ref type="bibr" target="#b62">(65)</ref>. Some pediatric rheumatologists do recommend giving live attenuated virus vaccine boosters <ref type="bibr" target="#b63">(66)</ref> to children receiving low-dose immunosuppression when the child is likely to be taking the medication long term and when the risk of flare when not receiving immunosuppression is high, especially in areas with low community vaccination rates and/or during outbreaks <ref type="bibr" target="#b64">(67)</ref>. The AAP Red Book <ref type="bibr" target="#b12">(15)</ref> and the Infectious Diseases Society of America ( <ref type="formula">68</ref>) define lowlevel immunosuppression as methotrexate ≤0.4 mg/kg/week, azathioprine ≤3 mg/kg/day, prednisone &lt;20 mg/day (or &lt;2 mg/kg/day for patients weighing &lt;10 kg), or alternate-day glucocorticoid therapy <ref type="bibr" target="#b65">(68)</ref>.</p><p>Biologic DMARDs. In a large RCT of RMD patients taking TNFi who were given the live attenuated VZV vaccine, there were no confirmed cases of varicella infection in either the vaccine or placebo group during 1 year of follow-up <ref type="bibr" target="#b66">(69)</ref>. Similarly, in an observational study of patients with Kawasaki disease who received vaccines against rotavirus and/or MMR plus varicella within 90 days prior to a single dose of infliximab, none experienced any serious infections <ref type="bibr" target="#b67">(70)</ref>. Finally, in a study of RA patients given a yellow fever booster 1 month after their last dose of infliximab, none developed symptoms of yellow fever <ref type="bibr" target="#b68">(71)</ref>.</p><p>In contrast, in a very small retrospective study based on an email survey to pediatric and adult rheumatologists and immunologists that reported on 17 children with autoinflammatory disorders or systemic JIA taking interleukin-1 or interleukin-6 receptor inhibitors and who were given a variety of live attenuated vaccinations, 3 of 17 patients developed vaccine-associated infection, and 7 of 17 patients experienced disease flares <ref type="bibr" target="#b69">(72)</ref>.</p><p>JAK inhibitors. Cutaneous vaccine-strain varicella infection developed in 1 of 55 RA patients given a single dose of the live attenuated VZV vaccine 2-3 weeks prior to tofacitinib initiation in the context of an RCT. Later testing demonstrated that the study participant lacked prevaccination immunity to VZV <ref type="bibr" target="#b70">(73)</ref>. Complete lack of immunity to varicella is rare in adults in the US, where the prevalence of varicella seropositivity is 98% in adults <ref type="bibr" target="#b71">(74)</ref>.</p><p>Intravenous immunoglobulin (IVIG). Antiviral antibodies contained in IVIG can interfere with replication of live attenuated vaccines and reduce their efficacy <ref type="bibr" target="#b72">(75)</ref>. The CDC recommends a delay of 8-11 months (depending on IVIG dose) between receipt of high-dose IVIG and live attenuated virus vaccination <ref type="bibr" target="#b73">(76)</ref>. However, there will be situations, such as during a measles outbreak, when earlier vaccination is preferred over delay because some immunity will be preferred over none in that setting.</p><p>Specific recommendations for holding medications if live attenuated vaccines are given. Although the evidence around the safety of conventional DMARDs and TNFi at the time of live attenuated virus vaccination is reassuring, the total number of RMD patients who have been studied is small, and the Voting Panel conditionally recommended against administering live attenuated virus vaccines to patients receiving those agents as well as other forms of immunosuppression. For patients who do need to receive live attenuated vaccines, specific recommendations for holding immunosuppressive medications around the time of vaccination can be found in Table <ref type="table" target="#tab_5">5</ref>.</p><p>For slow-acting conventional DMARDs, a prevaccination hold time of 4 weeks was chosen to reflect their prolonged duration of action. However, direct evidence for the optimal hold time is lacking. For most biologic DMARDs, a hold time of 1 dosing interval before live attenuated vaccine administration is recommended.</p><p>The number of RMD patients who are taking immunosuppressive medications at the time that they need live attenuated virus vaccines is small. However, very young children, especially those with autoinflammatory disorders, may require biologic DMARDs before their primary vaccination series is complete. In these children, the risk associated with a disease flare may be considerably higher than the risk associated with the vaccine preventable illness <ref type="bibr" target="#b69">(72)</ref>. Children with autoinflammatory disorders also often require lifelong anticytokine therapy, and there may never be an opportunity to catch up on missed vaccinations later. For these children, shorter medication hold times can be considered if live attenuated virus vaccination is critical and cannot be delayed. Shared decision-making with the child's parents/guardians is important in this setting, and they should be alerted to the signs and symptoms of attenuated vaccineassociated infection.</p><p>The recommendation to hold immunosuppressive medications for 4 weeks after live attenuated vaccination is conservative. Typically, the duration of viremia (live virus circulating in the blood) after live attenuated vaccination is 2 weeks, although it can be longer in some patients <ref type="bibr" target="#b74">(77)</ref>. Viremia is more prolonged after primary vaccination than after booster vaccinations <ref type="bibr" target="#b74">(77)</ref>. Medication hold times after vaccination can be shortened if vaccination is critical and the risk of a disease flare when the patient is not receiving immunosuppression is high.</p><p>Close contacts of immunosuppressed patients should receive all age-appropriate vaccination (with the exception of smallpox) to avoid the vaccine-preventable diseases, as recommended by the ACIP <ref type="bibr" target="#b75">(78)</ref>. The ACIP also notes that no specific precautions are needed except if a household contact develops a rash after varicella vaccination, in which case direct contact should be avoided until the rash resolves <ref type="bibr" target="#b75">(78)</ref>. They also reinforce the recommendation to household members to wash their hands after diaper changing when an infant has received a rotavirus vaccine <ref type="bibr" target="#b75">(78)</ref>.</p><p>When to administer rotavirus vaccine to infants with second-and/or third-trimester antenatal exposure to biologic DMARDs in utero (Table <ref type="table">6</ref>).</p><p>For neonates/infants with second-and/or third-trimester antenatal exposure to TNFi, giving live attenuated rotavirus vaccine within the first 6 months of life is conditionally recommended. † For patients taking the equivalent of prednisone &lt;20 mg/day or &lt;2 mg/kg/day for patients weighing &lt;10 kg or alternate-day glucocorticoid therapy (i.e., "low-level immunosuppression" <ref type="bibr" target="#b12">[15,</ref><ref type="bibr" target="#b65">68]</ref>), these low doses can be continued if vaccination is critical and the risk of a disease flare or adrenal insufficiency when the patient is not taking glucocorticoids is high. ‡ For patients taking methotrexate ≤0.4 mg/kg/week or azathioprine ≤3 mg/kg/day ("low-level immunosuppression" <ref type="bibr" target="#b12">[15,</ref><ref type="bibr" target="#b65">68]</ref>), hold times can be shortened if vaccination is critical and the risk of a disease flare when the patient is not taking immunosuppression is high. § For medications with &gt;1 dosing interval approved by the Food and Drug Administration, the longest interval should be chosen (e.g., hold subcutaneous adalimumab for 2 weeks, although it can be dosed every 1 or every 2 weeks). ¶ In children with autoinflammatory disorders or systemic juvenile idiopathic arthritis in whom the risk of disease flare if biologic disease-modifying antirheumatic drugs are held is very high, shorter hold times can be considered if live attenuated vaccination is critical. # The recommendation to hold IVIG prior to vaccination is designed to enhance vaccine efficacy, not safety. In some situations, such as during a measles outbreak, earlier vaccination would be preferred over delay.</p><p>For neonates/infants with second-and/or third-trimester antenatal exposure to rituximab, delaying live attenuated rotavirus vaccine until &gt;6 months of age is conditionally recommended.</p><p>Vaccination against rotavirus typically occurs at 2 and 4 months, or at 2, 4, and 6 months. Rotavirus is rare in the US because of widespread immunization, and for this reason, the AAP recommends delaying rotavirus vaccination for 12 months after any in utero exposure to biologic DMARDs (except for certolizumab, which does not cross the placenta) <ref type="bibr" target="#b12">(15)</ref>. Three observational studies encompassing 58 children exposed to biologic DMARDs (most taking TNFi) who received live rotavirus vaccines reported no clear adverse events <ref type="bibr" target="#b76">(79)</ref><ref type="bibr" target="#b77">(80)</ref><ref type="bibr" target="#b78">(81)</ref>. Only minimal amounts of infliximab have been detected in the breast milk of treated patients <ref type="bibr" target="#b79">(82)</ref>.</p><p>The literature review identified no data on the effect of in utero rituximab exposure on later vaccine responses. Rituximab is a chimeric IgG1 molecule that can cross the placenta, and it has been associated with low or absent B lymphocyte levels in newborns who were exposed during the second or third (but not the first) trimester <ref type="bibr" target="#b80">(83)</ref>. Most reports demonstrate B cell recovery in these infants within 6 months after birth <ref type="bibr" target="#b80">(83)</ref>. Extrapolating from vaccine responses in adults treated with rituximab <ref type="bibr" target="#b45">(48)</ref><ref type="bibr" target="#b46">(49)</ref><ref type="bibr" target="#b47">(50)</ref>, infants exposed to rituximab are unlikely to respond to vaccination until 6 months postexposure. Although delayed rotavirus vaccine administration has been associated with an increased risk of intussusception, this complication remains quite rare <ref type="bibr" target="#b81">(84)</ref>.</p><p>After giving birth, most RMD patients turn to their general pediatrician rather than to their adult rheumatology provider for infant vaccination recommendations, and pediatricians may not be aware of the impact of in utero medication exposure on vaccine safety and immunogenicity. Therefore, recommendations regarding infant rotavirus vaccination after in utero exposure to either TNFi or rituximab should be discussed with the pregnant RMD patient prior to delivery. Specifically, the pregnant patient should be educated as to the fact that medications that cross the placenta may affect vaccination schedules for their infants. A copy of the current vaccine guideline summary (<ref type="url" target="https://www.rheumatology.org/Portals/0/Files/Vaccinations-Guidance-">https:// www.rheumatology.org/Portals/0/Files/Vaccinations-Guidance-</ref>Summary.pdf) may serve as a useful resource for the pregnant RMD patient to share with their pediatrician in advance of delivery.</p><p>Whether to give multiple vaccinations to patients with RMD on the same day.</p><p>For patients with RMD, giving multiple vaccinations on the same day rather than giving each individual vaccination on a different day is conditionally recommended.</p><p>Administering &gt;1 vaccination on a single day is a routine practice in both pediatric and adult medicine that is supported by the CDC in order to avoid a missed vaccination opportunity <ref type="bibr" target="#b82">(85)</ref>. Patient representatives on the Voting Panel felt that shared decision-making was important in this instance due to their concerns about the potential for reactogenicity or disease flare.</p><p>A summary of the guideline recommendations, associated PICO questions, and level of evidence can be found in Table <ref type="table" target="#tab_6">7</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This is the first guideline to address vaccination strategies across the entire adult and pediatric RMD spectrum. An underlying principle in this guideline is that patients should be vaccinated, and that missed vaccination opportunities should be avoided or minimized. This is particularly true regarding influenza vaccination, which is administered seasonally and is recommended for RMD patients even if their disease activity is high, they are taking high-dose glucocorticoids, and/or are taking rituximab. The Voting Panel generally favored simple recommendations to encourage vaccination and foster guideline adherence. There are few studies assessing the immunogenicity and safety of specific vaccines in relation to specific immunosuppressive medications, and there are virtually no studies assessing the impact of holding medications around the time of vaccination, particularly for vaccines other than for influenza. Therefore, many of the recommendations are conditional and apply across diseases, vaccines, medications, and age groups. Because of the low quality of the evidence, shared decision-making between clinicians and patients/parents/guardians is particularly important for the vaccination strategies presented here. These recommendations do not supersede clinical judgement.</p><p>Most recommendations in this guideline are aimed at maximizing vaccine immunogenicity because the literature revealed few vaccine safety signals, at least regarding non-live vaccinations. Many vaccines are required for school entry to protect not only the health of the individual but also that of the broader community. Public health requirements may supersede some recommendations made here. Insurance barriers could inhibit implementation of these recommendations, such as to administer high dose or adjuvanted influenza vaccine or recombinant VZV to RMD patients &lt;65 years of age taking immunosuppressive medications. In such instances, this guideline could be used as a resource to aid in prior authorization.</p><p>Not included in this guideline are recommendations for COVID-19 vaccination in patients with RMD. Readers can refer to the CDC for the most up-to-date recommendations for COVID-19 vaccination, including for patients taking immunosuppressive   medication <ref type="bibr" target="#b7">(9)</ref>. Recommendations about holding immunosuppressive medications at the time of non-live attenuated virus vaccination in this guideline (Table <ref type="table" target="#tab_3">3</ref>) differ from those recommended around the time of COVID-19 vaccination in the ACR COVID-19 vaccine guidance <ref type="bibr" target="#b6">(8)</ref>. This is because prior to the introduction of COVID-19 vaccines in late 2020, there was little population-level immunity to the SARS-CoV-2 virus, and maximizing vaccine efficacy was a public health imperative. In contrast, when considering routine vaccinations, the desire to avoid an RMD flare weighs more heavily in the balance. Therefore, there are very few instances where this guideline recommends holding medication at the time of non-live attenuated virus vaccination. Studies that demonstrate diminished vaccine responses in RMD patients receiving immunosuppression (other than rituximab) generally demonstrate diminished, but not completely abrogated, responses.</p><p>Finally, the literature review demonstrated that much more evidence is needed to guide practice in this area. Knowledge gaps where further research is needed are as follows: 1) standardization of trial design and outcome measures to test the efficacy and durability of response to all vaccines across all age groups; 2) safety of primary and booster live attenuated virus vaccination in children taking methotrexate and/or biologic DMARDs; 3) assessment of the immunogenicity, reactogenicity, and disease flares following standard-dose, high-dose, and adjuvanted influenza vaccination, recombinant VZV vaccination, and primary and booster COVID-19 vaccination in RMD patients taking immunosuppressive medication; and 4) RCTs to test the safety and efficacy of holding DMARDs around the time of vaccination.  † The terms 'moderate', 'low', and 'very low' are based on the Grading of Recommendations Assessment, Development and Evaluation (GRADE) definitions for quality of evidence. Moderate quality means that "further research is likely to have an important impact on our confidence in the estimate of effect and may change the estimate." Low quality means that "further research is very likely to have an important impact on our confidence in the estimate of effect and is likely to change the estimate." Very low quality means that "we are very uncertain about the estimate." In the systematic review for this guideline, a judgment of moderate quality required at least some evidence from randomized controlled trials, and a judgment of low quality required at least some evidence from well-designed observational studies with appropriate comparator groups. ‡ Indirect evidence indicates that there is evidence from other populations with RMD or other health conditions, or evidence that does not fully address the comparison specified in a PICO question.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Table 6 .</head><label>6</label><figDesc>When to administer live attenuated rotavirus vaccination to infants exposed to immunosuppressive medications in utero* Antenatal drug exposure in second or third trimester Within the first 6 months of life After 6 months of life TNFi Give rotavirus vaccine -Rituximab Do not give rotavirus vaccine Give rotavirus vaccine = Conditional recommendation. * TNFi = tumor necrosis factor inhibitor.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>952=</head><label></label><figDesc>Strong recommendation. = Conditional recommendation. * PICO = population, intervention, comparator, outcomes; RMD = rheumatic and musculoskeletal disease; VZV = varicella-zoster virus; HPV = human papillomavirus; MTX = methotrexate; TNFi = tumor necrosis factor inhibitors; DMARDs = disease-modifying antirheumatic drugs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Guideline scope*</figDesc><table><row><cell cols="2">Medications</cell><cell cols="2">Vaccines †</cell><cell>Rheumatic and</cell></row><row><cell>Immunosuppressive</cell><cell>Nonimmunosuppressive</cell><cell>Non-live attenuated</cell><cell>Live attenuated</cell><cell>musculoskeletal disorders</cell></row><row><cell>Glucocorticoids</cell><cell>Hydroxychloroquine</cell><cell>Seasonal influenza</cell><cell>Influenza (intranasal)</cell><cell>Inflammatory arthropathies</cell></row><row><cell>Prednisone</cell><cell>Sulfasalazine</cell><cell>Standard dose, high</cell><cell>MMR</cell><cell>Rheumatoid arthritis</cell></row><row><cell>Methylprednisolone</cell><cell>Colchicine</cell><cell>dose, adjuvanted</cell><cell>Rotavirus</cell><cell>Psoriatic arthritis</cell></row><row><cell>Dexamethasone</cell><cell>Apremilast</cell><cell>Pneumococcal</cell><cell>Typhoid (oral)</cell><cell>Ankylosing spondylitis</cell></row><row><cell>Hydrocortisone</cell><cell>Denosumab</cell><cell>PPSV23, PCV13 ‡</cell><cell>Varicella</cell><cell>Spondyloarthritis</cell></row><row><cell>csDMARDs</cell><cell>IVIG</cell><cell>Other</cell><cell>Yellow fever</cell><cell>Enthesitis-related arthritis</cell></row><row><cell>Methotrexate</cell><cell></cell><cell>Hemophilus influenza b</cell><cell>Zoster</cell><cell>IBD-associated arthritis</cell></row><row><cell>Leflunomide</cell><cell></cell><cell>Hepatitis A</cell><cell></cell><cell>Juvenile idiopathic arthritis</cell></row><row><cell>Azathioprine</cell><cell></cell><cell>Hepatitis B</cell><cell></cell><cell>Connective tissue diseases</cell></row><row><cell>Mycophenolate mofetil/</cell><cell></cell><cell>Human papillomavirus</cell><cell></cell><cell>Systemic lupus erythematosus</cell></row><row><cell>mycophenolic acid</cell><cell></cell><cell>Inactivated polio</cell><cell></cell><cell>Sjögren's syndrome</cell></row><row><cell>Calcineurin inhibitors</cell><cell></cell><cell>Meningococcus B</cell><cell></cell><cell>Systemic sclerosis</cell></row><row><cell>(cyclosporine,</cell><cell></cell><cell>Meningococcus ACWY</cell><cell></cell><cell>Idiopathic inflammatory</cell></row><row><cell>tacrolimus, voclosporin)</cell><cell></cell><cell>Tetanus toxoid/Td/Tdap</cell><cell></cell><cell>myopathies</cell></row><row><cell>Cyclophosphamide</cell><cell></cell><cell>Typhoid (injectable)</cell><cell></cell><cell>Mixed connective tissue</cell></row><row><cell>bDMARDs</cell><cell></cell><cell>Zoster subunit</cell><cell></cell><cell>disease</cell></row><row><cell>TNF inhibitors (etanercept,</cell><cell></cell><cell></cell><cell></cell><cell>Undifferentiated connective</cell></row><row><cell>adalimumab,</cell><cell></cell><cell></cell><cell></cell><cell>tissue disease</cell></row><row><cell>certolizumab,</cell><cell></cell><cell></cell><cell></cell><cell>Antiphospholipid antibody</cell></row><row><cell>golimumab, infliximab)</cell><cell></cell><cell></cell><cell></cell><cell>syndrome</cell></row><row><cell>IL-6R inhibitors</cell><cell></cell><cell></cell><cell></cell><cell>Vasculitides</cell></row><row><cell>(tocilizumab,</cell><cell></cell><cell></cell><cell></cell><cell>Granulomatosis with</cell></row><row><cell>sarilumab)</cell><cell></cell><cell></cell><cell></cell><cell>polyangiitis</cell></row><row><cell>IL-17 inhibitors</cell><cell></cell><cell></cell><cell></cell><cell>Microscopic polyangiitis</cell></row><row><cell>(secukinumab,</cell><cell></cell><cell></cell><cell></cell><cell>Eosinophilic granulomatosis</cell></row><row><cell>ixekizumab)</cell><cell></cell><cell></cell><cell></cell><cell>with polyangiitis</cell></row><row><cell>IL-12/23 inhibitors</cell><cell></cell><cell></cell><cell></cell><cell>Giant cell arteritis</cell></row><row><cell>(ustekinumab)</cell><cell></cell><cell></cell><cell></cell><cell>Polyarteritis nodosa</cell></row><row><cell>IL-23 inhibitors</cell><cell></cell><cell></cell><cell></cell><cell>Takayasu arteritis</cell></row><row><cell>(guselkumab,</cell><cell></cell><cell></cell><cell></cell><cell>Cryoglobulinemic vasculitis</cell></row><row><cell>tildrakizumab,</cell><cell></cell><cell></cell><cell></cell><cell>Relapsing polychondritis</cell></row><row><cell>risankizumab)</cell><cell></cell><cell></cell><cell></cell><cell>Behçet's disease</cell></row><row><cell>IL-1 inhibitors (anakinra,</cell><cell></cell><cell></cell><cell></cell><cell>Kawasaki disease</cell></row><row><cell>canakinumab,</cell><cell></cell><cell></cell><cell></cell><cell>IgA vasculitis</cell></row><row><cell>rilonacept)</cell><cell></cell><cell></cell><cell></cell><cell>(Henoch-Schönlein)</cell></row><row><cell>T cell costimulation</cell><cell></cell><cell></cell><cell></cell><cell>Primary CNS vasculitis</cell></row><row><cell>inhibitor (CTLA4-Ig/</cell><cell></cell><cell></cell><cell></cell><cell>Goodpasture's syndrome</cell></row><row><cell>abatacept)</cell><cell></cell><cell></cell><cell></cell><cell>(anti-GBM)</cell></row><row><cell>B cell-depleting agents</cell><cell></cell><cell></cell><cell></cell><cell>Cogan's syndrome</cell></row><row><cell>(rituximab, ocrelizumab,</cell><cell></cell><cell></cell><cell></cell><cell>Cutaneous small vessel</cell></row><row><cell>obinutuzumab)</cell><cell></cell><cell></cell><cell></cell><cell>vasculitis</cell></row><row><cell>BLyS/BAFF inhibitors</cell><cell></cell><cell></cell><cell></cell><cell>Rheumatoid vasculitis</cell></row><row><cell>(belimumab, tabalumab)</cell><cell></cell><cell></cell><cell></cell><cell>Urticarial vasculitis</cell></row><row><cell>Interferon-α receptor</cell><cell></cell><cell></cell><cell></cell><cell>Other inflammatory disorders</cell></row><row><cell>inhibitor (anifrolumab)</cell><cell></cell><cell></cell><cell></cell><cell>Sarcoidosis</cell></row><row><cell>tsDMARDs</cell><cell></cell><cell></cell><cell></cell><cell>Adult-onset Still's disease</cell></row><row><cell>JAK inhibitors (tofacitinib,</cell><cell></cell><cell></cell><cell></cell><cell>Polymyalgia rheumatica</cell></row><row><cell>baricitinib, upadacitinib,</cell><cell></cell><cell></cell><cell></cell><cell>Gout</cell></row><row><cell>filgotinib, ruxolitinib)</cell><cell></cell><cell></cell><cell></cell><cell>Pseudogout</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>IgG4-related disease</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Autoinflammatory disorders</cell></row><row><cell cols="5">* MMR = measles, mumps, and rubella (vaccine); PPSV23 = pneumococcal polysaccharide vaccine; PCV13 = pneumococcal conjugate vaccine;</cell></row><row><cell cols="5">csDMARDs = conventional synthetic disease-modifying antirheumatic drugs; IVIG = intravenous immunoglobulin; IBD = inflammatory bowel</cell></row></table><note><p><p>disease; bDMARDs = biologic DMARDs; TNF = tumor necrosis factor; IL-6R = interleukin-6 receptor; BLyS = B lymphocyte stimulator; tsDMARDs = targeted synthetic DMARDs; CNS = central nervous system; anti-GBM = anti-glomerular basement membrane (disease). † COVID-19 vaccines were not included in this guideline because of the fast-changing face of the pandemic and related literature. ‡ The recently approved pneumococcal vaccines, PCV15 and PCV20, were not included in the evidence review but are discussed in the text with reference to current Centers for Disease Control and Prevention guidelines.</p>dose; and 6) infants exposed to tumor necrosis factor inhibitors (TNFi) in utero should receive rotavirus vaccination in the first 6 months of life.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>. Supplementary Appendix 1, available on the Arthritis Care &amp; Research website at http://onlinelibrary.wiley.com/doi/ 10.1002/acr.25045, includes a detailed description of the methods. Briefly, the guideline team drafted clinical population, intervention, comparator, outcomes (PICO) questions (see Supplementary Appendix 2, available on the Arthritis Care &amp; Research website at http://onlinelibrary.wiley.com/doi/10.1002/ acr.25045). The literature review team performed a systematic literature review for the PICO questions, graded the quality of evidence (high, moderate, low, very low), and produced the evidence report (see Supplementary Appendix 3, available on the Arthritis Care &amp; Research website at http://onlinelibrary.wiley. com/doi/10.1002/acr.25045</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Glossary of terms</figDesc><table><row><cell>Term</cell><cell>Definition</cell></row><row><cell>Adjuvant</cell><cell>An ingredient used in some vaccines that helps</cell></row><row><cell></cell><cell>create a stronger immune response in</cell></row><row><cell></cell><cell>patients receiving the vaccine</cell></row><row><cell cols="2">Immunogenicity The ability of a vaccine to elicit an immune</cell></row><row><cell></cell><cell>response</cell></row><row><cell>Reactogenicity</cell><cell>Typical symptoms (e.g., fever, sore arm, muscle</cell></row><row><cell></cell><cell>aches) that occur shortly (days) after vaccine</cell></row><row><cell></cell><cell>administration either at the site of vaccination</cell></row><row><cell></cell><cell>or systemically</cell></row><row><cell cols="2">Seroconversion Development of antibodies to a pathogen,</cell></row><row><cell></cell><cell>elicited by a vaccine (or infection), in the blood</cell></row><row><cell></cell><cell>of an individual who previously did not have</cell></row><row><cell></cell><cell>detectable antibodies</cell></row><row><cell>Seroprotection</cell><cell>An antibody level capable of protecting against</cell></row><row><cell></cell><cell>infection or disease</cell></row><row><cell>Titer</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Medication management at the time of non-live attenuated vaccine administration Hold only if disease activity allows. Non-rheumatology providers, e.g., general pediatricians and internists, are encouraged to give the influenza vaccination and then consult with the patient's rheumatology provider about holding methotrexate to avoid a missed vaccination opportunity. † Give influenza vaccination on schedule. Delay any subsequent rituximab dosing for at least 2 weeks after influenza vaccination if disease activity allows.</figDesc><table><row><cell></cell><cell>Influenza vaccination</cell><cell>Other non-live attenuated vaccinations</cell></row><row><cell>Methotrexate</cell><cell>Hold methotrexate for 2 weeks</cell><cell>Continue methotrexate</cell></row><row><cell></cell><cell>after vaccination*</cell><cell></cell></row><row><cell>Rituximab</cell><cell>Continue rituximab †</cell><cell>Time vaccination for when the next rituximab dose is due, and</cell></row><row><cell></cell><cell></cell><cell>then hold rituximab for at least 2 weeks after vaccination</cell></row><row><cell>Immunosuppressive</cell><cell>Continue immunosuppressive</cell><cell>Continue immunosuppressive medication</cell></row><row><cell>medications other than</cell><cell>medication</cell><cell></cell></row><row><cell>methotrexate and rituximab</cell><cell></cell><cell></cell></row><row><cell cols="2">= Conditional recommendation.</cell><cell></cell></row></table><note><p>*</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 .</head><label>4</label><figDesc>Whether to give or defer non-live attenuated vaccinations in patients taking glucocorticoids regardless of disease activity</figDesc><table><row><cell></cell><cell></cell><cell>Other non-live</cell></row><row><cell></cell><cell>Influenza</cell><cell>attenuated</cell></row><row><cell cols="2">vaccination</cell><cell>vaccinations</cell></row><row><cell>Prednisone ≤10 mg daily*</cell><cell>Give</cell><cell>Give</cell></row><row><cell>Prednisone &gt;10 mg</cell><cell>Give</cell><cell>Give</cell></row><row><cell>and &lt;20 mg*</cell><cell></cell><cell></cell></row><row><cell>Prednisone ≥20 mg daily*</cell><cell>Give</cell><cell>Defer †</cell></row><row><cell>= Strong recommendation.</cell><cell></cell><cell></cell></row><row><cell>= Conditional recommendation.</cell><cell></cell><cell></cell></row><row><cell cols="3">* Or the equivalent dose of any other glucocorticoid formulation, or</cell></row><row><cell>the equivalent pediatric dose.</cell><cell></cell><cell></cell></row><row><cell cols="3">† Defer vaccination until glucocorticoids are tapered to the equiva-</cell></row><row><cell>lent of prednisone &lt;20 mg daily.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 5 .</head><label>5</label><figDesc>Immunosuppressive medication management at the time of live attenuated virus vaccine administration*</figDesc><table><row><cell></cell><cell>Hold before</cell><cell>Hold after</cell></row><row><cell></cell><cell>live attenuated virus</cell><cell>live attenuated</cell></row><row><cell></cell><cell>vaccine</cell><cell>virus vaccine</cell></row><row><cell></cell><cell>administration</cell><cell>administration</cell></row><row><cell>Glucocorticoids †</cell><cell>4 weeks</cell><cell>4 weeks</cell></row><row><cell>Methotrexate,</cell><cell>4 weeks</cell><cell>4 weeks</cell></row><row><cell>azathioprine ‡</cell><cell></cell><cell></cell></row><row><cell>Leflunomide,</cell><cell>4 weeks</cell><cell>4 weeks</cell></row><row><cell>mycophenolate</cell><cell></cell><cell></cell></row><row><cell>mofetil, calcineurin</cell><cell></cell><cell></cell></row><row><cell>inhibitors, oral</cell><cell></cell><cell></cell></row><row><cell>cyclophosphamide</cell><cell></cell><cell></cell></row><row><cell>JAK inhibitors</cell><cell>1 week</cell><cell>4 weeks</cell></row><row><cell>TNF, IL-17, IL-12/23, IL-23,</cell><cell>1 dosing interval §</cell><cell>4 weeks</cell></row><row><cell>BAFF/BLyS inhibitors</cell><cell></cell><cell></cell></row><row><cell>IL-6 pathway inhibitors</cell><cell>1 dosing interval ¶</cell><cell>4 weeks</cell></row><row><cell>IL-1 inhibitors</cell><cell></cell><cell></cell></row><row><cell>Anakinra</cell><cell>1 dosing interval ¶</cell><cell>4 weeks</cell></row><row><cell>Rilonacept</cell><cell>1 dosing interval ¶</cell><cell>4 weeks</cell></row><row><cell>Canakinumab</cell><cell>1 dosing interval ¶</cell><cell>4 weeks</cell></row><row><cell>Abatacept</cell><cell>1 dosing interval §</cell><cell>4 weeks</cell></row><row><cell>Anifrolumab</cell><cell>1 dosing interval §</cell><cell>4 weeks</cell></row><row><cell>Cyclophosphamide,</cell><cell>1 dosing interval §</cell><cell>4 weeks</cell></row><row><cell>intravenous</cell><cell></cell><cell></cell></row><row><cell>Rituximab</cell><cell>6 months</cell><cell>4 weeks</cell></row><row><cell>IVIG#</cell><cell></cell><cell></cell></row><row><cell>300-400 mg/kg</cell><cell>8 months</cell><cell>4 weeks</cell></row><row><cell>1 gm/kg</cell><cell>10 months</cell><cell>4 weeks</cell></row><row><cell>2 gm/kg</cell><cell>11 months</cell><cell>4 weeks</cell></row></table><note><p>* TNF = tumor necrosis factor; IL = interleukin; BLyS = B lymphocyte stimulator; IVIG = intravenous immunoglobulin.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 7 .</head><label>7</label><figDesc>Summary of recommendations*</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>Evidence</cell></row><row><cell></cell><cell></cell><cell></cell><cell>table page</cell></row><row><cell>Recommendations</cell><cell>Level of evidence †</cell><cell>PICO</cell><cell>numbers</cell></row><row><cell>Expanded indications for specific vaccines in</cell><cell></cell><cell></cell><cell></cell></row><row><cell>patients with RMDs receiving</cell><cell></cell><cell></cell><cell></cell></row><row><cell>immunosuppression</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Influenza vaccination</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with RMD age ≥65 years and</cell><cell>PICO 9. Very low (indirect</cell><cell>PICO 9. In patients with RMD age ≥65 years,</cell><cell>728</cell></row><row><cell>patients with RMD age &gt;18 and &lt;65 years</cell><cell>evidence only) ‡</cell><cell>is high-dose influenza vaccine more</cell><cell></cell></row><row><cell>who are taking immunosuppressive</cell><cell></cell><cell>effective than seasonal regular-dose</cell><cell></cell></row><row><cell>medication, giving high-dose or</cell><cell></cell><cell>influenza vaccine?</cell><cell></cell></row><row><cell>adjuvanted influenza vaccination is</cell><cell>PICO 10. Very low (indirect</cell><cell>PICO 10. In patients with RMD age ≥65 years,</cell><cell>728</cell></row><row><cell>conditionally recommended over giving</cell><cell>evidence only) ‡</cell><cell>is adjuvanted influenza vaccine more</cell><cell></cell></row><row><cell>regular-dose influenza vaccination.</cell><cell></cell><cell>effective than seasonal regular-dose</cell><cell></cell></row><row><cell></cell><cell></cell><cell>influenza vaccine?</cell><cell></cell></row><row><cell></cell><cell>PICO 11. Moderate</cell><cell>PICO 11. In patients with RMD &lt;65 years of</cell><cell>728-737</cell></row><row><cell></cell><cell></cell><cell>age, is high-dose vaccine more effective</cell><cell></cell></row><row><cell></cell><cell></cell><cell>than seasonal regular-dose influenza</cell><cell></cell></row><row><cell></cell><cell></cell><cell>vaccine?</cell><cell></cell></row><row><cell></cell><cell>PICO 12. Very low (indirect</cell><cell>PICO 12. In patients with RMD &lt;65 years of</cell><cell>737</cell></row><row><cell></cell><cell>evidence only) ‡</cell><cell>age, is adjuvanted influenza vaccine more</cell><cell></cell></row><row><cell></cell><cell></cell><cell>effective than seasonal regular-dose</cell><cell></cell></row><row><cell></cell><cell></cell><cell>influenza vaccine?</cell><cell></cell></row><row><cell>Pneumococcal vaccination</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with RMD age &lt;65 years who</cell><cell>PICO 20. Low</cell><cell>PICO 20. Should patients with RMD receive</cell><cell>933-952</cell></row><row><cell>are taking immunosuppressive</cell><cell></cell><cell>vaccination against pneumococcus at age</cell><cell></cell></row><row><cell>medication, pneumococcal vaccination is</cell><cell></cell><cell>&lt;65 years?</cell><cell></cell></row><row><cell>strongly recommended.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Recombinant VZV vaccination</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with RMD age &gt;18 years who</cell><cell>PICO 21. Very low (indirect</cell><cell>PICO 21. Should patients with RMD receive</cell><cell>952</cell></row><row><cell>are taking immunosuppressive</cell><cell>evidence only) ‡</cell><cell>VZV vaccination at age &lt;50 years?</cell><cell></cell></row><row><cell>medication, administering the</cell><cell></cell><cell></cell><cell></cell></row><row><cell>recombinant VZV vaccine is strongly</cell><cell></cell><cell></cell><cell></cell></row><row><cell>recommended.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>HPV vaccination</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with RMD age &gt;26 and &lt;45</cell><cell>PICO 19. Very low</cell><cell>PICO 19. Should patients with RMD be</cell><cell>931-933</cell></row><row><cell>years who are taking immunosuppressive</cell><cell></cell><cell>vaccinated against HPV at age &gt;26 years?</cell><cell></cell></row><row><cell>medication and are not previously</cell><cell></cell><cell></cell><cell></cell></row><row><cell>vaccinated, vaccination against HPV is</cell><cell></cell><cell></cell><cell></cell></row><row><cell>conditionally recommended.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Whether to hold immunosuppressive medication</cell><cell></cell><cell></cell><cell></cell></row><row><cell>at the time of non-live attenuated vaccination</cell><cell></cell><cell></cell><cell></cell></row><row><cell>to maximize vaccine immunogenicity,</cell><cell></cell><cell></cell><cell></cell></row><row><cell>although holding medications could be</cell><cell></cell><cell></cell><cell></cell></row><row><cell>associated with disease flare</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with RMD, holding methotrexate</cell><cell>PICO 3. Very low for most</cell><cell>PICO 3. In patients with [RMD disease X],</cell><cell>7-550</cell></row><row><cell>for 2 weeks after influenza vaccination is</cell><cell>comparisons, moderate</cell><cell>what is the effect of [drug Y/drug class] on</cell><cell></cell></row><row><cell>conditionally recommended, assuming</cell><cell>for a few</cell><cell>immunization responses to [vaccine Z,</cell><cell></cell></row><row><cell>disease activity allows.</cell><cell></cell><cell>vaccine type] in comparison with [general</cell><cell></cell></row><row><cell></cell><cell></cell><cell>population, or drug Y]?</cell><cell></cell></row><row><cell></cell><cell>PICO 15. TNFi: low;</cell><cell>PICO 15. In patients with RMD, does the</cell><cell>754-898</cell></row><row><cell></cell><cell>tocilizumab: very low;</cell><cell>immunogenicity or efficacy of influenza</cell><cell></cell></row><row><cell></cell><cell>secukinumab: very low;</cell><cell>vaccine differ in patients taking drug Y as</cell><cell></cell></row><row><cell></cell><cell>tofacitinib: moderate;</cell><cell>compared to those not taking drug Y at</cell><cell></cell></row><row><cell></cell><cell>glucocorticoids: very low;</cell><cell>the time of vaccination?</cell><cell></cell></row><row><cell></cell><cell>abatacept: very low</cell><cell></cell><cell></cell></row><row><cell></cell><cell>PICO 16. MTX: moderate;</cell><cell>PICO 16. Should patients with RMD taking</cell><cell>898-927</cell></row><row><cell></cell><cell>tofacitinib: low; other</cell><cell>drug Y hold their drug Y for a period of</cell><cell></cell></row><row><cell></cell><cell>medications: indirect</cell><cell>time prior to or after receiving (not live</cell><cell></cell></row><row><cell></cell><cell>evidence only</cell><cell>attenuated) vaccines?</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>(Continued)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 7 .</head><label>7</label><figDesc>(Cont'd)    </figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>Evidence</cell></row><row><cell></cell><cell></cell><cell></cell><cell>table page</cell></row><row><cell>Recommendations</cell><cell>Level of evidence †</cell><cell>PICO</cell><cell>numbers</cell></row><row><cell></cell><cell>PICO 14. Very low</cell><cell>PICO 14. In patients with RMD, does the</cell><cell>739-754</cell></row><row><cell></cell><cell></cell><cell>immunogenicity or efficacy of influenza</cell><cell></cell></row><row><cell></cell><cell></cell><cell>vaccine differ in patients taking high-dose</cell><cell></cell></row><row><cell></cell><cell></cell><cell>steroids as compared to those taking</cell><cell></cell></row><row><cell></cell><cell></cell><cell>lower doses of steroids or those not</cell><cell></cell></row><row><cell></cell><cell></cell><cell>taking steroids?</cell><cell></cell></row><row><cell>For patients with RMD taking the equivalent of</cell><cell>PICO 14. Very low</cell><cell>PICO 14. In patients with RMD, does the</cell><cell>739-754</cell></row><row><cell>prednisone ≥20 mg daily, administering</cell><cell></cell><cell>immunogenicity or efficacy of influenza</cell><cell></cell></row><row><cell>influenza vaccination is conditionally</cell><cell></cell><cell>vaccine differ in patients taking high-dose</cell><cell></cell></row><row><cell>recommended.</cell><cell></cell><cell>steroids as compared to those taking</cell><cell></cell></row><row><cell></cell><cell></cell><cell>lower doses of steroids or those not</cell><cell></cell></row><row><cell></cell><cell></cell><cell>taking steroids?</cell><cell></cell></row><row><cell>For patients with RMD who are taking the</cell><cell>PICO 4. Low for</cell><cell>PICO 4. In patients with RMD, does the</cell><cell>551-579</cell></row><row><cell>equivalent of prednisone ≥20 mg daily,</cell><cell>pneumococcal vaccines,</cell><cell>immunogenicity or efficacy of vaccine Z</cell><cell></cell></row><row><cell>deferring non-live attenuated vaccinations,</cell><cell>very low for other</cell><cell>differ in patients taking high-dose steroids</cell><cell></cell></row><row><cell>other than the influenza vaccine, until</cell><cell>vaccines</cell><cell>as compared to those taking lower doses</cell><cell></cell></row><row><cell>glucocorticoids are tapered to the</cell><cell></cell><cell>of steroids or those not taking steroids?</cell><cell></cell></row><row><cell>equivalent of prednisone &lt;20 mg daily is</cell><cell></cell><cell></cell><cell></cell></row><row><cell>conditionally recommended.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Whether to defer vaccination in patients with high</cell><cell></cell><cell></cell><cell></cell></row><row><cell>disease activity to maximize vaccine</cell><cell></cell><cell></cell><cell></cell></row><row><cell>immunogenicity and/or avoid worsening</cell><cell></cell><cell></cell><cell></cell></row><row><cell>disease activity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with RMD, giving non-live</cell><cell>PICO 13. Very low</cell><cell>PICO 13. In patients with RMD, does the</cell><cell>737-739</cell></row><row><cell>attenuated vaccinations is conditionally</cell><cell></cell><cell>immunogenicity or efficacy of influenza</cell><cell></cell></row><row><cell>recommended regardless of patients'</cell><cell></cell><cell>vaccine differ in patients who have</cell><cell></cell></row><row><cell>disease activity.</cell><cell></cell><cell>moderate to severely active underlying</cell><cell></cell></row><row><cell></cell><cell></cell><cell>disease as compared to those in low</cell><cell></cell></row><row><cell></cell><cell></cell><cell>disease activity or remission?</cell><cell></cell></row><row><cell></cell><cell>PICO 18. Very low</cell><cell>PICO 18. Should moderately to severely ill</cell><cell>930-931</cell></row><row><cell></cell><cell></cell><cell>patients with RMD with disease X defer</cell><cell></cell></row><row><cell></cell><cell></cell><cell>vaccination (not live attenuated) until the</cell><cell></cell></row><row><cell></cell><cell></cell><cell>disease is better controlled?</cell><cell></cell></row><row><cell>Managing immunosuppressive therapy at the</cell><cell></cell><cell></cell><cell></cell></row><row><cell>time of live attenuated vaccination to avoid</cell><cell></cell><cell></cell><cell></cell></row><row><cell>vaccine-associated illness</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with RMD who are taking</cell><cell>PICO 23. Very low</cell><cell>PICO 23. Should patients with RMD taking</cell><cell>952-960</cell></row><row><cell>immunosuppressive medication, deferring</cell><cell></cell><cell>drug Y receive live attenuated vaccines?</cell><cell></cell></row><row><cell>live attenuated vaccines is conditionally</cell><cell></cell><cell></cell><cell></cell></row><row><cell>recommended.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with RMD, holding</cell><cell>PICO 24. Very low</cell><cell>PICO 24. Should patients with RMD taking</cell><cell>960-964</cell></row><row><cell>immunosuppressive medication for an</cell><cell></cell><cell>drug Y hold the drug for a period of time</cell><cell></cell></row><row><cell>appropriate period before and 4 weeks</cell><cell></cell><cell>prior to or after receiving live attenuated</cell><cell></cell></row><row><cell>after live attenuated virus vaccination is</cell><cell></cell><cell>vaccines?</cell><cell></cell></row><row><cell>conditionally recommended.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>When to administer rotavirus vaccine to infants</cell><cell></cell><cell></cell><cell></cell></row><row><cell>with second-and/or third-trimester antenatal</cell><cell></cell><cell></cell><cell></cell></row><row><cell>exposure to biologic DMARDs in utero</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For neonates/infants with second-and/or</cell><cell>PICO 25. Very low</cell><cell>PICO 25. Should neonates/infants with</cell><cell>964-966</cell></row><row><cell>third-trimester antenatal exposure to TNFi,</cell><cell></cell><cell>second-and third-trimester antenatal</cell><cell></cell></row><row><cell>giving live attenuated rotavirus vaccine</cell><cell></cell><cell>exposure to TNFi or rituximab receive live</cell><cell></cell></row><row><cell>within the first 6 months of life is</cell><cell></cell><cell>attenuated rotavirus vaccine in their first 6</cell><cell></cell></row><row><cell>conditionally recommended.</cell><cell></cell><cell>months of life?</cell><cell></cell></row><row><cell>For neonates/infants with second-and/or</cell><cell>PICO 25. Very low</cell><cell>PICO 25. Should neonates/infants with</cell><cell>964-966</cell></row><row><cell>third-trimester antenatal exposure to</cell><cell></cell><cell>second-and third-trimester antenatal</cell><cell></cell></row><row><cell>rituximab, delaying live attenuated rotavirus</cell><cell></cell><cell>exposure to TNFi or rituximab receive live</cell><cell></cell></row><row><cell>vaccine until &gt;6 months of age is</cell><cell></cell><cell>attenuated rotavirus vaccine in their first 6</cell><cell></cell></row><row><cell>conditionally recommended.</cell><cell></cell><cell>months of life?</cell><cell></cell></row></table><note><p>Whether to give multiple vaccinations to patients with RMD on the same day (Continued)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 7 .</head><label>7</label><figDesc>(Cont'd)    </figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>Evidence</cell></row><row><cell></cell><cell></cell><cell></cell><cell>table page</cell></row><row><cell>Recommendations</cell><cell>Level of evidence †</cell><cell>PICO</cell><cell>numbers</cell></row><row><cell>For patients with RMD, giving multiple</cell><cell>PICO 22. Very low (indirect</cell><cell>PICO 22. Should patients with RMD receive</cell><cell></cell></row><row><cell>vaccinations on the same day rather than</cell><cell>evidence only) ‡</cell><cell>standardized regimens of vaccine</cell><cell></cell></row><row><cell>giving each individual vaccination on a</cell><cell></cell><cell>combinations?</cell><cell></cell></row><row><cell>different day is conditionally</cell><cell></cell><cell></cell><cell></cell></row><row><cell>recommended.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>21514658, 2023, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/acr.25045, Wiley Online Library on [24/02/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>ACR GUIDELINE FOR VACCINATIONS IN RHEUMATIC AND MUSCULOSKELETAL DISEASES</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank the patients who (along with authors <rs type="person">Ida Hakkarinen</rs> and <rs type="person">Grayson Schultz</rs>) participated in the Patient Panel meeting: <rs type="person">Jacob Anderson</rs>, <rs type="person">Rachelle Crow-Hercher</rs>, <rs type="person">Kathy Full</rs>, <rs type="person">Sandra Nye</rs>, <rs type="person">Mary Turner</rs>, <rs type="person">Shilpa Venkatachalam</rs>, and <rs type="person">Bene Williams</rs>. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Regina Parker</rs>, for assistance in coordinating the administrative aspects of the project, <rs type="person">Cindy Force</rs>, for assistance with manuscript preparation, and <rs type="person">Amy Turner</rs>, for overall supervision of the project. We thank <rs type="person">Janet Waters</rs> for her assistance in developing the literature search strategy, as well as performing the initial literature search and update searches. We thank <rs type="person">Susan Goodman, MD</rs>, for her help shepherding the project.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Supported by the <rs type="funder">American College of Rheumatology</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be submitted for publication. Dr. Bass had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. Study conception and design. Bass, Chakravarty, Akl, Bingham, Calabrese, Cappelli, Imundo, Winthrop, Baden, Curtis, Smith, Fontanarosa, Lakin, Sadun, Tam, Turner, Reston. Acquisition of data. Chakravarty, Calabrese, Imundo, Baden, Bridges, Schultz, Calabrese, Cunha, Fontanarosa, Gillispie-Taylor, Gkrouzman, Iyer, Lakin, Legge, Lo, Lockwood, Sadun, Singh, Sullivan, Tam, Turgunbaev, Reston. Analysis and interpretation of data. Bass, Chakravarty, Akl, Bingham, Calabrese, Cappelli, Johnson, Winthrop, Arasaratnam, Baden, Berard, Bridges, Cheah, Curtis, Ferguson, Hakkarinen, Onel, Schultz, Sivaraman, Smith, Sparks, Vogel, Williams, Calabrese, Fontanarosa, Gillispie-Taylor, Gkrouzman, Legge, Lockwood, Singh, Sullivan, Tam, Turgunbaev, Reston.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Rheumatic diseases in America: the problem, the impact, and the answers</title>
+		<ptr target="https://www.bu.edu/enact/files/2012/10/ACR_Whitepaper_SinglePg.pdf" />
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>American College of Rheumatology</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Common language description of the term rheumatic and musculoskeletal diseases (RMDs) for use in communication with the lay public, healthcare providers, and other stakeholders endorsed by the European League Against Rheumatism (EULAR) and the American College of Rheumatology (ACR)</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heijde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Daikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Betteridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="826" to="831" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Recommended adult immunization schedule, United States, 2021</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Freedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bernstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ault</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="374" to="384" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Advisory Committee on Immunization Practices recommended immunization schedule for children and adolescents aged 18 years or younger -United States</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hunter</surname></persName>
+		</author>
+		<ptr target="https://www.cdc.gov/mmwr/volumes/70/wr/mm7006a1.htm#contribAff" />
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effect of antipyretic analgesics on immune responses to vaccination</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Saleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Walter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Vaccin Immunother</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2391" to="2402" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<ptr target="https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/cisa/studies.html" />
+		<title level="m">Clinical Immunization Safety Assessment (CISA) clinical research studies</title>
+		<imprint/>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">COVID-19 vaccine clinical guidance summary for patients with rheumatic and musculoskeletal diseases</title>
+		<ptr target="https://www.rheumatology.org/Portals/0/Files/COVID-19-Vaccine-Clinical-Guidance-Rheumatic-Diseases-Summary.pdf" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<publisher>American College of Rheumatology</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">COVID-19 vaccines for people who are moderately or severely immunocompromised</title>
+		<ptr target="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/recommendations/immuno.html" />
+		<imprint/>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<ptr target="https://www.cdc.gov/vaccines/acip/recommendations.html" />
+		<title level="m">Advisory Committee on Immunization Practices (ACIP) recommendations</title>
+		<imprint/>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 15. Going from evidence to recommendation-determinants of a recommendation&apos;s direction and strength</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schunemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="726" to="735" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">AGREE II: advancing guideline development, reporting and evaluation in health care</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Brouwers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Kho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Browman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CMAJ</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="839" to="842" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Kimberlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Barnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lynfield</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<publisher>American Academy of Pediatrics</publisher>
+			<pubPlace>Itasca (IL)</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Red Book: 2021-2024 report of the Committee on Infectious Diseases. 32nd ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">High dose trivalent influenza vaccine compared to standard dose vaccine in patients with rheumatoid arthritis receiving TNF-alpha inhibitor therapy and healthy controls: results of the DMID 10-0076 randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Stapleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tuetken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="3934" to="3941" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Immunogenicity and safety of high-dose versus standard-dose inactivated influenza vaccine in rheumatoid arthritis patients: a randomised, double-blind, active-comparator trial</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Colmegna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Useche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rodriguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Adjuvanted influenza vaccines</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Tregoning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kinnear</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Vaccin Immunother</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="550" to="564" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Risk factors for severe bacterial infections in patients with systemic autoimmune diseases receiving rituximab</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heusele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Clerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Guery</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="799" to="805" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Rates of pneumococcal disease in adults with chronic medical conditions</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Shea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Edelsberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weycker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Open Forum Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Use of 15-valent pneumococcal conjugate vaccine and 20-valent pneumococcal conjugate vaccine among U.S. adults: updated recommendations of the Advisory Committee on Immunization Practices -United States</title>
+		<ptr target="https://www.cdc.gov/mmwr/volumes/71/wr/mm" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="volume">7104</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+	<note>htm? s_cid=mm7104a1_w</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Pneumococcal vaccine timing for adults</title>
+		<ptr target="https://www.cdc.gov/vaccines/vpd/pneumo/downloads/pneumo-vaccine-timing.pdf" />
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Risk of herpes zoster in autoimmune and inflammatory diseases: implications for vaccination</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="2328" to="2337" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Immunogenicity and safety of the adjuvanted recombinant zoster vaccine in chronically immunosuppressed adults following renal transplant: a phase 3, randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ramon</forename><surname>Torrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sanchez</forename><surname>Fructuoso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="181" to="190" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of recombinant zoster vaccine on incidence of herpes zoster after autologous stem cell transplantation: a randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bastidas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>De La Serna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El</forename><surname>Idrissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="123" to="133" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Immunogenicity and safety of the adjuvanted recombinant zoster vaccine in adults with haematological malignancies: a phase 3, randomised, clinical trial and post-hoc efficacy analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Dagnew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ilhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="988" to="1000" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Adjuvanted recombinant zoster vaccine in adult autologous stem cell transplant recipients: polyfunctional immune responses and lessons for clinical practice</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Stadtmauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">El</forename><surname>Idrissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Vaccin Immunother</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="4144" to="4154" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Safety of recombinant zoster vaccine: a retrospective study of 622 rheumatology patients</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lenfant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jin</forename><forename type="middle">Y</forename><surname>Kirchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="5149" to="5157" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Risk of high-grade cervical dysplasia and cervical cancer in women with systemic lupus erythematosus receiving immunosuppressive drugs</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Feldman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lupus</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="682" to="689" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">HPV vaccination of immunocompromised hosts</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Garland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brotherton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Moscicki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Papillomavirus Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="35" to="38" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Risk of high-grade cervical dysplasia and cervical cancer in women with systemic inflammatory diseases: a population-based cohort study</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Glynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Giovannucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1360" to="1367" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Biologic disease-modifying antirheumatic drugs and risk of high-grade cervical dysplasia and cervical cancer in rheumatoid arthritis: a cohort study</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schneeweiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="2106" to="2113" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Do RA or TNF inhibitors increase the risk of cervical neoplasia or of recurrence of previous neoplasia? A nationwide study from Sweden</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wadstrom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Frisell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sparen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1272" to="1278" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The safety and immunogenicity of Quadrivalent HPV (qHPV) vaccine in systemic lupus erythematosus</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Dhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Essenmacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dhar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2642" to="2646" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Immunogenicity and safety of a quadrivalent human papillomavirus vaccine in patients with systemic lupus erythematosus: a case-control study</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Mok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Fong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="659" to="664" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Protective effect of A/H1N1 vaccination in immune-mediated disease: a prospectively controlled vaccination study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Adler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krivine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Weix</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="695" to="700" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Reduced seroprotection after pandemic H1N1 influenza adjuvant-free vaccination in patients with rheumatoid arthritis: implications for clinical practice</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Guedes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Moraes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="2144" to="2147" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effect of methotrexate discontinuation on efficacy of seasonal influenza vaccination in patients with rheumatoid arthritis: a randomised clinical trial</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1559" to="1565" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Impact of temporary methotrexate discontinuation for 2 weeks on immunogenicity of seasonal influenza vaccination in patients with rheumatoid arthritis: a randomised clinical trial</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="898" to="904" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Two-week methotrexate discontinuation in patients with rheumatoid arthritis vaccinated with inactivated SARS-CoV-2 vaccine: a randomised clinical trial</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Araujo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Medeiros-Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Saad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="889" to="897" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Pausing methotrexate improves immunogenicity of COVID-19 vaccination in elderly patients with rheumatic diseases</title>
+		<author>
+			<persName><forename type="first">Arumahandi</forename><surname>De Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Frommert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Albach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="881" to="888" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Immune responses following administration of influenza and pneumococcal vaccines to patients with rheumatoid arthritis receiving adalimumab</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Kaine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Kivitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Birbara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="272" to="279" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Vaccine responses in patients with rheumatoid arthritis treated with certolizumab pegol: results from a single-blind randomized phase IV trial</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Kivitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schechtman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Texter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="648" to="657" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Antibody response to pneumococcal and influenza vaccination in patients with rheumatoid arthritis receiving abatacept</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Bingham</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Musculoskelet Disord</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">231</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Secukinumab does not impair the immunogenic response to the influenza vaccine in patients</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Richi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>De Ory</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RMD Open</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="1018">2019. 001018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Safety and response to influenza vaccine in patients with systemic-onset juvenile idiopathic arthritis receiving tocilizumab</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shinoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kaneko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mod Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="871" to="876" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The effect of tofacitinib on pneumococcal and influenza vaccine responses in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Winthrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Silverfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Racewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="687" to="695" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The cellular immune response to influenza vaccination is preserved in rheumatoid arthritis patients treated with rituximab</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Arad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tzadok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Amir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1643" to="1648" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Impact of synthetic and biologic disease-modifying antirheumatic drugs on antibody responses to the AS03-adjuvanted pandemic influenza vaccine: a prospective, open-label, parallel-cohort, single-center study</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gabay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Combescure</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="1486" to="1496" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Rituximab impairs immunoglobulin (Ig)M and IgG (subclass) responses after influenza vaccination in rheumatoid arthritis patients</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Assen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Wilting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Exp Immunol</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page" from="40" to="47" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Immunization responses in rheumatoid arthritis patients treated with rituximab: results from a controlled clinical trial</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Bingham</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Looney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deodhar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="64" to="74" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Prime-boost vaccination strategy enhances immunogenicity compared to single pneumococcal conjugate vaccination in patients receiving conventional DMARDs, to some extent in abatacept but not in rituximab-treated patients</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nived</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jonsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Settergren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">36</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Specific antibody response after influenza immunization in systemic lupus erythematosus</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abu-Shakra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Press</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Varsano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="2555" to="2557" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Influenza vaccination responses in human systemic lupus erythematosus: impact of clinical and demographic features</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Crowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Merrill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Vista</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="2396" to="2406" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Influenza vaccination of patients with systemic lupus erythematosus</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Ristow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Douglas</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Condemi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="786" to="789" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Influenza A/H1N1 vaccination of patients with SLE: can antimalarial drugs restore diminished response under immunosuppressive therapy?</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Borba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Saad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Pasoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1061" to="1069" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">High disease activity: an independent factor for reduced immunogenicity of the pandemic influenza A vaccine in patients with juvenile systemic lupus erythematosus</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Campos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Aikawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1121" to="1127" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Influenza A H1N1/2009 vaccine in juvenile dermatomyositis: reduced immunogenicity in patients under immunosuppressive therapy</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Guissa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Sallum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Exp Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="583" to="588" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Pneumococcal vaccination in patients with systemic lupus erythematosus: a multicenter placebocontrolled randomized double-blind study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grabar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Groh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bahuaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="4877" to="4885" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Response to pneumococcal vaccine in patients with early rheumatoid arthritis receiving infliximab plus methotrexate or methotrexate alone</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Visvanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Keenan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="952" to="957" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Evaluation of pneumococcal and tetanus vaccine responses in patients with rheumatoid arthritis receiving baricitinib: results from a long-term extension trial substudy</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Winthrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Bingham</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Komocsar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">102</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Control of humoral immunity and auto-immunity by the CXCR4/CXCL12 axis in lupus patients following influenza vaccine</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Launay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Servettaz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="3492" to="3501" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Planned yellow fever primary vaccination is safe and immunogenic in patients with autoimmune diseases: a prospective non-interventional study</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Valim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Miyamoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Immunol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1382</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Comparison of the PRNT and an immune fluorescence assay in yellow fever vaccinees receiving immunosuppressive medication</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Wieten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Jonker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Pieren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1247" to="1251" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Safety of measles, mumps and rubella vaccination in juvenile idiopathic arthritis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Heijstek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Pileggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zonneveld-Huijssoon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="1384" to="1387" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Live attenuated MMR/V booster vaccines in children with rheumatic diseases on immunosuppressive therapy are safe: multicenter, retrospective data collection</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Uziel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moshe</forename><forename type="middle">V</forename><surname>Onozo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="2198" to="2201" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Measles outbreaks and public attitudes towards vaccine exemptions: some cautions and strategies for addressing vaccine hesitancy</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Jamison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Freimuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Vaccin Immunother</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1050" to="1054" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">IDSA clinical practice guideline for vaccination of the immunocompromised host</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Rubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Levin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ljungman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="44" to="100" />
+			<date type="published" when="2013">2013. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The safety and immunologic effectiveness of the live varicella-zoster vaccine in patients receiving tumor necrosis factor inhibitor therapy: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Cofield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Bridges</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="1510" to="1518" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Safety of infliximab following live virus vaccination in Kawasaki disease patients</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Burns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Tremoulet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Infect Dis J</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="435" to="437" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Yellow fever revaccination during infliximab therapy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Guedes-Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mangueira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="896" to="898" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">The safety of liveattenuated vaccines in patients using IL-1 or IL-6 blockade: an international survey</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jeyaratnam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ter</forename><surname>Haar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Lachmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pediatr Rheumatol Online J</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The safety and immunogenicity of live zoster vaccination in patients with rheumatoid arthritis before starting tofacitinib: a randomized phase II trial</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Winthrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Wouters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Choy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1969" to="1977" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Varicella seroprevalence in the U.S.: data from the National Health and Nutrition Examination Survey</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Reynolds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kruszon-Moran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jumaan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Public Health Rep</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="860" to="869" />
+			<date type="published" when="1999">1999-2004. 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Live attenuated vaccine efficacy six months after intravenous immunoglobulin therapy for Kawasaki disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Morikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sakakibara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kimiya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vaccine</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="5680" to="5687" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<ptr target="https://www.cdc.gov/vaccines/pubs/pinkbook/appendix/appdx-a.html" />
+		<title level="m">Appendix A: schedules and recommendations</title>
+		<imprint/>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Vaccination guidelines for patients with immune-mediated disorders on immunosuppressive therapies</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Papp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Haraoui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Cutan Med Surg</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="50" to="74" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<ptr target="https://www.cdc.gov/vaccines/hcp/acip-recs/general-recs/immunocompetence.html" />
+		<title level="m">Altered immunocompetence</title>
+		<imprint/>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Use of biologic therapy by pregnant women with inflammatory bowel disease does not affect infant response to vaccines</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Beaulieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Ananthakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Gastroenterol Hepatol</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="99" to="105" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Suboptimal vaccination administration in mothers with inflammatory bowel disease and their biologic-exposed infants</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chiarella-Redfern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jubran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inflamm Bowel Dis</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="79" to="86" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Influence of anti-tumor necrosis factor-alpha therapy to pregnant inflammatory bowel disease women and their children&apos;s immunity</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Park</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intest Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="237" to="243" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Detection of infliximab in breast milk of nursing mothers with inflammatory bowel disease</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ben-Horin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yavzori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kopylov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Crohns Colitis</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="555" to="558" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Challenges in vaccinating infants born to mothers taking immunoglobulin biologicals during pregnancy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Koren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Rev Vaccines</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="239" to="256" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Risk of intussusception after rotavirus vaccination</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Harder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Kries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dtsch Arztebl Int</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="255" to="262" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title level="m" type="main">Timing and spacing of immunobiologics</title>
+		<ptr target="https://www.cdc.gov/vaccines/hcp/acip-recs/general-recs/timing" />
+		<imprint/>
+		<respStmt>
+			<orgName>Centers for Disease Control and Prevention</orgName>
+		</respStmt>
+	</monogr>
+	<note>text=Two%20or% 20more%20injectable%20or,the%20potential%20risk%20for %20interference</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

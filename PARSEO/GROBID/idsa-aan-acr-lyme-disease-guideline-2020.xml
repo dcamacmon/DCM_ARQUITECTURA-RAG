@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR): 2020 Guidelines for the Prevention, Diagnosis, and Treatment of Lyme Disease</title>
+				<funder>
+					<orgName type="full">Roche Diagnostics</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Abbott Laboratories (formerly St. Jude Medical</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Centers for Medicare and Medicaid Services</orgName>
+					<orgName type="abbreviated">CMS</orgName>
+				</funder>
+				<funder ref="#_XXGdThU">
+					<orgName type="full">Michigan Department of Health and Human Services</orgName>
+				</funder>
+				<funder ref="#_6AMfdcc">
+					<orgName type="full">Slovenian Research Agency</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">American Academy of Family Physicians</orgName>
+					<orgName type="abbreviated">AAFP</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Global Lyme Alliance</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CDC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Institute for Clinical and Economic Review and the China Medical Board</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">American College of Radiology</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Michigan State University</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Hood Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Arthritis Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NIH, Provider and Payer Quality Initiative</orgName>
+					<orgName type="abbreviated">PPQI</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Patient and Caregivers Committee of the Heart Rhythm Society</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Immunetics, Inc.</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Harvard Catalyst</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Rx Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NIH Center for Research Resources and for Advancing Translational Sciences</orgName>
+					<orgName type="abbreviated">NCATS</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Bay Area Lyme Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CDC, Emergency Medical Services for Children</orgName>
+					<orgName type="abbreviated">EMSC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Boston Scientific</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">American College of Rheumatology</orgName>
+				</funder>
+				<funder ref="#_FHMgAyE">
+					<orgName type="full">Gordon and Llura Gund Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">English-Bonter-Mitchell Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Teva Pharmaceuticals</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NIH, Department of Defense</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Alzheimer&apos;s Association</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Merck</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Ounsworth-Fitzgerald Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Center for AIDS Research, Biogen Idec</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Milton Foundation</orgName>
+				</funder>
+				<funder ref="#_jwFVvsv #_GGVNtwF #_3sBecdt #_fm8cYjk #_gHuEduf">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Medtronic</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Mathers Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Veterans Health Administration</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NIH and AbbVie, Inc.</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Michigan Lyme Disease Association</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Genzyme</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NIH DSMB</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Centers for Disease Control and Prevention</orgName>
+					<orgName type="abbreviated">CDC</orgName>
+				</funder>
+				<funder ref="#_rCVJs4n">
+					<orgName type="full">Editorial Boards of Pathogens and Plos Neglected Tropical Diseases</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Peabody Foundation</orgName>
+				</funder>
+				<funder ref="#_ZRNPMEK #_y3uDSww">
+					<orgName type="full">National Institutes of Health</orgName>
+					<orgName type="abbreviated">NIH</orgName>
+				</funder>
+				<funder ref="#_vhJUfSR">
+					<orgName type="full">Novartis Promotional Speakers Bureau</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Bristol Myers Squibb</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Boehringer Ingelheim Pharmaceuticals, Inc.</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Patient-Centered Clinical Research Network (PCORNet)</orgName>
+				</funder>
+				<funder ref="#_36MmKbk #_qufRZAE">
+					<orgName type="full">American Lyme Disease Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">AbbVie</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Board member of Delaware Academy of Family Physicians</orgName>
+					<orgName type="abbreviated">DAFP</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Paul</forename><forename type="middle">M</forename><surname>Lantos</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><surname>Rumbaugh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><forename type="middle">K</forename><surname>Bockenstedt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yngve</forename><forename type="middle">T</forename><surname>Falck-Ytter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><forename type="middle">E</forename><surname>Aguero-Rosenfeld</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><forename type="middle">G</forename><surname>Auwaerter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kelly</forename><surname>Baldwin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Raveendhara</forename><forename type="middle">R</forename><surname>Bannuru</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kiran</forename><forename type="middle">K</forename><surname>Belani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><forename type="middle">R</forename><surname>Bowie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">A</forename><surname>Branda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">B</forename><surname>Clifford</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Francis</forename><forename type="middle">J</forename><surname>Dimario</surname><genName>Jr</genName></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">J</forename><surname>Halperin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">J</forename><surname>Krause</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Valery</forename><surname>Lavergne</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">H</forename><surname>Liang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">Cody</forename><surname>Meissner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lise</forename><forename type="middle">E</forename><surname>Nigrovic</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Nocton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mikala</forename><forename type="middle">C</forename><surname>Osani</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">A</forename><surname>Pruitt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jane</forename><surname>Rips</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lynda</forename><forename type="middle">E</forename><surname>Rosenfeld</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Margot</forename><forename type="middle">L</forename><surname>Savoy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sunil</forename><forename type="middle">K</forename><surname>Sood</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Allen</forename><forename type="middle">C</forename><surname>Steere</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Franc</forename><surname>Strle</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Sundel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jean</forename><surname>Tsao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Elizaveta</forename><forename type="middle">E</forename><surname>Vaysbrot</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gary</forename><forename type="middle">P</forename><surname>Wormser</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lawrence</forename><forename type="middle">S</forename><surname>Zemel</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">American Academy of Neurology Institute</orgName>
+								<orgName type="institution" key="instit2">American College of Rheumatology</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR): 2020 Guidelines for the Prevention, Diagnosis, and Treatment of Lyme Disease</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BB16118350723ED6C824D3363366ED67</idno>
+					<idno type="DOI">10.1002/art.41562</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This evidence-based clinical practice guideline for the prevention, diagnosis, and treatment of Lyme disease was developed by a multidisciplinary panel representing the Infectious Diseases Society of North American (IDSA), the American Academy of Neurology (AAN), and the American College of Rheumatology (ACR). The scope of this guideline includes prevention of Lyme disease, This guideline was jointly developed by the Infectious Diseases Society of America,</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>It is important to realize that guidelines cannot always account for individual variation among patients. They are assessments of current scientific and clinical information provided as an educational service; are not continually updated and may not reflect the most recent evidence (new evidence may emerge between the time information is developed and when it is published or read); should not be considered inclusive of all proper treatments methods of care, or as a statement of the standard of care; do not mandate any particular course of medical care; and are not intended to supplant physician judgment with respect to particular patients or special clinical situations. Whether and the extent to which to follow guidelines is voluntary, with the ultimate determination regarding their application to be made by the physician in the light of each patient's individual circumstances. Although IDSA, AAN, and ACR make every effort to present accurate, complete, and reliable information, these guidelines are presented "as is" without any warranty, either express or implied. IDSA, AAN, and ACR (and their officers, directors, members, employees, and agents) assume no responsibility for any loss, damage, or claim with respect to any liabilities, including direct, special, indirect, or consequential damages, incurred in connection with these guidelines or reliance on the information presented.</p><p>The guidelines represent the proprietary and copyrighted property of IDSA, AAN, and ACR. Copyright 2020 Infectious Diseases Society of America, American Academy of Neurology, and American College of Rheumatology. All rights reserved. No part of these guidelines may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of IDSA, AAN, or ACR. Permission is granted to physicians and healthcare providers solely to copy and use the guidelines in their professional practices and clinical decision-making. No license or permission is granted to any person or entity, and prior written authorization by IDSA, AAN, or ACR is required, to sell, distribute, or modify the guidelines, or to make derivative works of or incorporate the guidelines into any product, including but not limited to clinical decision support software or any other software product. Except for the permission granted above, any person or entity desiring to use the guidelines in any way must contact IDSA, AAN, or ACR for approval in accordance with the terms and conditions of third party use, in particular any use of the guidelines in any software product.</p><p>and the diagnosis and treatment of Lyme disease presenting as erythema migrans, Lyme disease complicated by neurologic, cardiac, and rheumatologic manifestations, Eurasian manifestations of Lyme disease, and Lyme disease complicated by coinfection with other tick-borne pathogens. This guideline does not include comprehensive recommendations for babesiosis and tick-borne rickettsial infections, which are published in separate guidelines. The target audience for this guideline includes primary care physicians and specialists caring for this condition such as infectious diseases specialists, emergency physicians, internists, pediatricians, family physicians, neurologists, rheumatologists, cardiologists, and dermatologists in North America.</p><p>Summarized below are the 2020 recommendations for the prevention, diagnosis, and treatment of Lyme disease. The panel followed a systematic process used in the development of other Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR) clinical practice guidelines, which included a standardized methodology for rating the certainty of the evidence and strength of recommendation using the GRADE approach (Grading of Recommendations Assessment, Development, and Evaluation) (see Figure <ref type="figure" target="#fig_0">1</ref>). A detailed description of background, methods, evidence summary and rationale that support each recommendation, and knowledge gaps can be found online in the full text (<ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41562/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/ art.41562/ abstract</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. Which measures should be used to prevent tick bites and tick-borne infections?</head><p>A. Personal protective measures Recommendation:</p><p>1. Individuals at risk of exposure should implement personal protective measures to reduce the risk of tick exposure and infection with tick-borne pathogens (good practice statement).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Repellents to prevent tick bites</head><p>Recommendation:</p><p>1. For the prevention of tick bites, we recommend N, N-Diethyl-meta-toluamide (DEET), picaridin, ethyl-3-(Nn-butyl-N-acetyl) aminopropionate (IR3535), oil of lemon eucalyptus (OLE), p-methane-3,8-diol (PMD), 2-undecanone, or permethrin (strong recommendation, moderate-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Removal of attached ticks</head><p>Recommendations:</p><p>1. We recommend promptly removing attached ticks by mechanical means using a clean fine-tipped tweezer (or a comparable device) inserted between the tick body and the skin (good practice statement). 2. We recommend against burning an attached tick (with a match or other heat device) or applying noxious chemicals or petroleum products to coax its detachment (good practice statement).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. Which diagnostic tests should be used following a tick bite?</head><p>A. Diagnostic tick testing Recommendations:</p><p>1. We recommend submitting the removed tick for species identification (good practice statement).</p><p>are identical except for minor stylistic and spelling differences in keeping with each journal's style. The full guideline is available at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41562/abstract">http://onlin elibr ary. wiley.com/doi/10.1002/art.41562/ abstract</ref>. Support for this guideline was provided by the Infectious Diseases Society of America, the American Academy of Neurology, and the American College of Rheumatology. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">We recommend against testing a removed</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. Who should receive antibiotic prophylaxis to prevent Lyme disease following presentation with a tick bite?</head><p>Recommendation:</p><p>1. We recommend that prophylactic antibiotic therapy be given only to adults and children within 72 hours of removal of an identified high-risk tick bite, but not for bites that are equivocal risk or low risk (strong recommendation, high-quality evidence).</p><p>Comment: If a tick bite cannot be classified with a high level of certainty as a high-risk bite, a wait-and-watch approach is recommended. A tick bite is considered to be high-risk only if it meets the following 3 criteria: the tick bite was from (a) an identified Ixodes spp. vector species, (b) it occurred in a highly endemic area, and (c) the tick was attached for ≥36 hours. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. What is the preferred antibiotic regimen for the chemoprophylaxis of Lyme disease following a high-risk tick bite?</head><p>Recommendation:</p><p>1. For high-risk Ixodes spp. bites in all age groups, we recommend the administration of a single dose of oral doxycycline within 72 hours of tick removal over observation (strong recommendation, moderate-quality evidence).</p><p>Comment: Doxycycline is given as a single oral dose, 200 mg for adults and 4.4 mg/kg (up to a maximum dose of 200 mg) for children.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. What is the preferred diagnostic testing strategy for erythema migrans?</head><p>Recommendations:</p><p>1. In patients with potential tick exposure in a Lyme disease endemic area who have 1 or more skin lesions compatible with erythema migrans, we recommend clinical diagnosis rather than laboratory testing (strong recommendation, moderatequality evidence). 2. In patients with 1 or more skin lesions suggestive of, but atypical for erythema migrans, we suggest antibody testing performed on an acute-phase serum sample (followed by a convalescent-phase serum sample if the initial result is negative) rather than currently available direct detection methods such as polymerase chain reaction (PCR) or culture performed on blood or skin samples (weak recommendation, low-quality evidence).</p><p>Comment: If needed, the convalescent-phase serum sample should be collected at least 2-3 weeks after collection of the acute-phase serum sample.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. What are the preferred antibiotic regimens for the treatment of erythema migrans?</head><p>Recommendation:</p><p>1. For patients with erythema migrans, we recommend using oral antibiotic therapy with doxycycline, amoxicillin, or cefuroxime axetil (strong recommendation; moderate-quality evidence). Comment: For patients unable to take both doxycycline and beta-lactam antibiotics, the preferred second-line agent is azithromycin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VII. How long should a patient with erythema migrans be treated?</head><p>Recommendation:</p><p>1. We recommend that patients with erythema migrans be treated with either a 10-day course of doxycycline or a 14-day course of amoxicillin or cefuroxime axetil rather than longer treatment courses (strong recommendation, moderatequality evidence). Comment: If azithromycin is used, the indicated duration is 5-10 days, with a 7-day course preferred in the United States, as this duration of therapy was used in the largest clinical trial performed in the United States (3).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VIII. Should patients with the southern tickassociated rash illness (STARI) be treated with antibiotics?</head><p>Recommendation:</p><p>1. In patients who develop an erythema migrans-like skin lesion following the bite of the lone star tick (Amblyomma americanum), an illness referred to as STARI, we make no recommendation for or against the use of antibiotics (no recommendation; knowledge gap). Comment: In certain geographic regions both STARI and Lyme disease are endemic (4). Distinguishing single erythema migrans due to Lyme disease from STARI may not be possible clinically unless the responsible tick has been identified <ref type="bibr">(5)</ref>. When STARI cannot be distinguished from Lyme disease-associated erythema migrans in areas endemic for both conditions, antibiotic therapy directed toward Lyme disease is indicated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IX. What is the preferred diagnostic testing strategy for Lyme neuroborreliosis?</head><p>Recommendations:</p><p>1. When assessing patients for possible Lyme neuroborreliosis involving either the peripheral nervous system (PNS) or central nervous system (CNS), we recommend serum antibody testing rather than PCR or culture of either cerebrospinal fluid (CSF) or serum (strong recommendation, moderate-quality evidence). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>X. For which neurologic presentations should patients be tested for Lyme disease?</head><p>Recommendations:</p><p>1. In patients presenting with 1 or more of the following acute disorders: meningitis, painful radiculoneuritis, mononeuropathy multiplex including confluent mononeuropathy multiplex, acute cranial neuropathies (particularly VII, VIII, less commonly III, V, VI, and others), or in patients with evidence of spinal cord (or rarely brain) inflammation, the former particularly in association with painful radiculitis involving related spinal cord segments, and with epidemiologically plausible exposure to ticks infected with B. burgdorferi, we recommend testing for Lyme disease (strong recommendation, moderate-quality evidence). 2. In patients with typical amyotrophic lateral sclerosis, relapsing-remitting multiple sclerosis, Parkinson's disease, dementia or cognitive decline, or new-onset seizures, we recommend against routine testing for Lyme disease (strong recommendation, low-quality evidence). 3. In patients with neurologic syndromes other than those listed in <ref type="bibr" target="#b13">[1]</ref> or <ref type="bibr">[2]</ref>, in the absence of a history of other clinical or epidemiologic support for the diagnosis of Lyme disease, we recommend against screening for Lyme disease (strong recommendation, low-quality evidence). 4. In patients presenting with nonspecific magnetic resonance imaging white matter abnormalities confined to the brain in the absence of a history of other clinical or epidemiologic support for the diagnosis of Lyme disease, we suggest against testing for Lyme disease (weak recommendation, low-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XI. Should adult patients with psychiatric illnesses be tested for Lyme disease?</head><p>Recommendation:</p><p>1. In patients with psychiatric illness, we recommend against routine testing for Lyme disease (strong recommendation, low-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XII. Should children with developmental, behavioral, or psychiatric disorders be tested for Lyme disease?</head><p>Recommendation:</p><p>1. In children presenting with developmental, behavioral, or psychiatric disorders, we suggest against routinely testing for Lyme disease (weak recommendation, low-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XIII. What are the preferred antibiotic regimens for the treatment of acute neurologic manifestations of Lyme disease without parenchymal involvement of the brain or spinal cord?</head><p>Recommendation:</p><p>1. In patients with Lyme disease-associated meningitis, cranial neuropathy, radiculoneuropathy, or with other PNS manifestations, we recommend using intravenous (IV) ceftriaxone, cefotaxime, penicillin G, or oral doxycycline over other antimicrobials (strong recommendation, moderate-quality evidence). Comment: Decisions about the choice of antibiotic among these, including the route of administration, should primarily be made based on individual factors such as side effect profile, ease of administration, ability to tolerate oral medication, concerns about compliance unrelated to effectiveness. Treatment route may be changed from IV to oral during treatment. The preferred antibiotic duration is 14-21 days.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XIV. Should patients with Lyme disease-related parenchymal involvement of the brain or spinal cord be treated with oral or intravenous antibiotics?</head><p>Recommendation:</p><p>1. In patients with Lyme disease-associated parenchymal involvement of the brain or spinal cord, we recommend using IV over oral antibiotics (strong recommendation, moderate-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XV. Should patients with Lyme disease and facial nerve palsy receive corticosteroids in addition to antimicrobial therapy?</head><p>Recommendation:</p><p>1. In patients with Lyme disease-associated facial nerve palsy, we make no recommendation on the use of corti-costeroids in addition to antibiotics (no recommendation; knowledge gap). Comment: In patients age 16 or older presenting with acute facial nerve palsy but without other objective clinical or serologic evidence of Lyme disease, corticosteroid treatment should be administered within 72 hours in accordance with current facial nerve palsy guideline recommendations <ref type="bibr">(6)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XVI. Should all patients with early Lyme disease receive an electrocardiogram (ECG) to screen for Lyme carditis?</head><p>Recommendation:</p><p>1. We suggest performing an ECG only in patients with signs or symptoms consistent with Lyme carditis (weak recommendation, low-quality evidence). Comment: Symptoms and signs of cardiac involvement in Lyme disease include dyspnea, edema, palpitations, lightheadedness, chest pain, and syncope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XVII. Which patients with Lyme carditis require hospitalization?</head><p>Recommendation:</p><p>1. In patients with or at risk for severe cardiac complications of Lyme disease including those with significant PR prolongation (PR &gt;300 milliseconds), other arrhythmias, or clinical manifestations of myopericarditis, we recommend hospital admission with continuous ECG monitoring (strong recommendation, very low-quality evidence).</p><p>Comment: Clinical manifestations of Lyme carditis include exercise intolerance, palpitations, presyncope, syncope, pericarditic pain, evidence of pericardial effusion, elevated biomarkers (such as troponin), edema, and shortness of breath.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XVIII. What pacing modality should be used if needed for the management of Lyme carditis?</head><p>Recommendation:</p><p>1. For patients with symptomatic bradycardia due to Lyme carditis that cannot be managed medically, we recommend temporary pacing modalities rather than implanting a permanent pacemaker (strong recommendation, moderate-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XIX. What are the preferred antibiotic regimens for the treatment of Lyme carditis?</head><p>Recommendations:</p><p>1. In outpatients with Lyme carditis, we suggest oral antibiotics over IV antibiotics (weak recommendation, very low-quality evidence). 2. In the hospitalized patient with Lyme carditis, we suggest initially using IV ceftriaxone over oral antibiotics until there is evidence of clinical improvement, then switching to oral antibiotics to complete treatment (weak recommendation, very low-quality evidence). 3. For the treatment of Lyme carditis, we suggest 14-21 days of total antibiotic therapy over longer durations of treatment (weak recommendation, very low-quality evidence). Comment: Oral antibiotic choices for Lyme carditis are doxycycline, amoxicillin, cefuroxime axetil, and azithromycin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XX. Should patients being evaluated for acute myocarditis/pericarditis or chronic cardiomyopathy of unknown cause be tested for Lyme disease?</head><p>Recommendations:</p><p>1. In patients with acute myocarditis/pericarditis of unknown cause in an appropriate epidemiologic setting, we recommend testing for Lyme disease (strong recommendation, low-quality evidence). 2. In patients with chronic cardiomyopathy of unknown cause, we suggest against routine testing for Lyme disease (weak recommendation, low-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XXI. What is the preferred diagnostic testing strategy for Lyme arthritis?</head><p>Recommendations:</p><p>1. When assessing possible Lyme arthritis, we recommend serum antibody testing over PCR or culture of blood or synovial fluid/ tissue (strong recommendation, moderate-quality evidence). 2. In seropositive patients for whom the diagnosis of Lyme arthritis is being considered but treatment decisions require more definitive information, we recommend PCR applied to synovial fluid or tissue rather than Borrelia culture of those samples (strong recommendation, moderate-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XXII. What are the preferred antibiotic regimens for the initial treatment of Lyme arthritis?</head><p>Recommendation:</p><p>1. For patients with Lyme arthritis, we recommend using oral antibiotic therapy for 28 days (strong recommendation, moderate-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XXIII. What are the approaches to patients in whom Lyme arthritis has not completely resolved?</head><p>Recommendations:</p><p>1. In patients with Lyme arthritis with partial response (mild residual joint swelling) after a first course of oral antibiotic, we make no recommendation for a second course of antibiotic versus observation (no recommendation, knowledge gap).</p><p>Comment: Consideration should be given to exclusion of other causes of joint swelling than Lyme arthritis, medication adherence, duration of arthritis prior to initial treatment, degree of synovial proliferation versus joint swelling, patient preferences, and cost. A second course of oral antibiotics for up to 1 month may be a reasonable alternative for patients in whom synovial proliferation is modest compared to joint swelling and for those who prefer repeating a course of oral antibiotics before considering IV therapy. 2. In patients with Lyme arthritis with no or minimal response (moderate to severe joint swelling with minimal reduction of the joint effusion) to an initial course of oral antibiotic, we suggest a 2-4-week course of IV ceftriaxone over a second course of oral antibiotics (weak recommendation, low-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XXIV. How should post-antibiotic (previously termed antibiotic-refractory) Lyme arthritis be treated?</head><p>Recommendation:</p><p>1. In patients who have failed 1 course of oral antibiotics and 1 course of IV antibiotics, we suggest a referral to a rheumatologist or other trained specialist for consideration of the use of disease-modifying antirheumatic drugs, biologic agents, intraarticular steroids, or arthroscopic synovectomy (weak recommendation, very low-quality evidence). Comment: Antibiotic therapy for longer than 8 weeks is not expected to provide additional benefit to patients with persistent arthritis if that treatment has included 1 course of IV therapy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XXV. Should patients with persistent symptoms following standard treatment of Lyme disease receive additional antibiotics?</head><p>Recommendation:</p><p>1. For patients who have persistent or recurring nonspecific symptoms such as fatigue, pain, or cognitive impairment following recommended treatment for Lyme disease, but who lack objective evidence of reinfection or treatment failure, we recommend against additional antibiotic therapy (strong recommendation, moderate-quality evidence). Comment: Evidence of persistent infection or treatment failure would include objective signs of disease activity, such as arthritis, meningitis, or neuropathy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XXVI. What is the preferred antibiotic regimen for the treatment of borrelial lymphocytoma?</head><p>Recommendation:</p><p>1. In patients with borrelial lymphocytoma, we suggest oral antibiotic therapy for 14 days (weak recommendation, lowquality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XXVII. What is the preferred antibiotic regimen for the treatment of acrodermatitis chronica atrophicans?</head><p>Recommendation:</p><p>1. In patients with acrodermatitis chronica atrophicans, we suggest oral antibiotic therapy for 21-28 days over shorter durations (weak recommendation, low-quality evidence).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XXVIII. Under what circumstances should a patient with Lyme disease be evaluated for coinfection with A. phagocytophilum or B. microti?</head><p>Recommendation:</p><p>1 To provide thorough transparency, the IDSA/AAN/ACR requires full disclosure of all relationships, regardless of relevancy to the guideline topic. The assessment of disclosed relationships for possible COI is based on the relative weight of the financial relationship (i.e., monetary amount) and the relevance of the relationship (i.e., the degree to which an association might reasonably be interpreted by an independent observer as related to the topic or recommendation of consideration). The reader of these guidelines should be mindful of this when the list of disclosures is reviewed. Dr. Lantos has received research funding from the National Cytomegalovirus Foundation and from the NIH and educational funding from Duke University; and has served as a consultant and reviewed trial protocol for Frederick O'Connor Medical Consultants, LLC. Dr. Bockenstedt has received research funding from the NIH and the Gordon and Llura Gund Foundation; has received remuneration from L2 Diagnostics for investigator-initiated NIH-sponsored research; and was awarded an endowed professorship as the Harold W. Jockers Professor of Medicine at Yale University. Dr. Falck-Ytter serves as director of the Evidence Foundation and the GRADE Network; conducts GRADE workshops with the Evidence Foundation; has served as the chair of the Guidelines Committee for the American Gastroenterological Association; and has received research funding from the Cleveland VA Medical Research and Education Foundation. Dr. Aguero-Rosenfeld serves as a council member for the New York City chapter of the American Society of Microbiology (ASM) and as a Board member of the American Lyme Disease Foundation; has provided legal testimony and consultation regarding Lyme disease and tick-borne diseases; and has received research grants from the NIH, BioFire, New York State Department of Health, and ViraMed. Dr. Auwaerter receives research funding from the Fisher Center for Environmental Infectious Diseases and the NIH; serves on the Board of Directors of the American Lyme Disease Foundation and as the Vice Chair of the Infectious Diseases Society of America (IDSA) Foundation; serves as a scientific advisor for DiaSorin, Adaptive Technologies, and Shionogi; provides legal expert opinion testimony regarding Lyme disease; had stock in Johnson &amp; Johnson; has served as an editor for Johns Hopkins POC-IT ABX Guide, an advisor for the Food and Drug Administration (FDA), Genentech, Dynavax, Aradigm, Cempra, BioMérieux, Cerexa, and Medscape; has received research funding from Cerexa; has served on the FDA Advisory Board, the Medscape Advisory Board, and the IDSA Board of Directors; and his spouse has equity interest in venture capital-funded Capricor. Dr. Belani reviews non-continuing medical education (CME) lectures for and received honoraria and travel reimbursement from Horizon Therapeutics; and has received research funding from the NIH and the Children's Hospitals and Clinics of Minnesota. Dr. Bowie has provided expert testimony to the Canadian Senate Subcommittee on Bill C-442: An Act Respecting a National Lyme Disease Strategy on behalf of the Association of Medical Microbiology and Infectious Disease Canada; and has received research funding from GlaxoSmithKline, Pfizer Canada, the Canadian Institutes of Health Research, and Vancouver Coastal Health Research Institute. Dr. Branda receives research funding from the Lyme Disease Biobank Foundation and Zeus Scientific; serves as a scientific advisor and consultant to DiaSorin, Inc.; has served as a scientific advisor and consultant for T2 Biosystems; has served on the scientific advisory board of Roche Diagnostics and AdvanDx; has received research funding from Karius, Inc., Alere, Inc., T2 Biosystems, BioMérieux, TBS Technologies, Immunetics, Inc., DiaSorin, Inc., Kephera Diagnostics, Inc., and the Bay Area Lyme Foundation; has participated in unfunded research collaborations with Karius Inc. and Kephera Diagnostics; was a member of the editorial board of the Journal of Clinical Microbiology; was a co-inventor on an application for a patent to protect intellectual property; and his spouse is an employee of Informed DNA. Dr. <ref type="bibr">Clifford</ref>  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Approach and implications to rating the quality of evidence and strength of recommendations using the GRADE (Grading of Recommendations Assessment, Development, and Evaluation) methodology (unrestricted use of the figure granted by the US GRADE Network) (1,2).</figDesc><graphic coords="3,54.00,88.65,504.00,390.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>. In patients with Lyme disease who have a high-grade fever or characteristic laboratory abnormalities, clinicians should assess for possible coinfection with Anaplasma phagocytophilum and/or B. microti infection in geographic regions where these infections are endemic (good practice statement). Comment: Coinfection should be investigated in patients who have a persistent fever for &gt;1 day while on antibiotic treatment for Lyme disease. If fever persists despite treatment with doxycycline, B. microti infection is an important consideration.Characteristic laboratory abnormalities found in both anaplasmosis and babesiosis include thrombocytopenia, leukopenia, neutropenia, and/or anemia. Evidence of hemolysis, such as elevated indirect bilirubin level, anemia, and elevated lactate dehydrogenase, is particularly suggestive of babesiosis. data. Supplementary materials (in addition to the full guideline) are available on the Arthritis &amp; Rheumatology website at http://onlin elibr ary.wiley.com/doi/10.1002/art.41562/ abstract. Consisting of data provided by the authors to benefit the reader, the posted materials are not copyedited and are the sole responsibility of the authors, so questions or comments should be addressed to the corresponding author. Conflict of interest statement. See the Methodology section in the full guideline (on the Arthritis &amp; Rheumatology website at http://onlin e libr ary.wiley.com/doi/10.1002/art.41562/ abstract) for approach to conflict of interest (COI) by the IDSA/AAN/ACR COI review group. The following list is a reflection of what has been reported to the IDSA/AAN/ACR COI review group.</figDesc><table><row><cell>Supplementary</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>receives research funding from the NIH and the Alzheimer's Association; serves as scientific consultant to Inhibikase and Excision BioTherapeutics; serves on Data and Safety Monitoring Boards (DSMB) for Biogen, Genzyme/Sanofi, Genentech, EMD Serono, Shire, Wave Life Sciences, Pfizer, Atara, Mitsubishi Tanabe, and IQVIA (formerly Quintiles); serves on Progressive Multifocal Leukoencephalopathy (PML) adjudication committees for Amgen, Glaxo-SmithKline, EMD Serono, Bristol Myers Squibb, Roche, and the Takeda Oncology (formerly Millennium) Adjudication Committee-FDA, as well as Dr. Reddy's Laboratories; has previously received research funding from the NIH; and his spouse formerly held stock in Johnson &amp; Johnson. Dr. DiMario has received research funding from Novartis. Dr. Halperin serves as an Editorial Board Member of Neurology, and Vice Chair of the American Academy of Neurology (AAN) Guideline Subcommittee; has stock in Abbott Labs, AbbVie, Merck, and Johnson &amp; Johnson; provides and has previously provided legal expert testimony defending physicians in medical malpractice cases on various neurologic issues, including Lyme disease; has received research funding from NIH, the Centers for Disease Control and Prevention (CDC); and has served as a section editor of neuroinfectious diseases in Neurology &amp; Neuroscience Reports. Dr. Krause</figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>receives research funding from the <rs type="programName">Yale Emerging Infections Program</rs>; receives remuneration from <rs type="person">Gold Standard Diagnostics</rs> for a collaborative research project; has stock in <rs type="institution">Gilead Sciences and First Trust NASDAQ Pharmaceuticals ETF</rs>; has received research funding from the <rs type="funder">NIH</rs>, the <rs type="funder">Centers for Disease Control and Prevention (CDC)</rs>, the <rs type="funder">Gordon and Llura Gund Foundation</rs>, and <rs type="grantNumber">L2</rs> Diagnostics for NIH-sponsored research; has served as a scientific consultant and provided medical education and training for <rs type="institution">Oxford Immunotec, Inc.</rs>; has a patent pending (Enhanced Chemiluminescent enzyme-linked immunosorbent assay for detection of antibodies against Babesia microti), for which US Provisional Patent Application No. <rs type="grantNumber">62/580</rs>,588, was filed on November 2, 2017; serves on the Board of Directors for the <rs type="funder">American Lyme Disease Foundation</rs> and the <rs type="funder">Editorial Boards of Pathogens and Plos Neglected Tropical Diseases</rs> and the <rs type="institution">Editorial Advisory Board of Clinical Infectious Diseases</rs>; was on the <rs type="institution">Editorial Board of Journal of Clinical Microbiology</rs>, and will be on the <rs type="grantName">Editorial Board of Clinical Microbiology Reviews starting January 2021</rs>. <rs type="person">Dr. Liang</rs> has stock in Johnson &amp; Johnson; received research funding from the <rs type="funder">Veterans Health Administration</rs>, the <rs type="funder">Arthritis Foundation</rs>, and the <rs type="funder">NIH</rs>; has served on the <rs type="institution">FDA Advisory Panel, Institute of Medicine</rs> panels; served as a scientific reviewer for the <rs type="grantName">Research Grant Council of Hong Kong</rs> and the <rs type="funder">NIH</rs>; served on the Board of the <rs type="institution">Lupus Clinical Trials Consortium</rs>, <rs type="person">Beacon Hill Villages</rs>, and <rs type="funder">Rx Foundation</rs> and advised the <rs type="funder">Institute for Clinical and Economic Review and the China Medical Board</rs>; previously had stock in Sequenom; and his spouse has stock in <rs type="person">Johnson &amp; Johnson. Dr. Meissner</rs> is a current member of the CDC Workgroups and serves as a volunteer consultant on the <rs type="institution">American Academy of Pediatrics Committee on Infectious Diseases</rs> and the <rs type="funder">NIH DSMB</rs>. <rs type="person">Dr. Nigrovic</rs> receives research funding from the <rs type="funder">NIH, Department of Defense</rs>, and the <rs type="funder">NIH Center for Research Resources and for Advancing Translational Sciences (NCATS)</rs>, <rs type="funder">Global Lyme Alliance</rs>, and <rs type="funder">Peabody Foundation</rs>; serves on the <rs type="institution" subtype="infrastructure">Editorial Board for Annals of Emergency Medicine</rs>; has served as scientific consultant for <rs type="institution">Adaptive Technologies</rs>; has received research funding from the <rs type="funder">NIH, Provider and Payer Quality Initiative (PPQI) Research Foundation</rs>, <rs type="funder">Harvard Catalyst</rs>, <rs type="funder">Hood Foundation</rs>, <rs type="funder">Bay Area Lyme Foundation</rs>, <rs type="funder">CDC, Emergency Medical Services for Children (EMSC)</rs>, the <rs type="funder">National Patient-Centered Clinical Research Network (PCORNet)</rs>, <rs type="funder">Milton Foundation</rs>, and <rs type="institution">Boston Children's Hospital</rs>. <rs type="person">Dr. Nocton</rs> receives research funding from <rs type="funder">Bristol Myers Squibb</rs>; serves as a member of the <rs type="institution">Subboard of Pediatric Rheumatology of the American Board of Pediatrics</rs>; and has received research funding from <rs type="funder">AbbVie</rs>, <rs type="funder">NIH</rs>, and the <rs type="funder">Arthritis Foundation</rs>. <rs type="person">Dr. Pruitt</rs> has received research funding from <rs type="funder">Teva Pharmaceuticals</rs> and has served on the <rs type="institution">AAN Editorial Board of Neurology Clinical Practice</rs>. <rs type="person">Ms Rips</rs> has received research funding from the <rs type="funder">Center for AIDS Research, Biogen Idec</rs>, <rs type="person">Hoffmann-LaRoche</rs>, <rs type="institution">Sun Pharmaceutical Industries Ltd.</rs>, <rs type="funder">Genzyme</rs>, the <rs type="funder">Alzheimer's Association</rs>, and the <rs type="funder">American College of Radiology</rs>; and has served as a speaker for <rs type="institution">Teva Pharmaceuticals</rs>. <rs type="person">Dr. Rosenfeld</rs> serves as a Council Member of the <rs type="institution">American College of Cardiology</rs>; has stock in Abbott, <rs type="person">Proctor &amp; Gamble</rs>, and <rs type="institution">General Electric</rs>; has received Fellowship Support from <rs type="funder">Boston Scientific</rs>, <rs type="funder">Medtronic</rs>, and <rs type="funder">Abbott Laboratories (formerly St. Jude Medical</rs>); has received research funding from <rs type="funder">Boehringer Ingelheim Pharmaceuticals, Inc.</rs>; and has served on the Program Committee and the <rs type="funder">Patient and Caregivers Committee of the Heart Rhythm Society</rs>. <rs type="person">Dr. Savoy</rs> serves on the <rs type="funder">American Academy of Family Physicians (AAFP)</rs> Board of Directors, as an ex-officio <rs type="funder">Board member of Delaware Academy of Family Physicians (DAFP)</rs>, as the Chair of the <rs type="funder">Centers for Medicare and Medicaid Services (CMS) Advisory Panel on Outreach and Education, and as Secretary of the Board of Directors of the Association of Departments of Family Medicine</rs>; receives honoraria from AAFP, DAFP, <rs type="institution">CMS</rs>, and <rs type="funder">Merck</rs>; has served on an <rs type="person">Advisory Council for Highmark Health</rs> and as an advisor to the <rs type="institution">AAFP Adolescent Immunization Project</rs>; has received honoraria from AAFP; has served as the President of DAFP, as Editor of DelFamDoc, and as a member of <rs type="affiliation">AAFP Commissions</rs>. <rs type="person">Dr. Sood</rs> has received research funding from the <rs type="funder">NIH</rs>; and has provided expert testimony for <rs type="person">Danaher Lagnese</rs>, PC. Dr. Steere receives research funding from the <rs type="funder">NIH</rs> and the <rs type="institution">Mathers Foundation</rs>; has received research funding from the <rs type="funder">NIH</rs>, the <rs type="funder">American College of Rheumatology</rs>, the <rs type="funder">Mathers Foundation</rs>, the <rs type="funder">English-Bonter-Mitchell Foundation</rs>, <rs type="funder">Immunetics, Inc.</rs>, <rs type="person">Zeus Diagnostics</rs>, and the <rs type="funder">Ounsworth-Fitzgerald Foundation</rs>; and has served as a scientific advisor for <rs type="institution">Baxter Bioscience Institute of Systems Biology, Immunetics, Inc.</rs>, <rs type="funder">Roche Diagnostics</rs>, and <rs type="person">Viramed. Dr. Strle</rs> receives research funding from the <rs type="funder">Slovenian Research Agency</rs>; serves as the <rs type="institution">Head of Health Counsel</rs> of the <rs type="institution">Ministry of Health of the Republic of Slovenia</rs> and as a member of the <rs type="projectName">Steering Committee for the European Society of Clinical Microbiology and Infectious Diseases Study Group for Lyme Borreliosis</rs>; serves on the <rs type="institution">Roche Diagnostics Advisory Board on Lyme Disease Diagnostics</rs>; and has received honoraria from <rs type="funder">Roche Diagnostics</rs>. <rs type="person">Dr. Sundel</rs> receives research funding from the <rs type="funder">NIH and AbbVie, Inc.</rs>; serves as a content author and editor for UpToDate; provides expert testimony to <rs type="person">Chin-Caplan</rs>, PC; has provided expert testimony for <rs type="person">Conway Homer</rs>, PC; has served as an advisor for <rs type="person">Paul Hastings</rs>, LLC; has served as a content editor for SimulConsult and as a Medical Education Resources lecturer for CME-granting educational courses; has received remuneration from SimulConsult as a co-investigator for an <rs type="funder">NIH</rs>-sponsored grant; and has received research funding from the <rs type="funder">NIH</rs>. <rs type="person">Dr. Tsao</rs> receives research funding from the <rs type="funder">National Science Foundation</rs>, <rs type="funder">NIH</rs>, <rs type="funder">CDC</rs>, the <rs type="funder">Michigan Lyme Disease Association</rs>, and the <rs type="funder">Michigan Department of Health and Human Services</rs>; serves as a Scientific Council Advisor Member for the <rs type="programName">Canadian Lyme Disease Research Network and as a scientific advisor for the American Lyme Disease Association</rs>; has received research funding from <rs type="funder">Michigan State University</rs>; has served as an Associate Editor for Ticks and <rs type="institution">Tick-Borne Diseases</rs> and on the <rs type="institution">Tick Vectors, Surveillance, and Prevention Subcommittee of the US Department of Health and Human Services Tick-Borne Disease Working Group</rs>; and has received remuneration for providing educational seminars for Boehringer Ingelheim (formerly Merial). <rs type="person">Dr. Wormser</rs> receives research funding from <rs type="affiliation">Immunetics, Inc., Rarecyte, Inc., Institute for Systems Biology</rs>, and <rs type="person">Quidel Corporation</rs>; serves on the Board of the <rs type="funder">American Lyme Disease Foundation</rs>; provides and has previously provided expert testimony in malpractice cases; has stock in AbbVie, Inc. and <rs type="institution">Abbott Laboratories</rs>; has received research funding from the <rs type="affiliation">CDC, NIH, BioMérieux, Bio-Rad Laboratories</rs>, and <rs type="projectName">DiaSorin, Inc; has served as a scientific research advisor for Baxter International and as a Lyme disease advisor and expert for the Missouri Board of Registration for the Healing Arts</rs>; has a patent approved (US patent no. <rs type="grantNumber">10</rs>,<rs type="grantNumber">669</rs>,<rs type="grantNumber">567 B2</rs>) for <rs type="projectName">High Sensitivity Method for Early Lyme Disease Detection</rs>; filed 2 patent applications related to early Lyme disease detection (application no: <rs type="grantNumber">62/277</rs>,<rs type="grantNumber">252</rs>) and Lyme arthritis and post-treatment Lyme disease syndrome (application no: <rs type="grantNumber">62/725</rs>,<rs type="grantNumber">745</rs>); and has served on the <rs type="institution">Editorial Boards for Clinical Infectious Diseases, Vector-Borne and Zoonotic Diseases, and Ticks and Tick-Borne Diseases</rs>. <rs type="person">Dr. Zemel</rs> has served as an advisor for <rs type="funder">Novartis Promotional Speakers Bureau</rs>. No other disclosures relevant to this article were reported. All authors have submitted the <rs type="institution">ICMJE Form for Disclosure of Potential Conflicts of Interest</rs>. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.</p></div>
+<div><head>ACKNOWLEDGMENTS</head><p>The expert panel expresses its gratitude for thoughtful reviews of an earlier version to the external reviewers. The panel thanks the <rs type="institution">IDSA</rs>, AAN, and <rs type="institution">ACR</rs> for supporting the guideline development process.</p></div>
+			</div>
+			<div type="funding">
+<div><p>The article was peer reviewed by <rs type="person">Arthritis &amp; Rheumatology</rs> and simultaneously published by <rs type="institution">Clinical Infectious Diseases, Neurology, Arthritis Care &amp; Research</rs>, and <rs type="person">Arthritis &amp; Rheumatology. Each</rs> editor of the 4 journals appointed 1 reviewer for peer review. The articles</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_ZRNPMEK">
+					<orgName type="program" subtype="full">Yale Emerging Infections Program</orgName>
+				</org>
+				<org type="funding" xml:id="_FHMgAyE">
+					<idno type="grant-number">L2</idno>
+				</org>
+				<org type="funding" xml:id="_36MmKbk">
+					<idno type="grant-number">62/580</idno>
+				</org>
+				<org type="funding" xml:id="_rCVJs4n">
+					<orgName type="grant-name">Editorial Board of Clinical Microbiology Reviews starting January 2021</orgName>
+				</org>
+				<org type="funding" xml:id="_y3uDSww">
+					<orgName type="grant-name">Research Grant Council of Hong Kong</orgName>
+				</org>
+				<org type="funded-project" xml:id="_6AMfdcc">
+					<orgName type="project" subtype="full">Steering Committee for the European Society of Clinical Microbiology and Infectious Diseases Study Group for Lyme Borreliosis</orgName>
+				</org>
+				<org type="funding" xml:id="_XXGdThU">
+					<orgName type="program" subtype="full">Canadian Lyme Disease Research Network and as a scientific advisor for the American Lyme Disease Association</orgName>
+				</org>
+				<org type="funded-project" xml:id="_qufRZAE">
+					<idno type="grant-number">10</idno>
+					<orgName type="project" subtype="full">DiaSorin, Inc; has served as a scientific research advisor for Baxter International and as a Lyme disease advisor and expert for the Missouri Board of Registration for the Healing Arts</orgName>
+				</org>
+				<org type="funding" xml:id="_jwFVvsv">
+					<idno type="grant-number">669</idno>
+				</org>
+				<org type="funded-project" xml:id="_GGVNtwF">
+					<idno type="grant-number">567 B2</idno>
+					<orgName type="project" subtype="full">High Sensitivity Method for Early Lyme Disease Detection</orgName>
+				</org>
+				<org type="funding" xml:id="_3sBecdt">
+					<idno type="grant-number">62/277</idno>
+				</org>
+				<org type="funding" xml:id="_fm8cYjk">
+					<idno type="grant-number">252</idno>
+				</org>
+				<org type="funding" xml:id="_gHuEduf">
+					<idno type="grant-number">62/725</idno>
+				</org>
+				<org type="funding" xml:id="_vhJUfSR">
+					<idno type="grant-number">745</idno>
+				</org>
+			</listOrg>
+
+			<listOrg type="infrastructure">
+				<org type="infrastructure">					<orgName type="extracted">Editorial Board for Annals of Emergency Medicine</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be published. Dr. Lantos had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. Study conception and design. Lantos, Rumbaugh, Bockenstedt, Falck-Ytter, Aguero-Rosenfeld, Auwaerter, Baldwin, Bannuru, Belani, Bowie, Branda, Clifford, DiMario, Halperin, Krause, Lavergne, Liang, Meissner, Nigrovic, Nocton, Osani, Pruitt, Rips, Rosenfeld, Savoy, Sood, Steere, Strle, Sundel, Tsao, Vaysbrot, Wormser, Zemel. Acquisition of data. Lantos, Rumbaugh, Bockenstedt, Falck-Ytter, Aguero-Rosenfeld, Auwaerter, Baldwin, Bannuru, Belani, Bowie, Branda, Clifford, DiMario, Halperin, Krause, Lavergne, Liang, Meissner, Nigrovic, Nocton, Osani, Pruitt, Rosenfeld, Savoy, Sood, Steere, Strle, Sundel, Tsao, Vaysbrot, Wormser, Zemel. Analysis and interpretation of data. Lantos, Rumbaugh, Bockenstedt, Falck-Ytter, Aguero-Rosenfeld, Auwaerter, Baldwin, Bannuru, Belani, Bowie, Branda, Clifford, DiMario, Halperin, Krause, Lavergne, Liang, Meissner, Nigrovic, Nocton, Osani, Pruitt, Rips, Rosenfeld, Savoy, Sood, Steere, Strle, Sundel, Tsao, Vaysbrot, Wormser, Zemel.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lantos</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ms</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Md</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Durham, North Carolina</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Duke University School of Medicine</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><surname>Rumbaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Phd</forename><surname>Md</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Pathway Neurology</publisher>
+			<pubPlace>Tampa, Florida</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Linda</forename><forename type="middle">K</forename><surname>Bockenstedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lynda</forename><forename type="middle">E</forename><surname>Md</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rosenfeld</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>New Haven, Connecticut</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>MD: Yale University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yngve</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Falck-Ytter</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Cleveland, Ohio</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>MD: Case Western Reserve University, VA Northeast Ohio Healthcare System</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Maria</forename><forename type="middle">E</forename><surname>Aguero-Rosenfeld</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>New York, New York</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>MD: New York University School of Medicine</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Auwaerter</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mba</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Md</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Baltimore, Maryland</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Johns Hopkins University School of Medicine</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">MD: Geisinger Medical Center</title>
+		<author>
+			<persName><forename type="first">Kelly</forename><surname>Baldwin</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Danville, Pennsylvania</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Raveendhara</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bannuru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Cody</forename><surname>Md</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Meissner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikala</forename><forename type="middle">C</forename><surname>Md</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Osani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elizaveta</forename><forename type="middle">E</forename><surname>Mph</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vaysbrot</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Md</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tufts Medical Center</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">MD: Children&apos;s Hospital and Clinics of Minnesota</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kiran</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Belani</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Minneapolis</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>William</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bowie</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Vancouver, British Columbia, Canada</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>MD: University of British Columbia</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">A</forename><surname>Branda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Allen</forename><forename type="middle">C</forename><surname>Md</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Steere</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Md</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Massachusetts General Hospital</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">B</forename><surname>Clifford</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>St. Louis, Missouri</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>MD: Washington University School of Medicine</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">MD: University of Pennsylvania, Philadelphia; 21 Jane Rips: Consumer Representative</title>
+		<author>
+			<persName><forename type="first">Francis</forename><forename type="middle">J</forename><surname>Dimario</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lawrence</forename><forename type="middle">S</forename><surname>Md</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Zemel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Md ; John</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Halperin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Md ; Matthew</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lise</forename><forename type="middle">E</forename><surname>Mph ;</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nigrovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Mph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Sundel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">)</forename><forename type="middle">J</forename><surname>Jay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Margot</forename><forename type="middle">L</forename><surname>Nocton</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Savoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mph ; Sunil</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Md ; Gary</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wormser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Address correspondence to Paul M</title>
+		<editor>
+			<persName><forename type="first">Waowatosa</forename><forename type="middle">;</forename><surname>Wisconsin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Amy</forename><forename type="middle">A</forename><surname>Pruitt</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Summit, New Jersey; New Haven, Connecticut; Montreal, Quebec, Canada; Boston, Massachusetts; Boston, Massachusetts; Omaha, Nebraska; Philadelphia, Pennsylvania; New York, New York; Ljubljana, Slovenia; Valhalla, New York; Lantos, MD, MS; Erwin Road, Hock Plaza, Suite 405, Durham, NC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Northwell Health</publisher>
+			<date type="published" when="2019-06-05">2424. 2019. June 5, 2020</date>
+			<biblScope unit="volume">16</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Valery Lavergne, MSc, MD: University of Montreal ; MD: Temple University ; Franc Strle, PhD: University Medical Centre Ljubljana ; Jean Tsao, PhD: Michigan State University, East Lansing ; Duke University School of Medicine</orgName>
+		</respStmt>
+	</monogr>
+	<note>Conflict of interest information appears at the end of the text. Email: paul.lantos@duke.edu. Submitted for publication August 21. accepted in revised. Correction added on 11 December, 2020 after first online publication: a paragraph was inserted on page 1, prior to the existing first paragraph.] REFERENCES</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">on behalf of the GRADE Working Group. GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alonson-Coello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Handbook for grading the quality of evidence and the strength of recommendations using the GRADEapproach</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schunemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brozek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Oxman</surname></persName>
+		</author>
+		<ptr target="https://gdt.gradepro.org/app/handbook/handbook.html" />
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<publisher>GRADEpro</publisher>
+			<pubPlace>Hamilton (Ontario</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Azithromycin compared with amoxicillin in the treatment of erythema migrans: a double-blind, randomized, controlled trial</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Luft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Dattwyler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Luger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Bosler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Rahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="785" to="791" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Southern tick-associated rash illness (STARI) in the North: STARI following a tick bite in Long Island</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Feder</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hoss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zemel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Telford</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Wormser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="142" to="146" />
+			<date type="published" when="2011">2011</date>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Prospective clinical evaluation of patients from Missouri and New York with erythema migrans-like skin lesions</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Wormser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Masters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nowakowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holmgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="958" to="965" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Clinical practice guideline: Bell&apos;s palsy executive summary</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Baugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Basura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Ishii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Drumheller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Burkholder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Otolaryngol Head Neck Surg</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="656" to="663" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

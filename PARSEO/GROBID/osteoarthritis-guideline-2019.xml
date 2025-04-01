@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee</title>
+				<funder>
+					<orgName type="full">Regeneron, Regulus, Taiwan Liposome Company</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Bone Therapeutics, Bristol-Myers Squibb, EMD Serono</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">GlaxoSmithKline</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">FACP</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">AbbVie</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Astellas</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Eli Lilly</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CHT</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Regeneron</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Omeros</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Express Scripts</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">EMD Serono</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Zynerba Pharma</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Agios</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">EMD Merck Serono</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Fidia</orgName>
+				</funder>
+				<funder ref="#_qCfBNNB">
+					<orgName type="full">Cedars Sinai Medical Center</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Pfizer</orgName>
+				</funder>
+				<funder ref="#_pZdhjf5">
+					<orgName type="full">University of Delaware</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">University of North Carolina School of Medicine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Novartis Pharma AG</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Flexion</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">FACR</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Arthritis Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Novartis</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MD, FACP, FACR</roleName><forename type="first">Sharon</forename><forename type="middle">L</forename><surname>Kolasinski</surname></persName>
+							<email>sharon.kolasinski@uphs.upenn.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Tuhina</forename><surname>Neogi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><forename type="middle">C</forename><surname>Hochberg</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carol</forename><surname>Oatis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gordon</forename><surname>Guyatt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joel</forename><surname>Block</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Leigh</forename><surname>Callahan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cindy</forename><surname>Copenhaver</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carole</forename><surname>Dodge</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Felson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kathl</forename><surname>Gellar</surname></persName>
+							<idno type="ORCID">0000-0002-9344-7877</idno>
+						</author>
+						<author>
+							<persName><forename type="first">William</forename><forename type="middle">F</forename><surname>Harvey</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gillian</forename><surname>Hawker</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Edward</forename><surname>Herzig</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">Kent</forename><surname>Kwoh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amanda</forename><forename type="middle">E</forename><surname>Nel</surname></persName>
+							<idno type="ORCID">0000-0002-9344-7877</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><surname>Samuels</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carla</forename><surname>Scanzello</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>White</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Barton</forename><surname>Wise</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Roy</forename><forename type="middle">D</forename><surname>Altman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dana</forename><surname>Direnzo</surname></persName>
+							<idno type="ORCID">0000-0001-9350-1821</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Joann</forename><surname>Fontanarosa</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gina</forename><surname>Giradi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mariko</forename><surname>Ishimori</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Devyani</forename><surname>Misra</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amit</forename><forename type="middle">Aakash</forename><surname>Shah</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anna</forename><forename type="middle">K</forename><surname>Shmagel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Louise</forename><forename type="middle">M</forename><surname>Thoma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">James</forename><surname>Reston</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Teva Pharmaceutical Industries</orgName>
+								<orgName type="institution">Novartis, Olatec</orgName>
+								<address>
+									<settlement>Pfizer</settlement>
+									<region>Sorrento Therapeutics</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Perelman School of Medicine</orgName>
+								<orgName type="department" key="dep2">Division of Rheumatology</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<addrLine>3737 Market Street</addrLine>
+									<postCode>19104</postCode>
+									<settlement>Philadelphia</settlement>
+									<region>PA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2019 American College of Rheumatology/Arthritis Foundation Guideline for the Management of Osteoarthritis of the Hand, Hip, and Knee</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">752AF1173F6048CC973BD836D474E1A6</idno>
+					<idno type="DOI">10.1002/art.41142</idno>
+					<note type="submission">Submitted for publication July 2, 2019; accepted in revised form October 11, 2019.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. To develop an evidence-based guideline for the comprehensive management of osteoarthritis (OA) as a collaboration between the American College of Rheumatology (ACR) and the Arthritis Foundation, updating the 2012 ACR recommendations for the management of hand, hip, and knee OA.</p><p>Methods. We identified clinically relevant population, intervention, comparator, outcomes questions and critical outcomes in OA. A Literature Review Team performed a systematic literature review to summarize evidence supporting the benefits and harms of available educational, behavioral, psychosocial, physical, mind-body, and pharmacologic therapies for OA. Grading of Recommendations Assessment, Development and Evaluation methodology was used to rate the quality of the evidence. A Voting Panel, including rheumatologists, an internist, physical and occupational therapists, and patients, achieved consensus on the recommendations.</p><p>Results. Based on the available evidence, either strong or conditional recommendations were made for or against the approaches evaluated. Strong recommendations were made for exercise, weight loss in patients with knee and/or hip OA who are overweight or obese, self-efficacy and self-management programs, tai chi, cane use, hand orthoses for first carpometacarpal (CMC) joint OA, tibiofemoral bracing for tibiofemoral knee OA, topical nonsteroidal antiinflammatory drugs (NSAIDs) for knee OA, oral NSAIDs, and intraarticular glucocorticoid injections for knee OA. Conditional recommendations were made for balance exercises, yoga, cognitive behavioral therapy, kinesiotaping for first CMC OA, orthoses for hand joints other than the first CMC joint, patellofemoral bracing for patellofemoral knee OA, acupuncture, thermal modalities, radiofrequency ablation for knee OA, topical NSAIDs, intraarticular steroid injections and chondroitin sulfate for hand OA, topical capsaicin for knee OA, acetaminophen, duloxetine, and tramadol.</p><p>Conclusion. This guideline provides direction for clinicians and patients making treatment decisions for the management of OA. Clinicians and patients should engage in shared decision-making that accounts for patients' values, preferences, and comorbidities. These recommendations should not be used to limit or deny access to therapies.</p><p>Guidelines and recommendations developed and/or endorsed by the American College of Rheumatology (ACR) are intended to provide guidance for patterns of practice and not to dictate the care of a particular patient. The ACR considers adherence to the recommendations within this guideline to be voluntary, with the ultimate determination regarding their application to be made by the clinician in light of each patient's individual circumstances. Guidelines and recommendations are intended to promote beneficial or desirable outcomes, but cannot guarantee any specific outcome. Guidelines and recommendations developed and endorsed by the ACR are subject to periodic revision, as warranted by the evolution of medical knowledge, technology, and practice. ACR recommendations are not intended to dictate payment or insurance decisions. These recommendations cannot adequately convey all uncertainties and nuances of patient care.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Osteoarthritis (OA) is the most common form of arthritis, affecting an estimated 302 million people worldwide <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref><ref type="bibr" target="#b4">(5)</ref>, and is a leading cause of disability among older adults. The knees, hips, and hands are the most commonly affected appendicular joints. OA is characterized by pathology involving the whole joint, including cartilage degradation, bone remodeling, osteophyte formation, and synovial inflammation, leading to pain, stiffness, swelling, and loss of normal joint function.</p><p>As OA spans decades of a patient's life, patients with OA are likely to be treated with a number of different pharmaceutical and nonpharmaceutical interventions, often in combination. This report provides recommendations to guide patients and clinicians in choosing among the available treatments. Certain principles of management apply to all patients with OA (see Comprehensive Management of OA below and Figure <ref type="figure" target="#fig_0">1</ref>). Some recommendations are specific to a particular joint (e.g., hip, knee, patellofemoral joint, first carpometacarpal joint [CMC]) or particular patient populations (e.g., those with erosive OA).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>This guideline, from the American College of Rheumatology (ACR) and the Arthritis Foundation (AF), follows the ACR guideline development process (<ref type="url" target="https://www.rheum">https ://www.rheum</ref> atolo gy.org/ Pract ice-Quali ty/Clini cal-Suppo rt/Clini cal-Pract ice-Guide lines ), using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology to rate the quality of the available evidence and to develop the recommendations <ref type="bibr" target="#b5">(6)</ref>. ACR policy guided management of conflicts of interest and disclosures (<ref type="url" target="https://www.rheum">https ://www.rheum</ref> atolo gy.org/Pract ice-Quali ty/Clini cal-Suppo rt/Clini cal-Pract ice-Guide lines/ Osteo arthr itis). A full de scription of the methods is presented in Supplementary Appendix 1 (on the Arthritis &amp; Rheumatology web site at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41142/abstract">http://onlin elibr ary. wiley.com/doi/10.1002/art.41142/ abstract</ref>).</p><p>Briefly, this work involved 5 teams: 1) a Core Leadership Team that supervised and coordinated the project and drafted the clinical/population, intervention, comparator, outcomes (PICO) questions that served as the basis for the evidence report and manuscript; 2) a Literature Review Team that completed the literature screening and data abstraction and produced the Evidence Report (Supplementary Appendix 2, <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41142/abstract">http://onlin elibr ary.wiley.com/ doi/10.1002/art.41142/ abstract</ref>); 3) an Expert Panel that had input into scoping and clinical/PICO question development; 4) a Patient Panel; and 5) an interprofessional Voting Panel that included rheumatologists, an internist, physical and occupational therapists, and patients (Supplementary Appendix 3, <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41142/abstract">http://onlin el ibr ary.wiley. com/doi/10.1002/art.41142/ abstract</ref>).</p><p>This guideline included an initial literature review limited to English-language publications from inception of the databases to October 15, 2017, with updated searches conducted on August 1, 2018 and relevant papers included. Studies published after August 1, 2018 were not evaluated for this guideline. Supplementary Appendix 4 (<ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41142/abstract">http://onlin elibr ary.wiley.com/ doi/10.1002/art.41142/ abstract</ref>) shows search terms used and databases reviewed, and Supplementary Appendix 5 (<ref type="url" target="http://onlin">http:// onlin</ref> elibr ary.wiley.com/doi/10.1002/art.41142/ abstract) highlights the study selection process. The guideline evidence base results from our own systematic review of randomized This article is published simultaneously in Arthritis Care &amp; Research. Supported by the American College of Rheumatology and the Arthritis Foundation.</p><p>controlled trials (RCTs), rather than focusing on systematic reviews and meta-analyses published by others, as was done for the 2012 ACR recommendations for the use of nonpharmacologic and pharmacologic therapies in hand, hip, and knee OA <ref type="bibr" target="#b6">(7)</ref>. Systematic reviews of observational studies published by others were included if, in the opinion of the Voting Panel, they added critical information for the formulation of a recommendation: for example, related to adverse effects that may not be seen in shorter-duration RCTs. Subsequent updates of this guideline will consider studies included here and new RCTs published since completion of the literature review for the current publication.</p><p>Although RCTs are considered the gold standard for evaluation, a number of limitations of RCTs proved particularly important in the formulation of the final recommendations: possible publication bias (favoring publication of positive results), inadequate blinding, and inadequate provision of active comparators and appropriate sham alternatives. Further, short-duration RCTs cannot provide adequate prognostic information when applied to a complex disease such as OA, in which pathophysiologic processes are slowly progressive over decades.</p><p>We focused on management options that are available in the US and, for pharmacologic therapies, we additionally focused on agents that are available in pharmaceutical-grade formulations, thus eliminating most nutraceuticals. We limited our review to the English-language literature. We reviewed www.clini caltr ials.gov to identify phase 2 and 3 trials that may be far enough along to be US Food and Drug Administration (FDA)-approved and available by the time this guideline was published.</p><p>A hierarchy of outcome measures assessing pain and function in OA was developed based on the published literature <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b8">9)</ref>. This hierarchy is detailed in Supplementary Appendix 1 (<ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41142/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41142/ abstract</ref>).</p><p>Using GRADE, a recommendation can be either in favor of or against the proposed intervention and either strong or conditional <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>. The strength of the recommendation is based on a 70% consensus among the Voting Panel members. Much of the evidence proved indirect (did not specifically address the PICO question as written) and of low-to-moderate quality <ref type="bibr" target="#b11">(12,</ref><ref type="bibr" target="#b12">13)</ref>. The Voting Panel made strong recommendations when it inferred compelling evidence of efficacy and that benefits clearly outweighed harms and burdens. Thus, a strong recommendation means that the Voting Panel was confident that the desirable effects of following the recommendation outweigh potential undesirable effects (or vice versa), so the course of action would apply to all or almost all patients, and only a small proportion of patients would not want to follow the recommendation.</p><p>The Voting Panel made conditional recommendations when the quality of the evidence proved low or very low and/ </p><formula xml:id="formula_0">C I G O L O C A M R A H P</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPROACHES</head><p>or the balance of benefits versus harms and burdens was sufficiently close that shared decision-making between the patient and the clinician would be particularly important. Conditional recommendations are those for which the majority of informed patients would choose to follow the recommended course of action, but some would not <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref>. Thus, conditional recommendations are particularly value-and preference-sensitive and always warrant a full shared decision-making approach involving a complete and clear explication of benefits, harms, and burdens in language and in a context that patients understand <ref type="bibr" target="#b15">(16)</ref>. Where recommendations are made regarding a particular approach, details and references regarding that approach can be found in the Evidence Report (Supplementary Appendix 2, <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41142/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/ art.41142/ abstract</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS/RECOMMENDATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comprehensive management of OA</head><p>A comprehensive plan for the management of OA in an individual patient may include educational, behavioral, psychosocial, and physical interventions, as well as topical, oral, and intraarticular medications. Recommendations assume appropriate appli cation of physical, psychological, and/or pharmacologic therapies by an appropriate provider. Goals of management and principles for implementing those goals have broad applicability across patients. However, for some patients at some time points, a single physical, psychosocial, mind-body, or pharmacologic intervention may be adequate to control symptoms; for others, multiple interventions may be used in sequence or in combination. Which interventions and the order in which interventions are used will vary among patients. An overview of a general approach to management of OA is outlined in Figure <ref type="figure" target="#fig_0">1</ref> for recommended options, but no specific hierarchy of one option over another is implied other than on the basis of strength of the recommendation. Figure <ref type="figure" target="#fig_1">2</ref> summarizes the approaches that were not recommended.</p><p>Treatment decisions should take the personal beliefs and preferences of the patient, as well as the patient's medical status, into consideration. This guideline applies to patients with OA with no specific contraindications to the recommended therapies. However, each patient should be assessed for the presence of medical conditions, such as hypertension, cardiovascular disease, heart failure, gastrointestinal bleeding risk, chronic kidney disease, or other comorbidities, that might have an impact on their risk of side effects from certain pharmacologic agents, as well as injuries, disease severity, surgical history, and access to and availability of services (transportation, distance, ability to take time off work, cost, insurance coverage) that might have an impact on the choice of physical, psychological, and mind-body approaches. It is assumed that such an assessment </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>HAND KNEE HIP</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PHARMACOLOGIC APPROACHES</head><p>will be performed prior to finalization of an individual treatment plan. When choosing among pharmacologic therapies, management should begin with treatments with the least systemic exposure or toxicity. Patients may experience a variety of additional symptoms as a result of the pain and functional limitations arising from OA and/or comorbidities. These include mood disorders, such as depression and anxiety, altered sleep, chronic widespread pain, and impaired coping skills. The Patient Panel noted that the broader impact of OA on these comorbidities is of particular importance when choosing among treatment options and best addressed by a multimodal treatment plan, rather than one that is limited to the prescription of a single medication. Measures aimed at improving mood, reducing stress, addressing insomnia, managing weight, and enhancing fitness may improve the patient's overall well-being and OA treatment success. Indeed, interventions that have proven beneficial in the management of chronic pain may prove useful in OA <ref type="bibr" target="#b16">(17)</ref> even when data specific to patients with OA are limited.</p><p>Unless otherwise specified, recommendations regarding physical, psychosocial, and mind-body approaches assume that the patient will be adding the intervention to usual care. For the purposes of this guideline, usual care includes the use of maximally recommended or safely tolerated doses of over-the counter oral nonsteroidal antiinflammatory drugs (NSAIDs) and/or acetaminophen, as has generally been explicitly permitted in clinical trials of nonpharmacologic interventions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Physical, psychosocial, and mind-body approaches (Table 1)</head><p>During the GRADE analysis, clinical trials involving physical modalities and mind-body approaches were often designated as yielding low-quality evidence because blinding with regard to the active treatment was not always possible. This contributed to a preponderance of conditional recommendations for physical modalities and mind-body approaches. The delivery of instruction by physical and occupational therapists is helpful, and often essential, for the appropriate initiation and maintenance of exercise as a part of OA management. In addition to exercise, physical and occupational therapists often incorporate self-efficacy and selfmanagement training, thermal therapies, and instruction in use of and fitting of splints and braces in their practices. Most patients with OA are likely to experience benefit from referral to physical therapy and/or occupational therapy at various times during the course of their disease.</p><p>Exercise is strongly recommended for patients with knee, hip, and/or hand OA.</p><p>Though exercise is strongly recommended for all OA patients, there is considerably more evidence for the use of exercise in the treatment of knee and hip OA than for hand OA, and the variety of exercise options studied is far greater. While patients and providers seek recommendations on the "best" exercise and the ideal dosage (duration, intensity, and frequency), current evidence Table <ref type="table">1</ref>. Recommendations for physical, psychosocial, and mind-body approaches for the management of osteoarthritis of the hand, knee, and hip is insufficient to recommend specific exercise prescriptions. Broad recommendations suggesting one form of exercise over another are based largely on expert opinion. A substantial body of literature (see Evidence Report, Supplementary Appendix 2 [<ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41142/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/art.41142/ abstract</ref>]) supports a wide range of appropriate exercise options and suggests that the vast majority of OA patients can participate in, and benefit from with regard to pain and function, some form of exercise. Exercise recommendations to patients should focus on the patient's preferences and access, both of which may be important barriers to participation. If a patient does not find a certain form of exercise acceptable or cannot afford to participate or arrange transportation to participate, he or she is not likely to get any benefit from the suggestion to pursue that exercise.</p><p>In the majority of studies that assessed the role of aerobic exercise in the management of OA, walking was the most common form of exercise evaluated, either on a treadmill or as supervised, community-based, indoor fitness walking. Other studies used supervised group cycling on stationary bicycles. Strengthening exercises have included the use of isokinetic weight machines, resistance exercise training with and without props such as elastic bands, and isometric exercise. Neuromuscular training has been developed to address muscle weakness, reduced sensorimotor control, and functional instability specifically seen with knee OA, with a series of dynamic maneuvers of increased complexity. Aquatic exercise often encompasses aspects of aerobic fitness exercises and exercises for enhancing joint range of motion, in a low-impact environment.</p><p>A specific hierarchy of these various forms of exercise could not be discerned from the literature. Patient participants on the Patient and Voting Panels raised the concern that patients who are in pain might be hesitant to participate in exercise. There is no uniformly accepted level of pain at which a patient should or should not exercise, and a common-sense approach of shared decision-making between the treating clinician and the patient regarding when to initiate an exercise program is advisable. However, clinical trials of exercise for OA include patients with pain and functional limitations due to OA, and improvements in OA-specific outcomes have been demonstrated; thus, results are likely to be generalizable to most patients with pain due to OA.</p><p>Although there is currently insufficient evidence to recommend one form of exercise over another, patients will likely benefit from advice that is as specific as possible, rather than simple encouragement to exercise. Given the wide range of evidencebased exercise interventions shown to effectively improve pain and function in OA, all patients should be encouraged to consider some form of exercise as a central part of their treatment plan. Individual preferences, access, and affordability are likely to play a role in what works best for an individual patient. Overall, exercise programs are more effective if supervised, often by physical therapists and sometimes in a class setting, rather than when performed by the individual at home. They also tend to be more effective when combined with self-efficacy and self-management interventions or weight loss programs.</p><p>Few studies have employed monitoring devices or pre-and postintervention assessment of cardiovascular or musculoskeletal fitness, so targets using these devices or assessments are not available. Future research is essential to establish specific exercise guidelines that will direct the patient and provider toward more individualized exercise prescriptions.</p><p>Balance exercises are conditionally recommended for patients with knee and/or hip OA.</p><p>Balance exercises include those that improve the ability to control and stabilize body position (American Physical Therapy Association: <ref type="url" target="http://www.apta.org/BalanceFalls/">http://www.apta.org/Balan ceFal ls/</ref>). Although one might expect balance exercises to help reduce the risk of falls in patients with OA, RCTs to date have not addressed this outcome in this population, and the low quality of evidence addressing the use of balance exercises necessitates only a conditional recommendation for balance exercises.</p><p>Weight loss is strongly recommended for patients with knee and/or hip OA who are overweight or obese.</p><p>A dose-response has been noted with regard to the amount of weight loss that will result in symptom or functional improvement in patients with OA <ref type="bibr" target="#b17">(18)</ref>. A loss of ≥5% of body weight can be associated with changes in clinical and mechanistic outcomes. Furthermore, clinically important benefits continue to increase with weight loss of 5-10%, 10-20%, and &gt;20% of body weight. The efficacy of weight loss for OA symptom management is enhanced by use of a concomitant exercise program.</p><p>Self-efficacy and self-management programs are strongly recommended for patients with knee, hip, and/or hand OA.</p><p>Although effect sizes are generally small, the benefits of participation in self-efficacy and self-management programs are consistent across studies, and risks are minimal. These programs use a multidisciplinary group-based format combining sessions on skill-building (goal-setting, problem-solving, positive thinking), education about the disease and about medication effects and side effects, joint protection measures, and fitness and exercise goals and approaches. Health educators, National Commission for Certification Services-certified fitness instructors, nurses, physical therapists, occupational therapists, physicians, and patient peers may lead the sessions, which can be held in person or online. In the studies reviewed, sessions generally occurred 3 times weekly, but varied from 2 to 6 times weekly.</p><p>Tai chi is strongly recommended for patients with knee and/or hip OA.</p><p>Tai chi is a traditional Chinese mind-body practice that combines meditation with slow, gentle, graceful movements, deep diaphragmatic breathing, and relaxation. The efficacy of tai chi may reflect the holistic impact of this mind-body practice on strength, balance, and fall prevention, as well as on depression and selfefficacy.</p><p>Yoga is conditionally recommended for patients with knee OA.</p><p>Yoga is a mind-body practice with origins in ancient Indian philosophy and typically combines physical postures, breathing tech niques, and meditation or relaxation (National Center for Complementary and Integrative Health [NCCIH]: <ref type="url" target="https://nccih">https ://nccih</ref>. nih.gov/healt h/yoga). Though far less well studied than tai chi, yoga may be helpful in OA through a similar blend of physical and psychosocial factors. Due to lack of data, no recommendation can be made regarding use of yoga to help manage symptoms of hip OA. Other mind-body practices could not be assessed due to insufficient evidence, as well as a lack of standard definitions of certain interventions (hypnosis, qi gong).</p><p>Cognitive behavioral therapy (CBT) is conditionally recommended for patients with knee, hip, and/or hand OA.</p><p>There is a well-established body of literature <ref type="bibr" target="#b18">(19,</ref><ref type="bibr" target="#b19">20)</ref> supporting the use of CBT in chronic pain conditions, and CBT may have relevance for the management of OA. Trials have demonstrated improvement in pain, health-related quality of life, negative mood, fatigue, functional capacity, and disability in conditions other than OA. In OA, limited evidence suggests that CBT may reduce pain <ref type="bibr" target="#b20">(21)</ref>. Further research is needed to establish whether or not benefits in OA are related to alteration in mood, sleep, coping, or other factors that may co-occur with, result from, or be a part of the experience of OA <ref type="bibr" target="#b21">(22)</ref>.</p><p>Cane use is strongly recommended for patients with knee and/or hip OA in whom disease in 1 or more joints is causing a sufficiently large impact on ambulation, joint stability, or pain to warrant use of an assistive device. Tibiofemoral knee braces are strongly recommended for patients with knee OA in whom disease in 1 or both knees is causing a sufficiently large impact on ambulation, joint stability, or pain to warrant use of an assistive device, and who are able to tolerate the associated inconvenience and burden associated with bracing.</p><p>Patellofemoral braces are conditionally recommended for patients with patellofemoral knee OA in whom disease in 1 or both knees is causing a sufficiently large impact on ambulation, joint stability, or pain to warrant use of an assistive device.</p><p>The recommendation is conditional due to the variability in results across published trials and the difficulty some patients will have in tolerating the inconvenience and burden of these braces. Optimal management with knee bracing is likely to require that clinicians are familiar with the various types of braces and where they are available and have expertise in fitting the braces. Patient Voting Panel members strongly emphasized the importance of coordination of care between primary care providers, specialists, and providers of braces.</p><p>Kinesiotaping is conditionally recommended for patients with knee and/or first CMC joint OA.</p><p>Kinesiotaping permits range of motion of the joint to which it is applied, in contrast to a brace, which maintains the joint in a fixed position. Published studies have examined various products and methods of application, and blinding with regard to use is not possible, thereby limiting the quality of the evidence.</p><p>Hand orthoses are strongly recommended for patients with first CMC joint OA.</p><p>Hand orthoses are conditionally recommended for patients with OA in other joints of the hand.</p><p>A variety of mechanical supports are available, including digital orthoses, ring splints, and rigid or neoprene orthoses, some of which are intended for specifically affected joints (e.g., first CMC joint, individual digits, wrist) and some of which support the entire hand. In addition, gloves may offer benefit by providing warmth and compression to the joints of the hand. Data are insufficient to recommend one type of orthosis over another for use in the hand. Patients considering these interventions will likely benefit from evaluation by an occupational therapist.</p><p>Modified shoes are conditionally recommended against in patients with knee and/or hip OA.</p><p>Modifications to shoes can be intended to alter the biomechanics of the lower extremities and the gait. While optimal footwear is likely to be of considerable importance for those with knee and/or hip OA, the available studies do not define the best type of footwear to improve specific outcomes for knee or hip OA.</p><p>Lateral and medial wedged insoles are conditionally recommended against in patients with knee and/or hip OA.</p><p>The currently available literature does not demonstrate clear efficacy of lateral or medial wedged insoles.</p><p>Acupuncture is conditionally recommended for patients with knee, hip, and/or hand OA.</p><p>Although a large number of trials have addressed the use of acupuncture for OA, its efficacy remains a subject of controversy. Issues related to the use of appropriate blinding, the validity of sham controls, sample size, effect size, and prior expectations have arisen with regard to this literature. Variability in the results of RCTs and meta-analyses is likely driven, in part, by differences in the type of controls and the intensity of the control interventions used. In addition, the benefits of acupuncture result from the large contextual effect plus small differences in outcomes between "true" and "sham" acupuncture. The latter is of the same magnitude as the effect of full-dose acetaminophen versus placebo. The greatest number of positive trials with the largest effect sizes have been carried out in knee OA. Positive trials and meta-analyses have also been published in a variety of other painful conditions and have indicated that acupuncture is effective for analgesia. While the "true" magnitude of effect is difficult to discern, the risk of harm is minor, resulting in the Voting Panel providing a conditional recommendation.</p><p>Thermal interventions (locally applied heat or cold) are conditionally recommended for patients with knee, hip, and/ or hand OA.</p><p>The method of delivery of thermal interventions varies considerably in published reports, including moist heat, diathermy (electrically delivered heat), ultrasound, and hot and cold packs. Studies using diathermy or ultrasound were more likely to be sham controlled than those using other heat delivery modalities. The heterogeneity of modalities and short duration of benefit for these interventions led to the conditional recommendation.</p><p>Paraffin, an additional method of heat therapy for the hands, is conditionally recommended for patients with hand OA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Radiofrequency ablation is conditionally recommended for patients with knee OA.</head><p>A number of studies have demonstrated potential analgesic benefits with various ablation techniques but, because of the heterogeneity of techniques and controls used and lack of long-term safety data, this recommendation is conditional.</p><p>Massage therapy is conditionally recommended against in patients with knee and/or hip OA.</p><p>Massage therapy encompasses a number of techniques aimed at affecting muscle and other soft tissue (NCCIH: <ref type="url" target="https://nccih.nih.gov/healt">https ://nccih.nih.gov/healt</ref> h/massa ge/massa geint roduc tion. htm#hed2). Studies addressing massage have suffered from high risk of bias, have included small numbers of patients, and have not demonstrated benefit for OA-specific outcomes. Patient participants on the Patient and Voting Panels noted that some studies have shown positive outcomes and minimal risk and felt strongly that massage therapy was beneficial for symptom management <ref type="bibr" target="#b22">(23)</ref>. However, based on the available evidence regarding OA specifically, a conditional recommendation against the use of massage for reduction of OA symptoms is made, though the Voting Panel acknowledged that massage may have other benefits.</p><p>Manual therapy with exercise is conditionally recommended against over exercise alone in patients with knee and/or hip OA.</p><p>Manual therapy techniques may include manual lymphatic drainage, manual traction, massage, mobilization/manipulation, and passive range of motion and are always used in conjunction with exercise (<ref type="url" target="http://guidetoptpractice.apta.org/content/1/SEC38.extract">http://guide toptp racti ce.apta.org/conte nt/1/SEC38. extract</ref>). A limited number of studies have addressed manual therapy added to exercise versus exercise alone in hip and knee OA. Although manual therapy can be of benefit for certain conditions, such as chronic low back pain, limited data in OA show little additional benefit over exercise alone for managing OA symptoms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Iontophoresis is conditionally recommended against in patients with first CMC joint OA.</head><p>There are no published RCTs evaluating iontophoresis for OA in any anatomic location.</p><p>Pulsed vibration therapy is conditionally recommended against in patients with knee OA.</p><p>Few trials have addressed pulsed vibration therapy, and in the absence of adequate data, we conditionally recommend against its use.</p><p>Transcutaneous electrical stimulation (TENS) is strongly recommended against in patients with knee and/or hip OA.</p><p>Studies examining the use of TENS have been of low quality with small size and variable controls, making comparisons across trials difficult. Studies have demonstrated a lack of benefit for knee OA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pharmacologic management (Table 2)</head><p>RCTs of pharmacologic agents may be subject to a variety of limitations, including generalizability of their findings across patients. Publication bias may reduce the likelihood that negative trials will become part of the published literature. Statistically significant findings may represent benefits so small that they are not clinically important to patients. We have highlighted these considerations where relevant.</p><p>Topical NSAIDs are strongly recommended for patients with knee OA and conditionally recommended for patients with hand OA.</p><p>In keeping with the principle that medications with the least systemic exposure (i.e., local therapy) are preferable, topical NSAIDs should be considered prior to use of oral NSAIDs <ref type="bibr" target="#b23">(24)</ref>. Practical considerations (e.g., frequent hand washing) and the lack of direct evidence of efficacy in the hand lead to a conditional recommendation for use of topical NSAIDs in hand OA. In hip OA, the depth of the joint beneath the skin surface suggests that topical NSAIDs are unlikely to confer benefit, and thus, the Voting Panel did not examine use in hip OA.</p><p>Topical capsaicin is conditionally recommended for patients with knee OA and conditionally recommended against in patients with hand OA.</p><p>Topical capsaicin is conditionally recommended for treatment of knee OA due to small effect sizes and wide confidence intervals in the available literature. We conditionally recommend against the use of topical capsaicin in hand OA because of a lack of direct evidence to support use, as well as a potentially increased risk of contamination of the eye with use of topical capsaicin to treat hand OA. In hip OA, the depth of the joint beneath the skin surface suggests that topical capsaicin is unlikely to have a meaningful effect, and thus, the Voting Panel did not examine use of topical capsaicin in hip OA. Insufficient data exists to make recommendations about the use of topical lidocaine preparations in OA.</p><p>Oral NSAIDs are strongly recommended for patients with knee, hip, and/or hand OA.</p><p>Oral NSAIDs remain the mainstay of the pharmacologic management of OA, and their use is strongly recommended. A large number of trials have established their short-term efficacy. Oral NSAIDs are the initial oral medication of choice in the treatment of OA, regardless of anatomic location, and are recommended over all other available oral medications.</p><p>While this guideline did not address the relative merits of different NSAIDs, there is evidence suggesting that certain agents may have more favorable side effect profiles than others <ref type="bibr" target="#b24">(25)</ref><ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref>. Clinical considerations aimed at risk mitigation for the safe use of NSAIDs, such as appropriate patient selection, regular monitoring for the development of potential adverse gastrointestinal, cardiovascular, and renal side effects and potential drug interactions, were not specifically included in the GRADE process for the formulation of recommendations. Doses should be as low as possible, and NSAID treatment should be continued for as short a time as possible.</p><p>Intraarticular glucocorticoid injections are strongly recommended for patients with knee and/or hip OA and conditionally recommended for patients with hand OA.</p><p>Trials of intraarticular glucocorticoid injections have demonstrated short-term efficacy in knee OA. Intraarticular glucocorticoid injection is conditionally, rather than strongly, recommended for hand OA given the lack of evidence specific to this anatomic location. There are insufficient data to judge the choice of shortacting over long-acting preparations or the use of low rather than high doses. A recent report <ref type="bibr" target="#b27">(28)</ref> raised the possibility that specific steroid preparations or a certain frequency of steroid injections may contribute to cartilage loss, but the Voting Panel was uncertain of the clinical significance of this finding, particularly since Table <ref type="table">2</ref>. Recommendations for the pharmacologic management of osteoarthritis of the hand, knee, and hip change in cartilage thickness was not associated with a worsening in pain, functioning, or other radiographic features.</p><p>Ultrasound guidance for intraarticular glucocorticoid injection is strongly recommended for injection into hip joints.</p><p>When available, ultrasound guidance for steroid injection may help ensure accurate drug delivery into the joint, but is not required for knee and hand joints. However, imaging guidance for injection into hip joints is strongly recommended.</p><p>Intraarticular glucocorticoid injections versus other injections are conditionally recommended for patients with knee, hip, and/or hand OA.</p><p>In OA generally, intraarticular glucocorticoid injection is conditionally recommended over other forms of intraarticular injection, including hyaluronic acid preparations. Head-to-head comparisons are few, but the evidence for efficacy of glucocorticoid injections is of considerably higher quality than that for other agents.</p><p>Acetaminophen is conditionally recommended for patients with knee, hip, and/or hand OA.</p><p>In clinical trials, the effect sizes for acetaminophen are very small, suggesting that few of those treated experience important benefit, and meta-analysis has suggested that use of acetamin ophen as monotherapy may be ineffective <ref type="bibr" target="#b28">(29)</ref>. Longer-term treatment is no better than treatment with placebo for most individuals. Members of the Patient Panel noted that, for most individuals, acetaminophen is ineffective. For those with limited pharmacologic options due to intolerance of or contraindications to the use of NSAIDs, acetaminophen may be appropriate for short-term and episodic use. Regular monitoring for hepatotoxicity is required for patients who receive acetaminophen on a regular basis, particularly at the recommended maximum dosage of 3 gm daily in divided doses.</p><p>Duloxetine is conditionally recommended for patients with knee, hip, and/or hand OA.</p><p>While studied primarily in the knee, the effects of duloxetine may plausibly be expected to be similar for OA of the hip or hand. While a variety of centrally acting agents (e.g., pregabalin, gabapentin, selective serotonin reuptake inhibitors, serotonin norepinephrine reuptake inhibitors, and tricyclic antidepressants) have been used in the management of chronic pain, only duloxetine has adequate evidence on which to base recommendations for use in OA. However, in considering all the ways in which OA may be affecting an individual patient, shared decision-making between the physician and patient may include consideration of any of these agents. Considering the utility of these agents in pain management generally, their use may be an appropriate target of future investigations specific to OA. Evidence suggests that duloxetine has efficacy in the treatment of OA when used alone or in combination with NSAIDs; however, there are issues regarding tolerability and side effects. No recommendations were made for the other centrally acting agents due to lack of direct studies of relevance in OA.</p><p>Tramadol is conditionally recommended for patients with knee, hip, and/or OA.</p><p>Recent work has highlighted the very modest level of beneficial effects in the long-term (3 months to 1 year) management of non-cancer pain with opioids <ref type="bibr" target="#b29">(30)</ref>. Nonetheless, there are circumstances in which tramadol or other opioids may be appropriate in the treatment of OA, including when patients may have contraindications to NSAIDs, find other therapies ineffective, or have no available surgical options. Patient Panel input demonstrated a high level of understanding concerning addiction potential, but also included an appreciation for the role of these agents when other pharmacologic and physical options have been ineffective. However, RCT evidence addressing the use of tramadol and other opioids for periods longer than 1 year is not available. Clinical trials have demonstrated some symptomatic efficacy, though concerns regarding potential adverse effects remain. If an opioid is being considered, tramadol is conditionally recommended over nontramadol opioids.</p><p>Non-tramadol opioids are conditionally recommended against in patients with knee, hand, and/or hip OA with the recognition that they may be used under certain circumstances, particularly when alternatives have been exhausted.</p><p>As noted above, evidence suggests very modest benefits of long-term opioid therapy and a high risk of toxicity and dependence. Use of the lowest possible doses for the shortest possible length of time is prudent, particularly since a recent systematic review and meta-analysis suggests that less pain relief occurs during longer trials in the treatment of non-cancer chronic pain <ref type="bibr" target="#b29">(30)</ref>.</p><p>Colchicine is conditionally recommended against in patients with knee, hip, and/or hand OA.</p><p>Two very small studies have suggested analgesic benefit of colchicine in OA, but the quality of the data was low. In addition, potential adverse effects, as well as drug interactions, may occur with use of colchicine.</p><p>Fish oil is conditionally recommended against in patients with knee, hip, and/or hand OA.</p><p>Fish oil is the most commonly used dietary supplement in the US <ref type="bibr" target="#b30">(31)</ref>. Despite its popularity, only 1 published trial has addressed its potential role in OA. This study failed to show efficacy of a higher dose of fish oil over a lower dose.</p><p>Vitamin D is conditionally recommended against in patients with knee, hip, and/or hand OA.</p><p>A number of trials in OA demonstrated small effect sizes with vitamin D treatment, while others have shown no benefit and pooling data across studies yielded null results. In addition, limited and questionable health benefits from vitamin D supplementation have been suggested in other contexts <ref type="bibr" target="#b31">(32,</ref><ref type="bibr" target="#b32">33)</ref>.</p><p>Bisphosphonates are strongly recommended against in patients with knee, hip, and/or hand OA.</p><p>Though a single small study of an oral bisphosphonate suggested a potential analgesic benefit in OA, the preponderance of data shows no improvement in pain or functional outcomes.</p><p>Glucosamine is strongly recommended against in patients with knee, hip, and/or hand OA.</p><p>Pharmaceutical-grade preparations of glucosamine are available and have been studied in multiple trials. However, discrepancies in efficacy reported in studies that were industry sponsored as opposed to publicly funded have raised serious concerns about publication bias <ref type="bibr" target="#b33">(34,</ref><ref type="bibr" target="#b34">35)</ref>. In addition, there is a lack of a clear biologic understanding of how efficacy would vary with the type of salt studied. The data that were deemed to have the lowest risk of bias fail to show any important benefits over placebo. These recommendations represent a change from the prior conditional recommendation against the use of glucosamine. The weight of the evidence indicates a lack of efficacy and large placebo effects. Nonetheless, glucosamine remains among the most commonly used dietary supplements in the US <ref type="bibr" target="#b30">(31)</ref>, and clinicians should be aware that many patients perceive that glucosamine is efficacious. Patients also often perceive that different glucosamine formulas are associated with different degrees of efficacy and seek advice on brands and manufacturers. The potential toxicity of glucosamine is low, though some patients exposed to glucosamine may show elevations in serum glucose levels <ref type="bibr" target="#b35">(36)</ref>.</p><p>Chondroitin sulfate is strongly recommended against in patients with knee and/or hip OA as are combination products that include glucosamine and chondroitin sulfate, but is conditionally recommended for patients with hand OA.</p><p>A single trial suggested analgesic efficacy of chondroitin sulfate, without evidence of harm, in hand OA.</p><p>Hydroxychloroquine is strongly recommended against in patients with knee, hip, and/or hand OA.</p><p>Well-designed RCTs of hydroxychloroquine, conducted in the subset of patients with erosive hand OA, have demonstrated no efficacy.</p><p>Methotrexate is strongly recommended against in patients with knee, hip, and/or hand OA.</p><p>Well-designed RCTs of methotrexate, conducted in the subset of patients with erosive hand OA, have demonstrated no efficacy.</p><p>Intraarticular hyaluronic acid injections are conditionally recommended against in patients with knee and/or first CMC joint OA and strongly recommended against in patients with hip OA.</p><p>In prior systematic reviews, apparent benefits of hyaluronic acid injections in OA have been reported. These reviews have not, however, taken into account the risk of bias of the individual primary studies. Our review showed that benefit was restricted to the studies with higher risk of bias: when limited to trials with low risk of bias, meta-analysis has shown that the effect size of hyaluronic acid injections compared to saline injections approaches zero <ref type="bibr" target="#b36">(37)</ref>. The finding that best evidence fails to establish a benefit, and that harm may be associated with these injections, motivated the recommendation against use of this treatment.</p><p>Many providers want the option of using hyaluronic acid injections when glucocorticoid injections or other interventions fail to adequately control local joint symptoms. In clinical practice, the choice to use hyaluronic acid injections in the knee OA patient who has had an inadequate response to nonpharmacologic therapies, topical and oral NSAIDs, and intraarticular steroids may be viewed more favorably than offering no intervention, particularly given the impact of the contextual effects of intraarticular hyaluronic acid injections <ref type="bibr" target="#b37">(38)</ref>. The conditional recommendation against is consistent with the use of hyaluronic acid injections, in the context of shared decision-making that recognizes the limited evidence of benefit of this treatment, when other alternatives have been exhausted or failed to provide satisfactory benefit. The conditional recommendation against is not intended to influence insurance coverage decisions.</p><p>In contrast, the evidence of lack of benefit is of higher quality with respect to hyaluronic acid injection in the hip. We therefore strongly recommend against hyaluronic acid injections in hip OA.</p><p>Intraarticular botulinum toxin injections are conditionally recommended against in patients with knee and/or hip OA.</p><p>The small number of trials of intraarticular botulinum toxin treatment in knee or hip OA suggest a lack of efficacy. This treatment has not been evaluated in hand OA and, therefore, no recommendation is made with regard to OA of the hand.</p><p>Prolotherapy is conditionally recommended against in patients with knee and/or hip OA.</p><p>A limited number of trials involving a small number of participants have shown small effect sizes of prolotherapy in knee or hip OA. However, injection schedules, injection sites, and comparators have varied substantially between trials. This treatment has not been evaluated in hand OA and, therefore, no recommendation is made with regard to OA of the hand.</p><p>Platelet-rich plasma treatment is strongly recommended against in patients with knee and/or hip OA.</p><p>In contrast to intraarticular therapies discussed above, there is concern regarding the heterogeneity and lack of standardization in available preparations of platelet-rich plasma, as well as techniques used, making it difficult to identify exactly what is being injected. This treatment has not been evaluated in hand OA and, therefore, no recommendation is made with regard to OA of the hand.</p><p>Stem cell injections are strongly recommended against in patients with knee and/or hip OA.</p><p>There is concern regarding the heterogeneity and lack of standardization in available preparations of stem cell injections, as well as techniques used. This treatment has not been evaluated in hand OA and, therefore, no recommendation is made with regard to OA of the hand.</p><p>Tumor necrosis factor inhibitors and interleukin-1 receptor antagonists are strongly recommended against in patients with knee, hip, and/or hand OA.</p><p>Tumor necrosis factor inhibitors and interleukin-1 receptor antagonists have been studied in trials using both subcutaneous and intraarticular routes of administration. Efficacy has not been demonstrated, including in erosive hand OA. Therefore, given their known risks of toxicity, we strongly recommended against their use for any form of OA.</p><p>Initial observations addressing the use of anti-nerve growth factor (anti-NGF) agents suggest that significant analgesic benefits may occur but that incompletely explained important safety issues may arise. A small subset of patients treated with these agents had rapid joint destruction leading to early joint replacement. The FDA temporarily halted clinical trials of anti-NGF as a result, but trials have since resumed, with ongoing collection of longer-term efficacy and safety data. As none of these agents were approved for use by the FDA and the longer-term data were not available at the time of the literature review and Voting Panel meeting, we are unable to make recommendations regarding the use of anti-NGF therapy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>These 2019 ACR/AF recommendations for the management of OA are based on the best available evidence of benefit, safety, and tolerability of physical, educational, behavioral, psychosocial, mind-body, and pharmacologic interventions, as well as the consensus judgment of clinical experts. The GRADE approach used provided a comprehensive, explicit, and transparent methodology for developing recommendations for OA management. The choice of any single or group of interventions may vary over the course of the disease or with patient and provider preferences, and is optimally arrived at through shared decision-making.</p><p>The Voting Panel made strong recommendations for patients to participate in a regular, ongoing exercise program. The literature provides support for choice from a broad menu of exercises for patients with OA. The effectiveness of an exercise program is enhanced when patient preferences and access to exercise programs are considered, as well as when they are supervised or coupled with self-efficacy, self-management, and weight loss programs. Strong recommendations were also made for weight loss in patients with knee and/or hip OA who are overweight or obese, self-efficacy and self-management programs, tai chi, cane use, first CMC joint orthoses, tibiofemoral bracing, topical NSAIDs for knee OA and oral NSAIDs for hand, knee, and/or hip OA, and intraarticular glucocorticoid injections for knee and/ or hip OA. The Voting Panel made conditional recommendations for balance exercises, yoga, CBT, kinesiotaping, orthoses for hand joints other than the first CMC, patellofemoral bracing, acupuncture, thermal modalities, radiofrequency ablation, topical NSAIDs, intraarticular steroid injections and chondroitin sulfate for hand OA, topical capsaicin for knee OA, acetaminophen, duloxetine, and tramadol. The recommendations provide an array of options for a comprehensive approach for optimal management of OA encompassing the use of educational, physical, behavioral, psychosocial, mind-body, and pharmacologic interventions. The availability, accessibility, and affordability of some of these interventions vary, but in many communities the AF, as well as local hospitals and other health-related agencies, offer free self-efficacy and self-management programs.</p><p>For some patients with more limited disease in whom medication is required, topical NSAIDs represent an appropriate first choice. For others, particularly with hip OA or polyarticular involvement, oral NSAIDs are more appropriate. The appropriate use of other oral agents, particularly acetaminophen and opioids, will continue to evolve <ref type="bibr" target="#b38">(39)</ref><ref type="bibr" target="#b39">(40)</ref><ref type="bibr" target="#b40">(41)</ref>.</p><p>Despite the many options available, some patients may continue to experience inadequate symptom control; others will experience adverse effects from the available interventions. Clinicians treating patients in these circumstances should choose interventions with a low risk of harm, but both clinicians and patients may be dissatisfied with the options and unsure of how to choose among them. There are controversies in interpretation of the evidence, particularly with regard to the use of glucosamine and chondroitin, acupuncture, and intraarticular hyaluronic acid injections. Nonetheless, the process of updating treatment guidelines permits scrutiny of the state of the literature and identification of critical gaps in our knowledge about best practices. Further, it highlights the need for ongoing, appropriately funded, high-quality clinical research, as well as development of new treatment modalities, to address the human and economic impact of the most common form of arthritis.</p><p>No effective disease-modifying agents for OA have yet been identified though phase 2 and 3 trials are underway, and, for the time being, preventive strategies focus on weight management and injury prevention. Development of more effective therapies that permit a sophisticated and individualized approach to the patient with OA await the outcome of future investigation. Important directions for research include gaining a more comprehensive understanding of the optimal types of exercises and the modifications that should be used based on disease location and severity, study of the intensity of exercise that would be optimal for a given individual (<ref type="url" target="https://health.gov/pagui">https ://health.gov/pagui</ref> delin es/second-editi on/report.aspx), defining optimal footwear for patients with knee and hip OA and understanding the interaction between footwear and exercise, conducting rigorous RCTs for physical modality options in hand OA, assessing a broader array of outcomes, including fall prevention, assessing optimal use of oral, topical, and injectable agents alone and in combination, obtaining a better understanding of the role of integrative medicine, including massage, herbal products, medical marijuana, and additional mind-body interventions, and exploring agents with novel mechanisms of action for prevention and treatment.</p><p>In conclusion, optimal management requires a comprehensive, multimodal approach to treating patients with hand, hip, and/ or knee OA offered in the context of shared decision-making with patients, to choose the safest and most effective treatment possible. A large research agenda remains to be addressed, with a need for more options with greater efficacy for the millions of people worldwide with osteoarthritis.</p><p>Addendum. Therapies that were approved after the original systematic literature review are not included in these recommendations.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Recommended therapies for the management of osteoarthritis (OA). Strongly and conditionally recommended approaches to management of hand, knee, and/or hip OA are shown. No hierarchy within categories is implied in the figure, with the recognition that the various options may be used (and reused) at various times during the course of a particular patient's disease. * = Exercise for knee and hip OA could include walking, strengthening, neuromuscular training, and aquatic exercise, with no hierarchy of one over another. Exercise is associated with better outcomes when supervised. ** = Knee brace recommendations: tibiofemoral (TF) brace for TF OA (strongly recommended), patellofemoral (PF) brace for PF OA (conditionally recommended). *** = Hand orthosis recommendations: first carpometacarpal (CMC) joint neoprene or rigid orthoses for first CMC joint OA (strongly recommended), orthoses for joints of the hand other than the first CMC joint (conditionally recommended). RFA = radiofrequency ablation; NSAIDs = nonsteroidal antiinflammatory drugs; IA = intraarticular.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Therapies recommended against (physical, psychosocial, and mind-body approaches [A] and pharmacologic approaches [B]) in the management of hand, knee, and/or hip osteoarthritis. No hierarchy within categories is implied in the figure. TENS = transcutaneous electrical nerve stimulation; TNF = tumor necrosis factor; IL-1 = interleukin-1; PRP = platelet-rich plasma; IA = intraarticular.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>1</head><p><rs type="person">Sharon L. Kolasinski, MD</rs>, <rs type="funder">FACP</rs>, <rs type="funder">FACR</rs>, Carla Scanzello, MD: University of Pennsylvania School of Medicine, Philadelphia; 2 Tuhina Neogi, MD, PhD, FRCPC, David Felson, MD, MPH, Devyani Misra, MD, MSc: Boston University School of Medicine, Boston, Massachusetts; <ref type="bibr" target="#b2">3</ref> Marc C. Hochberg, MD, MPH, MACP, MACR: University of Maryland School of Medicine and Veterans Affairs Maryland Health Care System, Baltimore; 4 Carol Oatis, PT, PhD: Arcadia University, Glenside, Pennsylvania; 5 Gordon Guyatt, MD, MSc: McMaster University, Hamilton, Ontario, Canada; 6 <rs type="person">Joel Block</rs>, MD: <rs type="institution">Rush University Medical Center, Chicago, Illinois</rs>; <rs type="person">7 Leigh Callahan, PhD</rs>, <rs type="person">Amanda E. Nelson, MD, MSCR, RhMSUS</rs>, <rs type="person">Louise M. Thoma</rs>, PT, DPT, PhD: <rs type="funder">University of North Carolina School of Medicine</rs>, <rs type="person">Chapel Hill</rs>; 8 Cindy Copenhaver, LMT: <rs type="institution">South Holland Recreational Services, University of Chicago</rs>, and <rs type="institution">Ingalls Memorial Hospital, Thornton</rs>, Illinois; 9 Carole Dodge, OT, CHT: <rs type="affiliation">University of Michigan Medical Center</rs>, <rs type="person">Ann Arbor</rs>; 10 <rs type="person">Kathleen Gellar: Watchung</rs>, New Jersey; 11 <rs type="person">William F. Harvey</rs>, <rs type="affiliation">MD, MSc, FACR: Tufts Medical Center, Boston, Massachusetts; 12 Gillian Hawker, MD, MSc: University of Toronto, Toronto, Ontario, Canada</rs>; 13 <rs type="person">Edward Herzig, MD: Fairfield</rs>, Ohio; 14 C. Kent Kwoh, MD: <rs type="affiliation">University of Arizona College of Medicine, Tucson; 15 Jonathan Samuels, MD: New York University Langone Medical Center, New York, New York</rs>; 16 <rs type="person">Daniel White</rs>, PT, ScD: <rs type="funder">University of Delaware</rs>, Newark; 17 <rs type="person">Barton Wise, MD, PhD</rs>: <rs type="affiliation">University of California</rs>, Davis, 18 <rs type="person">Roy D. Altman</rs>, <rs type="projectName">MD: Ronald Reagan UCLA Medical Center</rs>, <rs type="person">Los Angeles</rs>, California; 19 Dana DiRenzo, MD: <rs type="affiliation">Johns Hopkins University School of Medicine, Baltimore, Maryland</rs> ; 20 <rs type="person">Joann Fontanarosa, PhD</rs>, <rs type="person">Gina Giradi</rs>, <rs type="person">James Reston, PhD</rs>, <rs type="projectName">MPH: ECRI Institute</rs>, <rs type="person">Plymouth Meeting</rs>, Pennsylvania; 21 <rs type="person">Mariko Ishimori, MD</rs>: <rs type="funder">Cedars Sinai Medical Center</rs>, <rs type="person">Los Angeles</rs>, California; 22 <rs type="person">Amit Aakash Shah, MD, MPH</rs>, <rs type="person">Marat Turgunbaev, MD, MPH</rs>, <rs type="person">Amy S. Turner</rs>: <rs type="affiliation">American College of Rheumatology, Atlanta, Georgia; 23 Anna K. Shmagel, MD, MS: University of Minnesota, Minneapolis</rs>.</p><p><rs type="person">Dr. Neogi</rs> has received consulting fees from <rs type="funder">Pfizer</rs>, <rs type="funder">Regeneron</rs>, <rs type="funder">EMD Merck Serono</rs>, and <rs type="funder">Novartis</rs> (less than $10,000 each). <rs type="person">Dr. Hochberg</rs> has received consulting fees, speaking fees, and/or honoraria from <rs type="funder">Bone Therapeutics, Bristol-Myers Squibb, EMD Serono</rs>, IBSA, and <rs type="person">Theralogix LLC</rs> (less than $10,000 each) and from <rs type="funder">Eli Lilly</rs>, <rs type="funder">Novartis Pharma AG</rs>, <rs type="funder">Pfizer</rs>, and <rs type="person">Samumed LLC</rs> (more than $10,000 each), royalties from <rs type="person">Wolters Kluwer</rs> for UpToDate, owns stock or stock options in <rs type="person">BriOri BioTech</rs> and <rs type="person">Theralogix LLC</rs>, and is President of Rheumcon, <rs type="person">Inc. Dr. Block</rs> has received consulting fees, speaking fees, and/or honoraria from <rs type="funder">Zynerba Pharma</rs>, <rs type="funder">GlaxoSmithKline</rs>, and Medivir (less than $10,000 each) and royalties from <rs type="funder">Agios</rs>, <rs type="funder">GlaxoSmithKline</rs>, <rs type="funder">Omeros</rs>, and <rs type="person">Daiichi Sankyo</rs> for human chondrosarcoma cell lines. <rs type="person">Dr. Callahan</rs> has received consulting fees, speaking fees, and/or honoraria from <rs type="funder">AbbVie</rs> (less than $10,000.) <rs type="person">Dr. Kwoh</rs> has received consulting fees, speaking fees, and/or honoraria from <rs type="funder">Astellas</rs>, <rs type="funder">Fidia</rs>, <rs type="funder">GlaxoSmithKline</rs>, <rs type="person">Kolon TissueGene</rs>, <rs type="funder">Regeneron, Regulus, Taiwan Liposome Company</rs>, and Thusane (less than 10,000 each) and from <rs type="funder">EMD Serono</rs>, and <rs type="funder">Express Scripts</rs> (more than $10,000 each). <rs type="person">Dr. Nelson</rs> has received consulting fees and/or honoraria from <rs type="funder">Flexion</rs>, <rs type="funder">GlaxoSmithKline</rs>, and Medscape (less than $10,000 each). <rs type="person">Dr. Samuels</rs> has received consulting fees, speaking fees, and/or honoraria</p></div>
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Nancy Baker</rs>, <rs type="person">ScD, MPH</rs>, OTR/l, <rs type="person">Yvonne Golightly</rs>, <rs type="person">PT, MS, PhD</rs>, <rs type="person">Thomas Schnitzer, MD, PhD</rs>, and <rs type="person">ChenChen Wang, MD, MSc</rs> for serving (along with authors <rs type="person">Joel Block, MD</rs>, <rs type="person">Leigh Callahan, PhD</rs>, <rs type="person">Carole Dodge</rs>, OT, <rs type="funder">CHT</rs>, <rs type="person">David Felson, MD, MPH</rs>, <rs type="person">William F. Harvey, MD, MSc</rs>, <rs type="person">Edward Herzig, MD</rs>, <rs type="person">Marc C. Hochberg, MD, MPH</rs>, <rs type="person">Sharon L. Kolasinski, MD</rs>, <rs type="person">C. Kent Kwoh, MD</rs>, <rs type="person">Amanda E. Nelson, MD</rs>, <rs type="person">Tuhina Neogi, MD, PhD</rs>, <rs type="person">Carol Oatis</rs>, <rs type="person">PT, PhD</rs>, <rs type="person">Jonathan Samuels, MD</rs>, <rs type="person">Daniel White</rs>, <rs type="institution">PT, ScD</rs>, and <rs type="person">Barton Wise, MD, PhD</rs>) on the Expert Panel. We thank <rs type="person">Suzanne Schrandt</rs>, <rs type="person">Angie Botto-van Bemden</rs>, and <rs type="person">Jaffe Marie</rs> with the <rs type="funder">Arthritis Foundation</rs> for their involvement throughout the guideline development process. We thank the patients who (along with author <rs type="person">Kathleen Gellar</rs>) participated in the Patient Panel meeting: <rs type="person">Cindy Copenhaver</rs>, LMT, <rs type="person">Donna Dernier</rs>, <rs type="person">Fletcher Johnson</rs>, <rs type="person">Nancy J. Maier</rs>, <rs type="person">Travis Salmon</rs>, <rs type="person">Elise Sargent</rs>, and <rs type="person">Linda Walls</rs>. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Regina Parker</rs> for assistance in organizing the face-to-face meeting and coordinating the administrative aspects of the project and <rs type="person">Robin Lane</rs> for assistance in manuscript preparation. We thank <rs type="person">Janet Waters</rs> for help in developing the literature search strategy and performing the literature search and updates, and <rs type="person">Janet Joyce</rs> for peer-reviewing the literature search strategy.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_pZdhjf5">
+					<orgName type="project" subtype="full">MD: Ronald Reagan UCLA Medical Center</orgName>
+				</org>
+				<org type="funded-project" xml:id="_qCfBNNB">
+					<orgName type="project" subtype="full">MPH: ECRI Institute</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Alternative methods for defining osteoarthritis and the impact on estimating prevalence in a US population-based survey</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Cisternas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sacks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Pasta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Helmick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="574" to="580" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Global, regional, and national disability-adjusted life-years (DALYs) for 315 diseases and injuries and healthy life expectancy (HALE), 1990-2015: a systematic analysis for the Global Burden of Disease Study</title>
+	</analytic>
+	<monogr>
+		<title level="m">GBD 2015 DALYs and HALE Collaborators</title>
+		<imprint>
+			<date type="published" when="2015">2015. 2016</date>
+			<biblScope unit="volume">388</biblScope>
+			<biblScope unit="page" from="P1603" to="P1658" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Lifetime risk of symptomatic knee osteoarthritis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Helmick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Renner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tudor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Koch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1207" to="1213" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">One in four people may develop symptomatic hip osteoarthritis in his or her lifetime</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Helmick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Renner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tudor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Koch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1372" to="1379" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Lifetime risk of symptomatic hand osteoarthritis: the Johnston County Osteoarthritis Project</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Barbour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Helmick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1204" to="1212" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alonso-Coello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology 2012 recommendations for the use of nonpharmacologic and pharmacologic therapies in osteoarthritis of the hand, hip, and knee</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hochberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>April</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benkhalti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcgowan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="465" to="474" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Reliability and measurement error of the Osteoarthritis Research Society International (OARSI) recommended performance-based tests of physical function in people with hip and knee osteoarthritis</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dobson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hinman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1792" to="1796" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A hierarchy of patient-reported outcomes for meta-analysis of knee osteoarthritis trials: empirical evidence from a survey of high impact journals [review]</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Juhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Roos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Christensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis</title>
+		<imprint>
+			<biblScope unit="page">136245</biblScope>
+			<date type="published" when="2012">2012. 2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">for the GRADE Working Group. Going from evidence to recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liberati</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="1049" to="1051" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">for the GRADE Working Group. What is &quot;quality of evidence&quot; and why is it important to clinicians?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schünemann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="995" to="998" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">GRADE Evidence to Decision (EtD) frameworks: a systematic and transparent approach to making well informed healthcare choices. 1. Introduction</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alonso-Coello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schünemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brignardello-Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Davoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">353</biblScope>
+			<date type="published" when="2016">2016. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A guide for health professionals to interpret and use recommendations in guidelines developed with the GRADE approach</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Santesso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Rind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Vandvik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alonso-Coello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="45" to="55" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="719" to="725" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 15. Going from evidence to recommendation-determinants of a recommendation&apos;s direction and strength</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schünemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pottie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Meerpohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Coello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="726" to="735" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Shared decision making: a model for clinical practice</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Elwyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Frosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Joseph-Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kinnersley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1361" to="1367" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">for the Agency for Healthcare Research and Quality. Noninvasive nonpharmacological treatment for chronic pain: a systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Skelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Dettori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Friedly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Rundell</surname></persName>
+		</author>
+		<ptr target="https://effectivehealthcare.ahrq.gov/sites/default/files/pdf/nonpharma-chronic-pain-cer-209.pdf" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Intentional weight loss in overweight and obese patients with knee osteoarthritis: is more better?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Messier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Resnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Beavers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Mihalko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Nicklas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1569" to="1575" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Efficacy, acceptability and safety of cognitive behavioural therapies in fibromyalgia syndrome: a systematic review and meta-analysis of randomized controlled trials</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bernardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Klose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Welsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Häuser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Pain</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="242" to="260" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The influence of cognitive behavioral therapy on pain, quality of life, and depression in patients receiving physical therapy for chronic low back pain: a systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hajihasani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rouhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salavati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hedayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Kahlaee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PM R</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="167" to="176" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Cognitive behavioural therapy and pain coping skills training for osteoarthritis knee pain management: a systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ismail</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alshishani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yaseen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Alshehri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Phys Ther Sci</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="2228" to="2235" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Psychosocial and demographic factors influencing pain scores of patients with knee osteoarthritis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Eberly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Comerci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ocksrider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mercer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mlady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">195075</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Massage therapy for osteoarthritis of the knee: a randomized dosefinding trial</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Perlman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">Y</forename><surname>Njike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Davidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gould-Fogerite</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">30248</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Efficacy and safety of topical NSAIDs in the management of osteoarthritis: evidence from real-life setting trials and surveys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rannou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Pelletier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Martel-Pelletier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>Suppl:S18-21</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Gastrointestinal safety of celecoxib versus naproxen in patients with cardiothrombotic diseases and arthritis after upper gastrointestinal bleeding (CONCERN): an industry-independent, double-blind, double-dummy, randomised trial</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">K</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Ching</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Tse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">389</biblScope>
+			<biblScope unit="page" from="2375" to="2382" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">for the PRECISION Trial Investigators. Cardiovascular safety of celecoxib, naproxen, or ibuprofen for arthritis</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Nissen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Yeomans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Lüscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Libby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Husni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="2519" to="2529" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The risk of major NSAID toxicity with celecoxib, ibuprofen, or naproxen: a secondary analysis of the PRECISION trial</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Solomon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Husni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Libby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Yeomans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Lincoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Lüscher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Med</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="1415" to="1422" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effect of intra-articular triamcinolone vs saline on knee car-tilage volume and pain in patients with knee osteoarthritis: a randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Mcalindon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Lavalley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Driban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">317</biblScope>
+			<biblScope unit="page" from="1967" to="1975" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Effectiveness of non-steroidal anti-inflammatory drugs for the treatment of pain in knee and hip osteoarthritis: a network metaanalysis</title>
+		<author>
+			<persName><forename type="first">Da</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Reichenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nartey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Juni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">390</biblScope>
+			<biblScope unit="page" from="21" to="33" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Opioids for chronic noncancer pain: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Busse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kamaleldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Craigie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Riva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montoya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="2448" to="2460" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Trends in the use of complementary health approaches among adults: United States</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Stussman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Nahin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Natl Health Stat Report</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2002">2002-2012. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Vitamin D and overall cancer risk and cancer mortality: a Mendelian randomization study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gharahkhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">An</forename><forename type="middle">J</forename><surname>Law</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Whiteman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Neale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hum Mol Genet</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="4315" to="4322" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Vitamin D and cardiovascular disease prevention</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pilz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Verheyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Grübler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tomaschitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>März</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="404" to="417" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Subgroup analyses of the effectiveness of oral glucosamine for knee and hip osteoarthritis: a systematic review and individual patient data meta-analysis from the OA trial bank</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Runhaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Rozendaal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Middelkoop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Bijlsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doherty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Dziedzic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1862" to="1869" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Effects of glucosamine, chondroitin, or placebo in patients with osteoarthritis of hip or knee: network meta-analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wandel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jüni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tendal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nüesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Villiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Welton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="page">4675</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Effects of oral glucosamine sulphate on serum glucose and insulin during an oral glucose tolerance test of subjects with osteoarthritis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Biggee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Blinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nuite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Silbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Mcalindon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="260" to="262" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Viscosupplementation for osteoarthritis of the knee: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Rutjes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jüni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Da Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nüesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reichenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="180" to="191" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Efficacy paradox and proportional contextual effect (PCE)</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Doherty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Immunol</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="82" to="86" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Limits on opioid prescribing leave patients with chronic pain vulnerable</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page" from="2059" to="2062" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Association of tramadol with all-cause mortality among patients with osteoarthritis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dubreuil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Larochelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page" from="969" to="982" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Paracetamol versus placebo for knee and hip osteoarthritis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Leopoldino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Pinheiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Day</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mclachlan</surname></persName>
+		</author>
+		<idno>CD013273</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cochrane Database Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

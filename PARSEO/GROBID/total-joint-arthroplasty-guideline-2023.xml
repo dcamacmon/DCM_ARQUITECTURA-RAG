@@ -1,0 +1,1739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2023 American College of Rheumatology and American Association of Hip and Knee Surgeons Clinical Practice Guideline for the Optimal Timing of Elective Hip or Knee Arthroplasty for Patients With Symptomatic Moderate-to-Severe Osteoarthritis or Advanced Symptomatic Osteonecrosis With Secondary Arthritis for Whom Nonoperative Therapy Is Ineffective</title>
+				<funder>
+					<orgName type="full">American College of Rheumatology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MD, MBA</roleName><forename type="first">Charles</forename><forename type="middle">P</forename><surname>Hannon</surname></persName>
+							<email>charles.p.hannon@gmail.com</email>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Susan</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Matthew</forename><forename type="middle">S</forename><surname>Austin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Hospital for Special Sur- gery and Weill Cornell Medicine</orgName>
+								<orgName type="institution">Uni- versity School of Medicine</orgName>
+								<address>
+									<settlement>St. Louis New York</settlement>
+									<region>Missouri New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adolph</forename><surname>Yates</surname><genName>Jr</genName></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">MD: Rothman Orthopaedic Institute</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+									<region>Pennsylvania</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gordon</forename><surname>Guyatt</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Pittsburgh Medical Center</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>Pennsylvania</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vinay</forename><forename type="middle">K</forename><surname>Aggarwal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joshua</forename><forename type="middle">F</forename><surname>Baker</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Phyllis</forename><surname>Bass</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Delamo</forename><forename type="middle">Isaac</forename><surname>Bekele</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Danielle</forename><surname>Dass</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hassan</forename><forename type="middle">M K</forename><surname>Ghomrawi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">S</forename><surname>Jevsevar</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">Medicine of Northwestern University</orgName>
+								<address>
+									<settlement>Chicago</settlement>
+									<region>Illinois</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">Kent</forename><surname>Kwoh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Claudette</forename><forename type="middle">M</forename><surname>Lajam</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Charis</forename><forename type="middle">F</forename><surname>Meng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Larry</forename><forename type="middle">W</forename><surname>Moreland</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="institution">MD: University of Arizona College of Medicine</orgName>
+								<address>
+									<settlement>Tucson</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><forename type="middle">I</forename><surname>Suleiman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jesse</forename><surname>Wolfstadt</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="institution">University of Colorado Anschutz Medical Campus</orgName>
+								<address>
+									<settlement>Aurora</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD:</roleName><forename type="first">Kimberly</forename><surname>Bartosiak</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nicholas</forename><forename type="middle">A</forename><surname>Bedard</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Jason</forename><forename type="middle">L</forename><surname>Blevins</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anna</forename><surname>Cohen-Rosenblum</surname></persName>
+							<affiliation key="aff13">
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">Maxwell</forename><surname>Courtney</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Hospital for Special Sur- gery and Weill Cornell Medicine</orgName>
+								<orgName type="institution">Uni- versity School of Medicine</orgName>
+								<address>
+									<settlement>St. Louis New York</settlement>
+									<region>Missouri New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MS</roleName><forename type="first">Ruth</forename><surname>Fernandez-Ruiz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Elizabeth</forename><forename type="middle">B</forename><surname>Gausden</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD, MS</roleName><forename type="first">Nilasha</forename><surname>Ghosh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lauren</forename><forename type="middle">K</forename><surname>King</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alexa</forename><forename type="middle">Simon</forename><surname>Meara</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MBBS, MS, MD</roleName><forename type="first">Bella</forename><surname>Mehta</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Reza</forename><surname>Mirza</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">University of Pittsburgh Medical Center</orgName>
+								<address>
+									<settlement>Pittsburgh</settlement>
+									<region>Pennsylvania</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Adam</forename><forename type="middle">J</forename><surname>Rana</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nancy</forename><surname>Sullivan</surname></persName>
+							<affiliation key="aff17">
+								<orgName type="department">MD: Maine Medical Partners</orgName>
+								<orgName type="institution">The Ohio State Wexner Medical Center</orgName>
+								<address>
+									<addrLine>19 Adam J. Rana</addrLine>
+									<settlement>Columbus Portland</settlement>
+									<region>Ohio</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+							<affiliation key="aff18">
+								<orgName type="department">BA: ECRI Institute</orgName>
+								<orgName type="institution">Nancy Sullivan</orgName>
+								<address>
+									<settlement>Plymouth Meeting</settlement>
+									<region>Pennsylvania</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Katherine</forename><forename type="middle">D</forename><surname>Wysham</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Kevin</forename><surname>Yip</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Linda</forename><surname>Yue</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">G</forename><surname>Zywiel</surname></persName>
+							<affiliation key="aff21">
+								<orgName type="institution">Puget Sound Health Care System and Univer- sity of Washington School of Medicine</orgName>
+								<address>
+									<settlement>Seattle</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Linda</forename><surname>Russell</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+							<affiliation key="aff18">
+								<orgName type="department">BA: ECRI Institute</orgName>
+								<orgName type="institution">Nancy Sullivan</orgName>
+								<address>
+									<settlement>Plymouth Meeting</settlement>
+									<region>Pennsylvania</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jasvinder</forename><forename type="middle">A</forename><surname>Singh</surname></persName>
+							<affiliation key="aff23">
+								<orgName type="institution" key="instit1">Toronto Western Hospital</orgName>
+								<orgName type="institution" key="instit2">University of Toronto</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MPH</roleName><forename type="first">Eliza- Beth</forename><forename type="middle">B</forename><surname>Gausden</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Goodman, Austin, Yates</roleName><forename type="first">Drs</forename><surname>Hannon</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Matthew S</orgName>
+								<address>
+									<settlement>Austin</settlement>
+									<region>MD P. Maxwell Courtney</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Adolph Yates Jr</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">Gordon Guyatt</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Reza Mirza, MD: McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">David S. Jevsevar</orgName>
+								<address>
+									<addrLine>13 C. Kent Kwoh</addrLine>
+									<settlement>Richmond</settlement>
+									<region>MD MBA: OrthoVirginia Virginia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="institution">Larry W. Moreland</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff12">
+								<orgName type="institution">Jesse Wolfstadt</orgName>
+								<address>
+									<addrLine>MSc: Sinai Health</addrLine>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<orgName type="institution">Anna Cohen-Rosenblum</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<orgName type="institution">MSC: LSU Health</orgName>
+								<address>
+									<addrLine>17 Lauren K. King</addrLine>
+									<settlement>New Orleans</settlement>
+									<region>Louisiana MD MSc</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff16">
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>18 Alexa Simon Meara</addrLine>
+									<settlement>Toronto</settlement>
+									<region>Ontario MD</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff19">
+								<orgName type="institution">Marat Turgunbaev</orgName>
+								<address>
+									<settlement>Amy S. Turner</settlement>
+									<region>MD, MPH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff20">
+								<orgName type="institution">American College of Rheumatology</orgName>
+								<address>
+									<addrLine>22 Katherine D. Wysham</addrLine>
+									<settlement>Atlanta</settlement>
+									<region>MD VA</region>
+									<country>Georgia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff22">
+								<orgName type="department">FRCSC: Schroeder Arthritis Institute</orgName>
+								<orgName type="institution">Michael G. Zywiel</orgName>
+								<address>
+									<region>MD MSc</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff24">
+								<orgName type="institution">Jasvinder A. Singh</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff25">
+								<orgName type="institution">MPH: University of Alabama at Birmingham and Veterans Affairs Medical Center</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<region>Alabama</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2023 American College of Rheumatology and American Association of Hip and Knee Surgeons Clinical Practice Guideline for the Optimal Timing of Elective Hip or Knee Arthroplasty for Patients With Symptomatic Moderate-to-Severe Osteoarthritis or Advanced Symptomatic Osteonecrosis With Secondary Arthritis for Whom Nonoperative Therapy Is Ineffective</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6E2D3A150A173E976859B79AA172C610</idno>
+					<idno type="DOI">10.1002/acr.25175</idno>
+					<note type="submission">Submitted for publication March 10, 2023; accepted in revised form June 14, 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. To develop evidence-based consensus recommendations for the optimal timing of hip and knee arthroplasty to improve patient-important outcomes including, but not limited to, pain, function, infection, hospitalization, and death at 1 year for patients with symptomatic and radiographic moderate-to-severe osteoarthritis or advanced symptomatic osteonecrosis with secondary arthritis of the hip or knee who have previously attempted nonoperative therapy, and for whom nonoperative therapy was ineffective, and who have chosen to undergo elective hip or knee arthroplasty (collectively referred to as TJA).</p><p>Methods. We developed 13 clinically relevant population, intervention, comparator, outcomes (PICO) questions. After a systematic literature review, the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach was used to rate the quality of evidence (high, moderate, low, or very low), and evidence tables were created. A Voting Panel, including 13 physicians and patients, discussed the PICO Guidelines and recommendations developed and/or endorsed by the American College of Rheumatology (ACR) are intended to provide guidance for patterns of practice and not to dictate the care of a particular patient. The ACR considers adherence to the recommendations within this guideline to be voluntary, with the ultimate determination regarding their application to be made by the clinician in light of each patient's individual circumstances. Guidelines and recommendations are intended to promote beneficial or desirable outcomes but cannot guarantee any specific outcome. Guidelines and recommendations developed and endorsed by the ACR are subject to periodic revision as warranted by the evolution of medical knowledge, technology, and practice. ACR recommendations are not intended to dictate payment or insurance decisions, and drug formularies or other third-party analyses that cite ACR guidelines should state this. These recommendations cannot adequately convey all uncertainties and nuances of patient care.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Patients who have osteoarthritis (OA) and advanced symptomatic osteonecrosis (ON) with secondary arthritis can benefit from nonoperative treatment, e.g., physical therapy, nonsteroidal antiinflammatory drugs (NSAIDs), braces, intraarticular injections, and weight reduction <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref>. However, none of these treatments are disease modifying, and progressive pain and loss of function lead many patients to choose arthroplasty when nonoperative therapy has lost efficacy. While projected increases in the utilization of total joint arthroplasty (TJA), including total hip (THA) or knee arthroplasty (TKA), vary widely (from estimates of &gt;4 million people in the US by 2030, to models projecting a slower rise, with a plateau in 2009 <ref type="bibr" target="#b5">[5]</ref>), there is consensus that utilization will increase <ref type="bibr" target="#b6">(6)</ref><ref type="bibr" target="#b7">(7)</ref><ref type="bibr" target="#b8">(8)</ref><ref type="bibr" target="#b9">(9)</ref><ref type="bibr" target="#b10">(10)</ref><ref type="bibr" target="#b11">(11)</ref>. Both procedures have demonstrated success in reducing pain, restoring function, and improving quality of life for patients who have radiographic moderate-to-severe OA or advanced symptomatic ON with secondary arthritis after insufficient relief from nonoperative treatments <ref type="bibr" target="#b12">(12,</ref><ref type="bibr" target="#b13">13)</ref>. As the volume of these procedures continues to rise, the comparative value of these surgeries versus nonoperative treatment has been questioned <ref type="bibr" target="#b10">(10)</ref>. Nonoperative treatments include, but are not limited to, activity modification, analgesic medications such as NSAIDs or acetaminophen, physical therapy, intraarticular injections, bracing, weight loss, and gait aids <ref type="bibr" target="#b1">(2)</ref>.</p><p>For this guideline, our population consists of patients who have moderate-to-severe pain and loss of function and moderate-to-severe radiographic OA or ON with secondary arthritis, using standard radiographic measures such as Kellgren/Lawrence (K/L) grade <ref type="bibr" target="#b14">(14)</ref>, and who have also completed ≥1 trials of appropriate nonoperative therapy and elected to undergo TJA after a shared decision-making process with their physician. This does not include patients who have mild radiographic OA or ON with secondary arthritis, patients who have minimal pain and/or disability, or patients who have not tried some form of nonoperative therapy. Prior to being indicated for TJA, patients' medical comorbidities and prior nonoperative treatments are evaluated. However, patients may have their procedure postponed if they did not try specific treatments for nonoperative arthritis or to pursue medical optimization <ref type="bibr" target="#b15">(15,</ref><ref type="bibr" target="#b16">16)</ref>. While nonoperative treatment has benefits for most patients who have OA or advanced symptomatic ON with secondary arthritis <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref>, there is no consensus on the effectiveness of specific additional nonoperative treatments after nonoperative therapy has been ineffective in patients in the defined population for this guideline, those who have radiographically moderate-to-severe OA or ON with secondary arthritis of the hip or knee and moderate-to-severe pain or loss of function who have completed ≥1 trials of appropriate nonoperative therapy <ref type="bibr" target="#b17">(17)</ref>.</p><p>Patients who have certain risk factors, such as obesity, diabetes mellitus, and nicotine use, may also have surgical treatment delayed by hospital policy or third-party payers in order to meet specific criteria to mitigate their surgical risk. However, while these factors are clearly associated with increased risk for adverse events, it is unknown whether delaying surgery in order to achieve a specific glycemic end point, weight or body mass index (BMI) target, or absolute nicotine cessation leads to improved outcomes after TJA <ref type="bibr" target="#b18">(18)</ref><ref type="bibr" target="#b19">(19)</ref><ref type="bibr" target="#b20">(20)</ref><ref type="bibr" target="#b21">(21)</ref><ref type="bibr" target="#b22">(22)</ref>.</p><p>The purpose of this clinical practice guideline was to develop consensus on evidence-based recommendations for the optimal timing of TJA in patients with symptomatic moderate-to-severe OA or advanced symptomatic ON with secondary arthritis for whom nonoperative therapy has been ineffective and who elected to undergo TJA, and to evaluate benefits of delays of surgery for additional nonoperative arthritis treatments or to achieve specific targets for medical optimization. This guideline is intended for use during a shared decision-making process with this defined group of patients and their physicians after nonoperative therapies have ceased to be effective; this is not a guideline on the efficacy of nonoperative therapies in patients who have OA or ON with secondary arthritis who are not candidates for THA or TKA. Although patients who have inflammatory arthritis may also have OA, either primary or secondary, they also have moderate systemic inflammatory disease activity and are likely to be taking immunosuppressant medications at the time of surgery, the management of which was felt to be beyond the scope of this guideline. This was the focus of the 2022 American College of Rheumatology (ACR)/American Association of Hip and Knee Surgeons (AAHKS) Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty <ref type="bibr" target="#b23">(23)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>This guideline follows the ACR guideline development process and ACR policy guiding management of conflicts of interest and disclosures <ref type="url" target="https://rheumatology.org/clinicalpractice-guidelines">https://rheumatology.org/clinicalpractice-guidelines</ref>, which includes Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology <ref type="bibr" target="#b24">(24,</ref><ref type="bibr" target="#b25">25)</ref> Panel of 8 patients, who were either candidates for or had prior TJA, was convened and moderated by a rheumatologist and ACR staff (LR, AT, RP). Patients reviewed the evidence report and provided their perspectives and preferences for consideration by the Voting Panel. The evidence was reviewed, and recommendations were formulated and voted on by an expert Voting Panel consisting of rheumatologists, orthopedic surgeons, and patients.</p><p>Consensus required ≥70% agreement on both direction (for or against) and strength (strong or conditional) of each recommendation, as per ACR practice. A recommendation could be either in favor of or against the proposed intervention and either strong or conditional. According to GRADE, a recommendation was categorized as strong if the panel was very confident that the benefits of an intervention clearly outweigh the harms or burdens (or vice versa); a conditional recommendation denoted uncertainty regarding the balance of benefits and harms, such as when the evidence quality is low or very low, when the decision was sensitive to individual patient preferences, or when costs were expected to impact the decision. Thus, conditional recommendations referred to decisions in which incorporation of patient preferences was a particularly essential element of decision-making. Rosters of the Core Leadership Team, Literature Review Team, and Voting Panel are included in Supplementary Appendix 4, available on the Arthritis Care &amp; Research website at <ref type="url" target="http://onlinelibrary.wiley">http://onlinelibrary.wiley</ref>. com/doi/10.1002/acr.25175.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Target population and guiding principles</head><p>These recommendations are for patients who have radiographically moderate-to-severe OA or advanced symptomatic ON with secondary arthritis of the hip or knee, using standard radiographic grading such as K/L or Tonnis, and moderateto-severe pain or loss of function who have been indicated for elective TJA through a shared decision-making process with their physician and have completed and did not improve with ≥1 trials of appropriate nonoperative therapy such as physical therapy, NSAIDs, and/or intraarticular injections (e.g., glucocorticoids or viscosupplementation). This does not include patients who have mild radiographic OA, patients who have minimal pain and/or disability, or patients who have not tried nonoperative therapy. This guideline does not address arthroplasty for patients who have rheumatic diseases, as they were the focus of the recent ACR/AAHKS guideline for the perioperative management of antirheumatic medications in patients undergoing total hip and total knee arthroplasty <ref type="bibr" target="#b23">(23)</ref>.</p><p>A conditional recommendation means that the panel has inferred that the majority of informed patients would choose the recommended course of action, but that an appreciable minority would not. A shared decision-making process with full consideration of patient preferences and individualized risk estimates should determine the appropriate course of action.</p><p>For recommendations regarding modifying risk factors prior to surgery, including BMI, glycemic control, and nicotine dependence, patients should be educated on the increased risk of medical and surgical complications associated with their specific condition. Patients should be counseled on effective methods to modify the risk factors (e.g., weight loss, improved glycemic control, nicotine cessation) and be provided resources to assist them through that process. However, it is recognized that not all patients have the medical, financial, or social resources or support available to them to modify some or all these risk factors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RECOMMENDATIONS</head><p>All recommendations in this guideline are conditional due to the low or very low quality of evidence (Table <ref type="table" target="#tab_1">1</ref>). There are no strong recommendations in this guideline, although there was high or unanimous consensus for all recommendations.</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying arthroplasty 3 months.</p><p>There should be no mandate that patients wait 3 months prior to TJA as an arbitrary cool-down period. The recommendation is conditional because there may be exceptions, and the evidence supporting the recommendation is indirect and very low quality. Prior to presenting to an orthopedic surgeon and being indicated for TJA, patients in the defined population have already attempted nonoperative treatment for an extended period. Further delay to TJA may lead to increased pain, loss of function, and worsening of medical comorbidities due to limited mobility. Patients may elect to delay surgery due to personal reasons (e.g., work or family obligations) or ongoing medical comorbidities that can be optimized prior to surgery. In these cases, patients may consider proceeding with nonoperative treatment (excluding intraarticular injections in some cases; see below) to provide pain relief while awaiting surgery.</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying arthroplasty for a trial of physical therapy.</p><p>In patients who are indicated for TJA, mandated physical therapy is not recommended to delay or avoid surgery. While physical therapy may provide benefit in knee and hip OA (2), and physical therapy may be of benefit in anticipation of In our defined population, we conditionally recommend proceeding to TJA without delay over delaying arthroplasty 3 months.</p><p>Very low 1 1-7</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying arthroplasty for a trial of physical therapy.</p><p>Low 2 8-37</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying surgical treatment for a trial of NSAIDs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Very low 3 38-46</head><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying surgical treatment for a trial of braces and/or ambulatory aids.</p><p>Very low 4 47-53</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying surgical treatment for a trial of intraarticular glucocorticoid injections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Very low 5 54-63</head><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying surgical treatment for a trial of viscosupplementation injections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Very low 6 64-76</head><p>In our defined population with a BMI of ≥50, we conditionally recommend proceeding to TJA without delaying to achieve weight reduction to a BMI of &lt;50.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Very low 7 77-130</head><p>In our defined population with a BMI of 40-49, we conditionally recommend proceeding to TJA without delaying to achieve weight reduction to a BMI of &lt;40.</p><p>Very low 8 77-130</p><p>In our defined population with a BMI of 35-39, we conditionally recommend proceeding to TJA without delaying to achieve weight reduction to a BMI of &lt;35.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Very low 9 77-130</head><p>In our defined population with poorly controlled diabetes mellitus, we conditionally recommend delaying TJA to improve glycemic control.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Very low 10 131-156</head><p>In our defined population with nicotine dependence, we conditionally recommend delaying TJA for nicotine use reduction/cessation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Low 11 157-180</head><p>In our defined population with bone loss with deformity or severe ligamentous instability, we conditionally recommend proceeding to TJA without delay over delaying TJA for optimization of non-life-threatening conditions.</p><p>There were no studies that either directly or indirectly answered our PICO question.</p><p>12 181</p><p>In our defined population with a neuropathic joint, we conditionally recommend proceeding to TJA without delay over delaying for optimization of non-lifethreatening conditions.</p><p>There were no studies that either directly or indirectly answered our PICO question.</p><p>13 181</p><p>* The defined population is patients with radiographically moderate-to-severe osteoarthritis or osteonecrosis of the hip or knee using standard radiographic grading such as Kellgren/Lawrence or Tonnis, and for patients with moderate-to-severe pain or loss of function who have been indicated for elective total joint arthroplasty (TJA) through a shared decision-making process with their physician and have completed trials of ≥1 appropriate nonoperative therapy. BMI = body mass index; NSAIDs = nonsteroidal antiinflammatory drugs; PICO = population, intervention, comparator, outcomes. † In Supplementary Appendix 3, available at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.25175">http://onlinelibrary.wiley.com/doi/10.1002/acr.25175</ref>.</p><p>arthroplasty as a form of prerehabilitation to improve the outcome of surgery <ref type="bibr" target="#b27">(27)</ref>, delaying surgery for physical therapy may cause increased pain due to the severity of an individual's disease <ref type="bibr" target="#b29">(28)</ref>. However, nonambulatory patients, patients recovering from medical comorbidities (e.g., stroke) that may limit their rehabilitation postoperatively, or patients who have major lower extremity muscular weakness may benefit from delaying TJA for physical therapy to help improve postoperative outcomes. This recommendation does not apply directly to prerehabilitation, such as a preoperative individualized exercise and lifestyle modification program. Observational studies provided additional evidence for prehabilitation alone and prehabilitation versus usual care for patients with knee or hip OA or knee or hip ON with secondary arthritis awaiting TKA/THA. These studies had small sample sizes and provided indirect comparisons, sometimes with lack of precision in effect estimates, so the evidence supporting the recommendation is indirect or of low quality. Moreover, the included randomized controlled trials either did not have a surgical arm or randomized patients on surgical waiting lists. The effect of physical therapy ranged from insignificant to borderline significant with small effect sizes. This recommendation is conditional because there may be exceptions to this recommendation, and the evidence supporting the recommendation is indirect and low quality. The exceptions listed for the first recommendation above, including delay for personal reasons or other ongoing medical comorbidities, apply to this recommendation as well.</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying surgical treatment for a trial of NSAIDs.</p><p>The NSAIDs are one of the mainstays of nonoperative treatment for OA and can provide pain relief for patients with mild disease. Oral NSAIDs are, however, associated with adverse events (e.g., peptic ulcer disease, acute kidney injury, increased cardiovascular risk, and bleeding) <ref type="bibr" target="#b30">(29)</ref>. Delaying TJA for treatment with oral NSAIDs may cause increased harm to the patient with limited clinical benefit. This recommendation is conditional because there may be exceptions to this, and the evidence supporting it is indirect and very low quality. The exceptions listed for the first recommendation above, including delay for personal reasons or other ongoing medical comorbidities, apply to this recommendation as well.</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying surgical treatment for a trial of braces and/or ambulatory aids.</p><p>This recommendation is conditional because there may be exceptions to this recommendation, and the evidence supporting the recommendation is indirect and very low quality. The exceptions listed for the first recommendation above, including delay for personal reasons or other ongoing medical comorbidities, apply to this recommendation as well. Patients who are recovering from another lower limb surgery (e.g., contralateral THA or TKA) may benefit from delaying TJA and using an ambulatory aid during the recovery period. However, delaying TJA for treatment with a brace or ambulatory aid can place a burden on the patient given the need for education on the proper use of ambulatory aids such as canes, as improper use may lead to altered gait mechanics, increased pain, and worsened function <ref type="bibr" target="#b31">(30)</ref><ref type="bibr" target="#b32">(31)</ref><ref type="bibr" target="#b33">(32)</ref>.</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying surgical treatment for a trial of intraarticular glucocorticoid injections.</p><p>This recommendation is conditional because there may be exceptions to this recommendation, and the evidence supporting the recommendation is indirect and very low quality. The exceptions listed for the first recommendation above, including delay for personal reasons or other ongoing medical comorbidities, apply to this recommendation as well. Patients who have an acute flare of their OA or other inflammatory arthropathy (e.g., gout, calcium pyrophosphate deposition disease) may be interested in delaying TJA for treatment with a glucocorticoid injection to provide immediate pain relief. There are, however, potential harms associated with delaying surgery for glucocorticoid injection treatment, particularly in patients with diabetes mellitus who have an increased risk of hyperglycemia with intraarticular glucocorticoids or the increased risk of joint infection if the surgery is performed within 3 months of the intraarticular injection <ref type="bibr" target="#b34">(33,</ref><ref type="bibr" target="#b35">34)</ref>.</p><p>In our defined population, we conditionally recommend proceeding to TJA without delay over delaying surgical treatment for a trial of viscosupplementation injections.</p><p>This recommendation is conditional because there may be exceptions to this recommendation, and the evidence supporting the recommendation is indirect and very low quality. The data on viscosupplementation for patients who are otherwise candidates for TJA were very limited. Viscosupplementation may place an unnecessary burden on the patient, with limited benefit on pain and function <ref type="bibr" target="#b31">(30,</ref><ref type="bibr" target="#b36">35,</ref><ref type="bibr" target="#b37">36)</ref>. The exceptions listed for the first recommendation above, including delay for personal reasons or other ongoing medical comorbidities, apply to this recommendation as well.</p><p>In our defined population with a BMI of ≥50, we conditionally recommend proceeding to TJA without delaying to achieve weight reduction to a BMI of &lt;50.</p><p>In our defined population with a BMI of 40-49, we conditionally recommend proceeding to TJA without delaying to achieve weight reduction to a BMI of &lt;40.</p><p>In our defined population with a BMI of 35-39, we conditionally recommend proceeding to TJA without delaying to achieve weight reduction to a BMI of &lt;35.</p><p>Recommendations 7-9 are conditional because there may be exceptions to these recommendations, and the evidence supporting a preoperative weight reduction and a rigid BMI or weight threshold is indirect and very low quality. A majority of the studies supporting all 3 recommendations were based on comparing TJA outcomes in patients who underwent bariatric surgical procedures to the outcomes of those who did not, which are confounded by effects of bariatric surgery, including malnutrition and metabolic syndrome, or comparing outcomes in patients with obesity to outcomes in patients who had a lower BMI. It is well-established that a greater BMI in TJA patients is associated with greater medical and surgical risks, particularly periprosthetic joint infection <ref type="bibr" target="#b21">(21,</ref><ref type="bibr" target="#b22">22)</ref>. Patients who had an elevated BMI should be informed of these risks when undergoing surgery at their current weight and should be strongly encouraged to reduce weight prior to TJA, if possible, to mitigate such risk; it is not clear, however, that postponing TJA for weight reduction improves outcomes. Additionally, pain and function improvements are similar for those who have a BMI of ≥35 compared to patients without obesity <ref type="bibr" target="#b39">(37)</ref>. Although weight reduction may be used as a criterion for TJA, the use of absolute BMI or rigid thresholds is discouraged. Not all patients have the necessary medical, financial, or social support and resources to effectively lose weight at all or within a suitable timeframe. In addition, patients in whom weight loss is unlikely and who would benefit markedly from the increased mobility afforded by TJA in improving their quality of life should have the information needed to engage in a shared decision-making process with their surgeon. The shared decision-making process educates the patient about their role in deciding among treatment options and helps them understand the expected outcomes and risks, including the increase in technical challenges for the surgeon, associated with TJA in patients with obesity. This process helps patients understand the pros and cons and make the decision that is right for them.</p><p>In our defined population with poorly controlled diabetes mellitus, we conditionally recommend delaying TJA to improve glycemic control.</p><p>It is well-established that patients who have poor glycemic control have an increased risk of poor outcomes after TJA <ref type="bibr" target="#b19">(19)</ref>. There is likely a benefit to delaying TJA to improve glycemic control; however, the optimal measure and optimal threshold of glycemic control to predict surgical outcomes is not known. Measures of glycemic control include, but are not limited to, glycosylated hemoglobin (HbA 1c ), fructosamine, and fasting glucose. Thus, we do not recommend a specific measure or threshold, but recommend improved glycemic control overall. This recommendation is conditional because the evidence supporting the recommendation is indirect and very low quality.</p><p>In our defined population with nicotine dependence, we conditionally recommend delaying TJA for nicotine use reduction/cessation.</p><p>Nicotine use is associated with both increased medical and surgical risks in TJA <ref type="bibr" target="#b18">(18,</ref><ref type="bibr" target="#b20">20)</ref>. Similar to BMI and poor glycemic control, patients should be educated on these risks and counseled to modify the risk prior to TJA through nicotine use reduction or cessation. In addition, patients should be provided resources to assist with their nicotine use reduction or cessation. For these patients presenting with nicotine dependence, there is a potential benefit of delaying TJA for nicotine use reduction or cessation. This recommendation is conditional because there are exceptions, and the quality of evidence supporting the recommendation is low. The decision to proceed with TJA should not be contingent on complete nicotine cessation. Instead, the patient should be educated about the increased surgical risks associated with nicotine use and ideally engage in nicotine-reduction strategies.</p><p>In our defined population with bone loss with deformity or severe ligamentous instability, we conditionally recommend proceeding to TJA without delay over delaying TJA for optimization of non-life-threatening conditions.</p><p>There was no evidence for this recommendation; thus, the recommendation is based on clinician and patient opinion and experiences. In these patients, delaying TJA may lead to increased instability and increased juxtaarticular bone loss or deformity, which may increase the technical difficulty of the procedure as well as increase the risk of failure and need for revision. Although patients who have severe bone loss, deformity, or instability have an increased risk of revision or reoperation, this risk will likely only increase over time, with further delay in surgery. Thus, timely TJA should be performed in these cases when medically appropriate. This recommendation is conditional because of the very low quality of evidence.</p><p>In our defined population with a neuropathic joint, we conditionally recommend proceeding to TJA without delay over delaying for optimization of non-life-threatening conditions.</p><p>There was no evidence for this recommendation; thus the recommendation is based on clinician and patient opinion and experiences. Patients who have neuropathic joints in the early stages of their disease may not have major pain or loss of function but may have severe joint destruction. As the disease progresses, patients develop pain, and the extent of bone loss and joint destruction worsens. These procedures are more technically challenging and often necessitate the use of more constrained implants typically reserved for revision arthroplasty. Proceeding with operative treatment in these cases is recommended because delaying surgery increases the technical difficulty of the procedure and does not improve outcomes after the procedure <ref type="bibr" target="#b40">(38)</ref>. The recommendation is conditional because of the very low quality of the evidence in addition to the rare exceptions that may apply. The exceptions listed for the first recommendation above, including delay for personal reasons or other ongoing medical comorbidities, apply to this recommendation as well. In addition, there may be a benefit to delaying TJA in patients whose underlying condition associated with the neuropathic joint is not known to allow for further diagnostic workup.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This guideline provides evidence-based recommendations regarding the optimal timing of elective TJA in patients who have symptomatic moderate-to-severe OA or advanced symptomatic ON with secondary arthritis who have chosen to undergo surgical treatment after a shared-decision making process with their physician after nonoperative therapy has lost efficacy. Further recommendations regarding the timing of TJA in patients with specific medical comorbidities and risk factors are also provided. The evidence for each PICO question was very low quality except for physical therapy and nicotine cessation, which had low quality of evidence, primarily due to indirectness, as the studies that would address our questions directly would compare results in patients randomized to immediate arthroplasty versus those delayed for the proposed intervention. We included observational studies but acknowledge that they describe associations of outcomes with the conditions of interest and were rated down for risk of bias, imprecision, as well as indirectness. No recommendations were supported by high or moderate quality evidence.</p><p>There are many existing appropriateness criteria, insurance coverage determination policies, and other guidelines that comment on the indications for elective TJA <ref type="bibr" target="#b17">(17,</ref><ref type="bibr" target="#b41">(39)</ref><ref type="bibr" target="#b42">(40)</ref><ref type="bibr" target="#b43">(41)</ref><ref type="bibr" target="#b44">(42)</ref><ref type="bibr" target="#b45">(43)</ref><ref type="bibr" target="#b46">(44)</ref><ref type="bibr" target="#b47">(45)</ref><ref type="bibr" target="#b48">(46)</ref><ref type="bibr" target="#b49">(47)</ref>. After the patient elects to proceed with TJA, third parties evaluate the medical necessity of the procedure using these criteria <ref type="bibr" target="#b15">(15)</ref><ref type="bibr" target="#b16">(16)</ref><ref type="bibr" target="#b17">(17)</ref><ref type="bibr" target="#b18">(18)</ref><ref type="bibr" target="#b19">(19)</ref><ref type="bibr" target="#b20">(20)</ref><ref type="bibr" target="#b21">(21)</ref><ref type="bibr" target="#b22">(22)</ref>. These guidelines and policies focus on the general diagnosis of OA or ON with secondary arthritis and prompt a dichotomous choice of nonoperative versus operative treatment. Coverage determination policies are utilized by insurance companies to determine if patients have met the policy indications for TJA and are cited to delay surgical treatment in favor of continued nonoperative management or medical risk-factor modification prior to surgery. However, coverage determination policies are often not based on evidence studying patients in our defined population with symptomatic moderate-to-severe radiographic OA or advanced symptomatic ON with secondary arthritis who have passed the threshold for TJA indication after a shared decision-making process with their physician. A prior review of the literature cited by 4 of the major commercial payers' coverage determination policies found that &lt;10% of the literature cited in these policies discussed the effectiveness of nonoperative treatments specifically in our defined population of patients who have moderateto-severe OA or advanced symptomatic ON with secondary arthritis who were indicated for TJA <ref type="bibr" target="#b15">(15)</ref>. Coverage determination policies are further limited because they are rarely created from a formal systematic review process <ref type="bibr" target="#b15">(15,</ref><ref type="bibr" target="#b16">16)</ref>. In contrast, clinical practice guidelines are based on a formal systematic review of the current state of the scientific literature and provide evidencesupported, consensus-driven best practices for operative and nonoperative treatment of OA or ON with secondary arthritis of the hip and knee that may predict optimal outcomes <ref type="bibr" target="#b50">(48)</ref>. This guideline is the first to provide evidence-based recommendations developed from a systematic review on the efficacy of these nonoperative treatments in our defined population of patients indicated for elective TJA.</p><p>The Voting Panel recommended against delaying TJA in our defined population for additional nonoperative treatment including physical therapy, NSAIDs, braces or ambulatory aids, as well as intraarticular injections. Importantly, our defined population consists of patients who have moderate-to-severe symptomatic and radiographic OA or advanced symptomatic ON with secondary arthritis who already unsuccessfully tried a course of nonoperative treatment prior to indication for TJA. The results from this systematic review found that the efficacy of additional nonoperative treatments in these patients indicated for TJA is limited. However, it is not uncommon for patients to have their surgical procedure delayed by a third party for additional nonoperative treatment, creating a major barrier to care. In an 8-year follow-up study of 3,417 knees deemed appropriate for TKA, Ghomrawi et al found that only 9% underwent a timely TKA (defined as within 2 years of meeting appropriateness criteria) <ref type="bibr" target="#b6">(6)</ref>. In this cohort, 91% were considered potentially appropriate for TKA but delayed their surgery. This delay in elective arthroplasty may lead to further pain and limitations in physical function and subsequently increased risk of disability and chronic disease <ref type="bibr" target="#b6">(6,</ref><ref type="bibr" target="#b51">49)</ref>. Patients who are indicated for TJA also prefer to proceed directly with surgical treatment. In a survey of 200 patients scheduled for TJA in a 3-month period, 93% stated they would not want to delay TJA for mandatory physical therapy <ref type="bibr" target="#b52">(50)</ref>. Our Patient Panel agreed. Both the Patient Panel and Voting Panel highlighted the clinical and economic value of timely TJA, which leads to improved pain, function, quality of life, and satisfaction for patients.</p><p>As noted, TJA is the only approved definitive therapy for moderate-to-severe symptomatic OA of the hip or knee, yet racial disparities in arthroplasty utilization have persisted for decades <ref type="bibr" target="#b53">(51)</ref>. Rigid cutoffs for BMI, HbA 1c , or smoking status could increase disparities in arthroplasty utilization by decreasing eligibility among vulnerable populations and those with lower household income or social status <ref type="bibr" target="#b54">(52)</ref>. Pooled data from 21,294 adults who were ≥50 years of age from the 1999-2014 National Health and Nutrition Examination Survey demonstrated that fewer non-Hispanic Black patients and those with lower household incomes would be eligible for TJA if the criteria were a BMI of &lt;40, an HbA 1c level of &lt;8%, or complete nicotine cessation <ref type="bibr" target="#b54">(52)</ref>.</p><p>The Patient Panel was instrumental in the development of this guideline and provided valuable insight into how best to apply these recommendations in the clinical setting. In particular, the Patient Panel stressed the importance of the shared decisionmaking process when indicating a patient for TJA. Each patient is unique in terms of their goals, preferences, risk tolerance, social support, socioeconomic status, medical and psychiatric comorbidities, and disease severity. It should be left to the shared decision-making process for the patient and their physician to determine whether and when to proceed with TJA. This shared decision-making process should comprehensively include a discussion of the unique risks and benefits of the procedure for the individual patient. Patients who have medical or surgical risk factors as described in this guideline should be counseled as to their increased risks, and preoperative attempts to modify these risk factors through efforts such as weight loss, glycemic control, or smoking cessation should be encouraged. However, both the Voting and Patient Panels did not support universal thresholds or inflexible cutoffs for these modifications (e.g., BMI or HbA 1c ) because they limit access to care, particularly for racial and ethnic minority populations, and do not consider the unique medical, surgical, and social situation of each patient <ref type="bibr" target="#b55">(53)</ref>. Although lower BMI cutoffs and HbA 1c cutoffs may result in fewer complications in a small number of patients, the larger impact is increasingly limited access to complication-free THA and TKA for many more patients <ref type="bibr" target="#b54">(52,</ref><ref type="bibr" target="#b56">(54)</ref><ref type="bibr" target="#b57">(55)</ref><ref type="bibr" target="#b58">(56)</ref><ref type="bibr" target="#b59">(57)</ref><ref type="bibr" target="#b60">(58)</ref>. This practice could result in increased health care disparities. In addition, the Patient Panel stressed the importance of providing patients with ample resources to assist with modifying their risk factors, recognizing that some patients have less access to resources than others to meet preoperative goals.</p><p>The Voting Panel made all recommendations conditional because they also recognized that there are exceptions to these recommendations, such as a delay for personal reasons due to family or work obligations. It is important that these unique circumstances be considered during the shared decision-making process.</p><p>The major potential limitation to this guideline is the indirectness and low quality of the available evidence. Moderate-and high-quality studies addressing these PICO questions will be challenging to perform. Direct evidence for our questions would entail randomizing patients indicated for TJA to receive surgical treatment or delay for a trial of additional nonsurgical treatment such as physical therapy, intraarticular injections, or bracing, and then assessing long-term patient-important outcomes. Patients and surgeons may have concerns about participating in studies in which patients could be randomized to delayed surgery or not being offered resources for risk factor modification such as poor glycemic control. It may be difficult to complete studies with enough power to demonstrate the effectiveness of risk factor modification in part due to the relatively low rate of specific complications associated with TJA, even in high-risk patients. Nevertheless, future research is clearly needed in this distinct patient population. Quasi-experimental study designs may be more fit to answer some of these questions. Another limitation of the guideline is that we grouped several separate populations for our PICO questions (e.g., knee OA, hip OA, hip ON with secondary arthritis, and knee ON with secondary arthritis) based on a clinical consensus from the orthopedic surgeons and the rheumatologists on the Core Team and lack of knowledge of the proportion of cases of ON with secondary arthritis that would be included in the literature review, with an understanding that subgroups might be created if evidence of differences in clinical outcomes was found by joint type (hip versus knee) and pathology (OA versus ON with secondary arthritis). No such evidence was found, and therefore, these were treated as a group despite the clear heterogeneity of the populations. Additional cost to the patient and cost effectiveness of nonoperative treatments were considered when the recommendations were made, but these were made based on a priori assumptions because there was a lack of cost effectiveness data on these treatments in our defined population. We did not include specialists in nonoperative therapy, such as physical therapists, as this guideline is intended for those patients who had more advanced and symptomatic disease for whom nonoperative therapy is no longer helpful; however, absence of their perspective is recognized as a limitation. Also, our population is those patients who have attempted nonoperative treatment and for whom that treatment is no longer effective. The determination that a treatment is no longer effective is individualized as determined by a shared decision-making process between a patient and the physician.</p><p>We did not include patients who have rheumatoid arthritis (RA) in this guideline, which is a limitation but was beyond our scope, as questions regarding the timing of surgery in patients who have RA prioritize medication management to decrease infection risk, which was the focus of the updated 2022 ACR/AAHKS Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty <ref type="bibr" target="#b23">(23)</ref>. Although patients who have RA may receive TJA for primary or secondary OA, their perioperative management is driven by their systemic inflammatory disease.</p><p>This guideline has several strengths. The recommendations were made and voted on by a multidisciplinary collaboration group of orthopedic surgeons, rheumatologists, and patients who have undergone or are scheduled to undergo elective TJA who provided their expertise and insights. In addition, the GRADE methodology is well validated and was utilized to make these consensus-based recommendations <ref type="bibr" target="#b24">(24,</ref><ref type="bibr" target="#b25">25)</ref>. In addition, there was high consensus for most of the recommendations, with over one-half of the recommendations unanimously agreed upon.</p><p>In conclusion, this guideline provides evidence-based recommendations regarding the optimal timing of elective TJA in patients who have symptomatic moderate-to-severe OA or advanced symptomatic ON with secondary arthritis for whom nonoperative treatment has been ineffective and who have chosen to undergo surgical treatment after a shared decision-making process with their physician. Further recommendations regarding the timing of TJA in patients who have specific medical comorbidities and risk factors are also provided. Through a systematic review process incorporating the insight, expertise, and experience of expert clinicians and patients, consensus recommendations were made based on the best available evidence for this specific cohort of patients. We acknowledge that the data supporting these recommendations are of low quality and hope that future research will allow for further refinement and strengthening of the recommendations for the benefit of patients who suffer from moderate-to-severe OA or ON with secondary arthritis.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Recommendations for defined population*</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>Page numbers of</cell></row><row><cell></cell><cell></cell><cell>Based on the</cell><cell>evidence tables</cell></row><row><cell></cell><cell>Certainty of</cell><cell>evidence report</cell><cell>in the Supplementary</cell></row><row><cell>Recommendation</cell><cell>evidence</cell><cell>of the following PICOs</cell><cell>Appendix †</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>21514658, 2023, 11, Downloaded from https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.25175, Wiley Online Library on [13/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Dr. Cara A. Cipriano</rs> for her review of the evidence. We thank the patients who (along with authors <rs type="person">Phyllis Bass</rs> and <rs type="person">Danielle Dass</rs>) participated in the Patient Panel meeting: <rs type="person">Stephanie Dodunski</rs>, <rs type="person">Lawrence "Rick" Phillips</rs>, <rs type="person">Richard F. Seiden</rs>, <rs type="person">Catherine Simons</rs>, <rs type="person">Joni Sprung</rs>, and <rs type="person">Madonna J. Weiss</rs>. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Regina Parker</rs> for assistance in coordinating the administrative aspects of the project, and <rs type="person">Cindy Force</rs> for assistance with manuscript preparation. We thank <rs type="person">Janet Waters</rs> for her assistance in developing the literature search strategy, as well as for performing the initial literature search and update searches.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Supported by the <rs type="funder">American College of Rheumatology</rs> and the <rs type="institution">American Association of Hip and Knee Surgeons</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be submitted for publication. Dr. Hannon had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. Study conception and design. Hannon, Goodman, Austin, Yates, Aggarwal, Bass, Jevsevar, Lajam, Blevins, Courtney, Gausden, Russell, Turner, Singh. Acquisition of data. Hannon, Goodman, Austin, Yates, Aggarwal, Bass, Dass, Ghomrawi, Jevsevar, Lajam, Meng, Bedard, Blevins, Cohen-Rosenblum, Courtney, Fernandez-Ruiz, Gausden, Ghosh, King, Meara, Mehta, Mirza, Sullivan, Turgunbaev, Wysham, Yip, Yue, Zywiel, Russell, Turner, Singh. Analysis and interpretation of data. Hannon, Goodman, Austin, Yates, Guyatt, Baker, Bass, Bekele, Dass, Jevsevar, Kwoh, Lajam, Meng, Moreland, Suleiman, Wolfstadt, Bartosiak, Blevins, Cohen-Rosenblum, Fernandez-Ruiz, Gausden, Mehta, Rana, Sullivan, Turgunbaev, Yip, Yue, Zywiel, Russell, Turner, Singh.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Manual therapy, exercise therapy, or both, in addition to usual care, for osteoarthritis of the hip or knee: a randomized controlled trial. 1: clinical effectiveness</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Abbott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chapple</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="525" to="534" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology/Arthritis Foundation guideline for the management of osteoarthritis of the hand, hip, and knee [review]</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Kolasinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Neogi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hochberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="149" to="162" />
+			<date type="published" when="2019">2019. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Effectiveness of exercise therapy in patients with osteoarthritis of the hip or knee: a systematic review of randomized clinical trials [review]</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Van Baar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Assendelft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1361" to="1369" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Efficacy of rehabilitation programs for improving muscle strength in people with hip or knee osteoarthritis: a systematic review with meta-analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zacharias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Semciw</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>review</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1752" to="1773" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A projection of primary knee replacement in Denmark from 2020 to 2050</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Daugberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jakobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Nielsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Orthop</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="448" to="451" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Examining timeliness of total knee replacement among patients with knee osteoarthritis in the U.S.: results from the OAI and MOST longitudinal cohorts</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Ghomrawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Mushlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="468" to="476" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Projected increase in total knee arthroplasty in the United States: an alternative projection model</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Inacio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Paxton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Graves</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1797" to="1803" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Projections of primary and revision hip and knee arthroplasty in the United States from 2005 to 2030</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="780" to="785" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Future young patient demand for primary and revision joint replacement: national projections from 2010 to 2030</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">467</biblScope>
+			<biblScope unit="page" from="2606" to="2612" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Impact of the economic downturn on total joint replacement demand in the United States: updated projections to 2021</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Kurtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="624" to="630" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Prevalence of total hip and knee replacement in the United States</title>
+		<author>
+			<persName><forename type="first">Maradit</forename><surname>Kremers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Crowson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1386" to="1397" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Estimating the societal benefits of THA after accounting for work status and productivity: a Markov model approach</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Koenig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Austin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">474</biblScope>
+			<biblScope unit="page" from="2645" to="2654" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Hip Arthroplasty [review]</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pivec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mears</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="page" from="1768" to="1777" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Radiological assessment of osteo-arthrosis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kellgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Lawrence</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="494" to="502" />
+			<date type="published" when="1957">1957</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">What is the level of evidence substantiating commercial payers&apos; coverage policies for total joint arthroplasty?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Ashley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Bedard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2665" to="2673" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">What is the level of evidence substantiating the Medicare local coverage determinations?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Bloomfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Lichstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="356" to="360" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Osteoarthritis of the knee: clinical practice guideline on management of osteoarthritis of the knee</title>
+		<ptr target="https://www.aaos.org/quality/quality-programs/lower-extremity-programs/osteoarthritis-of-the-knee/" />
+		<imprint>
+			<publisher>American Academy of Orthopaedic Surgeons</publisher>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+	<note>rd edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The effect of smoking on shortterm complications following total hip and knee arthroplasty</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Duchman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Pugely</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="1049" to="1058" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Impact of diabetes on 90-day episodes of care after elective total joint arthroplasty among Medicare beneficiaries</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Middleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="2157" to="2165" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Smoking increases the rate of reoperation for infection within 90 days after primary total joint arthroplasty</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Tischler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matsen</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="295" to="304" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effect of body mass index on reoperation and complications after total knee arthroplasty</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Kamath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="2052" to="2060" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of body mass index on complications and reoperations after total hip arthroplasty</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Kamath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Fruth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="169" to="179" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology/American Association of Hip and Knee Surgeons guideline for the perioperative management of antirheumatic medication in patients with rheumatic diseases undergoing elective total hip or total knee arthroplasty</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1464" to="1473" />
+			<date type="published" when="2022">2022. 2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 15. Going from evidence to recommendation-determinants of a recommendation&apos;s direction and strength</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schünemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="726" to="735" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A new method for roentgenologic evaluation of the hip joint: the hip factor</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Busse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gasteiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tönnis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Orthop Unfallchir</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+	<note>In German</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Prehabilitation improves knee functioning before and within the first year after total knee arthroplasty: a systematic review with meta-analysis</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gränicher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mulder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lenssen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>review</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J Orthop Sports Phys Ther</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="709" to="725" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Total knee replacement and non-surgical treatment of knee osteoarthritis: 2-year outcome from two parallel randomized controlled trials</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Skou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Roos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Laursen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1170" to="1180" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Non-steroidal anti-inflammatory drugs</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Hochberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Oxford textbook of osteoarthritis and crystal arthropathy. 3rd ed</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Doherty</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hunter</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><surname>Bijlsma</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Oxford (UK)</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Drivers of unequal healthcare costs in the nonoperative treatment of late-stage knee osteoarthritis prior to primary total knee arthroplasty</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Nin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Talmo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1967" to="1972" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Biomechanical analysis of rollator walking</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alkjaer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Larsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Eng Online</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A comparison of a two-wheeled walker and a three-wheeled walker in a geriatric population</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mahoney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Euhardy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Geriatr Soc</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="208" to="212" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The Impact of intra-articular depot betamethasone injection on insulin resistance among diabetic patients with osteoarthritis of the knee: a case-control study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Habib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chernin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sakas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="193" to="196" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Prior intra-articular corticosteroid injection within 3 months may increase the risk of deep infection in subsequent joint arthroplasty: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">480</biblScope>
+			<biblScope unit="page" from="971" to="979" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Viscosupplementation for knee osteoarthritis: systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jüni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Saadat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">378</biblScope>
+			<biblScope unit="page">69722</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Viscosupplementation for osteoarthritis of the knee: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Rutjes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jüni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Da Costa</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>review</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="180" to="191" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Effect of obesity on pain and functional recovery following total knee arthroplasty</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Donnell</forename><forename type="middle">-</forename><surname>Fink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Bone Joint Surg Am</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="1812" to="1818" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Primary total knee arthroplasty in patients with neuropathic (Charcot) arthropathy: contemporary results</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Tibbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Chalmers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Berry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="2815" to="2820" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<ptr target="https://www.orthoguidelines.org/go/auc/" />
+		<title level="m">Appropriate use criteria</title>
+		<imprint>
+			<publisher>American Academy of Orthopaedic Surgeons</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Local Coverage Determination (LCD): major joint replacement (hip and knee</title>
+		<author>
+			<persName><forename type="first">Medicaid</forename><surname>Centers For Medicare</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Services</surname></persName>
+		</author>
+		<ptr target="https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdId=33618&amp;ver=23" />
+	</analytic>
+	<monogr>
+		<title level="m">L33618)</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Clearinghouse</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Osteoarthritis</surname></persName>
+		</author>
+		<ptr target="http://www.guideline.gov/content.aspx?id=47862" />
+		<title level="m">Care and management in adults</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<ptr target="https://www.aaos.org/quality/quality-programs/lower-extremity-programs/surgical-management-of-osteoarthritis-of-the-knee/" />
+		<title level="m">Surgical management of osteoarthritis of the knee</title>
+		<imprint>
+			<publisher>American Academy of Orthopaedic Surgeons</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Knee arthroplasty and hip arthroplasty</title>
+	</analytic>
+	<monogr>
+		<title level="m">Inpatient and surgical care</title>
+		<imprint>
+			<publisher>Milliman Care Guidelines LLC</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Total joint replacement, knee and hip &amp; removal and replacement, total joint replacement knee and hip</title>
+	</analytic>
+	<monogr>
+		<title level="m">InterQual ® Procedures Adult Criteria</title>
+		<imprint>
+			<publisher>McKesson Corporation</publisher>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Management of osteoarthritis of the hip: evidence-based clinical practice guideline</title>
+		<ptr target="https://www.aaos.org/globalassets/quality-and-practice-resources/osteoarthritis-of-the-hip/oa-hip-cpg_6-11-19.pdf" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>American Academy of Orthopaedic Surgeons</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Development of explicit criteria for total knee replacement</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Escobar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Quintana</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ar Ostegui I</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Technol Assess Health Care</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="57" to="70" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Use of a validated algorithm to judge the appropriateness of total knee arthroplasty in the United States: a multicenter longitudinal cohort study</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Riddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Jiranek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Hayes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="2134" to="2143" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Using surgical appropriateness criteria to examine outcomes of total knee arthroplasty in a United States sample</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Riddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Perera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Jiranek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="349" to="357" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Cause-specific mortality in osteoarthritis of peripheral joints</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Turkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Kiadaliri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Englund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Osteoarthritis Cartilage</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="848" to="854" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Are patients with end-stage arthritis willing to delay arthroplasty for payer-mandated physical therapy?</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Grace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Eralp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Khan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="27" to="31" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Racial disparities in knee and hip total joint arthroplasty: an 18-year analysis of national Medicare data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Rosenthal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="2107" to="2115" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Eligibility criteria for lower extremity joint replacement may worsen racial and socioeconomic disparities</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Humbyrd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">476</biblScope>
+			<biblScope unit="page" from="2301" to="2308" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Preoperative risk management programs at the top 50 orthopaedic institutions frequently enforce strict cutoffs for BMI and hemoglobin A1c which may limit access to total joint arthroplasty and provide limited resources for smoking cessation and dental care</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Dlott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Metcalfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Orthop Relat Res</title>
+		<imprint>
+			<biblScope unit="volume">481</biblScope>
+			<biblScope unit="page" from="39" to="47" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Preoperative cut-off values for body mass index deny patients clinically significant improvements in patient-reported outcomes after total hip arthroplasty</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Anis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Barsoum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bone Joint J</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="683" to="692" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Are body mass index cutoffs creating racial, ethnic, and gender disparities in eligibility for primary total hip and knee arthroplasty?</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Carender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Demik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Elkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1009" to="1016" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">What is the impact of body mass index cutoffs on total hip arthroplasty complications?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Demik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Kohler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Carender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1320" to="1325" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">What is the impact of body mass index cutoffs on total knee arthroplasty complications?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Demik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Muffly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Carender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="683" to="687" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The potential effects of imposing a body mass index threshold on patient-reported outcomes after total knee arthroplasty</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Anis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Emara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Arthroplasty</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="S198" to="208" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2022 American College of Rheumatology (ACR) Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2023-01-13">January 13, 2023</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><roleName>Anandarajah, A., Carandang, K</roleName><forename type="first">G</forename><surname>Chan</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Constien, D</roleName><forename type="first">K</forename><forename type="middle">K</forename><surname>Davidson</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>Goodman, S.M</roleName><forename type="first">J</forename><surname>Lewis</surname></persName>
+						</author>
+						<title level="a" type="main">2022 American College of Rheumatology (ACR) Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2023-01-13">January 13, 2023</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3E20F85F684D46D1536BF4170ABE53A0</idno>
+					<idno type="DOI">10.1002/art.42507</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This American College of Rheumatology (ACR) guideline addresses the use of exercise, rehabilitation, diet, and additional integrative interventions in conjunction with disease-modifying anti-rheumatic drugs (DMARDs) as part of an integrative management approach for people with rheumatoid arthritis (RA).</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>An interprofessional guideline development group developed clinically relevant Population, Intervention, Comparator, and Outcome (PICO) questions. A literature review team then completed a systematic literature review and applied the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach to rate the certainty of evidence. An interprofessional Voting Panel (n=20 participants) that included three persons with RA achieved consensus on the direction and strength of recommendations. These teams included individuals with expertise in epidemiology, exercise physiology, GRADE methodology, integrative medicine, nursing, nutrition, occupational therapy, physical therapy, rheumatology, and social work. Guiding principles through the guideline development process specified that integrative interventions considered in this guideline should complement pharmacologic treatments, highlighted an interprofessional approach for the management of RA, and emphasized that shared decision-making is needed when caring for people with RA.</p><p>The Voting Panel achieved consensus on one strong recommendation for exercise and conditional recommendations pertaining to exercise type, rehabilitation interventions, diet interventions, and additional integrative interventions (Table <ref type="table" target="#tab_0">1</ref>). These recommendations are specific to RA management, understanding that other medical indications and general health benefits may exist for many of these interventions.</p><p>This guideline provides initial ACR recommendations on integrative interventions for the management of RA to accompany DMARD treatments. The broad range of interventions included in these recommendations illustrates the importance of an interprofessional team-based approach to RA management. The conditional nature of most recommendations requires clinicians to engage patients in shared decision-making when applying these recommendations.</p><p>Revised January 13, 2023 </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Recommendations on integrative interventions for the management of rheumatoid arthritis (RA)</head><label>1</label><figDesc>Strong recommendations for an intervention are shown in dark green and ++. Conditional recommendations for an intervention are shown in light green and +. Conditional recommendations against an intervention are shown in light red and -. This summary was approved by the ACR Board of Directors on October 31, 2022. These recommendations are included in a full manuscript, which was published in Arthritis &amp; Rheumatology and Arthritis Care and Research May 25, 2023.*</figDesc><table><row><cell>Exercise</cell><cell>Rehabilitation</cell><cell>Diet</cell><cell>Additional</cell></row><row><cell>Consistent engagement in exercise (++)</cell><cell>Comprehensive occupational therapy (+)</cell><cell>Mediterranean-style diet (+)</cell><cell>Standardized self-management program (+)</cell></row><row><cell>Aerobic exercise (+)</cell><cell>Comprehensive physical therapy (+)</cell><cell>Against formally defined diet other than Mediterranean-style (-)</cell><cell>Cognitive behavioral therapy and/or mind-body approaches (+)</cell></row><row><cell>Aquatic exercise (+)</cell><cell>Hand therapy exercises (+)</cell><cell>Against dietary supplements (-)</cell><cell>Acupuncture (+)</cell></row><row><cell></cell><cell>Splinting, orthoses,</cell><cell></cell><cell></cell></row><row><cell>Resistance exercise (+)</cell><cell>compression, bracing,</cell><cell></cell><cell>Massage therapy (+)</cell></row><row><cell></cell><cell>and/or taping (+)</cell><cell></cell><cell></cell></row><row><cell>Mind-body exercise (+)</cell><cell>Joint protection techniques (+)</cell><cell></cell><cell>Thermal modalities (+)</cell></row><row><cell></cell><cell>Activity pacing,</cell><cell></cell><cell></cell></row><row><cell></cell><cell>activity modification, energy conservation, and/or fatigue</cell><cell></cell><cell>Against electrotherapy (-)</cell></row><row><cell></cell><cell>management (+)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Assistive devices,</cell><cell></cell><cell></cell></row><row><cell></cell><cell>adaptive equipment,</cell><cell></cell><cell>Against chiropractic</cell></row><row><cell></cell><cell>and/or environmental</cell><cell></cell><cell>therapy (-)</cell></row><row><cell></cell><cell>adaptations (+)</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Vocational</cell><cell></cell><cell></cell></row><row><cell></cell><cell>rehabilitation, work</cell><cell></cell><cell></cell></row><row><cell></cell><cell>site evaluations and/or</cell><cell></cell><cell></cell></row><row><cell></cell><cell>modifications (+)</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

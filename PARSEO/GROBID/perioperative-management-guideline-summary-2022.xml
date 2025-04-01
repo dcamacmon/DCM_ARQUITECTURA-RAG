@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients with Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">2022 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients with Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">32D6EF0B25CDA1FB80B29547C7367EA8</idno>
+					<idno type="DOI">10.1002/acr.24893</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This updated guideline includes changes in the recommendations regarding rituximab and belimumab for patients with severe SLE, and now includes anifrolumab and voclosporin. For patients with spondyloarthritis, recommendations have been added on management of ixekizumab and guselkumab. The recommendations have changed for management of JAK inhibitors and suggest withholding for 3 days before surgery; tofacitinib, upadicitinib, and baricitinib are now included.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This updated guideline addresses the perioperative management of disease modifying medications for adults with rheumatic diseases, specifically inflammatory arthritis (IA) and systemic lupus erythematosus (SLE) undergoing elective total hip arthroplasty (THA) and total knee arthroplasty (TKA). A panel of rheumatologists, orthopaedic surgeons, and infectious disease specialists updated the systematic literature review and included currently available medications for the clinically relevant population, intervention, comparator, and outcomes (PICO) questions, updating the 2017 recommendations*. As patients with IA and SLE are at increased risk of infection after THA and TKA, these recommendations aim to balance the risk of perioperative infection and the risk of disease flares, recognizing that all flares have an impact on quality of life but a flare in a patient with severe SLE at risk for organ damage warrants unique considerations. This updated guideline includes recently introduced immunosuppressive medications to help decision-making by clinicians and patients regarding perioperative disease modifying medication management for patients with IA and SLE at the time of elective THA or TKA. ***For patients with RA, AS, PsA, or all SLE for whom anti-rheumatic therapy was held prior to undergoing TJA, restarting the anti-rheumatic therapy once the wound shows evidence of healing, any sutures/staples are out, there is no significant swelling, erythema or drainage, and there is no ongoing non-surgical site infection, which is typically about 14 days. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MEDICATIONS TO CONTINUE THROUGH SURGERY</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>DMARDs: CONTINUE these medications through surgery. (All patients) Dosing Interval Recommended timing of surgery since last medication dose</head><label></label><figDesc></figDesc><table><row><cell>Methotrexate</cell><cell>Weekly</cell><cell>Anytime</cell></row><row><cell>Sulfasalazine</cell><cell>Once or twice daily</cell><cell>Anytime</cell></row><row><cell>Hydroxychloroquine</cell><cell>Once or twice daily</cell><cell>Anytime</cell></row><row><cell>Leflunomide (Arava)</cell><cell>Daily</cell><cell>Anytime</cell></row><row><cell>Doxycycline</cell><cell>Daily</cell><cell>Anytime</cell></row><row><cell>Apremilast (Otezla)</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Twice daily Anytime SEVERE SLE-SPECIFIC MEDICATIONS † †: CONTINUE these medications in the perioperative period in consultation with the treating rheumatologist. Dosing Interval Recommended timing of surgery since last medication dose</head><label></label><figDesc></figDesc><table><row><cell>MEDICATIONS TO WITHHOLD PRIOR TO SURGERY***</cell><cell></cell><cell></cell></row><row><cell>BIOLOGICS: WITHHOLD these medications through surgery</cell><cell></cell><cell>Recommended timing of surgery</cell></row><row><cell></cell><cell></cell><cell>since last medication dose</cell></row><row><cell>Infliximab (Remicade)</cell><cell>Every 4, 6, or 8 weeks</cell><cell>Week 5, 7, or 9</cell></row><row><cell>Adalimumab (Humira)</cell><cell>Every 2 weeks</cell><cell>Week 3</cell></row><row><cell>Etanercept (Enbrel)</cell><cell>Every week</cell><cell>Week 2</cell></row><row><cell>Golimumab (Simponi)</cell><cell>Every 4 weeks (SQ) or</cell><cell>Week 5</cell></row><row><cell></cell><cell>every 8 weeks (IV)</cell><cell>Week 9</cell></row><row><cell>Abatacept (Orencia)</cell><cell>Monthly (IV) or</cell><cell>Week 5</cell></row><row><cell>Certolizumab (Cimzia)</cell><cell>weekly (SQ) Every 2 or 4 weeks</cell><cell>Week 2 Week 3 or 5 Revised July 18, 2022</cell></row><row><cell>Rituximab (Rituxan)</cell><cell>2 doses 2 weeks apart</cell><cell>Month 7</cell></row><row><cell></cell><cell>every 4-6 months</cell><cell></cell></row><row><cell>Tocilizumab (Actemra)</cell><cell>Every week (SQ) or</cell><cell>Week 2</cell></row><row><cell></cell><cell>every 4 weeks (IV)</cell><cell>Week 5</cell></row><row><cell>Anakinra (Kineret)</cell><cell>Daily</cell><cell>Day 2</cell></row><row><cell>IL-17-Secukinumab (Cosentyx)</cell><cell>Every 4 weeks</cell><cell>Week 5</cell></row><row><cell>Ustekinumab (Stelara)</cell><cell>Every 12 weeks</cell><cell>Week 13</cell></row><row><cell>Ixekizumab (Taltz) †</cell><cell>Every 4 weeks</cell><cell>Week 5</cell></row><row><cell>IL-23 Guselkumab (Tremfya) †</cell><cell>Every 8 weeks</cell><cell>Week 9</cell></row><row><cell>JAK inhibitors WITHHOLD this medication 3 days prior to surgery**</cell><cell></cell><cell></cell></row><row><cell>Tofacitinib (Xeljanz):</cell><cell>Daily or twice daily</cell><cell>Day 4</cell></row><row><cell>Baricitinib (Olumiant) †</cell><cell>Daily</cell><cell>Day 4</cell></row><row><cell>Upadacitinib (Rinvoq) †</cell><cell>Daily</cell><cell>Day 4</cell></row><row><cell>NOT-SEVERE</cell><cell></cell><cell></cell></row><row><cell>Mycophenolate mofetil</cell><cell>Twice daily</cell><cell>Anytime</cell></row><row><cell>Azathioprine</cell><cell>Daily or twice daily</cell><cell>Anytime</cell></row><row><cell>Cyclosporine</cell><cell>Twice daily</cell><cell>Anytime</cell></row><row><cell>Tacrolimus</cell><cell cols="2">Twice daily (IV and PO) Anytime</cell></row><row><cell>Rituximab (Rituxan)</cell><cell>IV Every 4-6 months</cell><cell>Month 4-6</cell></row><row><cell>Belimumab (Benlysta)</cell><cell>Weekly SQ</cell><cell>Anytime</cell></row><row><cell>Belimumab (Benlysta)</cell><cell>Monthly IV</cell><cell>Week 4</cell></row><row><cell>Anifrolumab (Saphnelo) †</cell><cell>IV Every 4 weeks</cell><cell>Week 4</cell></row><row><cell>Voclosporin (Lupkynis) †</cell><cell>Twice daily</cell><cell>Continue</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>SLE: WITHHOLD these medications 1 week prior to surgery Dosing Interval 1 week after last dose</head><label></label><figDesc></figDesc><table><row><cell>Mycophenolate mofetil</cell><cell>Twice daily</cell><cell>1 week after last dose</cell></row><row><cell>Azathioprine</cell><cell>Daily or twice daily</cell><cell>1 week after last dose</cell></row><row><cell>Cyclosporine</cell><cell>Twice daily</cell><cell>1 week after last dose</cell></row><row><cell>Tacrolimus</cell><cell cols="2">Twice daily (IV and PO) 1 week after last dose</cell></row><row><cell>Rituximab (Rituxan)</cell><cell>Every 4-6 months</cell><cell>Month 7</cell></row><row><cell>Belimumab</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>IV (Benlysta) Monthly Week 5 Belimumab SQ (Benlysta) Weekly Week 2</head><label></label><figDesc>Dosing intervals obtained from prescribing information provided online by pharmaceutical companies. 2017 American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Anti-rheumatic Medication in Patients with Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty Shading</figDesc><table><row><cell>DMARDs = disease-modifying antirheumatic drugs; SQ = subcutaneous; IV = intravenous; SLE = systemic lupus erythematosus;</cell></row><row><cell>PO = oral.</cell></row></table><note><p>*</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>with Bold italics indicates recommendation that has changed since 2017.</head><label></label><figDesc>* Recommendation pertains to infection risk and does not account for risk of cardiac events or venous thromboembolism.</figDesc><table><row><cell>† Drug added for 2022 update.</cell></row><row><cell>† † Severe SLE indicates organ threatening disease.</cell></row></table><note><p>*</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>This summary was approved by the ACR Board of Directors on February 24, 2022. These recommendations are included in a full manuscript, which was published in Arthritis Care and Research and Arthritis &amp; Rheumatology June 19, 2022.* Goodman, S.M., Springer, B.D., Chen, A.F., Davis, M., Fernandez, D.R., Figgie, M., et al. American College of Rheumatology/American Association of Hip and Knee Surgeons Guideline for the Perioperative Management of Antirheumatic Medication in Patients With Rheumatic Diseases Undergoing Elective Total Hip or Total Knee Arthroplasty. Arthritis Care Res 2022. https://doi.org/10.1002/acr.24893</figDesc><table><row><cell>Revised July 18, 2022</cell></row></table><note><p>* How to cite this article:</p></note></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

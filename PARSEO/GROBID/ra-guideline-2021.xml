@@ -1,0 +1,2596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2021 American College of Rheumatology Guideline for the Treatment of Rheumatoid Arthritis</title>
+				<funder ref="#_XXKFRVC #_a2sMh4K">
+					<orgName type="full">MHS</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">American College of Rheumatology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MD, MPH</roleName><forename type="first">Liana</forename><surname>Fraenkel</surname></persName>
+							<email>liana.fraenkel@yale.edu</email>
+							<idno type="ORCID">0000-0002-6148-610X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bathon</surname></persName>
+							<idno type="ORCID">0000-0002-0159-6374</idno>
+							<affiliation key="aff1">
+								<orgName type="institution">Yale University School of Medicine</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<region>Connecticut</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bry</forename><forename type="middle">R</forename><surname>England</surname></persName>
+							<idno type="ORCID">0000-0002-9649-3588</idno>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Columbia University Irving Medical Center</orgName>
+								<orgName type="institution" key="instit2">New York Presbyterian Hospital</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">St</forename><surname>Willia</surname></persName>
+							<idno type="ORCID">0000-0001-5294-4503</idno>
+						</author>
+						<author>
+							<persName><surname>Clair</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Thurayya</forename><surname>Arayssi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kristine</forename><surname>Carandang</surname></persName>
+							<idno type="ORCID">0000-0002-0159-6374</idno>
+							<affiliation key="aff7">
+								<orgName type="institution">University Medical Center</orgName>
+								<address>
+									<addrLine>5 Thurayya Arayssi, MD: Weill Cornell Medicine-Qatar</addrLine>
+									<settlement>Durham Doha</settlement>
+									<region>North Carolina Qatar</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><forename type="middle">D</forename><surname>Deane</surname></persName>
+							<idno type="ORCID">0000-0003-2211-4861</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Genovese</surname></persName>
+							<idno type="ORCID">0000-0001-5294-4503</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Kent</forename><forename type="middle">Kwas</forename><surname>Huston</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="institution">Stanford University Medical Center</orgName>
+								<address>
+									<settlement>Palo Alto</settlement>
+									<region>California</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Kerr</surname></persName>
+							<idno type="ORCID">0000-0002-6612-0473</idno>
+							<affiliation key="aff12">
+								<orgName type="department">The Center for Rheumatic Disease/Allergy and Immunology</orgName>
+								<orgName type="institution">Kent Kwas Huston</orgName>
+								<address>
+									<settlement>Kansas City</settlement>
+									<region>MD Missouri</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Joel</forename><surname>Kreme</surname></persName>
+							<idno type="ORCID">0000-0001-6674-9901</idno>
+							<affiliation key="aff14">
+								<orgName type="institution">Georgetown and Howard University</orgName>
+								<address>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mary</forename><forename type="middle">C</forename><surname>Nakamura</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><forename type="middle">A</forename><surname>Russell</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jasvinder</forename><forename type="middle">A</forename><surname>Singh</surname></persName>
+							<idno type="ORCID">0000-0003-3485-0006</idno>
+							<affiliation key="aff16">
+								<orgName type="department">MD: Hospital for Special Surgery</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>13 Linda A. Russell</addrLine>
+									<settlement>San Francisco</settlement>
+									<region>New York New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+							<idno type="ORCID">0000-0002-6612-0473</idno>
+							<affiliation key="aff18">
+								<orgName type="institution" key="instit1">MPH</orgName>
+								<orgName type="institution" key="instit2">University of Alabama at Birmingham and Birmingham Veterans Affairs Medical Center</orgName>
+								<address>
+									<settlement>Birmingham</settlement>
+									<region>Alabama</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MMSc</roleName><forename type="first">Jeffrey</forename><forename type="middle">A</forename><surname>Sparks</surname></persName>
+							<idno type="ORCID">0000-0002-5556-4618</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Shilpa</forename><surname>Venkatachalam</surname></persName>
+							<affiliation key="aff21">
+								<orgName type="department">Brigham and Women&apos;s Hospital and Harvard Medical School</orgName>
+								<orgName type="institution">Shilpa Venkatachalam</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">E</forename><surname>Weinbl</surname></persName>
+							<idno type="ORCID">0000-0003-2795-7059</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Mounir</forename><surname>Al-Gibbawi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joshua</forename><forename type="middle">F</forename><surname>Baker</surname></persName>
+							<idno type="ORCID">0000-0003-0799-7563</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Kami</forename><forename type="middle">E</forename><surname>Barbour</surname></persName>
+							<idno type="ORCID">0000-0003-0546-6742</idno>
+						</author>
+						<author>
+							<persName><roleName>MD, MCR</roleName><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Barton</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><surname>Cappelli</surname></persName>
+							<idno type="ORCID">0000-0003-2795-7059</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Fatimah</forename><surname>Chamsedd</surname></persName>
+							<idno type="ORCID">0000-0002-5567-7065</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><surname>Geo</surname></persName>
+							<idno type="ORCID">0000-0002-0398-2308</idno>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Sindhu</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+							<idno type="ORCID">0000-0003-0591-2976</idno>
+						</author>
+						<author>
+							<persName><roleName>RN, MSc</roleName><forename type="first">Lara</forename><surname>Kahale</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Basil</forename><forename type="middle">S</forename><surname>Karam</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Assem</forename><forename type="middle">M</forename><surname>Khamis</surname></persName>
+							<idno type="ORCID">0000-0002-5567-7065</idno>
+						</author>
+						<author>
+							<persName><surname>Navarro-Millán</surname></persName>
+							<idno type="ORCID">0000-0002-9540-6614</idno>
+							<affiliation key="aff28">
+								<orgName type="department">Management and Evaluation</orgName>
+								<orgName type="institution" key="instit1">Mount Sinai Hospital</orgName>
+								<orgName type="institution" key="instit2">Institute of Health Policy</orgName>
+								<orgName type="institution" key="instit3">University of Toronto</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Reza</forename><surname>Mirza</surname></persName>
+							<affiliation key="aff29">
+								<orgName type="department">MSPH: Weill Cornell Medicine</orgName>
+								<orgName type="institution">Iris Navarro-Millán</orgName>
+								<address>
+									<settlement>New York</settlement>
+									<region>MD New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD: Oregon</roleName><forename type="first">Pascale</forename><surname>Schwab</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Namrata</forename><surname>Singh</surname></persName>
+							<affiliation key="aff31">
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<settlement>Toronto</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>MD, MPH</roleName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+							<idno type="ORCID">0000-0001-7695-2022</idno>
+						</author>
+						<author>
+							<persName><roleName>MD, MPH</roleName><forename type="first">Sally</forename><surname>Yaacoub</surname></persName>
+							<idno type="ORCID">0000-0003-0819-1561</idno>
+						</author>
+						<author>
+							<persName><roleName>RPh, MPH</roleName><forename type="first">Elie</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Michael</forename><forename type="middle">E</forename><surname>Weinblatt</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Mounir</forename><surname>Al- Gibbawi</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Fatimah</forename><surname>Chamseddine</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD, MSCE</roleName><forename type="first">Michael</forename><surname>George</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">:</forename><surname>American</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Berkshire Medical Center</orgName>
+								<address>
+									<settlement>Pittsfield</settlement>
+									<region>Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Joan M. Bathon</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">Bryant R. England</orgName>
+								<address>
+									<region>MD PhD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">University of Nebraska Medical Center</orgName>
+								<address>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="department">MD: Duke</orgName>
+								<orgName type="institution">Nebraska-Western Iowa Health Care System</orgName>
+								<address>
+									<addrLine>4 E. William St.Clair</addrLine>
+									<settlement>Omaha</settlement>
+									<region>Nebraska</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="department">OTR/L</orgName>
+								<orgName type="institution">Kristine Carandang</orgName>
+								<address>
+									<settlement>PhD</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<addrLine>7 Kevin D. Deane</addrLine>
+									<settlement>San Diego</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="institution">PhD: University of Colorado</orgName>
+								<address>
+									<addrLine>8 Mark Genovese</addrLine>
+									<settlement>Aurora</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff13">
+								<orgName type="department">Veterans Affairs Medical Center</orgName>
+								<orgName type="institution">Gail Kerr</orgName>
+								<address>
+									<region>MD FRCP</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<orgName type="department">MD: Albany Medical College and The Center for Rheumatology</orgName>
+								<orgName type="institution">Joel Kremer</orgName>
+								<address>
+									<addrLine>12 Mary C. Nakamura</addrLine>
+									<settlement>Albany</settlement>
+									<region>New York MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff17">
+								<orgName type="institution">Jasvinder A. Singh</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff19">
+								<orgName type="department">DMSc</orgName>
+								<orgName type="institution">Benjamin J. Smith</orgName>
+								<address>
+									<region>PA-C</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff20">
+								<orgName type="department">School of Physician Assistant Practice</orgName>
+								<orgName type="institution">Florida State University College of Medicine</orgName>
+								<address>
+									<settlement>Tallahassee</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff22">
+								<orgName type="department">PhD: Global Healthy Living Foundation</orgName>
+								<orgName type="institution">American University of Beirut</orgName>
+								<address>
+									<settlement>Upper Nyack New York Beirut</settlement>
+									<country>Lebanon;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff23">
+								<orgName type="department">Centers for Disease Control and Prevention</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<addrLine>20 Kamil E. Barbour, PhD</addrLine>
+									<settlement>Philadelphia Atlanta</settlement>
+									<region>Pennsylvania MPH MS</region>
+									<country>Georgia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff24">
+								<orgName type="institution">Health &amp; Science University</orgName>
+								<address>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff25">
+								<orgName type="institution">Portland Health Care System</orgName>
+								<address>
+									<addrLine>Oregon; 22 Laura Cappelli</addrLine>
+									<settlement>Portland</settlement>
+									<region>MD, MHS MS</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff26">
+								<orgName type="institution">Johns Hopkins Medicine</orgName>
+								<address>
+									<settlement>Baltimore</settlement>
+									<region>Maryland</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff27">
+								<orgName type="department">FRCPC: Toronto Western Hospital</orgName>
+								<orgName type="institution">University of Pennsylvania</orgName>
+								<address>
+									<settlement>Philadelphia</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff30">
+								<orgName type="institution">Reza Mirza</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff32">
+								<orgName type="institution">Namrata Singh</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff33">
+								<orgName type="department">College of Rheumatology</orgName>
+								<orgName type="institution" key="instit1">MSCI</orgName>
+								<orgName type="institution" key="instit2">FACP: University of Washington</orgName>
+								<address>
+									<settlement>Seattle Atlanta</settlement>
+									<country key="GE">Georgia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff34">
+								<orgName type="institution" key="instit1">Bristol Myers Squibb</orgName>
+								<orgName type="institution" key="instit2">Inova Diagnostics, Janssen</orgName>
+								<orgName type="institution" key="instit3">Bristol Myers Squibb</orgName>
+								<address>
+									<addrLine>725 North Street, Pittsfield</addrLine>
+									<postCode>01201</postCode>
+									<settlement>Gilead Eli Lilly</settlement>
+									<region>MA</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2021 American College of Rheumatology Guideline for the Treatment of Rheumatoid Arthritis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">596F613A9868AAD366364C7CF33DBF56</idno>
+					<idno type="DOI">10.1002/acr.24596</idno>
+					<note type="submission">Submitted for publication September 8, 2020; accepted in revised form March 15, 2021.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>MediSYS</term>
+					<term>Fidia Pharma</term>
+					<term>UBM</term>
+					<term>Trio Health</term>
+					<term>Medscape</term>
+					<term>WebMD</term>
+					<term>Clinical Care Options</term>
+					<term>Clearview Healthcare Partners</term>
+					<term>Putnam Associates</term>
+					<term>Focus Forward</term>
+					<term>Navigant Consulting</term>
+					<term>Spherix</term>
+					<term>Practice Point Communications Amgen</term>
+					<term>Canfite</term>
+					<term>Crescendo</term>
+					<term>GlaxoSmithKline</term>
+					<term>Horizon</term>
+					<term>Johnson &amp; Johnson</term>
+					<term>Genentech/Roche</term>
+					<term>Scipher</term>
+					<term>SetPoint</term>
+					<term>Tremeau (less than $10</term>
+					<term>000 each)</term>
+					<term>Eli Lilly and Company</term>
+					<term>Bristol Myers Squibb</term>
+					<term>Gilead</term>
+					<term>and Corrona (more than $10</term>
+					<term>000 each)</term>
+					<term>royalties from Elsevier</term>
+					<term>and owns stock or stock options in Canfite</term>
+					<term>Scipher</term>
+					<term>Inmedix</term>
+					<term>and Vorso. Dr. Baker has received consulting fees</term>
+					<term>speaking fees</term>
+					<term>and/or honoraria from Bristol Myers Squibb</term>
+					<term>Gilead</term>
+					<term>Burns-White</term>
+					<term>and Simply Speaking Rheumatology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. To develop updated guidelines for the pharmacologic management of rheumatoid arthritis. Methods. We developed clinically relevant population, intervention, comparator, and outcomes (PICO) questions. After conducting a systematic literature review, the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach was used to rate the certainty of evidence. A voting panel comprising clinicians and patients achieved consensus on the direction (for or against) and strength (strong or conditional) of recommendations.</p><p>Results. The guideline addresses treatment with disease-modifying antirheumatic drugs (DMARDs), including conventional synthetic DMARDs, biologic DMARDs, and targeted synthetic DMARDs, use of glucocorticoids, and use of DMARDs in certain high-risk populations (i.e., those with liver disease, heart failure, lymphoproliferative disorders, previous serious infections, and nontuberculous mycobacterial lung disease). The guideline includes 44 recommendations (7 strong and 37 conditional).</p><p>Conclusion. This clinical practice guideline is intended to serve as a tool to support clinician and patient decisionmaking. Recommendations are not prescriptive, and individual treatment decisions should be made through a shared decision-making process based on patients' values, goals, preferences, and comorbidities.</p><p>The findings and conclusions herein are those of the authors and do not represent the official position of the Centers for Disease Control and Prevention. This study did not involve human subjects, and therefore, approval from Human Studies Committees was not required.</p><p>This article is published simultaneously in Arthritis &amp; Rheumatology.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>To support high-quality clinical care, the American College of Rheumatology (ACR) regularly updates clinical practice guidelines for the management of rheumatoid arthritis (RA), with the most recent update reported in 2015 <ref type="bibr" target="#b0">(1)</ref>. The current recommendations address treatment with the following: 1) conventional synthetic disease-modifying antirheumatic drugs (csDMARDs), biologic DMARDs (bDMARDs), and targeted synthetic DMARDs (tsDMARDs); 2) glucocorticoids; and 3) use of these medications in certain high-risk populations. The use of vaccines and nonpharmacologic treatment approaches (although initially part of this project) will be covered in future ACR treatment guideline publications. For recommendations regarding pretreatment screening and routine laboratory monitoring, we refer readers to the 2008, 2012, and 2015 guidelines (1-3), with newly approved therapies following the screening process recommended for other medications in the same class. Recommendations for the perioperative management of patients undergoing elective orthopedic surgery are addressed in the 2017 guideline for perioperative management <ref type="bibr" target="#b3">(4)</ref>. For recommendations regarding reproductive health, we refer readers to the 2020 ACR Guideline for the Management of Reproductive Health in Rheumatic and Musculoskeletal Diseases <ref type="bibr" target="#b4">(5)</ref>.</p><p>In keeping with the Grading of Recommendations Assessment, Development and Evaluation [GRADE] methodology), the ACR panel developed recommendations for commonly encountered clinical scenarios <ref type="bibr" target="#b5">(6)</ref><ref type="bibr" target="#b6">(7)</ref><ref type="bibr" target="#b7">(8)</ref>. Both strong and conditional recommendations required achieving a 70% level of agreement by the voting panel. Each recommendation is qualified as being strong or conditional. In this context, strong recommendations are those for which the panel is highly confident that the recommended option favorably balances the expected benefits and risks for the majority of patients in clinical practice. In contrast, conditional recommendations are those for which the panel is less confident that the potential benefits outweigh the risks. A recommendation can be conditional either because of low or very low certainty in the evidence supporting one option over another, or because of an expectation of substantial variations in patient preferences for the options under consideration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>This guideline follows the ACR guideline development process and ACR policy guiding the management of conflicts of interest and disclosures (<ref type="url" target="https://www.rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines">https://www.rheum atolo gy.org/Pract ice-Quali ty/ Clini cal-Suppo rt/Clini cal-Pract ice-Guide lines</ref>) <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b7">8)</ref>, which includes GRADE methodology <ref type="bibr" target="#b5">(6,</ref><ref type="bibr" target="#b7">8)</ref>, and abides by the AGREE Reporting Checklist to ensure the completeness and transparency of reporting in practice guidelines <ref type="bibr" target="#b8">(9)</ref>. Supplementary Appendix 1, available on the Arthritis Care &amp; Research website at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24596/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/acr.24596/ abstract</ref>), includes a detailed description of the methods. Briefly, the core leadership team drafted clinical population, intervention, comparator, and outcomes (PICO) questions. The literature review team performed systematic literature reviews for the PICO questions, selected and evaluated individual studies and graded the quality of the body of evidence available for each outcome, and produced the evidence report that summarizes these assessments (see Supplementary Appendix 2, available on the Arthritis Care &amp; Research website at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24596/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/acr.24596/ abstract</ref>). The core team defined the critical study outcome as disease activity for most PICO questions. Because the ACR has, in a separate project, endorsed several disease activity measures for use in clinical practice, this guideline does not define levels of disease activity or the instruments a clinician should use to measure it <ref type="bibr" target="#b9">(10)</ref>. For PICO questions related to tapering, the critical outcomes were disease flare and subsequent return to the treatment target. Physical function, radiographic progression, quality of life, other patient-reported outcome measures, and adverse events were defined as important outcomes. Additional clinical outcomes were defined for PICO questions pertaining to select high-risk conditions (see Supplementary Appendix 3, available on the Arthritis Care &amp; Research website at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24596/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/ acr.24596/ abstract</ref>). When available, cost-effectiveness studies were included with the evidence reports. Cost estimates (average wholesale prices) were retrieved from Lexicomp (see Supplementary Appendix 4, available on the Arthritis Care &amp; Research website at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24596/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/acr.24596/ abstract</ref>). The panel considered these estimates from a societal perspective, i.e., based on the list price, and not the copay.</p><p>An in-person panel of 10 patients with RA, moderated by the project's principal investigator, reviewed the evidence report (along with a summary and interpretation by the moderator) and provided patient perspectives for consideration by the voting panel. The voting panel (13 clinicians and 2 patients) reviewed the evidence reports and patient perspectives and voted on recommendation statements. Rosters of the core leadership, literature review team, and panel members are listed in Supplementary Appendix 5, available on the Arthritis Care &amp; Research website at <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24596/abstract">http://online libr ary.wiley.com/doi/10.1002/acr.24596/ abstract</ref>.</p><p>Several guiding principles, definitions, and assumptions were established a priori (Table <ref type="table" target="#tab_0">1</ref>). Because poor prognostic factors <ref type="bibr" target="#b10">(11)</ref> have had less impact than other factors on prior RA treatment recommendations, they were not explicitly considered in formulating the PICO questions. However, poor prognostic factors were considered as possible influential factors in physicians' and patients' decision-making when developing recommendations. In contrast to the 2015 guideline (1), recommendations were not provided for subgroups defined by early versus late RA disease duration. This change was made because current disease activity, prior therapies used, and the presence of comorbidities were felt to be more relevant than disease duration for most treatment decisions. However, early diagnosis and treatment in RA is associated with improved outcomes and is thus an important overarching principle in its management <ref type="bibr" target="#b11">(12)</ref>. Recommendations are intended for the general RA patient population and assume that patients do not have contraindications to the options under consideration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS/RECOMMENDATIONS</head><p>The recommendations are based on a set of 81 PICO questions. The literature review initially identified 22,971 manuscripts (for the full set of PICO questions covering both pharmacologic and nonpharmacologic treatment). After excluding 18,333 titles Recommendations for DMARD-naive patients with moderate-to-high disease activity (Table <ref type="table" target="#tab_1">2</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DMARD monotherapy</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate is strongly recommended over hydroxychloroquine or sulfasalazine for DMARDnaive patients with moderate-to-high disease activity</head><p>This recommendation is strongly in favor of methotrexate despite very low-certainty evidence for hydroxychloroquine and low-certainty evidence for sulfasalazine based on the amount of data supporting the disease-modifying properties of methotrexate monotherapy compared to hydroxychloroquine or sulfasalazine and concerns over the long-term tolerability of sulfasalazine <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b13">14)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate is conditionally recommended over leflunomide for DMARD-naive patients with moderate-to-high disease activity</head><p>Despite low-certainty evidence of comparable efficacy, methotrexate is preferred over leflunomide because of the evidence supporting its value as an anchor DMARD in combination regimens. Additional advantages of methotrexate include its greater dosing flexibility and lower cost.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate monotherapy is strongly recommended over bDMARD or tsDMARD monotherapy for DMARD-naive patients with moderate-to-high disease activity</head><p>There is low-certainty evidence suggesting superiority of tocilizumab monotherapy <ref type="bibr" target="#b14">(15)</ref> over methotrexate monotherapy and moderate-certainty evidence suggesting greater efficacy </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate monotherapy is conditionally recommended over dual or triple csDMARD therapy for DMARD-naive patients with moderate-to-high disease activity</head><p>The recommendation favors methotrexate monotherapy because the higher burden of combination therapy (e.g., multiple medications, higher cost) outweighs the moderate-quality evidence suggesting greater improvements in disease activity associated with combination csDMARDs <ref type="bibr" target="#b18">(19)</ref>. The recommendation is conditional because some patients may choose csDMARD combination therapy for an increased probability of obtaining a better response despite the added burden of taking multiple medications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate monotherapy is conditionally recommended over methotrexate plus a tumor necrosis factor (TNF) inhibitor for DMARD-naive patients with moderate-to-high disease activity</head><p>Despite low-certainty evidence supporting greater improvement in disease activity with methotrexate plus a TNF inhibitor, methotrexate monotherapy is preferred over the combination because many patients will reach their goal on methotrexate monotherapy and because of the additional risks of toxicity and higher costs associated with TNF inhibitors. The recommendation is conditional because some patients, especially those with poor prognostic factors, may prioritize more rapid onset of action and greater chance of improvement associated with combination therapy <ref type="bibr" target="#b19">(20)</ref><ref type="bibr" target="#b20">(21)</ref><ref type="bibr" target="#b21">(22)</ref> over the additional risks and costs associated with initial use of methotrexate in combination with a TNF inhibitor.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate monotherapy is strongly recommended over methotrexate plus a non-TNF inhibitor bDMARD or tsDMARD for DMARD-naive patients with moderate-to-high disease activity</head><p>There is very low-certainty evidence supporting the superiority of methotrexate plus a non-TNF inhibitor bDMARD or tsDMARD over methotrexate monotherapy in DMARD-naive patients; thus, methotrexate monotherapy is strongly preferred given the lack of proven benefit and additional risks and costs associated with the addition of a non-TNF inhibitor bDMARD or tsDMARD in this patient population.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Glucocorticoids Initiation of a csDMARD without short-term (&lt;3 months) glucocorticoids is conditionally recommended over initiation of a csDMARD with short-term glucocorticoids for DMARD-naive patients with moderate-to-high disease activity</head><p>While the voting panel agreed that glucocorticoids should not be systematically prescribed, the recommendation is conditional because all members acknowledged that short-term glucocorticoids are frequently necessary to alleviate symptoms prior to the onset of action of DMARDs. Treatment with glucocorticoids should be limited to the lowest effective dose for the shortest duration possible. The toxicity associated with glucocorticoids was judged to outweigh potential benefits.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Initiation of a csDMARD without longerterm (≥3 months) glucocorticoids is strongly recommended over initiation of a csDMARD with longer-term glucocorticoids for DMARD-naive patients with moderate-to-high disease activity</head><p>Although some patients may require longer-term glucocorticoids, this strong recommendation against longer-term glucocorticoid therapy is made because of its significant toxicity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations for DMARD-naive patients with low disease activity (Table 2)</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hydroxychloroquine is conditionally recommended over other csDMARDs, sulfasalazine is conditionally recommended over methotrexate, and methotrexate is conditionally recommended over leflunomide for DMARDnaive patients with low disease activity</head><p>Hydroxychloroquine is conditionally recommended over other csDMARDs because it is better tolerated and has a more favorable risk profile in patients with RA. Sulfasalazine is recommended over methotrexate because it is less immunosuppressive, and the patient panel felt that many patients with low disease activity would prefer to avoid the side effects associated with methotrexate. The recommendations are conditional because methotrexate may be the preferred initial therapy in patients at the higher end of the low disease activity range and in those with poor prognostic factors <ref type="bibr" target="#b10">(11)</ref>. Methotrexate is recommended over leflunomide because of its greater dosing flexibility and lower cost.</p><p>| 929</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendation for patients who have been treated with csDMARDs, excluding methotrexate, and who have moderate-to-high disease activity (Table 2)</head><p>Recommendations are the same as for DMARD-naive patients except for this population. The strength of the following recommendation is conditional for all bDMARDs and tsDMARDs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate monotherapy is conditionally recommended over the combination of methotrexate plus a bDMARD or tsDMARD</head><p>The recommendation is conditional because the voting panel thought that some patients who have already had persistent disease activity despite use of ≥1 csDMARD will prefer combination treatment for a more rapid response.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations for administration of methotrexate (Table 3)</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Oral methotrexate is conditionally recommended over subcutaneous methotrexate for patients initiating methotrexate</head><p>Oral administration is preferred, despite moderate evidence suggesting superior efficacy of subcutaneous injections, due to the ease of oral administration and similar bioavailability at typical starting doses <ref type="bibr" target="#b22">(23)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Initiation/titration of methotrexate to a weekly dose of at least 15 mg within 4 to 6 weeks is conditionally recommended over initiation/ titration to a weekly dose of &lt;15 mg</head><p>The recommendation is conditional because there are few studies comparing different dosing strategies and wide variation in physician and patient preferences regarding the tradeoff between the increased efficacy and risks of toxicity associated with higher starting doses. This recommendation refers only to the initial prescribing of methotrexate and is not meant to limit further dose escalation, which often provides additional efficacy <ref type="bibr" target="#b23">(24)</ref>.</p><p>A split dose of oral methotrexate over 24 hours or weekly subcutaneous injections, and/or an increased dose of folic/folinic acid, is conditionally recommended over switching to alternative DMARD(s) for patients not tolerating oral weekly methotrexate Despite the very low certainty of evidence supporting these strategies for alleviating side effects related to methotrexate, split dosing, changing to the subcutaneous route of administration, and increased doses of folic/folinic acid are the preferred initial strategies over switching to another DMARD because of the efficacy, long-term safety, and low costs associated with methotrexate. The recommendation is conditional because patient preferences play an important role in the decision whether to continue methotrexate or switch to other DMARDs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Switching to subcutaneous methotrexate is conditionally recommended over the addition of/ switching to alternative DMARD(s) for patients taking oral methotrexate who are not at target</head><p>This recommendation is consistent with the voting panel's overarching principle of maximizing use of methotrexate prior to switching/adding DMARDs. However, there are no data comparing outcomes in patients who switch to subcutaneous methotrexate versus another treatment strategy that includes other DMARDs. The recommendation is conditional because patient preferences and the magnitude of previous response to methotrexate play an important role in this decision. Recommendations for treatment modification in patients treated with DMARDs who are not at target (Table <ref type="table" target="#tab_3">4</ref>)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treat-to-target</head><p>A treat-to-target approach is strongly recommended over usual care for patients who have not been previously treated with bDMARDs or tsDMARDs This recommendation applies to dose optimization of methotrexate and to the subsequent addition of DMARDs when required. The recommendation is strong despite low-certainty evidence because of the recognized importance of systematic monitoring and adjustment of treatment to minimize inflammation to prevent joint damage, as well as other long-term sequelae including cardiovascular disease and osteoporosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A treat-to-target approach is conditionally recommended over usual care for patients who have had an inadequate response to bDMARDs or tsDMARDs</head><p>The recommendation is conditional because of the uncertain incremental benefits of treat-to-target over usual care in this patient population. In this context, usual care refers to commonly employed practice patterns, i.e., adjustment of treatment based on shared decision-making, albeit typically without systematic monitoring of disease activity using validated measures to reach a predefined target. Moreover, 1) the number of remaining available treatment options, 2) the impact of noninflammatory causes of pain, comorbidities, and/or damage on the accuracy of validated disease activity assessments, and 3) the patient's threshold for changing medications may have a more significant influence on the decision to follow a treat-to-target approach in this population compared to patients who are bDMARD-and tsDMARD-naive.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A minimal initial treatment goal of low disease activity is conditionally recommended over a goal of remission</head><p>An initial target of low disease activity is preferred because remission by established criteria may not be achievable for many patients <ref type="bibr" target="#b24">(25)</ref>. In addition, the patient panel emphasized that failure to reach a specified target may be disheartening and stressful for some patients. They emphasized that it would be preferable to initially aim for low disease activity and subsequently consider a goal of remission. However, treatment goals should be systematically reassessed over time and individualized to each patient to ensure that remission is targeted when possible. The recommendation is conditional because remission is a reasonable initial goal for patients with early disease and minimal exposure to bDMARDs and tsDMARDs, and patient preferences play a significant role in this decision.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Modification of DMARD(s)</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addition of a bDMARD or tsDMARD is conditionally recommended over triple therapy (i.e., addition of sulfasalazine and hydroxychloroquine) for patients taking maximally tolerated doses of methotrexate who are not at target</head><p>The panel vigorously debated whether to recommend addition of a bDMARD or tsDMARD versus sulfasalazine and hydroxychloroquine (triple therapy) for patients with an inadequate response to methotrexate monotherapy in view of very low-certainty evidence favoring bDMARDs or tsDMARDs, randomized controlled trials demonstrating equivalent long-term outcomes across both treatment strategies, and significantly less societal cost associated with triple therapy <ref type="bibr" target="#b25">(26)</ref><ref type="bibr" target="#b26">(27)</ref><ref type="bibr" target="#b27">(28)</ref><ref type="bibr" target="#b28">(29)</ref>. Addition of a bDMARD or tsDMARD was ultimately preferred because the patient panel strongly prioritized maximizing improvement as quickly as possible. In addition, both the patient and voting panels valued the greater persistence of methotrexate plus a bDMARD or tsDMARD compared to triple therapy (defined in Table <ref type="table" target="#tab_0">1</ref>) <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b29">30)</ref>. The recommendations from these studies <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b30">31)</ref> are conditional because triple therapy may be preferred in lower resource settings as well as in patients with specific comorbidities for whom triple therapy may be associated with significantly less risk of adverse events. This choice is highly preference sensitive, and decisions on how best to escalate care should incorporate patients' preferences. There is no current recommendation for a bDMARD versus a tsDMARD when adjusting treatment; however, the voting panel acknowledged that safety data released in early 2021 <ref type="bibr" target="#b16">(17,</ref><ref type="bibr" target="#b17">18)</ref> may require a modification of this recommendation when peer-reviewed results are published.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Switching to a bDMARD or tsDMARD of a different class is conditionally recommended over switching to a bDMARD or tsDMARD belonging to the same class for patients taking a bDMARD or tsDMARD who are not at target</head><p>The recommendation is based on very low-certainty evidence supporting greater improvement in disease activity and drug survival among patients switching classes. The recommendation is conditional because patient and physician preferences are likely to vary based on prior experiences with specific DMARDs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Use of glucocorticoids</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addition of/switching to DMARDs is conditionally recommended over continuation of glucocorticoids for patients taking glucocorticoids to remain at target</head><p>This recommendation assumes that improved disease control with DMARDs should allow less use of glucocorticoids. The recommendation is conditional because the continued use of glucocorticoids may be required for patients who do not respond to DMARDs even after maximizing methotrexate dosage and switching DMARD classes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addition of/switching to DMARDs (with or without intraarticular [IA] glucocorticoids) is conditionally recommended over the use of IA glucocorticoids alone for patients taking DMARDs who are not at target</head><p>This recommendation was based on the premise that DMARDs should be adjusted to reduce disease activity, irrespective of treatment with IA glucocorticoids. The recommendation is conditional because patients may choose to defer adding/switching DMARDs if they obtain relief from IA injection(s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations for tapering/discontinuing DMARDs (Table 5)</head><p>Because of the moderate-to-high risk for flare and the potential for irreversible long-term damage associated with stopping all DMARDs, the following recommendations presume that patients maintain a therapeutic dose of at least 1 DMARD. In addition, the recommendations specify that patients be at target (low disease activity or remission) for at least 6 months prior to tapering. Patients in remission for &lt;6 months should not routinely be considered for dose reduction or withdrawal.</p><p>Although the optimal time at target prior to tapering has not been established, the voting panel considered 6 months to be a reasonable minimal length of time to ensure stable disease control. "Dose reduction" refers to lowering the dose or increasing the dosing interval of a DMARD. "Gradual discontinuation" denotes gradually lowering the dose of a DMARD and subsequently stopping it.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Continuation of all DMARDs at their current dose is conditionally recommended over a dose reduction of a DMARD, dose reduction is conditionally recommended over gradual discontinuation of a DMARD, and gradual discontinuation is conditionally recommended over abrupt discontinuation of a DMARD for patients who are at target for at least 6 months</head><p>These recommendations are based on studies demonstrating a higher risk of flare in patients who are 1) lowering the dose of a DMARD versus continuing DMARDs at the same dose, and 2) abruptly versus gradually discontinuing a DMARD <ref type="bibr" target="#b31">(32)</ref><ref type="bibr" target="#b32">(33)</ref><ref type="bibr" target="#b33">(34)</ref><ref type="bibr" target="#b34">(35)</ref><ref type="bibr" target="#b35">(36)</ref>. The recommendations are conditional because patient and physician preferences are expected to vary.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gradual discontinuation of sulfasalazine is conditionally recommended over gradual discontinuation of hydroxychloroquine for patients taking triple therapy who wish to discontinue a DMARD</head><p>Gradually discontinuing sulfasalazine is recommended because of its poorer treatment persistence due to adverse events <ref type="bibr" target="#b13">(14)</ref>. The recommendation is conditional because patient and physician preferences are expected to vary.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Gradual discontinuation of methotrexate is conditionally recommended over gradual discontinuation of the bDMARD or tsDMARD for patients taking methotrexate plus a bDMARD or tsDMARD who wish to discontinue a DMARD</head><p>In the absence of direct evidence, gradually discontinuing methotrexate is preferred because a bDMARD or tsD-MARD is typically added following an inadequate response to methotrexate. Thus, the continued use of the bDMARD or tsDMARD is more likely to maintain disease control than the continued use of methotrexate. The recommendation is conditional because gradual discontinuation of the bDMARD or tsDMARD may be favored depending on comorbidities, risk for infection, cost concerns, as well as patient and clinician preferences. The voting panel cautioned that many patients treated with certain monoclonal antibodies may require ongoing treatment with methotrexate to prevent the formation of antidrug antibodies <ref type="bibr" target="#b36">(37)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations for specific patient populations (Table 6)</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Subcutaneous nodules</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate is conditionally recommended over alternative DMARDs for patients with subcutaneous nodules who have moderate-tohigh disease activity</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Switching to a non-methotrexate DMARD is conditionally recommended over continuation of methotrexate for patients taking methotrexate with progressive subcutaneous nodules</head><p>While accelerated nodulosis has been observed in patients starting methotrexate <ref type="bibr" target="#b37">(38)</ref>, there are no studies examining comparative strategies for patients with stable or progressive subcutaneous nodules. The preceding 2 recommendations are conditional because patient and clinician preferences are expected to vary. The recommendation to switch is based on the premise that methotrexate is a contributing factor to progressive nodulosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Pulmonary disease</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methotrexate is conditionally recommended over alternative DMARDs for the treatment of inflammatory arthritis for patients with clinically diagnosed mild and stable airway or parenchymal lung disease, or incidental disease detected on imaging, who have moderate-to-high disease activity</head><p>Studies indicate that preexisting lung disease is a risk factor for methotrexate-related pneumonitis <ref type="bibr" target="#b38">(39,</ref><ref type="bibr" target="#b39">40)</ref>. However, the overall risk of worsening lung disease attributable to methotrexate is uncertain, and alternative DMARDs have also been associated with lung disease <ref type="bibr" target="#b40">(41)</ref><ref type="bibr" target="#b41">(42)</ref><ref type="bibr" target="#b42">(43)</ref><ref type="bibr" target="#b43">(44)</ref><ref type="bibr" target="#b44">(45)</ref>. The recommendation is in favor of methotrexate because of its important role as an anchor treatment in RA and the lack of alternatives with similar efficacy and/or superior long-term safety profiles. The recommendation is conditional because some clinicians (rheumatologists and pulmonologists) and patients will prefer an alternative option rather than accept any additional risk of lung toxicity. Patients with preexisting lung disease should be informed of their increased risk of methotrexate pneumonitis prior to initiating treatment with methotrexate. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Heart failure</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addition of a non-TNF inhibitor bDMARD or tsDMARD is conditionally recommended over addition of a TNF inhibitor for patients with New York Heart Association (NYHA) class III or IV heart failure and an inadequate response to csDMARDs</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Switching to a non-TNF inhibitor bDMARD or tsDMARD is conditionally recommended over continuation of a TNF inhibitor for patients taking a TNF inhibitor who develop heart failure</head><p>These recommendations are based on the risk of worsening heart failure observed in randomized clinical trials of TNF inhibitors in patients with NYHA class III or IV heart failure without RA <ref type="bibr" target="#b45">(46,</ref><ref type="bibr" target="#b46">47)</ref>. Both recommendations are conditional because of the very low-certainty evidence supporting these PICO questions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Lymphoproliferative disorder</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rituximab is conditionally recommended over other DMARDs for patients who have a previous lymphoproliferative disorder for which rituximab is an approved treatment and who have moderate-to-high disease activity</head><p>Rituximab is preferred over other DMARDs, regardless of previous DMARD experience, because it would not be expected to increase the risk of recurrence or worsening of these lymphoproliferative disorders. The recommendation is conditional because of the very low-certainty evidence supporting this PICO question.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Hepatitis B infection</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prophylactic antiviral therapy is strongly recommended over frequent monitoring of viral load and liver enzymes alone for patients initiating rituximab who are hepatitis B core antibody positive (regardless of hepatitis B surface antigen status)</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prophylactic antiviral therapy is strongly recommended over frequent monitoring alone for patients initiating any bDMARD or tsDMARD who are hepatitis B core antibody positive and hepatitis B surface antigen positive</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Frequent monitoring alone of viral load and liver enzymes is conditionally recommended over prophylactic antiviral therapy for patients initiating a bDMARD other than rituximab or a tsDMARD who are hepatitis B core antibody positive and hepatitis B surface antigen negative</head><p>These recommendations were made based on the risk of hepatitis B reactivation due to core antibody and surface antigen status and the specific DMARD being initiated and are consistent with the updated American Association for the Study of Liver Diseases guidance <ref type="bibr" target="#b47">(48)</ref>. Patients at risk for hepatitis B reactivation should be comanaged with a hepatologist. The third recommendation is conditional because it is less certain whether the benefit of prophylactic antiviral therapy outweighs the risks and cost of this treatment in the specified patient population.  Given the concerns about the risk of hepatotoxicity associated with methotrexate therapy in patients with NAFLD, use of methotrexate should be restricted to patients with normal liver enzymes and liver function tests and without evidence of liver disease or liver fibrosis (Stage 3 or 4). Noninvasive testing to diagnose and stage liver fibrosis as well as consultation with a gastroenterologist or hepatologist should be considered in patients prior to initiating methotrexate <ref type="bibr" target="#b48">(49)</ref>. In addition, more frequent monitoring should be performed in this patient population (every 4 to 8 weeks). The recommendation is conditional because patients' and clinicians' risk tolerance varies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Persistent hypogammaglobulinemia without infection</head><p>In the setting of persistent hypogammaglobulinemia without infection, continuation of rituximab therapy for patients at target is conditionally recommended over switching to a different bDMARD or tsDMARD Continuing rituximab in patients who are at target is preferred because of the uncertain clinical significance of hypogammaglobulinemia in patients without infection. Although an increased risk of infection has been described in RA patients with hypogammaglobulinemia, it is not known if a switch in DMARDs in patients who are at target is more effective in lowering infection risk while maintaining disease control than continuation of rituximab. The recommendation is conditional because physician and patient risk tolerance is likely to vary depending on the degree of hypogammaglobulinemia and patient-specific risk factors for infection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Previous serious infection</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addition of csDMARDs is conditionally recommended over addition of a bDMARD or tsDMARD for patients with a serious infection within the previous 12 months who have moderate-to-high disease activity despite csDMARD monotherapy</head><p>This conditional recommendation is made based on observational data suggesting a lower risk of infection associated with combination csDMARDs (dual or triple therapy) compared to bDMARDs or tsDMARDs <ref type="bibr" target="#b49">(50)</ref>. Some clinicians may prefer csDMARDs even if the serious infection occurred &gt;12 months prior to considering a change.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addition of/switching to DMARDs is conditionally recommended over initiation/dose escalation of glucocorticoids for patients with a serious infection within the previous 12 months who have moderate-to-high disease activity</head><p>This conditional recommendation is made based on observational studies suggesting a strong association between dose and duration of glucocorticoids with the risk of serious infection <ref type="bibr" target="#b50">(51)</ref><ref type="bibr" target="#b51">(52)</ref><ref type="bibr" target="#b52">(53)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Nontuberculous mycobacterial (NTM) lung disease</head><p>Given the variability of NTM lung disease severity and response to treatment, patients should be closely comanaged with an infectious disease or pulmonary specialist.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Use of the lowest possible dose of glucocorticoids (discontinuation if possible) is conditionally recommended over continuation of glucocorticoids without dose modification for patients with NTM lung disease</head><p>This recommendation is based on studies suggesting an increased risk of NTM lung disease in patients receiving either inhaled or oral glucocorticoids <ref type="bibr" target="#b53">(54,</ref><ref type="bibr" target="#b54">55)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Addition of csDMARDs is conditionally recommended over addition of a bDMARD or tsDMARD for patients with NTM lung disease who have moderate-to-high disease activity despite csDMARD monotherapy</head><p>This recommendation is based on the lower expected risk of NTM lung disease associated with csDMARDs compared to bDMARDs and tsDMARDs <ref type="bibr" target="#b55">(56)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Abatacept is conditionally recommended over other bDMARDs and tsDMARDs for patients with NTM lung disease who have moderate-tohigh disease activity despite csDMARDs</head><p>Abatacept is conditionally recommended over other bD MARDs and tsDMARDs based on population data extrapolated from studies on tuberculosis <ref type="bibr" target="#b56">(57)</ref>. There is considerable uncertainty regarding the risk of mycobacterial infections associated with non-TNF inhibitor bDMARDs and tsDMARDs; however, TNF inhibitors are associated with increased rates of mycobacterial infections and should be avoided <ref type="bibr" target="#b57">(58)</ref>.</p><p>The preceding 3 recommendations are conditional because of the very low-certainty evidence supporting the analysis of the differences in treatment outcomes posed by these PICO questions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>The ACR guidelines were developed to provide clinicians with recommendations for decisions frequently faced in clinical practice. Several new topics are included in this update, including recommendations for administration of methotrexate, use of methotrexate in patients with subcutaneous nodules, pulmonary disease, and NAFLD, use of rituximab in patients with hypogammaglobulinemia, and treatment of RA in patients with NTM lung disease. Areas covered in the 2015 guidelines that are not covered in this update include recommendations for patients with hepatitis C and solid malignancies. The panel did not vote on specific recommendations for patients with hepatitis C because curative antiviral therapy is now widely available. The panel did deliberate over PICO questions related to use of DMARDs in patients with solid malignancies. However, given the changing landscape of personalized treatments for many solid malignancies, the voting panel felt that a generalized recommendation was not possible.</p><p>On February 4, 2021, the FDA released a Drug Safety Alert noting a possible increased risk of major cardiovascular events and malignancies (excluding non-melanoma skin cancer) in patients with RA (over the age of 50 years with at least 1 risk factor for cardiovascular disease) participating in a randomized controlled trial designed to compare the safety of tofacitinib to adalimumab <ref type="bibr" target="#b17">(18)</ref>. Recommendations will be reviewed once peerreviewed results are published. Rapidly evolving comparative effectiveness and safety signals associated with JAK inhibitors highlight the need to engage in a shared decision-making process when adjusting DMARDs <ref type="bibr" target="#b15">(16,</ref><ref type="bibr" target="#b58">59)</ref>. In addition, although previous recommendations cautioned against the use of TNF inhibitors in patients with skin cancer (1), the results of more recently published studies examining specific DMARD-related risks of nonmelanoma skin cancer and melanoma do not support making a definite recommendation for or against specific DMARDs <ref type="bibr" target="#b59">(60,</ref><ref type="bibr" target="#b60">61)</ref>.</p><p>The panel also considered PICO questions related to current use of checkpoint inhibitor therapy, but the variability in current practice patterns and differences in treatment for specific cancer types precluded the development of specific recommendations for patients who are candidates for, or are currently receiving checkpoint inhibitor therapy. We anticipate that additional recommendations for patients with systemic rheumatic diseases and solid malignancies will be developed as further data become available. There were vigorous discussions pertaining to recommendations for specific DMARDs in patients with moderate-tohigh disease activity despite csDMARDs and with a history of serious infection. However, the evidence was insufficient to support a recommendation. Future studies (using large registries and network meta-analyses) are needed to support specific recommendations for this patient population.</p><p>The recommendation statements in this update are not directly comparable to the ACR 2015 guidelines (1) because they do not retain the early versus established RA subgroups. Nevertheless, there are some notable differences. First, the 2015 guidelines recommend csDMARD monotherapy, preferably with methotrexate, for patients with both low and moderate/high disease activity, whereas this update recommends an initial trial of hydroxychloroquine or sulfasalazine for those with low disease activity. Second, the 2015 guidelines recommended DMARD tapering for patients who are in remission. In this update, tapering recommendations are made for patients who are in low disease activity or remission in the face of a paucity of data about when and how best to taper. The panel recommended that careful tapering might be considered if the patient wishes to cut back on their use of DMARDs. However, patients should be closely evaluated during any taper, and if a flare occurs, the prior regimen should be reinstituted promptly. Last, this update includes several recommendations against the use of glucocorticoid therapy. These recommendations were made in recognition of the frequent difficulty tapering glucocorticoids leading to undesirable prolonged use and the increasing evidence of the negative impact of glucocorticoids on long-term patient outcomes, including risk for infection, osteoporosis, and cardiovascular disease, in RA and other rheumatic diseases <ref type="bibr" target="#b61">(62)</ref><ref type="bibr" target="#b62">(63)</ref><ref type="bibr" target="#b63">(64)</ref><ref type="bibr" target="#b64">(65)</ref>.</p><p>While consensus was easily reached on the majority of statements, 2 issues required prolonged discussion and debate. The decision on whether patients with an inadequate response to methotrexate should escalate to a bDMARD, tsDMARD, or triple therapy engendered much discussion with contrasting points of view. In the end, a recommendation was made in favor of a bDMARD or tsDMARD because of the more rapid onset of benefit and concerns related to the poor tolerability and durability of triple therapy in real-world practice <ref type="bibr" target="#b12">(13,</ref><ref type="bibr" target="#b13">14)</ref>. In particular, the patient panel highlighted the importance of a rapid onset of benefit after already having had an inadequate response to methotrexate. The conditional recommendation to initiate methotrexate therapy for patients with preexisting mild, stable lung disease was also rigorously debated. While minimizing the risk of toxicity is paramount, the voting panel favored a conditional recommendation to initiate methotrexate therapy in this clinical setting because of the vital role of this DMARD in the overall treatment of RA and lack of other comparable therapies without pulmonary risks.</p><p>Members of the voting panel agreed with the patient panel on the direction and strength of all but 2 recommendations. Patients were in favor of initial treatment with combination csD-MARDs over methotrexate monotherapy because they placed greater value on the incremental benefits associated with combination therapy compared to clinicians. This preference was also stated in the 2015 guidelines <ref type="bibr" target="#b65">(66)</ref>. Patients also strongly preferred discontinuing over a dose reduction of a DMARD whenever possible, whereas most clinicians on the voting panel preferred dose reduction. This discordance reflects patient preference to minimize use of medications once they reach target versus physician preference to minimize flare. However, both the patient and voting panel stressed the variability in patient preferences for tapering. These differences reinforce the importance of using a shared decision-making approach in RA.</p><p>When clinically relevant, recommendations specify the level of disease activity in the patient population (Table <ref type="table" target="#tab_0">1</ref>). However, evidence tables include pooled data from studies that often use different measures of disease activity; thus, specific definitions of low versus moderate-to-high disease activity are not provided for specific recommendations. Despite the large body of literature related to pharmacologic treatments for RA, the review team did not identify high-certainty evidence for many of the questions addressed. This discrepancy is due to the differences between clinically important PICO questions and the specific objectives of clinical trials. For example, few studies have examined how to best dose and administer methotrexate, the most effective and safe use of DMARDs in high-risk populations, and the risk-benefit tradeoffs associated with glucocorticoid use. Moreover, many trials could not be matched to specific PICO questions because of differences between the trials and the PICO questions' specified study populations and treatment comparisons. Thus, many recommendations are based largely on very low-certainty or lowcertainty evidence. Incorporating medical evidence and expert input and consensus into clinical guidelines is core to the GRADE process and strengthens recommendations, particularly when there is limited evidence. Important gaps in knowledge are described in Table <ref type="table" target="#tab_6">7</ref>.</p><p>In summary, this update includes recommendations related to initiation and adjustment of DMARD therapy in patients with RA. It also emphasizes the importance of minimizing use of glucocorticoids. It is expected that additional data may modify the direction and/or strength of specific recommendations. The ACR will update the recommendations and answer these and other questions as new data are published.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>there a time frame before which DMARDs can be started/ resumed in patients with concomitant solid malignancies? * DMARDs = biologic disease-modifying antirheumatic drugs; RA = rheumatoid arthritis; TTT = treat-to-target; bDMARD = biologic DMARD; tsDMARD = targeted synthetic DMARD; NAFLD = nonalcoholic fatty liver disease. for DMARD-naive patients with NAFLD, normal liver enzymes and liver function tests, and no evidence of advanced liver fibrosis who have moderate-to-high disease activity</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Guiding principles*RA requires early evaluation, diagnosis, and management.</figDesc><table><row><cell>Treatment decisions should follow a shared decision-making</cell></row><row><cell>process.</cell></row><row><cell>Treatment decisions should be reevaluated within a minimum of 3</cell></row><row><cell>months based on efficacy and tolerability of the DMARD(s)</cell></row><row><cell>chosen.</cell></row><row><cell>Disease activity levels refer to those calculated using RA disease</cell></row><row><cell>activity measures endorsed by the ACR (10).</cell></row><row><cell>Recommendations are intended for the general RA patient</cell></row><row><cell>population and assume that patients do not have</cell></row><row><cell>contraindications to the options under consideration.</cell></row><row><cell>Recommendations are limited to DMARDs approved by the US</cell></row><row><cell>FDA for treatment of RA.</cell></row><row><cell>csDMARDs: hydroxychloroquine, sulfasalazine, methotrexate,</cell></row><row><cell>leflunomide</cell></row><row><cell>bDMARDs: TNF inhibitors (etanercept, adalimumab, infliximab,</cell></row><row><cell>golimumab, certolizumab pegol), T cell costimulatory inhibitor</cell></row><row><cell>(abatacept), IL-6 receptor inhibitors (tocilizumab, sarilumab),</cell></row><row><cell>anti-CD20 antibody (rituximab) †</cell></row><row><cell>tsDMARDs: JAK inhibitors (tofacitinib, baricitinib, upadacitinib)</cell></row><row><cell>Triple therapy refers to hydroxychloroquine, sulfasalazine, and</cell></row><row><cell>either methotrexate or leflunomide.</cell></row><row><cell>Serious infection refers to an infection requiring intravenous</cell></row><row><cell>antibiotics or hospitalization.</cell></row><row><cell>Biosimilars are considered equivalent to FDA-approved originator</cell></row><row><cell>bDMARDs.</cell></row><row><cell>Recommendations referring to bDMARDs exclude rituximab</cell></row><row><cell>unless patients have had an inadequate response to TNF</cell></row><row><cell>inhibitors (in order to be consistent with FDA approval) or have</cell></row><row><cell>a history of lymphoproliferative disorder for which rituximab is</cell></row><row><cell>an approved therapy.</cell></row><row><cell>Treat-to-target refers to a systematic approach involving frequent</cell></row><row><cell>monitoring of disease activity using validated instruments and</cell></row><row><cell>modification of treatment to minimize disease activity with the</cell></row><row><cell>goal of reaching a predefined target (low disease activity or</cell></row><row><cell>remission).</cell></row><row><cell>Target refers to low disease activity or remission.</cell></row><row><cell>Recommendations specify that patients be at target (low disease</cell></row><row><cell>activity or remission) for at least 6 months prior to tapering.</cell></row><row><cell>Dose reduction refers to lowering the dose or increasing the</cell></row><row><cell>dosing interval of a DMARD. Gradual discontinuation of a</cell></row><row><cell>DMARD is defined as gradually lowering the dose of a DMARD</cell></row><row><cell>and subsequently stopping it.</cell></row></table><note><p>* RA = rheumatoid arthritis; DMARDs = disease-modifying antirheumatic drugs; ACR = American College of Rheumatology; FDA = Food and Drug Administration; csDMARDs = conventional DMARDs; bDMARDs = biologic DMARDs; TNF = tumor necrosis factor; IL-6 = interleukin-6; tsDMARDs = targeted synthetic DMARDs. † Anakinra was not included due to infrequent use for patients with RA.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Disease-modifying antirheumatic drugs (DMARDs) initiation*</figDesc><table><row><cell></cell><cell></cell><cell>Based on the evidence</cell><cell>Evidence</cell></row><row><cell></cell><cell>Certainty of</cell><cell>report(s) of the</cell><cell>table(s), in</cell></row><row><cell>Recommendations</cell><cell>evidence</cell><cell>following PICO(s) †</cell><cell>Supp. App. 2</cell></row><row><cell>Initiation of treatment in DMARD-naive patients with moderate-to-high</cell><cell></cell><cell></cell><cell></cell></row><row><cell>disease activity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Methotrexate monotherapy is strongly recommended over:</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hydroxychloroquine or sulfasalazine</cell><cell>Very low/low ‡</cell><cell>PICO 2a.C1/C2</cell><cell>p. 14-5</cell></row><row><cell>bDMARD or tsDMARD monotherapy</cell><cell>Very low/moderate</cell><cell>PICO 5a.C1-4/C5 §</cell><cell>p. 61-78</cell></row><row><cell>Combination of methotrexate plus a non-TNF inhibitor bDMARD or</cell><cell>Low/very low</cell><cell>PICO 6a.C2-4/C5 §</cell><cell>p. 109, 117-28</cell></row><row><cell>tsDMARD ¶</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Methotrexate monotherapy is conditionally recommended over:</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Leflunomide</cell><cell>Low</cell><cell>PICO 2a.C3</cell><cell>p. 18</cell></row><row><cell>Dual or triple csDMARD therapy ¶</cell><cell>Moderate</cell><cell>PICO 4a.C1-C2</cell><cell>p. 46-9</cell></row><row><cell>Combination of methotrexate plus a TNF inhibitor ¶</cell><cell>Low</cell><cell>PICO 6a.C1</cell><cell>p. 110</cell></row><row><cell>Initiation of a csDMARD without short-term (&lt;3 months) glucocorticoids is</cell><cell>Very low</cell><cell>PICO 7a</cell><cell>p. 167</cell></row><row><cell>conditionally recommended over initiation of a csDMARD with short-</cell><cell></cell><cell></cell><cell></cell></row><row><cell>term glucocorticoids.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Initiation of a csDMARD without longer-term (≥3 months) glucocorticoids is</cell><cell>Moderate</cell><cell>PICO 8a</cell><cell>p. 170</cell></row><row><cell>strongly recommended over initiation of a csDMARD with longer-term</cell><cell></cell><cell></cell><cell></cell></row><row><cell>glucocorticoids.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Initiation of treatment in DMARD-naive patients with low disease activity</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hydroxychloroquine is conditionally recommended over other csDMARDs.</cell><cell>Very low</cell><cell>PICO 1a.C1-4</cell><cell>p. 1-6</cell></row><row><cell>Sulfasalazine is conditionally recommended over methotrexate.</cell><cell>Very low</cell><cell>PICO 1a.C2</cell><cell>p. 2</cell></row><row><cell>Methotrexate is conditionally recommended over leflunomide.</cell><cell>Very low</cell><cell>PICO 1a.C3</cell><cell>p. 5</cell></row><row><cell>Initiation of treatment in csDMARD-treated, but methotrexate-naive,</cell><cell></cell><cell></cell><cell></cell></row><row><cell>patients with moderate-to-high disease activity#</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Methotrexate monotherapy is conditionally recommended over the</cell><cell>Moderate/very low</cell><cell>PICO 6b.C1-4/C5 §</cell><cell>p. 136-56</cell></row><row><cell>combination of methotrexate plus a bDMARD or tsDMARD.**</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Methotrexate administration*</figDesc><table><row><cell></cell><cell></cell><cell>Based on the evidence</cell><cell>Evidence</cell></row><row><cell></cell><cell>Certainty of</cell><cell>report(s) of the</cell><cell>table(s), in</cell></row><row><cell>Recommendations</cell><cell>evidence</cell><cell>following PICO(s)</cell><cell>Supp. App. 2</cell></row><row><cell>Oral methotrexate is conditionally recommended over subcutaneous</cell><cell>Moderate</cell><cell>PICO 9</cell><cell>p. 181</cell></row><row><cell>methotrexate for patients initiating methotrexate.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Initiation/titration of methotrexate to a weekly dose of at least 15 mg within 4</cell><cell>Moderate/</cell><cell>PICO 10.C1-C3</cell><cell>p. 184-5</cell></row><row><cell>to 6 weeks is conditionally recommended over initiation/titration to a</cell><cell>very low ‡</cell><cell></cell><cell></cell></row><row><cell>weekly dose of &lt;15 mg. †</cell><cell></cell><cell></cell><cell></cell></row><row><cell>A split dose of oral methotrexate over 24 hours or subcutaneous injections,</cell><cell>Very low</cell><cell>PICO 16 and PICO 15</cell><cell>p. 206-10</cell></row><row><cell>and/or an increased dose of folic/folinic acid, is conditionally</cell><cell></cell><cell></cell><cell></cell></row><row><cell>recommended over switching to alternative DMARD(s) for patients not</cell><cell></cell><cell></cell><cell></cell></row><row><cell>tolerating oral weekly methotrexate.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Very low</cell><cell>PICO 18</cell><cell>p. 235</cell></row></table><note><p>Switching to subcutaneous methotrexate is conditionally recommended over the addition of/switching to alternative DMARD(s) for patients taking oral methotrexate who are not at target.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Treatment modification*</figDesc><table><row><cell></cell><cell></cell><cell>Based on the evidence</cell><cell>Evidence</cell></row><row><cell></cell><cell>Certainty of</cell><cell>report(s) of the</cell><cell>table(s), in</cell></row><row><cell>Recommendations</cell><cell>evidence</cell><cell>following PICO(s)</cell><cell>Supp. App. 2</cell></row><row><cell>A TTT approach is strongly recommended over usual care for patients who have not</cell><cell>Low</cell><cell>PICO 12.a</cell><cell>p. 191</cell></row><row><cell>been previously treated with bDMARDs or tsDMARDs.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>A TTT approach is conditionally recommended over usual care for patients who</cell><cell>Very low</cell><cell>PICO 12.b</cell><cell>p. 199</cell></row><row><cell>have had an inadequate response to bDMARDs or tsDMARDs.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>A minimal initial treatment goal of low disease activity is conditionally</cell><cell>Low</cell><cell>PICO 13</cell><cell>p. 201</cell></row><row><cell>recommended over a goal of remission.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Addition of a bDMARD or tsDMARD is conditionally recommended over triple therapy</cell><cell>Very low</cell><cell>PICO 19.C2-C6 †</cell><cell>p. 240-1</cell></row><row><cell>for patients taking maximally tolerated doses of methotrexate who are not at target.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Switching to a bDMARD or tsDMARD of a different class is conditionally</cell><cell>Very low</cell><cell>PICO 24-27 †</cell><cell>p. 293-338</cell></row><row><cell>recommended over switching to a bDMARD or tsDMARD belonging to the same</cell><cell></cell><cell></cell><cell></cell></row><row><cell>class for patients taking a bDMARD or tsDMARD who are not at target.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Very low</cell><cell>PICO 23</cell><cell>p. 292</cell></row><row><cell></cell><cell>Very low</cell><cell>PICO 28.C1-C2</cell><cell>p. 339-40</cell></row></table><note><p><p>Addition of/switching to DMARDs is conditionally recommended over continuation of glucocorticoids for patients taking glucocorticoids to remain at target.</p>Addition of/switching to DMARDs (with or without IA glucocorticoids) is conditionally recommended over the use of IA glucocorticoids alone for patients taking DMARDs who are not at target.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc>Tapering disease-modifying antirheumatic drugs (DMARDs)*</figDesc><table><row><cell></cell><cell></cell><cell>Based on the evidence</cell><cell>Evidence</cell></row><row><cell></cell><cell>Certainty of</cell><cell>report(s) of the</cell><cell>table(s), in</cell></row><row><cell>Recommendations</cell><cell>evidence</cell><cell>following PICO(s)</cell><cell>Supp. App. 2</cell></row><row><cell>Continuation of all DMARDs at their current dose is conditionally</cell><cell>Low</cell><cell>PICO 54.a</cell><cell>p. 381</cell></row><row><cell>recommended over a dose reduction of a DMARD.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Dose reduction is conditionally recommended over gradual</cell><cell>Low</cell><cell>PICO 52.C2 and PICO 53. C2</cell><cell>p. 351-5, p. 372-6</cell></row><row><cell>discontinuation of a DMARD.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gradual discontinuation is conditionally recommended over abrupt</cell><cell>Low</cell><cell>PICO 52.C1 and PICO 53.C1</cell><cell>p. 351, 372</cell></row><row><cell>discontinuation of a DMARD.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gradual discontinuation of sulfasalazine is conditionally</cell><cell>Very low</cell><cell>PICO 58</cell><cell>p. 400</cell></row><row><cell>recommended over gradual discontinuation of hydroxychloroquine</cell><cell></cell><cell></cell><cell></cell></row><row><cell>for patients taking triple therapy who wish to discontinue a DMARD.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Gradual discontinuation of methotrexate is conditionally</cell><cell>Very low</cell><cell>PICO 59.C1</cell><cell>p. 401</cell></row><row><cell>recommended over gradual discontinuation of the bDMARD or</cell><cell></cell><cell></cell><cell></cell></row><row><cell>tsDMARD for patients taking methotrexate plus a bDMARD or</cell><cell></cell><cell></cell><cell></cell></row><row><cell>tsDMARD who wish to discontinue a DMARD.</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>* PICO = population, intervention, comparator, and outcomes; Supp. App. 2 = Supplementary Appendix 2, available on the Arthritis Care &amp; Research website at http://onlinelibrary.wiley.com/doi/10.1002/acr.24596/abstract; bDMARD = biologic DMARD; tsDMARD = targeted synthetic DMARD.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6 .</head><label>6</label><figDesc>Specific patient populations*</figDesc><table><row><cell></cell><cell></cell><cell>Based on the evidence</cell><cell>Evidence</cell></row><row><cell></cell><cell>Certainty of</cell><cell>report(s) of the</cell><cell>table(s), in</cell></row><row><cell>Recommendations</cell><cell>evidence</cell><cell>following PICO(s)</cell><cell>Supp. App. 2</cell></row><row><cell>Subcutaneous nodules</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Methotrexate is conditionally recommended over alternative DMARDs for</cell><cell>Very low</cell><cell>PICO 64</cell><cell>p. 427</cell></row><row><cell>patients with subcutaneous nodules who have moderate-to-high disease</cell><cell></cell><cell></cell><cell></cell></row><row><cell>activity.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Switching to a non-methotrexate DMARD is conditionally recommended over</cell><cell>Very low</cell><cell>PICO 65</cell><cell>p. 428</cell></row><row><cell>continuation of methotrexate for patients taking methotrexate with progressive</cell><cell></cell><cell></cell><cell></cell></row><row><cell>subcutaneous nodules.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Pulmonary disease</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Methotrexate is conditionally recommended over alternative DMARDs for the</cell><cell>Very low</cell><cell>PICO 67</cell><cell>p. 430</cell></row><row><cell>treatment of inflammatory arthritis for patients with clinically diagnosed mild</cell><cell></cell><cell></cell><cell></cell></row><row><cell>and stable airway or parenchymal lung disease who have moderate-to-high</cell><cell></cell><cell></cell><cell></cell></row><row><cell>disease activity.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Heart failure</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Addition of a non-TNF inhibitor bDMARD or tsDMARD is conditionally</cell><cell>Very low</cell><cell>PICO 70</cell><cell>p. 435</cell></row><row><cell>recommended over addition of a TNF inhibitor for patients with NYHA class III or</cell><cell></cell><cell></cell><cell></cell></row><row><cell>IV heart failure and an inadequate response to csDMARDs.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Switching to a non-TNF inhibitor bDMARD or tsDMARD is conditionally</cell><cell>Very low</cell><cell>PICO 71</cell><cell>p. 436</cell></row><row><cell>recommended over continuation of a TNF inhibitor for patients taking a TNF</cell><cell></cell><cell></cell><cell></cell></row><row><cell>inhibitor who develop heart failure.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Lymphoproliferative disorder</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Rituximab is conditionally recommended over other DMARDs for patients who</cell><cell>Very low</cell><cell>PICO 75 and PICO 76</cell><cell>p. 446-7</cell></row><row><cell>have a previous lymphoproliferative disorder for which rituximab is an approved</cell><cell></cell><cell></cell><cell></cell></row><row><cell>treatment and who have moderate-to-high disease activity.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Hepatitis B infection</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Prophylactic antiviral therapy is strongly recommended over frequent monitoring</cell><cell>Very low</cell><cell>PICO 82</cell><cell>p. 459</cell></row><row><cell>alone for patients initiating rituximab who are hepatitis B core antibody positive</cell><cell></cell><cell></cell><cell></cell></row><row><cell>(regardless of hepatitis B surface antigen status).</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Prophylactic antiviral therapy is strongly recommended over frequent monitoring</cell><cell>Very low</cell><cell>PICO 83</cell><cell>p. 464</cell></row><row><cell>alone for patients initiating any bDMARD or tsDMARD who are hepatitis B core</cell><cell></cell><cell></cell><cell></cell></row><row><cell>antibody positive and hepatitis B surface antigen positive.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Frequent monitoring alone is conditionally recommended over prophylactic</cell><cell>Very low</cell><cell>PICO 84</cell><cell>p. 471</cell></row><row><cell>antiviral therapy for patients initiating a bDMARD other than rituximab or a</cell><cell></cell><cell></cell><cell></cell></row><row><cell>tsDMARD who are hepatitis B core antibody positive and hepatitis B surface</cell><cell></cell><cell></cell><cell></cell></row><row><cell>antigen negative.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Nonalcoholic fatty liver disease</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Methotrexate is conditionally recommended over alternative DMARDs for</cell><cell>Very low</cell><cell>PICO 87</cell><cell>p. 489</cell></row><row><cell>DMARD-naive patients with nonalcoholic fatty liver disease, normal liver</cell><cell></cell><cell></cell><cell></cell></row><row><cell>enzymes and liver function tests, and no evidence of advanced liver fibrosis who</cell><cell></cell><cell></cell><cell></cell></row><row><cell>have moderate-to high disease activity.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Persistent hypogammaglobulinemia without infection</cell><cell></cell><cell></cell><cell></cell></row><row><cell>In the setting of persistent hypogammaglobulinemia without infection,</cell><cell>Very low</cell><cell>PICO 66</cell><cell>p. 429</cell></row><row><cell>continuation of rituximab therapy for patients at target is conditionally</cell><cell></cell><cell></cell><cell></cell></row><row><cell>recommended over switching to a different bDMARD or tsDMARD.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Previous serious infection</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Addition of csDMARDs is conditionally recommended over addition of a bDMARD</cell><cell>Very low</cell><cell>PICO 88</cell><cell>p. 490</cell></row><row><cell>or tsDMARD for patients with a serious infection within the previous 12 months</cell><cell></cell><cell></cell><cell></cell></row><row><cell>who have moderate-to-high disease activity despite csDMARD monotherapy.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Addition of/switching to DMARDs is conditionally recommended over initiation/</cell><cell>Very low</cell><cell>PICO 90 and PICO 91</cell><cell>p. 496-7</cell></row><row><cell>dose escalation of glucocorticoids for patients with a serious infection within the</cell><cell></cell><cell></cell><cell></cell></row><row><cell>previous 12 months who have moderate-to-high disease activity.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Nontuberculous mycobacterial lung disease</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Use of the lowest possible dose of glucocorticoids (discontinuation if possible) is</cell><cell>Very low</cell><cell>No relevant PICO</cell><cell></cell></row><row><cell>conditionally recommended over continuation of glucocorticoids for patients</cell><cell></cell><cell></cell><cell></cell></row><row><cell>with nontuberculous mycobacterial lung disease.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Addition of csDMARDs is conditionally recommended over addition of a</cell><cell>Very low</cell><cell>PICO 92</cell><cell>p. 498</cell></row><row><cell>bDMARD or tsDMARD for patients with nontuberculous mycobacterial</cell><cell></cell><cell></cell><cell></cell></row><row><cell>lung disease who have moderate-to-high disease activity despite csDMARD</cell><cell></cell><cell></cell><cell></cell></row><row><cell>monotherapy.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Abatacept is conditionally recommended over other bDMARDs and tsDMARDs</cell><cell>Very low</cell><cell>PICO 93</cell><cell>p. 499</cell></row><row><cell>for patients with nontuberculous mycobacterial lung disease who have</cell><cell></cell><cell></cell><cell></cell></row><row><cell>moderate-to-high disease activity despite csDMARDs.</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 7 .</head><label>7</label><figDesc>Key clinical questions requiring further research*</figDesc><table><row><cell>Methotrexate administration</cell></row><row><cell>At what dose and route of administration should methotrexate</cell></row><row><cell>be started?</cell></row><row><cell>Does switching to non-methotrexate DMARDs improve</cell></row><row><cell>tolerability over increasing the dose of folic acid, or using folinic</cell></row><row><cell>acid or using split dose or subcutaneous dosing, for RA patients</cell></row><row><cell>with side effects when taking methotrexate?</cell></row><row><cell>TTT</cell></row><row><cell>What is the efficacy of TTT in different patient populations (early</cell></row><row><cell>versus late, bDMARD-or tsDMARD-exposed, elderly-onset,</cell></row><row><cell>comorbidities)?</cell></row><row><cell>What is the optimal target and method of assessment of disease</cell></row><row><cell>activity for TTT in different populations?</cell></row><row><cell>Comparative effectiveness/safety</cell></row><row><cell>What is the comparative effectiveness/safety between bDMARDs</cell></row><row><cell>and tsDMARDs?</cell></row><row><cell>What is the comparative effectiveness/safety between adding</cell></row><row><cell>bDMARDs or tsDMARDs to methotrexate and switching to</cell></row><row><cell>bDMARD or tsDMARD monotherapy?</cell></row><row><cell>What is the comparative effectiveness/safety between TTT by</cell></row><row><cell>maximizing use of methotrexate (i.e., escalating dose via</cell></row><row><cell>subcutaneous route) and adding/switching to bDMARD or</cell></row><row><cell>tsDMARD monotherapy?</cell></row><row><cell>When, which, and how should DMARDs be tapered/</cell></row><row><cell>discontinued?</cell></row><row><cell>Do clinical or biologic markers predict a differential response to</cell></row><row><cell>DMARDs?</cell></row><row><cell>Comorbidities</cell></row><row><cell>What is the effectiveness/safety of alternative treatment</cell></row><row><cell>strategies in RA patients with clinical lung disease or NAFLD?</cell></row><row><cell>Which DMARDs can be initiated or continued after receiving</cell></row><row><cell>checkpoint inhibitor therapy?</cell></row><row><cell>Which DMARDs should be used in patients with solid</cell></row><row><cell>malignancies, including skin cancer?</cell></row><row><cell>Is</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Stanley B. Cohen, MD</rs>, for his contributions during the scoping phase of the project. We thank <rs type="person">Cassandra Calabrese</rs>, DO, <rs type="person">Leonard Calabrese</rs>, DO, <rs type="person">Joseph Lim, MD</rs>, <rs type="person">Danielle Antin-Ozerkis, MD</rs>, <rs type="person">Marcus R. Pereira, MD, MPH</rs>, <rs type="person">Jason E. Stout, MD</rs>, <rs type="funder">MHS</rs>, and <rs type="person">Kevin Winthrop, MD, MPH</rs>, for their expert input as the voting panel considered recommendations related to comorbidities. We thank <rs type="person">Nancy Baker</rs>, <rs type="person">ScD, MPH</rs>, <rs type="grantNumber">OTR/I</rs>, and <rs type="person">Daniel White</rs>, <rs type="institution">PT, ScD, MSc</rs>, for their contributions during the scoping phase of the project, as well as their input during early deliberations by the voting panel. We thank the patients who (along with authors <rs type="person">Kristine Carandang, PhD</rs>, <rs type="grantNumber">OTR/L</rs>, and <rs type="person">Shilpa Venkatachalam, PhD</rs>) participated in the patient panel meeting: <rs type="person">Susan Campbell</rs>, <rs type="person">Rachelle Crow-Hercher</rs>, <rs type="projectName">MEd</rs>, <rs type="person">Doug Davis</rs>, <rs type="person">Sidney Harper</rs>, <rs type="person">Faith Powell</rs>, <rs type="person">Zenethia Roberts</rs>, <rs type="person">Mary Turner</rs>, and <rs type="person">C. Whitney White</rs>, <rs type="person">PharmD</rs>. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Regina Parker</rs> for assistance in organizing the face-to-face meeting and coordinating the administrative aspects of the project, <rs type="person">Robin Lane</rs> for assistance in manuscript preparation, and <rs type="person">Jocelyn Givens</rs> for assistance with recruitment for the patient panel. We thank <rs type="person">Janet Waters</rs> and <rs type="person">Janet Joyce</rs> for their assistance in developing the literature search strategy, as well as performing the initial literature search and update searches.</p></div>
+			</div>
+			<div type="funding">
+<div><p>Supported by the <rs type="funder">American College of Rheumatology</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_XXKFRVC">
+					<idno type="grant-number">OTR/I</idno>
+				</org>
+				<org type="funded-project" xml:id="_a2sMh4K">
+					<idno type="grant-number">OTR/L</idno>
+					<orgName type="project" subtype="full">MEd</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be submitted for publication. Dr. Fraenkel had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. Study conception and design. Fraenkel, Bathon, England, St.Clair, Deane, Genovese, Kerr, Kremer, Sparks, Venkatachalam, Weinblatt, George, Johnson, Turner, Yaacoub, Akl. Acquisition of data. Fraenkel, Bathon, England, St.Clair, Carandang, Deane, Genovese, Kerr, Kremer, J. Singh, Sparks, Al-Gibbawi, Baker, Barton, Cappelli, George, Johnson, Kahale, Karam, Khamis, Navarro-Millán, Mirza, Schwab, N. Singh, Turgunbaev, Turner, Yaacoub, Akl. Analysis and interpretation of data. Fraenkel, Bathon, England, St.Clair, Arayssi, Deane, Genovese, Huston, Kerr, Kremer, Nakamura, Russell, J. Singh, Smith, Sparks, Venkatachalam, Weinblatt, Al-Gibbawi, Barbour, Barton, Chamseddine, Johnson, Kahale, Karam, Khamis, Navarro-Millán, Mirza, Schwab, N. Singh, Turgunbaev, Yaacoub, Akl.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology guideline for the treatment of rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Bridges</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Bannuru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Sullivan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="2015">2015. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology 2008 recommendations for the use of nonbiologic and biologic disease-modifying antirheumatic drugs in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Patkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Anuntiyo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Finney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="762" to="784" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">2012 update of the 2008 American College of Rheumatology recommendations for the use of disease-modifying antirheumatic drugs and biologic agents in the treatment of rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Furst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bharat</forename><forename type="middle">A</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Kavanaugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Kremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="625" to="639" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology/American Association of Hip and Knee Surgeons guideline for the perioperative management of antirheumatic medication in patients with rheumatic diseases undergoing elective total hip or total knee arthroplasty</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Abdel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1538" to="1551" />
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology guideline for the management of reproductive health in rheumatic and musculoskeletal diseases</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Sammaritano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Bermas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Chakravarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Clowse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Lockshin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="461" to="488" />
+			<date type="published" when="2020">2020. 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 15. Going from evidence to recommendation-determinants of a recommendation&apos;s direction and strength</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schunemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pottie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Meerpohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Coello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="726" to="735" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A number of factors explain why WHO guideline developers make strong recommendations inconsistent with GRADE guidance</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Gionfriddo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Stoltzfus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Neumann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="111" to="122" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alonso-Coello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">AGREE II: advancing guideline development, reporting and evaluation in health care</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Brouwers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Kho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Browman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Burgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cluzeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Feder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CMAJ</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="839" to="842" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">2019 Update of the American College of Rheumatology recommended rheumatoid arthritis disease activity measures</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Tiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bergman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Mikuls</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1540" to="1555" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Poor prognostic factors guiding treatment decisions in rheumatoid arthritis patients: a review of data from randomized clinical trials and cohort studies</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Albrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">68</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Window of opportunity in rheumatoid arthritis-definitions and supporting evidence: from old to new perspectives</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Burgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Raza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Van Der Helm-Van Mil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RMD Open</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">870</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Real-world outcomes associated with triple therapy versus tumor necrosis factor inhibitor/methotrexate therapy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Pappas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Harrold</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/acr.24253/abstract</idno>
+		<ptr target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24253/abstract" />
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Low persistence rates in patients with rheumatoid arthritis treated with triple therapy and adverse drug events associated with sulfasalazine</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Erhardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Cannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Mikuls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Sauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1326" to="1335" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Tocilizumab in early progressive rheumatoid arthritis: FUNCTION, a randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Burmester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Rigby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Van Vollenhoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubbert-Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kelman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1081" to="1091" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Efficacy and safety of upadacitinib monotherapy in methotrexate-naive patients with moderately-to-severely active rheumatoid arthritis (SELECT-EARLY): a multicenter, multi-country, randomized, double-blind, active comparator-controlled trial</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Vollenhoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pangan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1607" to="1620" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">press -relea se-detai ls/2021/Pfize r-Share s-Co-Prima ry-Endpo int-Resul ts-from-Post-Marke ting-Requi red-Safet y-Study -of-XELJA NZ-tofac itini b-in-Subje cts-with-Rheum atoid -Arthr itis</title>
+		<author>
+			<persName><surname>Pfizer</surname></persName>
+		</author>
+		<ptr target="-RA/default.aspx" />
+		<imprint/>
+	</monogr>
+	<note>Pfizer shares co-primary endpoint results from postmarketing required safety study of Xeljanz (Tofacitinib) in subjects with rheumatoid arthritis (RA)</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">drug safety communication-initial safety trial results find increased risk of serious heart-related problems and cancer with arthritis and ulcerative colitis medicine</title>
+		<author>
+			<persName><forename type="first">Xeljanz</forename><surname>Xeljanz</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Xr</surname></persName>
+		</author>
+		<ptr target="https://www.fda.gov/safety/medic" />
+		<imprint>
+			<publisher>US Food and Drug Administration</publisher>
+		</imprint>
+	</monogr>
+	<note>al-produ ct-safet y-infor matio n/xelja nz-xelja nz-xr-tofac itini bdrug-safet y-commu nicat ion-initi al-safet y-trial -resul ts-find. incre ased?utm_mediu m=email &amp;utm_sourc e=govde livery</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Efficacy and toxicity of methotrexate (MTX) monotherapy versus MTX combination therapy with non-biological disease-modifying antirheumatic drugs in rheumatoid arthritis: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Katchamart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trudeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Phumethum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bombardier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1105" to="1112" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Certolizumab pegol in combination with dose-optimised methotrexate in DMARD-naïve patients with early, active rheumatoid arthritis with poor prognostic factors: 1-year results from C-EARLY, a randomised, double-blind, placebo-controlled phase III study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Emery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Bingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Burmester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Bykerk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Furst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mariette</forename><forename type="middle">X</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="96" to="104" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Induction therapy with adalimumab plus methotrexate for 24 weeks followed by methotrexate monotherapy up to week 48 versus methotrexate therapy alone for DMARD-naive patients with early rheumatoid arthritis: HIT HARD, an investigator-initiated study</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Detert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bastian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Listing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wassenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liebhaber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="844" to="850" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A randomised controlled trial of etanercept and methotrexate to induce remission in early inflammatory arthritis: the EMPIRE trial</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Villeneuve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Hensor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Wakefield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Conaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="1027" to="1036" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Head-to-head, randomised, crossover study of oral versus subcutaneous methotrexate in patients with rheumatoid arthritis: drug-exposure limitations of oral methotrexate at doses ≥15 mg may be overcome with subcutaneous administration</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Schiff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Jaffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Freundlich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="1549" to="1551" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Optimal dosage and route of administration of methotrexate in rheumatoid arthritis: a systematic review of the literature</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Visser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Van Der Heijde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1094" to="1099" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The frequency of remission and low disease activity in patients with rheumatoid arthritis, and their ability to identify people with low disability and normal quality of life</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">C</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ibrahim</forename><forename type="middle">F</forename><surname>Panayi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Garrood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vincent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="20" to="26" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Triple therapy versus biologic therapy for active rheumatoid arthritis: a cost-effectiveness analysis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bansback</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Phibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Dell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Brophy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Keystone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="8" to="16" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A randomized comparative effectiveness study of oral triple therapy versus etanercept plus methotrexate in early aggressive rheumatoid arthritis: the Treatment of Early Aggressive Rheumatoid Arthritis Trial</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Moreland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Dell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Paulus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bathon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>St</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Clair</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="2824" to="2835" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Therapies for active rheumatoid arthritis after methotrexate failure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>O'dell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Mikuls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ahluwalia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brophy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Warren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<biblScope unit="page" from="307" to="318" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Conventional combination treatment versus biological treatment in methotrexate-refractory early rheumatoid arthritis: 2 year follow-up of the randomised, non-blinded, parallelgroup Swefot trial</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Van Vollenhoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Geborek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Forslind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Albertsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ernestam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Petersson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="page" from="1712" to="1720" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Persistence with conventional triple therapy versus a tumor necrosis factor inhibitor and methotrexate in US veterans with rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Leng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Mikuls</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="313" to="322" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">How to treat patients with rheumatoid arthritis when methotrexate has failed? The use of a multiple propensity score to adjust for confounding by indication in observational studies</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bergstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Winchow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chopra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Salomon-Escoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Fonseca</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="25" to="30" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Maintenance of remission with combination etanercept-DMARD therapy versus DMARDs alone in active rheumatoid arthritis: results of an international treat-to-target study conducted in regions with limited biologic access</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pavelka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Akkoç</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Al-Maini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Zerbini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Karateev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Nasonov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatol Int</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="1469" to="1479" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Stopping tumor necrosis factor inhibitor treatment in patients with established rheumatoid arthritis in remission or with stable low disease activity: a pragmatic multicenter, open-label randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">Ghiti</forename><surname>Moghadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vonkeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Klooster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Tekstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Schaardenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Starmans-Kool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1810" to="1817" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Disease activity guided dose reduction and withdrawal of adalimumab or etanercept compared with usual care in rheumatoid arthritis: open label, randomised controlled, non-inferiority trial</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Van Herwaarden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Der Maas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Minten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">H</forename><surname>Van Den Hoogen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kievit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Van Vollenhoven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="page">1389</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Full dose, reduced dose or discontinuation of etanercept in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Van Vollenhoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Østergaard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leirisalo-Repo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Uhlig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Larsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="52" to="58" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A phase III study evaluating continuation, tapering, and withdrawal of certolizumab pegol after one year of therapy in patients with early rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Weinblatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Bingham</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Iii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Burmester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Bykerk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Furst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mariette</forename><forename type="middle">X</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1937" to="1948" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Immunogenicity of biologics in chronic inflammatory diseases: a systematic review</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Strand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Al-Saleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Barile-Fabris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Horiuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takeuchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BioDrugs</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="299" to="316" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A review of methotrexate-induced accelerated nodulosis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Patatanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pharmacotherapy</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1157" to="1162" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Risk factors for methotrexate-induced lung injury in patients with rheumatoid arthritis: a multicenter, case-control study</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Alarcon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Kremer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Macaluso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Weinblatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Cannon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Palmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="356" to="364" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Experience with methotrexate-associated pneumonitis in northeastern England: comment on the article by Kremer et al [letter]</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Bartram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1327" to="1328" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A fatal case of acute exacerbation of interstitial lung disease in a patient with rheumatoid arthritis during treatment with tocilizumab</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Kawashiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kawakami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ishimatsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Eguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatol Int</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="4023" to="4026" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Fatal exacerbation of rheumatoid arthritis associated fibrosing alveolitis in patients given infliximab</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ostor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Crisp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Somerville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">329</biblScope>
+			<biblScope unit="page">1266</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Pulmonary fibrosis in a patient with rheumatoid arthritis treated with adalimumab</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Van Der Laan-Baalbergen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Huizinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Breedveld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Van Laar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="157" to="159" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Interstitial pneumonitis associated with infliximab therapy without methotrexate treatment</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Taki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kawagishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shinoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hounoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ogawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sugiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatol Int</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="275" to="276" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Interstitial lung diseases induced or exacerbated by DMARDS and biologic agents in rheumatoid arthritis: a systematic literature review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Roubille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Haraoui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="613" to="626" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Randomized, double-blind, placebo-controlled, pilot trial of infliximab, a chimeric monoclonal antibody to tumor necrosis factoralpha, in patients with moderate-to-severe heart failure: results of the anti-TNF Therapy Against Congestive Heart Failure (ATTACH) trial</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Packer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Fasanmade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Willerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="3133" to="3140" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Targeted anticytokine therapy in patients with chronic heart failure: results of the Randomized Etanercept Worldwide Evaluation (RENEWAL)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mcmurray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Packer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Swedberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Borer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Colucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="1594" to="1602" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Update on prevention, diagnosis, and treatment of chronic hepatitis B: AASLD 2018 hepatitis B guidance</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Terrault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Asf</forename><surname>Lok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Mcmahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Jonas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hepatology</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1560" to="1599" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The diagnosis and management of nonalcoholic fatty liver disease: practice guidance from the</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Liver Dis (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">81</biblScope>
+			<date type="published" when="2018">2018</date>
+			<publisher>American Association for the Study of Liver Diseases</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Risk of serious infection in patients with rheumatoid arthritis treated with biologic versus nonbiologic disease-modifying antirheumatic drugs</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ozen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pedro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wolfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Michaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACR Open Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="424" to="432" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Use of nonbiologic disease-modifying antirheumatic drugs and risk of infection in patients with rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lacaille</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Guh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abrahamowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Anis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Esdaile</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1074" to="1081" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Immediate and delayed impact of oral glucocorticoid therapy on risk of serious infection in older patients with rheumatoid arthritis: a nested case-control analysis</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abrahamowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Beauchamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bernatsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suissa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1128" to="1133" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Risk of biologics and glucocorticoids in patients with rheumatoid arthritis undergoing arthroplasty: a cohort study</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Winthrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Alemao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Connolly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page" from="825" to="836" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Association between inhaled corticosteroid use and pulmonary nontuberculous mycobacterial infection</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Winthrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sharifi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">U</forename><surname>Nasiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ruoss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Am Thorac Soc</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="1169" to="1176" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Risk factors and outcomes of nontuberculous mycobacterial disease among rheumatoid arthritis patients: a case-control study in a TB endemic area</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">29443</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Increased risk of mycobacterial infections associated with anti-rheumatic medications</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Brode</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Jamieson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Campitelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kwong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Paterson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thorax</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="677" to="682" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Tuberculosis risk in patients treated with non-anti-tumor necrosis factor-α (TNF-α) targeted biologics and recently licensed TNF-α inhibitors: data from clinical trials and national registries</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cantini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Niccoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Goletti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol Suppl</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="56" to="64" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Mycobacterial diseases and antitumour necrosis factor therapy in USA</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Winthrop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Baxter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Varley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Baddley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="37" to="42" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Trial of upadacitinib or abatacept in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rubbert-Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Enejosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pangan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Haraoui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rischmueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Khan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="page" from="1511" to="1521" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Incidence of melanoma and other malignancies among rheumatoid arthritis patients treated with methotrexate</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Buchbinder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Heuzenroeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Wluka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="794" to="799" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Risk of invasive melanoma in patients with rheumatoid arthritis treated with biologics: results from a collaborative project of 11 European biologic registers</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Mercer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Askling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Raaschou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dreyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Hetland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="386" to="391" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Glucocorticoid dose thresholds associated with all-cause and cardiovascular mortality in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Del Rincón</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Battafarano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Restrepo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Erikson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Escalante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="264" to="272" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Adverse events of glucocorticoids during treatment of rheumatoid arthritis: lessons from cohort and registry studies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bijlsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Buttgereit</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">Suppl 2</biblScope>
+			<biblScope unit="page" from="3" to="5" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Population-based assessment of adverse events associated with long-term glucocorticoid use</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Westfall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Allison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bijlsma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="420" to="426" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Dose-related patterns of glucocorticoid-induced side effects</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thiele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Gromnica-Ihle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Demary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dreher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1119" to="1124" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">When patients write the guidelines: patient panel recommendations for the treatment of rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fraenkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Clayton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Crow-Hercher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hazel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="26" to="35" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

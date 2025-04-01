@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2023 American College of Rheumatology (ACR)/American College of Chest Physicians (CHEST) Guideline for the Screening and Monitoring of Interstitial Lung Disease in People with Systemic Autoimmune Rheumatic Diseases</title>
+				<funder>
+					<orgName type="full">National Scleroderma Foundation</orgName>
+				</funder>
+				<funder ref="#_A6ASjuM">
+					<orgName type="full">Pulmonary Fibrosis Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">CAE</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Boston University Medical Center</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Johns Hopkins University School of Medicine</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Global Healthy Living Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>Dr</roleName><forename type="first">Sindhu</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+							<email>sindhu.johnson@uhn.ca.</email>
+						</author>
+						<author>
+							<persName><forename type="first">Elana</forename><forename type="middle">J</forename><surname>Bernstein</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marcy</forename><forename type="middle">B</forename><surname>Bolster</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">H</forename><surname>Chung</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sonye</forename><forename type="middle">K</forename><surname>Danoff</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">D</forename><surname>George</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dinesh</forename><surname>Khanna</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gordon</forename><surname>Guyatt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Reza</forename><forename type="middle">D</forename><surname>Mirza</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rohit</forename><surname>Aggarwal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aberdeen</forename><surname>Allen</surname><genName>Jr</genName></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shervin</forename><surname>Assassi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lenore</forename><surname>Buckley</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hassan</forename><forename type="middle">A</forename><surname>Chami</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Douglas</forename><forename type="middle">S</forename><surname>Corwin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><forename type="middle">F</forename><surname>Dellaripa</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Robyn</forename><forename type="middle">T</forename><surname>Domsic</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tracy</forename><forename type="middle">J</forename><surname>Doyle</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Catherine</forename><forename type="middle">Marie</forename><surname>Falardeau</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Tracy</forename><forename type="middle">M</forename><surname>Frech</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Fiona</forename><forename type="middle">K</forename><surname>Gibbons</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Monique</forename><surname>Hinchcliff</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cheilonda</forename><surname>Johnson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">P</forename><surname>Kanne</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sian</forename><forename type="middle">Yik</forename><surname>Lim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Scott</forename><surname>Matson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zsuzsanna</forename><forename type="middle">H</forename><surname>Mcmahan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Samantha</forename><forename type="middle">J</forename><surname>Merck</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kiana</forename><surname>Nesbitt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mary</forename><forename type="middle">Beth</forename><surname>Scholand</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lee</forename><surname>Shapiro</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christine</forename><forename type="middle">D</forename><surname>Sharkey</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ross</forename><surname>Summer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><surname>Varga</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anil</forename><surname>Warrier</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sandeep</forename><forename type="middle">K</forename><surname>Agarwal</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Danielle</forename><surname>Antin-Ozerkis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bradford</forename><surname>Bemiss</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Vaidehi</forename><surname>Chowdhary</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jane</forename><forename type="middle">E</forename><surname>Dematte D'amico</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><surname>Hallowell</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alicia</forename><forename type="middle">M</forename><surname>Hinze</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Patil</forename><forename type="middle">A</forename><surname>Injean</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nikhil</forename><surname>Jiwrajka</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Elena</forename><forename type="middle">K</forename><surname>Joerns</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joyce</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ashima</forename><surname>Makol</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gregory</forename><forename type="middle">C</forename><surname>Mcdermott</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jake</forename><forename type="middle">G</forename><surname>Natalini</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Justin</forename><forename type="middle">M</forename><surname>Oldham</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Didem</forename><surname>Saygin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kimberly</forename><forename type="middle">Showalter</forename><surname>Lakin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Namrata</forename><surname>Singh</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Joshua</forename><forename type="middle">J</forename><surname>Solomon</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jeffrey</forename><forename type="middle">A</forename><surname>Sparks</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Samera</forename><surname>Vaseer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><surname>Turner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Stacey</forename><surname>Uhl</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ilya</forename><surname>Ivlev</surname></persName>
+						</author>
+						<title level="a" type="main">2023 American College of Rheumatology (ACR)/American College of Chest Physicians (CHEST) Guideline for the Screening and Monitoring of Interstitial Lung Disease in People with Systemic Autoimmune Rheumatic Diseases</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F4AB96C66964635F924057BA1BB25AD2</idno>
+					<idno type="DOI">10.1002/art.42860</idno>
+					<note type="submission">Submitted for publication August 21, 2023; accepted in revised form April 9, 2024.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. We provide evidence-based recommendations regarding screening for interstitial lung disease (ILD) and the monitoring for ILD progression in people with systemic autoimmune rheumatic diseases (SARDs), specifically rheumatoid arthritis, systemic sclerosis, idiopathic inflammatory myopathies, mixed connective tissue disease, and Sjögren disease.</p><p>Methods. We developed clinically relevant population, intervention, comparator, and outcomes questions related to screening and monitoring for ILD in patients with SARDs. A systematic literature review was performed, and the available evidence was rated using the Grading of Recommendations, Assessment, Development, and Evaluation methodology. A Voting Panel of interdisciplinary clinician experts and patients achieved consensus on the direction and strength of each recommendation.</p><p>Results. Fifteen recommendations were developed. For screening people with these SARDs at risk for ILD, we conditionally recommend pulmonary function tests (PFTs) and high-resolution computed tomography of the chest (HRCT chest); conditionally recommend against screening with 6-minute walk test distance (6MWD), chest radiography, ambulatory desaturation testing, or bronchoscopy; and strongly recommend against screening with surgical lung biopsy. We Guidelines and recommendations developed and/or endorsed by the American College of Rheumatology (ACR) are intended to provide guidance for patterns of practice and not to dictate the care of a particular patient. The ACR considers adherence to the recommendations within this guideline to be voluntary, with the ultimate determination regarding their application to be made by the clinician in light of each patient's individual circumstances. Guidelines and recommendations are intended to promote beneficial or desirable outcomes but cannot guarantee any specific outcome. Guidelines and recommendations developed and endorsed by the ACR are subject to periodic revision as warranted by the evolution of medical knowledge, technology, and practice. ACR recommendations are not intended to dictate payment or insurance decisions, and drug formularies or other third-party analyses that cite ACR guidelines should state this. These recommendations cannot adequately convey all uncertainties and nuances of patient care.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Interstitial lung disease (ILD) is characterized by inflammation and/or fibrosis of the lung parenchyma and is a significant cause of morbidity and mortality in people with systemic autoimmune rheumatic diseases (SARDs). Although people with SARDs are at risk for developing ILD in general, those with rheumatoid arthritis (RA), systemic sclerosis (SSc), idiopathic inflammatory myopathies (IIM; including polymyositis, dermatomyositis, immune-mediated necrotizing myopathy, and anti-synthetase syndrome), mixed connective tissue disease (MCTD), and Sjögren disease (SjD) are at particularly high risk. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> For example, ILD affects &gt;50% of adults with SSc and is the leading cause of death and hospitalization in this population. <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> ILD is also a major cause of death in adults with RA. <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> Furthermore, some patients with RA, SSc, IIM, MCTD, and SjD are at risk for rapidly progressive ILD. Risk factors for the development of ILD include demographics, disease manifestations, and antibody profile, as summarized in Table <ref type="table" target="#tab_1">1</ref>.</p><p>There are no existing guidelines for ILD screening for people with SARDs. This guideline was developed to provide recommendations for the screening of ILD in people with SARDs (RA, SSc, IIM, MCTD, and SjD) at greatest risk of ILD and for monitoring for ILD progression. These recommendations will facilitate rheumatologists' identification of people with SARDs who have ILD and assist in optimizing the co-management of people with SARDassociated ILD by rheumatologists and pulmonologists. <ref type="bibr" target="#b26">27</ref> This guideline does not address the evaluation for SARDs among persons with newly diagnosed ILD who lack a formal SARD diagnosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>This guideline was developed following the American College of Rheumatology (ACR) guideline development process and ACR policy guiding management of conflicts of interest and disclosures (<ref type="url" target="https://rheumatology.org/clinical-practice-guidelines">https:// rheumatology.org/clinical-practice-guidelines</ref>), which includes Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) methodology. <ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref> Supplementary Materials 1 includes a detailed description of the methods. Briefly, the Core Leadership Team composed of rheumatologists, pulmonologists, and a radiologist-all with expertise in SARD-ILD-drafted clinical population, intervention, comparator, and outcomes (PICO)   This article is published simultaneously in Arthritis Care &amp; Research. Supported by the American College of Rheumatology. <ref type="bibr" target="#b0">1</ref> Sindhu R. Johnson, MD, PhD: University of Toronto, Schroeder Arthritis Institute, Toronto Western Hospital, Mount Sinai Hospital, Toronto, Ontario, Canada; 2 Elana J. Bernstein, MD, MSc: Columbia University Vagelos College of Physicians and Surgeons, Columbia University Irving Medical Center, New York City; <ref type="bibr" target="#b2">3</ref> Marcy B. Bolster, MD, Fiona K. Gibbons, MD, Robert Hallowell, MD: Massachusetts General Hospital, Boston; <ref type="bibr" target="#b3">4</ref> Jonathan H. Chung, MD: The University of Chicago Medicine, Chicago, Illinois; <ref type="bibr" target="#b4">5</ref> Sonye K. Danoff, MD, PhD, Hassan A. Chami, MD, MS, Zsuzsanna H. McMahan, MD, MHS: Johns Hopkins University School of Medicine, Baltimore, Maryland; <ref type="bibr" target="#b5">6</ref> Michael D. George, MD, MSCE, Cheilonda Johnson, MD, MHS, Nikhil Jiwrajka, MD: University of Pennsylvania, Philadelphia; 7 Dinesh Khanna, MD, MS, John Varga, MD, Justin M. Oldham, MD, MS: University of Michigan, Ann Arbor; <ref type="bibr" target="#b7">8</ref> Gordon Guyatt, MD, Reza D. Mirza, MD, MSc: McMaster University, Hamilton, Ontario, Canada; <ref type="bibr" target="#b8">9</ref> Rohit Aggarwal, MD, Robyn T. Domsic, MD, Didem Saygin, MD: University of Pittsburgh, Pittsburgh, Pennsylvania; <ref type="bibr" target="#b9">10</ref> Aberdeen Allen Jr, PhD: Parlin, New Jersey; <ref type="bibr" target="#b10">11</ref> Shervin Assassi, MD, MS: University of Texas Health Science Center at Houston; <ref type="bibr" target="#b11">12</ref> Lenore Buckley, MD, MPH, Monique Hinchcliff, MD, MS, Danielle Antin-Ozerkis, MD, Vaidehi Chowdhary, MD, MBBS, DM: Yale School of Medicine, New Haven, Connecticut; <ref type="bibr" target="#b12">13</ref> Douglas S. Corwin, MD: St. Luke's University Health Network, Bethlehem, Pennsylvania; <ref type="bibr" target="#b13">14</ref> Paul F. Dellaripa, MD, Tracy J. Doyle, MD, MPH, Gregory C. McDermott, MD, Jeffrey A. Sparks, MD, MMSc: Brigham and Women's Hospital, Boston, Massachusetts; <ref type="bibr" target="#b14">15</ref> Catherine Marie Falardeau, Kissimmee, Florida; <ref type="bibr" target="#b15">16</ref> Tracy M. Frech, MD, MS: Vanderbilt University Medical Center, Nashville, Tennessee; <ref type="bibr" target="#b16">17</ref> Jeffrey P. Kanne, MD, Christine D. Sharkey, MD: University of Wisconsin School of Medicine and Public Health, Madison; <ref type="bibr" target="#b17">18</ref> John S. Kim, MD, MS: University of Virginia School of Medicine, Charlottesville; <ref type="bibr" target="#b18">19</ref> Sian Yik Lim, MD: Hawaii Pacific Health, Aiea; <ref type="bibr" target="#b19">20</ref> Scott Matson, MD: University of Kansas Medical Center, Kansas City; <ref type="bibr" target="#b20">21</ref> Samantha J. Merck, MD, MHS: Saint Francis Health System, Tulsa, Oklahoma; <ref type="bibr" target="#b21">22</ref> Kiana Nesbitt, Lansdowne, Pennsylvania; <ref type="bibr" target="#b22">23</ref> Mary Beth Scholand, MD: University of Utah, Salt Lake City; <ref type="bibr" target="#b23">24</ref> Lee Shapiro, MD: Albany Medical College, Albany, New York; <ref type="bibr" target="#b24">25</ref> Ross Summer, MD: Thomas Jefferson University Hospital, Philadelphia, Pennsylvania; <ref type="bibr" target="#b25">26</ref> Anil Warrier, MD: Millennium Physicians, Huntsville, Texas; <ref type="bibr" target="#b26">27</ref> Sandeep K. Agarwal, MD, PhD: Baylor College of Medicine, Houston, Texas; <ref type="bibr" target="#b27">28</ref> Bradford Bemiss, MD, MSCR, Jane E. Dematte D'Amico, MD: Northwestern University, Chicago, Illinois; <ref type="bibr" target="#b28">29</ref> Alicia M. Hinze, MD, MHS, Ashima Makol, MD: Mayo Clinic, Rochester, Minnesota; <ref type="bibr" target="#b29">30</ref> Patil A. Injean, DO: Cedars-Sinai, Los Angeles, California; <ref type="bibr" target="#b30">31</ref> Elena K. Joerns, MD: UT Southwestern Medical Center, Dallas, Texas; <ref type="bibr" target="#b31">32</ref> Joyce S. Lee, MD: University of Colorado Denver, Aurora; 33 Jake G. Natalini, MD, MSc: New York University Langone Health, New York City; <ref type="bibr" target="#b33">34</ref> Kimberly Showalter Lakin, MD, MS: Hospital for Special Surgery, Weill Cornell Medicine, New York City; <ref type="bibr" target="#b34">35</ref> Namrata Singh, MD, MSCI: University of Washington, Seattle; 36 Joshua J. Solomon, MD: National Jewish Health, Denver, Colorado; <ref type="bibr" target="#b36">37</ref> Marat Turgunbaev, MD, Amy Turner, American College of Rheumatology, Atlanta, Georgia; <ref type="bibr" target="#b37">38</ref>  questions (Supplementary Materials 2). A medical librarian searched MEDLINE and Embase via Ovid on August 1, 2022 (last surveillance on January 6, 2023). Database searches were supplemented by suggestions from the Core Leadership Team and Voting Panel and by reviewing reference lists of conference proceedings and other guidelines. <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref> The Literature Review Team conducted systematic literature reviews for the PICO questions and, with input from the Core Leadership Team, rated the certainty of evidence (high, moderate, low, very low) and produced an evidence report (Supplementary Materials 3).</p><p>Of note is the rating of evidence for surrogate outcomes. Consistent with GRADE guidance, we defined surrogate outcomes as those that would not lead patients to accept a test that was also associated with burdens or harms if they were the only outcomes to improve. <ref type="bibr" target="#b33">34</ref> For instance, if the surrogate outcome of forced vital capacity (FVC) improves without improvement in symptoms or reduction in death (the outcomes most valued by patients), then patients may avoid the test. In such situations, the team rated certainty in the patient-important outcome (eg, symptoms or death) as inferred from the surrogate and rated down once or twice for indirectness. <ref type="bibr" target="#b34">35</ref> A Patient Panel was convened that included 21 people with SARDs of interest (at risk for ILD [n = 4, 19%] or diagnosed with ILD [n = 17, 81%]), median 53 years of age (range 33-73 years); it was composed of n = 16 women (71%), n = 14 White individuals (67%), n = 7 Black or multiracial individuals (33%), and n = 2 Hispanic individuals (10%). They met virtually with three members of the Core Team (MBB, MDG, and RDM) and two ACR staff members. The Patient Panel provided perspectives on values and preferences related to ILD screening and monitoring. <ref type="bibr" target="#b35">36</ref> An expert Voting Panel composed of rheumatologists (n = 19), pulmonologists (n = 4), a radiologist (n = 1), and representatives from the Patient Panel (n = 3) reviewed the evidence report and voted on the recommendations at virtual Voting Panel meetings (February-March 2023). Supplementary Materials 4 includes rosters of the Core Leadership Team, Literature Review Team, Voting Panel, and Patient Panel.</p><p>As per ACR policy, consensus required ≥70% agreement on both the direction (for or against) and strength (strong or conditional) of each recommendation. A recommendation could be either in favor of or against the proposed intervention and either strong or conditional. According to GRADE, a recommendation is categorized as strong if the panel is very confident that the benefits of an intervention clearly outweigh the harms (or vice versa); a conditional recommendation denotes uncertainty regarding the balance of benefits and harms, such as when the evidence certainty is low or very low, or when the decision is sensitive to individual patient preferences, or when costs are expected to impact the decision. Thus, conditional recommendations refer to decisions in which incorporation of patient preferences is a particularly essential element of decision-making.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scope</head><p>Patients. This guideline applies to people with SARDs with high risk of ILD, specifically RA, SSc, IIM, MCTD, and SjD. This guideline does not include recommendations for pediatric SARDs (juvenile SSc, juvenile dermatomyositis, systemic juvenile idiopathic arthritis) or people with sarcoidosis, interstitial pneumonia with autoimmune features (IPAF), undifferentiated connective tissue disease, ankylosing spondylitis, antineutrophil cytoplasmic antibody-associated vasculitis, systemic lupus erythematosus (SLE), or unclassifiable ILD. There was a need to limit the guideline scope, so the five diseases in which ILD occurs most frequently were prioritized. IPAF was not included because it is a research classification rather than a clinical diagnosis. Also, this guideline was not developed to guide evaluation for SARDs in patients with newly diagnosed ILD without a prior recognized SARD.</p><p>Interventions. The panel considered the following diagnostic and screening interventions: history and physical examination alone (including assessment of dyspnea, functional class,  Diffuse cutaneous subtype, male sex, African American race <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b14">15</ref> • Early disease (first 5-7 y after onset) • Elevated acute phase reactants <ref type="bibr" target="#b12">13,</ref><ref type="bibr" target="#b15">16</ref> Rheumatoid arthritis</p><p>• High-titer rheumatoid factor, high-titer anti-CCP <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref> • Cigarette smoking, <ref type="bibr" target="#b19">20,</ref><ref type="bibr" target="#b20">21</ref> older age at rheumatoid arthritis onset, <ref type="bibr" target="#b21">22,</ref><ref type="bibr" target="#b22">23</ref> high disease activity • Male sex, <ref type="bibr" target="#b21">22</ref>  * These disease features have been identified as placing a person at increased risk for developing ILD; however, the absence of these risk factors does not preclude the development of ILD in patients with these SARDs. Screening for ILD should be performed in shared decision-making with the rheumatologist and patient. As such, screening for ILD should not necessarily be limited only to those with these risk factors. CCP, cyclic citrullinated peptide; ILD, interstitial lung disease; MDA-5, MDA-5 melanoma differentiation-associated protein 5; SARD, systemic autoimmune rheumatic disease.</p><p>cough, and fatigue on history; tachypnea, cyanosis, and percussion for altered lung resonance and auscultation for crackles on physical examination), pulmonary function tests (PFTs; including spirometry, lung volumes, and diffusion capacity for carbon monoxide [DLCO]), high-resolution computed tomography of the chest (HRCT chest), 6-minute walk test distance (6MWD), chest radiography, ambulatory desaturation testing, bronchoscopy (bronchoalveolar lavage, transbronchial biopsy, and/or cryobiopsy), and surgical lung biopsy. This guideline does not make recommendations on education, self-monitoring of oxygen saturation, testing for supplemental oxygen requirement, or patient-reported outcomes, including questionnaires, eg, Chronic Respiratory Questionnaire, St. George's Respiratory Questionnaire, Mahler Dyspnea Index, University of California, San Diego Shortness of Breath Questionnaire, Leicester Cough Questionnaire, Functional Assessment of Chronic Illness Therapy-Dyspnea, Modified Medical Research Council, and King's Brief Interstitial Lung Disease.</p><p>Outcomes. For screening recommendations, critical outcomes included disease-related outcomes (eg, progression of ILD), diagnostic accuracy as a surrogate for disease-related outcomes, and diagnostic testing-related adverse events. For monitoring recommendations, critical outcomes were disease-related outcomes, responsiveness/sensitivity to change of the test as a surrogate for disease-related outcomes, and testing-related adverse events.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS/RECOMMENDATIONS</head><p>Based on 24 PICO questions, the panel developed 15 screening and monitoring recommendations (Tables <ref type="table" target="#tab_4">2</ref><ref type="table" target="#tab_5">3</ref><ref type="table" target="#tab_6">4</ref><ref type="table" target="#tab_7">5</ref>). The literature search identified 5,235 records for the full set of PICO questions covering screening, monitoring, and treatment (the latter reported in separate treatment guidelines). <ref type="bibr" target="#b36">37</ref> After excluding 4,038 titles and abstracts, 1,197 full-text articles were reviewed, of which 1,083 were excluded. Thus, the overall evidence included 114 studies, of which 10 studies addressed the screening questions and 13 studies (in 17 publications) addressed the monitoring questions (Supplementary Materials  3, 5, 6). No publications were found to address 4 screening questions (PICOs 3, 4, 5, and 7) and 10 of the monitoring questions (PICOs 12, 14-18, 20-22, and 24). The number of recommendations resulting from PICO questions was reduced by combining recommendations when appropriate.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Screening for SARD-ILD</head><p>Who should be screened. It was recognized that RA, SSc, IIM, MCTD, and SjD all confer an increased risk of ILD development compared to the general population. However, it was also recognized that the risks of ILD development and progression vary among and within these diseases. For example, people with RA have low frequency (ie, 3%-5% of people with RA) of progressive ILD, and a larger proportion have asymptomatic or stable disease. SSc confers a higher risk of ILD compared with other SARDs, but a subset of people with long-standing limited cutaneous SSc can have mild, stable ILD. Patients with RA-ILD with high-titer anti-cyclic citrullinated peptide (CCP) or rheumatoid factor positivity, patients with SSc-ILD with early diffuse cutaneous disease and/or Scl-70 positivity, and patients with IIM-ILD with anti-melanoma differentiation-associated protein 5 (anti-MDA-5), anti-synthetase, or overlap antibodies (eg, PM-Scl, Ku, Ro52) are at increased risk for ILD progression. Thus, screening must be tailored to an individual patient, recognizing the need for shared decision-making. Although most people with SSc and many people with IIM warrant screening, it is not necessary to screen all people with RA or SjD. The Voting Panel voted on recommendations for people at higher risk of ILD within each disease. Although defining the magnitude of risk within diseases was beyond the scope of this guideline, Table <ref type="table" target="#tab_1">1</ref> summarizes risk factors for ILD across diseases, identified by review of the literature, to inform clinicians of people who may warrant heightened screening and monitoring for ILD. Screening for ILD should not be limited to those with just these risk factors. The Patient Panel expressed a preference for identifying ILD early, even if there was a risk for identifying either subclinical disease that might not progress or incidental findings requiring additional testing. If there is uncertainty regarding whom to screen, clinicians should proceed with screening for ILD. Figure <ref type="figure" target="#fig_0">1</ref> summarizes tests suggested for screening at presentation. Figure <ref type="figure" target="#fig_1">2</ref> summarizes tests that are not recommended, along with examples of situations in which these tests may be useful.</p><p>For people with SARDs at increased risk of developing ILD, we conditionally recommend screening with PFTs over history and physical examination or ambulatory desaturation testing alone.</p><p>Given the poor diagnostic accuracy of history (dry cough: 15% sensitive, 89% specific) and examination (dry "velcro" crackles: 69% sensitive, 66% specific), despite very low certainty of evidence (one observational study), <ref type="bibr" target="#b37">38</ref> PFTs are preferred over history and physical examination alone for screening of ILD. PFTs should include spirometry, lung volumes, and DLCO. Seeking history for ILD symptoms and performing lung auscultation should remain part of the routine assessment of a patient with an SARD, and rheumatologists should note even mild pulmonary symptoms, including subtle reductions in physical activity.</p><p>For people with SARDs at increased risk of developing ILD, we conditionally recommend screening with HRCT chest over history and physical examination or PFTs alone.</p><p>Very low-certainty evidence suggests that the HRCT chest has a sensitivity of 95.7% and specificity of 63.8% for the detection of ILD (≥20% extent of lung involvement). <ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b38">39</ref> Traditionally, the difference between HRCT chest and a standard CT chest has been the slice reconstruction or acquisition thickness (&lt;1.5 mm for HRCT and 3-5 mm for standard chest CT), although this distinction at many modern centers has now blurred because even standard chest CT scans are often reconstructed using thin slices. HRCT chest typically includes inspiratory prone images (to differentiate mild dependent lung atelectasis from early fibrosis) and supine end-expiratory imaging (to assess for air-trapping). Nearly all cases of significant ILD can be detected on high-quality low-dose chest CT or even on standard chest CT imaging, all without contrast. However, one must be cautious with CT angiogram studies; they are often inadequate for ILD assessment because these studies are typically performed in incomplete inspiration, which may produce marked atelectasis that can obscure, accentuate, or mimic ILD. <ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref> For people with SARDs at increased risk of developing ILD, we conditionally recommend screening with HRCT chest and PFTs over PFTs alone.</p><p>Low-certainty evidence from five observational studies suggests that PFTs alone may be insufficient to detect ILD among patients with newly diagnosed SARDs. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b37">38,</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref><ref type="bibr" target="#b44">[45]</ref> For example, an FVC &lt;80% has a sensitivity of 47.5% and specificity of 78.7%, whereas HRCT chest has a sensitivity of 100% and specificity of 55.3%. <ref type="bibr" target="#b43">44</ref> Patients with ILD can have normal PFTs or have difficulty performing PFTs because of cough or microstomia. The Patient Panel expressed a preference for more comprehensive screening even when considering the potential risks of radiation exposure or incidental findings leading to additional testing. In fact, although some may be concerned about HRCT radiation exposure, <ref type="bibr" target="#b45">46</ref> the amount of exposure is low, and the risk of radiation-induced malignancy on a per-scan basis is extremely low. Moreover, this low-risk estimate is based on extrapolations from atomic bomb survivors using the linear no-threshold model, which some have criticized for being overly conservative. <ref type="bibr" target="#b46">47,</ref><ref type="bibr" target="#b47">48</ref> There is no direct evidence of increased risk of radiation-induced malignancy in adults from chest CT exposure. HRCT chest and PFTs provide complementary information about presence and pattern of ILD (HRCT) and physiologic impact (PFTs); thus, the combination is preferred over PFTs alone. PFTs and HRCT chest are helpful for diagnosis of other lung and thoracic diseases occurring in people with SARDs (eg, pulmonary hypertension, airway diseases, infection, and cancer).</p><p>For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with chest radiography.</p><p>Three studies indicated a low sensitivity of chest radiography (58%-64%), limiting utility as a screening test for ILD. <ref type="bibr" target="#b38">39,</ref><ref type="bibr" target="#b43">44,</ref><ref type="bibr" target="#b48">49</ref> The Patient Panel reported that, because an HRCT chest is required in the presence of normal or abnormal chest radiography, they would prefer an HRCT chest as the only imaging modality for screening alone.</p><p>For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with 6MWD.</p><p>The Literature Review Team found no published evidence regarding 6MWD as a screening test for ILD. Rather, it is used for evaluation for lung transplantation and for monitoring in those with pulmonary hypertension. In people with SARDs, the 6MWD can be impacted by other SARD manifestations that affect mobility including arthritis and cardiac disease. The Patient Panel felt the 6MWD frequently did not reflect symptoms and may not reflect functional status or ability to perform activities of daily living.</p><p>For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with ambulatory desaturation testing.</p><p>The Literature Review Team found no published evidence regarding the use of ambulatory desaturation testing as a screening test for ILD in SARDs. Given feasibility concerns in rheumatology outpatient practices, routine ambulatory desaturation testing was not recommended as a screening test. Within pulmonary outpatient practices and/or interdisciplinary models of shared care, ambulatory desaturation testing is more feasible and can be more easily offered in selected patients such as those with inadequate PFT quality, those who are unable to perform PFTs, or those with associated pulmonary hypertension.</p><p>For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with bronchoscopy.</p><p>Based on very low-certainty evidence from two observational studies, <ref type="bibr" target="#b49">50,</ref><ref type="bibr" target="#b50">51</ref> we suggest against any bronchoscopic procedures (including bronchoalveolar lavage, transbronchial biopsy, endobronchial ultrasound, and cryobiopsy) for the routine screening of ILD. Bronchoscopy may be considered in selected circumstances-for example, to rule out infection or to evaluate for conditions such as sarcoidosis, alveolar hemorrhage, or hypersensitivity pneumonitis. For people with SARDs at increased risk of developing ILD, we strongly recommend against screening with surgical lung biopsy.</p><p>One retrospective observational (very low-certainty evidence) study provided indirect evidence for this recommendation. <ref type="bibr" target="#b51">52</ref> Surgical lung biopsy carries a 1% mortality risk, requires hospital admission and general anesthesia, and is associated with the need for chest tube thoracostomy, a small but not insignificant risk of ILD flare, and recovery time. Because the evidence of harm associated with lung biopsy is high quality and the evidence of any benefit is very low quality, this is one of the circumstances that GRADE has identified in which a strong recommendation in the presence of low-quality evidence may be appropriate. <ref type="bibr" target="#b27">28</ref> Surgical lung biopsy may be warranted, however, in certain circumstances, such as to rule out malignancy. Patient Panelists preferred, given the associated risks, to avoid surgical lung biopsy unless medically necessary.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Suggestions for frequency of screening</head><p>Evidence to support the frequency of testing was limited, <ref type="bibr" target="#b52">53,</ref><ref type="bibr" target="#b53">54</ref> but suggestions for frequency were deemed to be important. Therefore, this guidance is provided to inform implementation of the recommendations. There is substantial clinical variation from patient to patient that may affect frequency, so these should be seen as general guidance rather than firm recommendations.</p><p>The Core Team and Voting Panel preferred a risk-based approach. We suggest that most people with SSc, IIM, and MCTD with SSc features should have ILD screening tests at presentation. We also suggest that people with IIM have myositis-specific antibody testing to screen for the presence of high-risk ILD-associated antibodies (anti-synthetase and anti-MDA-5 antibodies). Although we do not suggest that all patients with RA and SjD be screened for ILD, we suggest screening at presentation in those with ILD risk factors such as those specified in, but not limited to, Table <ref type="table" target="#tab_1">1</ref>. We suggest that people with SARDs and associated greater risk of ILD be considered for rescreening with PFTs annually based on the presence of risk factors, and consideration for more frequent screening early in the patient's disease course should be based on specific high-risk autoantibody presence (eg, anti-Scl-70, anti-MDA-5, and anti-synthetase antibodies) or the development of ILD symptoms. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Monitoring for ILD progression</head><p>Although screening for ILD in people with SARDs is largely the purview of rheumatologists, the monitoring of patients with identified SARD-associated ILD is expected to be a multidisciplinary collaboration between rheumatology and pulmonology. Thus, some recommendations will comment on potential variations in practice between these specialties.</p><p>For people with SARD-ILD, we conditionally recommend monitoring with PFTs.</p><p>PFTs (spirometry, volumes, and DLCO) provide objective data that are helpful in following patients over time. Patients saw benefit in an objective test to help assess disease stability or progression. Although PFTs can reassure both patient and clinician when they are stable, patients commented that PFTs can also be stressful and difficult because of their symptoms of cough or  <ref type="table" target="#tab_1">1</ref> for risk factors for ILD. † Ambulatory desaturation can be done during a routine office visit or as part of 6-minute walk testing. CT, computed tomography; IIM, idiopathic inflammatory myopathies; ILD, interstitial lung disease; MCTD, mixed connective tissue disease; RA, rheumatoid arthritis; SjD, Sjögren disease; SARD, systemic autoimmune rheumatic disease; SSc, systemic sclerosis. dyspnea. Some people with SSc report difficulty achieving an adequate oral seal because of decreased oral aperture; these people may benefit from using a pediatric mouthpiece.</p><p>For people with SARD-ILD, we conditionally recommend monitoring with HRCT chest.</p><p>Two observational studies and two post hoc analyses of the Scleroderma Lung Study (SLS) randomized controlled trial (RCT) contributed indirect evidence for this recommendation. <ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref> HRCT chest provides an assessment of the extent and pattern of parenchymal involvement, which is helpful for monitoring. The frequency of such monitoring should be determined by patient symptoms plus mindful consideration of radiation exposure. HRCT chest is useful when there is respiratory symptom progression with stable PFTs, a significant reduction in PFTs, screening for lung cancer, <ref type="bibr" target="#b58">59</ref> or differentiating between tight skin or respiratory muscle weakness versus progressive ILD as the cause of a restrictive PFT pattern. However, HRCT chest requires an experienced radiologist or other qualified professional to compare to previous HRCT scans to assess for progression and has higher cost to society.</p><p>For people with SARD-ILD, we conditionally recommend monitoring with PFTs and HRCT chest over PFTs alone.</p><p>Thirteen studies (16 articles, <ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref><ref type="bibr" target="#b62">[63]</ref><ref type="bibr" target="#b63">[64]</ref><ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref><ref type="bibr" target="#b68">[69]</ref><ref type="bibr" target="#b69">[70]</ref> including five post hoc analyses of the SLS RCT) provided very low-certainty evidence suggesting that PFTs and HRCT chest may be more helpful in monitoring ILD progression compared with PFTs alone to permit monitoring ILD pattern and changes in extent of disease. Both the Patient and Voting Panels stated that HRCT chest should not be performed as often as PFTs for monitoring, especially in the setting of stable symptoms and PFTs.</p><p>For people with SARD-ILD, we conditionally recommend monitoring with ambulatory desaturation testing.</p><p>There was no published evidence in people with SARDassociated ILD, but, as is standard in other forms of ILD, recognition of ambulatory desaturation informs the need for oxygen use. Concerns were raised about accurate oxygen saturation measurement in patients with Raynaud phenomenon, particularly those with SSc, because of poor finger perfusion. Thus, an ear or forehead oxygen saturation monitor is preferable in these circumstances.</p><p>For people with SARD-ILD, we conditionally recommend against monitoring with chest radiography.</p><p>One case-control study demonstrated a low sensitivity (64.0%) and moderate specificity (73.6%) of chest radiography relative to HRCT chest for identifying ILD among patients with inflammatory rheumatic diseases. <ref type="bibr" target="#b43">44</ref> Another cohort study demonstrated using lung auscultation and/or chest radiography for detecting extent of ILD had a low sensitivity (58.6%) and specificity (60.0%) compared with HRCT chest. <ref type="bibr" target="#b38">39</ref> Chest radiography does not appear to have enough resolution to detect progression or improvement. However, chest radiography could be useful to evaluate for pneumonia in people with SARD-ILD who develop acute-onset respiratory symptoms.</p><p>For people with SARD-ILD, we conditionally recommend against monitoring with 6MWD.</p><p>There was no evidence to support or oppose using 6MWD in the monitoring of people with SARD-ILD. 6MWD can be impacted by other health factors, such as arthritis and cardiac disease. Patients reported that 6MWD often did not reflect activities of daily living or function in daily life. If patients without confounding health factors can perform the test, it can be a useful marker to follow disease progression. 6MWD is important in the monitoring of patients pre-lung transplantation, those with pulmonary hypertension, and those unable to perform PFTs. For people with SARD-ILD, we conditionally recommend against monitoring with bronchoscopy.</p><p>There was no published evidence. The panel was not in favor of routine use of bronchoscopy for monitoring but recognized its utility in certain circumstances, such as in the evaluation of infection or alveolar hemorrhage.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Suggestions for frequency of monitoring</head><p>The Voting Panel decided not to provide firm recommendations for frequency of monitoring once an ILD diagnosis is made, but general guidance in the form of suggestions instead. Some patients may need more frequent monitoring, especially if symptoms change, and these suggestions should not be used to inform reimbursement decisions. There is substantial clinical variation from patient to patient that may affect testing frequency.</p><p>For people with IIM-ILD and SSc-ILD, we suggest PFTs for monitoring every 3 to 6 months for the first year, then less frequently once stable.</p><p>More frequent monitoring is needed early in the course of disease and in patients with active or progressive disease, and then every 6 to 12 months after the first year if the disease is stable. For people with long-standing SSc or IIM and prolonged stability of their ILD, we suggest less frequent monitoring. This range allows for flexibility.</p><p>For people with RA-ILD, SjD-ILD, and MCTD-ILD, we suggest PFTs for monitoring every 3 to 12 months for the first year, then less frequently once stable.</p><p>RA-ILD typically progresses more slowly than the other SARDs; however, a usual interstitial pneumonia (UIP) pattern confers a worse prognosis and may warrant more frequent monitoring. Monitoring those with RA-ILD with PFTs every 6 to 12 months is suggested, recognizing that specific situations may warrant more frequent monitoring (3-6 months). SjD-ILD tends to be milder than other types of SARD-associated ILD; however, those with the Ro52 antibody can progress quickly. SjD can occur as an overlap condition with anti-synthetase syndrome, SSc, and RA. More frequent monitoring, based on physician judgment, should be performed in patients with symptom worsening, a UIP pattern, presence of autoantibodies associated with rapidly progressive disease (eg, anti-MDA-5), and worsening PFTs. People with MCTD and prominent features of SSc or IIM may benefit from more frequent monitoring.</p><p>For people with SARD-ILD, we do not provide guidance about frequency of routine HRCT chest for monitoring ILD but suggest HRCT chest when clinically indicated.</p><p>There was hesitancy to recommend how frequently HRCT chest should be performed. HRCT chest is a complementary test to PFTs for the monitoring of ILD progression and may be specifically useful in cases in which coughing or other factors might affect PFT performance or interpretation, when changes in symptoms or PFT results lead to uncertainty about whether there has been ILD progression, when there is concern for infection or malignancy, or when assessing treatment response.</p><p>For people with SARD-ILD, we suggest monitoring for ambulatory desaturation every 3 to 12 months.</p><p>There was a discrepancy between the application of this clinical assessment by rheumatologists and pulmonologists. Testing for ambulatory desaturation is inexpensive and informs a patient's need for supplemental oxygen. However, evaluation of ambulatory desaturation is not routine practice for many rheumatologists, and there may be operational challenges in performing ambulatory desaturation testing in some rheumatology offices. Pulmonologists on the panel routinely perform ambulatory desaturation testing in their offices. It is difficult to recommend a specific interval of ambulatory desaturation testing, and there is no evidence to support this guidance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This guideline provides recommendations to clinicians for ILD screening and monitoring in people with RA, SSc, IIM, MCTD, and SjD. PFTs (including spirometry, lung volumes, and DLCO) and HRCT chest are conditionally recommended for the screening of ILD in people with these SARDs, whereas PFTs, HRCT chest, and ambulatory desaturation testing are conditionally recommended for the monitoring of people with SARD-ILD. There are limited to no roles for chest radiography, 6MWD, bronchoscopy, or surgical lung biopsy for the routine screening or monitoring of people with SARD-ILD. We provide guidance on the risk factors and frequency of testing to evaluate for the development of ILD in people with SARDs.</p><p>The risk of ILD varies among people with an established diagnosis of an SARD. Screening tests should not be applied routinely to all people with SARDs. Rather, screening should be focused on people with an SARD of interest who have an increased risk of developing ILD. We summarize published risk factors as a guide, but clinicians are not limited to just these risk factors. We acknowledge that, in some cases, screening may identify mild, asymptomatic ILD that is not progressive. The high morbidity of ILD once symptomatic, emergence of more effective treatments, and general preference of the Patient Panel for screening to identify ILD early contributed to our recommendations. Screening may be initiated through shared discussion with the patient. Screening for ILD will typically be initiated by rheumatologists because people with SARDs usually do not see a pulmonologist until after a diagnosis of ILD.</p><p>Frequency of testing was also discussed. Guidance on the frequency of testing across diseases was provided to support guideline implementation. This guidance on testing frequency is not based on evidence but rather expert opinion and patient preferences. Patients with a highly active underlying SARD warrant more frequent monitoring. Pulmonologists generally see more progressive than long-standing, stable disease and prefer more frequent monitoring. Similarly, the Patient Panel expressed that there is "nothing worse than being missed" and strongly preferred more frequent testing to be reassured that their disease is stable. Because the guideline's target population included people with SARDs who have stable ILD as well as those with progressive ILD, it was important to provide a wide and flexible range for frequency of testing that could be tailored to patients' needs. Because the guidance on frequency was based on expert opinion and patient preferences rather than evidence, we aimed for uniformity in our recommendations across diseases to ease implementation. We recognize that the frequency of monitoring will vary based on individual disease presentation and shared decision-making with each patient.</p><p>It was challenging for this group to reach consensus on the recommendation for ambulatory oxygen desaturation testing and the frequency of this testing. In people with Raynaud phenomenon, oxygen desaturation testing using a finger probe may not be accurate and, thus, may lead to the inappropriate prescription of supplemental oxygen. In such cases, ear or forehead probes offer potential for greater accuracy. Furthermore, although oxygen desaturation testing is routine practice for pulmonologists, implementation by rheumatologists may be challenging because of logistical considerations, highlighting one of many benefits of collaborative management between rheumatology and pulmonology for patients with SARD-ILD. It was clear that patients value and prefer collaboration and communication among their specialists.</p><p>These guidelines are limited by the low certainty of evidence available for review. Most of the questions addressed were supported by small-scale observational studies. In some cases, the evidence was indirect, indicating that the populations and/or interventions investigated in the included studies deviated from those intended for specific questions. Additionally, we did not have any available evidence to examine the relationship between frequency of screening or monitoring and subsequent outcomes. Furthermore, there was a lack of evidence regarding the effects of screening or monitoring on specific subpopulations, such as racial and ethnic minority groups. Finally, we were unable to include other important affected patient groups because the scope of the guideline focused on diseases associated with higher risk of developing ILD. Pediatric patient guidelines were not included given the existing Childhood Interstitial Lung Disease treatment guidance. SLE was not included in this guideline because the treatment of lung involvement most often aligns with treatment of the underlying SLE. <ref type="bibr" target="#b15">16</ref> Important questions related to screening and monitoring for ILD warrant further research. First, the frequency of screening and monitoring requires further investigation to ascertain the most cost-effective strategy. Second, on HRCT chest, it is uncertain whether monitoring should differ by histologically based patterns (eg, nonspecific interstitial pneumonia, UIP). Similarly, an improved understanding of risk factors, including expanded autoantibody profiling, to inform ILD screening and monitoring is needed. Together, radiographic patterns, autoantibody profiles, and/or other features may allow for the development of specific screening and monitoring recommendations for subsets of patients with SARD-ILD. In summary, we provide guidelines for tests that are recommended and not recommended for the screening of people with SARDs who are at risk for developing ILD and disease-specific guidelines for tests that are recommended and not recommended for the monitoring of SARDassociated ILD.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Recommendations for ILD screening and monitoring. Frequencies of monitoring in italics are suggestions to assist application of the recommendations. * See Table1for risk factors for ILD. † Ambulatory desaturation can be done during a routine office visit or as part of 6-minute walk testing. CT, computed tomography; IIM, idiopathic inflammatory myopathies; ILD, interstitial lung disease; MCTD, mixed connective tissue disease; RA, rheumatoid arthritis; SjD, Sjögren disease; SARD, systemic autoimmune rheumatic disease; SSc, systemic sclerosis.</figDesc><graphic coords="8,135.78,88.61,340.60,499.81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Interstitial lung disease screening and monitoring tests recommended against. Tests shown are recommended against for routine use, although examples are provided when these tests may have utility for assessing patients or ruling out other conditions. PFT, pulmonary function test. Color figure can be viewed in the online issue, which is available at http://onlinelibrary.wiley.com/doi/10.1002/art.42860/abstract.</figDesc><graphic coords="9,64.80,88.61,482.34,164.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Samera Vaseer, MD: University of Oklahoma, Oklahoma City; 39 Stacey Uhl, MS, Ilya Ivlev, MD, PhD, MBI: ECRI, Center for Clinical Evidence and Guidelines, Plymouth Meeting, Pennsylvania (Current address: Oregon Health &amp; Science University, Portland, Oregon).</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Risk factors for the development of ILD that may indicate the need for screening*</figDesc><table><row><cell>Disease</cell><cell>Risk factors</cell></row><row><cell>Systemic sclerosis</cell><cell>• Anti-Scl-70 positivity, antinuclear</cell></row><row><cell></cell><cell>antibody with nucleolar pattern 13</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2 .</head><label>2</label><figDesc>Summary of recommendations for screening of SARD-ILD*Summary of recommendationsFor people with SARDs at increased risk of developing ILD, we conditionally recommend screening with PFTs over history and physical examination or ambulatory desaturation testing alone. For people with SARDs at increased risk of developing ILD, we conditionally recommend screening with HRCT chest over history and physical examination or PFTs alone. For people with SARDs at increased risk of developing ILD, we conditionally recommend screening with HRCT chest and PFTs over PFTs alone. For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with chest radiography. For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with 6MWD. For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with ambulatory desaturation testing. For people with SARDs at increased risk of developing ILD, we conditionally recommend against screening with bronchoscopy. For people with SARDs at increased risk of developing ILD, we strongly recommend against screening with surgical lung biopsy.</figDesc><table /><note><p>* SARDs at increased risk of developing ILD are rheumatoid arthritis, systemic sclerosis, idiopathic inflammatory arthritis, mixed connective tissue disease, and Sjögren syndrome. PFTs included spirometry, lung volumes, and DLCO. DLCO, diffusion capacity for carbon monoxide; HRCT chest, high-resolution computed tomography of the chest; ILD, interstitial lung disease; PFT, pulmonary function test; SARD, systemic autoimmune rheumatic disease; 6MWD, 6-minute walk test distance.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 3 .</head><label>3</label><figDesc>Summary of recommendations for monitoring for ILD progression*Summary of recommendationsFor people with SARD-ILD, we conditionally recommend monitoring with PFTs. For people with SARD-ILD, we conditionally recommend monitoring with HRCT chest. For people with SARD-ILD, we conditionally recommend monitoring with PFTs and HRCT chest over PFTs alone. For people with SARD-ILD, we conditionally recommend monitoring with ambulatory desaturation testing. For people with SARD-ILD, we conditionally recommend against monitoring with chest radiography. For people with SARD-ILD, we conditionally recommend against monitoring with 6MWD. For people with SARD-ILD, we conditionally recommend against monitoring with bronchoscopy. For people with IIM-ILD and SSc-ILD, we suggest PFTs for monitoring every 3-6 months rather than either shorter or longer intervals for the first year, then less frequently once stable. For people with RA-ILD, SjD-ILD, and MCTD-ILD, we suggest PFTs for monitoring every 3-12 months rather than shorter or longer intervals for the first year, then less frequently once stable. For people with SARD-ILD, we do not provide guidance about frequency of routine HRCT chest for monitoring ILD but suggest HRCT chest when clinically indicated. For people with SARD-ILD, we suggest assessment for ambulatory desaturation every 3-12 months rather than at shorter or longer intervals.</figDesc><table /><note><p>* PFTs included spirometry, lung volumes, and DLCO. DLCO, diffusion capacity for carbon monoxide; HRCT chest, high-resolution computed tomography of the chest; IIM, idiopathic inflammatory myopathies; ILD, interstitial lung disease; MCTD, mixed connective tissue disease; PFT, pulmonary function test; RA, rheumatoid arthritis; SARD, systemic autoimmune rheumatic disease; SjD, Sjögren disease; SSc, systemic sclerosis; 6MWD, 6-minute walk test distance.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4 .</head><label>4</label><figDesc>Summary of Voting Panel decisions, PICO questions, and evidence for screening of people with SARDs at risk of developing ILD that led to recommendations*</figDesc><table><row><cell></cell><cell></cell><cell>Based on the evidence</cell><cell>Evidence table in</cell></row><row><cell></cell><cell></cell><cell>reports of the</cell><cell>Supplementary</cell></row><row><cell></cell><cell>Certainty of</cell><cell>following PICO</cell><cell>Materials 3,</cell></row><row><cell>Voting Panel decision</cell><cell>evidence</cell><cell>questions</cell><cell>page number</cell></row><row><cell>Conditionally recommend PFTs over history</cell><cell>Very low</cell><cell>1</cell><cell>1</cell></row><row><cell>and physical examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend HRCT chest over</cell><cell>Very low</cell><cell>2</cell><cell>5</cell></row><row><cell>history and physical examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend against 6MWD</cell><cell>Very low</cell><cell>3</cell><cell>12</cell></row><row><cell>over history and physical examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend against chest</cell><cell>Very low</cell><cell>4</cell><cell>13</cell></row><row><cell>radiography over history and physical</cell><cell></cell><cell></cell><cell></cell></row><row><cell>examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend against</cell><cell>Very low</cell><cell>5</cell><cell>15</cell></row><row><cell>ambulatory desaturation testing over</cell><cell></cell><cell></cell><cell></cell></row><row><cell>history and physical examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend HRCT chest over</cell><cell>Very low</cell><cell>6</cell><cell>16</cell></row><row><cell>chest radiography</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend PFTs over</cell><cell>Very low</cell><cell>7</cell><cell>23</cell></row><row><cell>ambulatory desaturation testing</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend HRCT chest over</cell><cell>Low</cell><cell>8</cell><cell>24</cell></row><row><cell>PFTs</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend HRCT chest and</cell><cell>Very low</cell><cell>9</cell><cell>34</cell></row><row><cell>PFTs over PFTs alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend against</cell><cell>Very low</cell><cell>10</cell><cell>40</cell></row><row><cell>bronchoscopy</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Strongly recommend against surgical lung</cell><cell>Very low</cell><cell>11</cell><cell>46</cell></row><row><cell>biopsy</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>* This table summarizes the Voting Panel decisions for each intervention and comparator, the certainty of evidence, the associated PICO questions, and the pages in the evidence report where detailed synopsis of the data can be found. After voting, many of the PICO questions were clustered into recommendation statements. We provide this table to be transparent about the process of moving from evidence to recommendation statement. HRCT chest; high-resolution computed tomography of the chest; ILD, interstitial lung disease; PICO, population, intervention, comparison, and outcomes; PFT, pulmonary function test; SARD, systemic autoimmune rheumatic disease; 6MWD, 6-minute walk test distance.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 5 .</head><label>5</label><figDesc>Summary of Voting Panel decisions, PICO questions, and evidence for monitoring of people with SARDassociated ILD that led to recommendations*</figDesc><table><row><cell></cell><cell>Certainty</cell><cell>Based on the evidence</cell><cell>Evidence table in</cell></row><row><cell></cell><cell>of</cell><cell>reports of the following</cell><cell>Supplementary Materials</cell></row><row><cell>Voting Panel decisions</cell><cell>evidence</cell><cell>PICO questions</cell><cell>3, page number</cell></row><row><cell>Conditionally recommend PFTs over</cell><cell>Very low</cell><cell>12</cell><cell>50</cell></row><row><cell>history and physical examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend HRCT chest</cell><cell>Very low</cell><cell>13</cell><cell>55</cell></row><row><cell>over history and physical examination</cell><cell></cell><cell></cell><cell></cell></row><row><cell>alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend against</cell><cell>Very low</cell><cell>14</cell><cell>66</cell></row><row><cell>6MWD over history and physical</cell><cell></cell><cell></cell><cell></cell></row><row><cell>examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend against chest</cell><cell>Very low</cell><cell>15</cell><cell>67</cell></row><row><cell>radiography over history and physical</cell><cell></cell><cell></cell><cell></cell></row><row><cell>examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend ambulatory</cell><cell>Very low</cell><cell>16</cell><cell>68</cell></row><row><cell>desaturation testing over history and</cell><cell></cell><cell></cell><cell></cell></row><row><cell>physical examination alone</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend against chest</cell><cell>Very low</cell><cell>17</cell><cell>69</cell></row><row><cell>radiography over HRCT chest</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend against</cell><cell>Very low</cell><cell>18</cell><cell>70</cell></row><row><cell>bronchoscopy</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend HRCT chest</cell><cell>Very low</cell><cell>19</cell><cell>72</cell></row><row><cell>over bronchoscopy</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend PFTs over</cell><cell>Very low</cell><cell>20</cell><cell>79</cell></row><row><cell>6MWD</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Conditionally recommend PFTs and</cell><cell>Very low</cell><cell>23</cell><cell>86</cell></row><row><cell>HRCT chest over PFTs alone</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>23265205, 2024, 8, Downloaded from https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/art.42860, Wiley Online Library on [02/08/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2023" xml:id="foot_1"><p>ACR/CHEST GUIDELINE FOR ILD SCREENING AND MONITORING WITH SARDs</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank the patients who (along with authors <rs type="person">Aberdeen Allen Jr</rs>, <rs type="person">Catherine Marie Falardeau</rs>, and <rs type="person">Kiana Nesbitt</rs>) participated in the Patient Panel meeting: <rs type="person">Alicia C. Beach</rs>, <rs type="person">Linda J. B. Baum</rs>, <rs type="person">Mariann Boyanowski</rs>, <rs type="person">Sarah Dingivan</rs>, <rs type="person">Shelley Fritz</rs>, <rs type="person">Amy Gietzen</rs>, <rs type="person">Joi Goodbread</rs>, <rs type="person">Donald Legere</rs>, <rs type="person">Katie S. Lewis</rs>, <rs type="person">Ashleigh McGregor</rs>, <rs type="person">Benita Moyers</rs>, <rs type="person">Renee Roberson</rs>, <rs type="person">Richard Frank Seiden</rs>, <rs type="person">Barbara Shafranski</rs>, <rs type="person">Roberto Damian Zapata</rs>, and three patients who wished to remain anonymous. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Regina Parker</rs> for assistance in coordinating the administrative aspects of the project and <rs type="person">Cindy Force</rs> for assistance with manuscript preparation. We thank <rs type="person">Janet Waters</rs> for her assistance in developing the literature search strategy and performing the initial literature search and <rs type="person">Kathryn Vela</rs> for performing the update searches. We thank the following people for their assistance with recruiting patients to participate on the Patient Panel: <rs type="person">Lisa Christopher-Stine, MD, MPH</rs>, <rs type="funder">Johns Hopkins University School of Medicine</rs>; <rs type="person">Maria I. Danila, MD, MSc</rs>, <rs type="affiliation">MSPH, University of Alabama at Birmingham</rs>; <rs type="person">Jamie Hillner</rs>, <rs type="funder">Pulmonary Fibrosis Foundation</rs>; <rs type="person">Mary Elizabeth Kreider, MD</rs>, <rs type="projectName">MSCE</rs>, and <rs type="person">Jamie Lederer</rs>, <rs type="affiliation">MSN, CRNP, University of Pennsylvania; Vivek Nagaraja, MBBS, MD, Mayo Clinic</rs>; <rs type="person">Ganesh Raghu, MD</rs>, <rs type="affiliation">University of Washington; David Roofeh, MD, Michigan Medicine University of Michigan</rs>; <rs type="person">Robert W. Simms, MD</rs>, <rs type="funder">Boston University Medical Center</rs>; <rs type="person">Shilpa Venkatachalam</rs>, <rs type="funder">Global Healthy Living Foundation</rs>; <rs type="person">Mary J. Wheatley</rs>, <rs type="institution">IOM</rs>, <rs type="funder">CAE</rs>, <rs type="funder">National Scleroderma Foundation</rs>; <rs type="person">Lynn Wilson</rs>, <rs type="person">Myositis Support &amp; Understanding</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_A6ASjuM">
+					<orgName type="project" subtype="full">MSCE</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be published.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Interstitial lung disease in connective tissue disorders</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bois</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="issue">9842</biblScope>
+			<biblScope unit="page" from="689" to="698" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Proceedings of the American College of Rheumatology/Association of Physicians of Great Britain and Ireland Connective Tissue Disease-Associated Interstitial Lung Disease Summit: a multidisciplinary approach to address challenges and opportunities</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Strek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cottin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="182" to="195" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Pulmonary manifestations of Sjögren&apos;s syndrome</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Flament</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bigot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chaigne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Respir Rev</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">140</biblScope>
+			<biblScope unit="page" from="110" to="123" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Connective tissue disease-related interstitial lung disease: prevalence, patterns, predictors, prognosis, and treatment</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jeganathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sathananthan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lung</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="735" to="759" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Severe restrictive lung disease in systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">D</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Conte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Owens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1283" to="1289" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Changes in causes of death in systemic sclerosis, 1972-2002</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">D</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Medsger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="940" to="944" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Brief report: pulmonary function tests: high rate of false-negative results in the early detection and screening of scleroderma-related interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Suliman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dobrota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Huscher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3256" to="3261" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Causes and risk factors for death in systemic sclerosis: a study from the EULAR Scleroderma Trials and Research (EUSTAR) database</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Tyndall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bannert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vonk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1809" to="1815" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Cause-specific mortality in male US veterans with rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sayles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Michaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="36" to="45" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Rheumatoid arthritisinterstitial lung disease-associated mortality</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Swigris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Sprunger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Respir Crit Care Med</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="372" to="378" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Rheumatoid arthritis and mortality among women during 36 years of prospective follow-up: results from the Nurses&apos; Health Study</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Liao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="753" to="762" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Roles of postdiagnosis accumulation of morbidities and lifestyle changes in excess total and causespecific mortality risk in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="188" to="198" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Immunogenetic prediction of pulmonary fibrosis in systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Vaughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Welsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">338</biblScope>
+			<biblScope unit="issue">8768</biblScope>
+			<biblScope unit="page" from="661" to="662" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Racial differences between blacks and whites with systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bogatkevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tourkina</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="642" to="648" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A clinical and serologic comparison of African American and Caucasian patients with systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Domsic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lucas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2986" to="2994" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Risk factors, and biomarkers in systemic sclerosis with interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Tashkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Denton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Respir Crit Care Med</title>
+		<imprint>
+			<biblScope unit="volume">201</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="650" to="660" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Association of fine specificity and repertoire expansion of anticitrullinated peptide antibodies with rheumatoid arthritis associated interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Giles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Danoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sokolove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1487" to="1494" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Different risk factors between interstitial lung disease and airway disease in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sugimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Respir Med</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1591" to="1599" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Autoantibody seropositivity and risk for interstitial lung disease in a prospective male-predominant rheumatoid arthritis cohort of U.S. veterans</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Natalini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Am Thorac Soc</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="598" to="605" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Progressive preclinical interstitial lung disease in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Gochuico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Avila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Chow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Int Med</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="159" to="166" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Rheumatoid arthritis lung disease. Determinants of radiographic and physiologic abnormalities</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kolluri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Koehnke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1711" to="1719" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Incidence and mortality of interstitial lung disease in rheumatoid arthritis: a population-based study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bongartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nannini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Medina-Velasquez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1583" to="1591" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Clinical characteristics of rheumatoid arthritis patients with interstitial lung disease: baseline data of a single-center prospective cohort</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Myositis-associated interstitial lung disease: a comprehensive approach to diagnosis and management</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Hallowell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Paik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Exp Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="373" to="383" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Risk factors for primary Sjögren syndrome-associated interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qiu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Thorac Dis</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="2108" to="2117" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Interstitial lung disease in Sjögren&apos;s syndrome: a clinical review</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Luppi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sebastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Silva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Exp Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="291" to="300" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Diagnosis of idiopathic pulmonary fibrosis. An official ATS/ERS/JRS/ALAT clinical practice guideline</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Raghu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Remy-Jardin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Myers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Respir Crit Care Med</title>
+		<imprint>
+			<biblScope unit="volume">198</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="44" to="e68" />
+			<date type="published" when="2018">2018</date>
+			<publisher>Japanese Respiratory Society, and Latin American Thoracic Society</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 15. Going from evidence to recommendation-determinants of a recommendation&apos;s direction and strength</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schünemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="726" to="735" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">GRADE Working Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">GRADE Working Group</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">GRADE Working Group</orgName>
+			</affiliation>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="issue">7650</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">How the American College of Rheumatology develops guidelines</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheum Dis Clin North Am</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="579" to="588" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Short-term pulmonary function trends are predictive of mortality in interstitial lung disease associated with systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Hoyles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Denton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1670" to="1678" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Predictive value of serial high-resolution computed tomography analyses and concurrent lung function tests in systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hoffmann-Vold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Aaløkken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Lund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2205" to="2212" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Quantifying change in pulmonary function as a prognostic marker in systemic sclerosis-related interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Proudman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Goh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Exp Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="111" to="S116" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>Suppl 91</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">How to recognize a trustworthy clinical practice guideline</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Mirza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Anesth Analg Crit Care</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 12. Preparing summary of findings tables-binary outcomes</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Santesso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="158" to="172" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Assessing patient values and preferences to inform the American College of Rheumatology/American College of Chest Physicians interstitial lung disease guidelines</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Mirza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Bolster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<idno type="DOI">info:doi/10.1002/acr.25346</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1083" to="1089" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">American College of Chest Physicians (CHEST) guideline for the treatment of interstitial lung disease in people with systemic autoimmune rheumatic diseases</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Berstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Bolster</surname></persName>
+		</author>
+		<idno type="DOI">info:doi/10.1002/art.42861</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1182" to="1200" />
+			<date type="published" when="2023">2023. 2024</date>
+			<publisher>American College of Rheumatology</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Diagnostic accuracy of a velcro sound detector (VECTOR) for interstitial lung disease in rheumatoid arthritis patients: the InSPIRAtE validation study (INterStitial pneumonia in rheumatoid ArThritis with an electronic device)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Manfredi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cassone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cerri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Pulm Med</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">111</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>GISEA (Gruppo Italiano Studio Early Arthritis)</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Clinical algorithms for the diagnosis and prognosis of interstitial lung disease in systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hax</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bredemeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Didonet</forename><surname>Moro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="228" to="234" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Canadian Society of Thoracic Radiology/Canadian Association of Radiologists best practice guidance for investigation of acute pulmonary embolism, part 2: technical issues and interpretation pitfalls</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Manos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can Assoc Radiol J</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="214" to="227" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Waiting to exhale: salvaging the nondiagnostic CT pulmonary angiogram by using expiratory imaging to improve contrast dynamics</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Velayudhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Weltman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Emerg Radiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="161" to="169" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Use of expiratory CT pulmonary angiography to reduce inspiration and breath-hold associated artefact: contrast dynamics and implications for scan protocol</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Mortimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hughes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Radiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1159" to="1166" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Performance characteristics of pulmonary function tests for the detection of interstitial lung disease in adults with early diffuse cutaneous systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Bernstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jaafar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Assassi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1892" to="1896" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Assessing the diagnostic value of a potential screening tool for detecting early interstitial lung disease at the onset of inflammatory rheumatic diseases</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Oelzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Franz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Res Ther</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">107</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Performance of forced vital capacity and lung diffusion cutpoints for associated radiographic interstitial lung disease in systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Showalter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hoffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rouleau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1572" to="1576" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Unnecessary radiation exposure from medical imaging in the rheumatology patient</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Picano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Matucci-Cerinic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1537" to="1539" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The 2007 recommendations of the International Commission on Radiological Protection. ICRP publication 103</title>
+	</analytic>
+	<monogr>
+		<title level="j">Ann ICRP</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">2-4</biblScope>
+			<biblScope unit="page" from="1" to="332" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Cancer risks from diagnostic radiology</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Brenner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Radiol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">965</biblScope>
+			<biblScope unit="page" from="362" to="378" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Serum levels of surfactant proteins A and D are useful biomarkers for interstitial lung disease in patients with progressive systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kuroki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanaka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Respir Crit Care Med</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="258" to="263" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Regional differences in bronchoalveolar lavage and thoracic high-resolution computed tomography results in dyspneic patients with systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Clements</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Goldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Kleerup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1909" to="1917" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Evaluation and management of scleroderma lung disease using bronchoalveolar lavage</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Kinsella</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Med</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="470" to="476" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Impact of lung biopsy information on treatment strategy of patients with interstitial lung diseases</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tomassetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ravaglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Puglisi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Am Thorac Soc</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="737" to="745" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Screening high-resolution computed tomography of the chest to detect interstitial lung disease in systemic sclerosis: a global survey of rheumatologists</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Bernstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Lederer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="971" to="972" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Longitudinal change during follow-up of systemic sclerosis: correlation between high-resolution computed tomography and pulmonary function tests</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carnevale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Maietti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="213" to="219" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Using transitional changes on high-resolution computed tomography to monitor the impact of cyclophosphamide or mycophenolate mofetil on systemic sclerosis-related interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">Ghj</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Tashkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="316" to="325" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Quantitative texture-based assessment of one-year changes in fibrotic reticular patterns on HRCT in scleroderma lung disease treated with oral cyclophosphamide</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Elashoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Radiol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2455" to="2465" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Interstitial lung disease in primary Sjögren&apos;s syndrome</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Roca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dominique</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schmidt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Autoimmun Rev</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="48" to="54" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">A retrospective study of the efficacy of JAK inhibitors or abatacept on rheumatoid arthritis-interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tardella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Carlo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inflammopharmacology</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="705" to="712" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Lung cancer and interstitial lung disease: a literature review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Naccache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Gibiot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Monnet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Thorac Dis</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="3829" to="3844" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Interstitial lung disease in systemic sclerosis: a simple staging system</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Desai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Veeraraghavan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Respir Criti Care Med</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1248" to="1254" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Scleroderma Lung Study Research Group. High-resolution CT scan findings in patients with symptomatic scleroderma-related interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Goldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Strollo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chest</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="358" to="367" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Clinical course of lung physiology in patients with scleroderma and interstitial lung disease: analysis of the Scleroderma Lung Study Placebo Group</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Khanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Farmani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="3078" to="3085" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The extent and diverse trajectories of longitudinal changes in rheumatoid arthritis interstitial lung diseases using quantitative HRCT scores</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Ha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Med</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page">3812</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Extent of disease on high-resolution computed tomography lung is a predictor of decline and mortality in systemic sclerosis-related interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Corte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="155" to="160" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Quantitative and semiquantitative computed tomography analysis of interstitial lung disease associated with systemic sclerosis: a longitudinal evaluation of pulmonary parenchyma and vessels</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Occhipinti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bosello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Sisti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">213444</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Clinical, imaging, and blood biomarkers to assess 1-year progression risk in fibrotic interstitial lung diseases-development and validation of the honeycombing, traction bronchiectasis, and monocyte (HTM)-score</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hawle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Akbari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Med (Lausanne)</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1043720</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The prognostic value of HRCT in myositis-associated interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tanizawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Handa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakashima</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Respir Med</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="745" to="752" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Relationship between quantitative radiographic assessments of interstitial lung disease and physiological and clinical features of systemic sclerosis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Tashkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Volkmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tseng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="374" to="381" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Automatic quantitative computed tomography evaluation of the lungs in patients with systemic sclerosis treated with autologous stem cell transplantation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>De Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>De Moraes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">7S Suppl 2</biblScope>
+			<biblScope unit="page" from="158" to="S164" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Chest computed tomography findings of adult patients with antimelanoma differentiation-associated protein 5 antibody-positive interstitial lung disease</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Waseda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Johkoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Prosch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mod Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="365" to="372" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

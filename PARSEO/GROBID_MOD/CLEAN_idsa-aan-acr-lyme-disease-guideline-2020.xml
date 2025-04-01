@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<ns0:teiHeader xml:lang="en">
+		<ns0:fileDesc>
+			<ns0:titleStmt>
+				<ns0:title level="a" type="main">Clinical Practice Guidelines by the Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR): 2020 Guidelines for the Prevention, Diagnosis, and Treatment of Lyme Disease</ns0:title>
+				<ns0:funder>
+					<ns0:orgName type="full">Roche Diagnostics</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Abbott Laboratories (formerly St. Jude Medical</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Centers for Medicare and Medicaid Services</ns0:orgName>
+					<ns0:orgName type="abbreviated">CMS</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder ref="#_XXGdThU">
+					<ns0:orgName type="full">Michigan Department of Health and Human Services</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder ref="#_6AMfdcc">
+					<ns0:orgName type="full">Slovenian Research Agency</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">American Academy of Family Physicians</ns0:orgName>
+					<ns0:orgName type="abbreviated">AAFP</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Global Lyme Alliance</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">CDC</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Institute for Clinical and Economic Review and the China Medical Board</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">American College of Radiology</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Michigan State University</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Hood Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Arthritis Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">NIH, Provider and Payer Quality Initiative</ns0:orgName>
+					<ns0:orgName type="abbreviated">PPQI</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Patient and Caregivers Committee of the Heart Rhythm Society</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Immunetics, Inc.</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Harvard Catalyst</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Rx Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">NIH Center for Research Resources and for Advancing Translational Sciences</ns0:orgName>
+					<ns0:orgName type="abbreviated">NCATS</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Bay Area Lyme Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">CDC, Emergency Medical Services for Children</ns0:orgName>
+					<ns0:orgName type="abbreviated">EMSC</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Boston Scientific</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">American College of Rheumatology</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder ref="#_FHMgAyE">
+					<ns0:orgName type="full">Gordon and Llura Gund Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">English-Bonter-Mitchell Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Teva Pharmaceuticals</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">NIH, Department of Defense</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Alzheimer's Association</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Merck</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Ounsworth-Fitzgerald Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Center for AIDS Research, Biogen Idec</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Milton Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder ref="#_jwFVvsv #_GGVNtwF #_3sBecdt #_fm8cYjk #_gHuEduf">
+					<ns0:orgName type="full">unknown</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Medtronic</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Mathers Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Veterans Health Administration</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">NIH and AbbVie, Inc.</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Michigan Lyme Disease Association</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Genzyme</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">NIH DSMB</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Centers for Disease Control and Prevention</ns0:orgName>
+					<ns0:orgName type="abbreviated">CDC</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder ref="#_rCVJs4n">
+					<ns0:orgName type="full">Editorial Boards of Pathogens and Plos Neglected Tropical Diseases</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Peabody Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder ref="#_ZRNPMEK #_y3uDSww">
+					<ns0:orgName type="full">National Institutes of Health</ns0:orgName>
+					<ns0:orgName type="abbreviated">NIH</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder ref="#_vhJUfSR">
+					<ns0:orgName type="full">Novartis Promotional Speakers Bureau</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Bristol Myers Squibb</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Boehringer Ingelheim Pharmaceuticals, Inc.</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">National Patient-Centered Clinical Research Network (PCORNet)</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder ref="#_36MmKbk #_qufRZAE">
+					<ns0:orgName type="full">American Lyme Disease Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">AbbVie</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">National Science Foundation</ns0:orgName>
+				</ns0:funder>
+				<ns0:funder>
+					<ns0:orgName type="full">Board member of Delaware Academy of Family Physicians</ns0:orgName>
+					<ns0:orgName type="abbreviated">DAFP</ns0:orgName>
+				</ns0:funder>
+			</ns0:titleStmt>
+			<ns0:publicationStmt>
+				<ns0:publisher />
+				<ns0:availability status="unknown"><ns0:licence /></ns0:availability>
+			</ns0:publicationStmt>
+			<ns0:sourceDesc>
+				<ns0:biblStruct>
+					<ns0:monogr>
+						<ns0:imprint>
+							<ns0:date />
+						</ns0:imprint>
+					</ns0:monogr>
+					<ns0:idno type="MD5">BB16118350723ED6C824D3363366ED67</ns0:idno>
+					<ns0:idno type="DOI">10.1002/art.41562</ns0:idno>
+				</ns0:biblStruct>
+			</ns0:sourceDesc>
+		</ns0:fileDesc>
+		</ns0:teiHeader>
+	<ns0:text xml:lang="en">
+		<ns0:body><ns0:div><ns0:p>It is important to realize that guidelines cannot always account for individual variation among patients. They are assessments of current scientific and clinical information provided as an educational service; are not continually updated and may not reflect the most recent evidence (new evidence may emerge between the time information is developed and when it is published or read); should not be considered inclusive of all proper treatments methods of care, or as a statement of the standard of care; do not mandate any particular course of medical care; and are not intended to supplant physician judgment with respect to particular patients or special clinical situations. Whether and the extent to which to follow guidelines is voluntary, with the ultimate determination regarding their application to be made by the physician in the light of each patient's individual circumstances. Although IDSA, AAN, and ACR make every effort to present accurate, complete, and reliable information, these guidelines are presented "as is" without any warranty, either express or implied. IDSA, AAN, and ACR (and their officers, directors, members, employees, and agents) assume no responsibility for any loss, damage, or claim with respect to any liabilities, including direct, special, indirect, or consequential damages, incurred in connection with these guidelines or reliance on the information presented.</ns0:p><ns0:p>The guidelines represent the proprietary and copyrighted property of IDSA, AAN, and ACR. Copyright 2020 Infectious Diseases Society of America, American Academy of Neurology, and American College of Rheumatology. All rights reserved. No part of these guidelines may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of IDSA, AAN, or ACR. Permission is granted to physicians and healthcare providers solely to copy and use the guidelines in their professional practices and clinical decision-making. No license or permission is granted to any person or entity, and prior written authorization by IDSA, AAN, or ACR is required, to sell, distribute, or modify the guidelines, or to make derivative works of or incorporate the guidelines into any product, including but not limited to clinical decision support software or any other software product. Except for the permission granted above, any person or entity desiring to use the guidelines in any way must contact IDSA, AAN, or ACR for approval in accordance with the terms and conditions of third party use, in particular any use of the guidelines in any software product.</ns0:p><ns0:p>and the diagnosis and treatment of Lyme disease presenting as erythema migrans, Lyme disease complicated by neurologic, cardiac, and rheumatologic manifestations, Eurasian manifestations of Lyme disease, and Lyme disease complicated by coinfection with other tick-borne pathogens. This guideline does not include comprehensive recommendations for babesiosis and tick-borne rickettsial infections, which are published in separate guidelines. The target audience for this guideline includes primary care physicians and specialists caring for this condition such as infectious diseases specialists, emergency physicians, internists, pediatricians, family physicians, neurologists, rheumatologists, cardiologists, and dermatologists in North America.</ns0:p><ns0:p>Summarized below are the 2020 recommendations for the prevention, diagnosis, and treatment of Lyme disease. The panel followed a systematic process used in the development of other Infectious Diseases Society of America (IDSA), American Academy of Neurology (AAN), and American College of Rheumatology (ACR) clinical practice guidelines, which included a standardized methodology for rating the certainty of the evidence and strength of recommendation using the GRADE approach (Grading of Recommendations Assessment, Development, and Evaluation) (see Figure<ns0:ref type="figure" target="#fig_0">1</ns0:ref>). A detailed description of background, methods, evidence summary and rationale that support each recommendation, and knowledge gaps can be found online in the full text (<ns0:ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41562/abstract">http://onlin elibr ary.wiley.com/doi/10.1002/ art.41562/ abstract</ns0:ref>).</ns0:p></ns0:div><ns0:div><ns0:head>I. Which measures should be used to prevent tick bites and tick-borne infections?</ns0:head><ns0:p>A. Personal protective measures Recommendation:</ns0:p><ns0:p>1. Individuals at risk of exposure should implement personal protective measures to reduce the risk of tick exposure and infection with tick-borne pathogens (good practice statement).</ns0:p></ns0:div><ns0:div><ns0:head>B. Repellents to prevent tick bites</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. For the prevention of tick bites, we recommend N, N-Diethyl-meta-toluamide (DEET), picaridin, ethyl-3-(Nn-butyl-N-acetyl) aminopropionate (IR3535), oil of lemon eucalyptus (OLE), p-methane-3,8-diol (PMD), 2-undecanone, or permethrin (strong recommendation, moderate-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>C. Removal of attached ticks</ns0:head><ns0:p>Recommendations:</ns0:p><ns0:p>1. We recommend promptly removing attached ticks by mechanical means using a clean fine-tipped tweezer (or a comparable device) inserted between the tick body and the skin (good practice statement). 2. We recommend against burning an attached tick (with a match or other heat device) or applying noxious chemicals or petroleum products to coax its detachment (good practice statement).</ns0:p></ns0:div><ns0:div><ns0:head>II. Which diagnostic tests should be used following a tick bite?</ns0:head><ns0:p>A. Diagnostic tick testing Recommendations:</ns0:p><ns0:p>1. We recommend submitting the removed tick for species identification (good practice statement).</ns0:p><ns0:p>are identical except for minor stylistic and spelling differences in keeping with each journal's style. The full guideline is available at<ns0:ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/art.41562/abstract">http://onlin elibr ary. wiley.com/doi/10.1002/art.41562/ abstract</ns0:ref>. Support for this guideline was provided by the Infectious Diseases Society of America, the American Academy of Neurology, and the American College of Rheumatology.</ns0:p></ns0:div><ns0:div><ns0:head n="2.">We recommend against testing a removed</ns0:head></ns0:div><ns0:div><ns0:head>III. Who should receive antibiotic prophylaxis to prevent Lyme disease following presentation with a tick bite?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. We recommend that prophylactic antibiotic therapy be given only to adults and children within 72 hours of removal of an identified high-risk tick bite, but not for bites that are equivocal risk or low risk (strong recommendation, high-quality evidence).</ns0:p><ns0:p>Comment: If a tick bite cannot be classified with a high level of certainty as a high-risk bite, a wait-and-watch approach is recommended. A tick bite is considered to be high-risk only if it meets the following 3 criteria: the tick bite was from (a) an identified Ixodes spp. vector species, (b) it occurred in a highly endemic area, and (c) the tick was attached for ≥36 hours.</ns0:p></ns0:div><ns0:div><ns0:head>IV. What is the preferred antibiotic regimen for the chemoprophylaxis of Lyme disease following a high-risk tick bite?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. For high-risk Ixodes spp. bites in all age groups, we recommend the administration of a single dose of oral doxycycline within 72 hours of tick removal over observation (strong recommendation, moderate-quality evidence).</ns0:p><ns0:p>Comment: Doxycycline is given as a single oral dose, 200 mg for adults and 4.4 mg/kg (up to a maximum dose of 200 mg) for children.</ns0:p></ns0:div><ns0:div><ns0:head>V. What is the preferred diagnostic testing strategy for erythema migrans?</ns0:head><ns0:p>Recommendations:</ns0:p><ns0:p>1. In patients with potential tick exposure in a Lyme disease endemic area who have 1 or more skin lesions compatible with erythema migrans, we recommend clinical diagnosis rather than laboratory testing (strong recommendation, moderatequality evidence). 2. In patients with 1 or more skin lesions suggestive of, but atypical for erythema migrans, we suggest antibody testing performed on an acute-phase serum sample (followed by a convalescent-phase serum sample if the initial result is negative) rather than currently available direct detection methods such as polymerase chain reaction (PCR) or culture performed on blood or skin samples (weak recommendation, low-quality evidence).</ns0:p><ns0:p>Comment: If needed, the convalescent-phase serum sample should be collected at least 2-3 weeks after collection of the acute-phase serum sample.</ns0:p></ns0:div><ns0:div><ns0:head>VI. What are the preferred antibiotic regimens for the treatment of erythema migrans?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. For patients with erythema migrans, we recommend using oral antibiotic therapy with doxycycline, amoxicillin, or cefuroxime axetil (strong recommendation; moderate-quality evidence). Comment: For patients unable to take both doxycycline and beta-lactam antibiotics, the preferred second-line agent is azithromycin.</ns0:p></ns0:div><ns0:div><ns0:head>VII. How long should a patient with erythema migrans be treated?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. We recommend that patients with erythema migrans be treated with either a 10-day course of doxycycline or a 14-day course of amoxicillin or cefuroxime axetil rather than longer treatment courses (strong recommendation, moderatequality evidence). Comment: If azithromycin is used, the indicated duration is 5-10 days, with a 7-day course preferred in the United States, as this duration of therapy was used in the largest clinical trial performed in the United States .</ns0:p></ns0:div><ns0:div><ns0:head>VIII. Should patients with the southern tickassociated rash illness (STARI) be treated with antibiotics?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients who develop an erythema migrans-like skin lesion following the bite of the lone star tick (Amblyomma americanum), an illness referred to as STARI, we make no recommendation for or against the use of antibiotics (no recommendation; knowledge gap). Comment: In certain geographic regions both STARI and Lyme disease are endemic . Distinguishing single erythema migrans due to Lyme disease from STARI may not be possible clinically unless the responsible tick has been identified</ns0:p></ns0:div><ns0:div><ns0:head>IX. What is the preferred diagnostic testing strategy for Lyme neuroborreliosis?</ns0:head><ns0:p>Recommendations:</ns0:p><ns0:p>1. When assessing patients for possible Lyme neuroborreliosis involving either the peripheral nervous system (PNS) or central nervous system (CNS), we recommend serum antibody testing rather than PCR or culture of either cerebrospinal fluid (CSF) or serum (strong recommendation, moderate-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>X. For which neurologic presentations should patients be tested for Lyme disease?</ns0:head><ns0:p>Recommendations:</ns0:p><ns0:p>1. In patients presenting with 1 or more of the following acute disorders: meningitis, painful radiculoneuritis, mononeuropathy multiplex including confluent mononeuropathy multiplex, acute cranial neuropathies (particularly VII, VIII, less commonly III, V, VI, and others), or in patients with evidence of spinal cord (or rarely brain) inflammation, the former particularly in association with painful radiculitis involving related spinal cord segments, and with epidemiologically plausible exposure to ticks infected with B. burgdorferi, we recommend testing for Lyme disease (strong recommendation, moderate-quality evidence). 2. In patients with typical amyotrophic lateral sclerosis, relapsing-remitting multiple sclerosis, Parkinson's disease, dementia or cognitive decline, or new-onset seizures, we recommend against routine testing for Lyme disease (strong recommendation, low-quality evidence). 3. In patients with neurologic syndromes other than those listed in</ns0:p></ns0:div><ns0:div><ns0:head>XI. Should adult patients with psychiatric illnesses be tested for Lyme disease?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients with psychiatric illness, we recommend against routine testing for Lyme disease (strong recommendation, low-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XII. Should children with developmental, behavioral, or psychiatric disorders be tested for Lyme disease?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In children presenting with developmental, behavioral, or psychiatric disorders, we suggest against routinely testing for Lyme disease (weak recommendation, low-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XIII. What are the preferred antibiotic regimens for the treatment of acute neurologic manifestations of Lyme disease without parenchymal involvement of the brain or spinal cord?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients with Lyme disease-associated meningitis, cranial neuropathy, radiculoneuropathy, or with other PNS manifestations, we recommend using intravenous (IV) ceftriaxone, cefotaxime, penicillin G, or oral doxycycline over other antimicrobials (strong recommendation, moderate-quality evidence). Comment: Decisions about the choice of antibiotic among these, including the route of administration, should primarily be made based on individual factors such as side effect profile, ease of administration, ability to tolerate oral medication, concerns about compliance unrelated to effectiveness. Treatment route may be changed from IV to oral during treatment. The preferred antibiotic duration is 14-21 days.</ns0:p></ns0:div><ns0:div><ns0:head>XIV. Should patients with Lyme disease-related parenchymal involvement of the brain or spinal cord be treated with oral or intravenous antibiotics?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients with Lyme disease-associated parenchymal involvement of the brain or spinal cord, we recommend using IV over oral antibiotics (strong recommendation, moderate-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XV. Should patients with Lyme disease and facial nerve palsy receive corticosteroids in addition to antimicrobial therapy?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients with Lyme disease-associated facial nerve palsy, we make no recommendation on the use of corti-costeroids in addition to antibiotics (no recommendation; knowledge gap). Comment: In patients age 16 or older presenting with acute facial nerve palsy but without other objective clinical or serologic evidence of Lyme disease, corticosteroid treatment should be administered within 72 hours in accordance with current facial nerve palsy guideline recommendations</ns0:p></ns0:div><ns0:div><ns0:head>XVI. Should all patients with early Lyme disease receive an electrocardiogram (ECG) to screen for Lyme carditis?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. We suggest performing an ECG only in patients with signs or symptoms consistent with Lyme carditis (weak recommendation, low-quality evidence). Comment: Symptoms and signs of cardiac involvement in Lyme disease include dyspnea, edema, palpitations, lightheadedness, chest pain, and syncope.</ns0:p></ns0:div><ns0:div><ns0:head>XVII. Which patients with Lyme carditis require hospitalization?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients with or at risk for severe cardiac complications of Lyme disease including those with significant PR prolongation (PR &gt;300 milliseconds), other arrhythmias, or clinical manifestations of myopericarditis, we recommend hospital admission with continuous ECG monitoring (strong recommendation, very low-quality evidence).</ns0:p><ns0:p>Comment: Clinical manifestations of Lyme carditis include exercise intolerance, palpitations, presyncope, syncope, pericarditic pain, evidence of pericardial effusion, elevated biomarkers (such as troponin), edema, and shortness of breath.</ns0:p></ns0:div><ns0:div><ns0:head>XVIII. What pacing modality should be used if needed for the management of Lyme carditis?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. For patients with symptomatic bradycardia due to Lyme carditis that cannot be managed medically, we recommend temporary pacing modalities rather than implanting a permanent pacemaker (strong recommendation, moderate-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XIX. What are the preferred antibiotic regimens for the treatment of Lyme carditis?</ns0:head><ns0:p>Recommendations:</ns0:p><ns0:p>1. In outpatients with Lyme carditis, we suggest oral antibiotics over IV antibiotics (weak recommendation, very low-quality evidence). 2. In the hospitalized patient with Lyme carditis, we suggest initially using IV ceftriaxone over oral antibiotics until there is evidence of clinical improvement, then switching to oral antibiotics to complete treatment (weak recommendation, very low-quality evidence). 3. For the treatment of Lyme carditis, we suggest 14-21 days of total antibiotic therapy over longer durations of treatment (weak recommendation, very low-quality evidence). Comment: Oral antibiotic choices for Lyme carditis are doxycycline, amoxicillin, cefuroxime axetil, and azithromycin.</ns0:p></ns0:div><ns0:div><ns0:head>XX. Should patients being evaluated for acute myocarditis/pericarditis or chronic cardiomyopathy of unknown cause be tested for Lyme disease?</ns0:head><ns0:p>Recommendations:</ns0:p><ns0:p>1. In patients with acute myocarditis/pericarditis of unknown cause in an appropriate epidemiologic setting, we recommend testing for Lyme disease (strong recommendation, low-quality evidence). 2. In patients with chronic cardiomyopathy of unknown cause, we suggest against routine testing for Lyme disease (weak recommendation, low-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XXI. What is the preferred diagnostic testing strategy for Lyme arthritis?</ns0:head><ns0:p>Recommendations:</ns0:p><ns0:p>1. When assessing possible Lyme arthritis, we recommend serum antibody testing over PCR or culture of blood or synovial fluid/ tissue (strong recommendation, moderate-quality evidence). 2. In seropositive patients for whom the diagnosis of Lyme arthritis is being considered but treatment decisions require more definitive information, we recommend PCR applied to synovial fluid or tissue rather than Borrelia culture of those samples (strong recommendation, moderate-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XXII. What are the preferred antibiotic regimens for the initial treatment of Lyme arthritis?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. For patients with Lyme arthritis, we recommend using oral antibiotic therapy for 28 days (strong recommendation, moderate-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XXIII. What are the approaches to patients in whom Lyme arthritis has not completely resolved?</ns0:head><ns0:p>Recommendations:</ns0:p><ns0:p>1. In patients with Lyme arthritis with partial response (mild residual joint swelling) after a first course of oral antibiotic, we make no recommendation for a second course of antibiotic versus observation (no recommendation, knowledge gap).</ns0:p><ns0:p>Comment: Consideration should be given to exclusion of other causes of joint swelling than Lyme arthritis, medication adherence, duration of arthritis prior to initial treatment, degree of synovial proliferation versus joint swelling, patient preferences, and cost. A second course of oral antibiotics for up to 1 month may be a reasonable alternative for patients in whom synovial proliferation is modest compared to joint swelling and for those who prefer repeating a course of oral antibiotics before considering IV therapy. 2. In patients with Lyme arthritis with no or minimal response (moderate to severe joint swelling with minimal reduction of the joint effusion) to an initial course of oral antibiotic, we suggest a 2-4-week course of IV ceftriaxone over a second course of oral antibiotics (weak recommendation, low-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XXIV. How should post-antibiotic (previously termed antibiotic-refractory) Lyme arthritis be treated?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients who have failed 1 course of oral antibiotics and 1 course of IV antibiotics, we suggest a referral to a rheumatologist or other trained specialist for consideration of the use of disease-modifying antirheumatic drugs, biologic agents, intraarticular steroids, or arthroscopic synovectomy (weak recommendation, very low-quality evidence). Comment: Antibiotic therapy for longer than 8 weeks is not expected to provide additional benefit to patients with persistent arthritis if that treatment has included 1 course of IV therapy.</ns0:p></ns0:div><ns0:div><ns0:head>XXV. Should patients with persistent symptoms following standard treatment of Lyme disease receive additional antibiotics?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. For patients who have persistent or recurring nonspecific symptoms such as fatigue, pain, or cognitive impairment following recommended treatment for Lyme disease, but who lack objective evidence of reinfection or treatment failure, we recommend against additional antibiotic therapy (strong recommendation, moderate-quality evidence). Comment: Evidence of persistent infection or treatment failure would include objective signs of disease activity, such as arthritis, meningitis, or neuropathy.</ns0:p></ns0:div><ns0:div><ns0:head>XXVI. What is the preferred antibiotic regimen for the treatment of borrelial lymphocytoma?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients with borrelial lymphocytoma, we suggest oral antibiotic therapy for 14 days (weak recommendation, lowquality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XXVII. What is the preferred antibiotic regimen for the treatment of acrodermatitis chronica atrophicans?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1. In patients with acrodermatitis chronica atrophicans, we suggest oral antibiotic therapy for 21-28 days over shorter durations (weak recommendation, low-quality evidence).</ns0:p></ns0:div><ns0:div><ns0:head>XXVIII. Under what circumstances should a patient with Lyme disease be evaluated for coinfection with A. phagocytophilum or B. microti?</ns0:head><ns0:p>Recommendation:</ns0:p><ns0:p>1 To provide thorough transparency, the IDSA/AAN/ACR requires full disclosure of all relationships, regardless of relevancy to the guideline topic. The assessment of disclosed relationships for possible COI is based on the relative weight of the financial relationship (i.e., monetary amount) and the relevance of the relationship (i.e., the degree to which an association might reasonably be interpreted by an independent observer as related to the topic or recommendation of consideration). The reader of these guidelines should be mindful of this when the list of disclosures is reviewed. Dr. Lantos has received research funding from the National Cytomegalovirus Foundation and from the NIH and educational funding from Duke University; and has served as a consultant and reviewed trial protocol for Frederick O'Connor Medical Consultants, LLC. Dr. Bockenstedt has received research funding from the NIH and the Gordon and Llura Gund Foundation; has received remuneration from L2 Diagnostics for investigator-initiated NIH-sponsored research; and was awarded an endowed professorship as the Harold W. Jockers Professor of Medicine at Yale University. Dr. Falck-Ytter serves as director of the Evidence Foundation and the GRADE Network; conducts GRADE workshops with the Evidence Foundation; has served as the chair of the Guidelines Committee for the American Gastroenterological Association; and has received research funding from the Cleveland VA Medical Research and Education Foundation. Dr. Aguero-Rosenfeld serves as a council member for the New York City chapter of the American Society of Microbiology (ASM) and as a Board member of the American Lyme Disease Foundation; has provided legal testimony and consultation regarding Lyme disease and tick-borne diseases; and has received research grants from the NIH, BioFire, New York State Department of Health, and ViraMed. Dr. Auwaerter receives research funding from the Fisher Center for Environmental Infectious Diseases and the NIH; serves on the Board of Directors of the American Lyme Disease Foundation and as the Vice Chair of the Infectious Diseases Society of America (IDSA) Foundation; serves as a scientific advisor for DiaSorin, Adaptive Technologies, and Shionogi; provides legal expert opinion testimony regarding Lyme disease; had stock in Johnson &amp; Johnson; has served as an editor for Johns Hopkins POC-IT ABX Guide, an advisor for the Food and Drug Administration (FDA), Genentech, Dynavax, Aradigm, Cempra, BioMérieux, Cerexa, and Medscape; has received research funding from Cerexa; has served on the FDA Advisory Board, the Medscape Advisory Board, and the IDSA Board of Directors; and his spouse has equity interest in venture capital-funded Capricor. Dr. Belani reviews non-continuing medical education (CME) lectures for and received honoraria and travel reimbursement from Horizon Therapeutics; and has received research funding from the NIH and the Children's Hospitals and Clinics of Minnesota. Dr. Bowie has provided expert testimony to the Canadian Senate Subcommittee on Bill C-442: An Act Respecting a National Lyme Disease Strategy on behalf of the Association of Medical Microbiology and Infectious Disease Canada; and has received research funding from GlaxoSmithKline, Pfizer Canada, the Canadian Institutes of Health Research, and Vancouver Coastal Health Research Institute. Dr. Branda receives research funding from the Lyme Disease Biobank Foundation and Zeus Scientific; serves as a scientific advisor and consultant to DiaSorin, Inc.; has served as a scientific advisor and consultant for T2 Biosystems; has served on the scientific advisory board of Roche Diagnostics and AdvanDx; has received research funding from Karius, Inc., Alere, Inc., T2 Biosystems, BioMérieux, TBS Technologies, Immunetics, Inc., DiaSorin, Inc., Kephera Diagnostics, Inc., and the Bay Area Lyme Foundation; has participated in unfunded research collaborations with Karius Inc. and Kephera Diagnostics; was a member of the editorial board of the Journal of Clinical Microbiology; was a co-inventor on an application for a patent to protect intellectual property; and his spouse is an employee of Informed DNA. Dr.</ns0:p></ns0:div></ns0:body><ns0:back>
+
+			<ns0:div type="acknowledgement">
+<ns0:div><ns0:p>receives research funding from the <ns0:rs type="programName">Yale Emerging Infections Program</ns0:rs>; receives remuneration from <ns0:rs type="person">Gold Standard Diagnostics</ns0:rs> for a collaborative research project; has stock in <ns0:rs type="institution">Gilead Sciences and First Trust NASDAQ Pharmaceuticals ETF</ns0:rs>; has received research funding from the <ns0:rs type="funder">NIH</ns0:rs>, the <ns0:rs type="funder">Centers for Disease Control and Prevention (CDC)</ns0:rs>, the <ns0:rs type="funder">Gordon and Llura Gund Foundation</ns0:rs>, and <ns0:rs type="grantNumber">L2</ns0:rs> Diagnostics for NIH-sponsored research; has served as a scientific consultant and provided medical education and training for <ns0:rs type="institution">Oxford Immunotec, Inc.</ns0:rs>; has a patent pending (Enhanced Chemiluminescent enzyme-linked immunosorbent assay for detection of antibodies against Babesia microti), for which US Provisional Patent Application No. <ns0:rs type="grantNumber">62/580</ns0:rs>,588, was filed on November 2, 2017; serves on the Board of Directors for the <ns0:rs type="funder">American Lyme Disease Foundation</ns0:rs> and the <ns0:rs type="funder">Editorial Boards of Pathogens and Plos Neglected Tropical Diseases</ns0:rs> and the <ns0:rs type="institution">Editorial Advisory Board of Clinical Infectious Diseases</ns0:rs>; was on the <ns0:rs type="institution">Editorial Board of Journal of Clinical Microbiology</ns0:rs>, and will be on the <ns0:rs type="grantName">Editorial Board of Clinical Microbiology Reviews starting January 2021</ns0:rs>. <ns0:rs type="person">Dr. Liang</ns0:rs> has stock in Johnson &amp; Johnson; received research funding from the <ns0:rs type="funder">Veterans Health Administration</ns0:rs>, the <ns0:rs type="funder">Arthritis Foundation</ns0:rs>, and the <ns0:rs type="funder">NIH</ns0:rs>; has served on the <ns0:rs type="institution">FDA Advisory Panel, Institute of Medicine</ns0:rs> panels; served as a scientific reviewer for the <ns0:rs type="grantName">Research Grant Council of Hong Kong</ns0:rs> and the <ns0:rs type="funder">NIH</ns0:rs>; served on the Board of the <ns0:rs type="institution">Lupus Clinical Trials Consortium</ns0:rs>, <ns0:rs type="person">Beacon Hill Villages</ns0:rs>, and <ns0:rs type="funder">Rx Foundation</ns0:rs> and advised the <ns0:rs type="funder">Institute for Clinical and Economic Review and the China Medical Board</ns0:rs>; previously had stock in Sequenom; and his spouse has stock in <ns0:rs type="person">Johnson &amp; Johnson. Dr. Meissner</ns0:rs> is a current member of the CDC Workgroups and serves as a volunteer consultant on the <ns0:rs type="institution">American Academy of Pediatrics Committee on Infectious Diseases</ns0:rs> and the <ns0:rs type="funder">NIH DSMB</ns0:rs>. <ns0:rs type="person">Dr. Nigrovic</ns0:rs> receives research funding from the <ns0:rs type="funder">NIH, Department of Defense</ns0:rs>, and the <ns0:rs type="funder">NIH Center for Research Resources and for Advancing Translational Sciences (NCATS)</ns0:rs>, <ns0:rs type="funder">Global Lyme Alliance</ns0:rs>, and <ns0:rs type="funder">Peabody Foundation</ns0:rs>; serves on the <ns0:rs type="institution" subtype="infrastructure">Editorial Board for Annals of Emergency Medicine</ns0:rs>; has served as scientific consultant for <ns0:rs type="institution">Adaptive Technologies</ns0:rs>; has received research funding from the <ns0:rs type="funder">NIH, Provider and Payer Quality Initiative (PPQI) Research Foundation</ns0:rs>, <ns0:rs type="funder">Harvard Catalyst</ns0:rs>, <ns0:rs type="funder">Hood Foundation</ns0:rs>, <ns0:rs type="funder">Bay Area Lyme Foundation</ns0:rs>, <ns0:rs type="funder">CDC, Emergency Medical Services for Children (EMSC)</ns0:rs>, the <ns0:rs type="funder">National Patient-Centered Clinical Research Network (PCORNet)</ns0:rs>, <ns0:rs type="funder">Milton Foundation</ns0:rs>, and <ns0:rs type="institution">Boston Children's Hospital</ns0:rs>. <ns0:rs type="person">Dr. Nocton</ns0:rs> receives research funding from <ns0:rs type="funder">Bristol Myers Squibb</ns0:rs>; serves as a member of the <ns0:rs type="institution">Subboard of Pediatric Rheumatology of the American Board of Pediatrics</ns0:rs>; and has received research funding from <ns0:rs type="funder">AbbVie</ns0:rs>, <ns0:rs type="funder">NIH</ns0:rs>, and the <ns0:rs type="funder">Arthritis Foundation</ns0:rs>. <ns0:rs type="person">Dr. Pruitt</ns0:rs> has received research funding from <ns0:rs type="funder">Teva Pharmaceuticals</ns0:rs> and has served on the <ns0:rs type="institution">AAN Editorial Board of Neurology Clinical Practice</ns0:rs>. <ns0:rs type="person">Ms Rips</ns0:rs> has received research funding from the <ns0:rs type="funder">Center for AIDS Research, Biogen Idec</ns0:rs>, <ns0:rs type="person">Hoffmann-LaRoche</ns0:rs>, <ns0:rs type="institution">Sun Pharmaceutical Industries Ltd.</ns0:rs>, <ns0:rs type="funder">Genzyme</ns0:rs>, the <ns0:rs type="funder">Alzheimer's Association</ns0:rs>, and the <ns0:rs type="funder">American College of Radiology</ns0:rs>; and has served as a speaker for <ns0:rs type="institution">Teva Pharmaceuticals</ns0:rs>. <ns0:rs type="person">Dr. Rosenfeld</ns0:rs> serves as a Council Member of the <ns0:rs type="institution">American College of Cardiology</ns0:rs>; has stock in Abbott, <ns0:rs type="person">Proctor &amp; Gamble</ns0:rs>, and <ns0:rs type="institution">General Electric</ns0:rs>; has received Fellowship Support from <ns0:rs type="funder">Boston Scientific</ns0:rs>, <ns0:rs type="funder">Medtronic</ns0:rs>, and <ns0:rs type="funder">Abbott Laboratories (formerly St. Jude Medical</ns0:rs>); has received research funding from <ns0:rs type="funder">Boehringer Ingelheim Pharmaceuticals, Inc.</ns0:rs>; and has served on the Program Committee and the <ns0:rs type="funder">Patient and Caregivers Committee of the Heart Rhythm Society</ns0:rs>. <ns0:rs type="person">Dr. Savoy</ns0:rs> serves on the <ns0:rs type="funder">American Academy of Family Physicians (AAFP)</ns0:rs> Board of Directors, as an ex-officio <ns0:rs type="funder">Board member of Delaware Academy of Family Physicians (DAFP)</ns0:rs>, as the Chair of the <ns0:rs type="funder">Centers for Medicare and Medicaid Services (CMS) Advisory Panel on Outreach and Education, and as Secretary of the Board of Directors of the Association of Departments of Family Medicine</ns0:rs>; receives honoraria from AAFP, DAFP, <ns0:rs type="institution">CMS</ns0:rs>, and <ns0:rs type="funder">Merck</ns0:rs>; has served on an <ns0:rs type="person">Advisory Council for Highmark Health</ns0:rs> and as an advisor to the <ns0:rs type="institution">AAFP Adolescent Immunization Project</ns0:rs>; has received honoraria from AAFP; has served as the President of DAFP, as Editor of DelFamDoc, and as a member of <ns0:rs type="affiliation">AAFP Commissions</ns0:rs>. <ns0:rs type="person">Dr. Sood</ns0:rs> has received research funding from the <ns0:rs type="funder">NIH</ns0:rs>; and has provided expert testimony for <ns0:rs type="person">Danaher Lagnese</ns0:rs>, PC. Dr. Steere receives research funding from the <ns0:rs type="funder">NIH</ns0:rs> and the <ns0:rs type="institution">Mathers Foundation</ns0:rs>; has received research funding from the <ns0:rs type="funder">NIH</ns0:rs>, the <ns0:rs type="funder">American College of Rheumatology</ns0:rs>, the <ns0:rs type="funder">Mathers Foundation</ns0:rs>, the <ns0:rs type="funder">English-Bonter-Mitchell Foundation</ns0:rs>, <ns0:rs type="funder">Immunetics, Inc.</ns0:rs>, <ns0:rs type="person">Zeus Diagnostics</ns0:rs>, and the <ns0:rs type="funder">Ounsworth-Fitzgerald Foundation</ns0:rs>; and has served as a scientific advisor for <ns0:rs type="institution">Baxter Bioscience Institute of Systems Biology, Immunetics, Inc.</ns0:rs>, <ns0:rs type="funder">Roche Diagnostics</ns0:rs>, and <ns0:rs type="person">Viramed. Dr. Strle</ns0:rs> receives research funding from the <ns0:rs type="funder">Slovenian Research Agency</ns0:rs>; serves as the <ns0:rs type="institution">Head of Health Counsel</ns0:rs> of the <ns0:rs type="institution">Ministry of Health of the Republic of Slovenia</ns0:rs> and as a member of the <ns0:rs type="projectName">Steering Committee for the European Society of Clinical Microbiology and Infectious Diseases Study Group for Lyme Borreliosis</ns0:rs>; serves on the <ns0:rs type="institution">Roche Diagnostics Advisory Board on Lyme Disease Diagnostics</ns0:rs>; and has received honoraria from <ns0:rs type="funder">Roche Diagnostics</ns0:rs>. <ns0:rs type="person">Dr. Sundel</ns0:rs> receives research funding from the <ns0:rs type="funder">NIH and AbbVie, Inc.</ns0:rs>; serves as a content author and editor for UpToDate; provides expert testimony to <ns0:rs type="person">Chin-Caplan</ns0:rs>, PC; has provided expert testimony for <ns0:rs type="person">Conway Homer</ns0:rs>, PC; has served as an advisor for <ns0:rs type="person">Paul Hastings</ns0:rs>, LLC; has served as a content editor for SimulConsult and as a Medical Education Resources lecturer for CME-granting educational courses; has received remuneration from SimulConsult as a co-investigator for an <ns0:rs type="funder">NIH</ns0:rs>-sponsored grant; and has received research funding from the <ns0:rs type="funder">NIH</ns0:rs>. <ns0:rs type="person">Dr. Tsao</ns0:rs> receives research funding from the <ns0:rs type="funder">National Science Foundation</ns0:rs>, <ns0:rs type="funder">NIH</ns0:rs>, <ns0:rs type="funder">CDC</ns0:rs>, the <ns0:rs type="funder">Michigan Lyme Disease Association</ns0:rs>, and the <ns0:rs type="funder">Michigan Department of Health and Human Services</ns0:rs>; serves as a Scientific Council Advisor Member for the <ns0:rs type="programName">Canadian Lyme Disease Research Network and as a scientific advisor for the American Lyme Disease Association</ns0:rs>; has received research funding from <ns0:rs type="funder">Michigan State University</ns0:rs>; has served as an Associate Editor for Ticks and <ns0:rs type="institution">Tick-Borne Diseases</ns0:rs> and on the <ns0:rs type="institution">Tick Vectors, Surveillance, and Prevention Subcommittee of the US Department of Health and Human Services Tick-Borne Disease Working Group</ns0:rs>; and has received remuneration for providing educational seminars for Boehringer Ingelheim (formerly Merial). <ns0:rs type="person">Dr. Wormser</ns0:rs> receives research funding from <ns0:rs type="affiliation">Immunetics, Inc., Rarecyte, Inc., Institute for Systems Biology</ns0:rs>, and <ns0:rs type="person">Quidel Corporation</ns0:rs>; serves on the Board of the <ns0:rs type="funder">American Lyme Disease Foundation</ns0:rs>; provides and has previously provided expert testimony in malpractice cases; has stock in AbbVie, Inc. and <ns0:rs type="institution">Abbott Laboratories</ns0:rs>; has received research funding from the <ns0:rs type="affiliation">CDC, NIH, BioMérieux, Bio-Rad Laboratories</ns0:rs>, and <ns0:rs type="projectName">DiaSorin, Inc; has served as a scientific research advisor for Baxter International and as a Lyme disease advisor and expert for the Missouri Board of Registration for the Healing Arts</ns0:rs>; has a patent approved (US patent no. <ns0:rs type="grantNumber">10</ns0:rs>,<ns0:rs type="grantNumber">669</ns0:rs>,<ns0:rs type="grantNumber">567 B2</ns0:rs>) for <ns0:rs type="projectName">High Sensitivity Method for Early Lyme Disease Detection</ns0:rs>; filed 2 patent applications related to early Lyme disease detection (application no: <ns0:rs type="grantNumber">62/277</ns0:rs>,<ns0:rs type="grantNumber">252</ns0:rs>) and Lyme arthritis and post-treatment Lyme disease syndrome (application no: <ns0:rs type="grantNumber">62/725</ns0:rs>,<ns0:rs type="grantNumber">745</ns0:rs>); and has served on the <ns0:rs type="institution">Editorial Boards for Clinical Infectious Diseases, Vector-Borne and Zoonotic Diseases, and Ticks and Tick-Borne Diseases</ns0:rs>. <ns0:rs type="person">Dr. Zemel</ns0:rs> has served as an advisor for <ns0:rs type="funder">Novartis Promotional Speakers Bureau</ns0:rs>. No other disclosures relevant to this article were reported. All authors have submitted the <ns0:rs type="institution">ICMJE Form for Disclosure of Potential Conflicts of Interest</ns0:rs>. Conflicts that the editors consider relevant to the content of the manuscript have been disclosed.</ns0:p></ns0:div>
+</ns0:div>
+			<ns0:div type="funding">
+<ns0:div><ns0:p>The article was peer reviewed by <ns0:rs type="person">Arthritis &amp; Rheumatology</ns0:rs> and simultaneously published by <ns0:rs type="institution">Clinical Infectious Diseases, Neurology, Arthritis Care &amp; Research</ns0:rs>, and <ns0:rs type="person">Arthritis &amp; Rheumatology. Each</ns0:rs> editor of the 4 journals appointed 1 reviewer for peer review. The articles</ns0:p></ns0:div>
+			</ns0:div>
+			<ns0:listOrg type="funding">
+				<ns0:org type="funding" xml:id="_ZRNPMEK">
+					<ns0:orgName type="program" subtype="full">Yale Emerging Infections Program</ns0:orgName>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_FHMgAyE">
+					<ns0:idno type="grant-number">L2</ns0:idno>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_36MmKbk">
+					<ns0:idno type="grant-number">62/580</ns0:idno>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_rCVJs4n">
+					<ns0:orgName type="grant-name">Editorial Board of Clinical Microbiology Reviews starting January 2021</ns0:orgName>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_y3uDSww">
+					<ns0:orgName type="grant-name">Research Grant Council of Hong Kong</ns0:orgName>
+				</ns0:org>
+				<ns0:org type="funded-project" xml:id="_6AMfdcc">
+					<ns0:orgName type="project" subtype="full">Steering Committee for the European Society of Clinical Microbiology and Infectious Diseases Study Group for Lyme Borreliosis</ns0:orgName>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_XXGdThU">
+					<ns0:orgName type="program" subtype="full">Canadian Lyme Disease Research Network and as a scientific advisor for the American Lyme Disease Association</ns0:orgName>
+				</ns0:org>
+				<ns0:org type="funded-project" xml:id="_qufRZAE">
+					<ns0:idno type="grant-number">10</ns0:idno>
+					<ns0:orgName type="project" subtype="full">DiaSorin, Inc; has served as a scientific research advisor for Baxter International and as a Lyme disease advisor and expert for the Missouri Board of Registration for the Healing Arts</ns0:orgName>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_jwFVvsv">
+					<ns0:idno type="grant-number">669</ns0:idno>
+				</ns0:org>
+				<ns0:org type="funded-project" xml:id="_GGVNtwF">
+					<ns0:idno type="grant-number">567 B2</ns0:idno>
+					<ns0:orgName type="project" subtype="full">High Sensitivity Method for Early Lyme Disease Detection</ns0:orgName>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_3sBecdt">
+					<ns0:idno type="grant-number">62/277</ns0:idno>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_fm8cYjk">
+					<ns0:idno type="grant-number">252</ns0:idno>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_gHuEduf">
+					<ns0:idno type="grant-number">62/725</ns0:idno>
+				</ns0:org>
+				<ns0:org type="funding" xml:id="_vhJUfSR">
+					<ns0:idno type="grant-number">745</ns0:idno>
+				</ns0:org>
+			</ns0:listOrg>
+
+			<ns0:listOrg type="infrastructure">
+				<ns0:org type="infrastructure">					<ns0:orgName type="extracted">Editorial Board for Annals of Emergency Medicine</ns0:orgName>
+				</ns0:org>
+			</ns0:listOrg>
+			<ns0:div type="annex">
+</ns0:div>
+			<ns0:div type="references">
+
+				</ns0:div>
+		</ns0:back>
+	</ns0:text>
+</ns0:TEI>

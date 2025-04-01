@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:TEI xmlns:ns0="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<ns0:teiHeader xml:lang="en">
+		<ns0:fileDesc>
+			<ns0:titleStmt>
+				<ns0:title level="a" type="main">2022 American College of Rheumatology (ACR) Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis</ns0:title>
+			</ns0:titleStmt>
+			<ns0:publicationStmt>
+				<ns0:publisher />
+				<ns0:availability status="unknown">
+					<ns0:licence />
+				</ns0:availability>
+				<ns0:date type="published" when="2023-01-13">January 13, 2023</ns0:date>
+			</ns0:publicationStmt>
+			<ns0:sourceDesc>
+				<ns0:biblStruct>
+					<ns0:monogr>
+						<ns0:imprint>
+							<ns0:date type="published" when="2023-01-13">January 13, 2023</ns0:date>
+						</ns0:imprint>
+					</ns0:monogr>
+					<ns0:idno type="MD5">3E20F85F684D46D1536BF4170ABE53A0</ns0:idno>
+					<ns0:idno type="DOI">10.1002/art.42507</ns0:idno>
+				</ns0:biblStruct>
+			</ns0:sourceDesc>
+		</ns0:fileDesc>
+		</ns0:teiHeader>
+	<ns0:text xml:lang="en">
+		<ns0:body><ns0:div><ns0:p>An interprofessional guideline development group developed clinically relevant Population, Intervention, Comparator, and Outcome (PICO) questions. A literature review team then completed a systematic literature review and applied the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach to rate the certainty of evidence. An interprofessional Voting Panel (n=20 participants) that included three persons with RA achieved consensus on the direction and strength of recommendations. These teams included individuals with expertise in epidemiology, exercise physiology, GRADE methodology, integrative medicine, nursing, nutrition, occupational therapy, physical therapy, rheumatology, and social work. Guiding principles through the guideline development process specified that integrative interventions considered in this guideline should complement pharmacologic treatments, highlighted an interprofessional approach for the management of RA, and emphasized that shared decision-making is needed when caring for people with RA.</ns0:p><ns0:p>The Voting Panel achieved consensus on one strong recommendation for exercise and conditional recommendations pertaining to exercise type, rehabilitation interventions, diet interventions, and additional integrative interventions (Table<ns0:ref type="table" target="#tab_0">1</ns0:ref>). These recommendations are specific to RA management, understanding that other medical indications and general health benefits may exist for many of these interventions.</ns0:p><ns0:p>This guideline provides initial ACR recommendations on integrative interventions for the management of RA to accompany DMARD treatments. The broad range of interventions included in these recommendations illustrates the importance of an interprofessional team-based approach to RA management. The conditional nature of most recommendations requires clinicians to engage patients in shared decision-making when applying these recommendations.</ns0:p><ns0:p>Revised January 13, 2023</ns0:p></ns0:div></ns0:body><ns0:back>
+			<ns0:div type="references">
+
+				</ns0:div>
+		</ns0:back>
+	</ns0:text>
+</ns0:TEI>

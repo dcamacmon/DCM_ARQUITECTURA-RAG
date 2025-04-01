@@ -1,0 +1,1291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis</title>
+				<funder>
+					<orgName type="full">National Institutes of Health</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">American College of Rheumatology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MD</roleName><forename type="first">Bryant</forename><forename type="middle">R</forename><surname>England</surname></persName>
+							<email>bryant.england@unmc.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Benjamin</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">Nebraska-Western Iowa Health Care System</orgName>
+								<address>
+									<settlement>Omaha</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nancy</forename><forename type="middle">A</forename><surname>Baker</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">Florida State University</orgName>
+								<address>
+									<settlement>Tallahassee</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jennifer</forename><forename type="middle">L</forename><surname>Barton</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">OTR/L: Tufts University</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carol</forename><forename type="middle">A</forename><surname>Oatis</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gordon</forename><surname>Guyatt</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Gordon Guyatt</orgName>
+								<orgName type="institution">Arcadia University</orgName>
+								<address>
+									<settlement>Glenside</settlement>
+									<region>Pennsylvania MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Allen</forename><surname>Anandarajah</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kristine</forename><surname>Carandang</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Karmela</forename><forename type="middle">Kim</forename><surname>Chan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Deb</forename><surname>Constien</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Eileen</forename><surname>Davidson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carole</forename><forename type="middle">V</forename><surname>Dodge</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anita</forename><surname>Bemis-Dougherty</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Sotiria</forename><surname>Everett</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department">DPT, MAS: American Physical Therapy Association</orgName>
+								<orgName type="institution" key="instit1">OTR</orgName>
+								<orgName type="institution" key="instit2">CHT: University of Michigan Hospital and Health System</orgName>
+								<address>
+									<addrLine>Ann Arbor; 13</addrLine>
+									<settlement>Anita Bemis-Dougherty Alexandria</settlement>
+									<region>PT Virginia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nadine</forename><surname>Fisher</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Liana</forename><surname>Fraenkel</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Susan</forename><forename type="middle">M</forename><surname>Goodman</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Janet</forename><surname>Lewis</surname></persName>
+							<affiliation key="aff17">
+								<orgName type="institution">Janet Lewis</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Victoria</forename><surname>Menzies</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Larry</forename><forename type="middle">W</forename><surname>Moreland</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Iris</forename><surname>Navarro-Millan</surname></persName>
+							<affiliation key="aff20">
+								<orgName type="institution">University of Colorado Anschutz Medical Campus</orgName>
+								<address>
+									<settlement>Aurora</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><surname>Patterson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Lawrence</forename><forename type="middle">"</forename><surname>Ri</surname></persName>
+							<idno type="ORCID">0000-0003-0546-6742</idno>
+						</author>
+						<author>
+							<persName><forename type="first">"</forename><surname>Phillips</surname></persName>
+							<affiliation key="aff22">
+								<orgName type="department">MD: UCSF Osher Center for Integrative Medicine</orgName>
+								<orgName type="institution">Lawrence &quot;Rick&quot; Phillips</orgName>
+								<address>
+									<addrLine>EdD: Noblesville</addrLine>
+									<settlement>San Francisco</settlement>
+									<region>California Indiana</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Neha</forename><surname>Shah</surname></persName>
+							<affiliation key="aff23">
+								<orgName type="institution">Neha Shah</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Namrata</forename><surname>Singh</surname></persName>
+							<affiliation key="aff24">
+								<orgName type="institution">Stanford Health Care</orgName>
+								<address>
+									<settlement>Palo Alto</settlement>
+									<region>California</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>White</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Rawan</forename><surname>Alheresh</surname></persName>
+							<affiliation key="aff27">
+								<orgName type="institution">University of Del- aware</orgName>
+								<address>
+									<settlement>Newark</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kamil</forename><forename type="middle">E</forename><surname>Barbour</surname></persName>
+							<affiliation key="aff29">
+								<orgName type="institution">MGH Institute of Health Professions</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Thomas</forename><surname>Bye</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Dana</forename><surname>Guglielmo</surname></persName>
+							<affiliation key="aff31">
+								<orgName type="institution">Dana Guglielmo, MPH: Research Consultant</orgName>
+								<address>
+									<settlement>Los Angeles</settlement>
+									<country>California;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rebecca</forename><surname>Haberman</surname></persName>
+							<affiliation key="aff32">
+								<orgName type="institution">Rebecca Haberman</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>PhD</roleName><forename type="first">Tate</forename><surname>Johnson</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD</roleName><forename type="first">Anatole</forename><surname>Kleiner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Chris</forename><forename type="middle">Y</forename><surname>Lane</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Linda</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Hiral</forename><surname>Master</surname></persName>
+							<affiliation key="aff35">
+								<orgName type="institution">University of British Columbia and Arthritis Research Canada</orgName>
+								<address>
+									<settlement>Vancouver</settlement>
+									<region>British Columbia</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Pinto</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Janet</forename><forename type="middle">L</forename><surname>Poole</surname></persName>
+							<affiliation key="aff38">
+								<orgName type="institution">Marquette University</orgName>
+								<address>
+									<settlement>Milwaukee</settlement>
+									<region>Wisconsin</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kimberly</forename><surname>Steinbarger</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Sztubinski</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Louise</forename><surname>Thoma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Vlad</forename><surname>Tsaltskan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Courtney</forename><surname>Wells</surname></persName>
+							<affiliation key="aff44">
+								<orgName type="department">Court- ney Wells</orgName>
+								<orgName type="institution">American College of Rheumatology</orgName>
+								<address>
+									<addrLine>PhD</addrLine>
+									<settlement>Atlanta</settlement>
+									<region>MPH</region>
+									<country>Georgia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">R</forename><surname>Treadwell</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>MD, MS</roleName><forename type="first">Allen</forename><surname>Ana- Ndarajah</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">San</forename><surname>Diego</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">University of Nebraska Medical Center</orgName>
+								<address>
+									<region>VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">DMSc</orgName>
+								<orgName type="institution">Benjamin J. Smith</orgName>
+								<address>
+									<region>PA-C</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="institution">Nancy A. Baker</orgName>
+								<address>
+									<region>ScD, MPH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff6">
+								<orgName type="institution">Jennifer L. Barton</orgName>
+								<address>
+									<region>MD MCR VA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="institution">Portland Health Care System and Oregon Health &amp; Science University</orgName>
+								<address>
+									<addrLine>Oregon; 5 Carol A. Oatis</addrLine>
+									<settlement>Portland</settlement>
+									<region>PT PhD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="institution">McMaster University</orgName>
+								<address>
+									<settlement>Hamilton</settlement>
+									<region>Ontario</region>
+									<country>Canada;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="department">Hos- pital for Special Surgery</orgName>
+								<orgName type="institution">University of Rochester Medical Center</orgName>
+								<address>
+									<addrLine>10 Deb Constien: Sun Prairie Wiscon- sin; 11</addrLine>
+									<settlement>Rochester Eileen Davidson Burnaby</settlement>
+									<region>New York New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff11">
+								<orgName type="institution">British Columbia</orgName>
+								<address>
+									<addrLine>12 Carole V. Dodge</addrLine>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff13">
+								<orgName type="department">CSSD: Department of Family, Population, Preventive Medicine</orgName>
+								<orgName type="institution">Sotiria Everett</orgName>
+								<address>
+									<settlement>EdD</settlement>
+									<region>RD, CDN</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<orgName type="institution">Stony Brook Renaissance School of Medicine</orgName>
+								<address>
+									<addrLine>15 Nadine Fisher</addrLine>
+									<settlement>Stony Brook</settlement>
+									<region>New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<orgName type="institution">EdD: University of Buffalo</orgName>
+								<address>
+									<addrLine>16 Liana Fraenkel</addrLine>
+									<settlement>Buffalo</settlement>
+									<region>New York MD MPH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff16">
+								<orgName type="institution">Yale School of Medicine</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<country>Connecticut;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff18">
+								<orgName type="institution">University of Virginia</orgName>
+								<address>
+									<addrLine>18 Victoria Menzies PhD</addrLine>
+									<settlement>Charlottesville</settlement>
+									<region>Virginia</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff19">
+								<orgName type="institution">APRN: University of Florida</orgName>
+								<address>
+									<addrLine>19 Larry W. Moreland</addrLine>
+									<settlement>Gainesville</settlement>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff21">
+								<orgName type="department">MSPH: Weill Cornell Medicine</orgName>
+								<orgName type="institution">Iris Navarro-Millan</orgName>
+								<address>
+									<addrLine>21 Sarah Patterson</addrLine>
+									<region>MD New York</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff25">
+								<orgName type="institution">Namrata Singh</orgName>
+								<address>
+									<region>MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff26">
+								<orgName type="institution">MSCI: University of Washington</orgName>
+								<address>
+									<addrLine>25 Daniel White Thomas Bye, PT</addrLine>
+									<settlement>Seattle</settlement>
+									<region>PT ScD MSc DPT MS</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff28">
+								<orgName type="institution" key="instit1">Rawan AlHeresh</orgName>
+								<orgName type="institution" key="instit2">MSOT</orgName>
+								<address>
+									<region>PhD OTR</region>
+									<country>L</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff30">
+								<orgName type="department">MPH: Centers for Disease Control and Prevention</orgName>
+								<orgName type="institution">Kamil E. Barbour</orgName>
+								<address>
+									<settlement>PhD Atlanta</settlement>
+									<country>Georgia;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff33">
+								<orgName type="institution">NYU Langone Health</orgName>
+								<address>
+									<addrLine>30 Chris Y. Lane</addrLine>
+									<settlement>Louise Thoma</settlement>
+									<region>New York PT DPT PT PhD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff34">
+								<orgName type="institution">University of North Carolina at Chapel Hill</orgName>
+								<address>
+									<addrLine>31 Linda C. Li</addrLine>
+									<region>PT PhD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff36">
+								<orgName type="institution">Hiral Master</orgName>
+								<address>
+									<region>PT PhD MPH</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff37">
+								<orgName type="institution" key="instit1">Vanderbilt University Medical Center</orgName>
+								<orgName type="institution" key="instit2">VICTR</orgName>
+								<address>
+									<addrLine>33 Daniel Pinto</addrLine>
+									<settlement>Nash- ville</settlement>
+									<region>Tennesee PT PhD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff39">
+								<orgName type="department">OTR/L</orgName>
+								<orgName type="institution">Janet L. Poole</orgName>
+								<address>
+									<settlement>PhD</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff40">
+								<orgName type="institution">University of New Mexico</orgName>
+								<address>
+									<addrLine>Albu- querque; 35 Kimberly Steinbarger</addrLine>
+									<region>PT, MHS DHSc</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff41">
+								<orgName type="institution">Husson University</orgName>
+								<address>
+									<addrLine>Ban- gor 36 Daniel Sztubinski</addrLine>
+									<settlement>Maine</settlement>
+									<region>BS</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff42">
+								<orgName type="department">PhD: ECRI Institute</orgName>
+								<orgName type="institution">Jonathan R. Treadwell</orgName>
+								<address>
+									<addrLine>37 Vlad Tsaltskan</addrLine>
+									<settlement>Plymouth Meeting</settlement>
+									<region>Pennsylvania MD</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff43">
+								<orgName type="institution">Univer- sity of California</orgName>
+								<address>
+									<addrLine>San Diego; 38 Marat Turgunbaev</addrLine>
+									<region>MD, MPH Amy</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff45">
+								<orgName type="institution">MSW: University of Wisconsin</orgName>
+								<address>
+									<settlement>River Falls</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">2022 American College of Rheumatology Guideline for Exercise, Rehabilitation, Diet, and Additional Integrative Interventions for Rheumatoid Arthritis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EA8114F1AEE318F141085865712C567E</idno>
+					<idno type="DOI">10.1002/acr.25117</idno>
+					<note type="submission">Submitted for publication November 23, 2022; accepted in revised form March 17, 2023.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. To develop initial American College of Rheumatology (ACR) guidelines on the use of exercise, rehabilitation, diet, and additional interventions in conjunction with disease-modifying antirheumatic drugs (DMARDs) as part of an integrative management approach for people with rheumatoid arthritis (RA).</p><p>Methods. An interprofessional guideline development group constructed clinically relevant Population, Intervention, Comparator, and Outcome (PICO) questions. A literature review team then completed a systematic literature review and applied the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach to rate the certainty of evidence. An interprofessional Voting Panel (n = 20 participants) that included 3 individuals with RA achieved consensus on the direction (for or against) and strength (strong or conditional) of recommendations.</p><p>Results. The Voting Panel achieved consensus on 28 recommendations for the use of integrative interventions in conjunction with DMARDs for the management of RA. Consistent engagement in exercise received a strong recommendation. Of 27 conditional recommendations, 4 pertained to exercise, 13 to rehabilitation, 3 to diet, and 7 to additional integrative interventions. These recommendations are specific to RA management, recognizing that other medical indications and general health benefits may exist for many of these interventions.</p><p>Conclusion. This guideline provides initial ACR recommendations on integrative interventions for the management of RA to accompany DMARD treatments. The broad range of interventions included in these recommendations illustrates the importance of an interprofessional, team-based approach to RA management. The conditional nature of most recommendations requires clinicians to engage persons with RA in shared decision-making when applying these recommendations.</p><p>Guidelines and recommendations developed and/or endorsed by the American College of Rheumatology (ACR) are intended to provide guidance for patterns of practice and not to dictate the care of a particular patient. The ACR considers adherence to the recommendations within this guideline to be voluntary, with the ultimate determination regarding their application to be made by the clinician in light of each patient's individual circumstances. Guidelines and recommendations are intended to promote beneficial or desirable outcomes but cannot guarantee any specific outcome. Guidelines and recommendations developed and endorsed by the ACR are subject to periodic revision as warranted by the evolution of medical knowledge, technology, and practice. ACR recommendations are not intended to dictate payment or insurance decisions, and drug formularies or other third-party analyses that cite ACR guidelines should state this. These recommendations cannot adequately convey all uncertainties and nuances of patient care.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Rheumatoid arthritis (RA) is a chronic, systemic inflammatory condition, and improved outcomes occur with early diagnosis, evaluation, and management. The American College of Rheumatology (ACR) has previously published pharmacologic guidelines to aid clinicians and individuals with RA <ref type="bibr" target="#b0">(1)</ref><ref type="bibr" target="#b1">(2)</ref><ref type="bibr" target="#b2">(3)</ref><ref type="bibr" target="#b3">(4)</ref>. In addition to pharmacologic interventions, individuals with RA and their clinicians consider how exercise, rehabilitation, diet, and additional integrative therapies can benefit and be included in their disease management. Using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology, the ACR developed this first guideline to support decision-making when using specific integrative interventions in the management of RA. The interventions considered in this guideline are defined in Table <ref type="table" target="#tab_0">1</ref>; the critical outcomes were pain and physical function, and for select interventions, disease activity or work outcomes. Although individuals with RA may have other indications for these interventions (e.g., comorbidities), this guideline focuses specifically on managing RA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>This guideline follows the ACR guideline development process and ACR policy guiding management of conflicts of interest and disclosures (<ref type="url" target="https://rheumatology.org/clinical-practiceguidelines">https://rheumatology.org/clinical-practiceguidelines</ref>), which includes GRADE methodology <ref type="bibr" target="#b4">(5,</ref><ref type="bibr" target="#b5">6)</ref> and adheres to AGREE criteria <ref type="bibr" target="#b6">(7)</ref>. Supplementary Appendix 1 (available on the Arthritis Care &amp; Research website at <ref type="url" target="https://onlinelibrary.wiley.com/doi/10.1002/acr.25117">https:// onlinelibrary.wiley.com/doi/10.1002/acr.25117</ref>) includes a detailed description of the methods. Briefly, the Core Leadership Team (BRE, BJS, NAB, JLB, CAO, and GG) drafted clinical Population, Intervention, Comparator, and Outcome (PICO) questions with input from the rest of the guideline development group, and these were posted online for public comment (see Supplementary Appendix 2, <ref type="url" target="https://onlinelibrary.wiley.com/doi/10.1002/acr.25117">https://onlinelibrary.wiley.com/doi/10.1002/acr. 25117</ref>). For most questions, the critical outcomes were physical function, which refers to the ability to perform both basic and instrumental activities of daily living, and pain. Disease activity was an additional critical outcome for questions pertaining to diet and dietary supplements. Work outcomes were additional critical outcomes for questions pertaining to vocational rehabilitation and work site evaluation and modification.</p><p>The Literature Review Team performed a systematic literature review for all PICO questions, extracted relevant study data, graded the quality of evidence (high, moderate, low, very low), and produced the evidence report (see Supplementary Appendix 3, <ref type="url" target="https://onlinelibrary.wiley.com/doi/10.1002/acr.25117">https://onlinelibrary.wiley.com/doi/10.1002/acr.25117</ref>). A Patient Panel of 12 patients with varying manifestations of RA and varying experiences with the considered interventions for RA management met virtually. This panel was moderated by a member of the Core Team (JLB) and Literature Review Team (LT). The panel reviewed the evidence report (along with a summary and interpretation by the moderator) and provided patient perspectives and preferences for consideration by the Voting Panel. At a separate Voting Panel meeting held virtually, the resulting evidence was reviewed, patient perspectives considered, and recommendations formulated and voted on. Three members of the Patient Panel were also members of the Voting Panel, to ensure the Patient Panel's perspective was considered when final decisions on the recommendations were made. Rosters of the Consensus among the Voting Panel members required ≥70% agreement on both directions (for or against) and strength (strong or conditional) of each recommendation, as per ACR practice. According to GRADE, a recommendation is categorized as strong if the panel is very confident that the benefits of an intervention clearly outweigh the harms (or vice versa); a conditional recommendation denotes uncertainty regarding the balance of benefits and harms, such as when the evidence quality is low or very low, or when the decision is particularly sensitive to individual patient preferences, or when costs are expected to affect the decision. Thus, conditional recommendations refer to decisions in which incorporation of patient preferences and values is an essential element of shared decision-making.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Guiding principles</head><p>Nine guiding principles (Table <ref type="table">2</ref>) were established by the Core Leadership Team to aid in the preparation of this guideline. These guiding principles specify that integrative interventions considered in this guideline should complement pharmacologic treatments, an interprofessional approach for the management of RA should be used, and shared decision-making is needed when caring for people with RA. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS/RECOMMENDATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Exercise recommendations (Table 3)</head><p>We strongly recommend consistent engagement in exercise over no exercise.</p><p>We recommend consistent engagement in exercise over no exercise based on moderate certainty evidence suggesting that regular exercise results in improved physical function and pain in there are other guideline efforts that address large joint replacement, and small joint surgeries are not frequently a part of the current management of rheumatoid arthritis. Disease activity and disease activity levels refer to those calculated using an ACR-endorsed rheumatoid arthritis disease activity measure <ref type="bibr" target="#b29">(32)</ref>.</p><p>* ACR = American College of Rheumatology.</p><p>individuals with RA. Aerobic, resistance, aquatic, and mind-body exercise were considered together in the evidence supporting this recommendation. The exercise type, frequency, intensity, and duration were not formally defined because the evidence on exercise interventions did not support such precision in the recommendation, and there is considerable variation in patient values, preferences, and access to different types of exercise. The specific elements of an exercise intervention should be tailored to each person at the given time in their disease trajectory, considering their capabilities, access, and other health conditions. National physical activity guidelines can aid such instruction (8).</p><p>We conditionally recommend consistent engagement in aerobic exercise over no exercise.</p><p>We recommend consistent engagement in aerobic exercise based on very low to low certainty evidence suggesting that it results in improved physical function but moderate certainty evidence suggesting there is no difference in pain. The recommendation is conditional because of the level of certainty of the evidence and recognizing that patient preferences may vary due to RA disease activity level, the presence of joint damage or deformities, comorbidities, and the cost of, access to, or burden of engaging in consistent aerobic exercise.</p><p>We conditionally recommend consistent engagement in aquatic exercise over no exercise.</p><p>We recommend consistent engagement in aquatic exercise based on low certainty evidence to indicate that it results in improvement in physical function but no difference in pain. The recommendation is conditional because of the level of certainty of the evidence, the variability in patient preferences related to comfort in engaging in water activities, and the variations in the cost of, access to, and burden of aquatic exercise.</p><p>We conditionally recommend consistent engagement in resistance exercise over no exercise.</p><p>We recommend consistent engagement in resistance exercise based on very low to low certainty evidence to indicate that it results in improvement in physical function (inferred from performance measures) and pain. The recommendation is conditional because of the level of certainty of the evidence, variability in patient preferences related to joint damage or deformities that may limit participation, and variations in the access to, cost of, and burden of resistance exercise. The Voting Panel and Patient Panel emphasized the importance of appropriate prescription and supervision of resistance exercise by physical therapists or other qualified exercise professionals to prevent harm.</p><p>We conditionally recommend consistent engagement in mind-body exercise over no exercise.</p><p>We recommend consistent engagement in mind-body exercise (e.g., yoga, Tai Chi, Qigong) based on very low to low certainty evidence suggesting that it results in improved physical function but no difference in pain. The recommendation is conditional because of the level of certainty of the evidence, variability in patient preferences, and variations in the cost of, access to, and burden of this type of activity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Rehabilitation recommendations (Table 4)</head><p>We conditionally recommend participation in comprehensive occupational therapy (OT) over no comprehensive OT.</p><p>We conditionally recommend participation in comprehensive physical therapy (PT) over no comprehensive PT.</p><p>We conditionally recommend that individuals with RA participate in comprehensive OT and PT based on very low certainty evidence to indicate that it results in improvement in pain and physical function, expected variability in patient preferences, and variations in the burden of, access to, and cost of these approaches. In these recommendations, "comprehensive" refers to the numerous different approaches and interventions that occupational therapists and physical therapists utilize in the assessment and management of individuals with RA. The comprehensive nature of these interventions also highlights the importance of identifying occupational therapists and physical therapists with expertise in tailoring these interventions to the management of RA through a For patients with hand involvement, we conditionally recommend performance of hand therapy over no hand therapy exercises.</p><p>We conditionally recommend that RA patients with hand involvement undergo hand therapy exercises based on low certainty evidence indicating that hand therapy results in pain reduction and improvement in physical function. Therapists and patients on the Voting Panel acknowledged that the evaluation of the unique needs of the RA patient with hand involvement may be best performed by an experienced hand therapist (e.g., a certified hand therapist, who is typically an occupational or physical therapist with additional training) who can guide the specific design and intensity of the intervention.</p><p>For patients with hand and/or wrist involvement and/or deformity, we conditionally recommend use of splinting, orthoses, and/or compression over no splinting, orthoses, and/or compression.</p><p>For patients with foot and/or ankle involvement, we conditionally recommend use of bracing, orthoses, and/or taping over no bracing, orthoses, and/or compression. For patients with knee involvement, we conditionally recommend use of bracing and/or orthoses over no bracing and/or orthoses.</p><p>We conditionally recommend use of splinting, orthoses, and/or compression among individuals with hand/wrist involvement, use of bracing, orthoses, and/or taping among individuals with foot/ankle involvement, and use of bracing and/or orthoses among individuals with knee involvement. These recommendations are based on very low certainty evidence to indicate that these approaches improve pain and physical function at the hand/wrist and foot/ankle. No studies pertaining to the use of these approaches for patients with knee involvement met the eligibility criteria. Although the Patient Panel discussed the discomfort and burden accompanying the periodic and regular use of these interventions, the Patient Panel and Voting Panel also recognized their potential to reduce pain and improve physical function. In addition, although these interventions are available without a prescription, the Voting Panel recommends their prescription and use under the guidance of an experienced occupational therapist or physical therapist to ensure appropriate item selection and fit.</p><p>We conditionally recommend use of joint protection techniques over no joint protection techniques.</p><p>We conditionally recommend use of joint protection techniques based on low certainty evidence to indicate that it results in improved pain and function. Experienced healthcare professional guidance in joint protection techniques at various stages of a patient's experience with RA is vital for this intervention, in order to aid the patient in maintaining physical function. The Voting Panel also stressed the importance of proper patient education in joint protection techniques by occupational or physical therapists.</p><p>We conditionally recommend use of activity pacing, energy conservation, activity modification, and/or fatigue management over no activity pacing, energy conservation, activity modification, and/or fatigue management.</p><p>There was no evidence found to support the conditional recommendation that individuals with RA should use activity pacing, energy conservation, activity modification, and/or fatigue management. However, these interventions are generally safe and may help preserve physical function and manage fatigue. Proper instruction in these approaches by occupational or physical therapists (e.g., ensuring no prolonged inactivity) as well as periodic reminders to employ them were suggested by the Patient Panel and Voting Panel.</p><p>We conditionally recommend use of assistive devices over no assistive devices.</p><p>We conditionally recommend use of adaptive equipment over no adaptive equipment.</p><p>We conditionally recommend use of environmental adaptations over no environmental adaptations.</p><p>In the absence of evidence addressing recommendations for the use of assistive devices, adaptive equipment, or environmental adaptations for RA patients, a conditional recommendation was made in favor of using assistive devices/equipment because of the potential for meaningfully improving the function and quality of life and the lack of known harms. The timing of the use of interventions, guidance on intervention selection, and education on how to use these interventions should be considered. Involving an occupational or physical therapist can aid these processes and ensure patient safety. The Voting Panel recognized cost and burden as barriers to the use of these interventions.</p><p>For patients who are currently employed or want to become employed, we conditionally recommend use of vocational rehabilitation (training programs to support employment) over no vocational rehabilitation.</p><p>For patients who are currently employed or want to become employed, we conditionally recommend work site evaluations and/or modifications over no work site evaluations and/or modifications.</p><p>In the absence of evidence to support use of vocational rehabilitation and low certainty evidence for use of work site evaluations and modifications, we conditionally recommend use of these approaches. The Voting Panel recognized that the following factors should be considered in implementing work site evaluations and modifications: 1) the employee/employer relationship regarding health-specific variables and confidentiality, 2) the patient's comfort with disclosure of RA to the employer, 3) the requirements of the Americans with Disabilities Act and the Family and Medical Leave Act, 4) the heterogeneity of employer resources and employee job responsibilities, and 5) the variable availability of experienced work and ergonomics specialists.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diet recommendations (Table 5)</head><p>We conditionally recommend adherence to a Mediterranean-style diet over no formally defined diet.</p><p>The Mediterranean-style diet pattern emphasizes the intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil and the intake of moderate amounts of low-fat dairy and fish, and limits the use of added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats. We conditionally recommend adherence to a Mediterranean-style diet based on low to moderate certainty of evidence of improvement in pain and no difference in physical function or disease activity. The recommendation is conditional because of the level of certainty of the evidence, patient preferences, and costs of, access to, and burden associated with this type of diet. The Voting Panel recognized the potential benefits of a Mediterranean-style diet for long-term health outcomes (e.g., longevity and cardiovascular disease) that are affected by RA disease activity and the evidence from studies in the general population <ref type="bibr" target="#b7">(9,</ref><ref type="bibr" target="#b8">10)</ref>. The expert role of a registered dietician as a member of the interprofessional team is recognized.</p><p>We conditionally recommend against adherence to a formally defined diet, other than a Mediterranean-style diet.</p><p>We conditionally recommend against adherence to a formally defined diet, other than the Mediterranean-style diet, based on very low to moderate certainty evidence demonstrating no consistent, clinically meaningful benefit from following other formally defined diet strategies (other than a Mediterranean-style diet) on physical function, pain, or disease activity specific to RA (see Table <ref type="table" target="#tab_0">1</ref>). In addition to the level of certainty of the evidence, this recommendation is conditional because of the burden and costs that accompany adhering to a formally defined diet, and patient preferences are expected to differ.</p><p>We conditionally recommend following established dietary recommendations without use of dietary supplements over adding dietary supplements.</p><p>We conditionally recommend following established dietary recommendations without the use of dietary supplements for RA management. This recommendation pertains to all dietary supplements considered (as listed in Table <ref type="table" target="#tab_0">1</ref>) and is based on very low to moderate certainty evidence demonstrating no consistent, clinically meaningful benefit from adding dietary supplements with regard to physical function, pain, or disease activity specific to RA. The recommendation is conditional because of the level of certainty of the evidence, expected variation in patient preferences, adequacy of nutrient intake through diet, lack of regulation (e.g., by the US Food and Drug Administration), possibility of harm (e.g., interactions with medications, side effects), and costs. The Voting Panel supported a "food first" approach but recognized the role dietary supplements may serve for bone (e.g., vitamin D) and cardiovascular health (e.g., fish oil), which are particularly important in individuals with RA <ref type="bibr" target="#b9">(11)</ref>. In this recommendation, established dietary recommendations refer to those produced by the US Department of Agriculture and US Department of Health and Human Services (12) and the American Heart Association <ref type="bibr" target="#b10">(13)</ref>. Recommendations on folic acid supplementation in the setting of treatment with methotrexate are included in the ACR's pharmacologic treatment guidelines <ref type="bibr" target="#b0">(1)</ref>.</p><p>Body weight and weight loss Given the broad spectrum of weight loss interventions, including lifestyle modification, commercial weight loss programs, pharmacologic therapies, and surgical interventions, the Voting Panel did not vote on recommendations regarding weight loss interventions specifically for RA management in overweight or obese people with RA. However, the Voting Panel was unanimous in its support of clinicians engaging in discussion about maintaining a healthy body weight for individuals with RA, in order to optimize long-term RA and general health outcomes. In RA, obesity is associated with higher disease activity, impairments in physical function, and poorer treatment response, in addition to poor long-term health outcomes <ref type="bibr" target="#b11">(14)</ref>. General population recommendations on body weight classification and weight loss strategies for those who are overweight or obese can serve as a guide for these discussions <ref type="bibr" target="#b12">(15,</ref><ref type="bibr" target="#b13">16)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Additional integrative intervention recommendations (Table 6)</head><p>We conditionally recommend use of a standardized self-management program over no standardized selfmanagement program.</p><p>We conditionally recommend that RA patients use a standardized self-management program based on low certainty evidence to indicate that it results in improved physical function and pain. The Patient Panel described how these programs can be "life changing" and can provide motivation related to several factors that contribute to quality of life, including mental wellness and psychological adaptation to disease experience. The availability of and access to these programs as well as their costs were noted as potential barriers.</p><p>We conditionally recommend use of cognitive behavioral therapy and/or mind-body approaches over no cognitive behavioral therapy and/or mind-body approaches.</p><p>We conditionally recommend use of cognitive behavioral therapy and/or mind-body approaches based on very low to low certainty evidence indicating no consistent improvement in pain and physical function (critical outcomes) but low to moderate certainty evidence of improvement in depression, anxiety, fatigue, and sleep (important outcomes) when individuals with RA use these approaches. Although these interventions are beneficial for chronic disease management, access to experienced healthcare professionals, cost, and the burden of using these interventions were recognized barriers.</p><p>We conditionally recommend use of acupuncture over no acupuncture.</p><p>We conditionally recommend use of acupuncture based on low certainty evidence indicating inconsistent improvements in pain and function. The Patient Panel generally found acupuncture to be of lower value than other considered interventions for RA management based on their disease experiences. For individuals with RA, the burden, cost, access, and invasiveness of acupuncture may impact the choice to use this intervention.</p><p>We conditionally recommend use of massage therapy over no massage therapy.</p><p>We conditionally recommend use of massage therapy based on very low certainty evidence that it results in improvement of pain. Massage therapy intensity and technique may affect a patient's experience; therefore, it is best delivered by a provider (e.g., massage therapist, physical therapist) with knowledge of and experience in treating people with RA. Burden, cost, access, and short-term duration of benefit should be considered.</p><p>We conditionally recommend use of thermal modalities over no thermal modalities.</p><p>We conditionally recommend use of thermal modalities, such as cryotherapy, heat, and therapeutic ultrasound, based on very low certainty evidence indicating that it results in improvement in pain and physical function. Individuals with RA receive varying levels of benefit from thermal modalities, and patient preferences are expected to vary with regard to the choice of a thermal modality. Individuals with RA can control and administer many of these modalities at home, though others may benefit from guidance from an occupational or physical therapist.</p><p>We conditionally recommend against use of electrotherapy.</p><p>We conditionally recommend against use of electrotherapy modalities, such as transcutaneous electrical nerve stimulation (TENS) and neuro-muscular electrical nerve stimulation, for RA management, based on low certainty evidence indicating that there is no improvement of pain and physical function specific to RA with these modalities. While some individuals with RA may receive benefit from these interventions (e.g., in the setting of comprehensive PT or OT), the Voting Panel recommended against electrotherapy because the evidence was not felt to outweigh the burden and costs.</p><p>No recommendation was made by the Voting Panel on the use of vagus nerve stimulation, because this invasive procedure is not currently approved by the FDA as an intervention in RA.</p><p>We conditionally recommend against use of chiropractic therapy.</p><p>In the absence of evidence, we conditionally recommend against use of chiropractic therapy (i.e., chiropractic spinal adjustment) directly for the management of RA because of the potential cervical spine complications that can occur <ref type="bibr" target="#b14">(17)</ref>. The Voting Panel and Patient Panel perceived a lack of benefit from chiropractic therapy specifically for RA, and indicated that this approach carries a perceived burden and costs.</p><p>Tobacco cessation Due to existing clinical quality measures for tobacco use screening and cessation <ref type="bibr" target="#b15">(18)</ref> and the absence of studies on tobacco cessation in RA (those meeting the eligibility criteria), the Voting Panel did not make further recommendations on individual tobacco cessation interventions for the specific management of RA beyond the clinical quality measures. The Voting Panel recognized the well-established harms of tobacco, including detrimental effects on RA that include higher disease severity, poorer treatment response, and increased risk of poor long-term disease outcomes <ref type="bibr" target="#b16">(19)</ref>. Because of the trust that is frequently developed between RA patients and their clinicians and the low success rate of individual tobacco cessation counseling efforts <ref type="bibr" target="#b17">(20)</ref>, there was unanimous agreement that clinicians caring for individuals with RA serve an integral role in counseling on tobacco cessation <ref type="bibr" target="#b18">(21)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>This is the first ACR guideline on the use of exercise, rehabilitation, diet, and additional integrative interventions in conjunction with DMARDs for RA management. This guideline highlights the importance of an interprofessional healthcare team to provide optimal care to individuals with RA. The recommended interventions do not replace DMARD treatments, in accordance with existing ACR pharmacologic treatment guidelines <ref type="bibr" target="#b0">(1)</ref>, but are intended to be integrated into the comprehensive management of individuals with RA. The recommended interventions in this new guideline, which are intended to augment DMARD therapy, were considered specifically for their efficacy in the management of RA outcomes, rather than other general health benefits or alternative medical indications. The guideline is meant to increase patient and clinician awareness, provide evidence to inform shared decision-making, improve access to the recommended interventions, and inspire much-needed future research in this area to generate higher-certainty evidence for the management of RA.</p><p>The one strong recommendation was for consistent engagement in exercise. Recommendations for exercise include multiple types (aerobic, aquatic, resistance, mind-body), which is consistent with physical activity guidelines produced by the US Department of Health and Human Services (8).The specific type, frequency, intensity, and duration of exercise should be tailored to each person with the assistance of their clinicians, considering the potential burden on and capacity of each person <ref type="bibr" target="#b19">(22)</ref>. The US recommendations on exercise and physical activity can serve as a guide to clinicians counseling patients (8). Because the symptoms and consequences of RA may impact participation <ref type="bibr" target="#b20">(23)</ref>, more personalized exercise prescription and monitoring may be needed with the assistance of physical therapists and/or clinical exercise physiologists.</p><p>Several rehabilitation interventions as well as comprehensive OT and PT were recommended for their benefits on pain, physical function, preserving independence, remaining in work, and safety, although the certainty of evidence was low or very low. The Patient Panel consistently emphasized the importance of receiving interventions from occupational and/or physical therapists to ensure proper use and their desire for referrals to occupational and physical therapists earlier in the disease course. Early referral to these services can educate individuals with RA as to how to continue interventions independently (e.g., exercise, joint protection, energy conservation, assistive and adaptive devices) to self-manage their disease. Ensuring a sufficient workforce of occupational and physical therapists well-versed in the management of RA and access to this care are high priorities.</p><p>Dietary patterns and quality have been associated with RA risk and severity in many, though not all, epidemiologic studies <ref type="bibr" target="#b21">(24)</ref>. Of several diets evaluated in this guideline (e.g., vegan, antiinflammatory, elimination), only a Mediterranean-style diet had sufficient evidence to be recommended, given the burden and costs that accompany adhering to a formally defined diet. Dietary supplements were heavily debated by the Voting Panel. Ultimately, there was not sufficient evidence to recommend their use for RA management. The Voting Panel supported a "food first" approach, which emphasizes using high-quality foods to obtain necessary nutrients. Although no recommendation was made on weight loss interventions, the Voting Panel was unanimous in its support for maintaining a healthy body weight. Rheumatology clinicians should consider involving registered dieticians to assist individuals with RA who seek to modify their diet as part of their RA management plan.</p><p>Additional integrative interventions that we conditionally recommended included standardized self-management programs, cognitive behavioral therapy and mind-body approaches, acupuncture, massage therapy, and thermal modalities. Although the evidence supporting these interventions was of very low to low certainty, these interventions possess few harms and a modest burden for many individuals with RA. The Patient Panel favored standardized selfmanagement, cognitive behavioral therapy, mind-body approaches, and thermal modalities because these interventions allowed them to better cope with the chronic disease aspects of RA and/or they offered a management option that could be controlled independently, often at home. Individuals with RA who currently use tobacco should be supported in their tobacco cessation journey. The limited efficacy of counseling on tobacco cessation <ref type="bibr" target="#b17">(20)</ref> illustrates why it is critical for all members of the interprofessional care team to engage in this practice, which is an existing clinical quality measure <ref type="bibr" target="#b22">(25)</ref>. There was not sufficient evidence to establish more specific recommendations for tobacco use screening and cessation in RA.</p><p>A broad range of interventions was considered in this guideline. It is unlikely that one clinician will possess the necessary expertise in all these areas, which illustrates the importance of assembling an interprofessional healthcare team to best support individuals with RA. The Patient Panel emphasized that rheumatology clinicians (e.g., physicians, physician assistants, nurse practitioners) are most often their first contact for therapeutic decisions. Thus, it was important to patients that their rheumatology clinician(s) be knowledgeable about integrative therapies and help guide patients to other professionals with relevant expertise (e.g., physical and occupational therapists, dieticians, clinical exercise physiologists, psychologists, massage therapists, acupuncturists) early in the disease course, so that they can be involved in shared-decision making throughout the disease course.</p><p>RA is a chronic disease that imposes considerable costs on those affected as well as increased costs to society <ref type="bibr" target="#b23">(26,</ref><ref type="bibr" target="#b24">27)</ref>. The recommended interventions in this guideline are variably covered by health insurance, and many of the costs become the responsibility of the individual with RA. We encourage health policymakers to advocate for insurance coverage of these interventions in order to support an integrative and comprehensive approach to the management of RA. The availability of and access to these interventions was a concern of both the Patient Panel and the Voting Panel, particularly for underserved populations. Improving access to and ensuring high-quality delivery of these interventions across diverse settings are important endeavors to support. In addition, the Voting Panel acknowledged that patients and/or clinicians may have implicit and/or explicit biases regarding interventions that may make them reluctant to recommend or use these interventions <ref type="bibr" target="#b25">(28)</ref>. While the evidence-based approach used in this guideline can help overcome such biases, clinicians should consider whether such biases may exist and work to reduce them.</p><p>The majority of recommendations were conditional in part because of low certainty evidence. Several factors contributed to the low certainty grading, including the following: 1) the limited number of studies evaluating relevant interventions; 2) lack of blinding and study attrition; 3) small sample sizes resulting in imprecision; and 4) heterogeneity of study designs (e.g., various interventions [comprehensive therapy versus an individual component], comparators, and outcomes) that prevented pooling results through a formal meta-analysis. Many of these issues are inherent to research evaluating the considered interventions (e.g., exercise, diet). These conditional recommendations indicate that clinicians should engage in shared decision-making with patients when deciding whether to use these interventions. The low or very low certainty evidence supporting most recommendations calls for prioritizing research into these interventions and prompted a proposed research agenda (Table <ref type="table">7</ref>). Key items include determining the efficacy, safety, optimal timing, mode of delivery, and personalization of these interventions.</p><p>There are limitations to the development of these guidelines. Studies that were conducted prior to more recent treatment eras (characterized by early diagnosis of RA and a treat-to-target approach) were included in the evidence report and may be less generalizable than more recently completed studies. Although broad expertise was recruited and an extensive list of interventions was considered in this guideline, we could not ensure expertise in every area of integrative RA management or consider all possible integrative interventions. For example, members of the Patient Panel inquired about use of cannabinoids as an RA treatment, given the rising prevalence of their use in rheumatic diseases <ref type="bibr" target="#b26">(29,</ref><ref type="bibr" target="#b27">30)</ref>. Cannabinoids were not included in this guideline, and emerging evidence for cannabidiol, a pharmacologic therapy that is not FDA-approved for RA, is being synthesized in a living systematic review through a joint US Department of Veterans Affairs and Center for Evidence-Based Policy at Oregon Health &amp; programs, exercise programs, and weight loss. Define efficacy and safety of therapies not included in this guideline such as cannabidiol, vaping, and occupational exposures and protections as well as emerging therapies such as vagal nerve stimulation. Evaluate dietary supplements (especially vitamin D and omega-3 fatty acids such as "fish oil") in the context of dietary intake. The assessment and implementation of diets should focus on being inclusive of different cultures. Develop vocational rehabilitation programs and work site modifications that improve the ability of individuals with rheumatoid arthritis to work without negative stigma in the workplace. Establish the efficacy and safety of integrative therapies on extraarticular manifestations and long-term rheumatoid arthritis-related outcomes. In addition to disease activity, physical function, pain, and quality of life outcomes considered in this guideline, other outcomes that should be considered are longevity, cardiovascular disease, lung disease, cancer, osteoporosis, and infection. Develop research methodology to study integrative therapies, e.g., defining an adequate control intervention. Publication of research standards for integrative therapies relevant to rheumatoid arthritis to guide research efforts. Establish dedicated funding from organizations to study integrative rheumatoid arthritis therapies and their implementation.</p><p>Sciences University <ref type="bibr" target="#b28">(31)</ref>. Different modes of delivering interventions (e.g., telehealth versus in-person) were not assessed, as this was beyond the scope of this project.</p><p>In summary, this guideline outlines initial recommendations on the management of RA with exercise, rehabilitation, diet, and additional integrative interventions. These recommendations complement existing pharmacologic treatment guidelines that instruct on the use of DMARDs and, taken together, can guide a shared decision-making approach between the individual with RA and their clinician. Interprofessional treatment teams are crucial to implementing these recommendations. The generally low-quality evidence highlights the need for well-designed studies in the area of integrative management of RA. Policy efforts are needed to ensure access to recommended interventions for individuals with RA from diverse backgrounds and settings. Together, these integrative and pharmacologic guidelines support the comprehensive management of RA in pursuit of optimal outcomes for people living with RA.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Table 7 .</head><label>7</label><figDesc>Research agenda for the integrative management of rheumatoid arthritis Evaluate the efficacy and safety of integrative therapies for the management of rheumatoid arthritis. Initial evidence is needed in the areas of activity pacing, energy conservation, activity modification, fatigue management, and vocational rehabilitation. Additional strong evidence from larger, well-designed studies is needed in all other areas. Determine the appropriate timing of different integrative interventions in the rheumatoid arthritis disease course. Examine the delivery, education, and implementation of integrative interventions. For example, evaluating various methods of instruction and training of joint protection and activity pacing interventions. Establish the cost-effectiveness of different integrative interventions and develop approaches for cost-effective delivery. Identify barriers to the adoption and implementation of integrative therapies. These may include variability in access, costs, and implicit and/or explicit biases. Describe the assembly of, communication between, and role delineation among the interprofessional care team delivering pharmacologic and integrative interventions. Improve access to experienced healthcare professionals who provide integrative interventions. Determine efficacy and safety of integrative interventions based on rheumatoid arthritis disease manifestations and pharmacologic therapies, e.g., modifying exercise interventions based on disease activity level or diet based on disease-modifying antirheumatic drugs utilized. Tailor interventions (and their delivery) studied in the general population to individuals with rheumatoid arthritis, e.g., tobacco cessation</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Descriptions and examples of interventions included in the integrative management of rheumatoid arthritis guideline</figDesc><table><row><cell>Intervention</cell><cell>Description and/or examples</cell></row><row><cell>Exercise</cell><cell></cell></row><row><cell>Physical activity</cell><cell>Movement of the body requiring energy expenditure.</cell></row><row><cell>Exercise</cell><cell>Performance of physical activity in regular and structured manner to improve fitness and health.</cell></row><row><cell>Aerobic exercise</cell><cell>Exercise intended to improve cardiorespiratory fitness and muscular endurance. Examples include walking,</cell></row><row><cell></cell><cell>biking or cycling, running, hiking, aerobics, rowing, swimming, using an elliptical machine.</cell></row><row><cell>Aquatic exercise</cell><cell>Exercise performed in water, containing elements of both aerobic and resistance exercise. Examples include</cell></row><row><cell></cell><cell>swimming, water aerobics, water walking or jogging.</cell></row><row><cell>Resistance exercise</cell><cell>Exercise intended to increase muscular strength. Examples include free weights, weight machines, resistance</cell></row><row><cell></cell><cell>bands, Pilates.</cell></row><row><cell>Mind-body exercise</cell><cell>Exercise that combines movement, mental focus, and controlled breathing. Examples include yoga, Tai Chi,</cell></row><row><cell></cell><cell>Qigong.</cell></row><row><cell>Rehabilitation</cell><cell></cell></row><row><cell>Comprehensive</cell><cell>Evaluation and treatment by an occupational therapist with the goal of increasing physical function and</cell></row><row><cell>occupational therapy</cell><cell>participation. Receives patient-centered individualized treatment. Components of occupational therapist</cell></row><row><cell></cell><cell>services vary and may include arthritis education, activities of daily living evaluation and training, joint</cell></row></table><note><p>protection, activity pacing, work simplification and fatigue management, exercise (particularly for the hand and arm), splinting/orthotics, provision of assistive/adaptive devices, environmental adaptations, work and leisure counseling/rehabilitation, work site assessment, sexual advice, relaxation, pain and stress management training. Comprehensive physical therapy Evaluation and treatment by a physical therapist. Components of physical therapist services will vary and should include exercise. May also include functional training and physical activity, energy conservation, workplace accommodations, mobility and gait training, manual therapy, self-management education, electrotherapy, application of orthoses, instruction in assistive devices, pain management (including thermal therapy). Hand therapy exercises Exercises of the hand to improve mobility and strength. Bracing and orthoses Devices to correct and support musculoskeletal function, improve joint alignment, or protect the joint. Examples include wrist and finger splints, foot or knee orthoses, compression gloves, taping. Joint protection techniques Self-management approach that aims to maintain function by providing people with ways to alter work methods and movement patterns of affected joints to reduce pain, inflammation, and joint stress. Examples include changing the way of performing activities to avoid pain, resting, use of alternative muscle groups. Activity pacing Balancing activity and rest to accomplish activities. Includes activity pacing, energy conservation, activity modification, fatigue management techniques. Assistive devices Devices to assist with mobility. Examples include crutches, canes, walkers, wheelchairs, tricycles, scooters. Adaptive equipment Devices to assist with activities of daily living. Examples include built-up and/or long-handled equipment, sock aide, button hook, reachers, pill cutters, cell phone holders. Environmental adaptations Adapting environment to improve safety. Examples include adaptations for toileting (raised toilet seat, commode, toilet safety rail), showering (tub seat, handheld shower, walk-in bath), grab bars, ramps, stair lifts, home modification. Vocational rehabilitation Training programs to overcome barriers preventing successful employment. Work site evaluation and modifications Evaluating and adjusting work site conditions and duties for safety and well-being. Dietary Formally defined diet Specific diets include antiinflammatory, Mediterranean-style, ketogenic, paleo, gluten-free, vegetarian, vegan, intermittent fasting, elemental, elimination, raw foods, whole food plant-based. Mediterranean-style diet Diet pattern that emphasizes intake of vegetables, fruits, whole grains, nuts, seeds, and olive oil; moderate amounts of low-fat dairy and fish; and limits to added sugars, sodium, highly processed foods, refined carbohydrates, and saturated fats. Standardized program to guide self-management. Examples include Arthritis Self-Management Program, Chronic Disease Self-Management Program, Better Choices Better Health, Tomando Control de su Salud, Rheumatoid Arthritis Self-Management Intervention, OPERAS (an On-demand Program to EmpoweR Active Self-management). Cognitive behavioral therapy Psychological therapy to identify and change thought and behavior patterns.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 .</head><label>1</label><figDesc>(Cont'd)    </figDesc><table><row><cell>Intervention</cell><cell>Description and/or examples</cell></row><row><cell>Acupuncture</cell><cell>Stimulation of specific body points through insertion of thin needles.</cell></row><row><cell>Massage therapy</cell><cell>Rubbing and kneading of muscles and joints with the hands. Examples include Swedish, Deep Tissue, Trigger</cell></row><row><cell></cell><cell>Point.</cell></row><row><cell>Thermal modalities</cell><cell>Use of heat and cold for medical treatment. Examples include cryotherapy, heat, therapeutic ultrasound,</cell></row><row><cell></cell><cell>infrared sauna, paraffin therapy, laser therapy.</cell></row><row><cell>Electrotherapy</cell><cell>Use of electrical energy for medical treatment. Examples include transcutaneous electrical nerve stimulation</cell></row><row><cell></cell><cell>(TENS), neuro-muscular electrical nerve stimulation (NMES).</cell></row><row><cell>Vagal nerve stimulation</cell><cell>Implantation of a device to stimulate the vagus nerve with electrical impulses.</cell></row><row><cell>Chiropractic</cell><cell>Diagnosis and manipulation of malaligned joints, particularly the spine.</cell></row><row><cell>Tobacco cessation</cell><cell>Counseling on tobacco cessation, tobacco-cessation programs (via telephone, mobile applications), nicotine-</cell></row><row><cell></cell><cell>replacement therapies, tobacco cessation. medications without nicotine.</cell></row></table><note><p>Recommendations do not pertain to clinical situations in which patients have alternative indications for listed treatments. Other general health benefits may exist for listed treatments. Surgical interventions are not included in this guideline because</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Exercise recommendations for the management of rheumatoid arthritis*</figDesc><table><row><cell></cell><cell></cell><cell>PICO questions</cell><cell>Evidence Summary</cell></row><row><cell></cell><cell>Certainty of</cell><cell>used for the</cell><cell>page nos. in</cell></row><row><cell>Recommendation</cell><cell>evidence</cell><cell>Evidence Report</cell><cell>Supplementary Appendix 3 †</cell></row><row><cell>We strongly recommend consistent engagement in</cell><cell>Moderate</cell><cell>4-7</cell><cell>194-344</cell></row><row><cell>exercise over no exercise.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend consistent engagement in</cell><cell>Very low to low</cell><cell>4</cell><cell>194-242</cell></row><row><cell>aerobic exercise over no exercise.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend consistent engagement in</cell><cell>Low</cell><cell>5</cell><cell>243-260</cell></row><row><cell>aquatic exercise over no exercise.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend consistent engagement in</cell><cell>Very low</cell><cell>6</cell><cell>261-317</cell></row><row><cell>resistance exercise over no exercise.</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Very low to low</cell><cell>7</cell><cell>318-344</cell></row></table><note><p>We conditionally recommend consistent engagement in mind-body exercise over no exercise. * Intervention definitions and examples are provided in Table 1. PICO = Population, Intervention, Comparator, and Outcome. † Available on the Arthritis Care &amp; Research website at https://onlinelibrary.wiley.com/doi/10.1002/acr.25117. ommendation statements are often included in comprehensive OT and/or PT services.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 .</head><label>4</label><figDesc>Rehabilitation interventions for the management of rheumatoid arthritis*</figDesc><table><row><cell></cell><cell></cell><cell>PICO questions</cell><cell>Evidence Summary page</cell></row><row><cell></cell><cell>Certainty of</cell><cell>for the Evidence</cell><cell>nos. in Supplementary</cell></row><row><cell>Recommendation</cell><cell>evidence</cell><cell>Report</cell><cell>Appendix 3 †</cell></row><row><cell>We conditionally recommend participation in</cell><cell>Very low</cell><cell>17</cell><cell>409-427</cell></row><row><cell>comprehensive occupational therapy over no</cell><cell></cell><cell></cell><cell></cell></row><row><cell>comprehensive occupational therapy.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend participation in</cell><cell>Very low</cell><cell>18</cell><cell>428-443</cell></row><row><cell>comprehensive physical therapy over no comprehensive</cell><cell></cell><cell></cell><cell></cell></row><row><cell>physical therapy.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with hand involvement, we conditionally</cell><cell>Low</cell><cell>8</cell><cell>345-368</cell></row><row><cell>recommend performing hand therapy exercises over no</cell><cell></cell><cell></cell><cell></cell></row><row><cell>hand therapy exercises.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with hand and/or wrist involvement and/or</cell><cell>Very low</cell><cell>9</cell><cell>369-376</cell></row><row><cell>deformity, we conditionally recommend use of splinting,</cell><cell></cell><cell></cell><cell></cell></row><row><cell>orthoses, and/or compression over no splinting, orthoses,</cell><cell></cell><cell></cell><cell></cell></row><row><cell>and/or compression.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with foot and/or ankle involvement, we</cell><cell>Very low</cell><cell>10</cell><cell>377-398</cell></row><row><cell>conditionally recommend use of bracing, orthoses, and/or</cell><cell></cell><cell></cell><cell></cell></row><row><cell>taping over no bracing, orthoses, and/or compression.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients with knee involvement, we conditionally</cell><cell>No studies met eligibility</cell><cell>11</cell><cell>399</cell></row><row><cell>recommend use of bracing and/or orthoses over no</cell><cell>criteria</cell><cell></cell><cell></cell></row><row><cell>bracing and/or orthoses.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of joint protection</cell><cell>Low</cell><cell>12</cell><cell>400-404</cell></row><row><cell>techniques over no joint protection techniques.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of activity pacing, energy</cell><cell>No studies met eligibility</cell><cell>13</cell><cell>405</cell></row><row><cell>conservation, activity modification, and/or fatigue.</cell><cell>criteria</cell><cell></cell><cell></cell></row><row><cell>management over no activity pacing, energy conservation,</cell><cell></cell><cell></cell><cell></cell></row><row><cell>activity modification, and/or fatigue management.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of assistive devices over</cell><cell>No studies met eligibility</cell><cell>14</cell><cell>406</cell></row><row><cell>no assistive devices.</cell><cell>criteria</cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of adaptive equipment</cell><cell>No studies met eligibility</cell><cell>15</cell><cell>407</cell></row><row><cell>over no adaptive equipment.</cell><cell>criteria</cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of environmental</cell><cell>No studies met eligibility</cell><cell>16</cell><cell>408</cell></row><row><cell>adaptations over no environmental adaptations.</cell><cell>criteria</cell><cell></cell><cell></cell></row><row><cell>For patients who are currently employed or desire to become</cell><cell>No studies met eligibility</cell><cell>21</cell><cell>500</cell></row><row><cell>employed, we conditionally recommend use of vocational</cell><cell>criteria</cell><cell></cell><cell></cell></row><row><cell>rehabilitation over no work interventions.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>For patients who are currently employed or desire to become</cell><cell>Low</cell><cell>22</cell><cell>501-507</cell></row><row><cell>employed, we conditionally recommend work site</cell><cell></cell><cell></cell><cell></cell></row><row><cell>evaluations and/or modifications over no work site</cell><cell></cell><cell></cell><cell></cell></row><row><cell>evaluations and/or modifications.</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>* Intervention definitions and examples are provided in Table 1. PICO = Population, Intervention, Comparator, and Outcome. † Available on the Arthritis Care &amp; Research website at https://onlinelibrary.wiley.com/doi/10.1002/acr.25117.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 5 .</head><label>5</label><figDesc>Diet recommendations for the management of rheumatoid arthritis* Intervention definitions and examples are provided in Table 1. PICO = Population, Intervention, Comparator, and Outcome. † Available on the Arthritis Care &amp; Research website at https://onlinelibrary.wiley.com/doi/10.1002/acr.25117.</figDesc><table><row><cell></cell><cell></cell><cell>PICO questions</cell><cell>Evidence Summary</cell></row><row><cell></cell><cell></cell><cell>for the</cell><cell>page nos. in</cell></row><row><cell>Recommendation</cell><cell>Certainty of evidence</cell><cell>Evidence Report</cell><cell>Supplementary Appendix 3 †</cell></row><row><cell>We conditionally recommend adherence to a</cell><cell>Low to moderate</cell><cell>1</cell><cell>8-78</cell></row><row><cell>Mediterranean-style diet over no formally defined diet.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend against adherence to a</cell><cell>Very low to moderate</cell><cell>1</cell><cell>8-78</cell></row><row><cell>formally defined diet, other than Mediterranean-style.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend following established dietary</cell><cell>Very low to moderate</cell><cell>2</cell><cell>79-190</cell></row><row><cell>recommendations without dietary supplements over</cell><cell></cell><cell></cell><cell></cell></row><row><cell>adding dietary supplements.</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>*</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 6 .</head><label>6</label><figDesc>Additional integrative interventions for the management of rheumatoid arthritis*</figDesc><table><row><cell></cell><cell></cell><cell>PICO questions</cell><cell>Evidence Summary</cell></row><row><cell></cell><cell></cell><cell>for the</cell><cell>page nos. in</cell></row><row><cell></cell><cell>Certainty of</cell><cell>Evidence</cell><cell>Supplementary</cell></row><row><cell>Recommendation</cell><cell>evidence</cell><cell>Report</cell><cell>Appendix 3 †</cell></row><row><cell>We conditionally recommend use of a standardized</cell><cell>Low</cell><cell>19</cell><cell>445-456</cell></row><row><cell>self-management program over no standardized</cell><cell></cell><cell></cell><cell></cell></row><row><cell>self-management program.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of cognitive</cell><cell>Very low to low</cell><cell>20</cell><cell>457-500</cell></row><row><cell>behavioral therapy and/or mind-body approaches</cell><cell></cell><cell></cell><cell></cell></row><row><cell>over no cognitive behavioral therapy and/or mind-</cell><cell></cell><cell></cell><cell></cell></row><row><cell>body approaches.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of acupuncture over</cell><cell>Low</cell><cell>23</cell><cell>508-528</cell></row><row><cell>no acupuncture.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of massage therapy</cell><cell>Very low</cell><cell>24</cell><cell>529-533</cell></row><row><cell>over no massage therapy.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend use of thermal</cell><cell>Very low</cell><cell>25</cell><cell>534-553</cell></row><row><cell>modalities over no thermal modalities.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend against using</cell><cell>Low</cell><cell>26</cell><cell>554-562</cell></row><row><cell>electrotherapy.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>We conditionally recommend against using</cell><cell>No studies met</cell><cell>27</cell><cell>563</cell></row><row><cell>chiropractic therapy.</cell><cell>eligibility criteria</cell><cell></cell><cell></cell></row></table><note><p>* Intervention definitions and examples are provided in Table 1. PICO = Population, Intervention, Comparator, and Outcome. † Available on the Arthritis Care &amp; Research website at https://onlinelibrary.wiley.com/doi/10.1002/acr.25117.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>21514658, 2023, 8, Downloaded from https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.25117, Wiley Online Library on [13/12/2023]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank the patients who (along with authors <rs type="person">Deb Constien</rs>, <rs type="person">Eileen Davidson</rs>, and <rs type="person">Lawrence "Rick" Phillips</rs>) participated in the Patient Panel meeting: <rs type="person">Grace M. Becker</rs>, <rs type="person">Denise Cedar</rs>, <rs type="person">Judith Flanagan</rs>, <rs type="person">Carolyn R. Mason</rs>, <rs type="person">Eileen Julie O'Rourke</rs>, <rs type="person">Catherine Simons</rs>, <rs type="person">Sharon A. Sharp</rs>, and <rs type="person">Sumayya Spencer</rs>. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Regina Parker</rs>, for assistance in coordinating the administrative aspects of the project and <rs type="person">Cindy Force</rs> for assistance with manuscript preparation. We thank <rs type="person">Janet Waters</rs> for her assistance in developing the literature search strategy and performing the initial literature search and update searches. We thank <rs type="person">Theresa Wampler Muskardin</rs> and <rs type="person">Karen Smarr</rs> for their thoughtful review and feedback during the project.</p></div>
+			</div>
+			<div type="funding">
+<div><p>The findings and conclusions in this report are those of the authors and do not necessarily represent the official position of the <rs type="institution">Centers for Disease Control and Prevention</rs>, the <rs type="funder">National Institutes of Health</rs>, or the <rs type="institution">US Department of Veterans Affairs</rs>.</p><p>Supported by the <rs type="funder">American College of Rheumatology</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology guideline for the treatment of rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fraenkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bathon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>England</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="924" to="939" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology 2008 recommendations for the use of nonbiologic and biologic disease-modifying antirheumatic drugs in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Patkar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="762" to="784" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">2012 update of the 2008 American College of Rheumatology recommendations for the use of diseasemodifying antirheumatic drugs and biologic agents in the treatment of rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Furst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bharat</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="625" to="639" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology guideline for the treatment of rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Saag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Bridges</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="2015">2015. 2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 15. Going from evidence to recommendation-determinants of a recommendation&apos;s direction and strength</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Schünemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="726" to="735" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">AGREE II: advancing guideline development, reporting and evaluation in health care</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Brouwers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Kho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Browman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">CMAJ</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="839" to="842" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Comparison of dietary macronutrient patterns of 14 popular named dietary programmes for weight and cardiovascular risk factor reduction in adults: systematic review and network meta-analysis of randomised trials</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sadeghirad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Ball</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<biblScope unit="page">696</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Mediterranean-style diet for the primary and secondary prevention of cardiovascular disease</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cochrane Database Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">9825</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">American College of Rheumatology guideline for the prevention and treatment of glucocorticoid-induced osteoporosis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Fink</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="1095" to="1110" />
+			<date type="published" when="2017">2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">2021 dietary guidance to improve cardiovascular health: a scientific statement from the American Heart Association</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Lichtenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Appel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vadiveloo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="472" to="487" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The impact of obesity on disease activity and treatment response in rheumatoid arthritis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Poudel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Rheumatol Rep</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">56</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Behavioral weight loss interventions to prevent obesity-related morbidity and mortality in adults: US Preventive Services Task Force recommendation statement</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Curry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Krist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Owens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="1163" to="1171" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">AHA/ACC/TOS guideline for the management of overweight and obesity in adults: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines and The Obesity Society</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Apovian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="102" to="138" />
+			<date type="published" when="2013">2013. 2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Rheumatoid arthritis and the cervical spine: a review on the role of surgery</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gillick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wainwright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Das</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Rheumatol</title>
+		<imprint>
+			<biblScope unit="page">252456</biblScope>
+			<date type="published" when="2015">2015. 2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<ptr target="https://qpp.cms.gov/mips/explore-measures" />
+		<title level="m">Explore Measures &amp; Activities</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The impact of smoking on rheumatoid arthritis outcomes</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Vittecoq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Banse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joint Bone Spine</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="135" to="138" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Physician advice for smoking cessation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Stead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Buitrago</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Preciado</surname></persName>
+		</author>
+		<idno>Cd000165</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cochrane Database Syst Rev</title>
+		<imprint>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Rheumatologists modestly more likely to counsel smokers in visits without rheumatoid arthritis control: an observational study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Vreede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="273" to="277" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Assessing the burden of treatment</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Spencer-Bonilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Quiñones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Montori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1141" to="1145" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Physical inactivity in patients with rheumatoid arthritis: data from twenty-one countries in a crosssectional, international study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sokka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Häkkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kautiainen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="42" to="50" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Are we really what we eat? Nutrition and its role in the onset of rheumatoid arthritis [review]</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Philippou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nikiphorou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Autoimmun Rev</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1074" to="1077" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Impact of a rheumatology clinic protocol on tobacco cessation quit line referrals</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bartels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ramly</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="1421" to="1429" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Medical care costs associated with rheumatoid arthritis in the US: a systematic literature review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hresko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Solomon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="1431" to="1438" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Economic burden of rheumatoid arthritis: a systematic review of literature in biologic era</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Geue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="771" to="777" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Implicit and explicit attitudes towards conventional and complementary and alternative medicine treatments: introduction of an implicit association test</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hohmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lister</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Health Psychol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="927" to="933" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Cannabinoids for the treatment of rheumatic diseases-where do we stand [review]?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Katz-Talmor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Porat-Katz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="488" to="498" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Increase in cannabis use among adults with rheumatic diseases: results from a 2014-2019 United States observational study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wipfler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Katz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="2091" to="2099" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<ptr target="https://www.cannabisevidence.org/" />
+		<title level="m">Evidence-based research about cannabis</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">2019 update of the American College of Rheumatology recommended rheumatoid arthritis disease activity measures</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Tiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bergman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1540" to="1555" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

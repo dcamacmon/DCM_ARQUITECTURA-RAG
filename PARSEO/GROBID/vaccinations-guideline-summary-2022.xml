@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2022 American College of Rheumatology (ACR) Guideline for Vaccinations in Patients with Rheumatic and Musculoskeletal Diseases</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">2022 American College of Rheumatology (ACR) Guideline for Vaccinations in Patients with Rheumatic and Musculoskeletal Diseases</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D064A5AD64D848FEC553AA8136BD6112</idno>
+					<idno type="DOI">10.1002/acr.25045</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective: To provide evidence-based recommendations on the use of vaccinations in children and adults with rheumatic and musculoskeletal diseases (RMDs).</p><p>Methods: This guideline follows the ACR guideline development process and ACR policy guiding management of conflicts of interest and disclosures, which includes the Grading of Recommendations, Assessment, Development and Evaluations (GRADE) methodology, and adheres to the Appraisal of Guidelines for REsearch &amp; Evaluation (AGREE) criteria. A core leadership team consisting of adult and pediatric rheumatologists drafted clinical population, intervention, comparator, and outcomes (PICO) questions. A literature review team performed a systematic literature review for the PICO questions, graded the quality of evidence, and produced the evidence report. The evidence was reviewed, and recommendations were formulated by an expert Voting Panel that included adult and pediatric rheumatology providers, infectious diseases specialists, and patient representatives. Consensus required ≥70% agreement on both the direction and strength of each recommendation.</p><p>Results: This guideline includes expanded indications for some vaccines in patients with RMDs, as well as guidance on whether to hold immunosuppressive medications or delay vaccination to maximize vaccine immunogenicity. Safe approaches to the use of live-attenuated vaccines in patients on immunosuppressive medications are also addressed. The overall quality of the evidence supporting the recommendations is low, and most recommendations are conditional.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion:</head><p>Application of these recommendations should take into consideration patients' individual risk for vaccine-preventable illness and for disease flares, particularly if immunosuppressive medications are held for vaccination. Shared decision-making with patients is encouraged in clinical settings. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Expanded indications for specific vaccines in patients with RMDs on immunosuppression</head><p>For RMD patients aged ≥ 65 years, and RMD patients aged &gt;18 and &lt;65 years who are on immunosuppressive medication, giving high-dose or adjuvanted influenza vaccination is conditionally recommended over giving regular-dose influenza vaccination.</p><p>For patients with RMD aged &lt;65 years who are on immunosuppressive medication, pneumococcal vaccination is strongly recommended.</p><p>For patients with RMD aged &gt;18 years who are on immunosuppressive medication, administering the recombinant zoster vaccine is strongly recommended.</p><p>For patients with RMD aged &gt;26 and &lt;45 years who are on immunosuppressive medication and not previously vaccinated, vaccination against HPV is conditionally recommended.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Revised February 24, 2023</head><p>Whether to give multiple vaccinations to RMD patients on the same day For RMD patients, giving multiple vaccinations on the same day rather than giving each individual vaccination on a different day is conditionally recommended.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Medication management at the time of non-live attenuated vaccine administration</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>*</head><label></label><figDesc>Or the equivalent dose of any other glucocorticoid formulation, or the equivalent pediatric dose **Defer vaccination until glucocorticoids are tapered to the equivalent of prednisone &lt; 20 mg daily = Strong recommendation = Conditional recommendation For patients with RMD, giving non-live attenuated vaccinations is conditionally recommended regardless of their disease activity.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>This summary was approved by the ACR Board of Directors on July 11, 2022. These recommendations are included in a full manuscript, which was published inArthritis &amp; Rheumatology and Arthritis Care and Research January 4, 2023.*    </figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>Hold only if disease activity allows. Non-rheumatology providers, e.g., general pediatricians and internists, are encouraged to give the influenza vaccination and then consult with the patient's rheumatology provider about holding methotrexate to avoid a missed vaccination opportunity. **Give influenza vaccination on schedule. Delay any subsequent rituximab dosing for at least 2 weeks after influenza vaccination if disease activity allows.</figDesc><table><row><cell></cell><cell>Influenza vaccination</cell><cell>Other non-live attenuated</cell></row><row><cell></cell><cell></cell><cell>vaccinations</cell></row><row><cell>Methotrexate</cell><cell>Hold methotrexate for 2 weeks</cell><cell>Continue methotrexate</cell></row><row><cell></cell><cell>after vaccination*</cell><cell></cell></row><row><cell>Rituximab</cell><cell>Continue rituximab**</cell><cell>Time vaccination for when the</cell></row><row><cell></cell><cell></cell><cell>next rituximab dose is due, and</cell></row><row><cell></cell><cell></cell><cell>then hold rituximab for at least</cell></row><row><cell></cell><cell></cell><cell>2 weeks after vaccination</cell></row><row><cell>Immunosuppressive</cell><cell>Continue immunosuppressive</cell><cell>Continue immunosuppressive</cell></row><row><cell>medications other than</cell><cell>medication</cell><cell>medication</cell></row><row><cell>methotrexate and rituximab</cell><cell></cell><cell></cell></row></table><note><p>*</p></note></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunosuppressive medication management at the time of live-attenuated virus vaccine administration</head><p>For RMD patients who are on immunosuppressive medication, deferring live-attenuated vaccines is conditionally recommended.</p><p>For RMD patients, holding immunosuppressive medication for an appropriate period before (see JAK= Janus kinase; TNF=tumor necrosis factor; IL=interleukin; IVIG= intravenous immunoglobulin G; IV = intravenous a for patients taking the equivalent of prednisone &lt; 20 mg/day or &lt; 2 mg/kg/day for patients weighing &lt; 10 kg, or alternate-day glucocorticoid therapy (i.e., "low level immunosuppression" (14, 68), these low doses can be continued if vaccination is critical and the risk of a disease flare or adrenal insufficiency off glucocorticoids is high. b for patients taking methotrexate ≤ 0.4 mg/kg/week or azathioprine ≤ 3 mg/kg/day ("low level" immunosuppression" (14, 68), hold times can be shortened if vaccination is critical and the risk of a disease flare off immunosuppression is high. c for medications with more than one FDA-approved dosing interval, the longest interval should be chosen (e.g., hold subcutaneous adalimumab for 2 weeks although it can be dosed every 1 or every 2 weeks). d In children with autoinflammatory disorders or systemic juvenile idiopathic arthritis in whom the risk of disease flare if biologic DMARDs are held is very high, shorter hold times can be considered if live-attenuated vaccination is critical. e the recommendation to hold IVIG prior to vaccination is designed to enhance vaccine efficacy, not safety. In some situations, such as during a measles outbreak, earlier vaccination would be preferred over delay. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>When to administer live-attenuated rotavirus vaccination to infants exposed to immunosuppressive medications in utero</head></div>			</div>
+			<div type="references">
+
+				<listBibl/>
+			</div>
+		</back>
+	</text>
+</TEI>

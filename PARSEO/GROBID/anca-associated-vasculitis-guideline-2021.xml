@@ -1,0 +1,1878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Antineutrophil Cytoplasmic Antibody-Associated Vasculitis</title>
+				<funder ref="#_chyS4DW">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sharon</forename><forename type="middle">A</forename><surname>Chu</surname></persName>
+							<idno type="ORCID">0000-0003-3303-3944</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Carol</forename><forename type="middle">A</forename><surname>Langford</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Andy</forename><surname>Abril</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Gorelik</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Gordon</forename><surname>Guyatt</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">M</forename><surname>Arch</surname></persName>
+							<idno type="ORCID">0000-0001-9284-7345</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Doyt</forename><forename type="middle">L</forename><surname>Conn</surname></persName>
+							<idno type="ORCID">0000-0003-3303-3944</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Ka</forename><forename type="middle">A</forename><surname>Full</surname></persName>
+							<idno type="ORCID">0000-0002-4907-0304</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">C</forename><surname>Grayson</surname></persName>
+							<idno type="ORCID">0000-0002-8269-9438</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Mar</forename><forename type="middle">F</forename><surname>Ibarra</surname></persName>
+							<idno type="ORCID">0000-0001-6588-9435</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Lisa</forename><surname>Imund</surname></persName>
+							<idno type="ORCID">0000-0002-5876-376X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Susan</forename><surname>Kim</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">A</forename><surname>Merkel</surname></persName>
+							<idno type="ORCID">0000-0001-9284-7345</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Rennie</forename><forename type="middle">L</forename><surname>Rhee</surname></persName>
+							<idno type="ORCID">0000-0002-4907-0304</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Philip</forename><surname>Seo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">H</forename><surname>Stone</surname></persName>
+							<idno type="ORCID">0000-0001-6588-9435</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">P</forename><surname>Sundel</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Omar</forename><forename type="middle">I</forename><surname>Vitoba</surname></persName>
+							<idno type="ORCID">0000-0002-6581-4561</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Ann</forename><surname>Warner</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Kevin</forename><surname>Byram</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Anish</forename><surname>Dua</surname></persName>
+							<idno type="ORCID">0000-0002-3903-6049</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Nedaa</forename><surname>Husainat</surname></persName>
+							<idno type="ORCID">0000-0002-9638-2992</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Karen</forename><forename type="middle">E</forename><surname>James</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yih</forename><forename type="middle">Chang</forename><surname>Lin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ja</forename><forename type="middle">M</forename><surname>Springer</surname></persName>
+							<idno type="ORCID">0000-0002-3903-6049</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Marat</forename><surname>Turgunbaev</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Alexandra</forename><surname>Villa-Forte</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Amy</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+							<idno type="ORCID">0000-0001-7695-2022</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Reem</forename><forename type="middle">A</forename><surname>Mustafa</surname></persName>
+							<idno type="ORCID">0000-0002-2091-0875</idno>
+						</author>
+						<title level="a" type="main">2021 American College of Rheumatology/Vasculitis Foundation Guideline for the Management of Antineutrophil Cytoplasmic Antibody-Associated Vasculitis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A7FDDF976624E2E85584FDD8C00804F0</idno>
+					<idno type="DOI">10.1002/acr.24634</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.1" ident="GROBID" when="2025-03-15T10:38+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objective. To provide evidence-based recommendations and expert guidance for the management of antineutrophil cytoplasmic antibody-associated vasculitis (AAV), including granulomatosis with polyangiitis (GPA), microscopic polyangiitis (MPA), and eosinophilic granulomatosis with polyangiitis (EGPA).</p><p>Methods. Clinical questions regarding the treatment and management of AAV were developed in the population, intervention, comparator, and outcome (PICO) format (47 for GPA/MPA, 34 for EGPA). Systematic literature reviews were conducted for each PICO question. The Grading of Recommendations Assessment, Development and Evaluation methodology was used to assess the quality of evidence and formulate recommendations. Each recommendation required ≥70% consensus among the Voting Panel.</p><p>Results. We present 26 recommendations and 5 ungraded position statements for GPA/MPA, and 15 recommendations and 5 ungraded position statements for EGPA. This guideline provides recommendations for remission induction and maintenance therapy as well as adjunctive treatment strategies in GPA, MPA, and EGPA. These recommendations include the use of rituximab for remission induction and maintenance in severe GPA and MPA and the use of mepolizumab in nonsevere EGPA. All recommendations are conditional due in part to the lack of multiple randomized controlled trials and/or low-quality evidence supporting the recommendations.</p><p>Conclusion. This guideline presents the first recommendations endorsed by the American College of Rheumatology and the Vasculitis Foundation for the management of AAV and provides guidance to health care professionals on how to treat these diseases.</p><p>Guidelines and recommendations developed and/or endorsed by the American College of Rheumatology (ACR) are intended to provide guidance for particular patterns of practice and not to dictate the care of a particular patient. The ACR considers adherence to the recommendations within this guideline to be voluntary, with the ultimate determination regarding their application to be made by the physician in light of each patient's individual circumstances. Guidelines and recommendations are intended to promote beneficial or desirable outcomes but cannot guarantee any specific outcome. Guidelines and recommendations developed and endorsed by the ACR are subject to periodic revision as warranted by the evolution of medical knowledge, technology, and practice. ACR recommendations are not intended to dictate payment or insurance decisions, and drug formularies or other third-party analyses that cite ACR guidelines should state this. These recommendations cannot adequately convey all uncertainties and nuances of patient care.</p><p>The American College of Rheumatology is an independent, professional, medical and scientific society that does not guarantee, warrant, or endorse any commercial product or service.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>The antineutrophil cytoplasmic antibody (ANCA)-associated vasculitides (AAV) comprise granulomatosis with polyangiitis (GPA), microscopic polyangiitis (MPA), and eosinophilic granulomatosis with polyangiitis (EGPA). These diseases affect smalland medium-sized vessels and are characterized by multisystem organ involvement.</p><p>GPA is characterized histologically by necrotizing granulomatous inflammation in addition to vasculitis. Common clinical manifestations include destructive sinonasal lesions, pulmonary nodules, and pauci-immune glomerulonephritis. GPA is most commonly associated with cytoplasmic ANCA and antibodies to proteinase 3 (PR3). Among European populations, prevalence ranges from 24 to 157 cases per million, with the highest prevalence reported in Sweden and the UK <ref type="bibr" target="#b0">(1)</ref>.</p><p>MPA is characterized histologically by vasculitis without granulomatous inflammation. Common clinical manifestations include rapidly progressive pauci-immune glomerulonephritis and alveolar hemorrhage. MPA is most commonly associated with perinuclear ANCA and antibodies to myeloperoxidase. The prevalence of MPA ranges from 0 to 66 cases per million among European countries and 86 cases per million in Japan <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b1">2)</ref>.</p><p>EGPA is characterized histologically by eosinophilic tissue infiltration in addition to vasculitis. Common clinical manifestations include asthma, peripheral eosinophilia, and peripheral neuropathy. Only 40% of patients produce detectable ANCA. The overall prevalence of EGPA in European populations has been estimated to range from 2 to 38 cases per million <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b2">3)</ref>.</p><p>Prior to the use of alkylating agents, survival with these diseases was quite poor (e.g., median survival of patients with GPA was ~5 months) <ref type="bibr" target="#b3">(4)</ref>. Current treatment regimens have reversed this poor prognosis, but treatments are still associated with toxicity. Recent clinical trials have investigated the efficacy and toxicity of both biologic and nonbiologic immunosuppressive agents for the treatment of AAV. Observational studies have provided additional insight regarding management strategies for these diseases. Therefore, this guideline was developed to provide evidence-based recommendations for the treatment and management of GPA, MPA, and EGPA. Although this guideline may inform an international audience, these recommendations were developed considering the experience with and availability of treatment and diagnostic comparators, and outcomes (PICO). An in-person Patient Panel of 11 individuals with different types of vasculitis (4 patients with GPA, 1 patient with MPA, and 2 patients with EGPA) was moderated by a member of the Literature Review team (ABD). This Patient Panel reviewed the evidence report (along with a summary and interpretation by the moderator) and provided patient perspectives and preferences. The Voting Panel comprised 9 adult rheumatologists, 5 pediatric rheumatologists, and 2 patients; they reviewed the Literature Review team's evidence summaries and, bearing in mind the Patient Panel's deliberations, formulated and voted on recommendations.</p><p>The Voting Panel was assembled for the ACR and Vasculitis Foundation's broad effort to develop recommendations for 7 forms of systemic vasculitis: giant cell arteritis, Takayasu arteritis, polyarteritis nodosa, Kawasaki syndrome, and the 3 AAVs presented in this report. The physicians on this panel included rheumatologists who could provide insight on all of these diseases and did not include other subspecialists who would not have experience with many of the other vasculitides addressed in this effort (e.g., pulmonologists who would not have experience with large-or medium-sized vessel vasculitis).</p><p>The Literature Review team chair was a nephrologist. The patients on the Voting Panel presented the views of the Patient Panel, which consisted of patients with different types of vasculitis. A recommendation required ≥70% consensus among the Voting Panel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>How to interpret the recommendations</head><p>A strong recommendation is usually supported by moderateto high-quality evidence (e.g., multiple randomized controlled trials). For a strong recommendation, the recommended course of action would apply to all or almost all patients. Only a small proportion of clinicians/patients would not want to follow the recommendation. In rare instances, a strong recommendation may be based on very low-to low-certainty evidence. For example, an intervention may be strongly recommended if it is considered benign, lowcost, without harms, and the consequence of not performing the intervention may be catastrophic. An intervention may be strongly recommended against if there is high certainty that the intervention leads to more harm than the comparison with very low or low certainty about its benefit <ref type="bibr" target="#b6">(7)</ref>. | 1091</p><p>A conditional recommendation is usually supported by lower-quality evidence or a close balance between desirable and undesirable outcomes. For a conditional recommendation, the recommended course of action would apply to the majority of the patients, but the alternative is a reasonable consideration. Conditional recommendations always warrant a shared decisionmaking approach. We specify some conditions under which the alternative may be considered.</p><p>In some instances, the committee found that the evidence for a particular PICO question did not support a graded recommendation or did not favor one intervention over the other. However, the Voting Panel believed that the PICO question addressed a commonly encountered clinical question and thus felt that providing guidance for this question was warranted. For these situations, we present "ungraded position statements," which reflect general views of the Voting Panel.</p><p>In this evidence-based guideline, we explicitly used the best evidence available and present it for the clinician and reader <ref type="bibr" target="#b7">(8)</ref>. In some instances, this includes randomized trials in which the interventions under consideration are directly compared. The GRADE system rates evidence that comes exclusively from the collective experience of the Voting Panel and Patient Panel members as "very low quality" evidence <ref type="bibr" target="#b5">(6)</ref>.</p><p>For each recommendation, details regarding the PICO questions and the GRADE evidence tables can be found in Supplementary Appendix 2 (<ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24634/abstract">http://onlin elibr ary.wiley.com/doi/10. 1002/acr.24634/ abstract</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>For the evidence report for GPA and MPA, the Literature Review team reviewed 729 articles to address 47 PICO questions. For the evidence report for EGPA, 190 articles were reviewed to address 34 PICO questions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations and ungraded position statements for GPA and MPA</head><p>GPA and MPA are recognized as different diseases for which disease-specific management approaches exist. However, many recommendations and ungraded position statements consider GPA and MPA together, because pivotal trials have enrolled both groups and presented results for these diseases together. Therefore, we present recommendations and ungraded position statements applicable to both GPA and MPA as well as recommendations and ungraded position statements only applicable to GPA. All recommendations for GPA/MPA are conditional, due in part to a lack of multiple randomized controlled trials supporting the recommendations. The complete list of studies reviewed to form the recommendations is provided in the evidence report (Supplementary Appendix 2, <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24634/abstract">http://onlin elibr ary.wiley.com/doi/ 10. 1002/ acr.24634/ abstract</ref>). Given that these diseases affect multiple organ systems, collaboration between rheumatologists, ne phrologists, pulmonologists, and otolaryngologists can enhance the care of patients with GPA and MPA.</p><p>Table <ref type="table" target="#tab_0">1</ref> presents the definitions of selected terms used in the recommendations and ungraded position statements, including the definition of severe and nonsevere disease and the dosing regimens of medications used for remission induction and maintenance. Table <ref type="table" target="#tab_1">2</ref> presents the recommendations and ungraded position statements with their supporting PICO questions and levels of evidence. Figure <ref type="figure" target="#fig_1">1</ref> presents key recommendations for the treatment of GPA and MPA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Remission induction for active, severe disease</head><p>Recommendation: For patients with active, severe GPA/MPA, we conditionally recommend treatment with rituximab over cyclophosphamide for remission induction.</p><p>Both rituximab and cyclophosphamide, in combination with glucocorticoids, have been used for remission induction in GPA and MPA. Rituximab has been shown to provide similar benefits to cyclophosphamide for remission induction in a randomized controlled trial <ref type="bibr" target="#b9">(9)</ref>. Although the currently used cumulative doses of cyclophosphamide are lower than previous regimens and result in less toxicity per treatment course, rituximab is still preferred, since rituximab is considered less toxic than cyclophosphamide. A single course of cyclophosphamide can carry substantial risks such as neutropenia, bladder injury, and the small but present potential for infertility which can be devastating to a young patient. Risks of malignancy and infertility increase when repeated courses of cyclophosphamide are used. Rituximab was also preferred by the Patient Panel, as a generally better-tolerated treatment. Retrospective studies suggest that the 2 remission induction regimens for rituximab used in adults (375 mg/m 2 every week for 4 weeks [US Food and Drug Administration (FDA)-approved dosing schedule] and 1,000 mg on days 1 and 15) are equally efficacious. The choice between these regimens should be guided by the patient's preferences and values.</p><p>Cyclophosphamide (dosing provided in Table <ref type="table" target="#tab_0">1</ref>) may be used when rituximab needs to be avoided or when patients have active disease despite receiving rituximab treatment. It remains controversial whether cyclophosphamide should be preferred for certain types of severe disease, such as acute renal failure (e.g., serum creatinine &gt;4.0 mg/dl). Either intravenous (IV) pulse or daily oral cyclophosphamide can be used <ref type="bibr" target="#b10">(10,</ref><ref type="bibr" target="#b11">11)</ref>. For adults, the decision between these 2 options should be based on patient and physician preferences. In children, IV cyclophosphamide may be preferred to facilitate compliance and limit toxicity. Data regarding the efficacy of combined cyclophosphamide and rituximab therapy for remission induction remain limited <ref type="bibr" target="#b12">(12)</ref>, and potential toxicity of this combination remains a concern. The combination of rituximab with cyclophosphamide is not widely used in the US, and its efficacy compared to rituximab | 1093 or cyclophosphamide monotherapy is not established. This combination remains under study (ClinicalTrials.gov identifier: NCT03942887) at this time.</p><p>Recommendation: In patients with GPA/MPA with active glomerulonephritis, we conditionally recommend against the routine addition of plasma exchange to remission induction therapy.</p><p>Plasma exchange should not be initiated in all patients with active glomerulonephritis but can be considered for patients at higher risk of progression to end-stage renal disease (ESRD) who accept a potential increased risk of infection.</p><p>This recommendation is supported by data from the 2 largest trials of plasma exchange for the treatment of glomerulonephritis in AAV. The first trial, which required a serum creatinine level of ≥5.8 mg/ dl for entry, showed that plasma exchange decreased the risk of ESRD but did not decrease mortality <ref type="bibr" target="#b13">(13,</ref><ref type="bibr" target="#b14">14)</ref>. In a more recent randomized trial of plasma exchange in AAV, the addition of plasma exchange to conventional remission induction therapy did not improve the composite outcome of ESRD or death; a decrease in the risk of ESRD was observed, but the result was not statistically significant (hazard ratio 0.81 [95% confidence interval (95% CI) 0.57-1.13]) <ref type="bibr" target="#b15">(15)</ref>.</p><p>However, combined data from these 2 trials show that there is probably a decreased risk of ESRD in patients with glomerulonephritis who received plasma exchange, compared to those who did not (hazard ratio 0.72 [95% CI 0.53-0.98]; moderate certainty) (Supplementary Appendix 2, <ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24634/abstract">http://onlin e libr ary.wiley.com/doi/10.1002/acr.24634/ abstract</ref>). The benefit was most pronounced in patients with the highest risk of ESRD (118 fewer cases of ESRD per 1,000 cases of active glomerulonephritis [95% CI between 217 and 7 fewer cases]), although no difference in mortality was demonstrated (risk ratio 1.15 [95% CI 0.78-1.70]; moderate certainty). In 4 trials of plasma exchange in AAV, a higher risk of severe infection was observed with plasma exchange (risk ratio 1.19 [95% CI 0.99-1.42]; moderate certainty).</p><p>These findings suggest that for patients with a low risk of progression to ESRD, the risk of plasma exchange may outweigh the benefit; however, in patients with a higher risk of progression to ESRD, the decrease in risk could outweigh the increased risk of serious infection with plasma exchange. Therefore, the Voting Panel does not recommend plasma exchange for all patients with active glomerulonephritis but favors consideration of the treatment for patients at a higher risk of progression to ESRD. Factors that could influence whether plasma exchange is initiated include the patient's kidney function upon presentation, rate of loss of kidney function, response to remission induction therapies, and the patient's ability to tolerate serious infections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendation/statement</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PICO question informing recommendation and discussion</head><p>Level of evidence Treatment of sinonasal, airway, and mass lesions Ungraded position statement: For patients with sinonasal involvement in GPA, nasal rinses and topical nasal therapies (antibiotics, lubricants, and GCs) may be beneficial.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>36, 37, 38, 39 Very low to low</head><p>Recommendation: For patients with GPA in remission who have nasal septal defects and/or nasal bridge collapse, we conditionally recommend reconstructive surgery, if desired by the patient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="45">Low</head><p>Recommendation: For patients with GPA and actively inflamed subglottic and/or endobronchial tissue with stenosis, we conditionally recommend treating with immunosuppressive therapy over surgical dilation with intralesional GC injection alone.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="40">Low</head><p>Recommendation: For patients with GPA and mass lesions (e.g., orbital pseudotumor or masses of the parotid glands, brain, or lungs), we conditionally recommend treatment with immunosuppressive therapy over surgical removal of the mass lesion with immunosuppressive therapy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>41, 42 Very low to low</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other considerations</head><p>Recommendation: In patients with GPA/MPA, we conditionally recommend against dosing immunosuppressive therapy based on ANCA titer results alone.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Very low</head><p>Recommendation: For patients with GPA who are receiving rituximab or cyclophosphamide, we conditionally recommend prophylaxis to prevent Pneumocystis jirovecii pneumonia.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="43">Low</head><p>Recommendation: For patients with GPA/MPA in remission and stage 5 chronic kidney disease, we conditionally recommend evaluation for renal transplantation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="46">Low</head><p>Recommendation: For patients with active GPA/MPA who are unable to receive other immunomodulatory therapy, we conditionally recommend administering IVIG.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="32">Low</head><p>Ungraded position statement: The optimal duration of anticoagulation is unknown for patients with GPA/MPA who experience venous thrombotic events.  Plasma exchange remains advisable in patients with GPA or MPA who also have anti-glomerular basement membrane disease.</p><p>Recommendation: In patients with active, severe GPA/MPA with alveolar hemorrhage, we conditionally recommend against adding plasma exchange to remission induction therapies.</p><p>Two trials evaluated the use of plasma exchange in patients presenting with alveolar hemorrhage, and no differences in mortality or remission rates were observed. Thus, plasma exchange does not have an established benefit for patients with alveolar hemorrhage and is associated with an increased risk of serious infection (see above recommendation). Plasma exchange may be considered for certain patients with active glomerulonephritis or those who are critically ill and whose disease is not responding to recommended remission induction therapies (i.e., plasma exchange as "salvage" or "rescue" therapy).</p><p>Plasma exchange remains advisable in patients with GPA or MPA who also have anti-glomerular basement membrane disease.</p><p>Ungraded position statement: For patients with active, severe GPA/MPA, either IV pulse glucocorticoids or high-dose oral glucocorticoids may be prescribed as part of initial therapy.</p><p>There are no trials comparing the efficacy of IV pulse glucocorticoids to high-dose oral glucocorticoids. Higher doses of glucocorticoids (such as pulse glucocorticoids) are generally administered to patients with organ-or life-threatening disease manifestations but may be associated with an increased risk of infection <ref type="bibr" target="#b16">(16)</ref>.</p><p>Recommendation: For patients with active, severe GPA/MPA, we conditionally recommend a reduced-dose glucocorticoid regimen over a standard-dose glucocorticoid regimen for remission induction.</p><p>A recent study demonstrated that a reduced-dose glucocorticoid regimen provided a similar benefit compared to a standarddose regimen for the composite outcome of ESRD or death, and was associated with a decreased risk of infection <ref type="bibr" target="#b15">(15)</ref>. Due to the known toxicities associated with long-term glucocorticoid use, minimizing glucocorticoid exposure is critical to improving outcomes. Glucocorticoid dosing may be individualized for each patient. Of note, the reduced-dose regimen started with pulse methylprednisolone (3 daily pulses for maximum total dose of 3 gm) and 1 week of high-dose oral glucocorticoids. The dosing regimens used in this study are described in Supplementary Appendix 3 (<ref type="url" target="http://onlinelibrary.wiley.com/doi/10.1002/acr.24634/abstract">http://onlin e libr ary.wiley.com/doi/10.1002/acr.24634/ abstract</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Remission induction for active, nonsevere disease</head><p>Recommendation: For patients with active, nonsevere GPA, we conditionally recommend initiating treatment with methotrexate over cyclophosphamide or rituximab.</p><p>Nonsevere GPA is defined as GPA without life-or organthreatening manifestations (Table <ref type="table" target="#tab_0">1</ref>). Methotrexate, rituximab, and cyclophosphamide are effective at inducing remission in this patient | 1095 group <ref type="bibr" target="#b11">(11)</ref>. However, like severe GPA, nonsevere GPA can be a chronic disease that requires multiple courses of therapy. Thus, the Voting Panel favored using therapies with potentially less toxicity before utilizing therapies with potentially more toxicity. Therefore, methotrexate is preferred due to the greater toxicity of cyclophosphamide. Methotrexate is currently recommended over rituximab because of the larger body of evidence and clinical experience with methotrexate treatment for this patient group; clinical trials are needed to compare their efficacy. Rituximab may be preferred in specific clinical situations, including for patients with hepatic or renal dysfunction, recurrent relapses while receiving methotrexate, or concerns regarding compliance.</p><p>Recommendation: For patients with active, nonsevere GPA, we conditionally recommend initiating treatment with methotrexate and glucocorticoids over glucocorticoids alone.</p><p>Methotrexate with glucocorticoids is recommended to minimize glucocorticoid exposure and toxicity. Overall, there are few clinical situations in which treatment with glucocorticoid monotherapy may be considered (e.g., arthralgias or inability to tolerate other remission maintenance therapies), and close monitoring is needed if this treatment strategy is used.</p><p>Recommendation: For patients with active, nonsevere GPA, we conditionally recommend initiating treatment with methotrexate and glucocorticoids over azathioprine and glucocorticoids or mycophenolate mofetil and glucocorticoids.</p><p>The use of methotrexate for remission induction in this patient group is supported by more available data than other treatments <ref type="bibr" target="#b11">(11)</ref>, but azathioprine and mycophenolate mofetil can be considered. Comparative effectiveness trials are needed to evaluate the efficacy of methotrexate, azathioprine, and mycophenolate mofetil for remission induction in active, nonsevere GPA. Clinical factors may influence the medication selected. For example, methotrexate should be used with caution or avoided in patients with moderate-to-severe renal insufficiency. Azathioprine is the preferred agent for pregnant patients or in patients who cannot tolerate methotrexate or mycophenolate mofetil, while methotrexate or mycophenolate mofetil is indicated in patients with total thiopurine S-methyltransferase deficiency or high-risk TPMT and/or NUDT15 genotypes.</p><p>Recommendation: For patients with active, nonsevere GPA, we conditionally recommend initiating treatment with methotrexate and glucocorticoids over trimethoprim/ sulfamethoxazole and glucocorticoids.</p><p>Methotrexate is considered more effective than trimethoprim/sulfamethoxazole for remission induction, based on previous findings <ref type="bibr" target="#b17">(17)</ref>. Low-dose trimethoprim/sulfamethoxazole may be administered concurrently with immunosuppressive agents to prevent Pneumocystis jirovecii pneumonia (see GPA/MPA recommendation on this topic).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Remission maintenance</head><p>Recommendation: For patients with severe GPA/MPA whose disease has entered remission after treatment with cyclophosphamide or rituximab, we conditionally recommend treatment with rituximab over methotrexate or azathioprine for remission maintenance.</p><p>Rituximab is associated with a lower relapse rate than azathioprine when used for remission maintenance after remission induction with cyclophosphamide <ref type="bibr" target="#b18">(18)</ref>. Methotrexate and azathioprine have comparable efficacy rates for remission maintenance <ref type="bibr" target="#b19">(19)</ref>. Therefore, rituximab is favored over methotrexate or azathioprine. However, more long-term safety data are available for methotrexate and azathioprine, and cost and other factors may limit rituximab use.</p><p>Different doses of rituximab have been used for remission maintenance, including IV 500 mg every 6 months (18) (FDA-approved), IV 1,000 mg every 4 months <ref type="bibr" target="#b20">(20)</ref>, and IV 1,000 mg every 6 months <ref type="bibr" target="#b21">(21)</ref>. No comparative trials have been conducted. Thus, the optimal dose of rituximab for remission maintenance remains uncertain.</p><p>If methotrexate or azathioprine treatment is being considered for remission maintenance, the patient's clinical situation, preferences, and values should guide selection between them, given their comparable efficacy.</p><p>Recommendation: For patients with GPA/MPA who are receiving rituximab for remission maintenance, we conditionally recommend scheduled re-dosing over using ANCA titers or CD19+ B cell counts to guide re-dosing.</p><p>In one randomized trial, patients who received rituximab for remission maintenance based on changes in CD19+ B cell counts and/or ANCA titers had similar rates of relapse as those receiving rituximab as a scheduled dose. However, this study was limited by the small sample size, and there were wide CIs for the effect size <ref type="bibr" target="#b22">(22)</ref>. This recommendation is based in part on the experience and expertise of the Voting Panel, which recognized that flares can occur when patients experience CD19+ B cell depletion and/ or when test results for ANCA are negative. Thus, CD19+ B cell counts or ANCA titers may not accurately indicate the potential for a patient's disease to flare.</p><p>Recommendation: For patients with severe GPA/MPA whose disease has entered remission after treatment with cyclophosphamide or rituximab, we conditionally rec ommend treatment with methotrexate or azathioprine over mycophenolate mofetil for remission maintenance.</p><p>Methotrexate and azathioprine are equally efficacious for remission maintenance <ref type="bibr" target="#b19">(19)</ref>. Azathioprine is favored over mycophenolate mofetil because the relapse rate with mycophenolate mofetil was higher than with azathioprine when studied with remission maintenance <ref type="bibr" target="#b23">(23)</ref>. Mycophenolate mofetil may still be considered for those unable to tolerate or with contraindications to methotrexate, azathioprine, or rituximab.</p><p>Recommendation: For patients with severe GPA/MPA whose disease has entered remission after treatment with cyclophosphamide or rituximab, we conditionally recommend treatment with methotrexate or azathioprine over leflunomide for remission maintenance.</p><p>Methotrexate or azathioprine treatment is recommended over leflunomide due to the data supporting and clinical experience using methotrexate and azathioprine for remission maintenance. The data and clinical experience with leflunomide are more limited. In one clinical trial comparing leflunomide to methotrexate treatment, leflunomide treatment demonstrated a decreased rate of relapse but a higher rate of drug withdrawal <ref type="bibr" target="#b24">(24)</ref>. The trial used a leflunomide dose of 30 mg/day, which may have contributed to toxicity.</p><p>Recommendation: For patients with GPA whose disease has entered remission, we conditionally recommend treatment with methotrexate or azathioprine over trimethoprim/sulfamethoxazole for remission maintenance.</p><p>The Voting Panel strongly favored the use of methotrexate or azathioprine over trimethoprim/sulfamethoxazole, but this recommendation is conditional due to the lack of sufficient high-quality evidence comparing the 2 treatments.</p><p>Recommendation: In patients with GPA whose disease has entered remission, we conditionally recommend against adding trimethoprim/sulfamethoxazole to other therapies (e.g., rituximab, azathioprine, methotrexate, etc.) for the purpose of remission maintenance.</p><p>Trimethoprim/sulfamethoxazole may have benefit for patients with sinonasal involvement <ref type="bibr" target="#b25">(25)</ref>, but its use potentially increases toxicity (e.g., severe hypersensitivity reactions) and medication burden. Trimethoprim/sulfamethoxazole may still be indicated for prophylaxis against P jirovecii pneumonia (see GPA/MPA recommendation on this topic). There is a potential drug interaction between methotrexate and trimethoprim/sulfamethoxazole when trimethoprim/sulfamethoxazole is dosed at 800 mg/160 mg twice a day. The trimethoprim/sulfamethoxazole dose used for Pneumocystis prophylaxis is generally tolerated, but its use should be monitored when used in conjunction with methotrexate.</p><p>Recommendation: For patients with GPA/MPA receiving remission maintenance therapy with rituximab who have hypogammaglobulinemia (e.g., IgG &lt;3 gm/liter) and recurrent severe infections, we conditionally recommend immunoglobulin supplementation.</p><p>Immunoglobulin supplementation at replacement doses (e.g., 400-800 mg/kg/month) should be considered if a patient has hypogammaglobulinemia and is experiencing recurrent infections. Immunoglobulin supplementation can also be considered for patients with hypogammaglobulinemia without recurrent infections but with impaired vaccine responses <ref type="bibr" target="#b26">(26)</ref>. These considerations should be made in collaboration with an allergist/immunologist.</p><p>Ungraded position statement: The duration of nonglucocor ticoid remission maintenance therapy in GPA/MPA should be guided by the patient's clinical condition, preferences, and values.</p><p>The optimal duration of remission maintenance therapy is not well established. Although clinical trials have typically administered remission maintenance therapy for ≥18 months, patients may benefit from continuing remission maintenance therapy for a longer duration <ref type="bibr" target="#b27">(27)</ref>. The Patient Panel favored remission maintenance therapy for ≥18 months and potentially longer depending on patient-specific factors. Factors to be considered include previous relapse history, extent of organ involvement, and disease characteristics such as ANCA status (with PR3-ANCA-positive patients more likely to experience disease relapse <ref type="bibr" target="#b28">[28]</ref>).</p><p>Ungraded position statement: The duration of glucocorticoid therapy for GPA/MPA should be guided by the patient's clinical condition, preferences, and values.</p><p>The optimal duration of glucocorticoid therapy for GPA/MPA is not well established. The immunosuppressive effects of glucocorticoids contributing to disease control should be balanced with the toxicities associated with its use. Overall, patients expressed a desire to minimize the glucocorticoid dose as much as possible but recognized that some patients may require low-dose glucocorticoids long-term to maintain disease quiescence. Screening for toxicities of glucocorticoid use (e.g., bone mineral density testing for osteoporosis) should be conducted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treatment of disease relapse</head><p>Recommendation: For patients with GPA/MPA who have experienced relapse with severe disease manifestations and are not receiving rituximab for remission maintenance, we conditionally recommend treatment with rituximab over cyclophosphamide for remission re-induction.</p><p>Rituximab is more effective than oral cyclophosphamide for reinduction of remission among patients who previously received cyclophosphamide and then experienced relapse, based on subgroup analysis of a randomized controlled trial <ref type="bibr" target="#b9">(9)</ref>. In addition, the cumulative toxicity of cyclophosphamide raises concerns over repeated use of this agent.</p><p>Recommendation: For patients with GPA/MPA who experienced relapse with severe disease manifestations while receiving rituximab for remission maintenance, we conditionally recommend switching from rituximab to cyclophosphamide over receiving additional rituximab for remission re-induction.</p><p>Multiple factors can influence whether rituximab or cyclophosphamide treatment (IV or oral) is used, such as time since last rituximab infusion and cumulative cyclophosphamide dose. Cyclophosphamide is recommended if the patient recently received rituximab, while a remission induction dose of rituximab may be | 1097 effective if an extended period has passed since the last rituximab infusion. As is standard for remission induction, these agents should be used in conjunction with glucocorticoids.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treatment of refractory disease</head><p>Recommendation: For patients with severe GPA/MPA that is refractory to treatment with rituximab or cyclophosphamide for remission induction, we conditionally recommend switching treatment to the other therapy over combining the 2 therapies.</p><p>Disease refractory to remission induction therapy is rare, and there are limited data to guide treatment recommendations. Practitioners should evaluate whether other conditions such as infection could be mimicking vasculitis. However, if a patient's disease is refractory to one remission induction therapy, it is important to change the remission induction strategy. We recommend switching to the other remission induction agent prior to using combination therapy.</p><p>Recommendation: For patients with GPA/MPA that is refractory to remission induction therapy, we conditionally recommend adding IV immunoglobulin (IVIG) to current therapy.</p><p>IVIG should not be used routinely to treat GPA/MPA but can be considered at certain treatment doses (e.g., 2 gm/kg) as adjunctive therapy for short-term control, while waiting for remission induction therapy (i.e., rituximab or cyclophosphamide) to become effective (see above recommendation) <ref type="bibr" target="#b29">(29)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treatment of sinonasal, airway, and mass lesions</head><p>Ungraded position statement: For patients with sinonasal involvement in GPA, nasal rinses and topical nasal therapies (antibiotics, lubricants, and glucocorticoids) may be beneficial.</p><p>We suggest collaborating with an otolaryngologist with expertise in treating GPA to determine whether these interventions should be used.</p><p>Recommendation: For patients with GPA in remission who have nasal septal defects and/or nasal bridge collapse, we conditionally recommend reconstructive surgery, if desired by the patient.</p><p>To optimize surgical outcomes, reconstructive surgery should be performed, after a period of sustained remission, by an otolaryngologist with expertise in treating GPA <ref type="bibr" target="#b30">(30,</ref><ref type="bibr" target="#b31">31)</ref>.</p><p>Recommendation: For patients with GPA and actively inflamed subglottic and/or endobronchial tissue with stenosis, we conditionally recommend treating with immunosuppressive therapy over surgical dilation with intralesional glucocorticoid injection alone.</p><p>Subglottic or endobronchial stenoses should be managed by an otolaryngologist or pulmonologist, respectively, with expertise in management of these lesions. Immunosuppressive therapy is recommended for initial treatment of active inflammatory stenoses and usually comprises glucocorticoids and other agents <ref type="bibr" target="#b32">(32)</ref>; the degree of immunosuppressive therapy utilized may be based on the severity of other disease manifestations. Surgical dilation with intralesional glucocorticoid injection may be more appropriate for stenoses that are longstanding, fibrotic, or unresponsive to immunosuppression <ref type="bibr" target="#b32">(32)</ref><ref type="bibr" target="#b33">(33)</ref><ref type="bibr" target="#b34">(34)</ref>. Surgical dilation with intralesional glucocorticoid injection concurrent with medical treatment may also be considered as initial therapy for stenoses that require immediate intervention (e.g., critical narrowing).</p><p>Recommendation: For patients with GPA and mass lesions (e.g., orbital pseudotumor or masses of the parotid glands, brain, or lungs), we conditionally recommend treatment with immunosuppressive therapy over surgical removal of the mass lesion with immunosuppressive therapy.</p><p>Immunosuppressive therapy (with remission induction followed by remission maintenance) is almost always the initial treatment of choice for mass lesions <ref type="bibr" target="#b35">(35,</ref><ref type="bibr" target="#b36">36)</ref>. While these lesions tend to respond primarily to glucocorticoids, other agents are also usually used in hopes of having a glucocorticoid-sparing effect. Debulking surgery may be considered if there is an urgent need for decompression, such as acute visual loss due to optic nerve compression, or other life-or organ-threatening compression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other considerations</head><p>Recommendation: In patients with GPA/MPA, we conditionally recommend against dosing immunosuppressive therapy based on ANCA titer results alone.</p><p>Increases in ANCA titers/levels are only modestly informative as an indicator of disease activity <ref type="bibr" target="#b37">(37)</ref> and are not reliable predictors of disease flares for individual patients. Increasing immunosuppressive therapy based on changes in ANCA titers/levels alone can result in unnecessary immunosuppression resulting in adverse events. Persistence of ANCA positivity does not necessarily indicate that continued immunosuppressive therapy is required. Instead, treatment decisions should be based on a patient's clinical symptoms in conjunction with diagnostic studies (e.g., laboratory, imaging, and biopsy findings).</p><p>Recommendation: For patients with GPA/MPA who are receiving rituximab or cyclophosphamide, we conditionally recommend prophy laxis to prevent P jirovecii pneumonia.</p><p>Prophylaxis to prevent P jirovecii pneumonia is routinely used with cyclophosphamide treatment <ref type="bibr" target="#b38">(38)</ref>. The prescribing information for rituximab recommends prophylaxis for P jirovecii pneumonia for ≥6 months after the last rituximab dose for patients with GPA or MPA. While many on the Voting Panel felt strongly that patients with GPA/MPA receiving cyclophosphamide or rituximab should receive prophylaxis against P jirovecii pneumonia, this recommendation is conditional given the lack of moderate-or high-quality evidence directly addressing this question and the potential toxicity of the medications used for prophylaxis. Prophylaxis against P jirovecii pneumonia should also be considered for patients receiving moderate-dose glucocorticoids (e.g., &gt;20 mg/day) or higher in combination with methotrexate, azathioprine, or mycophenolate mofetil <ref type="bibr" target="#b38">(38)</ref>. Prophy laxis </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Very low</head><p>Recommendation: For patients with EGPA, we conditionally recommend using the Five-Factor Score to guide therapy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Very low</head><p>Ungraded position statement: In patients with sinonasal involvement in EGPA, treatment with nasal rinses and topical therapies (e.g., antibiotics, lubricants, and GCs) may be considered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="31">Very low</head><p>Recommendation: For patients with EGPA who are receiving cyclophosphamide or rituximab, we conditionally recommend prescribing medications for prophylaxis to prevent Pneumocystis jirovecii pneumonia. | 1099 is less commonly used in younger children receiving rituximab but should be considered.</p><p>Recommendation: For patients with GPA/MPA in remission and stage 5 chronic kidney disease, we conditionally recommend evaluation for renal transplantation.</p><p>Outcomes of kidney transplantation in patients with AAV are similar to those in patients receiving transplants for other reasons, with disease relapses in the transplanted kidney being rare <ref type="bibr" target="#b39">(39,</ref><ref type="bibr" target="#b40">40)</ref>. GPA and MPA in remission should not be considered a contraindication to kidney transplantation, but these patients should be monitored for disease relapse after transplantation.</p><p>Recommendation: For patients with active GPA/MPA who are unable to receive other immunomodulatory therapy, we conditionally recommend administering IVIG.</p><p>IVIG should not be used routinely to treat GPA/MPA (see above recommendation). However, in the rare instances in which patients with active disease may not be able to receive conventional immunosuppressive therapy (e.g., sepsis or pregnancy), IVIG can be used as a short-term intervention until conventional remission induction therapies can be used <ref type="bibr" target="#b29">(29)</ref>.</p><p>Ungraded position statement: The optimal duration of anticoagulation is unknown for patients with GPA/MPA who experience venous thrombotic events.</p><p>AAV is associated with an increased risk of venous thrombotic events, including both deep vein thromboses and pulmonary emboli <ref type="bibr" target="#b41">(41,</ref><ref type="bibr" target="#b42">42)</ref>. Venous thromboembolic events that occur in a patient with active disease and no other risk factors can be considered a provoked event with a transient risk factor (assuming subsequent disease control). Thus, short-term instead of lifelong anticoagulation may be considered.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Recommendations and ungraded position statements for EGPA</head><p>EGPA is characterized by diverse features, including asthma/ allergic rhinitis, peripheral and tissue eosinophilia, and vasculitis. As these clinical features can potentially have differing responses to treatment, the management approach is typically based on a patient's disease features and severity. The recommendations presented here focus primarily on the use of immunosuppressive medications to treat the vasculitic manifestations of EGPA. However, asthma and allergic manifestations are a significant component of EGPA, and measures directed toward these, including inhaled therapies and allergen avoidance, play an important role in management. Collaboration between rheumatologists, asthma/allergy specialists, and specialists in other medical disciplines can enhance the care of patients with EGPA.</p><p>In contrast to GPA/MPA, there have been very few ran domized controlled trials conducted to date in EGPA. These recommendations and ungraded position statements therefore reflect reliance on lowerquality (i.e., indirect) evidence, including expert opinion.</p><p>Table <ref type="table" target="#tab_0">1</ref> presents the definitions of selected terms used in the recommendations and ungraded position statements, including the definition of severe and nonsevere disease and the dosing regimens of medications used for remission induction and maintenance. Table <ref type="table" target="#tab_3">3</ref> presents the recommendations and ungraded position statements with their supporting PICO questions and levels of evidence. Figure <ref type="figure" target="#fig_2">2</ref> presents key recommendations for the treatment of EGPA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Remission induction for active, severe disease</head><p>Ungraded position statement: For patients with active, severe EGPA, either IV pulse glucocorticoids or high-dose oral glucocorticoids may be prescribed as initial therapy.</p><p>There are no data to support favoring either IV pulse or highdose oral glucocorticoids over the other option in active, severe EGPA. Choosing an approach should be influenced by individual patient factors. In either instance, glucocorticoids should be combined with a nonglucocorticoid immunosuppressive agent such as cyclophosphamide or rituximab (see ungraded position statement below).</p><p>Ungraded position statement: For patients with active, severe EGPA, either cyclophosphamide or rituximab may be prescribed for remission induction.</p><p>Cyclophosphamide has been more commonly used for remission induction in patients with active, severe EGPA, given the experience with cyclophosphamide in other forms of vasculitis <ref type="bibr" target="#b43">(43)</ref>. Increasing experience with rituximab in GPA/MPA has also led to more patients with EGPA being treated with rituximab, and case series suggest that rituximab may also have efficacy for active, severe disease <ref type="bibr" target="#b44">(44)</ref>. Given that the comparative effectiveness of cyclophosphamide and rituximab for EGPA is unknown, the Voting Panel felt that both cyclophosphamide and rituximab could be considered for remission induction in active, severe EGPA. Cyclophosphamide would be preferred for patients with active cardiac involvement given the increased experience with cyclophosphamide, as cardiomyopathy has been found to be the main independent predictor of death in EGPA <ref type="bibr" target="#b25">(25,</ref><ref type="bibr" target="#b26">26)</ref>. Cyclophosphamide can also be considered for patients who are ANCA-negative and have severe neurologic or gastrointestinal manifestations. Rituximab may be considered for patients with positive ANCA results, active glomerulonephritis, prior cyclophosphamide treatment, or those at risk of gonadal toxicity from cyclophosphamide.</p><p>Recommendation: For patients with active, severe EGPA, we conditionally recommend treatment with cyclo phosphamide or rituximab over mepolizumab for remission induction.</p><p>The efficacy of mepolizumab in severe EGPA has not been established, as patients with active, severe disease were excluded from the randomized trial <ref type="bibr" target="#b45">(45)</ref>. Rituximab or cyclophosphamide is recommended over mepolizumab in this setting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Remission induction for active, nonsevere disease</head><p>Recommendation: For patients with active, nonsevere EGPA, we conditionally recommend initiating treatment with mepolizumab and glucocorticoids over methotrexate, azathioprine, or mycophenolate mofetil and glucocorticoids.</p><p>A range of immunosuppressive agents may be considered in the treatment of active, nonsevere EGPA, all of which are used with glucocorticoids. The clinical profile of nonsevere EGPA includes predominantly asthma, sinus disease, and nonsevere vasculitis. While there is significant clinical experience with methotrexate, azathioprine, and mycophenolate mofetil, there are limited data regarding their efficacy, and these treatments have not been assessed in randomized clinical trials. The GRADE methodology used in the guideline development process weights clinical trials more heavily than observational studies. Thus, mepolizumab is recommended as the first choice, because it has been found to be efficacious for nonsevere EGPA in a randomized trial <ref type="bibr" target="#b45">(45)</ref>. All patients in this trial had relapsing or refractory disease, with 55% receiving an additional nonglucocorticoid immunosuppressive agent at the time of enrollment. A large proportion of patients in this trial had asthmatic and eosinophilic features, for which mepolizumab has also been found to be effective in non-EGPA disease settings. Although patients with nonsevere vasculitic manifestations were represented in this trial, questions remain about the effectiveness of mepolizumab for all aspects of nonsevere vasculitis. Individual factors, including disease manifestations, may impact the decision to use mepolizumab, in which case methotrexate, azathioprine, or mycophenolate mofetil may be used instead. There are insufficient data to favor one of these medications (methotrexate, azathioprine, or mycophenolate mofetil) over the others; therefore, the choice should be influenced by individual patient factors.</p><p>Recommendation: For patients with active, nonsevere EGPA, we conditionally recommend initiating treatment with methotrexate, azathioprine, or mycophenolate mofetil and glucocorticoids over glucocorticoids alone.</p><p>Patients should be treated with adjunctive methotrexate, azathioprine, or mycophenolate mofetil rather than glucocorticoids alone in order to minimize glucocorticoid toxicity. One randomized trial that combined patients with EGPA, MPA, and polyarteritis nodosa without poor prognosis factors showed that the addition of azathioprine did not provide benefit beyond glucocorticoids alone <ref type="bibr" target="#b46">(46)</ref>. Particularly for patients with asthma, this may impact the decision to use methotrexate, azathioprine, or mycophenolate mofetil concurrently with glucocorticoids and could lead to consideration of mepolizumab. Glucocorticoid monotherapy may be appropriate for mild asthma, allergic symptoms, use during pregnancy, or other individual patient situations. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>| 1101</head><p>Recommendation: For patients with active, nonsevere EGPA, we conditionally recommend initiating treatment with methotrexate, azathioprine, or mycophenolate mofetil and glucocorticoids over cyclophosphamide or rituximab and glucocorticoids.</p><p>While the comparative efficacy of methotrexate, azathioprine, mycophenolate mofetil, and rituximab is not well established, the use of methotrexate, azathioprine, or mycophenolate mofetil is favored, based on more experience with these agents in EGPA compared to rituximab. However, rituximab may be considered if other agents are not effective in controlling active, nonsevere disease, or if the patient has nonsevere vasculitis (which in some series included mononeuritis multiplex) and is positive for ANCA. Cyclophosphamide should be avoided when treating active, nonsevere disease due to its toxicity and is the least preferred option in this setting.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Remission maintenance</head><p>Recommendation: For patients with severe EGPA whose disease has entered remission with cyclophosphamide therapy, we conditionally recommend treatment with methotrexate, azathioprine, or mycophenolate mofetil over rituximab for remission maintenance.</p><p>Typically, a maintenance agent would be used after remission induction in severe EGPA to reduce toxicity and the risk of disease relapse (47), although monophasic disease can occur <ref type="bibr" target="#b48">(48)</ref>. Azathioprine has been commonly used in published EGPA series <ref type="bibr" target="#b46">(46)</ref>, but the lack of comparative evidence between methotrexate, azathioprine, and mycophenolate mofetil in EGPA precludes recommending one agent over another.</p><p>Use of methotrexate, azathioprine, or mycophenolate mofetil is recommended over rituximab, because there has been less experience with the use of rituximab for remission maintenance in EGPA. Rituximab could be considered if remission were induced with rituximab or if there are contraindications to other choices.</p><p>Recommendation: For patients with severe EGPA whose disease has entered remission, we conditionally recommend treatment with methotrexate, azathioprine, or mycophenolate mofetil over mepolizumab for remission maintenance.</p><p>While there are limited data informing the use of remission maintenance therapy in EGPA, remission induction therapies (e.g., cyclophosphamide) should not be indefinitely continued given the potential toxicity. Thus, methotrexate, azathioprine, or mycophenolate mofetil can be considered for remission maintenance based on experience in GPA/MPA, expert opinion, and results from small studies <ref type="bibr" target="#b49">(49)</ref>. The primary experience with mepolizumab is in refractory nonsevere disease, and thus it is difficult to extrapolate its efficacy as a remission maintenance agent for severe disease.</p><p>Ungraded position statement: The duration of glucocorticoid therapy in EGPA should be guided by the patient's clinical condition, values, and preferences.</p><p>There is insufficient published evidence to support a specific duration of glucocorticoid treatment, and thus, the length of glucocorticoid therapy should be determined based on each patient's clinical circumstances. Many patients with EGPA require some treatment with glucocorticoids, generally at a low dose, to maintain control of asthma and allergy symptoms. The minimum effective dose should be prescribed to minimize glucocorticoid toxicity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Treatment of disease relapse</head><p>Recommendation: For patients with EGPA who have experienced relapse with severe disease manifestations after prior successful remission induction with cyclophosphamide, we conditionally recommend treatment with rituximab over cyclophosphamide for remission re-induction.</p><p>Rituximab is favored based on the general desire to avoid re-treatment with cyclophosphamide if possible and on the findings of an observational study of rituximab in relapsing or refractory EGPA <ref type="bibr" target="#b50">(50)</ref>. Cyclophosphamide may be considered in instances of recurrent cardiac involvement, since cardiac involvement is an independent predictor of death and is associated with ANCA-negative disease, as discussed in the ungraded position statement about remission induction in active, severe disease.</p><p>Recommendation: For patients with EGPA who have experienced relapse with severe disease manifestations after prior successful remission induction with rituximab, we conditionally recommend treatment with rituximab over switching to cyclophosphamide for remission re-induction.</p><p>Re-induction of remission with rituximab is favored over cyclophosphamide treatment to minimize toxicity. However, the duration of remission prior to the onset of relapse should be examined. Cyclophosphamide should be considered if a severe relapse occurred quickly after rituximab treatment, or if cardiac involvement is present (see ungraded position statement and recommendation on this topic).</p><p>Recommendation: For patients with EGPA who have experienced relapse with nonsevere disease manifestations (asthma and/or sinonasal disease) while receiving methotrexate, azathioprine, or mycophenolate mofetil, we conditionally recommend adding mepolizumab over switching to another agent.</p><p>For patients with EGPA with active asthma, inhaled therapies should be maximized prior to increasing systemic immunosuppressive therapy. Although no direct comparative data are available, mepolizumab was found to be efficacious in a randomized trial in patients specifically described in this recommendation: those with relapsing nonsevere EGPA who are receiving immunosuppressive therapy <ref type="bibr" target="#b45">(45)</ref>. It has also been independently proven to be effective in eosinophilic asthma <ref type="bibr" target="#b51">(51)</ref>. Based on this evidence, mepolizumab is recommended to treat nonsevere relapsing disease in patients receiving methotrexate, azathioprine, or mycophenolate mofetil rather than switching to an alternative agent of that group.</p><p>Recommendation: For patients with EGPA who have experienced relapse with nonsevere disease manifestations (asthma and/or sinonasal disease) while receiving low-dose glucocorticoids and no other therapy, we conditionally recommend adding mepolizumab over adding methotrexate, azathioprine, or mycophenolate mofetil.</p><p>Similar to the discussion about the above recommendation, use of inhaled agents should be optimized in patients experiencing disease relapse with asthma and/or sinonasal disease. For patients with nonsevere relapsing EGPA who are receiving glucocorticoid monotherapy, starting mepolizumab would be preferred over adding methotrexate, azathioprine, or mycophenolate mofetil, given the treatment's proven efficacy in this population in a randomized trial <ref type="bibr" target="#b45">(45)</ref>.</p><p>Recommendation: For patients with EGPA and high serum IgE levels who have experienced relapse with nonsevere disease manifestations (asthma and/or sinonasal disease) while receiving methotrexate, azathioprine, or mycophenolate mofetil, we conditionally recommend adding mepolizumab over adding omalizumab.</p><p>The published evidence on omalizumab, an anti-IgE antibody, in EGPA has been limited. Therefore, even for a patient with high serum IgE levels, mepolizumab is the preferred choice based on evidence from the randomized controlled trial <ref type="bibr" target="#b45">(45)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Other considerations</head><p>Recommendation: For patients with newly diagnosed EGPA receiving leukotriene inhibitors, we conditionally recommend continuing leukotriene inhibitors over discontinuing them.</p><p>Following the introduction of leukotriene inhibitors, concerns were raised about a link with the development of EGPA. In subsequent retrospective studies, it was not concluded that there is a causal relationship between leukotriene inhibitors and EGPA <ref type="bibr" target="#b52">(52)</ref>. Therefore, patients with newly diagnosed EGPA should have the option to continue a leukotriene inhibitor if it is beneficial in the management of their asthma or sinonasal disease.</p><p>Ungraded position statement: Use of leukotriene inhibitors is not contraindicated for patients with EGPA with active asthma and/or sinonasal disease.</p><p>Leukotriene inhibitors carry therapeutic indications for asthma and allergic rhinitis. As no clear causal association with EGPA has been demonstrated, a leukotriene inhibitor can be added to help manage asthma and sinonasal disease. However, leukotriene inhibitors are one of many options and are not the only choice in this setting. Leukotriene inhibitors should not be used to treat manifestations aside from asthma and sinonasal disease.</p><p>Recommendation: For patients with EGPA, we conditionally recommend obtaining an echocardiogram at the time of diagnosis.</p><p>Cardiac involvement is the major cause of diseaserelated mortality in EGPA <ref type="bibr" target="#b48">(48)</ref>. Echocardiography has minimal risk and can identify cardiac involvement, which, if present, can impact treatment decisions. Not identifying cardiac involvement could negatively impact patient outcomes. Thus, we recommend obtaining an echocardiogram for all patients with newly diagnosed EGPA, even in the absence of cardiac symptoms.</p><p>Recommendation: For patients with EGPA, we conditionally recommend using the Five-Factor Score to guide therapy.</p><p>The Five-Factor Score (FFS), first published in 1996 <ref type="bibr" target="#b53">(53)</ref>, was based on a cohort of 342 patients with either polyarteritis nodosa, as it was then defined, or EGPA. These 5 factors include proteinuria &gt;1 gm/day, renal insufficiency with serum creatinine &gt;1.58 mg/ dl, gastrointestinal tract involvement, cardiomyopathy, and central nervous system involvement. The FFS is primarily a prognostic tool for which higher scores have been associated with a worse outcome <ref type="bibr" target="#b53">(53)</ref>. It has been used to guide treatment <ref type="bibr" target="#b43">(43)</ref>, but its applicability to newer therapies is unknown. The FFS was revisited in 2011 in a population of 1,108 patients with GPA, MPA, EGPA, or PAN <ref type="bibr" target="#b54">(54)</ref>. The 2011 version included ear, nose, and throat parameters and age &gt;65 years. The 1996 FFS remains more commonly used and may be helpful in identifying organ-specific parameters associated with severe disease and in guiding treatment. Although the definitions of severe and nonsevere EGPA used in the present guideline were not based on the FFS, the tool was found to be useful to clinicians for making treatment decisions. The components of the FFS can serve as markers of severe disease that warrant more aggressive treatment.</p><p>Ungraded position statement: In patients with sinonasal involvement in EGPA, treatment with nasal rinses and topical therapies (e.g., antibiotics, lubricants, and glucocorticoids) may be considered.</p><p>Allergic rhinitis and sinonasal disease are frequent clinical features of EGPA. Although the efficacy of nasal rinses and topical | 1103 therapies in EGPA is not well established, some patients may benefit. Where possible, consultation with an otolaryngologist with expertise in treating AAV should be obtained to guide the use and choice of these agents. These interventions can continue to be beneficial even when symptoms have improved or resolved.</p><p>Recommendation: For patients with EGPA who are receiving cyclophosphamide or rituximab, we conditionally recommend prescribing medications for prophylaxis to prevent P jirovecii pneumonia.</p><p>Prophylaxis to prevent P jirovecii pneumonia is discussed above in the GPA/MPA recommendations. The same considerations regarding prophylaxis to prevent this condition in patients with GPA/MPA apply to those with EGPA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>In this guideline, we present the first ACR/Vasculitis Foundation recommendations for the management of GPA, MPA, and EGPA. Although these recommendations provide a general guide for disease management, the patient's clinical condition, preferences, and values should influence their treatment. Overall, these recommendations reflect the evolving management of these diseases, including the new roles for biologic therapies and aggressive strategies to minimize glucocorticoid toxicity. The recommendations for GPA and MPA are supported by a greater number of randomized trials than are currently available in EGPA. All of the recommendations made for these 3 diseases are conditional, which indicates that there are settings in which the evidence is not strong or an alternative is a reasonable consideration. These recommendations should not be used by any agency to restrict access to therapy or require that certain therapies be utilized prior to other therapies.</p><p>The physicians on the Voting Panel were primarily rheumatologists, because the recommendations were being developed for rheumatologists in the US. Since AAVs are multisystem diseases, patients with AAVs often receive care from other medical subspecialists (e.g., nephrologists, pulmonologists, and/or otolaryngologists). While the recommendations presented in this guideline are driven by the published data, other medical subspecialists may favor a different management strategy. We encourage rheumatologists to discuss treatment plans and coordinate care with other subspecialists as needed.</p><p>Recently, a clinical trial of avacopan in patients with GPA and MPA was published <ref type="bibr" target="#b55">(55)</ref>. This guideline development effort did not include consideration of avacopan, since the guidelines consider therapies that are approved by the FDA for use for any indication at the time of the last literature search. Therapies approved by the FDA after that date will be considered for inclusion in future updates to this guideline.</p><p>This guideline highlights gaps in our knowledge for the treatment of AAV. Most glaring is the lack of biomarker assessments or other noninvasive diagnostic testing with minimal toxicity that can accurately assess disease activity and predict outcomes. In addition, while we have evidence from randomized clinical trials to support recommendations regarding initial remission induction and maintenance therapy, critical questions remain unanswered, such as the optimal duration of therapy.</p><p>These gaps in knowledge reinforce the need for ongoing research in these diseases. Specific areas to investigate include the following: 1) biomarker studies to identify more specific, reliable indicators of disease activity that can guide treatment decisions; 2) trials to clarify how best to use the currently available medications (e.g., dosing, duration, effective combinations, and in which population to use which drugs); 3) trials to identify novel, targeted, and/or glucocorticoid-sparing agents with minimal toxicity; and 4) long-term studies to understand the course of disease and the safety of current therapies.</p><p>We hope significant progress will be made in these areas such that future recommendations provide a more tailored approach to disease management, minimize treatment toxicity, and prevent organ damage in these patients.</p><p>Seo, Stone, Vitobaldi, Warner, Byram, Dua, Husainat, Kalot, Lin, Springer, Turgunbaev, Mustafa.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>*</head><label></label><figDesc>For the population, intervention, comparator, and outcome (PICO) questions used in the Grading of Recommendations Assessment, Development and Evaluation methodology, as developed for granulomatosis with polyangiitis (GPA) and microscopic polyangiitis (MPA), please refer to Supplementary Appendix 2 (available on the Arthritis Care &amp; Research website at http://onlin elibr ary.wiley.com/doi/10.1002/acr.24634/ abstract). IV = intravenous; GCs = glucocorticoids; ANCA = antineutrophil cytoplasmic antibody; IVIG = IV immunoglobulin.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Key recommendations for the treatment of granulomatosis with polyangiitis and microscopic polyangiitis.</figDesc><graphic coords="7,57.97,88.51,496.06,310.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Key recommendations for the treatment of eosinophilic granulomatosis with polyangiitis.</figDesc><graphic coords="13,87.93,87.38,436.14,266.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Definitions of selected terms used in the recommendations and ungraded position statements for GPA, MPA, and EGPA*</figDesc><table><row><cell>Term</cell></row></table><note><p>Same dosing regimen as in remission induction therapy Rituximab 500 mg (IV) every 6 months or 1 gm (IV) every 4 months (adults), 250 mg/m 2 (IV) every 6 months (children), or other doses Mepolizumab 300 mg (SC) every 4 weeks Omalizumab 300-600 mg (SC) every 2-4 weeks * GPA = granulomatosis with polyangiitis; MPA = microscopic polyangiitis; EGPA = eosinophilic granulomatosis with polyangiitis; IV = intravenous; GCs = glucocorticoids; SC = subcutaneous.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Recommendations/statements for the management of GPA and MPA*</figDesc><table><row><cell></cell><cell>PICO question</cell><cell></cell></row><row><cell></cell><cell>informing</cell><cell></cell></row><row><cell></cell><cell>recommendation</cell><cell></cell></row><row><cell>Recommendation/statement</cell><cell>and discussion</cell><cell>Level of evidence</cell></row><row><cell>Remission induction for active, severe disease</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, severe GPA/MPA, we conditionally recommend</cell><cell>4, 5, 6</cell><cell>Very low to moderate</cell></row><row><cell>treatment with rituximab over cyclophosphamide for remission induction.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: In patients with GPA/MPA with active glomerulonephritis, we conditionally</cell><cell>34</cell><cell>Low to high</cell></row><row><cell>recommend against the routine addition of plasma exchange to remission induction therapy.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: In patients with active, severe GPA/MPA with alveolar hemorrhage, we</cell><cell>35</cell><cell>Low to high</cell></row><row><cell>conditionally recommend against adding plasma exchange to remission induction therapies.</cell><cell></cell><cell></cell></row><row><cell>Ungraded position statement: For patients with active, severe GPA/MPA, either IV pulse GCs or</cell><cell>2</cell><cell>Very low to moderate</cell></row><row><cell>high-dose oral GCs may be prescribed as part of initial therapy.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: In patients with active, severe GPA/MPA, we conditionally recommend a</cell><cell>3</cell><cell>Very low to moderate</cell></row><row><cell>reduced-dose GC regimen over a standard-dose GC regimen for remission induction.</cell><cell></cell><cell></cell></row><row><cell>Remission induction for active, nonsevere disease</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, nonsevere GPA, we conditionally recommend</cell><cell>12, 13</cell><cell>Very low to moderate</cell></row><row><cell>initiating treatment with methotrexate over cyclophosphamide or rituximab.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, nonsevere GPA, we conditionally recommend</cell><cell>14</cell><cell>Low</cell></row><row><cell>initiating treatment with methotrexate and GCs over GCs alone.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, nonsevere GPA, we conditionally recommend</cell><cell>8, 9, 10</cell><cell>Low</cell></row><row><cell>initiating treatment with methotrexate and GCs over azathioprine and GCs or mycophenolate</cell><cell></cell><cell></cell></row><row><cell>mofetil and GCs.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, nonsevere GPA, we conditionally recommend</cell><cell>11</cell><cell>Low</cell></row><row><cell>initiating treatment with methotrexate and GCs over trimethoprim/sulfamethoxazole and GCs.</cell><cell></cell><cell></cell></row><row><cell>Remission maintenance</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with severe GPA/MPA whose disease has entered remission</cell><cell>15, 16, 17, 18</cell><cell>Very low to moderate</cell></row><row><cell>after treatment with cyclophosphamide or rituximab, we conditionally recommend treatment</cell><cell></cell><cell></cell></row><row><cell>with rituximab over methotrexate or azathioprine for remission maintenance.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with GPA/MPA who are receiving rituximab for remission</cell><cell>24, 25</cell><cell>Very low to low</cell></row><row><cell>maintenance, we conditionally recommend scheduled re-dosing over using ANCA titers or</cell><cell></cell><cell></cell></row><row><cell>CD19+ B cell counts to guide re-dosing.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with severe GPA/MPA whose disease has entered remission</cell><cell>19</cell><cell>Very low to moderate</cell></row><row><cell>after treatment with cyclophosphamide or rituximab, we conditionally recommend treatment</cell><cell></cell><cell></cell></row><row><cell>with methotrexate or azathioprine over mycophenolate mofetil for remission maintenance.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with severe GPA/MPA whose disease has entered remission</cell><cell>20</cell><cell>Very low to low</cell></row><row><cell>after treatment with cyclophosphamide or rituximab, we conditionally recommend treatment</cell><cell></cell><cell></cell></row><row><cell>with methotrexate or azathioprine over leflunomide for remission maintenance.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with GPA whose disease has entered remission, we</cell><cell>21, 22</cell><cell>Very low to low</cell></row><row><cell>conditionally recommend treatment with methotrexate or azathioprine over trimethoprim/</cell><cell></cell><cell></cell></row><row><cell>sulfamethoxazole for remission maintenance.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: In patients with GPA whose disease has entered remission, we conditionally</cell><cell>23</cell><cell>Low to moderate</cell></row><row><cell>recommend against adding trimethoprim/sulfamethoxazole to other therapies (e.g.,</cell><cell></cell><cell></cell></row><row><cell>rituximab, azathioprine, methotrexate, etc.) for the purpose of remission maintenance.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with GPA/MPA receiving remission maintenance therapy with</cell><cell>44</cell><cell>Very low</cell></row><row><cell>rituximab who have hypogammaglobulinemia (e.g., IgG &lt;3 gm/liter) and recurrent severe</cell><cell></cell><cell></cell></row><row><cell>infections, we conditionally recommend immunoglobulin supplementation.</cell><cell></cell><cell></cell></row><row><cell>Ungraded position statement: The duration of non-GC remission maintenance therapy in GPA/</cell><cell>26</cell><cell>Low to moderate</cell></row><row><cell>MPA should be guided by the patient's clinical condition, preferences, and values.</cell><cell></cell><cell></cell></row><row><cell>Ungraded position statement: The duration of GC therapy for GPA/MPA should be guided by</cell><cell>27, 33</cell><cell>Low to moderate</cell></row><row><cell>the patient's clinical condition, preferences, and values.</cell><cell></cell><cell></cell></row><row><cell>Treatment of disease relapse</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with GPA/MPA who have experienced relapse with severe</cell><cell>28</cell><cell>Low</cell></row><row><cell>disease manifestations and are not receiving rituximab for remission maintenance, we</cell><cell></cell><cell></cell></row><row><cell>conditionally recommend treatment with rituximab over cyclophosphamide for remission</cell><cell></cell><cell></cell></row><row><cell>re-induction.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with GPA/MPA who experienced relapse with severe disease</cell><cell>29</cell><cell>Very low</cell></row><row><cell>manifestations while receiving rituximab for remission maintenance, we conditionally</cell><cell></cell><cell></cell></row><row><cell>recommend switching from rituximab to cyclophosphamide over receiving additional</cell><cell></cell><cell></cell></row><row><cell>rituximab for remission re-induction.</cell><cell></cell><cell></cell></row><row><cell>Treatment of refractory disease</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with severe GPA/MPA that is refractory to treatment with</cell><cell></cell><cell></cell></row><row><cell>rituximab or cyclophosphamide for remission induction, we conditionally recommend</cell><cell></cell><cell></cell></row></table><note><p><p><p><p><p><p>switching treatment to the other therapy over combining the 2 therapies.</p>30</p>Very low</p>Recommendation: For patients with GPA/MPA that is refractory to remission induction therapy, we conditionally recommend adding IVIG to current therapy.</p>31</p>Low to moderate (Continued)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>(Cont'd)   </figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Recommendations/statements for the management of EGPA*</figDesc><table><row><cell></cell><cell>PICO question</cell><cell></cell></row><row><cell></cell><cell>informing</cell><cell></cell></row><row><cell></cell><cell>recommendation</cell><cell>Level of</cell></row><row><cell>Recommendation/statement</cell><cell>and discussion</cell><cell>evidence</cell></row><row><cell>Remission induction for active, severe disease</cell><cell></cell><cell></cell></row><row><cell>Ungraded position statement: For patients with active, severe EGPA, either IV pulse GCs or high-dose oral</cell><cell>3</cell><cell>Very low</cell></row><row><cell>GCs may be prescribed as initial therapy.</cell><cell></cell><cell></cell></row><row><cell>Ungraded position statement: For patients with active, severe EGPA, either cyclophosphamide or rituximab</cell><cell>4</cell><cell>Very low</cell></row><row><cell>may be prescribed for remission induction.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, severe EGPA, we conditionally recommend treatment with</cell><cell>6, 7</cell><cell>Low</cell></row><row><cell>cyclophosphamide or rituximab over mepolizumab for remission induction.</cell><cell></cell><cell></cell></row><row><cell>Remission induction for active, nonsevere disease</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, nonsevere EGPA, we conditionally recommend initiating treatment</cell><cell>8, 9, 10, 13</cell><cell>Very low to low</cell></row><row><cell>with mepolizumab and GCs over methotrexate, azathioprine, or mycophenolate mofetil and GCs.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, nonsevere EGPA, we conditionally recommend initiating</cell><cell>14</cell><cell>Low</cell></row><row><cell>treatment with methotrexate, azathioprine, or mycophenolate mofetil and GCs over GCs alone.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with active, nonsevere EGPA, we conditionally recommend initiating</cell><cell>11, 12</cell><cell>Very low to low</cell></row><row><cell>treatment with methotrexate, azathioprine, or mycophenolate mofetil and GCs over cyclophosphamide or</cell><cell></cell><cell></cell></row><row><cell>rituximab and GCs.</cell><cell></cell><cell></cell></row><row><cell>Remission maintenance</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with severe EGPA whose disease has entered remission with</cell><cell>15, 16, 17,18</cell><cell>Very low</cell></row><row><cell>cyclophosphamide therapy, we conditionally recommend treatment with methotrexate, azathioprine, or</cell><cell></cell><cell></cell></row><row><cell>mycophenolate mofetil over rituximab for remission maintenance.</cell><cell></cell><cell></cell></row><row><cell></cell><cell>21, 22, 23, 29, 30</cell><cell>Very low to low</cell></row><row><cell>Treatment of relapse</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with EGPA who have experienced relapse with severe disease</cell><cell>25</cell><cell>Very low</cell></row><row><cell>manifestations after prior successful remission induction with cyclophosphamide, we conditionally</cell><cell></cell><cell></cell></row><row><cell>recommend treatment with rituximab over cyclophosphamide for remission re-induction.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with EGPA who have experienced relapse with severe disease</cell><cell>25</cell><cell>Very low</cell></row><row><cell>manifestations after prior successful remission induction with rituximab, we conditionally recommend</cell><cell></cell><cell></cell></row><row><cell>treatment with rituximab over switching to cyclophosphamide for remission re-induction.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with EGPA who have experienced relapse with nonsevere disease</cell><cell>26</cell><cell>Very low</cell></row><row><cell>manifestations (asthma and/or sinonasal disease) while receiving methotrexate, azathioprine, or</cell><cell></cell><cell></cell></row><row><cell>mycophenolate mofetil, we conditionally recommend adding mepolizumab over switching to another agent.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with EGPA who have experienced relapse with nonsevere disease</cell><cell>28</cell><cell>Very low</cell></row><row><cell>manifestations (asthma and/or sinonasal disease) while receiving low-dose GCs and no other therapy,</cell><cell></cell><cell></cell></row><row><cell>we conditionally recommend adding mepolizumab over adding methotrexate, azathioprine, or</cell><cell></cell><cell></cell></row><row><cell>mycophenolate mofetil.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with EGPA and high serum IgE levels who have experienced relapse with</cell><cell>27</cell><cell>Very low</cell></row><row><cell>nonsevere disease manifestations (asthma and/or sinonasal disease) while receiving methotrexate, azathioprine,</cell><cell></cell><cell></cell></row><row><cell>or mycophenolate mofetil, we conditionally recommend adding mepolizumab over adding omalizumab.</cell><cell></cell><cell></cell></row><row><cell>Other considerations</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with newly diagnosed EGPA receiving leukotriene inhibitors, we</cell><cell>33</cell><cell>Very low</cell></row><row><cell>conditionally recommend continuing leukotriene inhibitors over discontinuing them.</cell><cell></cell><cell></cell></row><row><cell>Ungraded position statement: Use of leukotriene inhibitors is not contraindicated for patients with EGPA</cell><cell>34</cell><cell>Very low</cell></row><row><cell>with active asthma and/or sinonasal disease.</cell><cell></cell><cell></cell></row><row><cell>Recommendation: For patients with EGPA, we conditionally recommend obtaining an echocardiogram at</cell><cell></cell><cell></cell></row><row><cell>the time of diagnosis.</cell><cell></cell><cell></cell></row></table><note><p><p><p>Recommendation: For patients with severe EGPA whose disease has entered remission, we conditionally recommend treatment with methotrexate, azathioprine, or mycophenolate mofetil over mepolizumab for remission maintenance.</p>20 Very low</p>Ungraded position statement: The duration of GC therapy in EGPA should be guided by the patient's clinical condition, values, and preferences.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We thank <rs type="person">Anne M. Ferris</rs>, MBBS, <rs type="person">Ora Gewurz-Singer, MD</rs>, <rs type="person">Rula Hajj-Ali, MD</rs>, <rs type="person">Eric Matteson, MD, MPH</rs>, <rs type="person">Robert F. Spiera, MD</rs>, <rs type="person">Linda Wagner-Weiner, MD, MS,</rs> and <rs type="person">Kenneth J. Warrington, MD</rs>, for serving on the Expert Panel. We thank <rs type="person">Antoine G. Sreih, MD</rs>, and <rs type="person">Gary S. Hoffman, MD, MS,</rs> for their contributions during the early phases of this project as members of the <rs type="affiliation">Core Team</rs>. <rs type="person">Dr. Hoffman</rs>'s participation ended July 2018 due to personal reasons. <rs type="person">Dr. Sreih</rs>'s involvement ended in December 2018 when he became primarily employed by industry, which precluded his continued participation in this project. We thank <rs type="person">Joyce Kullman</rs> (<rs type="affiliation">Vasculitis Foundation</rs>) for her assistance with recruitment for the Patient Panel. We thank the patients who (along with authors <rs type="person">Kathy A. Full</rs> and <rs type="person">Omar I. Vitobaldi</rs>) participated in the Patient Panel meeting: <rs type="person">Jane Ascroft</rs>, <rs type="person">Scott A. Brunton</rs>, <rs type="person">Dedra DeMarco</rs>, <rs type="person">Thomas Fitzpatrick</rs>, <rs type="person">Jenn Gordon</rs>, <rs type="person">Maria S. Mckay</rs>, <rs type="person">Sandra Nye</rs>, <rs type="person">Stephanie Sakson</rs>, and <rs type="person">Ben Wilson</rs>. We thank <rs type="person">Robin Arnold</rs>, <rs type="person">Catherine E. Najem, MD</rs>, <rs type="projectName">MSCE</rs>, and <rs type="person">Amit Aakash Shah, MD, MPH</rs>, for their assistance with the literature review. We thank the <rs type="institution">ACR</rs> staff, including <rs type="person">Ms Regina Parker</rs>, for assistance in organizing the face-toface meeting and coordinating the administrative aspects of the project, and <rs type="person">Ms Robin Lane</rs> for assistance in manuscript preparation. We thank <rs type="person">Ms Janet Waters</rs> for help in developing the literature search strategy and performing the initial literature search, and <rs type="person">Ms Janet Joyce</rs> for performing the update searches.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_chyS4DW">
+					<orgName type="project" subtype="full">MSCE</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>All authors were involved in drafting the article or revising it critically for important intellectual content, and all authors approved the final version to be published. Drs. Chung and Langford had full access to all of the data in the study and takes responsibility for the integrity of the data and the accuracy of the data analysis. Study conception and design. Chung, Langford, Maz, Abril, Gorelik, Guyatt, Archer, Full, Grayson, Merkel, Seo, Stone, Sule, Sundel, Vitobaldi, Turner, Mustafa. Acquisition of data. Chung, Langford, Maz, Abril, Gorelik, Full, Imundo, Kim, Merkel, Stone, Vitobaldi, Byram, Dua, Husainat, James, Kalot, Lin, Springer, Turgunbaev, Villa-Forte, Turner, Mustafa. Analysis and interpretation of data. Chung, Langford, Maz, Abril, Gorelik, Archer, Conn, Full, Grayson, Ibarra, Imundo, Kim, Merkel, Rhee,</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">What is known about the epidemiology of the vasculitides?</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Best Pract Res Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="191" to="207" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Epidemiology of ANCA-associated vasculitis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ntatsaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Watts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheum Dis Clin North Am</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="447" to="461" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Prevalences of polyarteritis nodosa, microscopic polyangiitis, Wegener&apos;s granulomatosis, and Churg-Strauss syndrome in a French urban multiethnic population in 2000: a capture-recapture estimate</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillevin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Poissonnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Aymé</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="92" to="99" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Giant-cell granuloma of the respiratory tract (Wegener&apos;s granulomatosis)</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Walton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br Med J</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="265" to="270" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">GRADE: an emerging consensus on rating quality of evidence and strength of recommendations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Vist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kunz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alonso-Coello</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page" from="924" to="926" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">GRADE guidelines: 14. Going from evidence to recommendations: the significance and presentation of recommendations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Oxman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Falck-Ytter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="719" to="725" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A number of factors explain why WHO guideline developers make strong recommendations inconsistent with GRADE guidance</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Gionfriddo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Stoltzfus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Neumann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="111" to="122" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">A guide for health professionals to interpret and use recommendations in guidelines developed with the GRADE approach</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Neumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Santesso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Akl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Rind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Vandvik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alonso-Coello</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>review</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="45" to="55" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Rituximab versus cyclophosphamide for ANCA-associated vasculitis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Merkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spiera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Seo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Langford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Hoffman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="221" to="232" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Pulse versus daily oral cyclophosphamide for induction of remission in antineutrophil cytoplasmic antibody-associated vasculitis: a randomized trial</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Jayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Suarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gregorini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Gross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="670" to="680" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Randomized trial of cyclophosphamide versus methotrexate for induction of remission in early systemic antineutrophil cytoplasmic antibody-associated vasculitis</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Tervaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Feighery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gregorini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2461" to="2469" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Rituximab versus cyclophosphamide in ANCA-associated renal vasculitis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Tervaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Luqmani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Peh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="211" to="220" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Randomized trial of plasma exchange or highdosage methylprednisolone as adjunctive therapy for severe renal vasculitis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Jayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gaskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Abramowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ferrario</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillevin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Soc Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="2180" to="2188" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Long-term follow-up of patients with severe ANCA-associated vasculitis comparing plasma exchange to intravenous methylprednisolone treatment is unclear</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Casian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Flossmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Westman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Höglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pusey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Kidney Int</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="397" to="402" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Plasma exchange and glucocorticoids in severe ANCAassociated vasculitis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Merkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Peh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Szpirt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Puéchal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fujimoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">382</biblScope>
+			<biblScope unit="page" from="622" to="631" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Intravenous pulse methylprednisolone for induction of remission in severe ANCA associated vasculitis: a multi-center retrospective cohort study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chanouzas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Mcgregor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nightingale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Salama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Szpirt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Basu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">58</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Therapy for the maintenance of remission in sixty-five patients with generalized Wegener&apos;s granulomatosis: methotrexate versus trimethoprim/sulfamethoxazole</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reinhold</forename><forename type="middle">-</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tatsis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Paulsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nölle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="2052" to="2061" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Rituximab versus azathioprine for maintenance in ANCAassociated vasculitis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillevin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagnoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Khouatra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aumaître</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page" from="1771" to="1780" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Azathioprine or methotrexate maintenance for ANCAassociated vasculitis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagnoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hamidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Boffa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ruivard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ducroix</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">359</biblScope>
+			<biblScope unit="page" from="2790" to="2803" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">act/a-rando mized -contr olledtrial -of-ritux imab-versu s-azath iopri ne-after -induc tion-of-remis sion-with-ritux imab-for-patie nts-with-anca-assoc iated -vascu litisand-relap sing-disea se</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jayne</forename><forename type="middle">D</forename><surname>Merkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename></persName>
+		</author>
+		<ptr target="https://acrabstracts.org/abstr" />
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>A randomized, controlled trial of rituximab versus azathioprine after induction of remission with rituximab for patients with ANCA-associated vasculitis and relapsing disease</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Rituximab for remission maintenance in relapsing antineutrophil cytoplasmic antibody-associated vasculitis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Guerry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Laurino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Catapano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chaudhry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="3760" to="3769" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Comparison of individually tailored versus fixed-schedule rituximab regimen to maintain ANCA-associated vasculitis remission: results of a multicentre, randomised controlled, phase III trial (MAINRITSAN2)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Terrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Perrodeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Faguer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Huart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1143" to="1149" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Mycophenolate mofetil vs azathioprine for remission maintenance in antineutrophil cytoplasmic antibody-associated vasculitis: a randomized controlled trial</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Hiemstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Savage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Harper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">304</biblScope>
+			<biblScope unit="page" from="2381" to="2388" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Elevated relapse rate under oral methotrexate versus leflunomide for maintenance of remission in Wegener&apos;s granulomatosis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Metzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Miehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Manger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Iking-Konert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hellmich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1087" to="1091" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Trimethoprim-sulfamethoxazole (co-trimoxazole) for the prevention of relapses of Wegener&apos;s granulomatosis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Stegeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Tervaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Kallenberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">335</biblScope>
+			<biblScope unit="page" from="16" to="20" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Diagnostic and therapeutic considerations in patients with hypogammaglobulinemia after rituximab therapy [review]</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Mccune</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Opin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="228" to="233" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Randomised controlled trial of prolonged treatment in the remission phase of ANCA-associated vasculitis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagnoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haubitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>De Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Puechal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Tervaert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1662" to="1668" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Pulse versus daily oral cyclophosphamide for induction of remission in ANCA-associated vasculitis: long-term follow-up</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Harper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hoglund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Westman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Flossmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="955" to="960" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Intravenous immunoglobulin as an immunomodulating agent in antineutrophil cytoplasmic antibody-associated vasculitides: a French nationwide study of ninety-two patients</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Crickx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Machelart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lazaro</forename><forename type="middle">E</forename><surname>Kahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Cohen-Aubart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="702" to="712" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Nasal surgery in patients with systemic disorders</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sachse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Stoll</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">GMS Curr Top Otorhinolaryngol Head Neck Surg</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Long-term follow-up of repair of external nasal deformities in patients with Wegener&apos;s granulomatosis</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Congdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Sherris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Specks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mcdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Laryngoscope</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="731" to="737" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Tracheobronchial stenoses in granulomatosis with polyangiitis (Wegener&apos;s): a report on 26 cases</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Girard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Terrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bussonne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagnoux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine (Baltimore)</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">1088</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Granulomatosis with polyangiitis: endoscopic management of | 1105 tracheobronchial stenosis: results from a multicentre experience</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Terrier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dechartres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Girard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jouneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Kahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dhote</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="1852" to="1857" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Long-term outcome of airway stenosis in granulomatosis with polyangiitis (Wegener granulomatosis): an observational study</title>
+		<author>
+			<persName><forename type="first">Martinez</forename><surname>Del Pero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jayne</forename><forename type="middle">D</forename><surname>Chaudhry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sivasothy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jani</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Otolaryngol Head Neck Surg</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="1038" to="1044" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Long-term outcomes of rituximab therapy in ocular granulomatosis with polyangiitis: impact on localized and nonlocalized disease</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tanna</forename><forename type="middle">A</forename><surname>Mcadoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Medjeral-Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Sandhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ophthalmology</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="1262" to="1268" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Orbital mass in ANCA-associated vasculitides: data on clinical, biological, radiological and histological presentation, therapeutic management, and outcome from 59 patients</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Durel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Trefond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aumaitre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pugnet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Samson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="1565" to="1573" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Value of ANCA measurements during remission to predict a relapse of ANCA-associated vasculitis: a meta-analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tomasson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Grayson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Mahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lavalley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Merkel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="100" to="109" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Pneumocystis carinii pneumonia prophylaxis in patients with rheumatic diseases undergoing immunosuppressive therapy: prevalence and associated features</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vernovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Dellaripa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="94" to="101" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Kidney transplantation in ANCA-associated vasculitis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sagmeister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grigorescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schönermarck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Nephrol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="919" to="926" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Renal transplantation in antineutrophil cytoplasmic antibodyassociated vasculitis: a multicenter experience</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Geetha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Eirin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>True</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Irazabal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Specks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Seo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Transplantation</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="1370" to="1375" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Venous thromboembolism in ANCA-associated vasculitis: incidence and risk factors</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Stassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Derks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Kallenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Stegeman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rheumatology (Oxford)</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="530" to="534" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">High incidence of venous thrombotic events among patients with Wegener granulomatosis: the Wegener&apos;s Clinical Occurrence of Thrombosis (WeCLOT) Study</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Merkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Holbrook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Tibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="620" to="626" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Long-term followup of polyarteritis nodosa, microscopic polyangiitis, and Churg-Strauss syndrome: analysis of four prospective trials including 278 patients</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gayraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillevin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Le Toumelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lhote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Casassus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="666" to="675" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Rituximab for the treatment of eosinophilic granulomatosis with polyangiitis (Churg-Strauss)</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mohammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Arndt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Moosig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Guerry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Amudala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rheum Dis</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="396" to="401" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Mepolizumab or placebo for eosinophilic granulomatosis with polyangiitis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Wechsler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Akuthota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Khoury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Langford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="page" from="1921" to="1932" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Adding azathioprine to remission-induction glucocorticoids for eosinophilic granulomatosis with polyangiitis (Churg-Strauss), microscopic polyangiitis, or polyarteritis nodosa without poor prognosis factors: a randomized, controlled trial</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Puéchal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagnoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Baron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Quémeneur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Néel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Agard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheumatol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="2175" to="2186" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Long-term followup of a multicenter cohort of 101 patients with eosinophilic granulomatosis with polyangiitis (Churg-Strauss)</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Durel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berthiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Caboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jayne</forename><forename type="middle">D</forename><surname>Ninet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Care Res (Hoboken)</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="374" to="387" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Eosinophilic granulomatosis with polyangiitis (Churg-Strauss): clinical characteristics and long-term followup of the 383 patients enrolled in the French Vasculitis Study Group cohort</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Comarmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagnoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khellaf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Cordier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hamidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Viallard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arthritis Rheum</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="270" to="281" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Methotrexate versus cyclophosphamide for remission maintenance in ANCA-associated vasculitis: a randomised trial</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maritati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Alberici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Oliva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Urban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Palmisano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Santarsia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">185880</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Efficacy and safety of rituximab in the treatment of eosinophilic granulomatosis with polyangiitis</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Teixeira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Mohammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jayne</forename><forename type="middle">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">RMD Open</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">905</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Mepolizumab treatment in patients with severe eosinophilic asthma</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Pavord</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Brusselle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chetta</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page" from="1198" to="1207" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The leucotriene receptor antagonist montelukast and the risk of Churg-Strauss syndrome: a case-crossover study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Metzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sommerstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Gross</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thorax</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="677" to="682" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Prognostic factors in polyarteritis nodosa and Churg-Strauss syndrome: a prospective study in 342 patients [review]</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillevin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gayraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jarrousse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Lortholary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Thibult</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine (Baltimore)</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="17" to="28" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The Five-Factor Score revisited: assessment of prognoses of systemic necrotizing vasculitides based on the French Vasculitis Study Group (FVSG) cohort</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guillevin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pagnoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Seror</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mouthon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Toumelin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Medicine (Baltimore)</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="19" to="27" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>for the French Vasculitis Study Group (FVSG)</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Avacopan for the treatment of ANCA-associated vasculitis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Jayne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Merkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Schall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bekker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Study</forename><surname>Advocate</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Group</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">384</biblScope>
+			<biblScope unit="page" from="599" to="609" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
