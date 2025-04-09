@@ -1,4 +1,4 @@
-# MODELO RAG . SIMPLE + RERANKER + MEMORY
+# MODELO RAG . SIMPLE + RERANKER
 
 import os
 import openai
@@ -73,40 +73,3 @@ rag_chain = ConversationalRetrievalChain.from_llm(
     return_source_documents=True,
     combine_docs_chain_kwargs={"prompt": custom_prompt}
 )
-
-# 📌 🔟 Realizar una consulta
-query = "Is urate-lowering therapy (ULT) recommended for patients with asymptomatic hyperuricemia?"
-
-# ✅ FIX: Usar .invoke() en vez de `rag_chain({})`
-result = rag_chain.invoke({"question": query})
-
-respuesta = result["answer"]
-fuentes = result["source_documents"][:5]
-
-# 📌 🔥 Mostrar la respuesta generada
-print("\n  Respuesta Generada:")
-print(respuesta)
-
-# 📌 📚 Mostrar las fuentes utilizadas
-# Mostrar las fuentes utilizadas
-print("\n  Fuentes utilizadas:")
-for doc in fuentes:
-    metadata = doc.metadata or {}  # Evitar errores si metadata es None
-
-    # Acceder a los metadatos
-    titulo = metadata.get("name", "Título no disponible")
-    fuente_original = metadata.get("original_source", "Fuente desconocida")
-    año = metadata.get("year", "Año no disponible")
-    patologia = metadata.get("pathology", "Patología no especificada")
-    doi = metadata.get("doi", "DOI no disponible")
-    pubmed = metadata.get("pubmed", "PubMed no disponible")
-    
-    # Acceder al campo 'source' (filename)
-    fuente = metadata.get("source", "Fuente desconocida")  # Aquí obtienes el filename
-    
-    print(f"- {titulo} ({año}) - {fuente_original} [Patología: {patologia}]")
-    print(f"  Fuente: {fuente}")  # Aquí imprimes la fuente (filename)
-    print(f"  DOI: {doi}")
-    print(f"  PubMed: {pubmed}")
-
-print(f"Total de vectores en el vector store: {vectordb._collection.count()}")

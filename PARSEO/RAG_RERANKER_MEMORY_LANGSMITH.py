@@ -1,4 +1,4 @@
-# MODELO RAG . SIMPLE + RERANKER + MEMORY
+# MODELO RAG . SIMPLE + RERANKER + MEMORY + LANGSMITH
 
 import os
 import openai
@@ -14,26 +14,40 @@ from langchain.memory import ConversationBufferMemory
 from langchain.vectorstores.base import VectorStoreRetriever
 from Cargar_vectorstore import get_vectordb
 
-# 📌 1️⃣ Cargar claves de API desde .env
+#TRAZABILIDAD LANGSMITH
+from langchain.callbacks.tracers import LangChainTracer
+from langchain.callbacks import StdOutCallbackHandler
+
+from langchain_core.callbacks import CallbackManager
+import langsmith
+
+# Activar trazabilidad si la variable está definida
+if os.getenv("LANGCHAIN_API_KEY"):  # Usamos os.getenv para comprobar la variable de entorno
+    tracer = LangChainTracer(project_name="TFM-RAG-Reranker")
+    callback_manager = CallbackManager([tracer, StdOutCallbackHandler()])
+else:
+    tracer = None
+    callback_manager = CallbackManager([StdOutCallbackHandler()])
+
+#1. Cargar claves de API desde .env
 dotenv_path = r"C:\Users\Daniel\Desktop\DOCUMENTOS\TFM\PDF STORE\PARSEO\.env"
 load_dotenv(dotenv_path)
 openai_key = os.getenv("OPENAI_API_KEY2")
 cohere_api_key = os.getenv("COHERE_API_KEY")
 
-# 📌 2️⃣ Inicializar clientes de OpenAI y Cohere
+# 2. Inicializar clientes de OpenAI y Cohere
 llm = ChatOpenAI(model_name="gpt-3.5-turbo", openai_api_key=openai_key)
 co = cohere.Client(cohere_api_key)
 
-# 📌 3️⃣ Cargar el vectorstore
+# 3. Cargar el vectorstore
 vectordb = get_vectordb()
 retriever = vectordb.as_retriever(search_kwargs={"k": 10})
 
-print(f"Total de vectores en el vector store: {vectordb._collection.count()}")
 
-# 📌 4️⃣ Definir memoria conversacional (✅ FIX: output_key="answer")
+# 4. Definir memoria conversacional (✅ FIX: output_key="answer")
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True, output_key="answer")
 
-# 📌 5️⃣ Definir re-ranking con Cohere
+# 5. Definir re-ranking con Cohere
 def cohere_rerank(documents, query):
     document_texts = [doc.page_content for doc in documents]
     response = co.rerank(query=query, documents=document_texts)
@@ -41,7 +55,7 @@ def cohere_rerank(documents, query):
     ranked_documents = [documents[i] for i in sorted(range(len(scores)), key=lambda i: scores[i], reverse=True)]
     return ranked_documents
 
-# 📌 6️⃣ Crear un nuevo recuperador con re-ranking
+# 6. Crear un nuevo recuperador con re-ranking
 def custom_retriever(query):
     docs = retriever.get_relevant_documents(query)
     ranked_docs = cohere_rerank(docs, query)
@@ -51,10 +65,10 @@ class CustomRetriever(VectorStoreRetriever):
     def _get_relevant_documents(self, query):  # 🔹 FIX: Ahora usa "_get_relevant_documents"
         return custom_retriever(query)
 
-# 📌 7️⃣ Crear instancia del recuperador con re-ranking
+# 7. Crear instancia del recuperador con re-ranking
 reranked_retriever = CustomRetriever(vectorstore=vectordb)
 
-# 📌 8️⃣ Definir un prompt personalizado
+# 8. Definir un prompt personalizado
 custom_prompt = PromptTemplate(
     input_variables=["chat_history", "context", "question"],
     template=(
@@ -65,48 +79,12 @@ custom_prompt = PromptTemplate(
     )
 )
 
-# 📌 9️⃣ Crear la cadena RAG con memoria, re-ranking y prompt personalizado
+# 9. Crear la cadena RAG con memoria, re-ranking y prompt personalizado
 rag_chain = ConversationalRetrievalChain.from_llm(
     llm=llm,
     retriever=reranked_retriever,
     memory=memory,
     return_source_documents=True,
-    combine_docs_chain_kwargs={"prompt": custom_prompt}
+    combine_docs_chain_kwargs={"prompt": custom_prompt},
+    callbacks=callback_manager
 )
-
-# 📌 🔟 Realizar una consulta
-query = "Is urate-lowering therapy (ULT) recommended for patients with asymptomatic hyperuricemia?"
-
-# ✅ FIX: Usar .invoke() en vez de `rag_chain({})`
-result = rag_chain.invoke({"question": query})
-
-respuesta = result["answer"]
-fuentes = result["source_documents"][:5]
-
-# 📌 🔥 Mostrar la respuesta generada
-print("\n  Respuesta Generada:")
-print(respuesta)
-
-# 📌 📚 Mostrar las fuentes utilizadas
-# Mostrar las fuentes utilizadas
-print("\n  Fuentes utilizadas:")
-for doc in fuentes:
-    metadata = doc.metadata or {}  # Evitar errores si metadata es None
-
-    # Acceder a los metadatos
-    titulo = metadata.get("name", "Título no disponible")
-    fuente_original = metadata.get("original_source", "Fuente desconocida")
-    año = metadata.get("year", "Año no disponible")
-    patologia = metadata.get("pathology", "Patología no especificada")
-    doi = metadata.get("doi", "DOI no disponible")
-    pubmed = metadata.get("pubmed", "PubMed no disponible")
-    
-    # Acceder al campo 'source' (filename)
-    fuente = metadata.get("source", "Fuente desconocida")  # Aquí obtienes el filename
-    
-    print(f"- {titulo} ({año}) - {fuente_original} [Patología: {patologia}]")
-    print(f"  Fuente: {fuente}")  # Aquí imprimes la fuente (filename)
-    print(f"  DOI: {doi}")
-    print(f"  PubMed: {pubmed}")
-
-print(f"Total de vectores en el vector store: {vectordb._collection.count()}")
