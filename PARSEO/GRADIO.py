@@ -1,54 +1,52 @@
-#GRADIO. CHATBOT
-
 import gradio as gr
-from RAG_RERANKER_MEMORY import rag_chain  # Asegúrate de que el path y nombre del archivo es correcto
+from RAG_RERANKER_MEMORY_LANGSMITH_1000 import rag_chain1000  # Make sure the path is correct
 
-# Historial de conversación (reseteado al cerrar sesión)
+# Optional: Conversation history storage (not persistent)
 chat_history = []
 
-# Función para responder preguntas
-def responder_pregunta(pregunta):
-    if not pregunta.strip():
-        return "Por favor, introduce una pregunta."
+# Función para generar las respuestas a partir de los tres modelos
+def answer_question(question):
+    if not question.strip():
+        return "Please enter a question.", ""
 
-    # Invocar la cadena RAG
-    result = rag_chain.invoke({"question": pregunta})
-    respuesta = result["answer"]
-    fuentes = result["source_documents"][:5]
+    # Se invoca el modelo RAG con re-ranking y memoria
+    result = rag_chain1000.invoke({"question": question})
+    answer = result["answer"]
+    sources = result["source_documents"][:5]
 
-    # Formatear las fuentes
-    fuentes_info = ""
-    for doc in fuentes:
+    # Se determina el formato que mostrarán los metadatos de los documentos recuperados
+    sources_info = ""
+    for doc in sources:
         metadata = doc.metadata or {}
-        titulo = metadata.get("name", "Título no disponible")
-        fuente_original = metadata.get("original_source", "Fuente desconocida")
-        año = metadata.get("year", "Año no disponible")
-        patologia = metadata.get("pathology", "Patología no especificada")
-        doi = metadata.get("doi", "DOI no disponible")
-        pubmed = metadata.get("pubmed", "PubMed no disponible")
-        fuente = metadata.get("source", "Fuente desconocida")
+        title = metadata.get("name", "Title not available")
+        original_source = metadata.get("original_source", "Unknown source")
+        year = metadata.get("year", "Year not available")
+        pathology = metadata.get("pathology", "Unspecified pathology")
+        doi = metadata.get("doi", "DOI not available")
+        pubmed = metadata.get("pubmed", "PubMed not available")
+        source = metadata.get("source", "Unknown file")
 
-        fuentes_info += (
-            f"- {titulo} ({año}) - {fuente_original} [Patología: {patologia}]\n"
-            f"  Fuente: {fuente}\n"
+        sources_info += (
+            f"- {title} ({year}) - {original_source} [Pathology: {pathology}]\n"
+            f"  File: {source}\n"
             f"  DOI: {doi}\n"
             f"  PubMed: {pubmed}\n\n"
         )
 
-    return respuesta, fuentes_info
+    return answer, sources_info
 
-# Crear la interfaz
+# Creación de la interfaz de Gradio
 demo = gr.Interface(
-    fn=responder_pregunta,
-    inputs=gr.Textbox(label="Pregunta sobre guías clínicas", placeholder="Ej: What is the treatment for severe asthma?", lines=2),
+    fn=answer_question,
+    inputs=gr.Textbox(label="Ask a question about clinical guidelines", placeholder="E.g.: What is the treatment for severe asthma?", lines=2),
     outputs=[
-        gr.Textbox(label="Respuesta del modelo"),
-        gr.Textbox(label="Fuentes utilizadas")
+        gr.Textbox(label="Model's Answer"),
+        gr.Textbox(label="Sources Used")
     ],
-    title="Asistente RAG con Re-Ranking y Memoria",
-    description="Pregunta sobre las guías clínicas procesadas. El modelo buscará información relevante, reordenará las fuentes más útiles y generará una respuesta.",
+    title="RAG Assistant with Re-Ranking and Memory",
+    description="Ask anything about the processed clinical guidelines. The model will retrieve the most relevant documents, re-rank them using Cohere, and generate an informed answer. The conversation context is preserved during the session.",
 )
 
-# Ejecutar la app
+# Ejecución de la apliación de GRADIO
 if __name__ == "__main__":
     demo.launch()

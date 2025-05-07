@@ -10,13 +10,23 @@ from dotenv import load_dotenv
 dotenv_path = r"C:\Users\Daniel\Desktop\DOCUMENTOS\TFM\PDF STORE\PARSEO\.env"
 load_dotenv(dotenv_path)
 
-# Configuración
+# Configuración del entorno
 openai_key = os.getenv("OPENAI_API_KEY2")
-persist_directory = 'docs/chroma/'
+persist_directory500 = 'docs/chroma500/'
+persist_directory1000 = 'docs/chroma1000/'
 
 # Crear el objeto de embeddings
-embeddings = OpenAIEmbeddings(openai_api_key=openai_key)
+embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=openai_key)
 
-# Función para recuperar el vectorstore sin modificarlo
-def get_vectordb():
-    return Chroma(persist_directory=persist_directory, embedding_function=embeddings)
+# Función para recuperar ambos vectorstores
+def get_vectordb500():
+    vectordb = Chroma(persist_directory=persist_directory500, embedding_function=embeddings)
+    # Verificar cuántos vectores tiene
+    print(f"Total de vectores en el vector store: {vectordb._collection.count()}")
+    return vectordb
+
+def get_vectordb1000():
+    vectordb = Chroma(persist_directory=persist_directory1000, embedding_function=embeddings)
+    # Verificar cuántos vectores tiene
+    print(f"Total de vectores en el vector store: {vectordb._collection.count()}")
+    return vectordb
