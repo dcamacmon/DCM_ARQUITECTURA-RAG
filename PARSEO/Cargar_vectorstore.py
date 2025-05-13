@@ -7,7 +7,7 @@ from langchain.vectorstores import Chroma
 from dotenv import load_dotenv
 
 # Cargar variables de entorno
-dotenv_path = r"C:\Users\Daniel\Desktop\DOCUMENTOS\TFM\PDF STORE\PARSEO\.env"
+dotenv_path = ""
 load_dotenv(dotenv_path)
 
 # Configuración del entorno

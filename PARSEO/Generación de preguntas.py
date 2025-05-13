@@ -8,7 +8,7 @@ from Cargar_vectorstore import get_vectordb500
 import unicodedata
 
 # Load environment variables
-dotenv_path = r"C:\Users\Daniel\Desktop\DOCUMENTOS\TFM\PDF STORE\PARSEO\.env"
+dotenv_path = ""
 load_dotenv(dotenv_path)
 
 # Configuration

@@ -29,8 +29,7 @@ else:
     callback_manager = CallbackManager([StdOutCallbackHandler()])
 
 #1. Cargar claves de API desde .env
-current_dir = os.path.dirname(os.path.abspath(__file__))
-dotenv_path = os.path.join(current_dir, '.env')
+dotenv_path = ""
 load_dotenv(dotenv_path)
 openai_key = os.getenv("OPENAI_API_KEY2")
 cohere_api_key = os.getenv("COHERE_API_KEY")

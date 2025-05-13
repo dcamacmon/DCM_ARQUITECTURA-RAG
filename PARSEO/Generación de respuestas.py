@@ -10,7 +10,7 @@ import cohere
 
 # Ruta a las preguntas generadas anteriormente
 questions_dir = "docs/preguntas_generadas/"
-output_dir = "docs/respuestas_generadas_contexto2/"
+output_dir = "docs/respuestas_generadas_contexto/"
 
 # Función para cargar las preguntas desde los archivos de texto
 def cargar_preguntas(questions_dir):

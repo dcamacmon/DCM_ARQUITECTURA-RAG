@@ -43,6 +43,7 @@ llamacloud_output_dir = os.getenv("LLAMACLOUD_OUTPUT_DIR")
 chunk_dir500 = os.getenv("CHUNK_DIR500")
 chunk_dir1000 = os.getenv("CHUNK_DIR1000")
 
+metadata_dir=os.getenv("METADATA_DIR")
 
 # Configuración de OpenAI
 openai_key = os.getenv("OPENAI_API_KEY2")
@@ -333,7 +334,7 @@ embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=ope
 vectordb = Chroma(persist_directory=persist_directory500, embedding_function=embeddings)
 
 # Cargar metadatos
-metadata_df = pd.read_excel("C:/Users/Daniel/Desktop/DOCUMENTOS/TFM/PDF STORE/PARSEO/Metadata.xlsx")
+metadata_df = pd.read_excel(metadata_dir)
 metadata_dict = metadata_df.set_index("ID").to_dict(orient="index")
 
 # Leer archivos y agregar solo si no existen
@@ -497,7 +498,7 @@ embeddings = OpenAIEmbeddings(model="text-embedding-3-large", openai_api_key=ope
 vectordb = Chroma(persist_directory=persist_directory1000, embedding_function=embeddings)
 
 # Cargar metadatos
-metadata_df = pd.read_excel("C:/Users/Daniel/Desktop/DOCUMENTOS/TFM/PDF STORE/PARSEO/Metadata.xlsx")
+metadata_df = pd.read_excel(metadata_dir)
 metadata_dict = metadata_df.set_index("ID").to_dict(orient="index")
 
 # Leer archivos y agregar solo si no existen

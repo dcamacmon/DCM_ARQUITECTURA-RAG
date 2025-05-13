@@ -5,8 +5,7 @@ from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 # Cargar variables de entorno
-current_dir = os.path.dirname(os.path.abspath(__file__))
-dotenv_path = os.path.join(current_dir, '.env')
+dotenv_path = ""
 load_dotenv(dotenv_path)
 openai_key = os.getenv("OPENAI_API_KEY2")
 
