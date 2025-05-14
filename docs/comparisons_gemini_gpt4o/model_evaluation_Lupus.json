@@ -1,0 +1,692 @@
+[
+    {
+        "question": "1. What is the recommended frequency for screening people with SLE for proteinuria in the absence of known kidney disease?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher completeness and conciseness while maintaining perfect factual accuracy. Both answers are relevant and factually accurate according to the full guideline.  However, Answer A, while accurate in suggesting annual screening, lacks the more precise 6-12 month interval and the important qualifier regarding extra-renal flares which are both present in the full guideline and the retrieved context. This makes Answer B more complete and actionable for a clinician.  Answer B also provides this information concisely, directly lifting the relevant sentence from the retrieved context. The RAG process in Answer B was highly effective: the retrieved context contained the necessary information to fully answer the question, and Answer B faithfully and accurately presented this information.  Answer B's faithfulness to its limited context aligned perfectly with the overall guideline truth because the retrieved snippet happened to contain the precise recommendation.  The retrieved context was clearly sufficient for this specific question, as demonstrated by the identical Completeness_Given_Retrieval and Completeness_Overall scores, and identical Faithfulness and Factual Accuracy scores for Answer B.  Answer A, while not incorrect, lacks the nuance and completeness of Answer B, which highlights the advantage of RAG in this instance."
+    },
+    {
+        "question": "1. What is the recommended frequency for screening people with SLE for proteinuria in the absence of known kidney disease?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and completeness derived directly from the provided guideline. Answer A provides a general recommendation of annual screening, which while not incorrect, lacks the specificity and strength of the guideline's recommendation of every 6-12 months or during extra-renal flares.  This specific timeframe and flare-related guidance is crucial for appropriate patient management.\nThe impact of RAG is highly positive in this case. Answer B demonstrates perfect faithfulness to the retrieved context, and this faithfulness aligns perfectly with the overall guideline truth. The retrieved context proved sufficient to answer the question comprehensively and accurately.  This illustrates the advantage of RAG in providing specific, guideline-adherent information, enhancing both the accuracy and reliability of the answer.  The difference in factual accuracy has a direct impact on patient safety, as less frequent screening could delay the detection and management of lupus nephritis."
+    },
+    {
+        "question": "1. What is the recommended frequency for screening people with SLE for proteinuria in the absence of known kidney disease?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and completely address the question based on the provided context, extracting the key information about the recommended screening frequency.  They both demonstrate excellent faithfulness to the retrieved context, which itself fully aligns with the (absent) fuller guideline. Since both offer the same information derived from the retrieved content and present it concisely, neither is superior. The increased context window for Answer B didn't provide any advantages in this specific instance as the relevant information was already contained within the smaller snippet provided to Answer A. Both answers are safe, providing correct information, and the retrieval was sufficiently comprehensive."
+    },
+    {
+        "question": "2. When is a kidney biopsy strongly recommended in people with SLE suspected of having lupus nephritis?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B, despite being less complete overall than A, provides a more factually accurate and safer answer directly aligned with the guideline's strongest recommendation. Answer A, while more comprehensive, introduces nuances around proteinuria thresholds and other diagnostic criteria which could lead to unnecessary or delayed biopsies in some scenarios.  The strong recommendation from the guideline focuses solely on the suspicion of lupus nephritis as the primary indication.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B adheres strictly to the guideline, emphasizing biopsy when lupus nephritis is suspected. Answer A adds specificity which, while generally true, isn't the guideline's primary message and might delay needed biopsies. This makes B safer by ensuring prompt action based on suspicion alone.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, perfectly.  The retrieved context captured the guideline's core recommendation, and B faithfully reflected this.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent in this case.  While B wasn't as thorough as A in listing all possible indicators, it prioritized the key recommendation, resulting in higher factual accuracy and safety.  The limited scope of the retrieved context wasn't detrimental because it contained the most critical information."
+    },
+    {
+        "question": "2. When is a kidney biopsy strongly recommended in people with SLE suspected of having lupus nephritis?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B, while less complete than A, is more accurate and concise, and directly reflects the strong recommendation from the guideline without adding potentially misleading details. Answer A is also good, but includes criteria (e.g., persistent proteinuria > 0.5g/day, active urinary sediment, declining kidney function, atypical presentation, no response to treatment) that are mentioned elsewhere in the full guideline as criteria for *conditionally* recommending a biopsy, not as criteria related to when biopsy is *strongly* recommended.  The addition of these details in Answer A makes it appear as though a \"strong\" recommendation for biopsy is tied to these other findings when, in fact, the guideline *strongly* recommends biopsy whenever LN is suspected, regardless of these other factors.  This distinction is crucial for patient safety, as adding qualifications to a strong recommendation could result in delaying a needed biopsy.\nRegarding RAG's impact: Answer B demonstrates high faithfulness to the retrieved context which, in this instance, was a sufficient excerpt to accurately answer the question. The conciseness and focus of B make it superior despite lacking some of the additional details present in A.\nDifferences in Factual Accuracy and Safety: Answer B is factually more accurate and safer, avoiding the conflation of criteria for strong vs. conditional biopsy recommendations present in Answer A.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, perfectly. The retrieved context contained the exact strong recommendation pertinent to the question.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: Yes, the retrieved context proved sufficient.  Answer B was perfectly faithful to it and reflected the overall guideline truth regarding the strong recommendation for biopsy. Although Answer B did not provide information on the conditional recommendations included in the full guideline and present in Answer A, this omission does not negatively impact the overall quality and safety of Answer B for answering the specific question posed."
+    },
+    {
+        "question": "2. When is a kidney biopsy strongly recommended in people with SLE suspected of having lupus nephritis?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and concisely reflect the strong recommendation for kidney biopsy in SLE patients with suspected lupus nephritis, based on the provided guideline context.  There are no differences in accuracy or safety.  Both remained faithful to the retrieved context, which aligned perfectly with the full guideline. The retrieved context was entirely sufficient, as evidenced by both answers achieving full completeness scores using only the provided excerpt.  The slight rephrasing in Answer B (adding the abbreviation \"LN\") does not provide any substantial improvement, hence they are considered comparable."
+    },
+    {
+        "question": "3. What is the preferred therapy regimen for lupus nephritis according to the ACR guideline?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: While neither A nor B provide the actual treatment regimen, B is superior due to its faithfulness to the provided context.  Answer A deflects to the need for updated guidelines, which, while true in general, is not helpful and doesn't acknowledge whether the information *is* present in the provided context.  Answer B correctly states that the retrieved context doesn't contain the answer. This is more helpful and safer, as it doesn't offer potentially outdated or inaccurate information.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Both are factually inaccurate because they don't answer the question with information from the full guideline, but B is safer because it doesn't hallucinate and admits its inability to answer from the given context.  A *implies* it *could* be inaccurate due to guideline changes, but this is misleading as it's implying it *knows* the guidelines but can't say them. It doesn't know them at all.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: B is perfectly faithful to the retrieved context, which lacks the relevant therapy information.  This faithfulness, in this case, does mean it can't provide a full answer based on the broader guideline truth.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context is clearly insufficient. Answer B's perfect Completeness_Given_Retrieval score contrasts sharply with its low Completeness_Overall score, demonstrating the context's limitations.  Its high Faithfulness score juxtaposed with its low Factual Accuracy score further highlights that while B correctly represented the retrieved text, the text itself wasn't adequate to answer the clinical question.  This makes B the more reliable response, as it acknowledges its limitations."
+    },
+    {
+        "question": "3. What is the preferred therapy regimen for lupus nephritis according to the ACR guideline?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides a canned disclaimer response, offering no clinical information. Answer B, however, successfully extracts the preferred therapy regimen for lupus nephritis from the provided context, including specifics regarding the use of triple therapy with MPAA preference over CYC, lower glucocorticoid dosing, and treatment duration targets.  Answer B is more complete and accurate than A. Although B missed a few nuances (hence Completeness_Overall of 8 and not 10, it didn't materially alter the recommendations provided). The retrieved context proved sufficient to pull out the key statements in the guideline, and Answer B remained faithful to the provided text, accurately reflecting guideline content within the scope of the retrieval. This demonstrates the benefit of RAG in extracting and synthesizing relevant clinical information from complex guidelines.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A provided no facts at all, let alone accurate ones, and it potentially poses a safety issue by failing to provide clinically important information. Answer B is factually accurate and potentially safer by providing information from guidelines that could be used by clinicians in practice.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, the retrieved context contained the major recommendations related to treatment of lupus nephritis.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient and good for answering the user's question.  While B did not achieve a perfect 10 in overall completeness, the additional details missing were largely ancillary to the key principles provided, and the central recommendations presented were accurate.  The alignment between faithfulness and factual accuracy reinforces the quality and sufficiency of the retrieved context."
+    },
+    {
+        "question": "3. What is the preferred therapy regimen for lupus nephritis according to the ACR guideline?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": "ERROR",
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better than Answer A.  Answer A correctly states that the specific preferred regimen isn't detailed in the retrieved context, but therefore provides no helpful information.  Answer B, however, pulls out the key high-level recommendations from the retrieved context: triple therapy with a preference for MPAA over CYC, lower dose glucocorticoids, and a 3-5 year therapy duration for complete responders. This high-level summary *is* present in the provided retrieved context. While more details exist in a full guideline (specific triple therapy combinations, etc.), Answer B provides a good overview based on what was available to it.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B is factually accurate based on the retrieved context and likely safe as it doesn't offer specific regimens that a clinician would then administer without consulting the full guideline. Answer A is not unsafe, but simply unhelpful.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Since no full guideline was given, this cannot be definitively assessed, but it's likely Answer B's high-level summary *does* align with the key principles of any current lupus nephritis guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was quite good.  It allowed answer B to generate a faithful, factually accurate (presumed), and high-level overview of the key lupus nephritis management principles.  Although missing specific details, this context did allow for a reasonably complete response relative to what *could* be provided given the information."
+    },
+    {
+        "question": "4. How should medication dosages be adjusted in individuals with decreased GFR at the initiation of lupus nephritis therapy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while general, provides relevant and accurate information about medication dosage adjustments in patients with decreased GFR initiating lupus nephritis therapy. It emphasizes the importance of renal adjustment for certain medications, close monitoring, and consultation with specialists. Answer B, while faithful to the retrieved context, fails to provide a relevant answer as the retrieved context doesn't contain the information needed.\ni. Differences in Factual Accuracy and Safety: Answer A is factually accurate and safe, offering general guidance aligned with clinical practice. Answer B, while not inaccurate, lacks relevant information and thus doesn't offer actionable guidance.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is perfectly faithful to the retrieved context, which unfortunately lacks information directly answering the question.  Thus, faithfulness in this case leads to an unhelpful answer.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context is insufficient. Answer B's high Completeness_Given_Retrieval score contrasts sharply with its low Completeness_Overall score, highlighting that the retrieved information simply doesn't address the question.  While Answer B is perfectly faithful, its factual accuracy suffers as a result of the poor retrieval. This case demonstrates the limitations of RAG when the retrieved context is not pertinent to the question."
+    },
+    {
+        "question": "4. How should medication dosages be adjusted in individuals with decreased GFR at the initiation of lupus nephritis therapy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while less factually accurate in the strictest sense (because it generalizes and extrapolates beyond explicit guidance in the guidelines), provides more relevant and helpful clinical information.  Answer B correctly identifies that the specific question isn't directly answered in the provided retrieved context and avoids hallucinating.  However, this strict adherence to the retrieved context leaves the clinical question unanswered and provides no usable advice.\ni. Differences in Factual Accuracy and Safety: Answer A is less factually accurate from a 'strictly guideline-based' perspective. It contains generally true statements about dose adjustments in renal impairment, but these are not specific lupus nephritis instructions.  It therefore has a slightly higher risk of leading to incorrect dosages if followed blindly.  Answer B is more factually accurate because it accurately reflects the limitations of the provided context. However, it offers zero useful advice.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is completely faithful to the retrieved context, which does not contain information about GFR-based dosage adjustments at the initiation of lupus nephritis treatment.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was clearly insufficient for answering the question. B's perfect faithfulness and completeness *given the retrieval* contrasted sharply with its very low overall completeness, highlighting this deficiency. This indicates the retrieval itself failed to find the right part of the guideline (if it exists). In a real clinical setting, this would trigger a need to search or consult the full guideline directly, or other resources. While B is “safe” it is ultimately unhelpful.  A's willingness to generalize, while potentially risky from a pure accuracy perspective, is better aligned with real-world clinical needs when context is missing."
+    },
+    {
+        "question": "4. How should medication dosages be adjusted in individuals with decreased GFR at the initiation of lupus nephritis therapy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers correctly state that the retrieved context does not contain information about dosage adjustments for decreased GFR in lupus nephritis.  Therefore, they are equally accurate and safe.  Since both are faithful to the limited context and acknowledge its insufficiency, neither introduces inaccuracies. The retrieved context itself was insufficient to answer the question."
+    },
+    {
+        "question": "5. When should adjunctive treatment with systemic anticoagulation be considered for individuals with lupus nephritis?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 5,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while less factually accurate concerning specific guideline recommendations, is more relevant to the question and provides more helpful information overall. Answer B is perfectly faithful to the retrieved context, which unfortunately lacks information directly answering the question.  This highlights a core challenge with RAG – if the retrieval is poor, the answer, despite being faithful, is ultimately unhelpful.\nDifferences in Factual Accuracy and Safety: Answer A provides somewhat generic information about anticoagulation in the context of lupus and antiphospholipid syndrome. While it doesn't contradict the full guideline, it lacks the specific guidance that would ideally be present.  Answer B, because it avoids hallucinating, is technically more accurate in that it doesn't make unsupported claims. However, its lack of content renders it practically less useful and potentially less safe if a user were to rely on its silence as an indication that anticoagulation isn't relevant in lupus nephritis.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B was perfectly faithful. It correctly identified the absence of an answer within the provided context. The issue lies with the context itself, not Answer B's handling of it.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was insufficient. This is evident in the significant difference between Answer B's completeness based on only the retrieved context (10) and its completeness compared to the full guideline (1).  While Answer B was perfectly faithful (10) and therefore technically accurate according to the retrieved context, the lack of necessary information rendered it unhelpful."
+    },
+    {
+        "question": "5. When should adjunctive treatment with systemic anticoagulation be considered for individuals with lupus nephritis?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while not perfectly complete, addresses the question of when to consider anticoagulation in lupus nephritis by mentioning the association with antiphospholipid syndrome and risk of thrombosis.  Answer B, while perfectly faithful to the retrieved context, fails to answer the question because the retrieved context, though long, contains practically nothing related to nephritis or anticoagulation.  It mainly discusses pregnancy considerations and hydroxychloroquine. This highlights a significant failure of the retrieval process. The impact of RAG here was extremely negative; it led to an essentially useless answer.\nSpecifically:\ni. Differences in Factual Accuracy and Safety:  Answer A is factually accurate regarding the association of lupus, antiphospholipid syndrome, and the increased risk of thrombosis. This makes it safer than Answer B, which provides no information relevant to the question.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is perfectly faithful to the retrieved context.  However, since the retrieved context contained no information relevant to the question, this faithfulness did not align with the overall guideline truth or the user's need.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context is completely insufficient. Answer B demonstrates perfect Completeness_Given_Retrieval and Faithfulness, but its Factual Accuracy and Completeness_Overall are extremely poor, highlighting a severe flaw in the context provided.  The retrieval mechanism failed to locate any useful information pertaining to the query.  The RAG model, doing its job, correctly stated that it could not answer the question based on the given context."
+    },
+    {
+        "question": "5. When should adjunctive treatment with systemic anticoagulation be considered for individuals with lupus nephritis?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers correctly state that the retrieved context does not contain information about the use of systemic anticoagulation in lupus nephritis.  Both are faithful to the provided context, accurate relative to the (absent) information, relevant to the question, complete given the limitations, and concise. Thus, they are comparable in quality. The impact of RAG is that both models accurately reflected the lack of information in the retrieved context concerning the question.\ni. Differences in Factual Accuracy and Safety: No differences; both are accurate and safe, acknowledging the lack of relevant information.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Answer B is faithful to the retrieved context, and since the retrieved context lacked the specific information requested, it aligns with the overall \"truth\" that the provided excerpt doesn't address the query.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was insufficient. Answer B's scores for Completeness_Given_Retrieval and Faithfulness are high (10), reflecting it correctly summarized the provided excerpt. However, its Completeness_Overall score would also be 10 (as explained above, recognizing missing information is the \"correct\" complete answer given this context), while its Factual Accuracy is also 10, again for correctly stating nothing on the topic was available.  The gap between these scores doesn't exist, but the high Completeness_Given_Retrieval paired with the inability to answer the question highlights the inadequacy of the retrieval."
+    },
+    {
+        "question": "6. What is the recommended duration of therapy for individuals who have achieved sustained complete renal response after treatment with immunosuppressive therapy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no helpful information. Answer B correctly extracts the recommended duration of therapy (3-5 years) for individuals who have achieved sustained complete renal response after immunosuppressive therapy from the retrieved context.  This information aligns with the full guideline. The retrieved context contained the answer to the question and Answer B faithfully and accurately presented it.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A is inaccurate and unsafe, failing to offer any guidance.  Answer B is factually accurate and provides safe and appropriate advice based on the guidelines.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is entirely faithful to the retrieved context and this faithfulness aligns perfectly with the full guideline's recommendations.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. It contained all the necessary information to fully answer the question, which is reflected in Answer B's perfect scores for Completeness_Given_Retrieval, Completeness_Overall, Faithfulness, and Factual Accuracy. The alignment of these scores demonstrates that the retrieved snippet was both comprehensive and truthful in relation to the full guideline.  RAG was highly effective in this case."
+    },
+    {
+        "question": "6. What is the recommended duration of therapy for individuals who have achieved sustained complete renal response after treatment with immunosuppressive therapy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information, while Answer B correctly extracts the recommended duration of therapy (3-5 years) from the retrieved context, which aligns with the full guideline.  The retrieved context contained the exact answer to the question, making it highly relevant and complete.  Answer B demonstrates the positive impact of RAG by providing a factually accurate, complete, and concise answer based solely on the relevant retrieved information.  There were no factual discrepancies or safety concerns since Answer B adhered strictly to the provided text.  The retrieved context was sufficient in this case because it contained the complete answer sought by the question, leading to perfect alignment between Answer B's Faithfulness, Factual Accuracy, and Completeness scores."
+    },
+    {
+        "question": "6. What is the recommended duration of therapy for individuals who have achieved sustained complete renal response after treatment with immunosuppressive therapy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification:Both answers are factually accurate and complete based on the retrieved and full guideline context. However, Answer A is slightly more concise, making it preferable.  Both accurately reflect the conditional recommendation of 3-5 years of therapy after sustained complete renal response in lupus nephritis.  The retrieved context contained the necessary information to fully answer the question; therefore, Answer B's faithfulness to its limited context aligned perfectly with the overall guideline truth. The retrieved context was sufficient, as evidenced by the high Completeness_Given_Retrieval and Completeness_Overall scores, and the alignment between Faithfulness and Factual Accuracy scores for both answers.  The inclusion of \"2024 American College of Rheumatology Guideline\" in Answer B, while accurate, adds unnecessary verbiage in this instance since the question is about the recommended duration, not the source of the recommendation.  The impact of RAG here was positive, as the retrieval provided the precise information needed."
+    },
+    {
+        "question": "7. In individuals with active or new onset lupus nephritis Class V, what is the recommended treatment for proteinuria levels above 1 g/g?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and completeness derived directly from the retrieved context. While Answer A provides a general overview of treatment approaches, it lacks the specific dosage and combination therapy recommendations crucial for managing this condition as outlined in the full guideline.  Answer B faithfully and accurately represents the specific guidance for proteinuria ≥1 g/g found in the retrieved context. Although Answer B is slightly less concise, its precision and adherence to the guideline make it significantly safer and more reliable.\nDifferences in Factual Accuracy and Safety: Answer A provides general information about immunosuppressants and adjunctive therapies for proteinuria, but misses the specific triple therapy approach crucial for this level of proteinuria in Class V lupus nephritis. This makes Answer B safer as it adheres to guideline-directed treatment.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness perfectly aligns with the overall guideline truth. The retrieved context accurately captured the relevant section of the guideline.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved perfect faithfulness and nearly perfect overall completeness based on it. The small difference in completeness stems from the guideline's nuance, which wasn't directly addressed in this specific retrieved section, but present elsewhere.  The high scores for both Completeness_Given_Retrieval and Faithfulness, coupled with high Factual Accuracy, confirm the retrieved context's sufficiency in addressing the question."
+    },
+    {
+        "question": "7. In individuals with active or new onset lupus nephritis Class V, what is the recommended treatment for proteinuria levels above 1 g/g?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and completeness derived directly from the retrieved context.  While Answer A provides a reasonable overview of treatment options, it lacks the specificity and accuracy of Answer B.  Crucially, Answer B correctly identifies the \"triple therapy\" approach for proteinuria >1g/g as recommended by the guidelines and details the components of this regimen.  Answer A correctly mentions corticosteroids and immunosuppressants but omits the crucial detail of the specific triple therapy combination including MPAA and CNI,  and its specific dosing guidance.\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate and thus safer, as it adheres to the guideline's recommended treatment approach. Answer A's more general approach could potentially lead to suboptimal or even inappropriate treatment if a clinician relied solely on its recommendations.  It might have been safer had it explicitly stated it was giving an overview and referring the user to the full guideline for specific treatment approaches.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is perfectly faithful to the retrieved context and also perfectly aligned with the full guideline's truth regarding the specific question about Class V lupus nephritis with proteinuria > 1g/g.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B demonstrated perfect faithfulness to the retrieved context and achieved near-perfect completeness based on the full guideline context using only this snippet. The slight difference in Completeness_Given_Retrieval (10) vs. Completeness_Overall (9) might be attributable to the absence of the term \"conditionally recommend\" which is present in the guideline but not explicitly stated in the same sentence as the treatment details in the retrieved context. This minor omission does not impact the overall quality or safety of the answer."
+    },
+    {
+        "question": "7. In individuals with active or new onset lupus nephritis Class V, what is the recommended treatment for proteinuria levels above 1 g/g?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 9,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers capture the core recommendation of triple therapy with glucocorticoids, MPAA, and CNI for Class V lupus nephritis with proteinuria ≥1g/g. However, Answer B adds a detail about glucocorticoid tapering to ≤5mg/day by 6 months, which, while generally true for lupus nephritis treatment, isn't explicitly tied to this specific proteinuria level within the provided retrieved context.  Answer A sticks strictly to the facts presented in the retrieved context concerning the initial dosing and thus achieves perfect faithfulness. This makes Answer A slightly more reliable in this specific instance as it avoids potential over-interpretation or generalization from other parts of the guideline that might not be directly applicable to this scenario. While Answer B is mostly accurate and safe, Answer A's stricter adherence to the provided context gives it a slight edge in safety and reliability. Answer B's formatting with numbered points makes it slightly less concise.\nDifferences in Factual Accuracy and Safety: The primary difference lies in the additional detail about the glucocorticoid taper in Answer B. While factually correct in the broader context of lupus nephritis, it isn't explicitly mentioned for this specific proteinuria level in the provided context. This introduces a slight risk of misinterpretation.  Therefore, Answer A is negligibly safer in this particular instance due to it's complete adherence to the retrieval.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is mostly faithful to the retrieved context but deviates slightly by including the glucocorticoid tapering detail, which is not directly linked to this specific scenario within the given text.  While generally true per the larger guideline, this inclusion makes it less faithful to the specific provided context.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context seems mostly sufficient.  The slight difference between Answer B's Completeness_Given_Retrieval (9) and Completeness_Overall (9) and the minor discrepancy between Faithfulness (9) and Factual Accuracy (9) stems solely from the added detail regarding the steroid taper. This suggests the retrieved context contained almost all the necessary information to answer the question fully and accurately but demonstrates the risk of introducing tangential information even if generally true within the overall guidelines."
+    },
+    {
+        "question": "8. How should non-responsive or refractory lupus nephritis be managed according to the ACR guideline?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 3,
+            "accuracy": 5,
+            "completeness_given": null,
+            "completeness_overall": 2,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better than A.  While A acknowledges its own limitations and gives general advice, B gives concrete and specific recommendations based on the provided guidelines.\ni. Differences in Factual Accuracy and Safety: Answer A is vague and does not cite specific treatments, although it mentions the appropriate class of medication. This vagueness limits its usefulness and makes it less safe as it doesn't give actionable advice.  Answer B provides specific treatment escalations derived directly from the guidelines, thus improving factual accuracy and safety by offering concrete recommendations.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Answer B exhibits perfect faithfulness to the provided context. The retrieved context contained the most relevant information pertaining to refractory lupus nephritis management from the larger guideline document. Thus, Answer B's faithfulness to this context also aligns with the overall guideline truth.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context proved to be quite sufficient. Answer B demonstrated complete usage of the provided information and high factual accuracy. While a perfect completeness score relative to the *entire* guideline wasn't achieved, this appears to be due to the focus of the query on refractory cases, for which the retrieved context covered the key aspects. The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) suggests the full guideline *might* have some additional nuance, but the core recommendations are present in the retrieval, making it highly valuable.  Answer B's strong faithfulness and accuracy further underscore the quality and relevance of the retrieved context."
+    },
+    {
+        "question": "8. How should non-responsive or refractory lupus nephritis be managed according to the ACR guideline?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 2,
+            "accuracy": 5,
+            "completeness_given": null,
+            "completeness_overall": 2,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better than Answer A.  Answer A acknowledges its lack of knowledge and provides only very general information, much of which isn't helpful (e.g., \"ensuring optimal supportive care\").  It also encourages the user to look up the guidelines themselves, which defeats the purpose of asking the question.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is perfectly faithful to the retrieved context, and that context contained the relevant parts of the guideline, aligning perfectly with the overall truth.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  The fact that Answer B achieved perfect Completeness using ONLY the Retrieved Context and that its overall Completeness and Factual Accuracy were also excellent, combined with perfect Faithfulness, demonstrates that the retrieved context contained all necessary information to answer the question accurately and completely. This illustrates a successful and valuable application of RAG."
+    },
+    {
+        "question": "8. How should non-responsive or refractory lupus nephritis be managed according to the ACR guideline?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 8,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 8,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification:Both answers are factually accurate and relevant to the question. However, Answer B is slightly better overall due to its increased completeness.  It explicitly distinguishes between the management of inadequate response (escalation from dual to triple therapy or addition of anti-CD20 to triple therapy) and refractory disease (more intensive regimens).  Answer A merges these two scenarios, potentially leading to some confusion. While both answers generally reflect the full guideline, Answer B’s structure mirrors the guideline’s staged approach more closely, improving clarity. Both answers were faithful to their retrieved context.  However, Answer B's completeness given retrieval is perfect, showing that the retrieval was extremely relevant and sufficient for a full response.  The marginal improvement in completeness for answer A by going outside the retrieved context was not enough to improve it over Answer B.  This highlights the effective use of RAG in Answer B."
+    },
+    {
+        "question": "9. What is the suggested escalation of treatment for individuals with inadequate renal response to initial DUAL therapy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no helpful information.  Answer B correctly extracts the relevant recommendation for escalating treatment from dual to triple therapy for inadequate renal response in lupus nephritis, as per the full guideline and the retrieved context.  The retrieved context contained the precise information needed to answer the question accurately and completely. The RAG process in Answer B resulted in perfect faithfulness, high accuracy, and complete extraction of the necessary information from the given context, making it far superior to the uninformative Answer A.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A is neither factually accurate nor safe, as it provides no information. Answer B is factually accurate and safe, aligning with guideline recommendations.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is perfectly faithful to the retrieved context and, crucially, this faithfulness aligns perfectly with the full guideline's recommendation.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved complete accuracy and completeness based on both the retrieved context and the full guideline, demonstrating the high quality and sufficiency of the provided retrieved information.  The identical scores for Completeness using ONLY Retrieved Context and Completeness vs Full Guideline Context, alongside perfect Faithfulness and Factual Accuracy, highlight the excellent retrieval."
+    },
+    {
+        "question": "9. What is the suggested escalation of treatment for individuals with inadequate renal response to initial DUAL therapy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no helpful information. Answer B correctly extracts the escalation recommendation of moving to triple therapy from dual therapy after an inadequate response in 6-12 months. This aligns with the full guideline context.  The RAG approach effectively pinpointed and extracted the precise information needed, while the baseline LLM failed to provide any answer.  The retrieved context appears sufficient as Answer B could provide a complete and accurate answer using only that snippet. Answer B's faithfulness to the retrieved context directly resulted in a factually accurate and safe response, whereas Answer A provides neither. The retrieved context was clearly a good one, as it contained all the necessary information to fully answer the question, demonstrated by Answer B's perfect scores in both Completeness_Given_Retrieval and Completeness_Overall, while maintaining perfect Faithfulness and Factual Accuracy."
+    },
+    {
+        "question": "9. What is the suggested escalation of treatment for individuals with inadequate renal response to initial DUAL therapy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and concisely reflect the guideline's recommendation to escalate from dual to triple therapy in cases of inadequate renal response within 6-12 months.  There are minor phrasing differences, but the core information and clinical meaning are identical. Since both are faithful to the retrieved context, and that context contained the necessary information from the full guideline, the RAG approach was successful. The retrieved context was sufficient for this question. There are no safety concerns with either answer."
+    },
+    {
+        "question": "10. When should referral for investigational therapy be considered in individuals with refractory lupus nephritis?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and conciseness derived from direct adherence to the retrieved context.  While Answer A provides additional details about standard treatments and specialized centers, this information, though generally accurate, isn't directly requested by the question and makes the response less concise.\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate because it sticks to the guideline's specific recommendation without adding potentially misleading extrapolations like Answer A does (e.g., listing *specific* standard treatments). This adherence increases safety by avoiding any potential misinterpretations of what constitutes \"standard\" therapy.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness perfectly aligns with the guideline truth. The retrieved context contained the exact recommendation for when to consider investigational therapy, and Answer B accurately reflected it.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B achieved perfect completeness *given* the retrieval, and its faithfulness resulted in perfect factual accuracy. The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8)  simply reflects that the full guideline *might* contain additional nuance beyond the specific recommendation addressed by the question and present in the retrieved snippet.  However, for the purpose of directly answering the question posed, the retrieved context was entirely sufficient.  This highlights the effectiveness of the retrieval in capturing the key information needed."
+    },
+    {
+        "question": "10. When should referral for investigational therapy be considered in individuals with refractory lupus nephritis?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and direct grounding in the retrieved context.  While Answer A provides relevant information about considering investigational therapies for refractory lupus nephritis when standard treatments fail, it lacks the specific criteria of \"two failed standard therapy courses\" mentioned in the full guideline and accurately reflected in Answer B.  Although Answer A provides additional context about specialized centers, this isn't the core of the question.\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate because it adheres to the specific guidance from the retrieved context, aligning with the full guideline. Answer A is less precise and could lead to earlier consideration of investigational therapy than recommended, potentially exposing patients to unnecessary risks associated with experimental treatments.  Answer B's adherence to the guideline enhances safety.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness to the retrieved context perfectly aligns with the overall guideline's recommendation regarding when to consider investigational therapy.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved perfect faithfulness and complete usage of the information within that context. The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) suggests the retrieved context contained the core answer, but the full guideline might have additional nuance or related information not strictly necessary to answer the specific question.  This makes the retrieved snippet highly valuable for answering the core question concisely and accurately."
+    },
+    {
+        "question": "10. When should referral for investigational therapy be considered in individuals with refractory lupus nephritis?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and completely address the question based on the provided context.  Both exhibit excellent faithfulness to the retrieved context, which itself contained the necessary information from the full guideline to answer accurately.  Answer B is slightly more direct in its phrasing, but the difference is minor and doesn't significantly impact the overall quality. The RAG process worked well in both cases, providing sufficient and accurate information for both models to generate good responses.\nDifferences in Factual Accuracy and Safety:  No differences in factual accuracy or safety.  Both responses align with the guideline recommendations.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Yes, Answer B's faithfulness to its retrieved context completely aligned with the overall guideline truth.  The retrieved context accurately summarized the relevant section of the full guideline.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: Yes, the retrieved context was entirely sufficient.  The identical scores for Completeness_Given_Retrieval and Completeness_Overall, as well as for Faithfulness and Factual Accuracy, demonstrate that the retrieved context provided all the necessary and correct information."
+    }
+]

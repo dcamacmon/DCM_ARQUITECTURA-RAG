@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "1. How does the quality of evidence (high, moderate, low, very low) impact vaccination recommendations in patients with RMD?",
+        "respuesta": "The quality of evidence significantly impacts vaccination recommendations in patients with rheumatic and musculoskeletal diseases (RMD). High-quality evidence provides strong confidence in the benefits and safety of vaccines, leading to firm recommendations for vaccination in these patients. Moderate-quality evidence may result in conditional or cautious recommendations, emphasizing the need for individualized decision-making. Low or very low-quality evidence often leads to more tentative guidance, highlighting uncertainties regarding vaccine efficacy or safety, and may prompt clinicians to weigh risks and benefits carefully or recommend vaccination only in specific circumstances. Overall, higher-quality evidence supports clearer and more definitive vaccination guidelines for patients with RMD."
+    },
+    {
+        "pregunta": "2. How should immunosuppressive medications other than methotrexate and rituximab be managed around the time of non-live attenuated vaccine administration?",
+        "respuesta": "For immunosuppressive medications other than methotrexate and rituximab, the general recommendation is often to continue these medications without interruption when administering non-live attenuated vaccines. This is because stopping immunosuppressive therapy may risk disease flare, and non-live vaccines are generally safe and can still provide benefit even if the immune response might be somewhat reduced. However, specific management can vary depending on the medication, the patient's condition, and the vaccine type, so individual clinical judgment and current guidelines should be consulted."
+    },
+    {
+        "pregunta": "3. What is the rationale for holding IVIG prior to vaccination?",
+        "respuesta": "The rationale for holding intravenous immunoglobulin (IVIG) prior to vaccination is to avoid interference with the immune response to the vaccine. IVIG contains pooled antibodies that can neutralize live attenuated vaccine viruses or antigens, potentially reducing the vaccine’s effectiveness. Therefore, delaying IVIG administration around the time of vaccination helps ensure optimal vaccine-induced immunity."
+    },
+    {
+        "pregunta": "4. What is the evidence quality regarding holding immunosuppressive medications to improve vaccine response?",
+        "respuesta": "The evidence quality regarding holding immunosuppressive medications to improve vaccine response is generally low to moderate. While some studies suggest that temporarily pausing certain immunosuppressive drugs around the time of vaccination can enhance immune responses, the data are limited, vary by medication type, and often come from small or observational studies. Clinical guidelines may recommend holding specific agents in select cases, but more high-quality randomized controlled trials are needed to provide definitive evidence."
+    },
+    {
+        "pregunta": "5. In children with systemic juvenile idiopathic arthritis, when can shorter hold times for biologic DMARDs be considered?",
+        "respuesta": "In children with systemic juvenile idiopathic arthritis (sJIA), shorter hold times for biologic DMARDs can be considered during periods of sustained clinical remission, particularly when the patient has been stable without active systemic features or arthritis for an extended duration. This approach should be carefully individualized and conducted under close medical supervision to monitor for disease flare."
+    },
+    {
+        "pregunta": "6. What are tsDMARDs and which vaccines are considered safe or not safe to administer in patients treated with these drugs?",
+        "respuesta": "tsDMARDs (targeted synthetic disease-modifying antirheumatic drugs) are a class of orally administered medications that specifically inhibit intracellular signaling pathways involved in inflammation, such as Janus kinase (JAK) inhibitors (e.g., tofacitinib, baricitinib).\n\nRegarding vaccination in patients treated with tsDMARDs:\n\n- **Safe vaccines:** Inactivated vaccines (e.g., influenza, pneumococcal, hepatitis B) are generally considered safe and recommended, although the immune response may be reduced.\n\n- **Not safe vaccines:** Live attenuated vaccines (e.g., measles-mumps-rubella [MMR], varicella, yellow fever) are generally contraindicated during tsDMARD therapy due to the risk of vaccine-related infection.\n\nIn summary, inactivated vaccines can be administered safely, while live vaccines should be avoided or given prior to initiating tsDMARD therapy."
+    },
+    {
+        "pregunta": "7. What are the general recommendations regarding the use of high-dose or adjuvanted influenza vaccines in patients with RMD?",
+        "respuesta": "General recommendations for patients with rheumatic and musculoskeletal diseases (RMD) suggest considering the use of high-dose or adjuvanted influenza vaccines to enhance immunogenicity, especially in those who are older or immunocompromised. These vaccines may provide better protection compared to standard-dose influenza vaccines. However, specific guidance can vary based on individual patient factors and local health authority recommendations. It is important to consult current clinical guidelines and consider patient-specific risks and benefits when choosing the influenza vaccine type for patients with RMD."
+    },
+    {
+        "pregunta": "8. Under what circumstances should seasonal influenza vaccination be administered to RMD patients, even if disease activity is high or patients are on high-dose glucocorticoids or rituximab?",
+        "respuesta": "Seasonal influenza vaccination should be administered to patients with rheumatic and musculoskeletal diseases (RMD) even if disease activity is high or they are on high-dose glucocorticoids or rituximab because these patients are at increased risk of severe influenza and its complications. The benefits of vaccination in preventing influenza generally outweigh the potential risk of transient disease flare or reduced vaccine efficacy. Vaccination is recommended unless there are specific contraindications, as it provides important protection in this vulnerable population."
+    },
+    {
+        "pregunta": "9. Why might non-rheumatology providers be encouraged to administer influenza vaccination even if methotrexate is not held immediately?",
+        "respuesta": "Non-rheumatology providers might be encouraged to administer influenza vaccination without holding methotrexate immediately because timely vaccination is crucial to provide protection against influenza, especially in immunocompromised patients. Delaying vaccination to adjust methotrexate dosing could result in missed or late immunization, reducing overall vaccine coverage and increasing the risk of influenza infection. Therefore, the benefits of prompt vaccination often outweigh the potential modest impact of methotrexate on vaccine response."
+    },
+    {
+        "pregunta": "10. What are the vaccination recommendations for patients with RMD taking prednisone at doses ≤10 mg daily?",
+        "respuesta": "For patients with rheumatic and musculoskeletal diseases (RMD) taking prednisone at doses ≤10 mg daily, vaccination recommendations generally follow those for the general population, as low-dose prednisone is considered to have minimal immunosuppressive effect. Inactivated vaccines are recommended and can be administered safely. However, live vaccines are typically avoided or used with caution depending on the clinical context and immunosuppression level. It is important to ensure patients are up to date with pneumococcal, influenza, and COVID-19 vaccinations, among others, based on standard guidelines. Always consult current rheumatology and immunization guidelines for specific vaccine recommendations."
+    },
+    {
+        "pregunta": "11. How should methotrexate dosing be managed around the time of vaccination?",
+        "respuesta": "Methotrexate dosing around the time of vaccination is often adjusted to improve vaccine efficacy, especially for COVID-19 and influenza vaccines. Current guidelines suggest temporarily holding methotrexate for 1 to 2 weeks after vaccination to enhance immune response, particularly in patients with stable disease. However, the decision should be individualized based on disease activity and patient risk. Always consult a healthcare provider before making changes to methotrexate dosing."
+    },
+    {
+        "pregunta": "12. What vaccines are classified as non-live attenuated vaccines suitable for patients on immunosuppressive therapy?",
+        "respuesta": "Non-live attenuated vaccines suitable for patients on immunosuppressive therapy include inactivated vaccines, subunit vaccines, toxoid vaccines, and mRNA vaccines. Examples are:\n\n- Inactivated influenza vaccine  \n- Pneumococcal vaccines (e.g., PPSV23, PCV13)  \n- Hepatitis B vaccine  \n- Human papillomavirus (HPV) vaccine  \n- Tetanus, diphtheria, and pertussis (Tdap) vaccine  \n- Inactivated polio vaccine (IPV)  \n- COVID-19 mRNA vaccines (e.g., Pfizer-BioNTech, Moderna)\n\nThese vaccines do not contain live organisms and are generally considered safe for immunosuppressed patients."
+    },
+    {
+        "pregunta": "13. What is the conditional recommendation for influenza vaccination in patients taking prednisone ≥20 mg daily?",
+        "respuesta": "The conditional recommendation is that patients taking prednisone ≥20 mg daily should receive the inactivated influenza vaccine. Live attenuated influenza vaccines are generally contraindicated in these immunosuppressed patients due to the risk of vaccine-related infection."
+    },
+    {
+        "pregunta": "14. In what way can intravenous immunoglobulin (IVIG) therapy impact the efficacy of live attenuated vaccines?",
+        "respuesta": "Intravenous immunoglobulin (IVIG) therapy can reduce the efficacy of live attenuated vaccines by providing passive antibodies that neutralize the vaccine virus, preventing replication and subsequent immune response. As a result, vaccination with live attenuated vaccines is generally delayed for several months after IVIG administration to ensure effective immunization."
+    },
+    {
+        "pregunta": "15. What role do bDMARDs (biologic DMARDs) play in modifying vaccine response or safety profiles?",
+        "respuesta": "Biologic DMARDs (bDMARDs) can influence vaccine responses and safety profiles by modulating the immune system. They may reduce the effectiveness of certain vaccines, particularly live-attenuated vaccines, due to immunosuppression, potentially leading to a diminished antibody response. However, inactivated vaccines are generally considered safe and can still provide protective immunity, although the response might be attenuated. Careful timing of vaccination relative to bDMARD therapy and consultation with healthcare providers is recommended to optimize vaccine efficacy and safety."
+    },
+    {
+        "pregunta": "16. Why is a 4-week hold period recommended before vaccination for patients on slow-acting conventional DMARDs?",
+        "respuesta": "A 4-week hold period before vaccination is recommended for patients on slow-acting conventional DMARDs to allow the immune system to recover sufficiently for an effective vaccine response. These drugs can suppress immune function, potentially reducing vaccine efficacy. Pausing DMARDs helps optimize the immune response to the vaccine, improving its effectiveness and ensuring better protection."
+    },
+    {
+        "pregunta": "17. How should vaccination be approached in patients receiving prednisone doses between >10 mg and <20 mg daily?",
+        "respuesta": "In patients receiving prednisone doses between >10 mg and <20 mg daily, vaccination should generally be approached with caution. These doses are considered moderate immunosuppression, which may reduce vaccine efficacy and increase the risk of adverse effects, particularly with live vaccines.\n\n- **Inactivated vaccines** (e.g., influenza, pneumococcal) are generally safe and recommended, though the immune response may be diminished.\n- **Live vaccines** (e.g., MMR, varicella) are typically contraindicated or should be deferred until the prednisone dose is reduced below 10 mg daily or discontinued, due to the risk of vaccine-related infection.\n- Timing vaccination during periods of lower immunosuppression, if feasible, may improve response.\n- Always evaluate on a case-by-case basis considering the patient's risk factors and exposure.\n\nConsult current guidelines and specialists when planning vaccination for immunosuppressed patients."
+    },
+    {
+        "pregunta": "18. How do the hold times differ for medications with more than one FDA-approved dosing interval?",
+        "respuesta": "Hold times for medications with more than one FDA-approved dosing interval typically vary depending on the dosing frequency and the medication’s pharmacokinetics. Generally, longer dosing intervals may require longer hold times to avoid overlapping effects or toxicity, while shorter intervals may have shorter hold times. The specific hold time is determined by factors such as the medication’s half-life, therapeutic window, and clinical guidelines to ensure safety and efficacy during administration or switching between doses."
+    },
+    {
+        "pregunta": "19. What does the guideline suggest about administering multiple vaccines on the same day to RMD patients?",
+        "respuesta": "The guideline suggests that administering multiple vaccines on the same day to patients with rheumatic and musculoskeletal diseases (RMD) is generally acceptable and can be done to ensure timely immunization, provided there are no specific contraindications. This approach helps improve vaccine coverage and protection in this vulnerable population."
+    },
+    {
+        "pregunta": "20. What are the key differences between live attenuated and non-live vaccines regarding their use in immunocompromised patients?",
+        "respuesta": "Live attenuated vaccines contain weakened but replication-competent pathogens that can stimulate strong and long-lasting immune responses. However, because the organisms are live, there is a risk they could cause disease in immunocompromised patients, whose immune systems may not control even the weakened pathogen effectively. Therefore, live attenuated vaccines are generally contraindicated or used with caution in immunocompromised individuals.\n\nNon-live (inactivated or subunit) vaccines contain killed pathogens or components that cannot replicate. They are safer for immunocompromised patients because they cannot cause infection, though they may elicit a weaker or less durable immune response compared to live vaccines. Non-live vaccines are typically preferred for immunocompromised individuals."
+    }
+]

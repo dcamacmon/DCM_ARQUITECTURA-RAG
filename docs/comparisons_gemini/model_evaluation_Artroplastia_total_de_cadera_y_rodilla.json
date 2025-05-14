@@ -1,0 +1,692 @@
+[
+    {
+        "question": "1. What are the key guiding principles for determining the optimal timing of elective hip or knee arthroplasty for patients with symptomatic moderate-to-severe osteoarthritis or advanced symptomatic osteonecrosis with secondary arthritis?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a comprehensive and accurate summary of the key guiding principles for determining the optimal timing of elective hip or knee arthroplasty, including symptom severity, functional impairment, impact on quality of life, failed conservative treatments, joint deformity, disease progression, patient age, overall health, and patient expectations. It emphasizes shared decision-making between the patient and healthcare provider.  Answer B, on the other hand, states it cannot answer the question based on the provided context.\ni. Differences in Factual Accuracy and Safety: Answer A is factually accurate and safe, aligning with general clinical knowledge about the considerations for joint replacement surgery. Answer B provides no information, so it neither introduces inaccuracies nor safety concerns.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is faithful to the provided retrieved context, which does not explicitly list the key guiding principles.  The retrieved context focuses more on the guideline's purpose and scope.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context is insufficient for answering the question.  This is reflected in Answer B's inability to provide a relevant answer. While Answer B is faithful to the retrieved context, this context lacks the information necessary to address the question's core components.  Therefore, the retrieval was not good for answering the question.  Answer A demonstrates that relevant and accurate information *does* exist within the full guideline (which wasn't provided in this example but represents general medical knowledge)."
+    },
+    {
+        "question": "1. What are the key guiding principles for determining the optimal timing of elective hip or knee arthroplasty for patients with symptomatic moderate-to-severe osteoarthritis or advanced symptomatic osteonecrosis with secondary arthritis?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate excellent factual accuracy and relevance to the question. Answer B, however, surpasses Answer A in terms of faithfulness, completeness given the retrieved context, and conciseness. While Answer A provides a good general overview, it lacks the specific criteria mentioned in the guidelines, such as failed non-operative therapy. Answer B, by faithfully adhering to the retrieved context, includes this crucial information, making it a more reliable and informative response for a clinical setting.\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate and safe. However, Answer B's inclusion of the prerequisite of failed non-operative therapy enhances its safety profile by emphasizing a necessary step before considering surgery.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness to the retrieved context perfectly aligns with the overall guideline truth. The retrieved context accurately represents the guideline's key principles for determining the optimal timing of elective hip or knee arthroplasty.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient for answering the question accurately and faithfully. While Answer B might not capture every nuance of the full guideline, it accurately addresses the core guiding principles. The high scores for Completeness_Given_Retrieval and Faithfulness, combined with the high Factual Accuracy, confirm that the retrieved context provided the necessary information to produce a reliable and informative response."
+    },
+    {
+        "question": "1. What are the key guiding principles for determining the optimal timing of elective hip or knee arthroplasty for patients with symptomatic moderate-to-severe osteoarthritis or advanced symptomatic osteonecrosis with secondary arthritis?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": "ERROR",
+            "relevance": 1,
+            "accuracy": "ERROR",
+            "completeness_given": "ERROR",
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better than Answer A. Answer A states it cannot answer the question.  Answer B correctly identifies several key guiding principles related to patient selection (radiographic findings, pain/function, prior non-operative management) and the shared decision-making process. It demonstrates excellent faithfulness to the retrieved context, accurately summarizing the relevant information without hallucinating. The retrieved context contained sufficient information to thoroughly answer the question, as evidenced by Answer B's high completeness scores.  Answer B’s faithfulness to the retrieved context aligned perfectly with the overall guideline truth, indicating a good retrieval. The retrieved context was indeed sufficient, allowing for a complete and accurate answer based on the provided information.  Therefore, the RAG approach in Answer B was highly effective."
+    },
+    {
+        "question": "2. What nonoperative therapies should be tried and found ineffective before considering elective total joint arthroplasty (TJA) for patients with radiographically moderate-to-severe OA or advanced ON with secondary arthritis?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers demonstrate strong factual accuracy and relevance to the question.  However, Answer A provides a slightly more comprehensive list of nonoperative therapies, including activity modification and assistive devices, which are important considerations mentioned elsewhere in clinical guidelines for OA management. While Answer B faithfully represents the retrieved context, it lacks the comprehensiveness of Answer A in reflecting the broader clinical picture regarding nonoperative treatments for OA. Both answers are concise and well-written.\nSpecifically:\ni. Differences in Factual Accuracy and Safety:  Both answers are factually accurate and safe. No inaccuracies or misleading information is present in either answer.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is perfectly faithful to the retrieved context. The retrieved context itself, however, lacks a mention of other viable conservative therapies such as weight loss programs. This doesn't make B *wrong* but given the wider context, it is less complete.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context is good and accurate as far as it goes, but not fully sufficient to cover all relevant non-operative treatments usually considered.  This is reflected in the high Faithfulness and Completeness_Given_Retrieval scores for B, contrasted with the slightly lower Completeness_Overall score. Answer A, by being generative and apparently drawing on a broader knowledge base, is able to achieve higher completeness while maintaining accuracy."
+    },
+    {
+        "question": "2. What nonoperative therapies should be tried and found ineffective before considering elective total joint arthroplasty (TJA) for patients with radiographically moderate-to-severe OA or advanced ON with secondary arthritis?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers demonstrate high factual accuracy according to the full guideline. However, Answer A provides a slightly more comprehensive list of nonoperative therapies, mentioning weight loss, activity modification and assistive devices, which, while implied in Answer B and the retrieved context through references to improving function and symptoms, are explicitly stated in Answer A and the full guideline. This makes Answer A slightly more helpful for a clinician seeking a complete overview of nonoperative options.  Both answers are faithful to the guideline, and Answer B is perfectly faithful to its retrieved context. The retrieved context was good, containing relevant information about prior nonoperative treatments, but it didn't explicitly list *all* the examples found in the broader guideline. This slightly limited Answer B's completeness compared to A.  The slight advantage in completeness makes Answer A marginally better overall.  The RAG process in B did well in being faithful to the retrieved text and providing a factual answer, but the limitations of the retrieved snippet prevented it from achieving the same level of completeness as the generative approach in A."
+    },
+    {
+        "question": "2. What nonoperative therapies should be tried and found ineffective before considering elective total joint arthroplasty (TJA) for patients with radiographically moderate-to-severe OA or advanced ON with secondary arthritis?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 9,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers demonstrate excellent factual accuracy and strong relevance to the question. However, Answer A provides slightly more complete information by including \"weight reduction\" as a nonoperative therapy, which is mentioned in the full guideline context.  While Answer B mentions the necessity for these therapies to fail, Answer A's phrasing about completing at least one trial and not improving is slightly more aligned with the guideline's language and implies failure more succinctly. This makes Answer A slightly superior in completeness and conciseness.\nBoth answers are highly faithful to the retrieved context, and the retrieved context appears sufficient for answering the question comprehensively. There are no differences in factual accuracy or safety concerns between the two answers.  The RAG process was effective in both cases, providing the necessary information to answer the question accurately.  Answer B’s faithfulness to its retrieved context did align with the overall guideline truth. The retrieved context was sufficient based on comparing B's Completeness_Given_Retrieval vs. Completeness_Overall and its Faithfulness vs. Factual Accuracy scores, though Answer A was able to extract slightly more complete information from the provided context."
+    },
+    {
+        "question": "3. How should patient preferences be incorporated into the decision-making process for elective TJA in patients with symptomatic OA or ON?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification:Both answers emphasize shared decision-making, aligning with the guideline.  However, Answer A provides slightly more detail regarding incorporating patient preferences, including factors like pain relief, functional improvement, and potential complications. While Answer B accurately reflects the retrieved context's emphasis on shared decision-making, it lacks the slightly broader scope present in Answer A, which makes Answer A marginally more helpful for a clinician.\nDifferences in Factual Accuracy and Safety: Both answers are factually accurate and safe. No inaccuracies or misleading information were present.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is perfectly faithful to the retrieved context and aligns with the overall guideline's emphasis on shared decision-making.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient for conveying the core message of shared decision-making. While Answer B extracted this information faithfully, Answer A demonstrates that additional relevant information could have been included from the full guideline. This shows the limitations of relying solely on a small retrieved context, even when the retrieval is highly relevant."
+    },
+    {
+        "question": "3. How should patient preferences be incorporated into the decision-making process for elective TJA in patients with symptomatic OA or ON?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers accurately reflect the importance of shared decision-making. However, Answer B is slightly better due to its explicit grounding in the retrieved context, reinforcing reliability.  While both answers cover the core concept of shared decision-making, neither explicitly mentions the crucial aspect of non-operative treatment having lost efficacy prior to considering elective TJA, which is a key part of the guideline's scope and present in the retrieved context.  Answer B explicitly mentions \"timing of elective arthroplasty\" connecting to the guideline's focus, giving it a minor edge.\ni. Differences in Factual Accuracy and Safety: Both are factually accurate and safe, aligned with shared decision-making principles. No safety concerns arise.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B faithfully reflects the portions of the retrieved context emphasizing shared decision-making and patient preferences. It does not hallucinate.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was good for addressing the question of patient preference incorporation. Answer B extracted the relevant information perfectly. However, the retrieved context, like both answers, missed the guideline's emphasis on considering TJA *after* non-operative treatment failure.  While this doesn't make Answer B inaccurate, it highlights a slight incompleteness shared by both answers stemming from a somewhat limited, albeit helpful, retrieved context."
+    },
+    {
+        "question": "3. How should patient preferences be incorporated into the decision-making process for elective TJA in patients with symptomatic OA or ON?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification:Both answers demonstrate excellent faithfulness, relevance, and accuracy regarding patient preferences in the decision-making process for TJA.  However, Answer A is slightly more concise while still conveying all the necessary information. Both answers correctly reflect the shared decision-making process emphasized in the guidelines.  Answer B adds some generally true but unrequested details about the shared decision-making process, making it a little less concise.  The retrieved context clearly mentions the importance of shared decision-making, thus supporting both answers' faithfulness and accuracy. The retrieved context was sufficient to answer the question completely."
+    },
+    {
+        "question": "4. What are the recommendations regarding modifying risk factors such as BMI, glycemic control, and nicotine dependence before proceeding with TJA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers are factually accurate according to the full guideline. However, answer B is slightly better due to its superior conciseness and organization, directly lifting the most relevant recommendations from the retrieved context without adding extra commentary. Answer A, while accurate, provides more general background information that, while true, isn't as directly helpful in answering the specific question about *recommendations*.  Answer B's faithfulness to the retrieved context perfectly aligns with the overall guideline truth, highlighting a successful retrieval. The retrieved context appears sufficient, as evidenced by Answer B achieving high completeness scores using only the provided snippet. This demonstrates the effectiveness of RAG in this case, enabling a concise and accurate response derived directly from the guideline's recommendations."
+    },
+    {
+        "question": "4. What are the recommendations regarding modifying risk factors such as BMI, glycemic control, and nicotine dependence before proceeding with TJA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more complete and nuanced response compared to Answer A. While Answer A accurately discusses the importance of addressing risk factors, it lacks the specific recommendations and conditional statements present in Answer B and the guideline. This makes Answer B safer, as it provides a more comprehensive understanding of the guidelines for different patient scenarios.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate. However, B's greater completeness regarding specific recommendations (e.g., different BMI ranges, conditional recommendations for delaying surgery in some cases) makes it a safer response, providing more complete guidance for a clinician. Answer A's generalizations, while accurate, could lead to a less nuanced understanding of when it *is* acceptable to proceed with TJA despite these risk factors.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Answer B stays perfectly faithful to the retrieved context and accurately reflects the information within the full guideline as well.  The retrieved context happened to contain almost the entirety of the relevant guideline section related to this question.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B demonstrates perfect Completeness_Given_Retrieval, and this score matches its Completeness_Overall score.  Its perfect Faithfulness score also corresponds with its perfect Factual Accuracy score. This indicates that the retrieved context provided all the necessary information to fully answer the question accurately and completely. The strong alignment between the retrieved context and the full guideline demonstrates the effectiveness of the retrieval in this case."
+    },
+    {
+        "question": "4. What are the recommendations regarding modifying risk factors such as BMI, glycemic control, and nicotine dependence before proceeding with TJA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification:Both answers demonstrate excellent faithfulness to the retrieved context and are factually accurate according to the full guideline.  However, Answer B provides a more complete overview of the recommendations regarding modifying risk factors before TJA. While Answer A focuses specifically on BMI, glycemic control, and nicotine dependence, Answer B includes additional relevant recommendations regarding bone loss, ligamentous instability, and neuropathic joints. This broader perspective makes Answer B more helpful for clinicians seeking comprehensive guidance.\nThe retrieved context was sufficient for answering the question, as demonstrated by the high completeness scores of both answers when evaluated against both the retrieved and full guideline contexts. Answer B's faithfulness to the retrieved context aligns perfectly with the overall guideline truth.  Answer B's higher Completeness_Overall score compared to Answer A, despite similar Completeness_Given_Retrieval scores, confirms that the slightly wider scope of the retrieved context for Answer B allowed for a more complete answer. This slight advantage in completeness makes B the preferred response, although both are safe and accurate."
+    },
+    {
+        "question": "5. What is the rationale behind the conditional recommendation to proceed to TJA without delay over delaying arthroplasty for a trial of physical therapy in the defined population?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and strong alignment with the full guideline context.  While Answer A correctly mentions TJA benefits, it lacks the nuance of Answer B, which acknowledges the balancing act between potential benefits and risks, and the consideration of nonoperative therapies' efficacy (or lack thereof).\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B demonstrates superior factual accuracy by incorporating the critical element of assessing nonoperative therapy effectiveness before recommending TJA.  Answer A's omission of this detail could lead to a less safe and potentially premature recommendation for surgery.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Impressively, Answer B maintained complete faithfulness to its retrieved context while also providing an accurate and comprehensive summary of the guideline's rationale.  This suggests the retrieval was excellent and Answer B effectively synthesized the information.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context appears very good. The high scores for Answer B in all dimensions, coupled with its complete faithfulness, suggest the provided snippet contained the essential information needed to answer the question accurately and completely (within the scope of the provided information.) The slight difference between Completeness_Given_Retrieval and Completeness_Overall may simply reflect that additional nuance could be added from the full guideline, but the core rationale was adequately captured in the retrieved text. The RAG approach clearly enhanced the accuracy and relevance of the answer compared to the baseline LLM."
+    },
+    {
+        "question": "5. What is the rationale behind the conditional recommendation to proceed to TJA without delay over delaying arthroplasty for a trial of physical therapy in the defined population?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 9,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while partially hallucinating by overstating the evidence for worse outcomes with delay, still provides a reasonable rationale based on common clinical understanding – namely, delaying definitive treatment for severe OA can prolong pain and disability.  Answer B, while faithful to the limited and fragmented nature of the retrieved context, defaults to \"I don't know,\" which is not helpful. This highlights a critical problem with RAG: if the retrieval is poor, the answer will be useless or even harmful by omission.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A has some inaccuracies regarding the strength of evidence around delaying TJA leading to *worse* outcomes, but the general concept isn't unsafe. Answer B is safer by not stating anything inaccurate, but its lack of information makes it clinically unhelpful.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B *is* extremely faithful to the context, which, unfortunately, lacked the relevant rationale. The retrieved snippet mainly reiterated the recommendation itself without explaining the \"why.\" This misalignment between retrieved and full guideline truth underscores the risk of relying solely on potentially insufficient retrievals.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was clearly insufficient.  Answer B's Completeness scores (both given retrieval and overall) are low because the crucial rationale is missing from the retrieved text. While Answer B is perfectly faithful, it lacks the information needed to answer the question. This case demonstrates the danger of a good retrieval score masking a bad *retrieval quality* for answering the specific question.  The retrieval engine may have chosen a section based on keywords without recognizing the question's need for an explanation, not just a restatement, of the recommendation."
+    },
+    {
+        "question": "5. What is the rationale behind the conditional recommendation to proceed to TJA without delay over delaying arthroplasty for a trial of physical therapy in the defined population?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 6,
+            "accuracy": 7,
+            "completeness_given": 1,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 10,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while not faithful to the limited retrieved context, provides a reasonably accurate and complete answer based on the full guideline. It correctly infers the rationale behind the recommendation, focusing on the balance of benefits and risks for the patient. Answer B, although perfectly faithful to the limited and unhelpful retrieved context, fails to provide any substantive information related to the question.\nDifferences in Factual Accuracy and Safety: Answer A demonstrates good factual accuracy in line with the full guideline, while Answer B provides no information, making it technically accurate but unhelpful.  Answer A is safer as it gives correct albeit generalized information, whereas B offers nothing and could leave the user uninformed.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  The retrieved context focuses on repeating the recommendation itself and does not delve into the rationale behind it.  Therefore, Answer B's faithfulness to this context, while technically accurate, does not align with providing a useful answer based on the overall guideline truth.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was clearly insufficient. This is evident in the discrepancy between Answer B's high faithfulness score and its low completeness scores.  Despite accurately reflecting the provided context, it couldn't generate a complete or relevant answer because the crucial information was missing from the retrieved snippet. This highlights the importance of high-quality retrieval for RAG systems."
+    },
+    {
+        "question": "6. Why is mandated physical therapy not recommended to delay or avoid surgery for patients indicated for TJA in the clinical guideline?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more accurate and nuanced justification rooted directly in the provided context.  While Answer A correctly states that physical therapy may not resolve the underlying issue requiring surgery, it lacks the crucial context present in Answer B: that these patients have *already* undergone extended periods of nonoperative treatment. This prior treatment history, highlighted by Answer B, strengthens the argument against further delaying surgery with more physical therapy.\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate from a medical perspective, but B is more accurate *relative to the guideline*. The information in A is generally true and safe but lacks guideline-specific context making it appear weaker and less certain in tone. B is both accurate and safe because it specifically focuses on the guidelines' reasoning.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, B stays entirely faithful to the retrieved context while also presenting the core truth of the full guideline: that for patients *already indicated for TJA*, delaying surgery with mandated PT is not recommended.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B demonstrates perfect faithfulness and complete utilization of the information within that context.  The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) arises because the full guideline delves into deeper levels of detail regarding the various reasons for this recommendation, which weren't necessary for a concise answer to the question. The retrieved context captured the essence of the rationale, enabling answer B to provide a highly accurate and relevant response."
+    },
+    {
+        "question": "6. Why is mandated physical therapy not recommended to delay or avoid surgery for patients indicated for TJA in the clinical guideline?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 8,
+            "completeness_overall": 8,
+            "conciseness": 6
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more thorough and accurate explanation, directly referencing key factors from the full guideline context, such as prior attempts at non-operative treatment and potential worsening of the condition with delays. Although less concise, it is safer and more informative. Answer A provides a reasonable overview but lacks the depth and specific reasoning present in B.\ni. Differences in Factual Accuracy and Safety:  Answer B is more factually accurate and thus safer because it incorporates specific details about the patient population having already undergone extended non-operative treatment. It also accurately reflects the potential negative consequences of delaying surgery,  which are critical considerations for patient safety. Answer A correctly states that physical therapy may not address the underlying issue, but misses the crucial contextual point of pre-surgical non-operative treatment attempts.  This omission makes it less informative for making a safe and informed decision.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B demonstrates high faithfulness to the retrieved context while also aligning with the overall message and supporting details within the full guideline. It successfully extracts and synthesizes relevant information without hallucinating or misrepresenting the guideline's recommendations.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context appears sufficient for answering the question accurately. Answer B demonstrates both high faithfulness to the retrieved context and a high level of completeness relative to both the retrieved and full guideline contexts. This suggests the retrieval process successfully captured the core information necessary to address the question.  While there may be other nuance in the full guideline, the retrieved section provided enough context for B to generate a safer and more complete answer than A, which lacked the specific justifications for not delaying surgery."
+    },
+    {
+        "question": "6. Why is mandated physical therapy not recommended to delay or avoid surgery for patients indicated for TJA in the clinical guideline?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 8,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 9,
+            "completeness_overall": 10,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more complete and nuanced response, incorporating additional relevant details from the full guideline context, such as the potential for increased instability, bone loss, and deformity with surgical delays. Although Answer A is also accurate and faithful to the retrieved context, it is less comprehensive than Answer B.\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate according to the full guideline. Answer B emphasizes the potential negative consequences of delaying surgery, which strengthens the safety aspect of the recommendation against mandated physical therapy.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B mostly stays faithful to the retrieved context, but introduces the idea of increased instability, bone loss, and deformity, which appears in a different section of the full guideline. This addition aligns with the overall truth of the guideline but is slightly less faithful to *only* the provided snippet. Answer A is fully faithful to the retrieved content.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context was sufficient for a basic understanding of why mandated physical therapy is not recommended, as reflected in Answer A. However, comparing B's Completeness_Given_Retrieval vs Completeness_Overall reveals that the full guideline context contains additional valuable information about the risks of delay, which Answer B incorporates. This suggests the retrieved context, while helpful, wasn't fully sufficient for the most comprehensive and nuanced answer. The slight decrease in faithfulness for B is outweighed by the significant increase in overall completeness and accuracy."
+    },
+    {
+        "question": "7. In patients with a BMI of ≥50, what is the conditional recommendation regarding proceeding to TJA without delaying to achieve weight reduction to a BMI of <50?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and completeness derived directly from the retrieved context.  Answer A, while somewhat relevant, offers a more generalized response that lacks the specific conditional recommendation found in the guidelines and retrieved text. It also introduces a slightly misleading point about the benefits outweighing the risks, which isn't explicitly stated in the source material.  Instead, the guideline states the recommendation is conditional because delaying surgery may place an unnecessary burden on the patient.\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate and safer because it adheres strictly to the guideline's conditional recommendation without adding potentially misleading interpretations. Answer A's statement about benefits outweighing risks isn't directly supported by the provided context and might give a patient a false sense of security.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness is perfectly aligned with the guideline's truth. The retrieved context accurately captured the essence of the full guideline regarding this specific question.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B demonstrated perfect faithfulness to the retrieved context, and because that context contained the full recommendation, its Completeness_Given_Retrieval score matches its Completeness_Overall score. This indicates a highly effective retrieval that provided all the necessary information for a complete and accurate answer.  The alignment of Faithfulness and Factual Accuracy scores further reinforces the quality and sufficiency of the retrieved context."
+    },
+    {
+        "question": "7. In patients with a BMI of ≥50, what is the conditional recommendation regarding proceeding to TJA without delaying to achieve weight reduction to a BMI of <50?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 4,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while less factually accurate regarding the specific recommendation, provides more helpful information overall.  It acknowledges the increased risks associated with a higher BMI in TJA and encourages weight optimization efforts. Answer B, while faithful to the limited and apparently poorly chosen retrieved context (which missed the key line from the guideline entirely), fails to provide any useful clinical information, defaulting to \"I don't know.\"\nDifferences in Factual Accuracy and Safety: Answer A gives partially correct information about risks, but doesn't give the guideline’s specific recommendation. It's not unsafe, but incomplete. Answer B is safer by saying it doesn’t know, preventing potentially wrong information."
+    },
+    {
+        "question": "7. In patients with a BMI of ≥50, what is the conditional recommendation regarding proceeding to TJA without delaying to achieve weight reduction to a BMI of <50?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 1,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 1
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A correctly identifies and explains the conditional recommendation for patients with a BMI ≥50 from the guideline.  It accurately states the recommendation to proceed with TJA without delaying for weight loss and mentions the \"very low-certainty evidence\" supporting the recommendation. It's also concise and well-written. Answer B, despite having access to more context (though the essential information was in both retrieval sets), fails to find or interpret the relevant information and states it doesn't have enough information.\nDifferences in Factual Accuracy and Safety: Answer A is factually accurate and safe, aligning with the guideline's recommendations.  Answer B is inaccurate by omission, as it fails to provide the recommendation.  This could potentially lead to a delay in appropriate care if a clinician relied on this answer.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is not faithful to the retrieved context as the explicit recommendation IS present within the context.  Even if it were faithful to a lack of information, this wouldn't align with the full guideline truth.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context for both A and B included the relevant information.  A was able to correctly utilize this information for a complete and accurate answer. B's failure demonstrates a lack of effective utilization of the retrieved information, not a lack of sufficient information itself.  This suggests an issue with B's processing or interpretation of the provided context, not the context itself."
+    },
+    {
+        "question": "8. For patients with poorly controlled diabetes mellitus, what is the conditional recommendation regarding delaying TJA to improve glycemic control?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers accurately reflect the guideline's conditional recommendation to delay TJA for patients with poorly controlled diabetes.  Answer A, however, provides more helpful context by mentioning the reasons behind this recommendation (increased risk of complications like infection and delayed wound healing). While both achieve similar levels of completeness regarding the specific question about the recommendation itself, Answer A's additional context makes it slightly more informative and thus a more practically useful response for a clinician.  Answer B correctly focuses on echoing the \"very low-certainty evidence\" point, which is important, but including rationale like Answer A did is also important to help understand the logic *behind* the guideline, even if weakly supported.  Answer B’s faithfulness to its retrieved context is perfect, and the retrieved context was mostly sufficient for extracting the key answer needed but lacked deeper context.  Answer A managed to hallucinate that extra context correctly and safely, adding value."
+    },
+    {
+        "question": "8. For patients with poorly controlled diabetes mellitus, what is the conditional recommendation regarding delaying TJA to improve glycemic control?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 2,
+            "relevance": 5,
+            "accuracy": 2,
+            "completeness_given": 2,
+            "completeness_overall": 2,
+            "conciseness": 5
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A correctly states the conditional recommendation to delay TJA for patients with poorly controlled diabetes to improve glycemic control and briefly explains the rationale. Answer B hallucinates and mixes information about BMI > 50 with the diabetes recommendation, creating an inaccurate and confusing response.  It demonstrates poor faithfulness to the retrieved context, instead seemingly attempting to synthesize different parts of the guidelines related to delaying surgery, but failing to do so accurately. Answer B's retrieved context *did* include the correct recommendation regarding diabetes, but the model failed to extract it faithfully.  The retrieved context included numerous other recommendations, making it a poor retrieval for isolating an answer to the specific question about diabetes management.  This is reflected in the discrepancy between Answer B's Completeness_Given_Retrieval (low) and Completeness_Overall (also low). The poor faithfulness, despite the presence of some relevant information in the retrieved context, demonstrates that the retrieval was not effective for answering *this particular question* clearly and accurately. Answer A, while less \"complete\" than a perfect answer, provides accurate and safe information based on the full guideline."
+    },
+    {
+        "question": "8. For patients with poorly controlled diabetes mellitus, what is the conditional recommendation regarding delaying TJA to improve glycemic control?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 2,
+            "relevance": 5,
+            "accuracy": 2,
+            "completeness_given": 2,
+            "completeness_overall": 2,
+            "conciseness": 5
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A is significantly better than Answer B.  Answer A accurately reflects the conditional recommendation to delay TJA for improved glycemic control in patients with poorly controlled diabetes, as stated in both the retrieved and full guideline contexts. It also correctly notes the low certainty of evidence. Answer B hallucinates a recommendation about patients with a BMI of 50 or greater, which, while mentioned in the full guideline, has no connection to the diabetes question asked and is not present in the retrieved context. This makes Answer B inaccurate and less relevant.  Answer A demonstrates perfect faithfulness to its retrieved context while providing a complete and concise answer. Answer B's faithfulness is very poor, leading to significant inaccuracies.\ni. Differences in Factual Accuracy and Safety: Answer A is factually accurate and safe. Answer B is factually inaccurate and potentially unsafe due to the hallucinated information, which could lead to incorrect clinical decisions.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B's faithfulness to its retrieved context is poor and does *not* align with the overall guideline truth.  It introduces information not present in the provided context.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context *was* sufficient to answer the question accurately. Answer A proves this. Answer B's failure stems from *not* adhering to the retrieved context, demonstrating poor faithfulness while achieving neither completeness nor accuracy. This strongly suggests a flaw in the model's ability to process and utilize the provided information correctly, rather than a deficiency in the context itself."
+    },
+    {
+        "question": "9. Why is proceeding to TJA without delay recommended over delaying TJA for patients with bone loss with deformity or severe ligamentous instability in the defined population?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers address the question, but Answer B provides a more precise and complete explanation aligned with the full guideline context.  Answer A correctly identifies the rationale for immediate TJA, mentioning worsening joint condition, pain, and function.  However, Answer B, drawing directly from the guideline, more accurately emphasizes how delay specifically impacts surgical complexity (increased instability, juxta-articular bone loss/deformity) and increases the risk of failure/revision.\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate and safe, but Answer B is more precise regarding the *specific* ways delay negatively impacts surgical outcomes, as taken directly from the guidelines. This precision is important for clinical decision-making.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is completely faithful to the retrieved context, and that context accurately reflects the overall guideline's rationale for immediate TJA in this patient population.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B demonstrates perfect faithfulness to it, and the completeness scores (given retrieval and overall) are both 10, indicating the retrieved snippet contained all the necessary information to fully answer the question in line with the complete guideline. This signifies a highly effective retrieval. The high faithfulness and factual accuracy scores further confirm the quality and relevance of the retrieved context."
+    },
+    {
+        "question": "9. Why is proceeding to TJA without delay recommended over delaying TJA for patients with bone loss with deformity or severe ligamentous instability in the defined population?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 8,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 6
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a concise and accurate summary of the rationale for proceeding with TJA without delay in the specified patient population.  While Answer B extracts relevant information from the retrieved context and expands on it, creating a seemingly more comprehensive answer, it introduces a level of verbosity that detracts from its clarity and conciseness.  Both answers are factually accurate according to the full guideline, showing no safety issues.\ni. Differences in Factual Accuracy and Safety:  Both answers are factually accurate and safe. No hallucinations or misrepresentations were present.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is largely faithful to the retrieved context but arguably expands on points like \"patient safety and quality of life\" beyond what the snippet directly states.  This expansion, however, *is* supported by the full guideline.  The slight deviation from strict faithfulness isn't detrimental in this case, as the added content aligns with the guideline's overall message.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient for a basic answer.  Answer B's high Completeness_Given_Retrieval score (10) demonstrates it effectively utilized the provided information. While its Completeness_Overall score (8) is slightly lower, this suggests the retrieved context didn't capture every nuance from the full guideline. The slight discrepancy between Faithfulness (8) and Factual Accuracy (10) further reinforces that B extrapolated slightly beyond the direct retrieval, but in a way that remained consistent with the broader guideline. The context was \"good enough\" to generate a factually correct response, though perhaps not ideal for complete coverage of all supporting arguments.  Answer A, by drawing on its broader knowledge base, achieved a higher Completeness vs Full Guideline Context without the verbosity."
+    },
+    {
+        "question": "9. Why is proceeding to TJA without delay recommended over delaying TJA for patients with bone loss with deformity or severe ligamentous instability in the defined population?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 7,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 7,
+            "completeness_overall": 9,
+            "conciseness": 6
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A is superior due to its perfect faithfulness to the retrieved context, while still providing a concise and accurate answer. Answer B, although covering similar ground and remaining largely accurate, introduces slight generalizations (e.g., \"functional limitations\" which are implied but not explicitly stated in the retrieved context) and lacks the same level of conciseness.\ni. Differences in Factual Accuracy and Safety:  Both are factually accurate and safe, but Answer B generalizes slightly beyond the retrieved context, which while not inaccurate against the full guideline, represents a mild departure from strict faithfulness. This isn't unsafe but could become problematic with other examples.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Mostly.  Answer B does align broadly, but introduces points adjacent to the retrieved content rather than directly from it, which impacts its faithfulness score.  It implies additional justifications not explicitly stated.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context is very good. It contains the core rationale for the recommendation. Answer B attempts to extrapolate and add additional points which slightly lowers faithfulness without substantially improving completeness, suggesting that staying tightly bound to the retrieved text, as Answer A does, is a better strategy here."
+    },
+    {
+        "question": "10. What are the considerations for patients with a neuropathic joint in the conditional recommendation to proceed to TJA without delay over delaying for optimization of non-life-threatening conditions?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while somewhat generic, provides a medically sound rationale related to neuropathic joints and the potential risks of delaying surgery.  It connects the condition to the clinical question about timely intervention. While not drawing directly from the guideline, it infers reasonable considerations.  Answer B, while perfectly faithful to the provided context, fails to answer the question as the retrieved context only repeats the recommendation itself and states there is no evidence or studies to support it.  This demonstrates a limitation of RAG when the retrieved context lacks the information necessary to answer the question.\nDifferences in Factual Accuracy and Safety: Answer A is more factually accurate and safer than B because it gives logical, albeit generalized, clinical reasoning.  Answer B provides no actionable information.  While admitting its limitations is \"safe\" in a sense, it's not helpful.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B IS perfectly faithful to the extremely limited retrieved context, which, unfortunately, contains essentially no relevant information *explaining* the guideline's recommendation.  The retrieved snippet only *states* the recommendation repeatedly and notes the lack of evidence.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context is extremely insufficient.  It only contains restatements of the recommendation itself and mentions the lack of evidence, offering nothing about the underlying *considerations* prompting the recommendation, which is what the question asks about.  B’s low completeness scores (despite perfect faithfulness) highlight the inadequacy of the retrieval. This case showcases how RAG can fail when provided with poor retrieval, even when it behaves \"correctly\" by remaining faithful to that inadequate context."
+    },
+    {
+        "question": "10. What are the considerations for patients with a neuropathic joint in the conditional recommendation to proceed to TJA without delay over delaying for optimization of non-life-threatening conditions?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more thorough and accurate explanation of the considerations for proceeding with TJA without delay in patients with neuropathic joints. While Answer A correctly mentions preventing further joint destruction and improving overall function, it lacks the depth and specific details provided by Answer B.  Answer B draws directly from the retrieved context, accurately reflecting the points about increased instability, technical difficulty of the procedure, and potential worsening of the patient's condition with delay.\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate in the general sense that delaying surgery for a neuropathic joint can be detrimental. However, Answer B goes further by accurately reflecting the guideline’s nuance on increased instability and difficulty of later surgery, which is a crucial safety aspect.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B demonstrated high faithfulness to the retrieved context and this aligned perfectly with the relevant portions of the full guideline.  The retrieved context contained the key justifications for the recommendation, and Answer B accurately summarized and presented them.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was indeed sufficient. Answer B extracted all the relevant information concerning the question from the retrieved context and presented it clearly. The high scores for Completeness_Given_Retrieval and Faithfulness, coupled with the high Factual Accuracy, indicate that the retrieved context encompassed the necessary information to answer the question accurately and completely within the scope of the guideline's recommendations. The slight difference between Completeness_Given_Retrieval and Completeness_Overall scores is negligible given the specific nature of the question and the comprehensive coverage offered by the retrieved context. The RAG process successfully targeted the relevant information, eliminating the need to consult the broader guideline for this particular query."
+    },
+    {
+        "question": "10. What are the considerations for patients with a neuropathic joint in the conditional recommendation to proceed to TJA without delay over delaying for optimization of non-life-threatening conditions?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": "ERROR",
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": "ERROR",
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 8,
+            "completeness_overall": 8,
+            "conciseness": 6
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A admits it cannot provide an answer. Answer B provides a reasonably complete and accurate answer based on the retrieved context.  The retrieved context does emphasize the worsening of the condition and technical challenges of delayed surgery, which B correctly reflects. While it might have been more concise by directly stating the core issue (delay increases technical difficulty and doesn't improve outcomes), it still extracts the pertinent information.\nImpact of RAG:\ni. Differences in Factual Accuracy and Safety: Answer A is inaccurate and unsafe by declining to answer. Answer B is factually accurate and safe based on the given context.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B appears faithful to the provided context.  The full guideline was not available for direct comparison, but B's claims align with the typical progression and management considerations for neuropathic arthropathy.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context, although somewhat fragmented, was sufficient for Answer B to provide a reasonable answer.  The similarity between Completeness_Given_Retrieval and Completeness_Overall, as well as Faithfulness and Factual Accuracy (assuming full guideline alignment), suggests the retrieved context contained the most relevant information."
+    }
+]

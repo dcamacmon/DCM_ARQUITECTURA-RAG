@@ -1,0 +1,692 @@
+[
+    {
+        "question": "1. What is the recommended treatment for adults with nonradiographic axial SpA who have active disease despite NSAID treatment?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is slightly better overall due to its superior completeness and conciseness while maintaining perfect factual accuracy based on the full guideline.  While Answer A correctly mentions bDMARDs like TNFi and IL-17 inhibitors, it lacks the specific alternative medications mentioned in the guideline (sulfasalazine, methotrexate, tofacitinib, secukinumab, and ixekizumab).  Both answers are factually accurate and safe, reflecting information consistent with the guidelines.\ni. Differences in Factual Accuracy and Safety: There are no differences in factual accuracy and safety between the two responses.  Both align with the provided guideline context.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is perfectly faithful to the retrieved context and this faithfulness is completely aligned with the information presented in the (absent) full guideline.  It extracted the relevant recommendations accurately.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved perfect completeness given the retrieval and also high overall completeness based on what we can infer from the question and snippets about the full guideline. The high faithfulness score combined with high factual accuracy confirms that the retrieved context contained the most pertinent information from the guideline to answer the question accurately and completely."
+    },
+    {
+        "question": "1. What is the recommended treatment for adults with nonradiographic axial SpA who have active disease despite NSAID treatment?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 6,
+            "accuracy": 6,
+            "completeness_given": 10,
+            "completeness_overall": 5,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a more relevant and factually accurate response to the question, even though it doesn't have access to the retrieved context. It correctly identifies bDMARDs like TNF inhibitors and IL-17 inhibitors as recommended treatment options for nonradiographic axial SpA in patients with active disease despite NSAIDs.  Although not completely comprehensive regarding all nuances, it offers a safe and clinically sound suggestion.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Answer B is faithful to the retrieved context. However, the retrieved context itself is not optimally relevant to the question, which leads to Answer B's lower overall quality. The context contains some truths applicable to the question, but they are buried among other less relevant details.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was not sufficient.  While Answer B demonstrates high completeness *given* the retrieved context, its overall completeness and factual accuracy suffer because the relevant information is limited and interspersed with information about other conditions.  This highlights a limitation of RAG when the retrieval step fails to provide highly targeted information."
+    },
+    {
+        "question": "1. What is the recommended treatment for adults with nonradiographic axial SpA who have active disease despite NSAID treatment?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 6,
+            "accuracy": 6,
+            "completeness_given": 1,
+            "completeness_overall": 6,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 4,
+            "accuracy": 3,
+            "completeness_given": 7,
+            "completeness_overall": 3,
+            "conciseness": 6
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while not faithful to the provided retrieved context, gives a more relevant and complete answer to the question regarding treatment of nonradiographic axial SpA.  It correctly identifies treatment options like TNFi, secukinumab, and ixekizumab.  Answer B focuses heavily on information regarding psoriatic arthritis (PsA) which, while mentioned in the retrieved text, is not the core subject of the question. It also gives a confusing recommendation to use NSAIDs over OSM *despite* the fact the question specifies active disease *despite* NSAID treatment.  This demonstrates a failure to synthesize the context with the question.\nThe retrieved context is quite poor for this specific question. It contains fragments of information about axial SpA treatment but is interrupted by large sections discussing other conditions (like PsA). This explains why Answer B, although faithful to the context, is not a good answer overall. It also explains Answer A's lack of faithfulness to the retrieved context – the model likely had to pull information from its broader knowledge base to construct a more relevant response, given the deficiencies of the provided retrieval.  The comparison highlights the importance of retrieval quality – a highly faithful answer to a poorly retrieved context can still be less useful than an answer that leverages broader knowledge to address the core question.\nDifferences in Factual Accuracy and Safety: Answer A is more factually accurate with respect to the overall guidelines for treating nonradiographic axial SpA. Answer B introduces factual inaccuracies by focusing on information relevant to PsA rather than the specific condition mentioned in the question. This makes Answer B less safe as it could lead to inappropriate treatment decisions.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B's faithfulness to the retrieved context did *not* align with the overall guideline truth.  The retrieved context itself contained conflicting information due to its disjointed nature and inclusion of PsA details.  By focusing on these less relevant details, Answer B becomes misaligned with the full guideline’s recommendations for nonradiographic axial SpA.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was *not* sufficient or good.  Answer B demonstrates high completeness *given the retrieval* but low completeness *overall*.  Simultaneously, it has high faithfulness but low factual accuracy. This clearly signals that the retrieval itself was problematic, containing fragments of truth mixed with less relevant or even misleading information for the specific question."
+    },
+    {
+        "question": "2. When should treatment with TNFi be considered in adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 2,
+            "completeness_given": null,
+            "completeness_overall": 2,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and adherence to the guideline. It directly answers the question based on the provided context. Answer A, while relevant, introduces inaccurate information (e.g., \"3 months of NSAID treatment,\" \"high disease activity,\" \"elevated inflammatory markers\") not found in the full guideline, thus presenting potential safety concerns.  The retrieved context proved highly effective, allowing Answer B to provide a complete and accurate response based solely on reliable information. Answer B's faithfulness perfectly aligns with guideline truth, confirming the retrieved content's sufficiency in addressing the question comprehensively."
+    },
+    {
+        "question": "2. When should treatment with TNFi be considered in adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more accurate and nuanced response, acknowledging the quality of evidence supporting TNFi use in nonradiographic axial SpA.  While Answer A provides reasonable general guidance around TNFi consideration, it lacks the specific context of switching strategies presented in Answer B, which are derived directly from the guideline recommendations regarding primary and secondary non-response.\ni. Differences in Factual Accuracy and Safety: Answer A implies a more general application of TNFi, while Answer B correctly reflects the guideline’s nuance around switching strategies based on primary and secondary non-response. This nuance is important for safe and effective treatment, making B more factually accurate and safer.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is entirely faithful to the retrieved context and accurately summarizes the recommendations related to TNFi use and switching in the context of nonradiographic axial SpA. The retrieved context itself appears to contain a representative summary of the guideline's recommendations on this specific point.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient for addressing the core components of the question regarding when TNFi should be considered. Although Answer B's Completeness_Overall score is slightly lower than its Completeness_Given_Retrieval score, this reflects the limited scope of the retrieved context, not a failure of Answer B to utilize the available information.  Since the retrieved context accurately summarized the guideline's specific recommendations on this matter, Answer B’s high faithfulness resulted in high factual accuracy."
+    },
+    {
+        "question": "2. When should treatment with TNFi be considered in adults with nonradiographic axial SpA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 8,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 9,
+            "completeness_overall": 9,
+            "conciseness": 6
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A is superior due to its conciseness and directness while maintaining perfect accuracy.  It pulls the key information from the retrieved context regarding TNFi use in patients with active nr-axSpA who haven't responded to NSAIDs. Answer B, while largely accurate, adds information about switching TNFi therapies, which, while present in the larger context, isn't directly relevant to the specific question of *when* to *consider* TNFi treatment. This extra information makes Answer B less concise and potentially confusing.  The slight decrease in faithfulness for Answer B comes from prioritizing information about switching therapies that, while present in the broader retrieved context, is not the core answer to the question posed. Although the additional details are not inaccurate, they dilute the main point.  The retrieved context was sufficient for answering the core question, as evidenced by Answer A's high scores across all dimensions. Answer B's attempt to incorporate more from the retrieved context actually lowered its overall quality due to reduced conciseness. This demonstrates the effectiveness of a focused, concise response when the retrieval is adequate for the question asked. Regarding safety, both answers are safe as they don't recommend anything contradictory to the guidelines."
+    },
+    {
+        "question": "3. What are the recommended medications for adults with active nonradiographic axial SpA who have contraindications to TNFi?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 7,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and completeness derived directly from the relevant guideline excerpt. Answer A, while partially correct in mentioning some potential treatments, misses the specific recommendation for secukinumab or ixekizumab when TNF inhibitors are contraindicated. It also includes corticosteroids, which are explicitly advised against in the full guideline (though not the retrieved snippet).  This demonstrates the significant improvement in safety and accuracy when using RAG, ensuring adherence to guidelines.  Answer B's faithfulness to its retrieved context perfectly aligned with the overall guideline truth, indicating a very good retrieval.  Since Answer B achieved full completeness based on the retrieved context *and* against the full guidelines, the retrieved context was clearly sufficient. This comparison highlights the value of RAG in providing safe and reliable clinical information."
+    },
+    {
+        "question": "3. What are the recommended medications for adults with active nonradiographic axial SpA who have contraindications to TNFi?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 5,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 4,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and direct grounding in the retrieved context, which correctly identifies secukinumab and ixekizumab as recommended for patients with contraindications to TNFi. While Answer A mentions some relevant treatments (NSAIDs), it lacks the specificity and accuracy of Answer B and fails to mention the most relevant alternatives according to the full guideline (secukinumab and ixekizumab).\ni. Differences in Factual Accuracy and Safety: Answer A provides general information about medications used in axial SpA but misses the key recommendation for patients with TNFi contraindications.  Answer B correctly identifies the recommended alternatives, aligning with the guideline's emphasis on secukinumab and ixekizumab, thus increasing safety by suggesting appropriate therapies for this specific population.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is entirely faithful to the retrieved context and this faithfulness aligns perfectly with the overall guideline's recommendations for this specific clinical scenario.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B achieved perfect completeness *given* the retrieval, and its faithfulness score and factual accuracy score were also perfect. The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (7) reflects that while the retrieved context addressed the core question accurately, the full guideline might contain additional nuance or considerations not present in the provided excerpt.  However, the retrieved section clearly captured the most crucial information needed to answer the question correctly."
+    },
+    {
+        "question": "3. What are the recommended medications for adults with active nonradiographic axial SpA who have contraindications to TNFi?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 9,
+            "accuracy": 7,
+            "completeness_given": 1,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and faithfulness to the full guideline context. While Answer A mentions other medications like sulfasalazine, methotrexate, and tofacitinib, the guideline prioritizes secukinumab or ixekizumab for patients with contraindications to TNFi. Answer B correctly identifies these preferred medications.  Answer A brings in information not present in the retrieved context or even in the full guideline regarding recommendations relative to other medications given contraindications to TNFi. It may be indirectly inferring this based on other sections, but lacks the direct support and therefore incurs a risk of decreased factual accuracy.\nSpecifically, Answer B’s faithfulness to its limited Retrieved Context fully aligned with the overall guideline truth. The retrieved context was sufficient for answering the question, reflected by Answer B's high Completeness_Given_Retrieval score matching its Completeness_Overall score. This perfect match, combined with high faithfulness, demonstrates that the RAG process in Answer B worked effectively and safely.  Answer A hallucinates by mentioning medications in comparison that are not discussed in the context of TNF-i contraindications.  This decreases its safety."
+    },
+    {
+        "question": "4. In adults with isolated active sacroiliitis despite NSAID treatment, what is the recommended approach for glucocorticoid treatment?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers provide factually accurate information regarding the use of local glucocorticoids for isolated active sacroiliitis refractory to NSAIDs.  Answer B is slightly better overall due to explicitly mentioning that the recommendation is based on very low-quality evidence, reflecting appropriate caution and aligning with the principles of evidence-based medicine. This nuance, derived directly from the retrieved context, enhances the reliability and trustworthiness of the answer. While both answers are relatively complete, neither delves into specifics about dosing, frequency, or alternative considerations if local glucocorticoids are ineffective, which would enhance completeness further.  However, Answer B is more faithful to its limited context, effectively conveying the information available without hallucinating or extrapolating, thus providing a more reliable and transparent answer.\nSpecifically commenting on:\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate and safe. However, Answer B is slightly safer by emphasizing the very low quality of evidence supporting the recommendation. This promotes caution and appropriate patient counseling regarding the uncertainty associated with the intervention.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness to the retrieved context aligns perfectly with the information presented in the provided snippet. The retrieved context accurately reflected the full guideline's recommendation, leading to a factually sound and trustworthy response.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context, while limited, was sufficient for answering the specific question posed. Answer B achieved perfect completeness given the retrieval and maintained high factual accuracy compared to the full guideline. This suggests the retrieval was adequate for this particular query, effectively capturing the key recommendation and its strength.  However, a more comprehensive retrieval would be needed to provide a more detailed and nuanced response regarding practical application and alternative strategies."
+    },
+    {
+        "question": "4. In adults with isolated active sacroiliitis despite NSAID treatment, what is the recommended approach for glucocorticoid treatment?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better due to its high factual accuracy and faithfulness to the relevant guideline excerpt. Answer A hallucinates a recommendation for intra-articular corticosteroids, which, though sometimes used, is not mentioned in the retrieved or full guidelines and contradicts the actual recommendation against *systemic* glucocorticoids.  Answer B correctly identifies the conditional recommendation for *local* glucocorticoids and acknowledges the low quality of evidence supporting this recommendation, reflecting the nuance of the guideline. The retrieved context appears sufficient to accurately answer the question, as demonstrated by B's high completeness scores (both given retrieval and overall). The slight discrepancy between Answer A and the guideline highlights the risk of LLM hallucination and the value of RAG in grounding the answer in provided evidence for improved safety and reliability. Answer B is a safer and more reliable response, aligning with best practices based on the provided guideline excerpt."
+    },
+    {
+        "question": "4. In adults with isolated active sacroiliitis despite NSAID treatment, what is the recommended approach for glucocorticoid treatment?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate strong faithfulness to the retrieved context and high relevance to the question. However, Answer B achieves perfect factual accuracy by correctly stating the recommendation as \"conditionally recommend\" treatment with local glucocorticoids, directly mirroring the guideline's language.  Answer A uses slightly less precise phrasing (\"consider treatment\"), which, while not incorrect, lacks the specific strength of the recommendation. Both answers provide complete responses given the retrieved context.  Answer B is slightly more concise while including a helpful caveat about consulting a healthcare provider, making it the preferred response.\nThe impact of RAG is positive in this case, as both models successfully extract the relevant information from the provided context.  Answer B’s faithfulness to its limited Retrieved Context fully aligned with the overall guideline truth. The Retrieved Context appears sufficient as demonstrated by the high Completeness_Given_Retrieval scores matching the Completeness_Overall scores, and the Faithfulness scores aligning with the Factual Accuracy scores. This suggests the RAG system effectively retrieved the necessary information to answer the question accurately and completely. The difference in factual accuracy between the two answers, although subtle, highlights the importance of precise language in clinical recommendations, and Answer B demonstrates this precision more effectively."
+    },
+    {
+        "question": "5. What is the recommendation regarding physical therapy for adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides accurate and relevant information about the benefits of physical therapy for nonradiographic axial SpA, aligning with the overall guideline's emphasis on exercise and physical activity. While it doesn't provide specific exercises or stretches, it correctly states their importance for improving flexibility, strength, and function, which are crucial for managing the condition.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is entirely faithful to the retrieved context. However, the retrieved context doesn't represent the full guideline truth regarding physical therapy's role in managing nonradiographic axial SpA.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context is insufficient.  While Answer B achieved perfect completeness *given* the retrieved context, it was severely lacking in completeness against the full guideline. This disparity, coupled with the difference between its faithfulness score (high) and factual accuracy score (low), demonstrates that the retrieved context was a poor sample of the overall guideline for answering the question.  This reinforces the idea that even with a faithful RAG system, the quality of retrieval dramatically impacts answer quality."
+    },
+    {
+        "question": "5. What is the recommendation regarding physical therapy for adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 3,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while lacking specific details, gives accurate general advice on physical therapy aligned with usual practices for SpA.  Answer B correctly states it has no information on physical therapy within the provided retrieval context, meaning it’s faithful but provides no helpful answer to the clinical question. The retrieved context focuses on imaging recommendations and lacks information on physical therapy; thus, Answer B appropriately refrained from generating potentially incorrect information.  While Answer A doesn't cite specific guideline text, it provides more clinically useful information than Answer B based on the overall context of managing axial SpA.\nDifferences in Factual Accuracy and Safety: Answer A is factually accurate and safe, promoting beneficial physical therapy.  Answer B is technically accurate in stating its lack of information within the context, but it's not a useful clinical response and could be perceived as unhelpful or incorrect by a user not appreciating the limitations of the retrieval.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B was perfectly faithful.  The issue is that the retrieval itself wasn’t helpful in answering the question.  The full guideline likely *does* recommend physical therapy, but this retrieved context didn't cover that topic.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was insufficient. Answer B was complete *given the context* and entirely faithful, yet it gave a poor answer overall because the context was inappropriate for the question asked. This highlights the limitations of RAG when the retrieval mechanism doesn't provide an appropriate context."
+    },
+    {
+        "question": "5. What is the recommendation regarding physical therapy for adults with nonradiographic axial SpA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers correctly state that the retrieved context does not contain information about physical therapy recommendations for nonradiographic axial SpA.  Therefore, both are equally accurate, safe, and reliable given the limitations of the retrieved context.  There are no differences in factual accuracy or safety. Both answers are faithful to the limited retrieved context, which aligns with the overall guideline truth (by omitting information not present).  The retrieved context was insufficient to answer the question about physical therapy, as evidenced by the low Completeness_Overall scores despite perfect Faithfulness and Completeness_Given_Retrieval."
+    },
+    {
+        "question": "6. When should treatment with biologics be discontinued in adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 7,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, while somewhat generic, provides reasonable guidance about discontinuation of biologics in nonradiographic axial SpA, mentioning lack of improvement, intolerable side effects, and sustained remission as potential reasons. Answer B, although faithful to the provided context, fails to provide any useful information as the retrieved context doesn't address the specific question.\nDifferences in Factual Accuracy and Safety: Answer A demonstrates better factual accuracy related to general principles of discontinuing biologic therapy.  While not specific to nr-axSpA, it aligns with broader rheumatologic practice. Answer B is not factually accurate because it does not provide any information related to the question.  Answer A is safer because it provides generally accepted reasons for stopping biologics while Answer B provides no helpful guidance.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is perfectly faithful to the retrieved context, which lacked information directly answering the question.  However, this faithfulness resulted in a completely unhelpful response.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was insufficient.  This is clear because Answer B, despite being faithful to the context, couldn't provide a relevant answer.  This insufficiency also explains the discrepancy between Answer B’s faithfulness and factual accuracy related to the overall guideline.  The context simply didn't contain the needed information."
+    },
+    {
+        "question": "6. When should treatment with biologics be discontinued in adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 7,
+            "accuracy": 4,
+            "completeness_given": null,
+            "completeness_overall": 5,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and direct alignment with the full guideline context. While Answer A mentions valid reasons for discontinuation like side effects and sustained remission, it lacks the crucial information from the guideline that discontinuation is *not* generally recommended due to the high likelihood of relapse.  Answer B correctly highlights this key point, demonstrating the positive impact of RAG in ensuring faithfulness to reliable sources.\nDifferences in Factual Accuracy and Safety: Answer A's suggestion of discontinuation upon sustained remission contradicts the guideline's emphasis on the risk of symptom recurrence. This discrepancy poses a potential safety concern as patients might be led to believe discontinuation is readily advised when sustained remission is achieved. Answer B accurately reflects the guideline, prioritizing patient safety by highlighting the relapse risk.\nThe Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context, while brief, contained the crucial information regarding the general discouragement of biologic discontinuation. This is evident in the high scores for both Faithfulness and Completeness_Given_Retrieval. While the overall completeness score for Answer B is slightly lower, this is because the full guideline may contain further nuances and details not present in the retrieved snippet. However, for the core question of *when* to discontinue, the retrieved context proved sufficient and highly reliable, resulting in a safe and accurate answer."
+    },
+    {
+        "question": "6. When should treatment with biologics be discontinued in adults with nonradiographic axial SpA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": "ERROR",
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better than Answer A.  Answer A states it cannot find information about discontinuing biologics in the provided text, despite this information clearly being present. Therefore its relevance, completeness, and factual accuracy are all low. Answer B correctly identifies and extracts the guideline's recommendation against discontinuation due to the likelihood of symptom recurrence, and appropriately advises patient counseling if tapering is considered.  It also adds a helpful caveat to consult with a healthcare provider. This demonstrates excellent faithfulness to the retrieved context, high relevance to the question, strong factual accuracy against the presumed full guideline based on the excerpt, and good completeness both within the retrieved context and overall. The conciseness of B is also good. The RAG process for B appears to have worked very effectively, extracting and presenting the relevant information accurately and concisely.\nDifferences in Factual Accuracy and Safety:\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:\nBased on the provided retrieved context, Answer B is completely faithful to the information provided and seems aligned with the overall guideline's stance.  The retrieved context clearly states discontinuation is not recommended.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:\nThe retrieved context appears sufficient. Answer B's Completeness_Given_Retrieval and Completeness_Overall scores are both high, as are its Faithfulness and Factual Accuracy scores.  This suggests the retrieved context contained the necessary information to answer the question completely and accurately, and Answer B successfully utilized that information."
+    },
+    {
+        "question": "7. What is the recommendation regarding the use of CRP concentrations or ESR monitoring in adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and direct tie to the guideline's specific recommendation strength (\"conditionally recommend\"). While Answer A provides general information aligning with broader clinical principles, it doesn't capture the nuance of the specific guideline's conditional recommendation based on very low evidence.  This nuance is crucial for informed clinical decision-making. Answer B's faithfulness to the retrieved context is perfect, and while the context itself didn't contain *all* possible information related to CRP/ESR monitoring (e.g., interpretation alongside other clinical factors as mentioned in A), it provided the core recommendation accurately. The limited scope of the retrieved context slightly hindered Answer B's overall completeness compared to A. However, this is outweighed by B's superior accuracy and transparent reflection of the evidence quality.  The fact that the recommendation is conditional based on very low evidence is a key piece of information accurately conveyed only by B, enhancing safety by promoting cautious interpretation and shared decision-making with patients."
+    },
+    {
+        "question": "7. What is the recommendation regarding the use of CRP concentrations or ESR monitoring in adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 7,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 1,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A hallucinates a recommendation that doesn't exist within the full guideline. Answer B correctly states that it doesn't have information to answer the question. Although neither answer provides helpful information for the user,  Answer B is safer and more reliable by not creating false information.  The retrieved context focuses on MRI and treatment strategy recommendations for nonradiographic axial SpA and doesn't contain information about CRP or ESR monitoring. Therefore, Answer B's faithfulness to the limited context aligned with the overall guideline truth because the retrieved context lacked information to answer the question.  The retrieved context was insufficient to answer the question, highlighting that Answer B's low Completeness_Overall score stems from a poor retrieval, rather than a failure of the model. This is evident as its Completeness_Given_Retrieval and Faithfulness scores are high. Since the core question was about CRP/ESR monitoring, and this information wasn't provided in the context, the model correctly avoided hallucinating."
+    },
+    {
+        "question": "7. What is the recommendation regarding the use of CRP concentrations or ESR monitoring in adults with nonradiographic axial SpA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 5
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A hallucinates a recommendation about CRP and ESR monitoring that isn't present in either the retrieved context or the full guideline. Answer B correctly states that it can't find information relevant to the question within the provided context.  Although B doesn't provide an answer, it is much safer than providing a fabricated answer.  This highlights the positive impact of RAG when the retrieval doesn't contain the relevant information - by being faithful to the context, it avoids hallucinating.  The retrieved context, in this case, was not sufficient to answer the question completely, as evidenced by the difference between B's \"Completeness_Given_Retrieval\" and \"Completeness_Overall\" scores.  Because the retrieved context didn't have the answer, faithfulness to it (as demonstrated by B) aligned with the overall guideline truth, which was the absence of an answer to this particular question in the provided text."
+    },
+    {
+        "question": "8. What is the recommended approach for assessing disease activity in adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 8,
+            "accuracy": 8,
+            "completeness_given": 10,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a more comprehensive and generally applicable approach to assessing disease activity in nr-axSpA, mentioning clinical assessment, patient-reported outcomes, and imaging.  Answer B, while faithful to the retrieved context, focuses narrowly on the use of MRI in specific situations (unclear activity on biologics and confirming inactivity), missing broader aspects of disease activity assessment. Although both answers are factually accurate based on the full guideline, Answer A provides better clinical guidance for a general assessment question.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate and safe; however, answer B might mislead by omission if taken as the *only* way to assess disease activity. Answer A is more complete regarding standard assessment practices.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B was faithful to the provided context, and the information it presented was accurate within the guideline. However, the retrieved context was a narrow slice of the full guideline recommendations.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was insufficient. While B extracted all relevant information from the snippet, the snippet did not contain the complete information necessary to fully address the question, leading to an incomplete overall answer despite perfect faithfulness.  This highlights the limitations of relying on small retrieved contexts.  A more complete context including recommendations on clinical evaluation and patient-reported outcomes would have resulted in a better answer from the RAG system."
+    },
+    {
+        "question": "8. What is the recommended approach for assessing disease activity in adults with nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 9,
+            "completeness_overall": 7,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is slightly better overall because it provides more specific and accurate guidance based on the guidelines, particularly regarding the use of treat-to-target strategies and MRI.  While Answer A mentions imaging and clinical assessment more generally, it doesn't reflect the nuance of \"conditionally recommending against\" the treat-to-target strategy using ASDAS < 1.3 or 2.1, which is an important aspect of the guidelines.\nDifferences in Factual Accuracy and Safety: Answer B is more factually accurate and safer due to its specific recommendations regarding the use of MRI and treat-to-target strategy. Answer A's general recommendations, while not inaccurate, lack the specific cautions present in the guidelines, which could lead to potential over-reliance on certain metrics.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B adhered strictly to the provided retrieved context and did not hallucinate any information.  Importantly, the information in the retrieved context accurately represented the nuances of the full guideline.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was largely sufficient for answering the question. While Answer B did not achieve perfect Completeness_Overall, it captured the most critical recommendations from the guidelines, specifically those pertaining to active and unclear disease activity, which are likely the most relevant clinical scenarios.  The very minor discrepancies between  Completeness_Given_Retrieval and Completeness_Overall scores did not significantly impact the answer's safety or clinical utility because the essence of the guideline was captured. The high faithfulness score combined with the high factual accuracy demonstrates that the retrieved context was a good representation of the full guideline's recommendations on this topic."
+    },
+    {
+        "question": "8. What is the recommended approach for assessing disease activity in adults with nonradiographic axial SpA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 8,
+            "accuracy": 10,
+            "completeness_given": 8,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate high faithfulness to the retrieved context and are factually accurate according to the full guideline. However, Answer B provides a more complete response by including the recommendation against the treat-to-target strategy using ASDAS < 1.3 or 2.1. This information, while present in the retrieved context, was omitted by Answer A, making Answer B more comprehensive and therefore, better overall.  Although both answers are accurate, Answer B provides a more complete picture of disease activity assessment.\nDifferences in Factual Accuracy and Safety:  Both answers are factually accurate and safe. No inaccuracies or misleading information is present in either answer.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness to the retrieved context aligns perfectly with the overall guideline truth.  It extracts and presents the relevant recommendations accurately.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was mostly sufficient. Answer B extracted all relevant information, demonstrating high completeness given the retrieval.  The very slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (9) suggests there might be nuances in the full guideline not captured in this specific retrieval, but not enough to significantly detract from the answer's value. The perfect alignment between Faithfulness and Factual Accuracy further confirms the adequacy of the retrieved context for answering the question."
+    },
+    {
+        "question": "9. In adults with nonradiographic axial SpA of unclear activity while on a biologic, what imaging study is recommended?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is slightly better overall due to higher factual accuracy and strong alignment with the full guideline context despite relying solely on the retrieved context.\ni. Differences in Factual Accuracy and Safety: Answer A mentions imaging of \"spine and sacroiliac joints,\" which isn't inaccurate, but the guideline specifically prioritizes pelvis MRI. Answer B correctly reflects this nuance, making it more factually accurate and safer as it avoids potentially unnecessary spinal imaging.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B faithfully represents the retrieved context, which itself aligns with the overall guideline's recommendation.  This demonstrates the effectiveness of RAG in this case.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B achieved near-perfect completeness using *only* the retrieved context, suggesting the retrieval captured the core guideline recommendation effectively. Its high faithfulness score alongside its high factual accuracy score compared to the full guideline further emphasizes the quality and sufficiency of the retrieved context."
+    },
+    {
+        "question": "9. In adults with nonradiographic axial SpA of unclear activity while on a biologic, what imaging study is recommended?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification:Both answers are relevant and concise. Answer A is factually accurate in recommending an MRI, but the full guideline prioritizes a pelvis MRI. Answer B extracts this crucial detail from the retrieved context, giving it a slight edge in accuracy and making it safer. Answer B demonstrates perfect faithfulness, aligning with the guideline's truth. While Answer A mentions both spine and SI joints, Answer B's focus on the pelvis MRI reflects the guideline's specific recommendation making it a more reliable and safe answer. Although the retrieved context might appear limited at first glance, it contained the most critical information for decision-making, proven by B's high completeness scores. Therefore, B is slightly better due to its higher factual accuracy and adherence to the most relevant recommendation from the guideline."
+    },
+    {
+        "question": "9. In adults with nonradiographic axial SpA of unclear activity while on a biologic, what imaging study is recommended?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 9,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers provide factually accurate information directly from the retrieved context and align with the full guideline.  However, Answer A is slightly better due to its superior conciseness while still capturing all essential information.  Answer B adds a phrase about impacting treatment recommendations, which, while true based on the broader context, isn't explicitly mentioned in the immediate retrieved snippet provided to the LLM. This makes A more faithful to the provided retrieval context.\nThe RAG approach, in both cases, successfully identified the relevant information for this question. Answer B demonstrates the potential for slight deviations even with larger context windows. Answer B's faithfulness to its retrieved context aligns with the guideline's truth, but its slightly lower faithfulness score reflects the inclusion of information derived from a broader understanding than just the snippet provided. The retrieved context appears sufficient for answering the core question, as demonstrated by the high Completeness_Given_Retrieval and Completeness_Overall scores for both answers, and their matching Factual Accuracy scores.  The small difference between the two answers highlights the importance of conciseness and strict adherence to the provided context, particularly in clinical settings where precision is paramount."
+    },
+    {
+        "question": "10. What is the recommended approach for obtaining repeat spine radiographs in adults with active or stable nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 2,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 2,
+            "conciseness": 5
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better than A. Answer A hallucinates information, claiming that repeat radiographs should be performed every 2 years, the exact opposite of the guideline's recommendation.  Answer B correctly pulls the information from the retrieved context, faithfully representing the recommendation *against* scheduled repeat radiographs. It is concise and complete, covering the core aspect of the question.\nDifferences in Factual Accuracy and Safety: Answer A is factually inaccurate and potentially harmful, as it could lead to unnecessary radiation exposure for patients. Answer B is factually accurate and aligns with safe practices.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness is perfectly aligned with the overall guideline truth. The retrieved context contained the correct and most pertinent information needed to accurately answer the question.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B demonstrated perfect faithfulness to the retrieved context and achieved full completeness based on both the retrieved context and the full guideline. This indicates the retrieval engine successfully identified the most critical portion of the guideline for answering the question."
+    },
+    {
+        "question": "10. What is the recommended approach for obtaining repeat spine radiographs in adults with active or stable nonradiographic axial SpA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 2,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 2,
+            "conciseness": 5
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better than A. Answer A hallucinates a recommendation for repeat radiographs every 2 years based on ASAS guidelines, which directly contradicts the provided guideline context. Answer B correctly identifies the recommendation *against* routine repeat radiographs and accurately reflects the provided context. Answer B is also more concise and focused.\nThe impact of RAG is substantial here. It grounds the answer in the provided evidence, leading to a factually accurate and safe response. Answer A demonstrates the dangers of an ungrounded LLM, potentially providing harmful misinformation."
+    },
+    {
+        "question": "10. What is the recommended approach for obtaining repeat spine radiographs in adults with active or stable nonradiographic axial SpA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately reflect the guideline's recommendation against routine scheduled repeat spine radiographs for adults with active or stable nr-axSpA.  Answer B adds the strength of the recommendation (\"conditional\") and the quality of evidence (\"very low\"), which, while true based on the larger table excerpt provided in the retrieved context, wasn't explicitly asked for by the question.  Answer A is slightly more concise by omitting this additional detail. Since the core information is identical and accurate in both, and the added detail in B isn't harmful but also not specifically requested, they are essentially comparable in their value for answering the question.\nThe RAG process worked effectively in both cases. The retrieved context contained the key information to answer the question accurately.  Both answers remained faithful to the retrieved snippet.  There were no differences in factual accuracy or safety concerns, and Answer B's faithfulness to the retrieved context perfectly aligned with the overall guideline truth.  The retrieved context was clearly sufficient, evidenced by both answers achieving full completeness based on only the snippet, matching their completeness based on the entire guideline."
+    }
+]

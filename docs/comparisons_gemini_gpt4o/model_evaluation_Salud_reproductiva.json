@@ -1,0 +1,692 @@
+[
+    {
+        "question": "1. What are the recommendations for patients with RMD regarding the use of combined estrogen-progestin contraceptives?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides a canned disclaimer response. It contains no information from the full guideline nor specific information related to the query. Answer B is far superior. Answer B is completely faithful to the retrieved context, which contained specific recommendations for combined estrogen-progestin contraceptives and aPL. While the retrieved context lacked complete information for all RMD regarding this specific question, it had substantially more information than what answer A provided, thus making answer B overall better.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: A is not factually accurate; it states it does not know. This is a major safety concern, especially given B pulls information directly from the guidelines. B correctly and safely identifies the contraindication regarding positive aPL and combined hormonal contraceptives.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, answer B is faithful to the retrieval. It accurately pulls out the information available. Importantly, it also notes that the information about combined estrogen-progestin contraceptives beyond aPL is not available in the retrieved context.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was not entirely complete, missing information such as avoiding combined contraceptives in SLE with negative aPL *and* moderate-high disease activity, and the conditional recommendation against the transdermal estrogen-progestin patch. However, it *was* accurate with what it *did* retrieve and thus appropriate for the RAG model to utilize, as evidenced by comparing B's faithfulness and factual accuracy and by noting how B indicated that the excerpt provided a limited view. It would have been preferable for additional information about the other patient populations to have been retrieved as well."
+    },
+    {
+        "question": "1. What are the recommendations for patients with RMD regarding the use of combined estrogen-progestin contraceptives?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 2,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides a canned response with no information, while B correctly states that the retrieved context lacks the information.  Although there is information in the full guideline text, Answer B is faithful to the limited retrieved context.  This is a case where the retrieval failed to provide useful information (the retrieved context was a legend explaining abbreviations and a table for men). This highlights the weakness of relying solely on insufficient retrieval. However, Answer B handled the insufficient retrieval appropriately by acknowledging the lack of information.  Answer A was unhelpful.\nDifferences in Factual Accuracy and Safety: Answer A provides no information so cannot be described as accurate, nor is it unsafe. Answer B is both accurate and safe because it only uses information within the retrieved context, which is insufficient to answer the question, so it correctly identifies the lack of information related to combined estrogen-progestin and RMD.  Because it does not hallucinate an answer, it is safe.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B remained perfectly faithful to the retrieved context and therefore aligned with what was retrievable from the overall guideline (nothing of use for this question).\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: It is clear that the retrieved context was insufficient. Answer B could not address the question with only the retrieved context and its low Completeness vs Full Guideline Context score (2) compared to its high Completeness using ONLY Retrieved Context score (10) reflects this.  Answer B was very faithful (10) and because of that, its overall factual accuracy (based on the full guideline) suffers because it could only address the absence of information."
+    },
+    {
+        "question": "1. What are the recommendations for patients with RMD regarding the use of combined estrogen-progestin contraceptives?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 2,
+            "accuracy": 2,
+            "completeness_given": 1,
+            "completeness_overall": 2,
+            "conciseness": 5
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better overall.  It correctly states that the retrieved context does *not* contain the answer to the question.  Answer A hallucinates information about combined estrogen-progestin contraceptives and aPL antibodies, neither of which is mentioned in the retrieved context *or* the full guideline context. This hallucination makes Answer A inaccurate and potentially harmful.  Answer B demonstrates the value of RAG by faithfully representing the limitations of the provided context. It also gives some slightly related information from the full guideline that implies combined estrogen-progestin contraceptives may not be the preferred method, although not directly answering the question about their general recommendation in all RMD patients.\nDifferences in Factual Accuracy and Safety: Answer A is factually inaccurate and potentially unsafe due to the hallucinated contraindications. Answer B is factually accurate and safe.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes. The retrieved context offered nothing of substance regarding the question, and the full guideline itself does not specifically address the question about combined estrogen-progestin contraceptives in the general RMD population outside of a specific subtype with SLE. Therefore, Answer B’s adherence to the retrieved context aligns perfectly with the truth within the broader guideline.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was very poor and not sufficient to answer the question.  This is evident in the stark difference between Answer B's Completeness_Given_Retrieval (10) and Completeness_Overall (8).  However, Answer B's high Faithfulness score (10), coupled with its high Factual Accuracy (10), demonstrates that the LLM correctly identified the inadequacy of the retrieved context and responded appropriately by acknowledging the lack of information. This is ideal behavior for a RAG model when faced with insufficient retrieval."
+    },
+    {
+        "question": "2. What is the preferred approach for patients at risk for osteoporosis in terms of contraceptive options?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers correctly identify that DMPA should be avoided in patients at risk for osteoporosis.  However, Answer B is superior due to its higher factual accuracy and conciseness while remaining faithful to the retrieved context. Answer A provides additional details about other contraceptive options that might be appropriate. While this information is not inaccurate, some of these suggestions (like estrogen-containing oral contraceptives) have nuances in their application for certain patients at risk for osteoporosis. Answer B, by faithfully adhering to the provided context, avoids potentially misleading advice.  Additionally, Answer B's direct and to-the-point style is preferable in this scenario.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A, while mostly accurate, introduces nuances regarding alternatives that aren't fully captured, potentially leading to misinterpretations. Answer B is more factually accurate and safe by strictly adhering to the retrieved context.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B demonstrates perfect faithfulness, and that faithfulness aligns perfectly with the relevant portion of the full guideline dealing specifically with osteoporosis risk.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient and good for this specific question. The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) comes from the full guideline discussing other contraceptive details not relevant to the *osteoporosis* part of the question.  Because Answer B maintained faithfulness (10) and high factual accuracy (10), it demonstrably extracted all the relevant information for the question from the given context."
+    },
+    {
+        "question": "2. What is the preferred approach for patients at risk for osteoporosis in terms of contraceptive options?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and conciseness, while maintaining strong relevance. Both answers correctly identify the need to avoid DMPA in patients at risk for osteoporosis. However, Answer A introduces additional information about alternative contraceptive methods without the nuance provided in the full guideline regarding other factors (SLE, aPL, etc.) that are also at play.  Answer B, being faithful to the retrieved context, sticks solely to the DMPA advice, which makes it more accurate and avoids potential misinterpretations by providing information outside the scope of the retrieved content.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A is slightly less factually accurate because it states alternative contraceptive methods are *safer* without qualifying this statement with the context-dependent factors outlined in the guideline.  While these alternative methods *may* be safer for some, this broad statement isn't universally true according to the full guideline. This creates a slight safety concern as a patient might misinterpret this as a blanket recommendation. Answer B, by focusing solely on the provided context about DMPA, avoids this potential misinterpretation, increasing its safety.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, answer B's faithfulness to the retrieved context perfectly aligns with the overall truth regarding DMPA use in osteoporosis patients in the full guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was good for answering the specific question about DMPA. While it didn't encompass the *full* guidance on contraceptives (hence the lower Completeness_Overall score for B), it provided the most relevant and critical information for the osteoporosis risk query. The high scores for Faithfulness and Factual Accuracy further strengthen the case that the retrieval was sufficient for addressing the core of the user's question accurately and safely."
+    },
+    {
+        "question": "2. What is the preferred approach for patients at risk for osteoporosis in terms of contraceptive options?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 8,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers correctly identify that DMPA should be avoided in patients at risk for osteoporosis. However, Answer A goes further by mentioning the importance of considering alternative highly effective or effective contraceptive methods based on patient preference, safety, and efficacy, aligning with the provided guidelines. Answer B focuses solely on avoiding DMPA without providing this additional context, making it less complete. Both answers are faithful to the retrieved context, and the retrieved context was sufficient to answer the question accurately.  Answer A provides slightly more information, making it the slightly better response. It's a better, safer, and more helpful answer as it acknowledges the broader need for appropriate contraceptive counseling while highlighting the specific risk of DMPA.\nDifferences in Factual Accuracy and Safety:  No differences; both are accurate and safe.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, it did.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: Yes, the retrieved context contains the key information regarding DMPA and osteoporosis risk.  While Answer B faithfully used *only* this info, it missed the larger context also present in the retrieval about other factors in contraceptive selection, which A *did* incorporate, highlighting how the broader context could be helpful even if not strictly *necessary* to give a truthful basic answer."
+    },
+    {
+        "question": "3. How should stress-dose glucocorticoids be administered during vaginal delivery according to the guideline?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information. Answer B is factually accurate, complete, and concise, accurately reflecting the information present in both the retrieved context and the full guideline.  RAG was essential in retrieving the relevant passage from the extensive guideline to allow B to generate a perfect answer.  Answer B's faithfulness to the limited retrieved context completely aligns with the overall guideline truth, indicating the retrieval was very effective. The retrieved context was sufficient, as demonstrated by B's high scores for both Completeness_Given_Retrieval and Completeness_Overall.  The identical Faithfulness and Factual Accuracy scores confirm the retrieval's alignment with the full guideline and its sufficiency for answering the question."
+    },
+    {
+        "question": "3. How should stress-dose glucocorticoids be administered during vaginal delivery according to the guideline?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information.  Answer B correctly identifies the guideline's conditional recommendation against routine stress-dose glucocorticoids during vaginal delivery.  It extracts the relevant information accurately and completely from the retrieved context, which happened to contain the full answer to the question. The retrieved context was sufficient, accurately reflecting the full guideline on this point, leading to a safe and correct answer in B.  Therefore, B is vastly superior due to its accurate, concise, and complete response derived faithfully and appropriately from the provided context.  This demonstrates the positive impact of RAG, allowing for a targeted and correct answer derived directly from the source material."
+    },
+    {
+        "question": "3. How should stress-dose glucocorticoids be administered during vaginal delivery according to the guideline?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate excellent faithfulness to the retrieved context and high relevance to the question.  However, Answer A interprets \"conditionally recommend against routine administration\" as a complete prohibition, missing the nuance of \"routine.\" Answer B correctly interprets this as not routinely administering the glucocorticoids, which aligns perfectly with the full guideline's intent. Therefore, Answer B is more factually accurate and complete. Both are concise, but B's slightly increased length improves its accuracy.\nThe impact of RAG is evident in both answers correctly focusing on the relevant information within the retrieved context. Answer B's higher accuracy demonstrates the potential benefit of larger context windows allowing for a more nuanced understanding.  Answer B's faithfulness aligns perfectly with the overall guideline's truth. The retrieved context proved sufficient for answering the question accurately, as demonstrated by Answer B's high completeness scores and accurate interpretation.  Answer A's slight inaccuracy showcases how important subtle phrasing can be even within a limited context."
+    },
+    {
+        "question": "4. What is the recommended approach for continuing tumor necrosis factor inhibitor therapy during pregnancy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and reliance on the provided context. While Answer A provides a reasonable overview, it lacks the specificity and direct guidance found in Answer B.  Answer A introduces the concept of discontinuing TNF inhibitors in the third trimester, which isn't explicitly mentioned in the provided context and makes it less factually accurate in this specific evaluation setting despite being reasonable general medical advice potentially found elsewhere.  It is much safer to adhere closely to the available guideline excerpt in this instance.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate and safer as it directly reflects the provided guideline excerpt. Answer A introduces information about third-trimester discontinuation that is not present in the given context and could potentially mislead a clinician making decisions based *only* on the provided text.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B demonstrates excellent faithfulness and accurately represents the recommendations within the retrieved context.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context appears sufficient for answering the question. Answer B achieved full completeness given the retrieval, and its faithfulness score aligns perfectly with its high factual accuracy.  Although more details may exist in the full guideline, the excerpt was adequate to answer the specific question posed.  The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) acknowledges that while B extracted all relevant information from the *retrieved* context, more nuance *might* exist in the complete guidelines it didn't have access to.  Since we are evaluating B's performance *given* the retrieval, this is still a strong result for B."
+    },
+    {
+        "question": "4. What is the recommended approach for continuing tumor necrosis factor inhibitor therapy during pregnancy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B, despite having slightly lower overall completeness compared to Answer A, is superior due to its perfect factual accuracy based on the provided guidelines. It faithfully adheres to the retrieved context, which accurately reflects the guideline's recommendation to continue TNF inhibitors during pregnancy.  Answer A, while generally accurate, introduces the concept of discontinuing TNF inhibitors in the third trimester, which is not explicitly mentioned in the provided context, potentially creating confusion or misinforming the user. This deviation impacts its factual accuracy score.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B is factually accurate and safer as it aligns perfectly with the guideline's recommendations. Answer A's suggestion of third-trimester discontinuation, though potentially valid in broader clinical practice based on other sources, is unsupported by the provided context and thus represents a potential safety risk.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness is perfect, and its content is accurate within the scope of the full guideline. The retrieved context contained the crucial information needed to answer the question correctly.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient to answer the specific question about continuing TNF inhibitors.  While it doesn't contain *every* detail relevant to TNF inhibitor use in pregnancy (hence the slight difference between Completeness_Given_Retrieval and Completeness_Overall), it *did* include the core recommendation accurately presented in B. The perfect faithfulness and factual accuracy further support the adequacy of the retrieved context for this specific query."
+    },
+    {
+        "question": "4. What is the recommended approach for continuing tumor necrosis factor inhibitor therapy during pregnancy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification:Both answers demonstrate excellent faithfulness, relevance, and accuracy regarding TNF inhibitor therapy during pregnancy. They both correctly extract and present the conditional recommendation for continuing treatment with infliximab, etanercept, adalimumab, or golimumab. However, Answer A is slightly more concise while still providing context regarding the placental transfer variations throughout pregnancy. Answer B adds a slightly redundant phrase about \"recommendations being made considering these variations\".  Both effectively utilized the retrieved context, which was sufficient to completely answer the question.  Therefore, the impact of RAG in this instance was positive, allowing both models to provide accurate and safe information.  However, Answer A's superior conciseness makes it slightly better overall.\nDifferences in Factual Accuracy and Safety: None.  Both are factually accurate and safe.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness perfectly aligned with the guideline truth.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context was excellent.  Answer B achieved full completeness based on it, and its faithfulness to that context resulted in a completely factually accurate response.  This demonstrates a good retrieval and a model capable of utilizing the retrieved context effectively."
+    },
+    {
+        "question": "5. How do biologic therapies vary in terms of placental transfer and fetal exposure during pregnancy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides more specific information grounded in the guidelines, particularly about TNF inhibitors and other IgG-based molecules. Both answers are relatively concise and well-written. However, Answer B adheres more closely to the provided context, specifically mentioning recommended TNF inhibitors during pregnancy.\ni. Differences in Factual Accuracy and Safety:  Answer A provides general information about biologics and pregnancy, which is factually accurate but lacks the specific recommendations present in Answer B. Answer B, by focusing on guideline excerpts, offers safer and more actionable information for clinical decision-making around specific biologics.  For example, the detailed advice on TNF inhibitors and other IgG-based molecules ensures safer prescribing practices.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B demonstrates excellent faithfulness to the retrieved context, accurately reflecting the information and recommendations contained within the excerpt. It avoids hallucinating any information outside of the given text, which enhances its safety and reliability.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient for a good initial response.  While Answer B's completeness based on the full guideline is slightly lower than its completeness based only on the retrieved context, this difference isn't substantial.  Given the high faithfulness and factual accuracy scores of Answer B, the retrieved context provided a solid foundation for answering the question accurately and safely, even if it didn't capture every nuance of the full guideline."
+    },
+    {
+        "question": "5. How do biologic therapies vary in terms of placental transfer and fetal exposure during pregnancy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides more specific and clinically relevant information regarding TNF inhibitors, directly addressing the question of placental transfer and fetal exposure for these specific therapies during pregnancy.  While Answer A gives a general overview of placental transfer, it lacks the crucial specifics of *when* transfer occurs and the recommendations for particular biologics like TNF inhibitors.  This makes Answer B safer and more accurate.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A's discussion of general antibody types is accurate but not helpful for practical clinical decision-making with TNF inhibitors during pregnancy.  Answer B aligns more directly with the guideline's recommendations, focusing on the relevant subset of biologics and their usage during different trimesters. This difference in accuracy directly impacts safety, as clinicians need concrete guidance on which biologics can be used and when during pregnancy.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes. Answer B faithfully presents the retrieved context, which, crucially, contains accurate and relatively complete information relevant to the question.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context, while not perfectly comprehensive regarding all biologics, provided sufficient and accurate information to answer the core of the question regarding TNF inhibitors.  Answer B's high scores for Faithfulness, Factual Accuracy, and Completeness_Given_Retrieval, contrasted with a slightly lower Completeness_Overall score,  illustrate this.  The drop in Completeness_Overall reflects the retrieved context's focus on TNF inhibitors and less on other biologics. However, for the specific question asked, this focused retrieval was beneficial and yielded a safer, more useful answer than the broader (but less precise) generalities provided by Answer A."
+    },
+    {
+        "question": "5. How do biologic therapies vary in terms of placental transfer and fetal exposure during pregnancy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 8,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 9,
+            "accuracy": 7,
+            "completeness_given": 9,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a more comprehensive and nuanced overview of the use of biologic therapies during pregnancy. While both answers accurately mention the delayed placental transfer of Fc IgG1 construct biologics, Answer A goes further to differentiate between TNF inhibitors and other non-TNF inhibitor IgG-based molecules. It highlights that while TNF inhibitors are generally continued during pregnancy, other IgG-based biologics are recommended for discontinuation.  Furthermore, it discusses the lack of data regarding newer small-molecule agents. Answer B primarily focuses on TNF inhibitors and their usage during different trimesters, missing the broader perspective offered by Answer A.\ni. Differences in Factual Accuracy and Safety:  Answer A is slightly more factually accurate and safer because of its inclusion of the recommendation to discontinue non-TNF inhibitors. Answer B's focus solely on TNF inhibitors could potentially mislead readers to believe that *all* biologics with Fc IgG1 constructs follow the same protocol.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is highly faithful to its retrieved context. However, this context snippet didn't cover the important nuance regarding non-TNF inhibitors, making its overall factual accuracy lower compared to Answer A, which drew from a slightly broader context.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context for Answer B was good in terms of covering the topic of TNF inhibitors in pregnancy but insufficient for a comprehensive answer about *all* biologic therapies. This is evident in the discrepancy between Answer B's high Completeness_Given_Retrieval score and lower Completeness_Overall and Factual Accuracy scores.  While faithful to its provided snippet, that snippet wasn't fully representative of the guideline's complete recommendations."
+    },
+    {
+        "question": "6. What is the panel's recommendation regarding the use of non-TNF inhibitor IgG-based molecules during the periconception period and pregnancy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information.  Answer B is accurate, complete, concise, and faithful to the retrieved context, which itself contains all the necessary information from the full guideline to appropriately address the question. The RAG process allowed for a safe and reliable response based on guideline recommendations.\nDifferences in Factual Accuracy and Safety: Answer A is inaccurate and provides no usable information. Answer B is factually accurate and safe, aligning with guideline recommendations.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Yes, answer B is perfectly faithful to the retrieved context, and that context contains the relevant information from the full guideline, making the answer truthful and accurate according to the guidelines.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. The completeness scores using only the retrieved context and the full guideline are both 10, demonstrating that the retrieved passage contained all necessary information. The faithfulness and factual accuracy scores are also both 10, further emphasizing the sufficiency and quality of the retrieved context."
+    },
+    {
+        "question": "6. What is the panel's recommendation regarding the use of non-TNF inhibitor IgG-based molecules during the periconception period and pregnancy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information, while Answer B accurately and completely addresses the question using information directly from the retrieved context, which aligns perfectly with the full guideline.  The retrieved context contained the pertinent information to answer the question fully. Answer B is therefore superior because it accurately reflects the guideline's recommendation on the use of non-TNF inhibitor IgG-based molecules during the periconception period and pregnancy.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A is inaccurate and potentially unsafe as it offers no guidance. Answer B is factually accurate and safe, reflecting the guideline's recommendations.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is entirely faithful to the retrieved context and, critically, this faithfulness aligns perfectly with the full guideline's recommendations.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B's completeness scores based on both the retrieved and full contexts are both high (10), as is its faithfulness score (10). This high degree of alignment indicates that the retrieved context contained all necessary information to fully and accurately address the clinical question.  This demonstrates the effectiveness of RAG in this instance."
+    },
+    {
+        "question": "6. What is the panel's recommendation regarding the use of non-TNF inhibitor IgG-based molecules during the periconception period and pregnancy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification:Both answers demonstrate excellent faithfulness, relevance, and accuracy regarding the panel's recommendations on non-TNF inhibitor IgG-based molecules during the periconception period and pregnancy.  Both correctly reflect the guideline's conditional recommendation to discontinue these medications upon a positive pregnancy test.  However, Answer A is slightly more concise while still capturing all essential information.  Answer B adds a sentence about weighing risks if disease control is an issue, which, while true, isn't directly asked about in the question. This slightly decreases its conciseness.  Both effectively use the retrieved context, accurately reflecting the guideline's stance.\nDifferences in Factual Accuracy and Safety:  No differences in factual accuracy or safety. Both answers are accurate and safe.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness to the retrieved context perfectly aligns with the full guideline's recommendations.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  The complete alignment between Answer B's Completeness_Given_Retrieval and Completeness_Overall scores, along with perfect Faithfulness and Factual Accuracy scores, shows the retrieval provided all necessary information to answer the question completely and accurately."
+    },
+    {
+        "question": "7. How should treatment with rituximab be managed in women trying to conceive and during pregnancy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and adherence to the guideline.  While Answer A provides general information about rituximab and pregnancy, it lacks the specific recommendations present in the guideline and retrieved context regarding continuing rituximab while trying to conceive and in cases of severe maternal disease. Answer B faithfully and accurately reflects the nuanced recommendations from the retrieved text.\ni. Differences in Factual Accuracy and Safety: Answer A suggests a general avoidance of pregnancy during rituximab treatment, contradicting the guideline's conditional recommendation to continue treatment while trying to conceive.  This discrepancy raises safety concerns, as Answer A might lead patients to unnecessarily discontinue a potentially beneficial treatment. Answer B accurately captures the guideline's recommendations, thus promoting safer and more informed decision-making.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Yes, Answer B's faithfulness to the retrieved context perfectly aligns with the overall guideline's truth regarding rituximab use during pregnancy and conception attempts. The retrieved context contained the key recommendations, and Answer B accurately presented them without adding or omitting crucial information.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context proved to be highly sufficient. Answer B achieved perfect faithfulness and completeness relative to the retrieved context, demonstrating the extract contained all essential information to answer the question accurately. Although Answer B’s overall completeness scored slightly lower, this is because the full guideline included a table summarizing the recommendations, which the retrieved text lacked.  However, the core recommendations were present in the retrieved context, making it a good and sufficient extract for answering the question."
+    },
+    {
+        "question": "7. How should treatment with rituximab be managed in women trying to conceive and during pregnancy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and completeness derived from adhering closely to the retrieved context, which accurately reflects the full guideline.  Answer A provides a more general and cautious approach to Rituximab use in pregnancy, recommending avoidance unless benefits outweigh risks, which doesn't align with the nuance of the guideline's conditional recommendation for continuation in severe cases.\ni. Differences in Factual Accuracy and Safety: Answer A is less factually accurate and potentially less safe because it leans towards general avoidance of Rituximab during pregnancy. Answer B, accurately reflecting the guideline, recognizes the possibility of continuation in severe, life-threatening maternal disease. This nuance is crucial for patient safety, as discontinuation in such cases could pose more risk than continuing the treatment.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness to the retrieved context perfectly aligned with the overall guideline's recommendations.  The retrieved context contained the crucial information regarding the conditional recommendation for continuing Rituximab during pregnancy in severe cases.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context was excellent. The high scores for Answer B's Completeness_Given_Retrieval (10) and Completeness_Overall (9), alongside perfect Faithfulness (10) and Factual Accuracy (10), demonstrate that the retrieved context contained the essential information needed to answer the question accurately and completely. The slight difference between Completeness_Given_Retrieval and Completeness_Overall suggests there might be minor additional details in the full guideline, but the core information was present in the retrieved context.  The RAG approach successfully leveraged this context to provide a much better answer than the baseline LLM."
+    },
+    {
+        "question": "7. How should treatment with rituximab be managed in women trying to conceive and during pregnancy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification:Both answers demonstrate excellent faithfulness, relevance, accuracy, and completeness with respect to both the retrieved context and the (empty) full guideline.  However, Answer A is slightly more concise while conveying the same information, making it marginally better.  The retrieved context contained the relevant information to answer the question completely; therefore, the RAG approach was effective in this case.  There are no safety concerns present in either answer, and both align perfectly with the provided context. Because the full guideline context was empty, it's impossible to make a judgement comparing the answers to a larger context."
+    },
+    {
+        "question": "8. What is the guideline's stance on the use of small-molecule agents like tofacitinib, baricitinib, and apremilast during pregnancy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information, claiming ignorance. Answer B correctly identifies that the guidelines lack data and thus make no recommendations regarding the use of tofacitinib, baricitinib, and apremilast during pregnancy.  It also accurately includes the caveat that these small molecules likely cross the placenta.  This demonstrates the effectiveness of RAG in retrieving and using relevant information to generate a factual and complete response. The retrieved context was sufficient to fully answer the question; Answer B’s high Faithfulness and Factual Accuracy scores, along with achieving full Completeness based on the retrieved context, demonstrate this.  The fact that its Completeness_Overall is also high shows the retrieval was highly relevant to the full guideline's stance on the issue.  This highlights a clear benefit and improvement in safety and accuracy provided by the RAG approach."
+    },
+    {
+        "question": "8. What is the guideline's stance on the use of small-molecule agents like tofacitinib, baricitinib, and apremilast during pregnancy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information, claiming ignorance. Answer B accurately states, based on the retrieved and full guideline contexts, that there are no recommendations for these drugs due to lack of data.  It also adds the important caveat that these molecules are likely to cross the placenta.  This demonstrates the positive impact of RAG, as it enabled a factually accurate and safe response, aligning perfectly with the guideline truth. The retrieved context was sufficient to fully answer the question, as evidenced by Answer B's high scores for both Completeness using ONLY Retrieved Context and Completeness vs Full Guideline Context.  The faithfulness score further confirms the quality of both the retrieved context and the model's use of it. The added information about placental transfer increased the safety and informative value of the answer, further highlighting the benefit of retrieval in this case."
+    },
+    {
+        "question": "8. What is the guideline's stance on the use of small-molecule agents like tofacitinib, baricitinib, and apremilast during pregnancy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately reflect the information provided in the full guideline and the retrieved context. They both state that there are no recommendations for the use of tofacitinib, baricitinib, and apremilast during pregnancy due to lack of data and acknowledge that these molecules are likely to cross the placenta.  There is no difference in factual accuracy or safety between the two answers. Answer B's faithfulness to its retrieved context aligned perfectly with the overall guideline truth.  The retrieved context was sufficient to answer the question completely and accurately, as evidenced by the high Completeness_Given_Retrieval and Completeness_Overall scores and the alignment between Faithfulness and Factual Accuracy for both answers. The slightly different phrasing between the two responses doesn't impact the core message or clinical utility of the information.  In this case, the RAG approach worked effectively, providing accurate and safe responses based on the available evidence."
+    },
+    {
+        "question": "9. What are the recommendations for breastfeeding while on RMD medications such as HCQ, colchicine, and TNF inhibitors?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy stemming from direct adherence to the retrieved context. While Answer A provides additional details about the mechanism of action and infant absorption, some of this information isn't present in the full guideline, and thus slightly lowers its factual accuracy score.  Although Answer A offers more details, these additions don't necessarily increase its usefulness for answering the specific question compared to the concise and accurate information in B.\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate because it draws directly from the guideline excerpt, which is a reliable source. Answer A includes additional information about the medications, which may generally be true, but is not verifiable within the provided context, potentially impacting safety as it might lead to unwarranted assumptions.  Answer B's strict adherence to the source material avoids this.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, the retrieved context accurately captured the guideline's recommendations on the mentioned medications and breastfeeding, making Answer B completely faithful *and* accurate.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B achieved perfect faithfulness and completeness relative to the retrieval.  The slight difference between its Completeness_Given_Retrieval (10) and Completeness_Overall (7) simply reflects that the full guideline might contain information about *other* RMD medications and breastfeeding not mentioned in the question or this particular excerpt, making the retrieval highly relevant and sufficiently comprehensive for the specific query."
+    },
+    {
+        "question": "9. What are the recommendations for breastfeeding while on RMD medications such as HCQ, colchicine, and TNF inhibitors?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy derived directly from the retrieved context. While Answer A provides mostly accurate information, it lacks the definitive recommendation for all TNF inhibitors present in B and the retrieved context.  Answer B also offers greater conciseness. Although A offers slightly more details on *why* these medications are considered compatible, the additional information is not explicitly requested by the question and slightly dilutes the core message.\ni. Differences in Factual Accuracy and Safety: Both answers are fairly safe and accurate. The primary difference lies in Answer A's generalized statement about TNF inhibitors. While generally true, it doesn't reflect the guideline's \"strong recommendation\" for *all* TNF inhibitors, as precisely captured in Answer B and the retrieved context.  Answer B's stronger stance, backed directly by the guideline, makes it more reliable.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B demonstrates perfect faithfulness to the retrieved context, and crucially, this context aligned perfectly with the overall guideline's recommendation on the specified medications.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved 100% completeness based on the context and maintainted perfect faithfulness while also demonstrating complete factual accuracy against the larger guideline. This suggests the retrieved context contained all necessary information to answer the query accurately and completely regarding the specific medications named."
+    },
+    {
+        "question": "9. What are the recommendations for breastfeeding while on RMD medications such as HCQ, colchicine, and TNF inhibitors?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers demonstrate excellent faithfulness, relevance, accuracy, and completeness.  However, Answer A is slightly better due to its superior conciseness and formatting (using bullet points for clarity).  Both answers correctly reflect the information from the retrieved context, which, in this case, is fully aligned with the overall guideline regarding the safety of HCQ, colchicine, and TNF inhibitors during breastfeeding.  The retrieved context provided sufficient information to fully answer the question.  There are no safety concerns as both answers accurately reflect the guideline's recommendations. The impact of RAG was positive here, providing a highly relevant passage that allowed both LLMs to generate accurate and complete answers."
+    },
+    {
+        "question": "10. How should breastfeeding be managed for women taking prednisone at different dose levels?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and adherence to the guideline. It also demonstrates excellent conciseness, directly addressing the question without unnecessary elaboration. While Answer A is relevant and reasonably complete, it lacks the precision of Answer B, particularly regarding the specific recommendation for doses ≥20mg/day.  Answer A suggests timing breastfeeding around doses, which, while a reasonable strategy for some medications, isn't the specific recommendation provided in the guideline for prednisone. This deviation affects its factual accuracy.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B provides factually accurate information aligned with the guideline, promoting safe breastfeeding practices. Answer A's advice on timing breastfeeding, while not inherently unsafe, is less precise and potentially less effective than the guideline's recommendation to discard milk or delay breastfeeding for 4 hours. This difference impacts the safety and reliability of the information provided.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B's faithfulness to the retrieved context perfectly aligns with the overall guideline truth. The retrieved context contained the crucial information regarding prednisone dosage and breastfeeding management, and Answer B accurately reflected this information without hallucination.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was indeed sufficient. Answer B achieved perfect completeness both in relation to the retrieved context and the full guideline, indicating that the retrieved snippet contained all the necessary information to answer the question accurately.  The perfect alignment between faithfulness and factual accuracy further reinforces the sufficiency and quality of the retrieved context. The RAG process significantly enhanced the quality and safety of the answer by grounding it in the evidence-based guideline."
+    },
+    {
+        "question": "10. How should breastfeeding be managed for women taking prednisone at different dose levels?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and adherence to the guideline. It provides precise instructions for managing breastfeeding at different prednisone dosages, directly reflecting the guideline's recommendations. Answer A, while generally relevant, lacks the specific 4-hour timeframe for discarding breastmilk at higher doses and introduces unnecessary \"very high dose\" category, which could confuse patients.  The RAG process significantly improved the quality and safety of the answer.\nDifferences in Factual Accuracy and Safety: Answer A generalizes management, potentially leading to suboptimal infant exposure. Answer B provides the precise, safe instructions from the guideline. This difference impacts safety by minimizing the infant's drug exposure.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B precisely reflects the information within the retrieved context, which accurately represents the full guideline's recommendations regarding prednisone and breastfeeding.  This demonstrates successful and safe application of RAG.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B achieved perfect completeness based on *both* the retrieved context and the full guideline, demonstrating the sufficiency of the retrieved information.  Furthermore, the perfect faithfulness and factual accuracy scores confirm that the selected context contained all the necessary information and was accurately interpreted by the model."
+    },
+    {
+        "question": "10. How should breastfeeding be managed for women taking prednisone at different dose levels?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and completely address the question based on the provided context.  They extract the relevant information concerning prednisone dosages and breastfeeding recommendations, presenting them clearly and concisely. There are no factual errors. Answer B adds slightly more explanatory text (\"This precaution helps to minimize the infant's exposure to the higher concentration of the drug in the breast milk immediately following the dose\"), but this doesn't make it significantly better than A's more succinct phrasing. Both answers demonstrate strong faithfulness to the retrieved context, which accurately reflected the full guideline's recommendations regarding prednisone and breastfeeding. The retrieved context was sufficient, as evidenced by both answers achieving full completeness scores based on it. There are no safety concerns related to either answer.  Because of their substantial similarity in quality and content, the answers are considered comparable."
+    }
+]

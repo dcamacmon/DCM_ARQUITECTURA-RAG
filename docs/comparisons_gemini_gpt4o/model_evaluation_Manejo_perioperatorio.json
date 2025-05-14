@@ -1,0 +1,692 @@
+[
+    {
+        "question": "1. What are the key recommendations for perioperative management of antirheumatic medication in patients with rheumatic diseases undergoing elective total hip or total knee arthroplasty according to the 2022 American College of Rheumatology guideline?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 5,
+            "accuracy": 3,
+            "completeness_given": 10,
+            "completeness_overall": 2,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A admits it cannot answer the question. Answer B, while lacking key details regarding specific medication recommendations, at least acknowledges the existence and focus of the 2022 ACR/AAHKS guideline, correctly identifying infection risk reduction as a primary concern and mentioning the principle of shared decision-making. It is thus slightly more helpful than a complete deferral.\ni. Differences in Factual Accuracy and Safety: Neither answer provides specific medication guidance, thus direct factual accuracy comparisons are difficult.  However, Answer B is more accurate in broadly characterizing the guideline's goals, while Answer A provides nothing. Safety-wise, neither poses a risk, as B sticks to general principles without recommending specific actions, and A defers completely.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is entirely faithful to the retrieved context. It correctly reflects the limited information available in the snippets.  The problem is the context itself doesn't contain the specific recommendations requested in the prompt.  The context focuses on the *existence* and scope of the guideline, not its content.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context is extremely poor.  While Answer B extracts all it can from the provided snippets (high Completeness_Given_Retrieval and Faithfulness), it still fails to answer the question about specific recommendations (low Completeness_Overall and limited Factual Accuracy regarding actual medication management).  This discrepancy highlights how insufficient the retrieval was for addressing the question.  The provided context discussed the guideline's existence and scope, not its content.  The retrieval engine provided context about *the guideline*, but not the *content within* the guideline relevant to the question."
+    },
+    {
+        "question": "1. What are the key recommendations for perioperative management of antirheumatic medication in patients with rheumatic diseases undergoing elective total hip or total knee arthroplasty according to the 2022 American College of Rheumatology guideline?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 8,
+            "accuracy": 2,
+            "completeness_given": 10,
+            "completeness_overall": 2,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information other than admitting it doesn't know. Answer B, while lacking the specific recommendations due to the retrieved context lacking them, gives a good overview of what the guideline *is* and who it's for.  Crucially, it emphasizes the increased risk of infection and thromboembolic events, implicitly acknowledging the need for careful management without specifying what that management is.  It also correctly points out the need to consult the full guideline.\ni. Differences in Factual Accuracy and Safety: Answer A is not factually inaccurate, but rather entirely absent of factual information.  Answer B provides accurate high-level context around the guideline's purpose and target population but lacks the specific drug recommendations.  This makes B slightly more helpful but also carries a risk if a user mistakes its general information as complete guidance.  However, B does clearly state that it doesn't contain specific drug recommendations and recommends consulting the full guideline.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is completely faithful to the retrieved context.  The issue is the context *itself* lacked the table with specific recommendations.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context is insufficient to answer the core question.  B's high Completeness_Given_Retrieval score reflects its thorough use of the provided snippet, while the low Completeness_Overall score reflects the snippet's inadequacy regarding the user's question.  B's high Faithfulness score and relatively low Factual Accuracy further underscore that the limitation lies in the retrieval, not the LLM's handling of the context."
+    },
+    {
+        "question": "1. What are the key recommendations for perioperative management of antirheumatic medication in patients with rheumatic diseases undergoing elective total hip or total knee arthroplasty according to the 2022 American College of Rheumatology guideline?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 8,
+            "relevance": 6,
+            "accuracy": 6,
+            "completeness_given": 7,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 7,
+            "accuracy": 6,
+            "completeness_given": 8,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers acknowledge that the specific recommendations are not present in the retrieved context.  However, Answer B provides slightly more context gleaned from the retrieved information related to which patient populations are addressed and the types of risks considered by the guideline.  Both appropriately recommend consulting the full guideline for specific recommendations. Answer B is slightly less concise but adds relevant information without hallucinating.  This demonstrates the potential benefits of RAG - while neither answer could fully answer the question, the larger context window of B allowed it to extract slightly more pertinent details.\nDifferences in Factual Accuracy and Safety: Both answers are factually accurate based on the limited context. Neither introduces inaccurate or unsafe information.  Both acknowledge the limitations of the retrieved content.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B remained faithful to the retrieved context.  It correctly states that the provided text doesn't list the specific recommendations, which aligns with the full guideline. It also accurately reflects the patient populations and risks considered.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was not sufficient to answer the question completely.  This is evident in the large difference between B's Completeness_Given_Retrieval (8) and Completeness_Overall (6). Despite accurately summarizing the provided snippet, it still couldn't provide the specific recommendations requested in the question. This highlights a core challenge of RAG; even perfect faithfulness to an insufficient retrieval cannot deliver a complete answer."
+    },
+    {
+        "question": "2. Why are all recommendations in the guideline considered conditional?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information and is therefore useless. Answer B provides a correct and complete answer to the question based on the retrieved context, which contained all the relevant information from the full guideline needed to answer the question.  The RAG process worked effectively in this case, providing a safe and reliable answer directly from the source guideline.\nDifferences in Factual Accuracy and Safety: Answer A is factually inaccurate and unsafe as it provides no information. Answer B is both factually accurate and safe, accurately reflecting the nuance of a \"conditional recommendation\" from the guidelines.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B adhered perfectly to the retrieved context. In this particular instance, the retrieved context included all the information about \"conditional recommendations\" that was present in the broader guideline, so faithfulness in this case aligned with the full guideline's truth.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context proved to be entirely sufficient. Answer B demonstrates full completeness based on *both* the retrieved context and the overall guideline.  The alignment of faithfulness and factual accuracy scores confirms the retrieved context contained the complete and accurate information necessary for the question.  This example highlights a best-case scenario for RAG, where the retrieved information perfectly encapsulates the relevant part of the larger document."
+    },
+    {
+        "question": "2. Why are all recommendations in the guideline considered conditional?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information and is therefore useless. Answer B correctly identifies and explains why recommendations are considered conditional according to the full guideline.  It pulls the relevant information from the retrieved context without hallucinating or adding outside information.  The retrieved context provided sufficient information for a complete and accurate answer, highlighting the effectiveness of RAG in this case.  The faithfulness of B to the retrieved context also ensured the answer was accurate and safe, as it aligned with the full guideline's truth.  There are no factual accuracy or safety concerns with B."
+    },
+    {
+        "question": "2. Why are all recommendations in the guideline considered conditional?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers accurately reflect the information in the retrieved context and the full guideline, explaining that \"conditional\" recommendations reflect the expert panel's belief that most, but not all, patients would choose the recommended course of action.  This necessitates shared decision-making. However, Answer A is slightly more concise while still providing a complete explanation, making it slightly better overall.  Answer B is very slightly repetitive.\nThe RAG process was successful in both cases.  The retrieved context contained the necessary information to fully and accurately answer the question.\ni. Differences in Factual Accuracy and Safety:  No differences.  Both are accurate and safe.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, it did.  The retrieved context accurately reflected the full guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: Yes, the retrieved context was excellent. The scores for Completeness_Given_Retrieval and Completeness_Overall are identical, as are the scores for Faithfulness and Factual Accuracy. This indicates the retrieved snippet contained all the necessary and correct information."
+    },
+    {
+        "question": "3. Which disease-modifying antirheumatic drugs (DMARDs) are conditionally recommended to be continued through surgery for patients with RA, AS, PsA, JIA, or SLE undergoing elective THA or TKA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and completeness derived directly from the retrieved context.  While Answer A is mostly accurate, it omits apremilast and adds the less precise categorization of \"conventional synthetic DMARDs.\" Answer B's faithfulness to the retrieved context perfectly aligns with the overall guideline truth, indicating a highly relevant and useful retrieval. The retrieved context appears entirely sufficient, as evidenced by Answer B achieving full completeness based on it, matching the full guideline's recommendations.  This demonstrates the effectiveness of RAG in providing precise and reliable answers directly from guidelines.\nDifferences in Factual Accuracy and Safety: Answer A is generally accurate but omits a recommended DMARD (apremilast). This omission could impact patient safety if a clinician relied solely on Answer A and discontinued apremilast unnecessarily. Answer B, being fully accurate, avoids this safety risk.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, perfectly.  The retrieved context contained the exact and complete recommendation from the guideline, and Answer B faithfully reproduced it.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B's identical scores for completeness (using only retrieved context vs. the full guideline) and its perfect faithfulness score alongside perfect factual accuracy confirm the retrieved context contained all necessary information for a complete and accurate answer."
+    },
+    {
+        "question": "3. Which disease-modifying antirheumatic drugs (DMARDs) are conditionally recommended to be continued through surgery for patients with RA, AS, PsA, JIA, or SLE undergoing elective THA or TKA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and completeness derived directly from the retrieved context. While Answer A is mostly accurate, it omits apremilast and adds the qualifier \"conventional synthetic DMARDs,\" which, while technically correct for the listed drugs, isn't explicitly mentioned in the guideline and could lead to unnecessary confusion.  Answer B's faithfulness to the retrieved context aligned perfectly with the overall guideline's recommendations. The retrieved context proved sufficient, as evidenced by Answer B's perfect Completeness_Given_Retrieval and Completeness_Overall scores, as well as the alignment between its Faithfulness and Factual Accuracy scores.  The RAG approach clearly enhanced accuracy and completeness in this case.\nDifferences in Factual Accuracy and Safety: Answer A missed one recommended DMARD (apremilast). This omission, while not drastically impacting safety, makes Answer B more reliable.  Answer A also uses a slightly more ambiguous wording, which is less precise than the clear statement provided by the guideline and reflected in Answer B.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, perfectly.  Answer B extracted the exact recommendation from the provided context, which accurately reflects the full guideline.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context was excellent. It contained the full and precise answer to the question. This is evidenced by the identical scores for Completeness_Given_Retrieval and Completeness_Overall, as well as the perfect Faithfulness and Factual Accuracy scores for Answer B."
+    },
+    {
+        "question": "3. Which disease-modifying antirheumatic drugs (DMARDs) are conditionally recommended to be continued through surgery for patients with RA, AS, PsA, JIA, or SLE undergoing elective THA or TKA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and completely address the question based on the provided context.  They both demonstrate excellent faithfulness to the retrieved context, extracting the relevant information without hallucination.  The retrieved context itself appears sufficient to answer the question completely, as evidenced by the high Completeness_Given_Retrieval and Completeness_Overall scores being equal, along with perfect Faithfulness and Factual Accuracy scores. There is no difference in accuracy or safety between the answers. Answer B is slightly more concise by using \"and\" instead of \"and/or\" which is also reflected in the retrieved context. However, the difference is negligible.  The impact of RAG is positive in both cases, providing accurate and complete information directly from the source guideline."
+    },
+    {
+        "question": "4. What is the recommendation for withholding biologics, including rituximab, prior to surgery for patients with RA, AS, PsA, or JIA undergoing elective THA or TKA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information. Answer B is accurate, complete, concise, faithful to the retrieved context, and covers all relevant aspects of the recommendation regarding withholding biologics prior to elective THA or TKA for patients with RA, AS, PsA, or JIA.  RAG was essential here in providing a good answer grounded in evidence, as the baseline LLM failed.\ni. Differences in Factual Accuracy and Safety: Answer A is not factually accurate and therefore unsafe as it provides no guidance. Answer B, derived using RAG, provides factually accurate information aligning with the full guideline, promoting safe perioperative management of biologics in the specified patient populations.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B adheres perfectly to the retrieved context and, importantly, this retrieved context completely aligns with the full guideline's recommendations, making Answer B entirely reliable and trustworthy.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B demonstrates perfect Completeness_Given_Retrieval and this score is also a perfect 10 for Completeness_Overall, indicating the retrieval encompassed all necessary information.  Similarly, perfect Faithfulness and Factual Accuracy scores confirm the retrieved snippet contained the complete and accurate truth according to the full guideline.  This indicates a highly effective retrieval in this instance."
+    },
+    {
+        "question": "4. What is the recommendation for withholding biologics, including rituximab, prior to surgery for patients with RA, AS, PsA, or JIA undergoing elective THA or TKA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information. Answer B is accurate, complete, and concise regarding the recommendations for withholding biologics before surgery in patients with RA, AS, PsA, or JIA undergoing elective THA or TKA.  It correctly extracts and synthesizes the relevant information from the retrieved context. The retrieved context included the relevant guideline recommendations and was sufficient to answer the question thoroughly. The RAG approach was successful here, delivering a much safer and more informative answer aligned with clinical guidelines than the generative LLM, which failed to provide any answer at all.\nDifferences in Factual Accuracy and Safety: Answer A is factually inaccurate and unsafe as it provides no information. Answer B is factually accurate and safe as it correctly reflects the guideline recommendations.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is completely faithful to the retrieved context, which happened to align perfectly with the overall guideline truth in this case.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient and good. Answer B demonstrates perfect Completeness_Given_Retrieval and Completeness_Overall scores, indicating that the retrieved snippet contained all essential information to fully address the question.  Furthermore, its perfect Faithfulness and Factual Accuracy scores confirm that the information within the retrieved context accurately reflects the full guideline."
+    },
+    {
+        "question": "4. What is the recommendation for withholding biologics, including rituximab, prior to surgery for patients with RA, AS, PsA, or JIA undergoing elective THA or TKA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 8,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 8,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers accurately reflect the guideline's recommendation on withholding biologics before surgery.  However, Answer A is slightly better due to its stricter faithfulness to *only* the retrieved context. Answer B adds context regarding balancing the risks of flares and infection, which, while true and helpful, is not present in the provided retrieved snippet. Therefore, Answer A demonstrates perfect faithfulness and conciseness while still providing a complete answer based on the retrieved text. Although the additional information in Answer B is accurate and potentially valuable in a real-world clinical setting, it slightly detracts from the pure evaluation of RAG performance based on *just* the provided retrieval, as requested by the prompt.\nDifferences in Factual Accuracy and Safety:  There are no differences in factual accuracy or safety between the two answers. Both correctly address the core question.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B's faithfulness is slightly lower because of the inclusion of the risk-balancing statement, which is not present in the retrieved context. However, this added information *is* consistent with the overall guideline's intent.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B's slight drop in faithfulness is due to adding accurate information from elsewhere in the guideline rather than hallucinating.  The fact that Answer B achieved full completeness despite minor unfaithfulness to the retrieved context highlights that the retrieved snippet contained the core information needed to answer the question thoroughly."
+    },
+    {
+        "question": "5. How should glucocorticoid therapy be managed for patients with RA, AS, PsA, or SLE undergoing THA or TKA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 6
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and adherence to the guideline.  While Answer A provides a broader overview of perioperative glucocorticoid management, it contains inaccuracies. Specifically, Answer A recommends stress dosing, which is contradicted by the guideline's recommendation to maintain the current dose. Answer B correctly reflects the guideline's recommendation to continue the usual daily dose. Although Answer B is less complete in terms of general perioperative management, its faithfulness to the accurate retrieved context makes it safer and more reliable in this specific instance.\nDifferences in Factual Accuracy and Safety: Answer A promotes a potentially harmful practice (supraphysiologic dosing) which is directly contradicted by the guideline. Answer B, by sticking to the retrieved context, avoids this error and is thus safer.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, the retrieved context accurately captured the key recommendation regarding glucocorticoid management, and Answer B faithfully reflected this.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context, while limited in scope, was sufficient for answering the specific question accurately and safely. Answer B's high Completeness_Given_Retrieval and perfect Faithfulness scores, coupled with its high Factual Accuracy score, demonstrate that the retrieved context contained the crucial information. While a more comprehensive answer might be desirable in some situations, in this case, the conciseness and accuracy of Answer B stemming from the retrieved context make it the better choice."
+    },
+    {
+        "question": "5. How should glucocorticoid therapy be managed for patients with RA, AS, PsA, or SLE undergoing THA or TKA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 6
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and adherence to the latest guideline recommendations.  While Answer A provides general information about glucocorticoid management in surgical settings, it suggests \"stress dosing\" which is specifically *not* recommended by the guideline.  This makes Answer A potentially harmful. Answer B correctly reflects the guideline's conditional recommendation to continue the current glucocorticoid dose, thereby avoiding potential harm from supraphysiologic doses. Answer B's faithfulness to the retrieved context aligned perfectly with the full guideline's truth, demonstrating the effectiveness of RAG in extracting and presenting accurate information.  The retrieved context was sufficient to answer the question thoroughly, evident from Answer B's high Completeness_Given_Retrieval and Completeness_Overall scores, both of which surpass Answer A.  The slight difference in Completeness_Overall scores (9 for B vs 7 for A) reflects some additional nuance that could be gleaned from the full guideline, but Answer B captured the core recommendation accurately and safely.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A's suggestion of stress dosing contrasts directly with the guideline, representing a significant factual inaccuracy and safety concern. Answer B accurately reflects the guideline, leading to a safer recommendation.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, perfectly. Answer B distilled the essential information from the retrieved context without adding or misrepresenting information.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  The minimal difference between Completeness_Given_Retrieval and Completeness_Overall, along with perfect faithfulness and factual accuracy, demonstrates the retrieval's adequacy for answering the question comprehensively and accurately."
+    },
+    {
+        "question": "5. How should glucocorticoid therapy be managed for patients with RA, AS, PsA, or SLE undergoing THA or TKA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers are factually accurate and complete with respect to the full guideline. Answer A is negligibly more concise and faithful to the specific retrieved context (Answer B adds context regarding the issuing body of the guidelines and states that supraphysiologic doses haven't been shown to improve outcomes which, while true based on the full guideline, isn't present in the retrieved snippet.)  The retrieved context was sufficient for answering the clinical question.  Both answers are safe as they reflect the guideline recommendations, but Answer A's enhanced conciseness makes it slightly better for quick, reliable clinical decision-making.  The differences in RAG size (500 vs 1000) did not lead to a difference in clinical utility in this case, as both answered the question accurately based on the full guideline and the retrieved context was adequate."
+    },
+    {
+        "question": "6. What is the updated recommendation for withholding tofacitinib, baricitinib, and upadacitinib prior to surgery for patients with RA, AS, PsA, or JIA undergoing THA or TKA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A defers answering, claiming lack of knowledge.  Answer B correctly identifies and extracts the updated 3-day withholding recommendation for tofacitinib, baricitinib, and upadacitinib before THA/TKA for patients with RA, AS, PsA, or JIA from the provided context. It also correctly labels the recommendation as conditional and based on low-quality evidence, all present in the retrieved context.  Answer B demonstrates the positive impact of RAG by providing a concise, accurate, and complete answer based on the relevant guideline information it was given.\nDifferences in Factual Accuracy and Safety: Answer A is neither accurate nor unsafe, but unhelpful. Answer B is factually accurate and safe based on the provided guideline context.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B's faithfulness to the retrieved context fully aligns with the information provided. Assuming the retrieved context represents the overall guideline's stance on this specific question, Answer B is truthful.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context proved sufficient.  Answer B achieved full completeness using only the retrieved information, and as its faithfulness score is perfect, its factual accuracy also reflects the provided guideline content. This suggests the retrieval effectively captured the necessary information for a complete and accurate answer to this question."
+    },
+    {
+        "question": "6. What is the updated recommendation for withholding tofacitinib, baricitinib, and upadacitinib prior to surgery for patients with RA, AS, PsA, or JIA undergoing THA or TKA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A admits it cannot answer the question. Answer B correctly identifies the updated recommendation for withholding tofacitinib, baricitinib, and upadacitinib before surgery (3 days) along with the rationale for the change.  Answer B demonstrates the positive impact of RAG by providing a factually accurate, complete, and concise response derived directly from the relevant retrieved context.\ni. Differences in Factual Accuracy and Safety: Answer A is neither factually accurate nor safe, as it fails to provide the necessary information and advises seeking external resources. Answer B, on the other hand, is both accurate and safe, aligning with the full guideline's recommendations.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B remains perfectly faithful to the retrieved context, accurately reflecting the updated recommendation and its rationale, which are consistent with the full guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was indeed sufficient. Answer B achieved perfect completeness scores both in terms of the retrieved context and the overall guideline, demonstrating that the retrieved context contained all necessary information to answer the question fully and accurately.  Its perfect faithfulness score alongside a perfect factual accuracy score further reinforces the sufficiency and quality of the retrieval."
+    },
+    {
+        "question": "6. What is the updated recommendation for withholding tofacitinib, baricitinib, and upadacitinib prior to surgery for patients with RA, AS, PsA, or JIA undergoing THA or TKA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers are factually accurate and complete according to the full guideline and faithful to the retrieved context.  However, Answer A is more concise while still providing all the necessary information. Answer B adds extra detail about the rationale behind the change from previous guidelines which, while accurate, makes the answer slightly less concise without adding substantial value for the clinical question asked. Both retrievals were sufficient to answer the question accurately and completely.  In this specific case, the additional context provided to Answer B (RAG1000) did not improve the answer and slightly detracted from its conciseness."
+    },
+    {
+        "question": "7. What medications are conditionally recommended to be withheld for patients with SLE (not severe) undergoing THA or TKA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information, claiming it doesn't know the answer. Answer B, on the other hand, extracts the correct information from the retrieved context and lists all medications conditionally recommended to be withheld, along with the recommended timeframe.  This demonstrates the positive impact of RAG, providing a factually accurate, complete, concise, and safe response derived directly from the guideline.  Answer B's faithfulness to its retrieved context perfectly aligns with the overall guideline truth. The retrieved context was sufficient and good as demonstrated by Answer B achieving full completeness based on that context and its factual accuracy being perfectly aligned with its faithfulness score."
+    },
+    {
+        "question": "7. What medications are conditionally recommended to be withheld for patients with SLE (not severe) undergoing THA or TKA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides no information, stating \"I don't know.\"  Answer B is significantly better, accurately and completely identifying all medications conditionally recommended to be withheld in the specified patient population based on the full guideline.  It faithfully reproduces the relevant information extracted from the retrieved context, which thankfully contained all the information needed to completely answer the clinical question.  The retrieved context was sufficient and of high quality. It allowed the RAG LLM to achieve perfect factual accuracy without hallucination, demonstrating the clear advantage of RAG in providing safe and reliable clinical information. The conciseness of both answers is good, although conciseness is less important than correctness in this context where Answer A offers no helpful information at all. There are no safety concerns with B since it follows the guidelines and restricts itself to only the provided information."
+    },
+    {
+        "question": "7. What medications are conditionally recommended to be withheld for patients with SLE (not severe) undergoing THA or TKA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate excellent factual accuracy and completeness based on both the retrieved context and the full guideline.  However, Answer B is slightly more concise as it consolidates the medication lists into a single, easy-to-read format.  While Answer A separates the medications with different withholding durations, this distinction isn't essential to answer the core question about *which* medications are recommended for withholding.  Answer B effectively streamlines the presentation of information while maintaining accuracy and completeness.  Both answers exhibit perfect faithfulness to their retrieved contexts which, in this instance, were sufficient to provide a complete answer.  There are no safety concerns with either answer.\nThe impact of RAG is positive in this case, as both retrieved contexts contained all the necessary information to answer the question accurately.  Answer B's faithfulness to its limited context aligned perfectly with the overall guideline truth. The retrieved context was indeed sufficient, demonstrated by identical completeness scores whether measured against the retrieved or the full guideline context. This indicates that the retrieval process successfully captured all the pertinent information needed to answer the question fully."
+    },
+    {
+        "question": "8. What is the recommendation for patients with severe SLE undergoing THA or TKA regarding the continuation of belimumab and rituximab?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides a canned disclaimer stating it cannot answer the question.  Answer B correctly identifies the recommendations for Belimumab and Rituximab use in patients with severe SLE undergoing THA/TKA.  It accurately extracts the information from the retrieved context which correctly reflects the full guideline. It also correctly labels the recommendation as \"conditional\" based on low-quality evidence. Answer B also adds relevant context regarding the rationale. The retrieved context was sufficient to answer the question fully."
+    },
+    {
+        "question": "8. What is the recommendation for patients with severe SLE undergoing THA or TKA regarding the continuation of belimumab and rituximab?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": null,
+            "completeness_overall": 1,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer A provides a canned disclaimer response admitting it doesn't know the answer.  Answer B is excellent, pulling the exact recommendations from the retrieved context. It is perfectly faithful to the retrieved context, which itself contained all the necessary information to fully address the question's nuances about severe SLE and these specific medications in the context of THA/TKA. The retrieved context was thus very high quality and sufficient, leading to a very good RAG response.  The differences in factual accuracy and safety are stark; A provides nothing useful, while B offers precise and safe guidance aligned with the guidelines.  B's faithfulness directly translated into excellent factual accuracy precisely because the retrieval was so good."
+    },
+    {
+        "question": "8. What is the recommendation for patients with severe SLE undergoing THA or TKA regarding the continuation of belimumab and rituximab?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers demonstrate excellent faithfulness, relevance, and accuracy regarding the provided context.  They both successfully extract the key information about continuing belimumab and timing surgery around the rituximab cycle.  However, Answer A is slightly more concise while still providing the important rationale related to belimumab's use in severe SLE and its relatively low infection risk. Answer B adds the detail about months 5 or 6, which, while true, doesn't add much value given the \"last month of the cycle\" guidance.  Both answers' faithfulness to the retrieved context aligned perfectly with the overall guideline's recommendations. The retrieved context was clearly sufficient to answer the question completely and accurately, as evidenced by the high scores for both Completeness_Given_Retrieval and Completeness_Overall, as well as the alignment between Faithfulness and Factual Accuracy scores. There are no safety concerns with either answer.  Answer A is marginally better due to its conciseness."
+    },
+    {
+        "question": "9. When should antirheumatic therapy be restarted for patients with RA, AS, PsA, or SLE who underwent total joint arthroplasty?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 6
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and completeness derived directly from the retrieved context, which aligned perfectly with the full guideline. Answer A, while generally relevant, lacks the specific criteria and timeframe provided by the guideline and accurately reflected in Answer B.  The RAG process significantly improved the quality and reliability of the answer by grounding it in the evidence-based guideline.\nDifferences in Factual Accuracy and Safety: Answer A provides a generalized overview, introducing nuances like the distinction between biologic and non-biologic DMARDs and their respective restart timelines, which are not explicitly mentioned in the provided guideline context. While not necessarily inaccurate, these additions create ambiguity and potentially introduce risk by suggesting broader restart windows. Answer B, adhering strictly to the retrieved context, provides a concise and accurate answer aligned with the guideline, enhancing safety.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness was perfect, and the retrieved context itself contained the accurate and complete answer according to the full guideline.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B's perfect scores across faithfulness, completeness using only the retrieved context, and factual accuracy against the full guideline demonstrate that the retrieved context contained all necessary information to answer the question completely and accurately.  The identical scores for Completeness_Given_Retrieval and Completeness_Overall confirm that the retrieved snippet was sufficient and didn't miss any crucial details present in the full guideline."
+    },
+    {
+        "question": "9. When should antirheumatic therapy be restarted for patients with RA, AS, PsA, or SLE who underwent total joint arthroplasty?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and completeness derived directly from the retrieved context, which contained the most relevant information from the full guideline.  Answer A provides a more general overview, acknowledging factors like medication type and disease activity, but lacks the specific guidance presented in Answer B, including the 14-day timeframe. This makes Answer B safer as it aligns with guideline recommendations.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A is less factually accurate regarding the specific timing of restarting medication, offering a vague timeframe and potentially delaying treatment. Answer B aligns precisely with the guideline's recommendations, promoting safer and more timely intervention.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is perfectly faithful to the retrieved context and aligns completely with the relevant portion of the full guideline. The retrieved context contained the core recommendation for this question.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved perfect completeness based on both the retrieved and full guideline contexts, demonstrating that the retrieval engine effectively captured the necessary information.  The perfect alignment of faithfulness and factual accuracy further underscores the sufficiency and quality of the retrieved context. The RAG process significantly enhanced the quality and safety of the answer compared to the baseline LLM."
+    },
+    {
+        "question": "9. When should antirheumatic therapy be restarted for patients with RA, AS, PsA, or SLE who underwent total joint arthroplasty?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and completely address the question based on the provided context.  They both demonstrate excellent faithfulness to the retrieved context, which itself contains all the necessary information from the full guideline to answer the question.  The slight phrasing differences between A and B (\"who have undergone\" vs \"following\") are negligible in terms of meaning and impact. Therefore, both are equally safe and reliable, making them comparable.\nThe RAG process was successful in this case. Both models were able to accurately extract and present the relevant information from the retrieved context.\ni. Differences in Factual Accuracy and Safety: None.  Both answers are factually accurate and safe.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness to the retrieved context fully aligned with the overall guideline's recommendation.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient and good.  Answer B's perfect scores across Completeness_Given_Retrieval, Completeness_Overall, Faithfulness, and Factual Accuracy demonstrate that the retrieved context contained all the necessary information, and the model accurately utilized it without hallucination or omission."
+    },
+    {
+        "question": "10. What is the recommendation for managing glucocorticoid therapy on the day of surgery for patients with RA, AS, PsA, or SLE undergoing THA or TKA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and adherence to the guideline. While Answer A introduces the concept of stress-dose steroids, the guideline specifically recommends *against* supraphysiologic doses. This makes Answer B safer. Both answers acknowledge continuing the regular dose, but Answer A's inclusion of potentially conflicting information lowers its safety and reliability.  Answer B also benefits from being very concise while still capturing the core recommendation. The RAG process, by anchoring the response to the retrieved context, ensures higher factual accuracy aligned with the guideline.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B is factually accurate and safe, aligning with the guideline’s recommendation against supraphysiologic doses. Answer A is less accurate and potentially unsafe by suggesting \"stress-dose steroids,\" which could be misinterpreted.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness was crucial. The retrieved context accurately reflected the guideline's core recommendation, and B stuck to it, resulting in a safe and reliable answer.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved perfect completeness *given* the retrieval and maintained perfect factual accuracy when compared to the full guideline. This demonstrates the context contained the crucial information, and the RAG process effectively utilized it. While additional nuance exists within the full guideline, the core and most critical advice was present in the retrieved snippet, making it sufficient for a safe and accurate answer."
+    },
+    {
+        "question": "10. What is the recommendation for managing glucocorticoid therapy on the day of surgery for patients with RA, AS, PsA, or SLE undergoing THA or TKA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and completeness derived directly from the retrieved guideline context.  While Answer A correctly mentions continuing the usual glucocorticoid dose, it introduces the concept of \"stress-dose steroids\" which, according to the full guideline (and reflected in Answer B), is *not* recommended. This inaccuracy in A represents a potential safety risk. Answer B demonstrates perfect faithfulness to the retrieved context, which, in this case, aligned perfectly with the overall guideline's truth.  The retrieved context was clearly sufficient to fully and accurately answer the question, as evidenced by Answer B's high scores in Completeness_Given_Retrieval, Completeness_Overall, and Factual Accuracy. The RAG approach ensured a more accurate and reliable answer by grounding it directly in the guideline's recommendations, avoiding potential inaccuracies and promoting patient safety by adhering to best practices."
+    },
+    {
+        "question": "10. What is the recommendation for managing glucocorticoid therapy on the day of surgery for patients with RA, AS, PsA, or SLE undergoing THA or TKA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers demonstrate excellent factual accuracy and completeness based on the retrieved and full guideline context.  Both correctly identify the recommendation to continue the current dose and avoid supraphysiologic doses. Answer A is slightly preferred because it provides all the key information in a more concise manner, making it quicker and easier for a clinician to absorb.  Answer B provides marginally additional detail regarding the lack of evidence supporting supraphysiologic dosing which might be helpful to some clinicians, but this does not outweigh the benefit of conciseness in this particular case. Both answers are safe and reliable. The retrieved context was sufficient and accurately reflected the full guideline context.  The RAG process appears to have functioned well in both instances.\nDifferences in Factual Accuracy and Safety: No difference – both are accurate and safe.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B was completely faithful to the retrieved context and aligned with the full guideline.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context appears to have been completely sufficient and good. Answer B demonstrates perfect faithfulness and equivalent completeness whether scored against only the retrieved or the full guideline text, indicating that the key information necessary for a correct answer was present in the retrieved snippet."
+    }
+]

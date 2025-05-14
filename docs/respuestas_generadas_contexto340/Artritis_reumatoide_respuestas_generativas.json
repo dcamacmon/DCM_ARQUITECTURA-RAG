@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "1. What minimum duration of remission or low disease activity is suggested before considering tapering DMARDs?",
+        "respuesta": "The minimum duration of remission or low disease activity suggested before considering tapering DMARDs is generally at least 6 months."
+    },
+    {
+        "pregunta": "2. Why might dose escalation of methotrexate be considered after initial prescribing according to the guideline?",
+        "respuesta": "Dose escalation of methotrexate may be considered after initial prescribing to achieve optimal therapeutic effect, as patients often require higher doses to adequately control disease activity. Gradual dose increases help balance maximizing efficacy while monitoring for potential side effects."
+    },
+    {
+        "pregunta": "3. When should prior DMARD regimens be reinstituted during tapering?",
+        "respuesta": "Prior DMARD regimens should be reinstituted during tapering if there is a disease flare or worsening of symptoms, indicating loss of disease control. The goal of tapering is to reduce medication while maintaining remission; if remission is not sustained, reverting to the previous effective DMARD regimen is recommended."
+    },
+    {
+        "pregunta": "4. In patients on combination therapy with methotrexate plus a bDMARD or tsDMARD who wish to discontinue a DMARD, which agent is preferred for gradual discontinuation?",
+        "respuesta": "In patients on combination therapy with methotrexate plus a bDMARD or tsDMARD who wish to discontinue a DMARD, gradual discontinuation of methotrexate is generally preferred. This approach helps maintain disease control by continuing the bDMARD or tsDMARD while tapering off methotrexate."
+    },
+    {
+        "pregunta": "5. What are bDMARDs and tsDMARDs, and how do they differ in the treatment of rheumatoid arthritis?",
+        "respuesta": "bDMARDs (biologic Disease-Modifying Antirheumatic Drugs) and tsDMARDs (targeted synthetic Disease-Modifying Antirheumatic Drugs) are two classes of medications used to treat rheumatoid arthritis (RA).\n\nbDMARDs are biologically derived proteins that target specific components of the immune system involved in RA, such as tumor necrosis factor (TNF), interleukins, or B cells. Examples include TNF inhibitors (e.g., etanercept, infliximab), IL-6 receptor antagonists, and B-cell depleting agents.\n\ntsDMARDs are small-molecule drugs synthesized chemically that target specific intracellular signaling pathways involved in the inflammatory process. The most common tsDMARDs are Janus kinase (JAK) inhibitors (e.g., tofacitinib, baricitinib).\n\nThe primary difference lies in their nature and mechanism: bDMARDs are protein-based biologics targeting extracellular molecules or cells, administered typically via injection or infusion, while tsDMARDs are orally administered small molecules targeting intracellular signaling pathways. Both aim to reduce inflammation and halt disease progression but differ in administration, molecular targets, and sometimes safety profiles."
+    },
+    {
+        "pregunta": "6. What is the rationale for recommending abatacept over other bDMARDs or tsDMARDs in patients with NTM lung disease?",
+        "respuesta": "The rationale for recommending abatacept over other biologic DMARDs (bDMARDs) or targeted synthetic DMARDs (tsDMARDs) in patients with nontuberculous mycobacterial (NTM) lung disease is primarily based on its mechanism of action and safety profile. Abatacept is a selective T-cell costimulation modulator that inhibits T-cell activation without broadly suppressing the immune system, potentially resulting in a lower risk of serious infections, including NTM. In contrast, other bDMARDs or tsDMARDs, such as TNF inhibitors or JAK inhibitors, are associated with a higher risk of opportunistic infections and may exacerbate NTM lung disease. Therefore, abatacept may be preferred to minimize infection risk while effectively managing underlying inflammatory conditions in patients with NTM lung disease."
+    },
+    {
+        "pregunta": "7. How should treatment be adjusted in patients taking TNF inhibitors who develop heart failure?",
+        "respuesta": "In patients taking TNF inhibitors who develop heart failure, it is generally recommended to discontinue the TNF inhibitor therapy. TNF inhibitors have been associated with worsening of heart failure, particularly in patients with moderate to severe disease (NYHA class III/IV). Alternative treatments for the underlying condition should be considered, and heart failure should be managed according to standard guidelines."
+    },
+    {
+        "pregunta": "8. How should methotrexate intolerance be managed before switching to alternative DMARDs?",
+        "respuesta": "Methotrexate intolerance should be managed initially by optimizing the current regimen before switching to alternative DMARDs. This includes:\n\n1. **Folate supplementation:** Administer folic acid or folinic acid to reduce gastrointestinal and hepatic side effects.\n2. **Dose adjustment:** Lowering the methotrexate dose or changing the dosing schedule (e.g., once weekly) can improve tolerance.\n3. **Route change:** Switching from oral to subcutaneous or intramuscular methotrexate often reduces gastrointestinal intolerance and improves bioavailability.\n4. **Symptomatic treatment:** Use antiemetics or other supportive measures to manage side effects.\n5. **Monitoring:** Close monitoring for toxicity and side effects to ensure optimal management.\n\nIf intolerance persists despite these measures, then consider switching to alternative DMARDs."
+    },
+    {
+        "pregunta": "9. For patients taking methotrexate plus a biologic or targeted synthetic DMARD who want to discontinue a DMARD, which agent is conditionally recommended to be discontinued gradually?",
+        "respuesta": "For patients taking methotrexate plus a biologic or targeted synthetic DMARD who want to discontinue a DMARD, it is conditionally recommended to gradually discontinue methotrexate rather than the biologic or targeted synthetic DMARD."
+    },
+    {
+        "pregunta": "10. What are the considerations for DMARD use in rheumatoid arthritis patients with solid malignancies according to current guidelines?",
+        "respuesta": "Current guidelines recommend cautious use of DMARDs (disease-modifying antirheumatic drugs) in rheumatoid arthritis (RA) patients with solid malignancies. Key considerations include:\n\n1. **Risk-Benefit Assessment:** Evaluate the severity of RA versus the potential impact of immunosuppression on cancer progression or recurrence.\n2. **Type of DMARD:** Conventional synthetic DMARDs (like methotrexate) are generally preferred over biologics or targeted synthetic DMARDs in patients with recent or active malignancy due to less immunosuppressive potency.\n3. **Timing Since Cancer Diagnosis:** Greater caution is advised within the first 5 years after cancer diagnosis; some guidelines recommend deferring biologics during this period.\n4. **Multidisciplinary Approach:** Coordination with oncology is essential to tailor therapy according to cancer status and treatment.\n5. **Individualized Therapy:** Decisions should be personalized, considering cancer type, stage, treatment, and RA activity.\n\nIn summary, DMARD use in RA patients with solid malignancies requires individualized, multidisciplinary evaluation, favoring less immunosuppressive agents and close monitoring per current rheumatology and oncology guidelines."
+    },
+    {
+        "pregunta": "11. In patients with nontuberculous mycobacterial lung disease and moderate-to-high disease activity, which DMARD class is conditionally recommended over others?",
+        "respuesta": "In patients with nontuberculous mycobacterial (NTM) lung disease and moderate-to-high disease activity, tumor necrosis factor (TNF) inhibitors are generally avoided due to increased risk of NTM infection. Among disease-modifying antirheumatic drugs (DMARDs), non-TNF biologic agents, particularly **interleukin-6 (IL-6) receptor inhibitors**, are conditionally recommended over TNF inhibitors because they have a lower associated risk of exacerbating NTM infections. However, treatment decisions should be individualized and made in consultation with infectious disease and rheumatology specialists."
+    },
+    {
+        "pregunta": "12. What are the recommendations for methotrexate administration routes in patients starting treatment?",
+        "respuesta": "For patients starting methotrexate treatment, oral administration is generally recommended initially due to its convenience and effectiveness at lower doses. However, if patients experience gastrointestinal side effects or inadequate response, switching to subcutaneous or intramuscular routes is advised, as these can improve bioavailability and tolerability. The choice of route should be individualized based on patient factors and clinical response."
+    },
+    {
+        "pregunta": "13. Why are specific recommendations lacking for rheumatoid arthritis patients receiving checkpoint inhibitor therapy?",
+        "respuesta": "Specific recommendations are lacking for rheumatoid arthritis patients receiving checkpoint inhibitor therapy because there is limited clinical data on the safety and management of immune-related adverse events in this population. The interplay between autoimmune disease activity and immune checkpoint inhibition is complex, and individual responses vary, making standardized guidelines difficult to establish. Further research and clinical experience are needed to develop evidence-based recommendations."
+    },
+    {
+        "pregunta": "14. Among DMARD-naive patients with low disease activity, which csDMARD is conditionally recommended over others due to better tolerability and risk profile?",
+        "respuesta": "Among DMARD-naive patients with low disease activity, hydroxychloroquine is conditionally recommended over other conventional synthetic DMARDs (csDMARDs) due to its better tolerability and more favorable risk profile."
+    },
+    {
+        "pregunta": "15. What are the potential disadvantages of combination csDMARD therapy that influence the recommendation favoring methotrexate monotherapy?",
+        "respuesta": "The potential disadvantages of combination csDMARD (conventional synthetic disease-modifying antirheumatic drugs) therapy that influence the recommendation favoring methotrexate monotherapy include increased risk of adverse effects (such as hepatotoxicity, bone marrow suppression, and gastrointestinal intolerance), higher complexity of treatment regimens leading to reduced patient adherence, increased monitoring requirements, potential drug interactions, and higher costs. These factors make methotrexate monotherapy preferable as the initial treatment in many cases due to its established efficacy, safety profile, and ease of use."
+    },
+    {
+        "pregunta": "16. How should patients with a serious infection within the previous 12 months and moderate-to-high disease activity despite csDMARD monotherapy be managed in terms of adding DMARDs?",
+        "respuesta": "Patients with a serious infection within the previous 12 months and moderate-to-high disease activity despite csDMARD (conventional synthetic disease-modifying antirheumatic drug) monotherapy should be managed cautiously when considering adding DMARDs. Generally, in such cases, biologic DMARDs (bDMARDs) or targeted synthetic DMARDs (tsDMARDs) that carry higher infection risks should be avoided or used with extreme caution. Treatment strategies may include optimizing csDMARD therapy, considering less immunosuppressive options, and closely monitoring for infection. Consultation with an infectious disease specialist and individualized risk assessment are recommended before escalation of therapy."
+    },
+    {
+        "pregunta": "17. What is the recommendation regarding the use of intraarticular glucocorticoids alone versus adding or switching DMARDs for patients not at target?",
+        "respuesta": "For patients not at target, the recommendation is that intraarticular glucocorticoids alone are not sufficient. Instead, disease-modifying antirheumatic drugs (DMARDs) should be added or switched to achieve better disease control and reach treatment targets. Intraarticular glucocorticoids may be used as adjunctive therapy but should not replace DMARD optimization."
+    },
+    {
+        "pregunta": "18. How does the guideline recommend using a treat-to-target (TTT) approach in patients who have not previously been treated with biologic or targeted synthetic DMARDs?",
+        "respuesta": "The guideline recommends initiating treatment with conventional synthetic DMARDs (csDMARDs) in patients who have not previously been treated with biologic or targeted synthetic DMARDs, and using a treat-to-target (TTT) approach by regularly monitoring disease activity and adjusting therapy as needed to achieve and maintain a predefined target, typically remission or low disease activity. If the target is not reached within a specified timeframe, treatment should be escalated or switched accordingly."
+    },
+    {
+        "pregunta": "19. Why is methotrexate monotherapy conditionally recommended over combination csDMARD therapy in early rheumatoid arthritis?",
+        "respuesta": "Methotrexate monotherapy is conditionally recommended over combination conventional synthetic disease-modifying antirheumatic drug (csDMARD) therapy in early rheumatoid arthritis primarily because it balances efficacy with safety, tolerability, and cost-effectiveness. While combination therapy may offer greater short-term disease control, methotrexate alone is often sufficient as initial treatment, reducing the risk of increased adverse effects and complexity associated with multiple drugs. This approach allows for treatment escalation if monotherapy proves inadequate."
+    },
+    {
+        "pregunta": "20. Under what circumstances is a bDMARD or tsDMARD typically added to methotrexate therapy?",
+        "respuesta": "A bDMARD (biologic disease-modifying antirheumatic drug) or tsDMARD (targeted synthetic DMARD) is typically added to methotrexate therapy when a patient with rheumatoid arthritis or another inflammatory arthritis has an inadequate response to methotrexate alone. This step is taken to achieve better disease control, reduce symptoms, and prevent joint damage."
+    }
+]

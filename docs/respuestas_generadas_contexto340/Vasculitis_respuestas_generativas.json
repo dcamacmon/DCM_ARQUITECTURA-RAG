@@ -1,0 +1,82 @@
+[
+    {
+        "pregunta": "1. What are the first-line treatment options recommended for patients with active, nonsevere eosinophilic granulomatosis with polyangiitis (EGPA)?",
+        "respuesta": "The first-line treatment for patients with active, nonsevere eosinophilic granulomatosis with polyangiitis (EGPA) typically includes systemic glucocorticoids (e.g., prednisone) to control inflammation. In some cases, especially to reduce steroid exposure or in patients with relapsing disease, immunosuppressive agents such as methotrexate or azathioprine may be added."
+    },
+    {
+        "pregunta": "2. What are the challenges mentioned regarding the optimal duration of therapy in AAV management?",
+        "respuesta": "The challenges regarding the optimal duration of therapy in ANCA-associated vasculitis (AAV) management include balancing the risk of disease relapse against the adverse effects of prolonged immunosuppression. Determining the ideal length of treatment is difficult because insufficient therapy may lead to relapse, while extended treatment increases the risk of infections, toxicity, and other complications. Additionally, individual patient variability and the lack of definitive biomarkers to guide therapy duration complicate decision-making."
+    },
+    {
+        "pregunta": "3. In remission maintenance for severe GPA/MPA, how does rituximab compare to methotrexate or azathioprine?",
+        "respuesta": "In remission maintenance for severe granulomatosis with polyangiitis (GPA) or microscopic polyangiitis (MPA), rituximab has been shown to be more effective than azathioprine in preventing relapses. Clinical trials, such as the MAINRITSAN studies, demonstrated that rituximab leads to lower relapse rates compared to azathioprine. Methotrexate is less commonly used for maintenance in severe cases and is generally considered less effective than rituximab. Therefore, rituximab is preferred over methotrexate or azathioprine for maintaining remission in severe GPA/MPA."
+    },
+    {
+        "pregunta": "4. What are the current gaps in knowledge identified by the guideline regarding the treatment of AAV?",
+        "respuesta": "Current gaps in knowledge identified by guidelines regarding the treatment of ANCA-associated vasculitis (AAV) include the optimal duration and intensity of maintenance therapy, the best strategies for minimizing treatment-related toxicity, the role of newer biologic agents compared to traditional immunosuppressants, and individualized treatment approaches based on patient-specific factors such as disease severity and comorbidities. Additionally, there is limited evidence on long-term outcomes and relapse prevention strategies, highlighting the need for further research in these areas."
+    },
+    {
+        "pregunta": "5. Under what clinical circumstances is plasma exchange not routinely recommended as part of remission induction therapy in GPA/MPA?",
+        "respuesta": "Plasma exchange is not routinely recommended as part of remission induction therapy in granulomatosis with polyangiitis (GPA) or microscopic polyangiitis (MPA) except in specific clinical circumstances. It is generally reserved for patients with severe renal involvement (such as rapidly progressive glomerulonephritis with a serum creatinine >5.7 mg/dL or dialysis dependence) or life-threatening pulmonary hemorrhage. In patients without these severe manifestations, plasma exchange is not routinely indicated."
+    },
+    {
+        "pregunta": "6. What is the recommended dosing regimen for intravenous pulse glucocorticoids (GCs) used in remission induction therapy for AAV?",
+        "respuesta": "The recommended dosing regimen for intravenous pulse glucocorticoids (GCs) in remission induction therapy for ANCA-associated vasculitis (AAV) typically involves administering methylprednisolone 500 mg to 1 gram intravenously once daily for 3 consecutive days, followed by a transition to oral glucocorticoids. This pulse therapy is used to rapidly control inflammation and reduce the risk of glucocorticoid-related side effects from prolonged high-dose oral therapy. However, dosing may vary based on specific protocols and patient factors."
+    },
+    {
+        "pregunta": "7. What role do rituximab and cyclophosphamide play in remission induction for GPA and MPA, and which is preferred?",
+        "respuesta": "Rituximab and cyclophosphamide are both used as induction therapies to achieve remission in granulomatosis with polyangiitis (GPA) and microscopic polyangiitis (MPA). Cyclophosphamide, a traditional cytotoxic agent, has been the standard treatment for induction due to its effectiveness in suppressing the immune system and controlling disease activity. Rituximab, a monoclonal antibody targeting CD20-positive B cells, has emerged as an alternative with similar efficacy.\n\nCurrent evidence suggests that rituximab is preferred in certain situations, such as in patients who wish to preserve fertility, those with relapsing disease, or when cyclophosphamide is contraindicated or poorly tolerated. Both agents are effective, but rituximab is increasingly favored due to a better side effect profile and similar remission rates."
+    },
+    {
+        "pregunta": "8. Why is prophylaxis against Pneumocystis jirovecii pneumonia recommended in EGPA patients receiving cyclophosphamide or rituximab?",
+        "respuesta": "Prophylaxis against Pneumocystis jirovecii pneumonia (PJP) is recommended in EGPA (Eosinophilic Granulomatosis with Polyangiitis) patients receiving cyclophosphamide or rituximab because these immunosuppressive therapies significantly increase the risk of opportunistic infections, including PJP. Preventive treatment reduces the incidence of this potentially life-threatening pneumonia in immunocompromised patients."
+    },
+    {
+        "pregunta": "9. What is the recommendation regarding the use of trimethoprim/sulfamethoxazole for remission maintenance in GPA/MPA?",
+        "respuesta": "Trimethoprim/sulfamethoxazole (TMP/SMX) is generally not recommended as a primary agent for remission maintenance in granulomatosis with polyangiitis (GPA) or microscopic polyangiitis (MPA). However, it may be used adjunctively in GPA, particularly to reduce the risk of Pneumocystis jirovecii pneumonia and possibly to prevent localized nasal disease relapse. For remission maintenance, conventional immunosuppressive agents such as azathioprine, methotrexate, or rituximab are preferred."
+    },
+    {
+        "pregunta": "10. What are the recommended rituximab dosing schedules for remission maintenance therapy in adults and children?",
+        "respuesta": "The recommended rituximab dosing schedules for remission maintenance therapy vary depending on the specific disease being treated, but generally:\n\n- **In adults:** A common regimen is 500 mg to 1000 mg administered intravenously every 6 months to maintain remission, particularly in conditions like ANCA-associated vasculitis or certain autoimmune diseases.\n\n- **In children:** Dosing is often weight-based (e.g., 375 mg/m²), given at similar intervals (every 6 months), but specific schedules may be adjusted based on disease, response, and tolerability.\n\nExact dosing and intervals should be tailored to the patient's condition and guided by clinical protocols."
+    },
+    {
+        "pregunta": "11. Why is mepolizumab not recommended for remission induction in active, severe EGPA?",
+        "respuesta": "Mepolizumab is not recommended for remission induction in active, severe eosinophilic granulomatosis with polyangiitis (EGPA) because it primarily targets eosinophilic inflammation and is more effective in maintaining remission rather than inducing it in severe, active disease. Severe EGPA often requires more aggressive immunosuppressive therapy, such as high-dose corticosteroids combined with cytotoxic agents, to rapidly control vasculitis and organ-threatening manifestations. Mepolizumab’s slower onset of action and limited efficacy in controlling severe vasculitic activity make it unsuitable as a first-line induction therapy in these cases."
+    },
+    {
+        "pregunta": "12. Which agents are recommended for remission induction therapy in severe active GPA or MPA, and what is the conditional recommendation between rituximab and cyclophosphamide?",
+        "respuesta": "For remission induction therapy in severe active Granulomatosis with Polyangiitis (GPA) or Microscopic Polyangiitis (MPA), the recommended agents are **rituximab** or **cyclophosphamide**, typically combined with glucocorticoids. There is a **conditional recommendation** favoring rituximab over cyclophosphamide, especially in patients who wish to preserve fertility or those with relapsing disease, due to rituximab’s comparable efficacy and potentially better safety profile. However, cyclophosphamide remains a standard option, particularly in certain clinical settings."
+    },
+    {
+        "pregunta": "13. According to the guideline, why should treatment recommendations not be used to restrict access to therapies?",
+        "respuesta": "According to the guideline, treatment recommendations should not be used to restrict access to therapies because they are intended to guide clinical decision-making based on evidence and best practices, not to serve as rigid rules that limit patient options. Using them to restrict access can undermine individualized care, limit patient and clinician autonomy, and potentially deny patients beneficial treatments."
+    },
+    {
+        "pregunta": "14. How should glucocorticoid dosing be managed in EGPA to balance disease control and toxicity?",
+        "respuesta": "In eosinophilic granulomatosis with polyangiitis (EGPA), glucocorticoid dosing should start with a moderate to high dose of oral prednisone (typically 0.5–1 mg/kg/day) to control active inflammation. Once disease remission is achieved, the dose should be gradually tapered to the lowest effective maintenance dose to minimize long-term toxicity. Close monitoring for disease relapse and side effects is essential during tapering. Adjunctive immunosuppressive agents are often used to allow for lower glucocorticoid doses and reduce steroid-related adverse effects."
+    },
+    {
+        "pregunta": "15. What is the conditional recommendation for treating relapse with severe disease manifestations in EGPA after prior cyclophosphamide therapy?",
+        "respuesta": "The conditional recommendation for treating relapse with severe disease manifestations in Eosinophilic Granulomatosis with Polyangiitis (EGPA) after prior cyclophosphamide therapy is to use rituximab or to consider re-treatment with cyclophosphamide, combined with high-dose glucocorticoids. This approach aims to control severe disease activity while balancing the risks of cumulative cyclophosphamide toxicity."
+    },
+    {
+        "pregunta": "16. What are the primary diseases included under ANCA-associated vasculitis (AAV) according to the guideline?",
+        "respuesta": "The primary diseases included under ANCA-associated vasculitis (AAV) according to the guideline are Granulomatosis with polyangiitis (GPA), Microscopic polyangiitis (MPA), and Eosinophilic granulomatosis with polyangiitis (EGPA)."
+    },
+    {
+        "pregunta": "17. Under what circumstances might plasma exchange be used as a “salvage” or “rescue” therapy in GPA/MPA?",
+        "respuesta": "Plasma exchange may be used as a \"salvage\" or \"rescue\" therapy in granulomatosis with polyangiitis (GPA) or microscopic polyangiitis (MPA) primarily in cases of severe, life-threatening renal involvement such as rapidly progressive glomerulonephritis with rising serum creatinine, or in patients with diffuse alveolar hemorrhage causing respiratory failure. It is considered when standard immunosuppressive treatments are insufficient or contraindicated."
+    },
+    {
+        "pregunta": "18. Under what conditions is reconstructive surgery recommended for patients with GPA who have nasal septal defects or nasal bridge collapse?",
+        "respuesta": "Reconstructive surgery for patients with granulomatosis with polyangiitis (GPA) who have nasal septal defects or nasal bridge collapse is recommended only when the disease is in a stable, inactive (remission) phase. Surgery is typically deferred until there is no active inflammation to reduce the risk of poor healing and recurrence of deformity. Additionally, patients should have adequate medical control of the underlying vasculitis and be evaluated for overall surgical risk before proceeding."
+    },
+    {
+        "pregunta": "19. What prophylactic measures are recommended to prevent Pneumocystis jirovecii pneumonia in patients with GPA/MPA receiving rituximab or cyclophosphamide?",
+        "respuesta": "Prophylactic measures to prevent Pneumocystis jirovecii pneumonia (PJP) in patients with granulomatosis with polyangiitis (GPA) or microscopic polyangiitis (MPA) receiving rituximab or cyclophosphamide typically include the administration of trimethoprim-sulfamethoxazole (TMP-SMX). TMP-SMX is the preferred prophylactic agent due to its proven efficacy. Alternative agents, such as dapsone, atovaquone, or aerosolized pentamidine, may be used in cases of TMP-SMX intolerance or allergy. Prophylaxis is generally recommended during the period of significant immunosuppression, often throughout and for some months after treatment, based on clinical judgment and risk assessment."
+    },
+    {
+        "pregunta": "20. How does the timing since the last rituximab infusion influence the choice between rituximab and cyclophosphamide for remission re-induction in GPA/MPA?",
+        "respuesta": "The timing since the last rituximab infusion is important in deciding between rituximab and cyclophosphamide for remission re-induction in granulomatosis with polyangiitis (GPA) or microscopic polyangiitis (MPA). If a patient has recently received rituximab (typically within the past 6 months), re-treatment with rituximab may be less effective due to persistent B-cell depletion, making cyclophosphamide a preferred option for remission re-induction. Conversely, if a longer interval has passed since the last rituximab dose, rituximab can be considered again for re-induction."
+    }
+]

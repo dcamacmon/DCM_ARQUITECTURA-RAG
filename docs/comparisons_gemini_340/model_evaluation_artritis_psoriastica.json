@@ -1,0 +1,1382 @@
+[
+    {
+        "question": "1. What poor prognostic factors indicate severe PsA disease?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a more complete overview of poor prognostic factors, including several not mentioned by Answer B (e.g. dactylitis, enthesitis, nail dystrophy). Although Answer A hallucinated \"Genetic factors such as HLA-B27 positivity,\" its broader scope makes it more useful for clinicians. Answer B, while perfectly faithful to the retrieved context and accurate, lacks the comprehensiveness of A. This shows a limitation of RAG when the retrieved context doesn't capture the full picture.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate based on medical knowledge. However, answer A includes a potentially inaccurate statement about HLA-B27 being a prognostic factor in PsA, though it *is* linked to axial involvement.  Answer B avoids this by adhering strictly to the provided context, making it slightly safer.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is perfectly faithful to the context and reflects the truth according to the guidelines regarding the specific factors it mentions.  The issue is that the context snippet didn't cover all relevant factors.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was not entirely sufficient. While Answer B extracted all the relevant information *from the provided context*, its Completeness_Overall score suffers because the context itself was incomplete relative to the broader guideline information reflected in Answer A. This underscores the importance of context retrieval quality for RAG systems.  While the retrieval was good *for what it retrieved*, it wasn't a good representation of the entire answer needed.  This resulted in a faithful, accurate, but less complete response.  In this case, the hallucination in A provided more clinically useful information overall."
+    },
+    {
+        "question": "1. What poor prognostic factors indicate severe PsA disease?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: While Answer B demonstrates perfect faithfulness and factual accuracy with respect to the retrieved context, it lacks the comprehensiveness of Answer A. Answer A provides a broader range of prognostic factors, including dactylitis, enthesitis, high disease activity, and functional impairment, which are all supported by the full guideline, though not explicitly mentioned in the retrieved excerpts. Answer A does mention genetic factors (HLA-B27 positivity) and nail dystrophy/severe skin involvement, which are not explicitly supported by the provided context, slightly lowering its accuracy score.\ni. Differences in Factual Accuracy and Safety: Answer A has slightly lower factual accuracy due to inclusion of elements not in the source guideline, but these inaccuracies do not pose safety risks as they are not suggesting unsafe practices.  Answer B is factually accurate based on the provided context.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is perfectly faithful to the retrieved context and this aligns with the truths present in the full guideline. However, the retrieved context doesn't offer the full picture of prognostic factors for severe PsA.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: While the retrieved context allowed for a perfectly faithful and factually accurate (within the scope of the excerpt) answer, it wasn't entirely sufficient for a complete answer to the question. This is evident in the discrepancy between Answer B's Completeness_Given_Retrieval (10) and Completeness_Overall (7).  It accurately reflected the information within the provided excerpts but missed other important factors discussed elsewhere in the full guideline, making it less helpful overall compared to the more complete Answer A."
+    },
+    {
+        "question": "1. What poor prognostic factors indicate severe PsA disease?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and completely address the question based on the provided context. They both correctly identify erosive disease and elevated inflammatory markers (CRP and ESR) as poor prognostic factors in PsA.  They also appropriately mention that these factors can exist in combination with other features to define severe PsA.  Since the retrieved context included all the relevant information from the full guideline, faithfulness to the retrieved context ensured factual accuracy.  The retrieval in this case was sufficient to provide a complete answer.  While A provides slightly more detail in its final sentence about what those other factors might be, the added detail is minimal and doesn't make it significantly better than B.  Therefore, the answers are essentially comparable in quality."
+    },
+    {
+        "question": "2. How should treatment decisions be approached given the conditional nature of many recommendations?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate strong factual accuracy and relevance to the question. However, Answer B provides slightly more comprehensive information by including the point that treatment recommendations should not restrict access to therapies or mandate a specific sequence, derived directly from the retrieved context. While Answer A is more concise, Answer B's added detail enhances its clinical value without significantly sacrificing conciseness.  The RAG process has successfully extracted and synthesized relevant information from the retrieved context, allowing Answer B to offer a more nuanced perspective on approaching treatment decisions with conditional recommendations.\nSpecifically:\ni. Differences in Factual Accuracy and Safety:  Both are factually accurate and safe.  Neither promotes unsafe practices.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B remained entirely faithful to the retrieved context and the information it presents aligns with the presumed full guideline's intent based on the excerpt.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B was able to extract the key information related to shared decision-making and the flexibility needed when applying conditional recommendations, demonstrating high completeness scores both within the retrieved context and compared to the (presumed) full guideline.  The alignment of faithfulness and factual accuracy further supports the sufficiency of the context."
+    },
+    {
+        "question": "2. How should treatment decisions be approached given the conditional nature of many recommendations?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate excellent relevance and factual accuracy regarding the importance of shared decision-making for conditional recommendations.  However, Answer B provides a more complete explanation by including specific factors like cost impacts and the rationale behind the flexibility offered by conditional recommendations (uncertainty, balance between benefits/harms, individual patient factors). While slightly less concise than A, B's added detail makes it more informative and therefore better overall."
+    },
+    {
+        "question": "2. How should treatment decisions be approached given the conditional nature of many recommendations?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 9,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate excellent factual accuracy and relevance to the question.  However, Answer B provides slightly more complete information by explicitly mentioning cost impacts as a factor in conditional recommendations, derived from the retrieved context. This enhances its overall completeness while maintaining conciseness.  Both answers appropriately reflect the emphasis on shared decision-making highlighted in the retrieved and full guideline contexts.\ni. Differences in Factual Accuracy and Safety:  No differences in factual accuracy or safety concerns were observed between the two answers. Both accurately reflect the guideline's emphasis on shared decision-making in the context of conditional recommendations.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B stayed remarkably faithful to its retrieved context while also aligning perfectly with the overall truth of the guideline concerning conditional recommendations.  It successfully extracted and synthesized the core message of the retrieved snippet regarding shared decision-making, patient preferences, and the rationale behind conditional recommendations.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context proved sufficient for answering the question.  This is evidenced by Answer B's high scores in both Completeness_Given_Retrieval and Completeness_Overall, as well as its perfect Faithfulness and Factual Accuracy scores.  The context contained the key elements necessary to explain the approach to treatment decisions in the face of conditional recommendations."
+    },
+    {
+        "question": "3. How does long-term damage, such as joint deformities or vision loss, influence treatment decisions in psoriatic arthritis?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more accurate and nuanced response grounded in the provided context. While Answer A correctly notes the importance of aggressive treatment, it generalizes the approach without acknowledging the individual patient considerations highlighted in the source material.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A implies a somewhat standardized escalation in treatment based on long-term damage, while Answer B correctly includes the caveat that clear definitions of disease severity are lacking and individual patient circumstances must be considered, promoting a more accurate and safer approach.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B accurately reflects the information provided in the retrieved context, which aligns with the notion of individualized treatment strategies mentioned in the unseen portions of the full guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was very good.  Answer B demonstrated perfect faithfulness and full completeness based on what was provided. The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) reflects the limitations of the excerpt, which doesn't provide an exhaustive list of specific treatments as alluded to in Answer A (although those treatments are logically consistent with the context.)  However, the overall accuracy and emphasis on individualized assessment in Answer B, derived from the retrieved context, makes it a superior and more cautious response compared to Answer A. The RAG process effectively ensured a higher factual accuracy by grounding the answer in the specific source material."
+    },
+    {
+        "question": "3. How does long-term damage, such as joint deformities or vision loss, influence treatment decisions in psoriatic arthritis?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more accurate and nuanced explanation of how long-term damage influences treatment decisions in psoriatic arthritis. While both answers correctly state that long-term damage like joint deformities or vision loss necessitates more aggressive treatment, Answer B goes further by explaining how such damage is a poor prognostic factor indicating more severe disease.  It also accurately reflects the guideline's emphasis on using severity – encompassing damage, activity, and inflammatory markers – to guide treatment. Answer A, though relevant and concise, lacks this level of specific insight directly derived from the guidelines.\ni. Differences in Factual Accuracy and Safety: Answer A, while generally accurate, suggests \"early intervention\" as a key factor.  While prompt treatment is important in all forms of PsA, early intervention is not uniquely tied to the presence of long-term damage as suggested.  Answer B avoids this subtle inaccuracy, focusing on the severity assessment based on the presence of damage as per the guideline. This contributes to improved safety by providing a more nuanced and guideline-concordant understanding of the role of existing damage in treatment selection.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B demonstrates excellent faithfulness to the retrieved context, accurately reflecting the guideline's discussion of long-term damage as a poor prognostic factor and its inclusion in severity assessment.  This faithfulness aligned perfectly with the overall truth presented in the broader guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context proved to be very good.  Answer B achieved perfect Completeness_Given_Retrieval and high Factual Accuracy by fully utilizing the provided excerpt.  While its Completeness_Overall score is slightly lower, this reflects the inherent limitation of using a small excerpt; the context captured the core principles relating the question to severity and prognosis.  The close alignment of Faithfulness and Factual Accuracy confirms that the retrieved context accurately represented the relevant aspects of the full guideline, making it a sufficient basis for a high-quality answer."
+    },
+    {
+        "question": "3. How does long-term damage, such as joint deformities or vision loss, influence treatment decisions in psoriatic arthritis?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers demonstrate excellent factual accuracy and completeness with respect to the provided context.  They both appropriately explain that long-term damage, such as joint deformities or vision loss, is a significant factor influencing treatment decisions in PsA.  However, Answer A is slightly more concise while maintaining the same level of information and clarity, making it marginally better.\ni. Differences in Factual Accuracy and Safety: There are no differences in factual accuracy or safety between the two answers.  Both adhere to the information presented in the guideline context.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is completely faithful to the retrieved context and this faithfulness aligns perfectly with the overall guideline truth.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient and good. Answer B's completeness scores and faithfulness to factual accuracy scores are all high (9 or 10), demonstrating that the retrieved context contained the necessary information for a complete and accurate answer.  The fact that Answer B didn't gain anything substantial in completeness or accuracy by having access to a larger context further supports the sufficiency of the retrieved context."
+    },
+    {
+        "question": "4. What are the poor prognostic factors that help define severe psoriatic arthritis?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B, while slightly less complete than A, demonstrates perfect faithfulness to the retrieved context and higher factual accuracy according to the full guideline.  Answer A includes \"early onset of disease,\" \"high number of swollen and tender joints,\" and \"nail dystrophy or severe skin involvement\" as poor prognostic factors, which are not explicitly mentioned in the provided guideline excerpts, impacting its factual accuracy.  Although Answer A captures additional relevant information, the hallucinated points make it less safe and reliable than B.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate and therefore safer.  Answer A hallucinates several prognostic indicators, making it potentially misleading.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Yes, Answer B's faithfulness perfectly aligns with the provided guideline context, highlighting the strength of RAG in grounding the answer in provided evidence.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context appears good. While B misses some points that A includes (which could suggest better retrieval or a longer context window would be beneficial), the high faithfulness and factual accuracy compared to the overall guideline suggest the core, critical information for identifying severe PsA was captured in the retrieval. The high completeness given the retrieval (10) reinforces this point - the model made excellent use of the available information.  B demonstrates the safety advantage of RAG: sticking to the facts in the context even if it might sacrifice potential \"completeness\" from hallucinating additional (potentially false) factors."
+    },
+    {
+        "question": "4. What are the poor prognostic factors that help define severe psoriatic arthritis?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and more complete coverage of poor prognostic factors directly from the guideline. While Answer A includes several valid factors, it also includes some less specific or universally agreed-upon indicators like \"early onset\" and \"nail dystrophy\" without qualification. Answer B, adhering closely to the retrieved context, provides a more accurate and complete representation of the guideline's criteria for severe PsA.\ni. Differences in Factual Accuracy and Safety: Answer A hallucinates some prognostic factors, such as early onset and nail dystrophy. These are not explicitly mentioned in the guidelines as poor prognostic factors for PsA specifically. This impacts safety by potentially misinforming clinicians. Answer B avoids this by sticking to the provided text.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, the retrieved context contained the full list of poor prognostic factors according to the guideline, and Answer B faithfully reproduced them.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent in this case. Answer B demonstrated perfect faithfulness and completeness relative to both the retrieved and full guideline context, indicating the retrieval captured all necessary information to answer the question accurately and completely. This highlights the positive impact of RAG in providing targeted and reliable information."
+    },
+    {
+        "question": "4. What are the poor prognostic factors that help define severe psoriatic arthritis?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 9,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate high factual accuracy and strong relevance to the question. However, Answer B provides a slightly more complete picture of poor prognostic factors by including \"dactylitis\" and \"rapidly progressive disease,\" both mentioned in the full guideline context and the retrieved context. While Answer A is more concise, Answer B's added details improve its completeness without significantly sacrificing conciseness. The retrieved context was sufficient to answer the question accurately and extensively, as evidenced by Answer B's high completeness scores and alignment of faithfulness with factual accuracy.  The added information in B provides a more comprehensive understanding of the factors that define severe PsA for a clinical audience, making it the slightly more useful response.  There are no safety concerns with either answer."
+    },
+    {
+        "question": "5. What is the recommended treatment strategy for PsA patients with predominant enthesitis who are both OSM- and biologic-naive?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 7,
+            "accuracy": 5,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better overall. It is more factually accurate, complete, and directly addresses the question about treatment-naive PsA patients with predominant enthesitis. Answer A mentions csDMARDs like methotrexate, which are not mentioned in the specific context provided for this question about *enthesitis-predominant* disease, and its statement on escalating to biologics is also not reflected in this context.  While it does suggest TNF inhibitors, it incorrectly emphasizes them in the context of inadequate response to other therapies. Answer B, based on retrieval, prioritizes TNF inhibitors appropriately as the first-line treatment for this specific patient presentation.\ni. Differences in Factual Accuracy and Safety: Answer A hallucinated information about csDMARDs and made claims not supported by the context, while answer B faithfully represented the provided guideline excerpt leading to higher accuracy and safety in line with the guideline.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, in this instance, the retrieved context contained accurate and appropriate information, leading Answer B to provide a correct and safe response aligned with the guideline's recommendation for enthesitis-predominant PsA.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context was excellent. Answer B's Completeness_Given_Retrieval and Completeness_Overall scores are both 10, indicating the retrieved passage had all the necessary information to answer the question comprehensively. The perfect Faithfulness score and high Factual Accuracy score demonstrate the retrieval's quality and the model's correct use of it.  The alignment of these scores further strengthens the conclusion that the retrieved context was sufficient and appropriate for the question posed."
+    },
+    {
+        "question": "5. What is the recommended treatment strategy for PsA patients with predominant enthesitis who are both OSM- and biologic-naive?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 7,
+            "accuracy": 5,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better due to its superior factual accuracy and completeness derived directly from the retrieved context. Answer A provides a more general overview of PsA treatment and mentions csDMARDs like methotrexate as the initial treatment, which isn't specifically recommended for this particular patient presentation (enthesitis-predominant, OSM/biologic-naive) within the guideline. Answer B, being faithful to the retrieved context, correctly highlights the guideline's recommendations: NSAIDs (unless contraindicated), followed by TNFi, tofacitinib, or apremilast (depending on patient preference and contraindications).\ni. Differences in Factual Accuracy and Safety: Answer A's factual accuracy is lower; its suggestion of methotrexate isn't the guideline's preferred approach, thus impacting its safety for this specific scenario. Answer B provides accurate information according to the guideline.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness completely aligns with the overall guideline's recommendations. The retrieved context contained the relevant and specific information for this clinical question, making Answer B safe and accurate.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved perfect completeness based on both the retrieved and full guideline contexts, indicating the retrieval was highly effective and contained all necessary information. Its perfect faithfulness score combined with perfect factual accuracy underscores that the retrieved information was both comprehensive and accurate.  The RAG process clearly improved the quality and reliability of the answer in this case."
+    },
+    {
+        "question": "5. What is the recommended treatment strategy for PsA patients with predominant enthesitis who are both OSM- and biologic-naive?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 9,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification:Both answers demonstrate excellent factual accuracy and relevance to the question.  Both appropriately utilize the retrieved context to form their answers. Answer B is slightly better due to its more comprehensive incorporation of the nuances presented in the retrieved context, specifically the mention of tofacitinib as an option, while maintaining good conciseness.  Although slightly less concise than A, its additional information justifies the slight increase in length.\nDifferences in Factual Accuracy and Safety:  No differences in factual accuracy or safety implications between the two answers. Both accurately reflect guideline recommendations.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B remained faithful to the retrieved context and its information aligned perfectly with the full guideline truth.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  Answer B's perfect scores in Completeness (both given retrieval and overall) and faithfulness and factual accuracy demonstrate that the retrieved context provided all the necessary information to fully and accurately answer the clinical question."
+    },
+    {
+        "question": "6. How is active psoriatic arthritis (PsA) defined according to the clinical guideline?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and completeness derived directly from the retrieved context.  While Answer A is generally accurate, it omits the crucial patient-reported aspect of \"unacceptably bothersome level\" and doesn't list all the clinical signs mentioned in the guideline.  Answer B, by faithfully adhering to the retrieved context, captures the full definition.\nThe impact of RAG is significant. It ensures Answer B's alignment with the source material, improving factual accuracy and safety. Answer B's faithfulness to the retrieved context completely aligns with the overall guideline truth. The retrieved context appears sufficient, as evidenced by Answer B's perfect Completeness_Given_Retrieval and Completeness_Overall scores, as well as its perfect Faithfulness and Factual Accuracy scores. This demonstrates the power of RAG in providing accurate and complete answers grounded in reliable clinical guidelines.  The inclusion of patient-reported bothersome levels, absent in Answer A, is a crucial element for safe and patient-centered care planning, which Answer B accurately reflects due to leveraging the provided context."
+    },
+    {
+        "question": "6. How is active psoriatic arthritis (PsA) defined according to the clinical guideline?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and completeness derived directly from the retrieved context.  While Answer A is relevant and reasonably complete, it introduces the concept of elevated inflammatory markers (ESR or CRP) as part of the definition, which isn't mentioned in the provided guideline context. This makes Answer B safer and more reliable.\nThe RAG approach was highly effective in this case.\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate and safer because it adheres strictly to the guideline definition. Answer A introduces additional criteria not present in the source, potentially leading to a misunderstanding of the diagnostic criteria for active PsA.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Yes, Answer B's faithfulness perfectly aligns with the provided context, which appears to accurately represent the guideline's definition of active PsA.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B achieved perfect completeness based on the retrieved context, and this also mirrored perfect completeness against the supposedly broader guideline context, implying the retrieval captured the necessary information fully. The perfect faithfulness score combined with perfect factual accuracy confirms the retrieved context's quality and sufficiency for answering the question."
+    },
+    {
+        "question": "6. How is active psoriatic arthritis (PsA) defined according to the clinical guideline?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and completely address the question using information from the retrieved context, which aligns with the full guideline. Answer A has slightly better formatting by using bullet points, making it easier to read the list of symptoms.  However, the difference is minimal, and both provide the correct information.  Since the retrieved context contains the full definition of active PsA, both models successfully leveraged the RAG approach to provide accurate and complete answers. There are no safety concerns with either answer. Answer B is slightly more concise, but both are adequately concise given the nature of the information.  The retrieved context was sufficient to answer the question completely and accurately."
+    },
+    {
+        "question": "7. Qual é a utilidade do índice PASI na avaliação da gravidade da psoríase em pacientes com PsA?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification:Both answers are factually accurate and relevant to the question about the utility of the PASI score in PsA. However, Answer B provides a more complete response by including the specific PASI score (≥25) used to define severe psoriasis in clinical trials and practice. This detail, directly derived from the retrieved context, enhances the clinical utility of the answer by offering a concrete benchmark for assessing psoriasis severity.  While Answer A explains what PASI measures, Answer B explains how that measurement translates to clinical severity assessment.  This makes B more useful for a clinician. The RAG process successfully extracted and incorporated the relevant information about the PASI threshold for severe psoriasis, aligning with the overall guideline's truth and demonstrating the sufficiency of the retrieved context for this specific question.  The added detail in B does not impact conciseness negatively."
+    },
+    {
+        "question": "7. Qual é a utilidade do índice PASI na avaliação da gravidade da psoríase em pacientes com PsA?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers are factually accurate and relevant. However, Answer B provides more complete information by mentioning the clinical trial threshold for severe psoriasis (PASI > 25) and emphasizing the individualized nature of severity assessment.  Answer B also explicitly states, as supported by the guideline, that there isn't a universally agreed-upon PASI cutoff for determining disease severity.  This nuance is important. Although Answer A infers this individualized approach implicitly, Answer B's explicit statement aligns better with the guideline's emphasis on clinician judgment in conjunction with the PASI score.\nThe RAG process has benefited Answer B by pulling relevant details about PASI scores and severity from the guideline, which allowed it to be more comprehensive.  The retrieved context was sufficient for the question, though the full context underscores that there's no firm PASI cut-off for \"mild\" or \"moderate\" PsA, only \"severe\" in the context of certain trials. Both Answers are safe and factually accurate. Answer B’s faithfulness to the retrieved context is consistent with the overall guideline, showing that the retrieval was a good match for the query. Answer B's higher Completeness_Overall score (10) compared to its Completeness_Given_Retrieval (also 10) demonstrates that the retrieved context was indeed sufficient for a thorough response.  Answer B's faithfulness and factual accuracy being both high (10) confirms the suitability and accuracy of the retrieved information."
+    },
+    {
+        "question": "7. Qual é a utilidade do índice PASI na avaliação da gravidade da psoríase em pacientes com PsA?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification:Both answers demonstrate excellent faithfulness, relevance, and factual accuracy. However, Answer B provides slightly more complete information by explicitly mentioning that while a PASI score >25 is used in trials, there's no universally agreed-upon definition of severity based *solely* on PASI, and it's a case-by-case assessment. This nuance, while present implicitly in Answer A, is more clearly articulated in B, aligning better with the full guideline's emphasis on individualized assessment.  Both answers use the retrieved context effectively. The retrieved context was sufficient to answer the question accurately, as demonstrated by the high faithfulness and accuracy scores of both answers. Answer B’s faithfulness to its limited context fully aligned with the overall guideline truth.  Answer B is negligibly less concise but the additional information is valuable enough to make it the slightly better choice overall."
+    },
+    {
+        "question": "8. Why are all recommendations regarding switching biologics in active PsA considered conditional and based on very-low-quality evidence?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 8,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 5
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a much more accurate and complete response to the question, grounded in general medical knowledge regarding clinical trial design and evidence levels. Although it doesn't cite specific studies (which it shouldn't, as a generative model), its explanation of *why* evidence quality is low is valid."
+    },
+    {
+        "question": "8. Why are all recommendations regarding switching biologics in active PsA considered conditional and based on very-low-quality evidence?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 1,
+            "relevance": 2,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 5
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a factually accurate and concise explanation for the conditional recommendations and low-quality evidence regarding biologic switching in PsA.  It correctly highlights the lack of high-quality studies. Answer B is entirely hallucinated. It appears to be answering a different, though related question, in Portuguese. The retrieved context does not discuss the reasons for the quality of evidence, making a faithful answer impossible. Answer B demonstrates the risks of hallucination when the provided context lacks the necessary information.  Furthermore, the hallucination is quite extensive and introduces completely fabricated reasoning.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A is factually accurate and safe. Answer B is inaccurate, hallucinating its entirety and thus is not safe.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is not at all faithful to the retrieved context. The retrieved context doesn't even contain information relevant to the question, consisting mainly of snippets regarding conditional recommendations and cross-references to tables.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was entirely insufficient and could not have supported a correct answer.  The vast difference between Answer B's faithfulness and accuracy scores highlights this deficiency. The retrieved context focused on the *nature* of conditional recommendations, not the evidence base for the recommendations themselves. This completely misdirected the RAG LLM."
+    },
+    {
+        "question": "8. Why are all recommendations regarding switching biologics in active PsA considered conditional and based on very-low-quality evidence?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 9,
+            "accuracy": 7,
+            "completeness_given": 1,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 1,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 1,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more accurate and complete response to the question regarding the conditional nature of biologic switching recommendations in active PsA.  While *neither* answer is faithful to the provided retrieved context (both hallucinate reasoning), Answer B incorporates more of the nuances from the Full Guideline Context, specifically around individual patient preferences, benefit-risk balance uncertainty, and the complexity of PsA management.\ni. Differences in Factual Accuracy and Safety:  Both answers are generally safe, but Answer B demonstrates greater factual accuracy by elaborating on the multiple factors contributing to the low quality of evidence and the conditional nature of the recommendations. Answer A, while touching upon similar points, is less precise.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Neither answer adheres to the retrieved context.  The retrieved context focused more on the *definition* of a conditional recommendation and some specifics on switching therapies, not the *reasons* for the low quality of evidence as the question asked.  Both answers appear to pull from elsewhere in the full guideline, or possibly even external knowledge.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was *not* sufficient to answer the question.  This is evident from the very low faithfulness scores of both answers (meaning they had to draw on information outside the snippet) combined with the much higher scores for completeness and accuracy when compared to the *full* guideline.  This demonstrates the provided context did not contain the information necessary to properly answer the question."
+    },
+    {
+        "question": "9. Which oral small molecules are considered in PsA treatment guidelines, and how is tofacitinib categorized differently?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 4,
+            "accuracy": 2,
+            "completeness_given": 10,
+            "completeness_overall": 2,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a factually accurate and relatively complete overview of oral small molecules in PsA treatment, including the distinct categorization of tofacitinib. Answer B, while faithful to the limited retrieved context, focuses on the guideline's outdated status regarding tofacitinib, making it less relevant and factually accurate compared to current knowledge.  While Answer B was perfectly faithful, the retrieved context was *not* sufficient to answer the question accurately.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A is significantly more accurate concerning tofacitinib's current role in PsA treatment. Answer B presents outdated information, potentially misleading clinicians about its usage. This inaccuracy poses a safety risk, as it omits crucial updated information on a medication's approved use and positioning within treatment algorithms.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is remarkably faithful to the retrieved context.  However, this context represents an older version of the guideline.  Thus, while faithful to the snippet, it's not aligned with the current understanding of PsA management.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context is clearly insufficient. While Answer B achieves perfect Completeness_Given_Retrieval and Faithfulness, its Factual Accuracy and Completeness_Overall scores are very low. This discrepancy highlights the inadequacy of the retrieved context for answering the question accurately within the current clinical landscape.  It showcases that a faithful response to insufficient information can be highly misleading and ultimately harmful."
+    },
+    {
+        "question": "9. Which oral small molecules are considered in PsA treatment guidelines, and how is tofacitinib categorized differently?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its perfect factual accuracy and completeness derived directly from the retrieved context.  While Answer A is mostly accurate, it omits some key OSMs mentioned in the guidelines and overemphasizes the classification of apremilast and tofacitinib as tsDMARDs, which, while true, isn't the primary focus of the guideline's distinction.  Answer B faithfully and concisely presents the exact list of OSMs from the guidelines and correctly explains tofacitinib's separate categorization due to its different efficacy/safety profile.\ni. Differences in Factual Accuracy and Safety: Answer A is not inaccurate, but its incompleteness regarding the full list of OSMs could mislead a clinician. Answer B, by faithfully adhering to the provided context, ensures complete and accurate information regarding which OSMs are included and how tofacitinib differs. This directly impacts safety and appropriate treatment selection.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, the retrieved context contained the precise information needed to answer the question fully and accurately. Answer B's faithfulness to this context, therefore, aligned perfectly with the full guideline's truth.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent.  The identical scores for \"Completeness using ONLY Retrieved Context\" and \"Completeness vs Full Guideline Context\" demonstrate that the retrieved snippet contained all necessary information.  Furthermore, the perfect \"Faithfulness\" and \"Factual Accuracy\" scores confirm that reliance on this context alone produced a completely accurate and guideline-compliant answer.  The RAG approach, in this case, resulted in a superior answer compared to the generative approach, showcasing the benefits of grounding the LLM's response in reliable source material."
+    },
+    {
+        "question": "9. Which oral small molecules are considered in PsA treatment guidelines, and how is tofacitinib categorized differently?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 2,
+            "relevance": 5,
+            "accuracy": 5,
+            "completeness_given": 2,
+            "completeness_overall": 5,
+            "conciseness": 6
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better due to its superior factual accuracy and completeness. It correctly lists all the OSMs mentioned in the retrieved context and accurately explains why tofacitinib is treated differently.  Answer A hallucinates information about tofacitinib's FDA approval status and its exclusion from PICO analysis, demonstrating poor faithfulness to the provided context.  While A correctly identifies apremilast as an OSM, its lack of faithfulness and incompleteness make it less reliable. Answer B's faithfulness to the retrieved context perfectly aligns with the guideline's truth, and the retrieved context was sufficient to fully answer the question, as evidenced by B's high scores in both Completeness_Given_Retrieval and Completeness_Overall. The difference in Factual Accuracy and Safety is stark, with B being a safe and accurate response, while A presents potentially misleading information.  The RAG approach in B clearly demonstrates its value by enabling a concise, accurate, and complete response based on the relevant information extracted from the guideline."
+    },
+    {
+        "question": "10. Quais manifestações extraarticulares podem estar associadas à artrite psoriásica ativa?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 3,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: While Answer B is perfectly faithful to the retrieved context and concise, the context itself is insufficient to fully address the question.  Answer A, despite some inaccuracies (e.g., consistently linking metabolic syndrome to PsA, when evidence suggests it is more closely associated with the medications used for treatment), provides a more comprehensive picture of extra-articular manifestations.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A includes some questionable associations (metabolic syndrome, pulmonary changes) reducing its accuracy and potentially impacting safety if a clinician relies on this information without further verification.  Answer B is entirely accurate based on the full guideline, but lacks complete information.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is completely faithful to the retrieved snippet and that snippet is accurate according to the full guideline.  The issue is incompleteness due to the limited retrieval.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context is insufficient. Although what is presented in the retrieved context is factually correct, it does not represent the breadth of information present in the full guideline related to extra-articular manifestations of PsA.  This is apparent when comparing the Completeness_Given_Retrieval (10) vs. Completeness_Overall (3) scores.  This highlights the limitations of relying on small snippets, even if accurate, for complete clinical information."
+    },
+    {
+        "question": "10. Quais manifestações extraarticulares podem estar associadas à artrite psoriásica ativa?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 2,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: While Answer B demonstrates perfect faithfulness to the retrieved context, the context itself is insufficient to fully answer the question. Answer B, therefore, lacks completeness regarding extra-articular manifestations of psoriatic arthritis.  Answer A, while less factually accurate in a couple of points (pulmonary changes, chronic fatigue), provides a broader and more useful picture of potential extra-articular issues.  Specifically, Answer A correctly includes skin and nail involvement which is an extremely important extra-articular manifestation. Answer B omits this because it wasn't in the provided excerpt, highlighting the limitations of a narrow retrieval.\nDifferences in Factual Accuracy and Safety: Answer A includes a few conditions (pulmonary changes, chronic fatigue) that are not typically directly associated with PsA. This could lead to unnecessary concern or investigations. Answer B, while limited, sticks to what is in the guideline excerpt, making it safer in this specific instance.\nThe Retrieved Context was insufficient. Comparing Answer B's Completeness_Given_Retrieval (10) vs. Completeness_Overall (2), and its Faithfulness (10) vs. Factual Accuracy (10), shows that while Answer B faithfully reproduced the excerpt, the excerpt itself was inadequate to comprehensively address the question. This highlights the risk of relying on limited retrievals for complex clinical questions.  While Answer A did have a few minor inaccuracies, its broader scope made it more clinically useful for this particular question."
+    },
+    {
+        "question": "10. Quais manifestações extraarticulares podem estar associadas à artrite psoriásica ativa?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification:Both answers demonstrate excellent faithfulness, relevance, and accuracy based on the provided context.  They both correctly identify uveitis and inflammatory bowel disease (IBD) as extra-articular manifestations of active psoriatic arthritis. However, Answer A is more concise while still providing the necessary information. Answer B adds a slightly redundant concluding sentence (\"Essas manifestações são consideradas além dos sinais articulares típicos e devem ser levadas em conta na avaliação da atividade da doença.\") which doesn't add substantial value and makes it slightly less concise.  The impact of RAG in this case is minimal as both models extracted the correct information from the retrieved context, which appears to be sufficient to fully answer the question based on the provided \"full guideline context\" (which was blank). Since both Answer A and B's Completeness_Given_Retrieval and Completeness_Overall scores are identical, and their Faithfulness and Factual Accuracy scores are also the same, it suggests the retrieved context was indeed sufficient for this specific question."
+    },
+    {
+        "question": "11. Describe the typical patterns of peripheral arthritis distribution seen in PsA.",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers demonstrate excellent factual accuracy regarding the typical patterns of PsA. However, Answer A provides a more complete clinical picture by including details such as dactylitis, enthesitis, and the involvement of small joints in the hands and feet, as well as larger joints like knees and ankles.  While Answer B accurately reflects the information within the retrieved context, that context does not represent the full scope of the guideline's discussion on PsA distribution.  Thus, while highly faithful, Answer B misses important clinical information that Answer A includes. This impacts completeness and overall clinical utility, giving Answer A the edge despite being slightly less concise.\nSpecifically:\ni. Differences in Factual Accuracy and Safety:  Both are factually accurate and safe. No inaccuracies or dangerous information are present.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B IS faithful to the retrieved context and what it states IS true within the larger guideline. However, the retrieved context is an incomplete representation of the guideline's discussion of PsA distribution. This limits Answer B's completeness.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was not entirely sufficient. While Answer B achieves perfect Faithfulness and Completeness_Given_Retrieval scores, its lower Completeness_Overall score demonstrates the insufficiency of the retrieved passage for fully answering the question.  A broader retrieval would be needed for a RAG approach to be truly superior in this instance."
+    },
+    {
+        "question": "11. Describe the typical patterns of peripheral arthritis distribution seen in PsA.",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: While both Answer A and B are factually accurate based on the full guideline, Answer A provides a more complete picture of PsA peripheral arthritis distribution.  Although B is perfectly faithful to the retrieved context, that context is limited in scope, missing important details like the involvement of small joints in hands and feet, and the mention of dactylitis and enthesitis as characteristic features.  Answer A is slightly less concise, but the additional details it provides substantially increase its clinical value in answering the question fully.\nDifferences in Factual Accuracy and Safety: Both answers are factually accurate and safe. No inaccuracies were present.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B was perfectly faithful to the retrieved context and everything stated within it aligns with the full guideline. The issue is the *incompleteness* of the retrieved context itself.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was insufficient. While Answer B exhibited perfect faithfulness (10) and completeness given the retrieval (10), its overall completeness score (7) suffered due to the context missing several aspects of typical PsA peripheral arthritis distribution. This discrepancy highlights how a limited retrieved context, even when faithfully adhered to, can produce an incomplete and therefore potentially less useful answer."
+    },
+    {
+        "question": "11. Describe the typical patterns of peripheral arthritis distribution seen in PsA.",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: Comparable\nJustification: Both answers accurately and completely address the question based on the provided context.  They both correctly identify asymmetric oligoarthritis and symmetric polyarthritis, as well as the involvement of distal interphalangeal joints. There are no differences in factual accuracy or safety between the two answers.  Answer B uses the correct \"≤\" and \"≥\" symbols, which is a slightly better presentation but not a substantial difference. Both answers demonstrate strong faithfulness to the retrieved context, which in this case fully aligns with the (absent) full guideline truth. The retrieved context provided all the necessary information to completely answer the question, as reflected in the identical Completeness_Given_Retrieval and Completeness_Overall scores for both answers.  Since the full guideline context isn't provided, I am assuming the retrieved content represents the key information.  In a real-world scenario with a full guideline, that would need to be verified.  The impact of RAG in this case is positive, as it effectively provided the relevant information for both models to generate accurate and complete answers."
+    },
+    {
+        "question": "12. Quais são alguns exemplos de fatores prognósticos ruins na artrite psoriásica?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 7,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Both answers are factually accurate based on the limited context provided. However, Answer A provides a more complete list of poor prognostic factors in psoriatic arthritis (PsA), including axial involvement, early onset with severe symptoms, and inadequate response to initial treatment, which are not mentioned in Answer B or the retrieved context.  Although Answer B is faithful to the retrieved context, the context itself appears insufficient to cover the scope of the question fully. Answer A is therefore superior due to its higher completeness regarding overall guideline truth, making it more helpful to a user seeking information on this topic. This highlights the limitations of relying solely on potentially insufficient retrieved contexts and the value of a more comprehensive, generative approach, as demonstrated by Answer A.  Both answers present the information concisely.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Both are factually accurate and safe within the bounds of the provided context.  However, Answer A is more complete and thus safer by giving a broader picture of poor prognostic factors, reducing the chance a user would miss a critical element.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B was completely faithful to the retrieved context.  However, the retrieved context itself was not a complete representation of all poor prognostic factors found within a likely more extensive guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was insufficient. While Answer B demonstrated perfect faithfulness and completeness *given* the retrieval, its overall completeness suffered. This discrepancy highlights the context's inadequacy in fully answering the question according to a broader understanding of PsA prognostic factors.  A larger or more thoughtfully selected retrieval might have resolved this."
+    },
+    {
+        "question": "12. Quais são alguns exemplos de fatores prognósticos ruins na artrite psoriásica?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is slightly better overall due to higher factual accuracy and more comprehensive coverage of poor prognostic factors specifically mentioned in the guideline.  While Answer A provides some accurate information, it omits certain crucial factors like rapidly progressive disease and the impact on quality of life. It also includes \"early onset with severe symptoms\" which, while potentially correlated with worse outcomes, isn't explicitly listed as a poor prognostic factor in the provided context.\ni. Differences in Factual Accuracy and Safety: Answer B, being directly extracted from the guidelines, demonstrates perfect factual accuracy related to the retrieved section, whereas Answer A contains a slightly less precise interpretation.  This difference impacts safety as a clinician relying on Answer A might miss crucial prognostic factors influencing treatment decisions.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is completely faithful to the retrieved context and, importantly, that retrieved context accurately represents the information in the supposedly unavailable full guideline concerning poor prognostic factors.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context proved highly relevant and sufficient for addressing the core of the question.  The high scores for both Completeness_Given_Retrieval and Completeness_Overall, combined with perfect Faithfulness and Factual Accuracy, demonstrates the retrieval was excellent for this specific question.  The slight difference between the two Completeness scores likely stems from broader considerations mentioned elsewhere in the full guideline which were understandably outside the scope of the question and retrieval."
+    },
+    {
+        "question": "12. Quais são alguns exemplos de fatores prognósticos ruins na artrite psoriásica?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 8,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers are factually accurate and relevant to the question about poor prognostic factors in psoriatic arthritis. However, Answer B is more complete. While Answer A mentions erosive disease and elevated inflammatory markers, Answer B additionally includes dactylitis, long-term damage interfering with function, highly active disease impacting quality of life, and rapidly progressive disease, all of which are mentioned in the retrieved context as poor prognostic factors or contributors to severe PsA.  Although Answer B is slightly less concise, its increased completeness makes it more useful and safer for the user, providing a more comprehensive understanding of poor prognostic factors.\nThe RAG process appears to have worked well for both answers, as they both demonstrate high faithfulness to the retrieved context and maintain factual accuracy.  Answer B's higher completeness suggests that the larger context window may have allowed it to synthesize more information from the retrieved text, leading to a more thorough answer. The retrieved context, while not containing the *full* picture of prognostic factors (as we don't have the full guideline to compare it against definitively), appears to be a good starting point. Answer B's high faithfulness and accuracy combined with its improved completeness compared to Answer A suggest that the retrieved information was indeed helpful and well-aligned with the overall guideline's intent."
+    },
+    {
+        "question": "13. What biologic therapies are recommended for active PsA patients with concomitant active inflammatory bowel disease (IBD)?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 9,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more complete answer while maintaining high factual accuracy. Although Answer A is also accurate and concise, it doesn't mention the specific distinction between monoclonal antibody TNF inhibitors and TNF receptor biologics (like etanercept) which is an important nuance present in the guideline and highlighted by Answer B. Both answers correctly advise against IL-17 inhibitors. Answer B demonstrates the strength of RAG by pulling specific details and recommendations directly from the guideline text, improving completeness and overall quality.\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate and safe, aligning with guideline recommendations. Answer B provides a slightly higher level of safety by explicitly distinguishing between monoclonal TNF inhibitors and etanercept (a TNF receptor blocker), noting that etanercept is not recommended in this scenario.  This specific distinction improves patient safety by minimizing the risk of inappropriate prescription.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B adhered strictly to the retrieved context and that context's information accurately reflects the overall guideline recommendations.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. Answer B extracted all relevant information from the retrieved context to provide a complete answer according to the full guideline, demonstrating high completeness scores both with and without considering the full guideline.  This, combined with perfect faithfulness and factual accuracy, highlights the sufficiency and relevance of the retrieved context."
+    },
+    {
+        "question": "13. What biologic therapies are recommended for active PsA patients with concomitant active inflammatory bowel disease (IBD)?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is slightly better overall due to its higher factual accuracy and adherence to the guideline, while maintaining conciseness.  Both answers correctly identify IL-12/23 inhibitors as preferred over IL-17 inhibitors for PsA patients with IBD. Answer A, however, brings up TNF inhibitors (TNFi) like infliximab and adalimumab. While these can be useful in this population, the guideline prioritizes IL-12/23 inhibitors if a biologic is being chosen. The \"full context\" provided was actually parts of several tables - making it difficult to derive any better information. Answer B stuck to exactly what the tables said in terms of IBD recommendations, and therefore maintained better factual accuracy with better conciseness.\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate by focusing on the IL-12/23 inhibitors' specific preference in the context of co-existing IBD, according to the retrieved snippet. Answer A introduces TNFi, potentially adding confusion. This difference improves the safety of Answer B, as it aligns more precisely with guideline recommendations, minimizing the risk of choosing an inappropriate therapy (IL-17i) based on A's information.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B demonstrated excellent faithfulness, reflecting the retrieved context's core message accurately. While the full guideline might contain more nuanced details, Answer B presented the information directly relevant to the question truthfully from the provided extract.  Because the full context was a set of tables, it was difficult to assess full accuracy.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context, although limited, appears sufficient in providing the core recommendation for this specific question about IBD and PsA. The scores for Completeness_Given_Retrieval and Faithfulness being high, coupled with a good Factual Accuracy score, indicate that the retrieved information successfully addressed the query's core components. The slightly lower Completeness_Overall score may acknowledge the existence of further nuances within the full guideline not present in the extract, but these don't appear to contradict or invalidate the key recommendation."
+    },
+    {
+        "question": "13. What biologic therapies are recommended for active PsA patients with concomitant active inflammatory bowel disease (IBD)?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 5,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 5
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is significantly better than Answer A.  Answer A is in Portuguese and hallucinates information not present in *either* the retrieved or full guideline context. It incorrectly recommends TNF inhibitors as a first-line treatment for PsA with concomitant IBD and incorrectly states that IL-17 inhibitors are *not recommended* when in fact they are mentioned as a potential alternative if an IL-12/23i biologic is contraindicated.  It also hallucinates details about specific drugs (e.g., etanercept).\nThe impact of RAG is evident here. Answer B demonstrates a stronger adherence to the provided context, resulting in a much more accurate and safe response. Answer B's faithfulness to its retrieved context *did* align with the overall guideline truth.  The retrieved context appears sufficient and good; Answer B achieved full completeness based on the retrieved context, indicating the snippet contained all the necessary information to answer the question completely and accurately.  The alignment of Faithfulness and Factual Accuracy scores further supports the adequacy of the retrieved context."
+    },
+    {
+        "question": "14. ¿Qué criterios se utilizan para decidir el cambio de tratamiento en pacientes con PsA activa a pesar del tratamiento con un OSM?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 9,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 2,
+            "accuracy": 1,
+            "completeness_given": 10,
+            "completeness_overall": 1,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A provides a much more relevant and factually accurate response to the question about criteria for changing treatment in PsA patients despite OSM treatment.  It correctly identifies key factors like persistent inflammatory activity, assessment of therapeutic response, impact on quality of life, and tolerance/side effects.  While Answer B is perfectly faithful to the provided context, that context is *highly irrelevant* to the question.  The retrieved context focuses on enthesitis and comorbidities, not the general criteria for treatment change after OSM failure.  Therefore, although faithful, Answer B provides a completely unhelpful answer. This highlights a significant issue with RAG – if the retrieval is poor, the faithfulness metric becomes less useful.  Answer B is also overly cautious by repeatedly stating the low quality of evidence (which, while true for some specific recommendations, doesn't negate the general principles of assessing treatment response).\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer A is significantly more accurate and safer than Answer B because it provides clinically relevant information about evaluating treatment response.  Answer B, while not explicitly incorrect, is unhelpful and provides almost no guidance relevant to the question.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Answer B is entirely faithful to the retrieved context.  However, the retrieved context is not relevant to the question, leading to an unfaithful answer with respect to the *overall* guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was *not* sufficient or good.  This is evident in the vast difference between Answer B's Completeness_Given_Retrieval (10) and Completeness_Overall (1).  While faithful to the retrieved context, the context itself was not appropriate to answer the question, resulting in a factually inaccurate and incomplete answer regarding the broader guideline truth."
+    },
+    {
+        "question": "14. ¿Qué criterios se utilizan para decidir el cambio de tratamiento en pacientes con PsA activa a pesar del tratamiento con un OSM?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more accurate and nuanced response to the question, closely aligning with the clinical guideline's emphasis on individualized patient assessment. While Answer A lists several relevant criteria, it presents them as more definitive and quantitative than suggested by the guideline.\ni. Differences in Factual Accuracy and Safety: Answer A presents criteria like radiological progression and specific scoring tools as key decision-making factors, while the guideline emphasizes a more holistic and qualitative approach based on shared decision-making. This difference could lead to potentially unnecessary testing or premature treatment escalation in practice. Answer B aligns more closely with the guideline's cautious approach and highlights the lack of specific quantitative criteria.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Yes, Answer B is remarkably faithful to the retrieved context. It correctly identifies that the guideline doesn't offer a specific list of criteria and focuses on individualized assessment, shared decision-making, and persistent disease activity as crucial factors. This aligns perfectly with the overall guideline truth.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context, while not containing explicit criteria, provided a sufficient foundation for Answer B.  The high scores for \"Completeness using ONLY Retrieved Context\" and \"Faithfulness\" alongside the strong scores for \"Completeness vs Full Guideline Context\" and \"Factual Accuracy\" demonstrate that the retrieved context captured the essence of the guideline's recommendations. The slight difference in overall completeness likely stems from the lack of a defined list of criteria, which isn't a flaw of the retrieval but a characteristic of the guideline itself.  This underscores the effectiveness of RAG in extracting and synthesizing crucial information even when a direct answer isn't explicitly stated."
+    },
+    {
+        "question": "14. ¿Qué criterios se utilizan para decidir el cambio de tratamiento en pacientes con PsA activa a pesar del tratamiento con un OSM?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 2,
+            "relevance": 9,
+            "accuracy": 7,
+            "completeness_given": 2,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 2,
+            "relevance": 9,
+            "accuracy": 8,
+            "completeness_given": 2,
+            "completeness_overall": 8,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers hallucinate extensively regarding *specific* criteria for switching treatments, going beyond what the retrieved (and even the full) context offers. The full guideline emphasizes shared decision-making and individualized assessment but doesn't provide a checklist.  However, Answer B is slightly better overall because it acknowledges this lack of specific criteria more explicitly upfront, while still providing a reasonable overview of factors to consider (persistent activity, insufficient response, individual patient factors). Both accurately reflect the conditional nature of recommendations and the need for shared decision-making.\ni. Differences in Factual Accuracy and Safety: Both are reasonably accurate regarding the general principles. Answer A might be slightly less safe as it mentions specific biologic preferences (TNFi over IL-17) seemingly without clear grounding in the provided context snippets. While the full guideline might support this to some degree,  it’s not evident from the retrieved snippets, making it a potential hallucination and possibly misleading.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Answer B was not strictly faithful to the limited retrieved context but its general direction (lack of specific criteria, individualized approach) aligned better with the full guideline's truth than Answer A's attempt to create more concrete criteria.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was insufficient. Both answers had low Completeness_Given_Retrieval scores but higher Completeness_Overall scores, demonstrating they drew upon outside information.  The low Faithfulness scores coupled with moderate-to-high Factual Accuracy scores further confirm that the retrievals didn't fully capture the necessary information for a complete answer, though they likely provided a reasonable starting point.  Both models hallucinated in an attempt to fill the gaps, illustrating the limitations of relying solely on limited retrieved context."
+    },
+    {
+        "question": "15. Em quais situações pode-se considerar a troca de um TNFi por um inibidor de IL-17 (IL-17i)?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more accurate and safer response by adhering closely to the retrieved context, which aligns well with the full guideline. While Answer A mentions relevant factors like TNFi failure and contraindications, it lacks the specific clinical context provided in Answer B, such as severe psoriasis and the types of contraindications (heart failure, infections, demyelinating disease). Answer B's faithfulness to the retrieved context ensures its accuracy, as it avoids introducing information not supported by the guidelines.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate and safer because it sticks to the guideline's specific recommendations. Answer A is more general and could be misconstrued as recommending IL-17i for any TNFi failure, while the guidelines are more nuanced.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness was a strength. The retrieved context contained the most relevant portions of the full guideline for this specific question.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient for this question. Answer B's high scores in Completeness_Given_Retrieval, Completeness_Overall, Faithfulness, and Factual Accuracy all demonstrate that the retrieval captured the core information needed for a good answer.  The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) is minimal and doesn't suggest any major information gap."
+    },
+    {
+        "question": "15. Em quais situações pode-se considerar a troca de um TNFi por um inibidor de IL-17 (IL-17i)?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 9,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and direct grounding in the provided guideline excerpt. While Answer A provides relevant information, it lacks the specific context and nuances present in Answer B, derived directly from the guidelines.\ni. Differences in Factual Accuracy and Safety: Answer B demonstrates greater factual accuracy by adhering strictly to the retrieved context, accurately reflecting the guideline's recommendations and conditional nature based on very-low-quality evidence. Answer A, while generally accurate,  doesn't mention the quality of evidence or the conditional nature of the recommendation making it slightly less safe in a clinical decision-making scenario.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is perfectly faithful to the retrieved context and this faithfulness aligns perfectly with the truth presented within that section of the broader guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context appears sufficient for addressing the specific question posed. Answer B achieved complete coverage of the information available in the retrieved context and maintained perfect faithfulness. Furthermore, its factual accuracy against the full guideline remains high, indicating the retrieval encompassed the most relevant information. The slight difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) is likely due to the full guideline potentially containing additional nuance not present in the retrieved section, but not necessarily crucial for answering this specific question.  The strong alignment between Faithfulness and Factual Accuracy scores further reinforces the quality and sufficiency of the retrieved context.  RAG's impact is evident in Answer B's precision and adherence to guideline recommendations, enhancing trustworthiness compared to the more general approach in Answer A."
+    },
+    {
+        "question": "15. Em quais situações pode-se considerar a troca de um TNFi por um inibidor de IL-17 (IL-17i)?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 8,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 8,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 9,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers demonstrate good factual accuracy and relevance to the question. However, Answer B provides a slightly more complete response, including the important detail about adding methotrexate in cases of partial response to IL-17i. This nuance, while present in the broader guideline context, is subtly referenced in the retrieved context and skillfully picked up by Answer B. This highlights the impact of RAG, as Answer B leveraged the retrieved context effectively to provide a more comprehensive and nuanced answer.\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate and safe.  Answer B provides slightly more complete information regarding the use of Methotrexate which could be relevant for patient safety and treatment decisions.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B stays remarkably faithful to the retrieved context while still aligning with the overall guideline's recommendations. Its ability to extract relevant details from a dense passage and integrate them into a coherent answer is commendable.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context, while containing the necessary information, is dense and fragmented. Answer B's ability to synthesize a comprehensive and accurate answer from this context demonstrates the power of a well-tuned RAG model. The near-perfect scores for both Completeness_Given_Retrieval and Completeness_Overall, alongside its faithfulness and accuracy, suggest the retrieved context was sufficient, but required skillful interpretation."
+    },
+    {
+        "question": "16. Quais são as recomendações para a transição entre diferentes classes de biológicos em pacientes com resposta parcial ou falha primária ao tratamento atual?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and completeness derived from accurately reflecting the provided context. While Answer A offers relevant general advice, it lacks the specific recommendations and nuanced considerations present in Answer B, such as the preference for IL-17i after TNFi failure and the conditional nature of these recommendations based on low-quality evidence.\nThe impact of RAG is significant. Answer B demonstrates perfect faithfulness to the retrieved context, which, in this case, aligned perfectly with the overall guideline truth (although it didn't have the *full* guideline truth, it accurately represented what *was* given). This resulted in superior factual accuracy compared to Answer A. The retrieved context, while not exhaustive, proved sufficient for addressing the core components of the question, as evidenced by the high Completeness_Given_Retrieval and Completeness_Overall scores for Answer B. The slight difference between these two scores suggests some minor details from the full guideline might be missing, but the core information is present.  The clear advantage in factual accuracy and safety afforded by Answer B's reliance on the provided text makes it a more reliable and informative response for this clinical question."
+    },
+    {
+        "question": "16. Quais são as recomendações para a transição entre diferentes classes de biológicos em pacientes com resposta parcial ou falha primária ao tratamento atual?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more accurate and nuanced response to the question, specifically highlighting the conditional nature of the recommendations and the importance of individualized treatment decisions. While Answer A offers general guidance, it lacks the crucial details regarding the low quality of evidence and the lack of firm recommendations for sequencing biological therapies.\ni. Differences in Factual Accuracy and Safety: Answer A, while generally accurate, could be interpreted as recommending a more strict switching protocol than is warranted by the guidelines.  Answer B correctly emphasizes the shared decision-making process and the lack of a one-size-fits-all approach, promoting safer, patient-centered care.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B adhered perfectly to the retrieved context, which, despite consisting only of table titles, accurately reflected the overall guideline's position on transitioning between biological therapies. This demonstrates how even limited, specific context can be leveraged effectively by RAG.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  While the retrieved context was limited to table titles, it proved surprisingly effective. Answer B’s high scores for both Completeness_Given_Retrieval and Faithfulness, along with its high Factual Accuracy, suggest that the table titles alone provided sufficient clues for the LLM to construct an accurate and faithful summary of the guideline's recommendations.  The slight difference between Completeness_Given_Retrieval and Completeness_Overall likely arises from the general nature of the table titles, which, by themselves, don't offer specific examples of switching strategies. Despite this, the retrieved context proved highly valuable in guiding the LLM towards a safe and informative answer."
+    },
+    {
+        "question": "16. Quais são as recomendações para a transição entre diferentes classes de biológicos em pacientes com resposta parcial ou falha primária ao tratamento atual?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 1,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 7,
+            "accuracy": 2,
+            "completeness_given": 10,
+            "completeness_overall": 2,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A, despite not using the provided retrieved context, gives a comprehensive and accurate answer based on the full guideline (which is unavailable to me, the evaluator, but presumably contains the information in A).  It correctly addresses the nuances of switching biologics in PsA based on prior treatment, including TNF inhibitors, IL-17 inhibitors and IL-12/23 inhibitors.  It is also well-organized and concise.\nThe Retrieved Context was clearly *not* sufficient.  Comparing Answer B's high Completeness_Given_Retrieval to its low Completeness_Overall, and its high Faithfulness to its low Factual Accuracy, highlights the inadequacy of the provided retrieval for answering the clinical question. This case demonstrates the importance of robust retrieval mechanisms in RAG systems."
+    },
+    {
+        "question": "17. For patients with active PsA and predominant enthesitis who are treatment-naive, what is the initial recommended therapy?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 7,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 5,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and completeness compared to Answer A.  Answer B correctly identifies TNFi biologics as the preferred first-line treatment for treatment-naive PsA patients with predominant enthesitis, which is consistent with the guideline.  Answer A, while mentioning biologics as an option, prioritizes NSAIDs and csDMARDs initially, which is not aligned with the guideline's recommendations for this specific patient population.\ni) Differences in Factual Accuracy and Safety: Answer A's recommendation to start with NSAIDs or csDMARDs is not the most current guideline-recommended first-line therapy for this specific patient population. This inaccuracy could lead to suboptimal treatment. Answer B provides a safer and more accurate approach by prioritizing TNFi biologics.\nii) Answer B's faithfulness to its limited Retrieved Context aligned perfectly with the overall guideline truth. The retrieved context clearly states the preference for TNFi biologics followed by apremilast and then NSAIDs with caveats.  Answer B accurately reflects this information.\niii) The Retrieved Context appears sufficient based on the high Completeness_Given_Retrieval and Completeness_Overall scores and the alignment between Faithfulness and Factual Accuracy. Answer B extracted and presented the most crucial information from the retrieved context, resulting in an answer that is both accurate and complete according to the full guideline. The close alignment of Answer B’s Completeness using ONLY Retrieved Context (10) and Completeness vs Full Guideline Context (9) suggests the retrieved context provided the necessary information to comprehensively answer the question within the guidelines. Furthermore, perfect Faithfulness (10) alongside high Factual Accuracy (9) demonstrates that the retrieved context accurately reflected the overall guideline's recommendations."
+    },
+    {
+        "question": "17. For patients with active PsA and predominant enthesitis who are treatment-naive, what is the initial recommended therapy?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 7,
+            "accuracy": 6,
+            "completeness_given": null,
+            "completeness_overall": 6,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 1,
+            "relevance": 9,
+            "accuracy": 10,
+            "completeness_given": 1,
+            "completeness_overall": 8,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B, despite not being perfectly faithful to *only* its retrieved context (it pulled in appropriate information from Table 1 which was *not* provided in the retrieved context, hence the low Faithfulness score), is significantly more accurate and complete compared to Answer A when considering the full guideline.  Answer A provides a reasonable general approach to PsA but lacks the specific recommendations and nuance present in Answer B, such as the preference for NSAIDs over apremilast and the conditional recommendation of TNFi biologics.\nDifferences in Factual Accuracy and Safety: Answer A gives an okay general overview of treatments, but Answer B is more factually accurate in line with current guidelines for the *specific* patient population described (treatment-naive with predominant enthesitis).  This improved accuracy in B leads to a safer recommendation, as it provides the preferred treatment pathway.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B was *not* faithful to its provided context.  Crucially, however, it *was* accurate to the *full* guideline. It seemingly pulled in relevant information from Table 1 of the guideline, which was not included in the retrieval. This highlights the limitations of judging \"faithfulness\" in isolation. While important, perfect faithfulness to a potentially insufficient snippet can be less helpful than pulling in relevant information from elsewhere in the guideline, as seen here.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was *not* sufficient. Answer B's low Completeness_Given_Retrieval score (1) combined with the high Completeness vs Full Guideline Context score (8) demonstrates this.  Furthermore, Answer B's low Faithfulness score (1) and its high Factual Accuracy score (10) confirm that the model intelligently went beyond the insufficient retrieved context to provide a good answer, demonstrating a benefit of RAG that goes beyond simply summarizing provided text.  The retrieval missed the crucial Table 1 that had the specific answer to the question.  The RAG LLM, despite being \"unfaithful\" to the *provided* context, gave a good answer by being \"faithful\" to the *overall guideline*."
+    },
+    {
+        "question": "17. For patients with active PsA and predominant enthesitis who are treatment-naive, what is the initial recommended therapy?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 9,
+            "accuracy": 10,
+            "completeness_given": 1,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 1,
+            "relevance": 7,
+            "accuracy": 2,
+            "completeness_given": 1,
+            "completeness_overall": 2,
+            "conciseness": 7
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A is significantly better due to its superior factual accuracy and completeness regarding the full guideline. While neither answer could be considered faithful to the provided retrieved context (which lacked the relevant information), Answer A correctly identifies the preferred treatment pathway. It accurately positions TNFi biologics as the first-line treatment, followed by apremilast if TNFis are contraindicated or oral therapy is preferred, and recommends NSAIDs before OSMs unless contraindications exist.  Answer B, however, hallucinates by including tofacitinib and misrepresents the guideline's recommendations regarding the preferred order of treatment.\nDifferences in Factual Accuracy and Safety: Answer A is factually accurate and safe, aligning with the full guideline's recommendations. Answer B introduces inaccuracies and potentially unsafe recommendations by including tofacitinib (not mentioned in the relevant section of the guideline) and misrepresenting the treatment order.  This significantly impacts the safety and reliability of the answer, making Answer B potentially harmful.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Neither answer was faithful to the provided retrieved context, which lacked the necessary information to answer the question accurately. Both answers drew upon information outside the given retrieval snippets.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The retrieved context was clearly insufficient.  Answer B's low scores in faithfulness, completeness using only the retrieved context, and overall factual accuracy demonstrate that the provided excerpts did not contain the information required to answer the question accurately.  This highlights the limitations of relying solely on retrieved snippets and the importance of verifying information against the full guideline."
+    },
+    {
+        "question": "18. Why is etanercept not recommended as a first-line TNFi biologic in PsA patients with active IBD?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers correctly state that etanercept is not recommended as a first-line TNFi biologic for PsA patients with active IBD due to its limited efficacy in treating IBD compared to monoclonal antibody TNF inhibitors. However, Answer B, the RAG-based response, provides a more precise explanation grounded in the provided context, explicitly mentioning the \"moderate-quality evidence\" supporting this recommendation.  It also clearly differentiates soluble receptor TNFis (like etanercept) from monoclonal antibody TNFis. While Answer A gives correct general information, Answer B demonstrates higher factual accuracy by directly reflecting the guideline's specific justification.\ni. Differences in Factual Accuracy and Safety: Both answers are factually accurate and safe, but B aligns more precisely with the guideline's specific justification for not recommending etanercept. This precision enhances safety by ensuring the recommendation is understood in its proper context.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B's faithfulness to the retrieved context perfectly aligns with the overall guideline's truth. The retrieved context contained the core rationale for the recommendation against etanercept, and Answer B accurately conveyed this information.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient and good. Answer B achieved full completeness based on both the retrieved context and the overall guideline, indicating the context contained all necessary information. Furthermore, Answer B's perfect faithfulness and factual accuracy demonstrate the high quality and relevance of the retrieved context. The retrieval effectively captured the essence of the guideline's recommendation."
+    },
+    {
+        "question": "18. Why is etanercept not recommended as a first-line TNFi biologic in PsA patients with active IBD?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": null,
+            "completeness_overall": 8,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification:Both answers correctly address the question and are factually accurate based on the provided context. Answer B, the RAG-based answer, is negligibly more accurate as it correctly identifies etanercept as a TNFi *receptor* biologic, a distinction missing from Answer A. Although both answers contain the same core information and achieve similar completeness scores, Answer B's faithfulness to the retrieved context increases its reliability. Although not provided, it can be logically inferred that the full guideline context would have contained the detail regarding etanercept being a receptor biologic, as this is a crucial part of why it behaves differently from monoclonal antibody TNF inhibitors in IBD.  Answer B also specifies that IL-17 inhibitors are also less effective, a detail that, again, adds to the overall accuracy and completeness without harming conciseness. The retrieved context proved sufficient to answer the question completely and accurately, demonstrating the effectiveness of RAG in this specific case. The differences in factual accuracy are minor but lean towards improved safety and reliability with Answer B as the additional details support a more nuanced and accurate understanding of the therapeutic considerations."
+    },
+    {
+        "question": "18. Why is etanercept not recommended as a first-line TNFi biologic in PsA patients with active IBD?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 9,
+            "completeness_given": 9,
+            "completeness_overall": 9,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Both answers correctly address the question and demonstrate good understanding of the retrieved context. However, Answer B provides a more precise explanation by explicitly stating that etanercept is a TNFi *receptor* biologic, which is the key differentiating factor affecting its efficacy in IBD compared to monoclonal antibody TNFis.  This extra detail enhances the completeness and accuracy of Answer B. Both answers are faithful to the retrieved context, and the retrieved context appears sufficient to answer the question accurately.\nSpecifically:\ni. Differences in Factual Accuracy and Safety: Both are factually accurate and safe, but B offers slightly more precise detail regarding the mechanism (receptor vs monoclonal antibody). This isn't a major safety difference, but provides a more nuanced understanding.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth:  Yes, Answer B demonstrates excellent faithfulness to the retrieved context, and this aligns perfectly with the information presented in the (unprovided) full guideline.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context appears sufficient to answer the question comprehensively and accurately. Answer B's high scores across Completeness_Given_Retrieval, Completeness_Overall, Faithfulness, and Factual Accuracy support this conclusion."
+    },
+    {
+        "question": "19. What clinical features are included in the assessment of PsA severity?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 1,
+            "relevance": 1,
+            "accuracy": 1,
+            "completeness_given": 1,
+            "completeness_overall": 1,
+            "conciseness": 5
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A is significantly better than B. Answer A provides a comprehensive and accurate overview of the clinical features assessed in PsA severity, covering joint involvement, skin/nail changes, functional impact, and patient-reported outcomes.  It is also well-organized and concise. In contrast, Answer B is completely irrelevant to the question, appears to be hallucinating, and is in a different language (Portuguese).  It bears no resemblance to the provided retrieved context. The RAG process clearly failed in this instance, providing no useful information and leading to a completely inaccurate response.  The retrieved context focused solely on the definition of *active* PsA, not the features used to assess severity, which made it an unsuitable context for this question.\nDifferences in Factual Accuracy and Safety: Answer A is factually accurate and safe.  Answer B is factually inaccurate and, while not directly harmful, its irrelevance makes it unsafe to rely upon clinically.\nWhether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B is *not* faithful to the retrieved context at all. It appears to have completely fabricated information.  Even if the retrieved context had been relevant, Answer B's hallucination demonstrates a critical failure of the RAG process.\nIf the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was *not* sufficient or good for answering the question.  This is evident in Answer B's extremely low scores across all dimensions. The fact that Answer B is completely unfaithful to a poor context further emphasizes the importance of relevant context retrieval for successful RAG.  The misalignment between the question and the retrieved context highlights a failure in the retrieval stage, leading the LLM to generate a nonsensical and inaccurate response."
+    },
+    {
+        "question": "19. What clinical features are included in the assessment of PsA severity?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": null,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification:Both answers are factually accurate and relevant to the question. Answer B is slightly better overall due to its higher level of completeness, incorporating nuanced information about prognostic factors and long-term damage directly from the retrieved context. While Answer A covers key clinical features, Answer B provides a more comprehensive assessment encompassing disease activity, impact, and progression.\ni. Differences in Factual Accuracy and Safety:  Both answers are factually accurate and safe. No inaccuracies or misleading information were present in either.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B remained entirely faithful to the retrieved context, accurately reflecting the information presented within it.  This faithfulness also aligned with the overall guideline's perspective on PsA severity assessment.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context proved sufficient and well-chosen. Answer B achieved full completeness based on the retrieved context and maintained perfect faithfulness without compromising overall factual accuracy. This suggests the context contained the necessary information for a comprehensive and accurate response to the question.  The alignment between completeness scores and faithfulness further reinforces the quality and sufficiency of the provided context."
+    },
+    {
+        "question": "19. What clinical features are included in the assessment of PsA severity?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 2,
+            "relevance": 8,
+            "accuracy": 8,
+            "completeness_given": 2,
+            "completeness_overall": 7,
+            "conciseness": 7
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 9,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 9,
+            "completeness_overall": 9,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B provides a more comprehensive and accurate overview of PsA severity assessment based on the full guideline.  While Answer A correctly identifies some key features, it omits several important considerations mentioned in both the retrieved and full contexts.\ni. Differences in Factual Accuracy and Safety: Answer B demonstrates higher factual accuracy and is safer due to its more comprehensive representation of the clinical features associated with PsA severity assessment.  It includes crucial information about the multi-faceted nature of the disease and the importance of patient-reported symptoms,  which Answer A largely overlooks.  This omission in Answer A could potentially lead to an incomplete clinical picture and impact patient care.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B exhibits strong faithfulness to the retrieved context while also aligning with the information provided in the full guideline. It successfully synthesizes information from various parts of the retrieved context to create a coherent and accurate summary.  This suggests that the retrieved context, even though a limited snippet, contains sufficient core information for a good answer.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy:  The high scores for Answer B's Completeness_Given_Retrieval (9) and Faithfulness (9), coupled with its similarly high scores for Completeness_Overall (9) and Factual Accuracy (10), suggest that the retrieved context was indeed sufficient. Answer B demonstrates that a well-crafted response could be generated primarily from the information available within the provided snippet. This highlights the effectiveness of RAG when provided with a relevant context, even if limited in length.  The minor differences in completeness likely stem from the natural limitations of a short excerpt compared to a full guideline document, but these differences do not significantly detract from the quality and safety of Answer B."
+    },
+    {
+        "question": "20. Under what circumstances might switching from an IL-17 inhibitor to an IL-12/23 inhibitor be considered instead of switching to a TNF inhibitor?",
+        "model_comparison": "Generative vs RAG500",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 8,
+            "accuracy": 7,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to higher factual accuracy and relevance to the specific question posed. While Answer A mentions relevant factors like contraindications to TNF inhibitors, it brings in the context of psoriasis and psoriatic arthritis, which isn't directly mentioned in the prompt or necessary for the core answer. This makes it slightly less focused on the question than B.  Answer B, derived from the retrieved context, faithfully and accurately reflects the reasons for choosing IL-12/23 over TNF inhibitors – specifically contraindications to TNF inhibitors and patient preference for less frequent administration.\ni. Differences in Factual Accuracy and Safety: Answer B is more factually accurate as it sticks to the given context without adding potentially misleading information. Answer A introduces psoriasis/psoriatic arthritis which, while related to these treatments, could confuse the reader if the question is about IBD, as suggested by the retrieved context.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, B's faithfulness is a strength here. The retrieved context accurately captured the key reasons for the switch in therapy according to the overall guidelines (though we don't see those guidelines in this example), and B faithfully presents that information.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was excellent. B demonstrates perfect faithfulness and full completeness given that retrieval.  The high Factual Accuracy score suggests the snippet aligned well with the full guidelines, and the minor difference between Completeness_Given_Retrieval (10) and Completeness_Overall (8) hints at a small amount of additional, potentially relevant information in the full guideline, but the core elements were present in the retrieved context. This made RAG very effective in this case."
+    },
+    {
+        "question": "20. Under what circumstances might switching from an IL-17 inhibitor to an IL-12/23 inhibitor be considered instead of switching to a TNF inhibitor?",
+        "model_comparison": "Generative vs RAG1000",
+        "modelA": {
+            "name": "Generative",
+            "faithfulness": null,
+            "relevance": 9,
+            "accuracy": 8,
+            "completeness_given": null,
+            "completeness_overall": 7,
+            "conciseness": 8
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 8,
+            "conciseness": 9
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: B\nJustification: Answer B is superior due to its higher factual accuracy and direct grounding in the retrieved context.  While Answer A provides relevant information, it lacks the specific context provided by Answer B regarding secondary efficacy failure with IL-17i as a reason for switching to IL-12/23i.  Both answers mention contraindications to TNFi as a reason for considering IL-12/23i, but B's inclusion of specifics from the guideline strengthens its accuracy.\ni. Differences in Factual Accuracy and Safety: Answer B demonstrates greater factual accuracy by focusing on the specific reasons outlined in the guidelines. Answer A is generally accurate, but it lacks the specific detail and nuance present in Answer B, potentially leading to slightly less informed decisions. The safety implications are minimal in this comparison as both answers avoid recommending unsafe practices.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Yes, Answer B is entirely faithful to the retrieved context and accurately reflects the information presented in the full guideline.  This strong alignment with the source material enhances its reliability.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was very good. Answer B extracted all relevant information from the provided snippet, demonstrating 100% completeness given the retrieval. The high faithfulness and factual accuracy scores further support the sufficiency of the retrieved context in addressing the question accurately within the bounds of the guideline. While the overall completeness could potentially be slightly higher by incorporating other contextual factors, the core information is present and accurate, making the retrieved context valuable."
+    },
+    {
+        "question": "20. Under what circumstances might switching from an IL-17 inhibitor to an IL-12/23 inhibitor be considered instead of switching to a TNF inhibitor?",
+        "model_comparison": "RAG500 vs RAG1000",
+        "modelA": {
+            "name": "RAG500",
+            "faithfulness": 10,
+            "relevance": 10,
+            "accuracy": 10,
+            "completeness_given": 10,
+            "completeness_overall": 10,
+            "conciseness": 10
+        },
+        "modelB": {
+            "name": "RAG1000",
+            "faithfulness": 8,
+            "relevance": 9,
+            "accuracy": 9,
+            "completeness_given": 8,
+            "completeness_overall": 9,
+            "conciseness": 10
+        },
+        "comment": "Gemini evaluation output:\nWhich answer is better overall: A\nJustification: Answer A is superior due to perfect factual accuracy and completeness derived directly from the retrieved context.  While Answer B also demonstrates high accuracy and relevance, it incorporates \"secondary efficacy failure\" and \"severe psoriasis\" as reasons to switch to an IL-12/23 inhibitor instead of a TNFi. Although these conditions *might* indirectly lead to considering an IL12/23 over a TNFi (e.g., by making a TNFi less suitable), the retrieved context specifically recommends an IL-12/23 inhibitor over a *different* IL-17i in those instances, *not* over a TNFi.  Therefore, Answer A adheres more strictly to the provided text, making it more reliable in this specific RAG evaluation.\ni. Differences in Factual Accuracy and Safety: Answer A is more factually accurate based on the retrieved context. This enhanced accuracy directly improves safety by avoiding potential misinterpretations that could influence treatment decisions. Answer B's slight inaccuracy, though not critically dangerous, highlights the risk of pulling in related but not directly applicable information when using larger retrieval contexts.\nii. Whether Answer B’s faithfulness to its limited Retrieved Context aligned with the overall guideline truth: Answer B's faithfulness to its larger context was slightly lower because it blended information about switching from IL-17i to other IL-17is with information about switching to IL-12/23i versus TNFi.  While all these considerations exist within the guideline, the retrieved snippet did not directly support all aspects of Answer B's response.\niii. If the Retrieved Context seemed sufficient/good based on comparing Answer B’s Completeness_Given_Retrieval vs Completeness_Overall and its Faithfulness vs Factual Accuracy: The retrieved context was sufficient for answering the question accurately, as demonstrated by Answer A. Answer B’s slightly lower faithfulness and accuracy relative to its broader retrieved context underscore that more context doesn't always equal a better answer.  A more focused retrieval, like the one used for Answer A, can sometimes yield a more accurate and faithful response."
+    }
+]
