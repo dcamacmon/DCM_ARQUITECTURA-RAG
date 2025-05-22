@@ -56,8 +56,11 @@ Los resultados fueron analizados estadísticamente mediante:
 
 DCM_ARQUITECTURA-RAG/
 ├── guias_clinicas/ # Guías clínicas en formato PDF recopiladas desde la ACR
+
 ├── PARSEO/ # Scripts principales y procesamiento
+
 │ ├── GROBID/ # Contiene los archivos XML resultantes del parseo de Grobid
+
 │ ├── GROBID_MOD/ #Contiene los archivos XML tras la limpieza
 │ ├── LlamaCloud/ # Contiene los archivos Markdown resultantes del parseo de Grobid
 │ ├── LlamaCloud_TAB/ #Contiene los archivos Markdown tras la limpieza
